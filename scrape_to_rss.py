@@ -260,7 +260,7 @@ def generate_rss_feed(table_data, feed_title="AI News", feed_description="The La
         
         # Generate and save RSS feed
         rss_str = fg.rss_str(pretty=True)
-        with open('rss_feed.xml', 'wb') as f:
+        with open('ai_rss_feed.xml', 'wb') as f:
             f.write(rss_str)
         
         print(f"RSS feed generated successfully with {len(table_data)} entries")
