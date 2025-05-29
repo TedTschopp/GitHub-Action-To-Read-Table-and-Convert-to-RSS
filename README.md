@@ -1,6 +1,6 @@
 # GitHub Action: Table Scraper to RSS Feed
 
-This GitHub Action scrapes table data from [gaiinsights.com/ratings](https://gaiinsights.com/ratings) and converts it to an RSS feed that gets saved to your repository.
+This GitHub Action scrapes table data from websites and converts it to an RSS feed that gets saved to your repository.
 
 ## Features
 
