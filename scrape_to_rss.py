@@ -181,7 +181,7 @@ def save_current_data(data):
     except Exception as e:
         print(f"Error saving current data: {e}")
 
-def generate_rss_feed(table_data, feed_title="GAI Insights Ratings", feed_description="Latest insights from GAI Insights"):
+def generate_rss_feed(table_data, feed_title="AI News", feed_description="The Latest News and Updates on AI and Machine Learning"):
     """
     Generate RSS feed from table data.
     Expected table structure: Date | Rating | Title | Description
@@ -196,7 +196,7 @@ def generate_rss_feed(table_data, feed_title="GAI Insights Ratings", feed_descri
         # Create feed generator
         fg = FeedGenerator()
         fg.title(feed_title)
-        fg.link(href='https://gaiinsights.com/ratings', rel='alternate')
+        fg.link(href='https://tedt.org/', rel='alternate')
         fg.description(feed_description)
         fg.language('en')
         fg.lastBuildDate(datetime.now(timezone.utc))
@@ -253,7 +253,8 @@ def generate_rss_feed(table_data, feed_title="GAI Insights Ratings", feed_descri
             if title_url:
                 fe.link(href=title_url)
             else:
-                fe.link(href='https://gaiinsights.com/ratings')
+                fe.link(href='https://tedt.org/')
+                fe.pubDate(datetime.strptime(date_value, '%Y-%m-%d').replace(tzinfo=timezone.utc) if date_value else datetime.now(timezone.utc))
             
             fe.pubDate(datetime.now(timezone.utc))
         
