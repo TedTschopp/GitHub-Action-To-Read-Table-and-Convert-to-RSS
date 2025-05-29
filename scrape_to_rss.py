@@ -4,7 +4,6 @@ GitHub Action script to scrape table data from gaiinsights.com/ratings
 and generate an RSS feed.
 """
 
-import requests
 import json
 import hashlib
 from datetime import datetime, timezone
@@ -12,10 +11,42 @@ from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
 import os
 import sys
+import time
+from selenium import webdriver
+from selenium.webdriver.chrome.options import Options
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+
+def setup_driver():
+    """
+    Setup Chrome driver with Safari user agent for JavaScript rendering.
+    
+    Returns:
+        webdriver.Chrome: Configured Chrome driver instance
+    """
+    options = Options()
+    options.add_argument('--headless')
+    options.add_argument('--no-sandbox')
+    options.add_argument('--disable-dev-shm-usage')
+    options.add_argument('--disable-gpu')
+    options.add_argument('--remote-debugging-port=9222')
+    options.add_argument('--window-size=1920,1080')
+    
+    # Latest Safari user agent (macOS Sonoma)
+    safari_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+    options.add_argument(f'--user-agent={safari_user_agent}')
+    
+    # Use system Chrome in GitHub Actions
+    if os.environ.get('CHROME_BIN'):
+        options.binary_location = os.environ.get('CHROME_BIN')
+    
+    driver = webdriver.Chrome(options=options)
+    return driver
 
 def scrape_table_data(url, table_id):
     """
-    Scrape table data from the specified URL and table ID.
+    Scrape table data from the specified URL and table ID using Selenium for JavaScript rendering.
     
     Args:
         url (str): The URL to scrape
@@ -24,27 +55,48 @@ def scrape_table_data(url, table_id):
     Returns:
         list: List of dictionaries containing table row data
     """
+    driver = None
     try:
-        # Set headers to mimic a real browser
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
-            'Accept-Encoding': 'gzip, deflate',
-            'Connection': 'keep-alive',
-            'Upgrade-Insecure-Requests': '1',
-        }
+        print(f"Setting up browser with Safari user agent...")
+        driver = setup_driver()
         
         print(f"Fetching data from: {url}")
-        response = requests.get(url, headers=headers, timeout=30)
-        response.raise_for_status()
+        driver.get(url)
         
-        soup = BeautifulSoup(response.content, 'html.parser')
+        # Wait for page to load and JavaScript to execute
+        print("Waiting for page to load...")
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
+        
+        # Additional wait for dynamic content to load
+        print("Waiting for dynamic content...")
+        time.sleep(5)
+        
+        # Try to wait for the specific table
+        try:
+            print(f"Waiting for table with ID: {table_id}")
+            WebDriverWait(driver, 30).until(
+                EC.presence_of_element_located((By.ID, table_id))
+            )
+        except:
+            print(f"Table with ID '{table_id}' not immediately found, proceeding with page source...")
+        
+        # Get the fully rendered HTML after JavaScript execution
+        html_content = driver.page_source
+        soup = BeautifulSoup(html_content, 'html.parser')
         
         # Find the table with the specified ID
         table = soup.find('table', id=table_id)
         if not table:
             print(f"Error: Table with ID '{table_id}' not found on the page")
+            # Debug: print available tables
+            all_tables = soup.find_all('table')
+            print(f"Found {len(all_tables)} tables on the page")
+            for i, t in enumerate(all_tables):
+                table_id_attr = t.get('id', 'No ID')
+                table_class = t.get('class', 'No class')
+                print(f"Table {i+1}: ID='{table_id_attr}', Class='{table_class}'")
             return []
         
         print(f"Found table with ID: {table_id}")
@@ -94,12 +146,12 @@ def scrape_table_data(url, table_id):
         print(f"Extracted {len(table_data)} rows from table")
         return table_data
         
-    except requests.exceptions.RequestException as e:
-        print(f"Error fetching URL: {e}")
-        return []
     except Exception as e:
-        print(f"Error parsing table data: {e}")
+        print(f"Error during scraping: {e}")
         return []
+    finally:
+        if driver:
+            driver.quit()
 
 def load_previous_data():
     """
