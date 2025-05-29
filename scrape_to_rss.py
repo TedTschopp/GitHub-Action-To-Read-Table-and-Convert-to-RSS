@@ -231,33 +231,23 @@ def generate_rss_feed(table_data, feed_title="GAI Insights Ratings", feed_descri
                 desc_key, desc_data = columns[3]
                 description_value = desc_data.get('text', '').strip()
             
-            # Create RSS entry title
-            if date_value and title_value:
-                rss_title = f"{date_value} - {title_value}"
-            elif title_value:
+            # Create RSS entry title (just the title, no date)
+            if title_value:
                 rss_title = title_value
             else:
                 rss_title = f"Entry {i+1}"
             
-            # Create RSS entry description
-            description_html = ""
-            if description_value:
-                description_html = f"<p>{description_value}</p>"
-            
-            if title_url:
-                description_html += f'<p><strong>Source:</strong> <a href="{title_url}">{title_url}</a></p>'
-            
-            if date_value:
-                description_html += f"<p><strong>Date:</strong> {date_value}</p>"
+            # Create RSS entry description (plain text, no HTML)
+            rss_description = description_value.strip() if description_value else ""
             
             # Create unique ID based on content (excluding rating)
             content_for_id = f"{date_value}|{title_value}|{description_value}"
             entry_id = hashlib.md5(content_for_id.encode()).hexdigest()
             
             # Set RSS entry properties
-            fe.id(f"https://gaiinsights.com/ratings#{entry_id}")
+            fe.id(entry_id)  # Just the hash, no URL
             fe.title(rss_title)
-            fe.description(description_html)
+            fe.description(rss_description)
             
             # Use title URL as the link if available, otherwise use main page
             if title_url:
