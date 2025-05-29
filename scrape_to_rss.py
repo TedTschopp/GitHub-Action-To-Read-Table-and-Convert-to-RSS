@@ -181,9 +181,11 @@ def save_current_data(data):
     except Exception as e:
         print(f"Error saving current data: {e}")
 
-def generate_rss_feed(table_data, feed_title="GAI Insights Ratings", feed_description="Latest ratings from GAI Insights"):
+def generate_rss_feed(table_data, feed_title="GAI Insights Ratings", feed_description="Latest insights from GAI Insights"):
     """
     Generate RSS feed from table data.
+    Expected table structure: Date | Rating | Title | Description
+    Note: Rating column is excluded from RSS output
     
     Args:
         table_data (list): List of dictionaries containing table row data
@@ -204,34 +206,65 @@ def generate_rss_feed(table_data, feed_title="GAI Insights Ratings", feed_descri
         for i, row_data in enumerate(table_data):
             fe = fg.add_entry()
             
-            # Create a unique ID for each entry based on content
-            content_str = json.dumps(row_data, sort_keys=True)
-            entry_id = hashlib.md5(content_str.encode()).hexdigest()
+            # Extract specific columns (excluding Rating)
+            date_value = ""
+            title_value = ""
+            title_url = ""
+            description_value = ""
             
-            # Create title from first few columns
-            title_parts = []
-            for key, value in list(row_data.items())[:3]:  # Use first 3 columns for title
-                if value['text']:
-                    title_parts.append(f"{key}: {value['text']}")
+            # Get column data by position or name
+            columns = list(row_data.items())
+            if len(columns) >= 4:
+                # Column 1: Date
+                date_key, date_data = columns[0]
+                date_value = date_data.get('text', '').strip()
+                
+                # Column 2: Rating (skip this one)
+                
+                # Column 3: Title (with URL)
+                title_key, title_data = columns[2]
+                title_value = title_data.get('text', '').strip()
+                if title_data.get('links'):
+                    title_url = title_data['links'][0]  # Get first link
+                
+                # Column 4: Description
+                desc_key, desc_data = columns[3]
+                description_value = desc_data.get('text', '').strip()
             
-            title = " | ".join(title_parts) if title_parts else f"Entry {i+1}"
+            # Create RSS entry title
+            if date_value and title_value:
+                rss_title = f"{date_value} - {title_value}"
+            elif title_value:
+                rss_title = title_value
+            else:
+                rss_title = f"Entry {i+1}"
             
-            # Create description from all data
-            description_parts = []
-            for key, value in row_data.items():
-                if value['text']:
-                    desc_part = f"<strong>{key}:</strong> {value['text']}"
-                    if value['links']:
-                        links_html = " | ".join([f'<a href="{link}">{link}</a>' for link in value['links']])
-                        desc_part += f" (Links: {links_html})"
-                    description_parts.append(desc_part)
+            # Create RSS entry description
+            description_html = ""
+            if description_value:
+                description_html = f"<p>{description_value}</p>"
             
-            description = "<br/><br/>".join(description_parts)
+            if title_url:
+                description_html += f'<p><strong>Source:</strong> <a href="{title_url}">{title_url}</a></p>'
             
+            if date_value:
+                description_html += f"<p><strong>Date:</strong> {date_value}</p>"
+            
+            # Create unique ID based on content (excluding rating)
+            content_for_id = f"{date_value}|{title_value}|{description_value}"
+            entry_id = hashlib.md5(content_for_id.encode()).hexdigest()
+            
+            # Set RSS entry properties
             fe.id(f"https://gaiinsights.com/ratings#{entry_id}")
-            fe.title(title)
-            fe.description(description)
-            fe.link(href='https://gaiinsights.com/ratings')
+            fe.title(rss_title)
+            fe.description(description_html)
+            
+            # Use title URL as the link if available, otherwise use main page
+            if title_url:
+                fe.link(href=title_url)
+            else:
+                fe.link(href='https://gaiinsights.com/ratings')
+            
             fe.pubDate(datetime.now(timezone.utc))
         
         # Generate and save RSS feed
