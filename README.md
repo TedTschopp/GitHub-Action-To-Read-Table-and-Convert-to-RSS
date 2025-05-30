@@ -19,7 +19,7 @@ This GitHub Action scrapes table data from websites and converts it to an RSS fe
    - `.github/workflows/scrape-and-generate-rss.yml` - The GitHub Action workflow
    - `scrape_to_rss.py` - Python script that does the scraping and RSS generation
    - `requirements.txt` - Python dependencies
-   - `rss_feed.xml` - Generated RSS feed (created after first run)
+   - `ai_rss_feed.xml` - Generated RSS feed (created after first run)
    - `previous_data.json` - Stores previous data for change detection
 
 ## How It Works
@@ -48,7 +48,7 @@ The action runs:
 ## Generated RSS Feed
 
 The RSS feed will be available at:
-`https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/rss_feed.xml`
+`https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/ai_rss_feed.xml`
 
 ## Troubleshooting
 
