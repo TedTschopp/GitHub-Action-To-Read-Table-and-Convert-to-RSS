@@ -12,6 +12,9 @@ from feedgen.feed import FeedGenerator
 import os
 import sys
 import time
+import re
+import urllib.parse
+from dateutil import parser as date_parser
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
@@ -360,6 +363,361 @@ def generate_rss_feed(table_data, feed_title="AI News", feed_description="The La
         import traceback
         traceback.print_exc()
         sys.exit(1)
+
+def find_latest_ai_news_post(linkedin_profile_url):
+    """
+    Find the latest "Artificial Intelligence in the news, Week Ending" post from LinkedIn profile.
+    
+    Args:
+        linkedin_profile_url (str): LinkedIn profile URL
+        
+    Returns:
+        str: URL of the latest AI news post, or None if not found
+    """
+    driver = None
+    try:
+        print(f"Searching for latest AI news post on LinkedIn profile: {linkedin_profile_url}")
+        driver = setup_driver()
+        
+        driver.get(linkedin_profile_url)
+        
+        # Wait for page to load
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
+        
+        # Additional wait for dynamic content
+        time.sleep(5)
+        
+        # Get page source and parse
+        html_content = driver.page_source
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # Look for posts containing "Artificial Intelligence in the news, Week Ending"
+        # This is a simplified approach - LinkedIn's structure may require more specific selectors
+        posts = soup.find_all(['span', 'div'], string=re.compile(r'Artificial Intelligence in the news, Week Ending', re.IGNORECASE))
+        
+        if not posts:
+            # Try alternative search patterns
+            posts = soup.find_all(string=re.compile(r'Artificial Intelligence in the news', re.IGNORECASE))
+        
+        for post in posts:
+            # Try to find the parent container that might have a link
+            parent = post.parent
+            while parent and parent.name:
+                link = parent.find('a', href=True)
+                if link and ('linkedin.com' in link['href'] or 'pulse' in link['href']):
+                    article_url = link['href']
+                    if not article_url.startswith('http'):
+                        article_url = 'https://www.linkedin.com' + article_url
+                    print(f"Found potential AI news post: {article_url}")
+                    return article_url
+                parent = parent.parent
+        
+        print("No AI news posts found")
+        return None
+        
+    except Exception as e:
+        print(f"Error finding LinkedIn post: {e}")
+        return None
+    finally:
+        if driver:
+            driver.quit()
+
+def scrape_article_links(article_url):
+    """
+    Scrape article links from the AI news post.
+    
+    Args:
+        article_url (str): URL of the AI news article
+        
+    Returns:
+        list: List of dictionaries containing title and link
+    """
+    driver = None
+    try:
+        print(f"Scraping article links from: {article_url}")
+        driver = setup_driver()
+        
+        driver.get(article_url)
+        
+        # Wait for page to load
+        WebDriverWait(driver, 30).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
+        
+        time.sleep(5)
+        
+        html_content = driver.page_source
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        article_links = []
+        
+        # Look for links in the article content
+        # This may need adjustment based on the actual structure of the posts
+        content_areas = soup.find_all(['div', 'article', 'section'], class_=re.compile(r'content|article|post|body', re.IGNORECASE))
+        
+        if not content_areas:
+            # Fallback: look for all links in the page
+            content_areas = [soup]
+        
+        for area in content_areas:
+            links = area.find_all('a', href=True)
+            for link in links:
+                href = link.get('href', '')
+                text = link.get_text(strip=True)
+                
+                # Filter out LinkedIn-specific links and focus on external articles
+                if (href and text and 
+                    not any(skip in href.lower() for skip in ['linkedin.com', 'javascript:', 'mailto:', '#']) and
+                    len(text) > 10 and
+                    any(domain in href.lower() for domain in ['.com', '.org', '.net', '.ai', '.co'])):
+                    
+                    # Clean up the URL
+                    if not href.startswith('http'):
+                        href = 'https://' + href.lstrip('/')
+                    
+                    article_links.append({
+                        'title': text,
+                        'url': href
+                    })
+        
+        # Remove duplicates
+        seen_urls = set()
+        unique_links = []
+        for link in article_links:
+            if link['url'] not in seen_urls:
+                seen_urls.add(link['url'])
+                unique_links.append(link)
+        
+        print(f"Found {len(unique_links)} unique article links")
+        return unique_links
+        
+    except Exception as e:
+        print(f"Error scraping article links: {e}")
+        return []
+    finally:
+        if driver:
+            driver.quit()
+
+def extract_article_metadata(url):
+    """
+    Extract metadata from an article URL.
+    
+    Args:
+        url (str): Article URL
+        
+    Returns:
+        dict: Article metadata including title, description, date, guid
+    """
+    driver = None
+    try:
+        print(f"Extracting metadata from: {url}")
+        driver = setup_driver()
+        
+        driver.get(url)
+        
+        # Wait for page to load
+        WebDriverWait(driver, 15).until(
+            EC.presence_of_element_located((By.TAG_NAME, "body"))
+        )
+        
+        time.sleep(3)
+        
+        html_content = driver.page_source
+        soup = BeautifulSoup(html_content, 'html.parser')
+        
+        # Extract title
+        title = ""
+        title_candidates = [
+            soup.find('title'),
+            soup.find('h1'),
+            soup.find('meta', property='og:title'),
+            soup.find('meta', name='twitter:title')
+        ]
+        
+        for candidate in title_candidates:
+            if candidate:
+                if candidate.name == 'meta':
+                    title = candidate.get('content', '').strip()
+                else:
+                    title = candidate.get_text(strip=True)
+                if title:
+                    break
+        
+        # Extract description
+        description = ""
+        desc_candidates = [
+            soup.find('meta', property='og:description'),
+            soup.find('meta', name='description'),
+            soup.find('meta', name='twitter:description'),
+            soup.find('meta', property='description')
+        ]
+        
+        for candidate in desc_candidates:
+            if candidate:
+                description = candidate.get('content', '').strip()
+                if description:
+                    break
+        
+        # If no meta description, try to get first paragraph
+        if not description:
+            paragraphs = soup.find_all('p')
+            for p in paragraphs:
+                text = p.get_text(strip=True)
+                if len(text) > 50:
+                    description = text[:300] + '...' if len(text) > 300 else text
+                    break
+        
+        # Extract publish date
+        pub_date = None
+        date_candidates = [
+            soup.find('meta', property='article:published_time'),
+            soup.find('meta', name='publishdate'),
+            soup.find('meta', name='date'),
+            soup.find('time'),
+            soup.find('span', class_=re.compile(r'date|time', re.IGNORECASE)),
+            soup.find('div', class_=re.compile(r'date|time', re.IGNORECASE))
+        ]
+        
+        for candidate in date_candidates:
+            if candidate:
+                if candidate.name == 'meta':
+                    date_str = candidate.get('content', '')
+                elif candidate.name == 'time':
+                    date_str = candidate.get('datetime', '') or candidate.get_text(strip=True)
+                else:
+                    date_str = candidate.get_text(strip=True)
+                
+                if date_str:
+                    try:
+                        pub_date = date_parser.parse(date_str)
+                        break
+                    except:
+                        continue
+        
+        # Generate GUID
+        guid = hashlib.md5(url.encode()).hexdigest()
+        
+        return {
+            'title': title or 'No Title',
+            'description': description or 'No description available',
+            'url': url,
+            'pub_date': pub_date or datetime.now(timezone.utc),
+            'guid': guid
+        }
+        
+    except Exception as e:
+        print(f"Error extracting metadata from {url}: {e}")
+        return {
+            'title': 'Error loading article',
+            'description': f'Could not load article from {url}',
+            'url': url,
+            'pub_date': datetime.now(timezone.utc),
+            'guid': hashlib.md5(url.encode()).hexdigest()
+        }
+    finally:
+        if driver:
+            driver.quit()
+
+def generate_eei_rss_feed(articles, feed_title="EEI AI News", feed_description="AI News from External Sources"):
+    """
+    Generate RSS feed from EEI article data.
+    
+    Args:
+        articles (list): List of article metadata dictionaries
+        feed_title (str): Title for the RSS feed
+        feed_description (str): Description for the RSS feed
+    """
+    try:
+        print(f"Generating EEI RSS feed with {len(articles)} articles")
+        
+        # Create feed generator
+        fg = FeedGenerator()
+        fg.title(feed_title)
+        fg.link(href='https://tedt.org/', rel='alternate')
+        fg.description(feed_description)
+        fg.language('en')
+        fg.lastBuildDate(datetime.now(timezone.utc))
+        fg.generator('GitHub Action LinkedIn Article Scraper')
+        
+        # Add articles to feed
+        for i, article in enumerate(articles):
+            try:
+                fe = fg.add_entry()
+                
+                fe.id(article['guid'])
+                fe.title(article['title'])
+                fe.description(article['description'])
+                fe.link(href=article['url'])
+                fe.pubDate(article['pub_date'])
+                
+                print(f"Added article {i+1}: {article['title']}")
+                
+            except Exception as e:
+                print(f"Error adding article {i+1} to RSS feed: {e}")
+                continue
+        
+        # Generate and save RSS feed
+        rss_str = fg.rss_str(pretty=True)
+        with open('eei_ai_rss_feed.xml', 'wb') as f:
+            f.write(rss_str)
+        
+        print(f"EEI RSS feed generated successfully with {len(articles)} entries")
+        
+    except Exception as e:
+        print(f"Error generating EEI RSS feed: {e}")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+
+def scrape_eei_and_generate_feed():
+    """
+    Main function to scrape EEI LinkedIn post and generate RSS feed.
+    """
+    print("Starting EEI LinkedIn scraping and RSS generation...")
+    
+    linkedin_profile = "https://www.linkedin.com/in/davidbatz/"
+    
+    # Step 1: Find the latest AI news post
+    latest_post_url = find_latest_ai_news_post(linkedin_profile)
+    
+    if not latest_post_url:
+        print("Could not find latest AI news post")
+        # Generate empty RSS feed
+        generate_eei_rss_feed([], "EEI AI News", "No AI news posts found")
+        return
+    
+    # Step 2: Extract article links from the post
+    article_links = scrape_article_links(latest_post_url)
+    
+    if not article_links:
+        print("No article links found in the post")
+        generate_eei_rss_feed([], "EEI AI News", "No articles found in latest post")
+        return
+    
+    # Step 3: Extract metadata from each article
+    articles = []
+    for i, link in enumerate(article_links[:20]):  # Limit to 20 articles to avoid timeout
+        print(f"Processing article {i+1}/{min(len(article_links), 20)}: {link['title']}")
+        try:
+            metadata = extract_article_metadata(link['url'])
+            # Use the original title from LinkedIn if the extracted title seems generic
+            if metadata['title'] in ['No Title', 'Error loading article'] and link['title']:
+                metadata['title'] = link['title']
+            articles.append(metadata)
+            
+            # Add delay to be respectful to websites
+            time.sleep(2)
+            
+        except Exception as e:
+            print(f"Failed to process {link['url']}: {e}")
+            continue
+    
+    # Step 4: Generate RSS feed
+    generate_eei_rss_feed(articles)
+    
+    print("EEI process completed successfully!")
 
 def main():
     """
