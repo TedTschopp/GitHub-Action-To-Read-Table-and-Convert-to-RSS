@@ -13,6 +13,9 @@ jobs:
     
     permissions:
       contents: write
+    
+    outputs:
+      rss-updated: ${{ steps.check-changes.outputs.changes-detected }}
       
     steps:
     - name: Checkout repository
@@ -39,13 +42,17 @@ jobs:
         CHROME_BIN: /usr/bin/chromium-browser
       
     - name: Commit and push RSS feed
+      id: check-changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
         git add ai_rss_feed.xml
         if git diff --staged --quiet; then
           echo "No changes to commit"
+          echo "changes-detected=false" >> $GITHUB_OUTPUT
         else
           git commit -m "Update RSS feed - $(date '+%Y-%m-%d %H:%M:%S')"
           git push
+          echo "changes-detected=true" >> $GITHUB_OUTPUT
+          echo "RSS feed updated successfully"
         fi
