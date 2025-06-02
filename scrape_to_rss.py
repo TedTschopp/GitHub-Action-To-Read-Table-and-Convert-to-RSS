@@ -364,69 +364,112 @@ def generate_rss_feed(table_data, feed_title="AI News", feed_description="The La
         traceback.print_exc()
         sys.exit(1)
 
-def find_latest_ai_news_post(linkedin_profile_url):
+def find_latest_ai_news_post(profile_url):
     """
-    Find the latest "Artificial Intelligence in the news, Week Ending" post from LinkedIn profile.
+    Find the latest AI news post from a LinkedIn profile with improved selectors.
     
     Args:
-        linkedin_profile_url (str): LinkedIn profile URL
+        profile_url (str): LinkedIn profile URL
         
     Returns:
         str: URL of the latest AI news post, or None if not found
     """
     driver = None
     try:
-        print(f"Searching for latest AI news post on LinkedIn profile: {linkedin_profile_url}")
+        print(f"Searching for latest AI news post on LinkedIn profile: {profile_url}")
         driver = setup_driver()
         
-        driver.get(linkedin_profile_url)
+        # Add additional headers to appear more like a real browser
+        driver.execute_cdp_cmd('Network.setUserAgentOverride', {
+            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+        })
+        
+        driver.get(profile_url)
         
         # Wait for page to load
+        print("LinkedIn page loaded, searching for AI news posts...")
         WebDriverWait(driver, 30).until(
             EC.presence_of_element_located((By.TAG_NAME, "body"))
         )
         
-        # Additional wait for dynamic content
-        time.sleep(5)
+        # Extended wait for dynamic content
+        time.sleep(15)  # Increased wait time
         
-        # Get page source and parse
         html_content = driver.page_source
         soup = BeautifulSoup(html_content, 'html.parser')
         
-        # Look for posts containing "Artificial Intelligence in the news, Week Ending"
-        # This is a simplified approach - LinkedIn's structure may require more specific selectors
-        posts = soup.find_all(['span', 'div'], string=re.compile(r'Artificial Intelligence in the news, Week Ending', re.IGNORECASE))
+        # Debug: Save LinkedIn page for inspection
+        if os.environ.get('DEBUG'):
+            with open('debug_linkedin_page.html', 'w', encoding='utf-8') as f:
+                f.write(html_content)
         
-        if not posts:
-            # Try alternative search patterns
-            posts = soup.find_all(string=re.compile(r'Artificial Intelligence in the news', re.IGNORECASE))
+        # Multiple search patterns for AI news posts
+        search_patterns = [
+            r"Artificial Intelligence in the news, Week Ending",
+            r"AI News.*Week Ending",
+            r"Artificial Intelligence.*news",
+            r"AI in the news",
+            r"Weekly AI update"
+        ]
         
-        for post in posts:
-            # Try to find the parent container that might have a link
-            parent = post.parent
-            while parent and parent.name:
-                link = parent.find('a', href=True)
-                if link and ('linkedin.com' in link['href'] or 'pulse' in link['href']):
-                    article_url = link['href']
-                    if not article_url.startswith('http'):
-                        article_url = 'https://www.linkedin.com' + article_url
-                    print(f"Found potential AI news post: {article_url}")
-                    return article_url
-                parent = parent.parent
+        found_links = []
         
-        print("No AI news posts found")
-        return None
+        # Look for posts with these patterns
+        for pattern in search_patterns:
+            print(f"Searching with pattern: {pattern}")
+            matches = soup.find_all(text=re.compile(pattern, re.IGNORECASE))
+            print(f"Found {len(matches)} text matches for pattern: {pattern}")
+            
+            for match in matches:
+                # Try to find the closest link element
+                parent = match.parent
+                while parent and parent.name != 'html':
+                    # Look for article links in various LinkedIn post structures
+                    post_links = parent.find_all('a', href=re.compile(r'/(posts/|pulse/)', re.IGNORECASE))
+                    for link in post_links:
+                        href = link.get('href', '')
+                        if href and '/posts/' in href:  # Focus on actual posts
+                            if not href.startswith('http'):
+                                href = 'https://www.linkedin.com' + href
+                            found_links.append(href)
+                            print(f"Found AI news post link: {href}")
+                    parent = parent.parent
+        
+        # Alternative approach: Look for activity/posts section
+        if not found_links:
+            print("No direct links found, trying activity section...")
+            activity_sections = soup.find_all(['section', 'div'], class_=re.compile(r'activity|posts|updates', re.IGNORECASE))
+            for section in activity_sections:
+                post_links = section.find_all('a', href=re.compile(r'/posts/'))
+                for link in post_links[:3]:  # Check first 3 posts
+                    href = link.get('href', '')
+                    if href:
+                        if not href.startswith('http'):
+                            href = 'https://www.linkedin.com' + href
+                        found_links.append(href)
+                        print(f"Found activity post link: {href}")
+        
+        # Remove duplicates and return the most recent
+        if found_links:
+            unique_links = list(dict.fromkeys(found_links))  # Remove duplicates while preserving order
+            print(f"Found {len(unique_links)} unique post links")
+            return unique_links[0]  # Return the first (most recent)
+        else:
+            print("No AI news posts found - LinkedIn may be blocking automated access")
+            return None
         
     except Exception as e:
         print(f"Error finding LinkedIn post: {e}")
+        import traceback
+        traceback.print_exc()
         return None
     finally:
         if driver:
             driver.quit()
 
-def scrape_article_links(article_url):
+def scrape_article_links_improved(article_url):
     """
-    Scrape article links from the AI news post.
+    Improved article link scraping with better filtering and error handling.
     
     Args:
         article_url (str): URL of the AI news article
@@ -439,62 +482,109 @@ def scrape_article_links(article_url):
         print(f"Scraping article links from: {article_url}")
         driver = setup_driver()
         
-        driver.get(article_url)
-        
-        # Wait for page to load
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.TAG_NAME, "body"))
-        )
-        
-        time.sleep(5)
-        
-        html_content = driver.page_source
-        soup = BeautifulSoup(html_content, 'html.parser')
+        # Try multiple times if LinkedIn blocks initial request
+        for attempt in range(3):
+            try:
+                driver.get(article_url)
+                
+                # Wait for page to load
+                WebDriverWait(driver, 30).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+                
+                time.sleep(10)  # Wait for dynamic content
+                
+                html_content = driver.page_source
+                soup = BeautifulSoup(html_content, 'html.parser')
+                
+                # Check if we got blocked
+                if "sign in" in html_content.lower() or "join linkedin" in html_content.lower():
+                    print(f"Attempt {attempt + 1}: LinkedIn blocking access, retrying...")
+                    time.sleep(5)
+                    continue
+                else:
+                    break
+                    
+            except Exception as e:
+                print(f"Attempt {attempt + 1} failed: {e}")
+                if attempt == 2:
+                    raise
+                time.sleep(5)
         
         article_links = []
         
-        # Look for links in the article content
-        # This may need adjustment based on the actual structure of the posts
-        content_areas = soup.find_all(['div', 'article', 'section'], class_=re.compile(r'content|article|post|body', re.IGNORECASE))
+        # Look for article content with improved selectors
+        content_selectors = [
+            '[data-test-id*="post-content"]',
+            '[class*="feed-shared-update-v2__description"]',
+            '[class*="break-words"]',
+            '[class*="feed-shared-text"]',
+            'article',
+            '[role="article"]'
+        ]
         
-        if not content_areas:
-            # Fallback: look for all links in the page
-            content_areas = [soup]
+        content_area = None
+        for selector in content_selectors:
+            content_area = soup.select_one(selector)
+            if content_area:
+                print(f"Found content area with selector: {selector}")
+                break
         
-        for area in content_areas:
-            links = area.find_all('a', href=True)
+        if not content_area:
+            print("No specific content area found, using entire body")
+            content_area = soup.find('body')
+        
+        if content_area:
+            # Find all links in the content area
+            links = content_area.find_all('a', href=True)
+            
             for link in links:
                 href = link.get('href', '')
                 text = link.get_text(strip=True)
                 
-                # Filter out LinkedIn-specific links and focus on external articles
+                # Improved filtering for quality articles
                 if (href and text and 
-                    not any(skip in href.lower() for skip in ['linkedin.com', 'javascript:', 'mailto:', '#']) and
-                    len(text) > 10 and
-                    any(domain in href.lower() for domain in ['.com', '.org', '.net', '.ai', '.co'])):
+                    len(text) > 15 and  # Longer titles are usually better
+                    not any(skip in href.lower() for skip in [
+                        'linkedin.com', 'javascript:', 'mailto:', '#', 
+                        'facebook.com', 'twitter.com', 'instagram.com'
+                    ]) and
+                    any(domain in href.lower() for domain in [
+                        '.com', '.org', '.net', '.ai', '.co', '.io', '.tech'
+                    ]) and
+                    # Filter for AI/tech related content
+                    any(keyword in text.lower() for keyword in [
+                        'ai', 'artificial intelligence', 'machine learning', 'ml',
+                        'neural', 'algorithm', 'data', 'tech', 'automation',
+                        'robot', 'deep learning', 'nlp', 'computer', 'digital'
+                    ])):
                     
                     # Clean up the URL
-                    if not href.startswith('http'):
+                    if href.startswith('//'):
+                        href = 'https:' + href
+                    elif not href.startswith('http'):
                         href = 'https://' + href.lstrip('/')
                     
                     article_links.append({
-                        'title': text,
-                        'url': href
+                        'title': text.strip(),
+                        'url': href.strip()
                     })
         
-        # Remove duplicates
+        # Remove duplicates and sort by title length (longer titles usually better)
         seen_urls = set()
         unique_links = []
-        for link in article_links:
+        for link in sorted(article_links, key=lambda x: len(x['title']), reverse=True):
             if link['url'] not in seen_urls:
                 seen_urls.add(link['url'])
                 unique_links.append(link)
         
         print(f"Found {len(unique_links)} unique article links")
-        return unique_links
+        return unique_links[:20]  # Limit to top 20 articles
         
     except Exception as e:
         print(f"Error scraping article links: {e}")
+        import traceback
+        traceback.print_exc()
         return []
     finally:
         if driver:
@@ -689,7 +779,7 @@ def scrape_eei_and_generate_feed():
         return
     
     # Step 2: Extract article links from the post
-    article_links = scrape_article_links(latest_post_url)
+    article_links = scrape_article_links_improved(latest_post_url)
     
     if not article_links:
         print("No article links found in the post")
@@ -722,37 +812,60 @@ def scrape_eei_and_generate_feed():
 def main():
     """
     Main function to orchestrate the scraping and RSS generation.
+    Runs both GAI Insights and EEI LinkedIn scraping.
     """
+    # Part 1: Original GAI Insights scraping
+    print("=" * 60)
+    print("PART 1: GAI INSIGHTS SCRAPING")
+    print("=" * 60)
+    
     url = "https://gaiinsights.com/ratings"
     table_id = "newsTable"
     
-    print("Starting table scraping and RSS generation...")
+    print("Starting GAI Insights table scraping and RSS generation...")
     
     # Scrape table data
     current_data = scrape_table_data(url, table_id)
     
     if not current_data:
-        print("No data found or error occurred during scraping")
+        print("No data found or error occurred during GAI scraping")
         # Still generate an empty RSS feed to maintain consistency
         generate_rss_feed([], "GAI Insights Ratings", "No data available at this time")
-        return
-    
-    # Load previous data for comparison
-    previous_data = load_previous_data()
-    
-    # Check if data has changed
-    if current_data == previous_data.get('data', []):
-        print("No changes detected in table data")
     else:
-        print("Changes detected in table data")
+        # Load previous data for comparison
+        previous_data = load_previous_data()
+        
+        # Check if data has changed
+        if current_data == previous_data.get('data', []):
+            print("No changes detected in GAI table data")
+        else:
+            print("Changes detected in GAI table data")
+        
+        # Save current data
+        save_current_data({'data': current_data, 'timestamp': datetime.now(timezone.utc).isoformat()})
+        
+        # Generate RSS feed
+        generate_rss_feed(current_data)
+        
+        print("GAI Insights process completed successfully!")
     
-    # Save current data
-    save_current_data({'data': current_data, 'timestamp': datetime.now(timezone.utc).isoformat()})
+    # Part 2: EEI LinkedIn scraping
+    print("\n" + "=" * 60)
+    print("PART 2: EEI LINKEDIN SCRAPING")
+    print("=" * 60)
     
-    # Generate RSS feed
-    generate_rss_feed(current_data)
+    try:
+        scrape_eei_and_generate_feed()
+    except Exception as e:
+        print(f"Error in EEI LinkedIn scraping: {e}")
+        import traceback
+        traceback.print_exc()
+        # Generate empty RSS feed as fallback
+        generate_eei_rss_feed([], "EEI AI News", "Error occurred during LinkedIn scraping")
     
-    print("Process completed successfully!")
+    print("\n" + "=" * 60)
+    print("ALL PROCESSES COMPLETED")
+    print("=" * 60)
 
 if __name__ == "__main__":
     main()

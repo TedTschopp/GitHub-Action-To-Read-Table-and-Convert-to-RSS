@@ -42,18 +42,24 @@ jobs:
         CHROME_BIN: /usr/bin/chromium-browser
         DEBUG: "true"
       
-    - name: Commit and push RSS feed
+    - name: Run RSS health monitoring
+      run: python monitor.py
+      
+    - name: Check for RSS changes
       id: check-changes
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action"
-        git add ai_rss_feed.xml
+        
+        # Add all RSS files and status report
+        git add ai_rss_feed.xml eei_ai_rss_feed.xml rss_status.json previous_data.json
+        
         if git diff --staged --quiet; then
           echo "No changes to commit"
           echo "changes-detected=false" >> $GITHUB_OUTPUT
         else
-          git commit -m "Update RSS feed - $(date '+%Y-%m-%d %H:%M:%S')"
+          echo "Changes detected, committing..."
+          git commit -m "Update RSS feeds and status report - $(date -u)"
           git push
           echo "changes-detected=true" >> $GITHUB_OUTPUT
-          echo "RSS feed updated successfully"
         fi
