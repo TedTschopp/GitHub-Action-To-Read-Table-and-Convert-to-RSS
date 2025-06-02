@@ -40,6 +40,7 @@ jobs:
       run: python scrape_to_rss.py
       env:
         CHROME_BIN: /usr/bin/chromium-browser
+        DEBUG: "true"
       
     - name: Commit and push RSS feed
       id: check-changes

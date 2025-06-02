@@ -7,356 +7,356 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action Table Scraper</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 02 Jun 2025 16:16:02 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 02 Jun 2025 21:50:16 +0000</lastBuildDate>
     <item>
-      <title>Microsoft Build 2025: The Age of AI Agents and the Open Agentic Web</title>
+      <title>Microsoft Build 2025: The Age of AI Agents and the Open Agentic Web [ * ]</title>
       <link>https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/</link>
       <description>Microsoft announced a full-stack commitment to AI agents across Azure and Windows, new protocols (MCP, A2A), and fine-tuning infrastructure at Build 2025. Our analysts agreed this represents an important evolution in AI tooling, supporting enterprise-grade agent development and signaling deep platform integration.</description>
-      <guid isPermaLink="false">ba66f170881ddad572682cd76c4e4c92</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">55e2ef6380871f4ecf91d771f4705c29</guid>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Apodia Group enhances visual information extraction from banking documents</title>
+      <title>Apodia Group enhances visual information extraction from banking documents [ ! ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-apoidea-group-enhances-visual-information-extraction-from-banking-documents-with-multimodal-models-using-llama-factory-on-amazon-sagemaker-hyperpod/</link>
       <description>Apodia Group fine-tuned Qwen2-VL-7B-Instruct model to extract visual information from financial documents, addressing a major challenge in banking. Our analysts emphasized the depth and clarity of this case study and the significance of applying domain-specific fine-tuning for unstructured data extraction, calling it a standout example of generative AI in finance.</description>
-      <guid isPermaLink="false">9d7954572fb0ea133bf066d719f84cff</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">8714873d2af968edf2936b8012ca5870</guid>
+      <pubDate>Tue, 20 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>HERE Technologies Coding Assistant</title>
+      <title>HERE Technologies Coding Assistant [ * ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/here-technologies-boosts-developer-productivity-with-new-generative-ai-powered-coding-assistant/</link>
       <description>HERE Technologies developed a GenAI-powered coding assistant to streamline onboarding and navigation of its complex internal documentation. The team noted this as a strong use case for AI-driven productivity and documentation support, particularly for enterprises with legacy systems and complex onboarding requirements.</description>
-      <guid isPermaLink="false">919fdd73b71c580c49a2a878d3b66750</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">c5aef50aa7cbb75600c9cae9555387ef</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Prompt Adaptation</title>
+      <title>Prompt Adaptation [ * ]</title>
       <link>https://www.notdiamond.ai/blog/launching-prompt-adaptation</link>
       <description>Startup NotDiamond released Prompt Adaptation, a tool that rewrites prompts making them specific to multiple LLMs to reduce vendor lock-in and adapt to shifting model behaviors. Our analysts noted that while not fully integrated into workflows, this trend addresses a rising challenge in LLMOps and was seen as valuable for developers managing multi-model environments.</description>
-      <guid isPermaLink="false">ab5b9ad44b198e4751371a7aef2f2320</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">0381bb1d3bd4b2e5695082e304f0b1bc</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>NFL Combine + Azure AI</title>
+      <title>NFL Combine + Azure AI [ * ]</title>
       <link>https://www.microsoft.com/en/customers/story/23954-nfl-combine-azure-ai-foundry</link>
       <description>The NFL has adopted Azure AI to provide real-time insights during the NFL Combine, enhancing how teams evaluate talent and make decisions. Though lacking in hard metrics, our analysts viewed this as a strong industry-specific application of retrieval-augmented generation (RAG) and AI-enhanced decision support in high-profile, data-intensive contexts.</description>
-      <guid isPermaLink="false">311a92403e5b22aa3e6e005e02fcb57e</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">91e5c10c42ad4519aa004de7c2524332</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>ROBIN: A Multi-Agent System for Automating Scientific Discovery</title>
+      <title>ROBIN: A Multi-Agent System for Automating Scientific Discovery [ ! ]</title>
       <link>https://arxiv.org/pdf/2505.13400</link>
       <description>ROBIN is a multi-agent generative AI system that autonomously performs literature review, hypothesis generation, and experimental planning—recently discovering a treatment for dry macular degeneration. Our analysts agreed that ROBIN represents a leap in AI-driven scientific discovery that exemplifies how generative AI can automate and accelerate new knowledge creation.</description>
-      <guid isPermaLink="false">721f5a1496b48166d9971df39b3772ec</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">12702f5424938e20159bde1dda9f3806</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DreamGen</title>
+      <title>DreamGen [ ! ]</title>
       <link>https://research.nvidia.com/labs/gear/dreamgen</link>
       <description>NVIDIA’s DreamGen presents a novel four-stage pipeline for generating synthetic robot training data using video world models, enabling zero-shot learning from visual inputs. Our analysts emphasized that this capability dramatically shifts the frontier of robotics, marking a breakthrough in AI automation and simulation-based training with potential to reshape manufacturing and robotics industries.</description>
-      <guid isPermaLink="false">999d91e52174619a32101a0dff4b777b</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">a5feb3f8d80b67aa1abb803358c3ba36</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google I/O 2025</title>
+      <title>Google I/O 2025 [ ! ]</title>
       <link>https://techcrunch.com/2025/05/20/google-i-o-2025-everything-announced-at-this-years-developer-conference/</link>
       <description>Google announced a sweeping range of AI-driven updates at I/O 2025, including Gemini Ultra, Deep Think mode, Veo 3 video generation, Imagine 4 image generation, and a new AI Mode for search. Our analysts highlighted that although some features are incremental, the comprehensive scale and integration of generative AI across the Google ecosystem marks a major strategic shift that AI leaders must understand.</description>
-      <guid isPermaLink="false">6df80b478617f46f9655e7b449cfd80c</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">f6b11a777c33a73a27fe3b55dfd4ec05</guid>
+      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Webtoon + LangGraph: Agentic Workflows in Entertainment</title>
+      <title>Webtoon + LangGraph: Agentic Workflows in Entertainment [ ~ ]</title>
       <link>https://blog.langchain.dev/customers-webtoon/?s=09</link>
       <description>Webtoon Entertainment partnered with Langchain to create agentic workflows that enable internal creators to generate new products from existing web comic data. Although it highlights creative use of vision-language models and data reuse, our analysts noted that it’s a niche case study with limited relevance beyond the entertainment sector.</description>
-      <guid isPermaLink="false">032e5bd4f3716ac3b6916113ab0b449f</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">048ff83807a1ac8867c0fe4a37a43af7</guid>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>We Did the Math on AI’s Energy Footprint (MIT Tech Review)</title>
+      <title>We Did the Math on AI’s Energy Footprint (MIT Tech Review) [ ~ ]</title>
       <link>https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/?s=09</link>
       <description>This article attempts to quantify AI's carbon footprint but concludes that most data is unavailable or speculative. Our analysts acknowledged the importance of energy transparency in AI ethics but found the article lacking in actionable insight, viewing it as more of a thought-starter than a strategic resource.</description>
-      <guid isPermaLink="false">02b85aaecc47290ed00ed7f7c9ebe300</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">d79cdc3073c7cbef13d167ee93f9bd65</guid>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>New Features in OpenAI’s Responses API</title>
+      <title>New Features in OpenAI’s Responses API [ ~ ]</title>
       <link>https://openai.com/index/new-tools-and-features-in-the-responses-api/</link>
       <description>OpenAI enhanced its Responses API with remote MCP support, asynchronous behavior for long tasks, and improved debugging features. While these upgrades are beneficial for developers, the changes are incremental and technical, offering limited immediate utility to AI decision-makers.</description>
-      <guid isPermaLink="false">1182013f970a5d9fa6260f2767dc7ee0</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">532b9b2236601399896e97844d6ffdb3</guid>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Devstral</title>
+      <title>Devstral [ ~ ]</title>
       <link>https://mistral.ai/news/devstral</link>
       <description>Mistral launched Devstral, an open-source local coding assistant claiming superior performance among smaller code models. Despite some advantages like on-device operability and open-source availability, our analysts viewed it as one of many entrants in an increasingly saturated AI coding tools market, with limited differentiation or strategic relevance for AI leaders at this stage.</description>
-      <guid isPermaLink="false">435f74482ef906acd1c68124ffad3392</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">83be9ce709d4f17bfaf352d6d9273e76</guid>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Reward Reasoning Model</title>
+      <title>Reward Reasoning Model [ * ]</title>
       <link>https://huggingface.co/papers/2505.14674</link>
       <description>This research introduces a novel "reward reasoning model" approach from Microsoft and collaborators, which uses test-time compute to evaluate reward functions dynamically rather than relying on pre-trained or human-defined signals. Our analysts noted the model's potential to significantly enhance reinforcement learning and unit economics, particularly by enabling human-like reasoning in AI post training processes. While highly technical, this paper signifies a valuable advancement in model performance and reward optimization.</description>
-      <guid isPermaLink="false">55493c7554362b1813476acf2f0ca800</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">0413e808520c944aca646c4845e525ae</guid>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Spring 2025 AI Model Usage Trends</title>
+      <title>Spring 2025 AI Model Usage Trends [ * ]</title>
       <link>https://poe.com/blog/spring-2025-ai-model-usage-trends</link>
       <description>Poe (a Quora product) released usage trend data across LLMs for Spring 2025, revealing shifts in adoption across models like OpenAI, Claude, DeepSeek, and Gemini. Though some of our analysts questioned the data's representativeness and trustworthiness, the report offers valuable insights for AI leaders assessing vendor landscapes and tracking real-world adoption trends across text, image, and reasoning model categories.</description>
-      <guid isPermaLink="false">6a467248b2dbd5b1b62b5a337682ae8f</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">d5aeabbb77315da5bc4d5017537f642e</guid>
+      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Voice AI is Working. Here Where It Wins First</title>
+      <title>Voice AI is Working. Here Where It Wins First [ * ]</title>
       <link>https://www.nfx.com/post/voice-ai-is-working</link>
       <description>This article explores the current successes and future potential of voice AI, particularly in high-volume, low-complexity tasks. Analysts emphasized its relevance in understanding the evolving landscape of AI-driven voice applications.</description>
-      <guid isPermaLink="false">f8bd48b68471d3de08baa7f9bb035cb6</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">d0746b1d6887d845faf9490f78d4cd70</guid>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Automating complex document processing: How Onity Group built an intelligent solution using Amazon Bedrock</title>
+      <title>Automating complex document processing: How Onity Group built an intelligent solution using Amazon Bedrock [ * ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/automating-complex-document-processing-how-onity-group-built-an-intelligent-solution-using-amazon-bedrock/</link>
       <description>Onity Group's implementation of an intelligent document processing solution using Amazon Bedrock showcases practical applications of AI in handling diverse and complex documents. Our analysts highlighted the efficiency gains and scalability achieved through this approach.</description>
-      <guid isPermaLink="false">1d9c8942c1fa81870de3e43f22956b83</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">ec8f5f8e5716c43d817603362fbe379c</guid>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Klarna used an AI avatar of its CEO to deliver earnings, it said</title>
+      <title>Klarna used an AI avatar of its CEO to deliver earnings, it said [ * ]</title>
       <link>https://techcrunch.com/2025/05/21/klarna-used-an-ai-avatar-of-its-ceo-to-deliver-earnings-it-said/</link>
       <description>Klarna's use of an AI-generated avatar of its CEO to present earnings highlights signals Klarna commitment to GenAI even in corporate communications. Our analysts pointed out this move as indicative of growing trends in using AI-driven content creation and executive representation.</description>
-      <guid isPermaLink="false">e28dad15f1235eeea7aec064ae7a96c8</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">0539bc1642c580d4ccac352efc70e914</guid>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Making AI Work: Leadership, Lab, and Crowd</title>
+      <title>Making AI Work: Leadership, Lab, and Crowd [ * ]</title>
       <link>https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and</link>
       <description>This article discusses the organizational challenges and strategies for effective AI integration, emphasizing the roles of leadership, experimentation, and collective input. Our analysts noted its practical insights into fostering AI adoption within companies.</description>
-      <guid isPermaLink="false">8d8379153172274e9a99f928a33a161f</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">540a221bfcddba87429328c81d97a8c9</guid>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Document AI, powered by the world best OCR</title>
+      <title>Document AI, powered by the world best OCR [ ! ]</title>
       <link>https://mistral.ai/solutions/document-ai</link>
       <description>Mistral's Document AI introduces a state-of-the-art OCR system capable of accurately processing complex documents, including those with interleaved imagery and advanced layouts at scale. Our analysts emphasized its potential to revolutionize document processing tasks across various industries.</description>
-      <guid isPermaLink="false">586e94bb41bff566443a21cecf50ddc3</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">d08f6fd57baa124bb34c6cd5c6f4a8cb</guid>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing Claude 4</title>
+      <title>Introducing Claude 4 [ ! ]</title>
       <link>https://www.anthropic.com/news/claude-4</link>
       <description>Anthropic has launched Claude 4 Opus and Claude Sonnet 4, marking significant advancements in AI capabilities, particularly in coding, reasoning, and long-duration task performance. Our analysts highlighted Claude 4 Opus's ability to handle complex tasks over extended periods, positioning it as a leading model in the AI landscape.</description>
-      <guid isPermaLink="false">32696c55698efef0d20ffd2b76ba0b1e</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">ac05c5ba0d0c3fbaac5bd39a1befcc31</guid>
+      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Bluenote Powers Intelligent Agents for Life Sciences with Claude</title>
+      <title>Bluenote Powers Intelligent Agents for Life Sciences with Claude [ ~ ]</title>
       <link>https://www.anthropic.com/customers/bluenote</link>
       <description>Bluenote utilizes Anthropic's Claude to build AI agents that streamline operations in life sciences, enhancing efficiency in regulatory workflows and documentation. Our analysts acknowledged the practical application but considered it a specific case study with limited broader impact.</description>
-      <guid isPermaLink="false">1a3d97bc318c4c31a9bbf502cadb1e77</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">fcabe9edf59102f114afd0f6bff8f4dc</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The New Economics of Enterprise Technology in an AI World</title>
+      <title>The New Economics of Enterprise Technology in an AI World [ ~ ]</title>
       <link>https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-new-economics-of-enterprise-technology-in-an-ai-world</link>
       <description>McKinsey explores how AI is reshaping enterprise technology spending and productivity. Our analysts found the insights valuable but noted that the article reiterates known trends without introducing new insights.</description>
-      <guid isPermaLink="false">60c6dc4dd1ea14a2bce0364c3beae7b1</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">807f39dc2ca75c83e9842f0d8dfaf5c1</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>At Amazon, Some Coders Say Their Jobs Have Begun to Resemble Warehouse Work</title>
+      <title>At Amazon, Some Coders Say Their Jobs Have Begun to Resemble Warehouse Work [ ~ ]</title>
       <link>https://archive.is/HVZRL</link>
       <description>Amazon software engineers report increased pressure to work faster due to AI integration, likening their roles to warehouse work. Our analysts observed that while this highlights the impact of AI on job roles, it primarily reflects internal company dynamics rather than broader industry trends.</description>
-      <guid isPermaLink="false">620803fb0945423dc7366543b189a4d6</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">5271c5a29b9c513511194b8a487f232a</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>New Capabilities for Building Agents on the Anthropic API</title>
+      <title>New Capabilities for Building Agents on the Anthropic API [ * ]</title>
       <link>https://www.anthropic.com/news/agent-capabilities-api</link>
       <description>Anthropic has introduced four new features to its API, enhancing the development of AI agents through tools like code execution, MCP connector, Files API, and prompt caching. Our analysts pointed out that these capabilities significantly lower the barrier for developers to create sophisticated AI agents, marking a notable advancement in AI tooling.</description>
-      <guid isPermaLink="false">e366aaf011b66135bfe6666ec23a1402</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">f878d25f8a74fcafc0ba1f275d60aa7f</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Agentic AI Is Already Changing the Workforce</title>
+      <title>Agentic AI Is Already Changing the Workforce [ * ]</title>
       <link>https://archive.md/KWYNe</link>
       <description>he article discusses how agentic AI is expanding the definition of the workforce by introducing digital labor capable of performing complex tasks traditionally done by humans. Our analysts noted the significant implications for workforce dynamics and the necessity for organizations to adapt to this shift.</description>
-      <guid isPermaLink="false">b0e2d9adbd3bd2a2e116c897caac6106</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">386e61312f7979307056e6906d5d13bc</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Google’s ‘World-Model’ Bet: Building the AI Operating Layer Before Microsoft Captures the UI</title>
+      <title>Google’s ‘World-Model’ Bet: Building the AI Operating Layer Before Microsoft Captures the UI [ ! ]</title>
       <link>https://venturebeat.com/ai/googles-world-model-bet-building-the-ai-operating-layer-before-microsoft-captures-the-ui/</link>
       <description>Google is developing a "world model" AI operating layer to power a universal assistant, aiming to integrate AI deeply into its ecosystem and preempt competitors like Microsoft and OpenAI. Our analysts highlighted this as a pivotal strategic move in the AI landscape, emphasizing its potential to redefine user interaction and enterprise AI integration.</description>
-      <guid isPermaLink="false">d9a1cfaba953e9b7501a52c88d7705d2</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">e13a833f74be5d27564d67243a573b49</guid>
+      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>BAGEL: The Open-Source Unified Multimodal Model</title>
+      <title>BAGEL: The Open-Source Unified Multimodal Model [ ~ ]</title>
       <link>https://bagel-ai.org/</link>
       <description>ByteDance's BAGEL is an open-source multimodal model capable of understanding and generating text and images, positioning itself as a competitor to models like GPT-4o. Analysts considered it a noteworthy development in open-source AI, though its practical applications are still emerging.</description>
-      <guid isPermaLink="false">a6145d7929a976d1bb54bbbe04681224</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">5a2349087bcb13e8adcca60cdf3970f1</guid>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>GuardianGamer Scales Family-Safe Cloud Gaming with AWS</title>
+      <title>GuardianGamer Scales Family-Safe Cloud Gaming with AWS [ ~ ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/guardiangamer-scales-family-safe-cloud-gaming-with-aws/</link>
       <description>GuardianGamer utilizes AWS services to create a cloud gaming platform focused on child safety and parental engagement, leveraging AI for content moderation and insights. Analysts found it to be an interesting application of AI in gaming, though its broader impact remains to be seen.</description>
-      <guid isPermaLink="false">83fee38c5831ee3c4c9ff35107a29b8e</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">2c626876d2bb9b9f5dc682d26a7c7be1</guid>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SoftBank Corp’s Large Telecom Model: Shaping the Future of Network Operations with Generative AI</title>
+      <title>SoftBank Corp’s Large Telecom Model: Shaping the Future of Network Operations with Generative AI [ ~ ]</title>
       <link>https://www.softbank.jp/en/corp/technology/research/story-event/079/</link>
       <description>SoftBank has developed a Large Telecom Model (LTM), a generative AI foundation trained on extensive telecom data to optimize network operations. While our analysts acknowledged its potential to transform telecom infrastructure, they noted that its applicability is currently limited to specialized industry contexts.</description>
-      <guid isPermaLink="false">f5afc2515606e728a16f787d3a9d0c3d</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">b208e48528d42562fee7365cd3ab971d</guid>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Unmute: Make LLMs Listen and Speak</title>
+      <title>Unmute: Make LLMs Listen and Speak [ * ]</title>
       <link>https://kyutai.org/2025/05/22/unmute.html</link>
       <description>Kyutai's Unmute introduces a modular system that adds real-time voice interaction to any text-based LLM, featuring low-latency speech-to-text and text-to-speech capabilities. Our analysts highlighted that this development is a significant step towards more natural and accessible AI-driven content creation and human-computer interaction.</description>
-      <guid isPermaLink="false">7872d0660bfa4ae375070568e16d9a6f</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">08e798f22cf515f92c6871bf1078161d</guid>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Build AI Agents with the Mistral Agents API</title>
+      <title>Build AI Agents with the Mistral Agents API [ * ]</title>
       <link>https://mistral.ai/news/agents-api?s=09</link>
       <description>Mistral has launched its Agents API, enabling developers to create autonomous AI agents capable of executing code, performing web searches, and managing tasks with persistent memory. Our analysts noted that this release significantly enhances the capabilities of large language models, marking a substantial advancement in AI automation and agent orchestration.</description>
-      <guid isPermaLink="false">22f0c6222d1943f523fa4d10583e8ffd</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">2f0f52849250fe6373ef643448509e6f</guid>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How the AI Hiring Landscape Is Shifting in 2025</title>
+      <title>How the AI Hiring Landscape Is Shifting in 2025 [ ! ]</title>
       <link>https://www.signalfire.com/blog/signalfire-state-of-talent-report-2025</link>
       <description>SignalFire’s 2025 State of Talent Report reveals a dramatic shift in tech hiring, with new graduate hiring plummeting by over 50% compared to pre-pandemic levels, and Texas startup headcounts declining significantly. Our analysts emphasized that this report is crucial for understanding how AI automation and economic shifts are reshaping workforce strategies, especially in AI-intensive sectors.</description>
-      <guid isPermaLink="false">1c669ddd6a4162bcb20acb87b5db8b6e</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">ec2408c8a06cd31084c9431dde18a8b1</guid>
+      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Two Paths for A.I.</title>
+      <title>Two Paths for A.I. [ ~ ]</title>
       <link>https://www.newyorker.com/culture/open-questions/two-paths-for-ai?s=09</link>
       <description>This New Yorker opinion piece presents a philosophical dichotomy on AI’s future—either existential threat or beneficial tool—centering on recursive self-improvement risks. Our analysts criticized the article for shallow analysis and rhetorical overreach, seeing little value beyond AI ethics speculation.</description>
-      <guid isPermaLink="false">6af6c4ceb5cf09da2d42e23afdfb4a10</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">882de051d1bb9ad4028b3e202d298df5</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Codestral Embed</title>
+      <title>Codestral Embed [ ~ ]</title>
       <link>https://mistral.ai/news/codestral-embed?s=09</link>
       <description>Mistral launched Codestral Embed, a code-focused embedding model designed to assist with developer workflows and retrieval-augmented generation. Despite some relevance for technical practitioners, our analysts found the announcement light on implementation details and lacking broader industry impact.</description>
-      <guid isPermaLink="false">1525d0f7622f674aeeff17e78dc83a95</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">c295dac7b4f514e46e2c424a1ec3d474</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Using Voice Mode on Claude Mobile Apps</title>
+      <title>Using Voice Mode on Claude Mobile Apps [ ~ ]</title>
       <link>https://support.anthropic.com/en/articles/11101966-using-voice-mode-on-claude-mobile-apps</link>
       <description>Anthropic introduced a new voice mode for its Claude mobile apps, adding voice-to-text functionality for user prompts. While relevant for user experience evolution in AI chatbots, our analysts agreed it’s largely a product catch-up with limited technical or strategic depth.</description>
-      <guid isPermaLink="false">36fd8c6a43e92a857fc17e7e0c1a2a12</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">a281cf5a5aa81b58e4579f6402fce003</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Rufus Doubled Their Inference Speed and Handled Prime Day Traffic</title>
+      <title>How Rufus Doubled Their Inference Speed and Handled Prime Day Traffic [ * ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-rufus-doubled-their-inference-speed-and-handled-prime-day-traffic-with-aws-ai-chips-and-parallel-decoding/</link>
       <description>Amazon’s Rufus chatbot showcases how infrastructure and inference optimizations—such as parallel decoding and AI-powered query planning—enabled it to meet massive Prime Day demand. Our analysts noted this as a strong case study in full-stack AI system thinking, demonstrating real-world applications of generative AI scalability and latency reduction.</description>
-      <guid isPermaLink="false">3ed2156c63654692a6294328a541f45c</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">10adbcb39ed2b0f19fe887b3a670b34b</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How Generative Engine Optimization (GEO) Rewrites the Rules of Search</title>
+      <title>How Generative Engine Optimization (GEO) Rewrites the Rules of Search [ ! ]</title>
       <link>https://a16z.com/geo-over-seo/?s=09</link>
       <description>Andreessen Horowitz outlines how generative AI is shifting digital discovery from Search Engine Optimization to Generative Engine Optimization, changing how content must be structured to be quoted by AI models. Our analyst team noted this has far-reaching implications not just for marketing but also product discovery, brand reputation, and advertising economics—requiring immediate CEO and board-level awareness.</description>
-      <guid isPermaLink="false">637cb2f325943ab72f1df75c8c17c8af</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">f258d5d8f87ad4e8343cfbbaff3332d0</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The State of AI in the Enterprise</title>
+      <title>The State of AI in the Enterprise [ ! ]</title>
       <link>https://cloud.app.box.com/s/lai54mzu8a7nip4k1dlboiakfu4p94k1?s=09</link>
       <description>This report offers data-backed insights from 1,300 executives across industries on how organizations are adapting to the AI-first era, highlighting trends in productivity, agent adoption, and IT budget allocation. Our analysts emphasized that companies aggressively investing in generative AI are pulling ahead, and the comprehensive metrics and implications make this required reading for AI leaders.</description>
-      <guid isPermaLink="false">7cbb6cfde2cac7d07b5c6ffbd62ce760</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">10167eeeb05e327d7984f8fd0041fc3a</guid>
+      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Opera new browser can code websites and games for you</title>
+      <title>Opera new browser can code websites and games for you [ ~ ]</title>
       <link>https://techcrunch.com/2025/05/28/operas-new-browser-can-code-websites-and-games-for-you/</link>
       <description>Opera's new browser integrates generative AI to enable users to chat, make, and do — allowing them to build simple sites and games directly within the browser. While a slick user-friendly feature, our analysts pointed out that Opera's limited market share and the inevitability of similar tools from bigger players make this a lower-priority development.</description>
-      <guid isPermaLink="false">3029df0b636bf1c2c7ae2dac3a659aa0</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">0ef994baafe92abc780bb260ebbdd95b</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language Models</title>
+      <title>MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language Models [ ~ ]</title>
       <link>https://arxiv.org/abs/2505.22101</link>
       <description>MemOS proposes a novel architecture for integrating training, inference, and RAG-style context into a continuous memory stream inspired by human neuroplasticity. Our analysts found the theory intriguing but noted the lack of performance metrics or practical demonstrations, making this an early-stage concept rather than a must-read.</description>
-      <guid isPermaLink="false">b67a15f6df6af7afd847edbdbaa3a951</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">2ec566aaaf5fa149ff8f2eb23a68a22d</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI video you can both watch and interact with in real-time</title>
+      <title>AI video you can both watch and interact with in real-time [ ~ ]</title>
       <link>https://odyssey.world/introducing-interactive-video</link>
       <description>Odyssey introduces a new kind of AI-generated video that users can interact with in real-time, attempting to blend rendering and user input dynamically. Our analysts appreciated its potential but noted its current limitations in realism and utility, deeming it more of a tech demo at this stage.</description>
-      <guid isPermaLink="false">8a31ef4711eb80f9d46660f947471940</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">da340465b142e7cb9033b90399e2396d</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Open-sourcing circuit tracing tools</title>
+      <title>Open-sourcing circuit tracing tools [ * ]</title>
       <link>https://www.anthropic.com/research/open-source-circuit-tracing</link>
       <description>Anthropic has open-sourced powerful tools for tracing attention pathways in large language models, advancing explainability in AI systems. Despite a lightweight article, our analysts agreed that such tools are foundational for AI safety, reducing hallucinations, and enabling transparency — key for enterprise and research applications.</description>
-      <guid isPermaLink="false">558cea7d050d2f60defe2891701558a9</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">74acef26a3981872308b206bfc8afe6e</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>DeepSeek R1-0528 arrives in powerful open source challenge to OpenAI o3 and Google Gemini 2.5 Pro</title>
+      <title>DeepSeek R1-0528 arrives in powerful open source challenge to OpenAI o3 and Google Gemini 2.5 Pro [ * ]</title>
       <link>https://venturebeat.com/ai/deepseek-r1-0528-arrives-in-powerful-open-source-challenge-to-openai-o3-and-google-gemini-2-5-pro/</link>
       <description>DeepSeek’s R1-0528 offers a competitive open-source LLM nearing the capabilities of top-tier models like OpenAI's GPT-4 and Gemini 2.5 Pro, with strong cost advantages and integration with support platforms like Azure Foundry. Our analysts emphasized the significance of its fine-tuning strategy and pricing parity, positioning it as a notable force in distributed AI intelligence and a strategic player to watch.</description>
-      <guid isPermaLink="false">27198ad261951319d81b72bbcc9349b6</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">a41fcdf94240614d9d2d2a43ebe2f221</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CodeRabbit improves code review accuracy with OpenAI o3, o4-mini, and GPT-4.1</title>
+      <title>CodeRabbit improves code review accuracy with OpenAI o3, o4-mini, and GPT-4.1 [ ! ]</title>
       <link>https://openai.com/index/coderabbit/</link>
       <description>OpenAI's CodeRabbit tool is designed to enhance code review workflows by integrating large language models (LLMs) like GPT-4.1, offering dramatic improvements in review accuracy and bug reduction. Our analysts highlighted its impact on productivity and code quality, marking it as a core enabler in AI-driven software development and essential for organizations seeking to scale their development velocity.</description>
-      <guid isPermaLink="false">6f78073ae0d075c62270ad03337049fb</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">a23d2d61cf04eeff77f7a46b95c32038</guid>
+      <pubDate>Fri, 30 May 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>How ZURU improved the accuracy of floor plan generation by 109% using Amazon Bedrock and Amazon SageMaker</title>
+      <title>How ZURU improved the accuracy of floor plan generation by 109% using Amazon Bedrock and Amazon SageMaker [ ~ ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-zuru-improved-the-accuracy-of-floor-plan-generation-by-109-using-amazon-bedrock-and-amazon-sagemaker/</link>
       <description>This AWS case study outlines how ZURU used GenAI to automate 3D floor plan generation. Although informative, our analysts felt the insights were niche and reiterated known best practices in AI-driven content creation.</description>
-      <guid isPermaLink="false">66a0a1370ebf4eeef6041466c733d478</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">34ce717c137c3134a645bed100ba6c2d</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing FLUX.1 Kontext and the BFL Playground</title>
+      <title>Introducing FLUX.1 Kontext and the BFL Playground [ ~ ]</title>
       <link>https://bfl.ai/announcements/flux-1-kontext</link>
       <description>Black Forest Labs introduced a visual-language AI model with strong character consistency and context-awareness, targeted toward image generation and marketing use cases. While the technical progress was acknowledged, our analysts deemed it early-stage and lacking external validation, making it more of an incremental update than a must-read.</description>
-      <guid isPermaLink="false">a59456b825c7bbb891c2b402a6e771ac</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">c9419e4d15982ba2c66a8a7fb0743a8e</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Which LLM should you use? Token Monster automatically combines multiple models and tools for you</title>
+      <title>Which LLM should you use? Token Monster automatically combines multiple models and tools for you [ ~ ]</title>
       <link>https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/</link>
       <description>Token Monster proposes a model-agnostic routing layer across popular foundation models, but it remains an alpha-stage product with limited novelty in orchestration. Our analysts flagged it as a commoditized capability with unclear value for AI leaders, particularly given past credibility concerns around its creator.</description>
-      <guid isPermaLink="false">4e59fd0142f397c72cf37768e7cfec00</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">5a9dc04b88c91275770dd622c95a72f9</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>For Some Recent Graduates, the A.I. Job Apocalypse May Already Be Here</title>
+      <title>For Some Recent Graduates, the A.I. Job Apocalypse May Already Be Here [ * ]</title>
       <link>https://www.nytimes.com/2025/05/30/technology/ai-jobs-college-graduates.html</link>
       <description>This article discusses the difficult hiring landscape for recent grads—particularly in computer science—amidst rising AI adoption and automation. While the reporting was seen as sensationalist, our team agreed the trend is real and critical for executives to understand as they rethink early-career hiring strategies in an AI-first economy.</description>
-      <guid isPermaLink="false">2eda7f3c3f0b687225550750a456e9aa</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">ddc5fe9a140e628e9ed51186f97decbb</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>The Darwin Gödel Machine: AI that improves itself by rewriting its own code</title>
+      <title>The Darwin Gödel Machine: AI that improves itself by rewriting its own code [ ! ]</title>
       <link>https://sakana.ai/dgm/</link>
       <description>Sakana's new Darwin Gödel Machine represents a shift in AI autonomy, combining evolutionary and mathematical reasoning to continuously improve its own code for complex tasks. Our analyst team noted its 20–50% performance boost on GitHub tasks as a sign of rapid evolution in self-coding AI, calling this a pivotal development for AI automation and software productivity.</description>
-      <guid isPermaLink="false">864818cc309171cfc3730b906deb0721</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">470104567125b5d7e2f195830b33b635</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>Introducing ElevenLabs Conversational AI 2.0</title>
+      <title>Introducing ElevenLabs Conversational AI 2.0 [ ! ]</title>
       <link>https://elevenlabs.io/blog/conversational-ai-2-0</link>
       <description>ElevenLabs has released a major update to its voice technology platform, emphasizing conversational flow and filler word detection, representing a significant shift from traditional voice synthesis to full conversational AI. Our analysts agreed this marks a paradigm shift—transforming the web from something you read into something you talk to—underscoring the growing ubiquity of voice-native AI interfaces in enterprises.</description>
-      <guid isPermaLink="false">d6c38af51d6d1cf104e92573f517f7eb</guid>
-      <pubDate>Mon, 02 Jun 2025 16:16:02 +0000</pubDate>
+      <guid isPermaLink="false">530d9dfe8f85bedc3f395223c3994844</guid>
+      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
