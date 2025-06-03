@@ -2,6 +2,126 @@
   "data": [
     {
       "Date": {
+        "text": "06/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Meta Aims to Fully Automate Ad Creation Using AI",
+        "links": [
+          "https://archive.is/oAOuK#selection-2539.0-2539.48"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta plans to use generative AI to fully automate ad creation, a move that could significantly reduce the effort required by small and mid-sized businesses to scale their advertising. Our analysts considered this a strategic shift from one of the world's largest digital advertising platforms, emphasizing its potential to disrupt AI-driven content creation across the industry.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Going beyond AI assistants: Examples from Amazon.com reinventing industries with generative AI",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/going-beyond-ai-assistants-examples-from-amazon-com-reinventing-industries-with-generative-ai/"
+        ]
+      },
+      "Rationale": {
+        "text": "Amazon showcases how it is using generative AI beyond chat-based assistants to redesign core business tasks, including in healthcare use cases. Our analysts praised the detailed, modular examples and highlighted Amazon's engineering-based approach and emphasized that the article powerfully reframes GenAI as a tool for full business process transformation, signaling a shift from surface-level AI adoption to measurable enterprise value.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Trends – Artificial Intelligence",
+        "links": [
+          "https://www.bondcap.com/report/pdf/Trends_Artificial_Intelligence.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "Mary Meeker's 340-page AI trends report aggregates comprehensive data on generative AI adoption, usage patterns, and market impact, positioning it as a reference point for leaders tracking industry acceleration. Despite its length, our analysts agreed the early sections provide indispensable context on the scale and speed of AI growth, especially in comparison to historical tech adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How CMOs Are Scaling GenAI in Turbulent Times",
+        "links": [
+          "https://www.bcg.com/publications/2025/how-cmos-scaling-gen-ai-in-turbulent-times"
+        ]
+      },
+      "Rationale": {
+        "text": "Based on a survey of 200 CMOs, this BCG report outlines how marketing leaders are using AI for personalization, customer insights, and experience enhancement, while also highlighting weak measurement practices. Analysts found it valuable as a snapshot of enterprise AI adoption in marketing, even though much of the content reinforced existing trends rather than breaking new ground.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Recent History of AI in 32 Otters",
+        "links": [
+          "https://www.oneusefulthing.org/p/the-recent-history-of-ai-in-32-otters"
+        ]
+      },
+      "Rationale": {
+        "text": "Ethan Mollick uses a playful metaphor to chart the evolution of image and video generation in AI, making the exponential progress in generative visuals more tangible. Our analysts found it an effective communication tool to illustrate rapid advancement in generative AI, though it lacked technical or strategic depth to warrant essential status.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "PlayDiffusion by Play.ai",
+        "links": [
+          "https://github.com/playht/PlayDiffusion"
+        ]
+      },
+      "Rationale": {
+        "text": "PlayDiffusion enables AI-powered editing of video content, such as replacing characters like Neo with Morpheus in clips, showcasing an everyday miracle of generative video tools. Our analysts viewed it as an interesting algorithmic demo with limited leadership relevance, especially given its GitHub-based presentation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/02/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "NVIDIA’s DreamGen presents a novel four-stage pipeline for generating synthetic robot training data using video world models, enabling zero-shot learning from visual inputs. Our analysts emphasized that this capability dramatically shifts the frontier of robotics, marking a breakthrough in AI automation and simulation-based training with potential to reshape manufacturing and robotics industries.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "05/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "ROBIN: A Multi-Agent System for Automating Scientific Discovery",
-        "links": [
-          "https://arxiv.org/pdf/2505.13400"
-        ]
-      },
-      "Rationale": {
-        "text": "ROBIN is a multi-agent generative AI system that autonomously performs literature review, hypothesis generation, and experimental planning—recently discovering a treatment for dry macular degeneration. Our analysts agreed that ROBIN represents a leap in AI-driven scientific discovery that exemplifies how generative AI can automate and accelerate new knowledge creation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "NFL Combine + Azure AI",
-        "links": [
-          "https://www.microsoft.com/en/customers/story/23954-nfl-combine-azure-ai-foundry"
-        ]
-      },
-      "Rationale": {
-        "text": "The NFL has adopted Azure AI to provide real-time insights during the NFL Combine, enhancing how teams evaluate talent and make decisions. Though lacking in hard metrics, our analysts viewed this as a strong industry-specific application of retrieval-augmented generation (RAG) and AI-enhanced decision support in high-profile, data-intensive contexts.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Prompt Adaptation",
-        "links": [
-          "https://www.notdiamond.ai/blog/launching-prompt-adaptation"
-        ]
-      },
-      "Rationale": {
-        "text": "Startup NotDiamond released Prompt Adaptation, a tool that rewrites prompts making them specific to multiple LLMs to reduce vendor lock-in and adapt to shifting model behaviors. Our analysts noted that while not fully integrated into workflows, this trend addresses a rising challenge in LLMOps and was seen as valuable for developers managing multi-model environments.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "HERE Technologies Coding Assistant",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/here-technologies-boosts-developer-productivity-with-new-generative-ai-powered-coding-assistant/"
-        ]
-      },
-      "Rationale": {
-        "text": "HERE Technologies developed a GenAI-powered coding assistant to streamline onboarding and navigation of its complex internal documentation. The team noted this as a strong use case for AI-driven productivity and documentation support, particularly for enterprises with legacy systems and complex onboarding requirements.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Apodia Group enhances visual information extraction from banking documents",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-apoidea-group-enhances-visual-information-extraction-from-banking-documents-with-multimodal-models-using-llama-factory-on-amazon-sagemaker-hyperpod/"
-        ]
-      },
-      "Rationale": {
-        "text": "Apodia Group fine-tuned Qwen2-VL-7B-Instruct model to extract visual information from financial documents, addressing a major challenge in banking. Our analysts emphasized the depth and clarity of this case study and the significance of applying domain-specific fine-tuning for unstructured data extraction, calling it a standout example of generative AI in finance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Microsoft Build 2025: The Age of AI Agents and the Open Agentic Web",
-        "links": [
-          "https://blogs.microsoft.com/blog/2025/05/19/microsoft-build-2025-the-age-of-ai-agents-and-building-the-open-agentic-web/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft announced a full-stack commitment to AI agents across Azure and Windows, new protocols (MCP, A2A), and fine-tuning infrastructure at Build 2025. Our analysts agreed this represents an important evolution in AI tooling, supporting enterprise-grade agent development and signaling deep platform integration.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-03T08:18:26.746679+00:00"
+  "timestamp": "2025-06-03T14:17:01.006430+00:00"
 }

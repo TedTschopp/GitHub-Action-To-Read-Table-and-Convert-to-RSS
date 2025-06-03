@@ -1,19 +1,19 @@
 {
-  "timestamp": "2025-06-03T08:18:44.006551+00:00",
+  "timestamp": "2025-06-03T14:17:18.791541+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Tue, 03 Jun 2025 08:18:26 +0000",
-      "size_bytes": 35363,
+      "last_updated": "Tue, 03 Jun 2025 14:17:01 +0000",
+      "size_bytes": 35345,
       "errors": []
     },
     "eei_ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 0,
-      "last_updated": "Tue, 03 Jun 2025 08:18:43 +0000",
+      "last_updated": "Tue, 03 Jun 2025 14:17:18 +0000",
       "size_bytes": 529,
       "errors": [
         "No entries in RSS feed"
