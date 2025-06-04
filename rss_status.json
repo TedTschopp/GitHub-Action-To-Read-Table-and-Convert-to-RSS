@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-06-04T00:58:56.511677+00:00",
+  "timestamp": "2025-06-04T08:18:01.028990+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Wed, 04 Jun 2025 00:58:38 +0000",
+      "last_updated": "Wed, 04 Jun 2025 08:17:43 +0000",
       "size_bytes": 35345,
       "errors": []
     },
@@ -13,7 +13,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 0,
-      "last_updated": "Wed, 04 Jun 2025 00:58:56 +0000",
+      "last_updated": "Wed, 04 Jun 2025 08:18:00 +0000",
       "size_bytes": 529,
       "errors": [
         "No entries in RSS feed"
