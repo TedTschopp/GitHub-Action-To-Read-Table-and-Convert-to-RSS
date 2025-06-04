@@ -2,6 +2,146 @@
   "data": [
     {
       "Date": {
+        "text": "06/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "State of AI: China",
+        "links": [
+          "https://artificialanalysis.ai/downloads/china-report/2025/Artificial-Analysis-State-of-AI-China-Q2-2025-Highlights.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "This comprehensive visual report provides a strategic overview of China's accelerating progress in generative AI, challenging U.S. dominance and highlighting models approaching parity with OpenAI’s offerings. Our analysts emphasized the geopolitical significance of China's AI infrastructure investment, noting the report's utility for executive briefings and the clear visualization of shifts in global AI power structures.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Holo-1: New family of GUI automation VLMs powering GUI agent Surfer-H",
+        "links": [
+          "https://huggingface.co/blog/Hcompany/holo1"
+        ]
+      },
+      "Rationale": {
+        "text": "The H Company has open-sourced Holo-1, a browser-based AI agent framework that mimics human interactions with web browsers and graphical user interfaces, aiming to automate complex workflows. While still early, our analysts noted its relevance in the rising wave of web automation agents and its open-source nature allows immediate experimentation, marking it as a notable step in the evolution of AI agents.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Faster, Smarter, Cheaper: AI Is Reinventing Market Research",
+        "links": [
+          "https://a16z.com/ai-market-research/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Andreessen Horowitz showcases how generative AI is reshaping market research by automating time-consuming data collection and analysis tasks, drastically reducing time-to-insight. Our analysts panel highlighted the shift from manual processes to AI-driven content creation in market research as a major operational change, noting the report as a useful benchmark for emerging practices.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How S&P is using deep web scraping, ensemble learning and Snowflake architecture to collect 5X more data on SMEs",
+        "links": [
+          "https://venturebeat.com/data-infrastructure/how-sp-is-using-deep-web-scraping-ensemble-learning-and-snowflake-architecture-to-collect-5x-more-data-on-smes/"
+        ]
+      },
+      "Rationale": {
+        "text": "S&P’s data infrastructure initiative combines web scraping and ensemble learning to better assess SME risk, offering a glimpse into large-scale AI data engineering. However, our analysts viewed this as a narrow case study with limited generalizability beyond its industry-specific application.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Selecting a Model Based on Stripe Conversion – A Practical Eval for Startups",
+        "links": [
+          "https://cookbook.openai.com/examples/stripe_model_eval/selecting_a_model_based_on_stripe_conversion?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This OpenAI Cookbook example demonstrates how real-world business metrics, like Stripe conversion rates, can guide model selection. While conceptually useful, our analysts noted the approach is only relevant to startups with high traffic volume and was too technical or niche for most AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Why I have slightly longer timelines than some of my guests",
+        "links": [
+          "https://www.dwarkesh.com/p/timelines-june-2025?manualredirect="
+        ]
+      },
+      "Rationale": {
+        "text": "Dwarkesh Patel explores the limitations to rapid AGI development, focusing on the need for continual learning in AI models. Our analysts panel acknowledged the intellectual value but considered the topic speculative and less actionable for enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Memory in ChatGPT",
+        "links": [
+          "https://x.com/OpenAI/status/1910378768172212636?t=XHAEwdIJQuyx3cFwviEKOw&s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI's memory feature in ChatGPT enhances persistent user personalization and conversational depth, representing a meaningful UX improvement. However, since the feature has been widely rolled out since April, analysts viewed it as useful but not newsworthy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/03/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "Poe (a Quora product) released usage trend data across LLMs for Spring 2025, revealing shifts in adoption across models like OpenAI, Claude, DeepSeek, and Gemini. Though some of our analysts questioned the data's representativeness and trustworthiness, the report offers valuable insights for AI leaders assessing vendor landscapes and tracking real-world adoption trends across text, image, and reasoning model categories.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "05/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Reward Reasoning Model",
-        "links": [
-          "https://huggingface.co/papers/2505.14674"
-        ]
-      },
-      "Rationale": {
-        "text": "This research introduces a novel \"reward reasoning model\" approach from Microsoft and collaborators, which uses test-time compute to evaluate reward functions dynamically rather than relying on pre-trained or human-defined signals. Our analysts noted the model's potential to significantly enhance reinforcement learning and unit economics, particularly by enabling human-like reasoning in AI post training processes. While highly technical, this paper signifies a valuable advancement in model performance and reward optimization.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Devstral",
-        "links": [
-          "https://mistral.ai/news/devstral"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral launched Devstral, an open-source local coding assistant claiming superior performance among smaller code models. Despite some advantages like on-device operability and open-source availability, our analysts viewed it as one of many entrants in an increasingly saturated AI coding tools market, with limited differentiation or strategic relevance for AI leaders at this stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "New Features in OpenAI’s Responses API",
-        "links": [
-          "https://openai.com/index/new-tools-and-features-in-the-responses-api/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI enhanced its Responses API with remote MCP support, asynchronous behavior for long tasks, and improved debugging features. While these upgrades are beneficial for developers, the changes are incremental and technical, offering limited immediate utility to AI decision-makers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "We Did the Math on AI’s Energy Footprint (MIT Tech Review)",
-        "links": [
-          "https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This article attempts to quantify AI's carbon footprint but concludes that most data is unavailable or speculative. Our analysts acknowledged the importance of energy transparency in AI ethics but found the article lacking in actionable insight, viewing it as more of a thought-starter than a strategic resource.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Webtoon + LangGraph: Agentic Workflows in Entertainment",
-        "links": [
-          "https://blog.langchain.dev/customers-webtoon/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Webtoon Entertainment partnered with Langchain to create agentic workflows that enable internal creators to generate new products from existing web comic data. Although it highlights creative use of vision-language models and data reuse, our analysts noted that it’s a niche case study with limited relevance beyond the entertainment sector.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Google I/O 2025",
-        "links": [
-          "https://techcrunch.com/2025/05/20/google-i-o-2025-everything-announced-at-this-years-developer-conference/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google announced a sweeping range of AI-driven updates at I/O 2025, including Gemini Ultra, Deep Think mode, Veo 3 video generation, Imagine 4 image generation, and a new AI Mode for search. Our analysts highlighted that although some features are incremental, the comprehensive scale and integration of generative AI across the Google ecosystem marks a major strategic shift that AI leaders must understand.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "DreamGen",
-        "links": [
-          "https://research.nvidia.com/labs/gear/dreamgen"
-        ]
-      },
-      "Rationale": {
-        "text": "NVIDIA’s DreamGen presents a novel four-stage pipeline for generating synthetic robot training data using video world models, enabling zero-shot learning from visual inputs. Our analysts emphasized that this capability dramatically shifts the frontier of robotics, marking a breakthrough in AI automation and simulation-based training with potential to reshape manufacturing and robotics industries.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-04T08:17:43.027339+00:00"
+  "timestamp": "2025-06-04T16:15:40.231862+00:00"
 }

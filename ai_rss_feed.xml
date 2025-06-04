@@ -7,56 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action Table Scraper</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 04 Jun 2025 08:17:43 +0000</lastBuildDate>
-    <item>
-      <title>DreamGen [ ! ]</title>
-      <link>https://research.nvidia.com/labs/gear/dreamgen</link>
-      <description>NVIDIA’s DreamGen presents a novel four-stage pipeline for generating synthetic robot training data using video world models, enabling zero-shot learning from visual inputs. Our analysts emphasized that this capability dramatically shifts the frontier of robotics, marking a breakthrough in AI automation and simulation-based training with potential to reshape manufacturing and robotics industries.</description>
-      <guid isPermaLink="false">a5feb3f8d80b67aa1abb803358c3ba36</guid>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google I/O 2025 [ ! ]</title>
-      <link>https://techcrunch.com/2025/05/20/google-i-o-2025-everything-announced-at-this-years-developer-conference/</link>
-      <description>Google announced a sweeping range of AI-driven updates at I/O 2025, including Gemini Ultra, Deep Think mode, Veo 3 video generation, Imagine 4 image generation, and a new AI Mode for search. Our analysts highlighted that although some features are incremental, the comprehensive scale and integration of generative AI across the Google ecosystem marks a major strategic shift that AI leaders must understand.</description>
-      <guid isPermaLink="false">f6b11a777c33a73a27fe3b55dfd4ec05</guid>
-      <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Webtoon + LangGraph: Agentic Workflows in Entertainment [ ~ ]</title>
-      <link>https://blog.langchain.dev/customers-webtoon/?s=09</link>
-      <description>Webtoon Entertainment partnered with Langchain to create agentic workflows that enable internal creators to generate new products from existing web comic data. Although it highlights creative use of vision-language models and data reuse, our analysts noted that it’s a niche case study with limited relevance beyond the entertainment sector.</description>
-      <guid isPermaLink="false">048ff83807a1ac8867c0fe4a37a43af7</guid>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We Did the Math on AI’s Energy Footprint (MIT Tech Review) [ ~ ]</title>
-      <link>https://www.technologyreview.com/2025/05/20/1116327/ai-energy-usage-climate-footprint-big-tech/?s=09</link>
-      <description>This article attempts to quantify AI's carbon footprint but concludes that most data is unavailable or speculative. Our analysts acknowledged the importance of energy transparency in AI ethics but found the article lacking in actionable insight, viewing it as more of a thought-starter than a strategic resource.</description>
-      <guid isPermaLink="false">d79cdc3073c7cbef13d167ee93f9bd65</guid>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Features in OpenAI’s Responses API [ ~ ]</title>
-      <link>https://openai.com/index/new-tools-and-features-in-the-responses-api/</link>
-      <description>OpenAI enhanced its Responses API with remote MCP support, asynchronous behavior for long tasks, and improved debugging features. While these upgrades are beneficial for developers, the changes are incremental and technical, offering limited immediate utility to AI decision-makers.</description>
-      <guid isPermaLink="false">532b9b2236601399896e97844d6ffdb3</guid>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Devstral [ ~ ]</title>
-      <link>https://mistral.ai/news/devstral</link>
-      <description>Mistral launched Devstral, an open-source local coding assistant claiming superior performance among smaller code models. Despite some advantages like on-device operability and open-source availability, our analysts viewed it as one of many entrants in an increasingly saturated AI coding tools market, with limited differentiation or strategic relevance for AI leaders at this stage.</description>
-      <guid isPermaLink="false">83be9ce709d4f17bfaf352d6d9273e76</guid>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reward Reasoning Model [ * ]</title>
-      <link>https://huggingface.co/papers/2505.14674</link>
-      <description>This research introduces a novel "reward reasoning model" approach from Microsoft and collaborators, which uses test-time compute to evaluate reward functions dynamically rather than relying on pre-trained or human-defined signals. Our analysts noted the model's potential to significantly enhance reinforcement learning and unit economics, particularly by enabling human-like reasoning in AI post training processes. While highly technical, this paper signifies a valuable advancement in model performance and reward optimization.</description>
-      <guid isPermaLink="false">0413e808520c944aca646c4845e525ae</guid>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 04 Jun 2025 16:15:40 +0000</lastBuildDate>
     <item>
       <title>Spring 2025 AI Model Usage Trends [ * ]</title>
       <link>https://poe.com/blog/spring-2025-ai-model-usage-trends</link>
@@ -357,6 +308,55 @@
       <description>Meta plans to use generative AI to fully automate ad creation, a move that could significantly reduce the effort required by small and mid-sized businesses to scale their advertising. Our analysts considered this a strategic shift from one of the world's largest digital advertising platforms, emphasizing its potential to disrupt AI-driven content creation across the industry.</description>
       <guid isPermaLink="false">ca1642e110e01c3f134c915dad32fa18</guid>
       <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Memory in ChatGPT [ ~ ]</title>
+      <link>https://x.com/OpenAI/status/1910378768172212636?t=XHAEwdIJQuyx3cFwviEKOw&amp;s=09</link>
+      <description>OpenAI's memory feature in ChatGPT enhances persistent user personalization and conversational depth, representing a meaningful UX improvement. However, since the feature has been widely rolled out since April, analysts viewed it as useful but not newsworthy.</description>
+      <guid isPermaLink="false">f72066febcdccfee0557c2271a24b017</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why I have slightly longer timelines than some of my guests [ ~ ]</title>
+      <link>https://www.dwarkesh.com/p/timelines-june-2025?manualredirect=</link>
+      <description>Dwarkesh Patel explores the limitations to rapid AGI development, focusing on the need for continual learning in AI models. Our analysts panel acknowledged the intellectual value but considered the topic speculative and less actionable for enterprise AI leaders.</description>
+      <guid isPermaLink="false">0f92d86f27f532a4f931086dbf59c76a</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Selecting a Model Based on Stripe Conversion – A Practical Eval for Startups [ ~ ]</title>
+      <link>https://cookbook.openai.com/examples/stripe_model_eval/selecting_a_model_based_on_stripe_conversion?s=09</link>
+      <description>This OpenAI Cookbook example demonstrates how real-world business metrics, like Stripe conversion rates, can guide model selection. While conceptually useful, our analysts noted the approach is only relevant to startups with high traffic volume and was too technical or niche for most AI leaders.</description>
+      <guid isPermaLink="false">55fb50ca974abb8c6e6e354b9a327082</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How S&amp;P is using deep web scraping, ensemble learning and Snowflake architecture to collect 5X more data on SMEs [ ~ ]</title>
+      <link>https://venturebeat.com/data-infrastructure/how-sp-is-using-deep-web-scraping-ensemble-learning-and-snowflake-architecture-to-collect-5x-more-data-on-smes/</link>
+      <description>S&amp;P’s data infrastructure initiative combines web scraping and ensemble learning to better assess SME risk, offering a glimpse into large-scale AI data engineering. However, our analysts viewed this as a narrow case study with limited generalizability beyond its industry-specific application.</description>
+      <guid isPermaLink="false">577e5ec0753bfe4a3f05696d139f5715</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Faster, Smarter, Cheaper: AI Is Reinventing Market Research [ * ]</title>
+      <link>https://a16z.com/ai-market-research/?s=09</link>
+      <description>Andreessen Horowitz showcases how generative AI is reshaping market research by automating time-consuming data collection and analysis tasks, drastically reducing time-to-insight. Our analysts panel highlighted the shift from manual processes to AI-driven content creation in market research as a major operational change, noting the report as a useful benchmark for emerging practices.</description>
+      <guid isPermaLink="false">02b0058046d48a1df80a3a37437f0c9f</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Holo-1: New family of GUI automation VLMs powering GUI agent Surfer-H [ * ]</title>
+      <link>https://huggingface.co/blog/Hcompany/holo1</link>
+      <description>The H Company has open-sourced Holo-1, a browser-based AI agent framework that mimics human interactions with web browsers and graphical user interfaces, aiming to automate complex workflows. While still early, our analysts noted its relevance in the rising wave of web automation agents and its open-source nature allows immediate experimentation, marking it as a notable step in the evolution of AI agents.</description>
+      <guid isPermaLink="false">2e8bf02cceb404ed9665ec96d08bcdc0</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>State of AI: China [ ! ]</title>
+      <link>https://artificialanalysis.ai/downloads/china-report/2025/Artificial-Analysis-State-of-AI-China-Q2-2025-Highlights.pdf</link>
+      <description>This comprehensive visual report provides a strategic overview of China's accelerating progress in generative AI, challenging U.S. dominance and highlighting models approaching parity with OpenAI’s offerings. Our analysts emphasized the geopolitical significance of China's AI infrastructure investment, noting the report's utility for executive briefings and the clear visualization of shifts in global AI power structures.</description>
+      <guid isPermaLink="false">d630db00ef3f120c376fe190655f735e</guid>
+      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
