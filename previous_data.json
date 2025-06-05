@@ -2,6 +2,126 @@
   "data": [
     {
       "Date": {
+        "text": "06/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Modify Video",
+        "links": [
+          "https://lumalabs.ai/blog/news/introducing-modify-video?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Luma AI’s Modify Video enables users to alter video environments and textures with precision while preserving original motion — a major step in AI-driven video creation. Our analysts highlighted this as a leap in generative video, seeing broad implications for product marketing, training, and digital content, with the potential to disrupt traditional video production workflows.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "ChatGPT introduces meeting recording and connectors for Google Drive, Box, and more",
+        "links": [
+          "https://techcrunch.com/2025/06/04/chatgpt-introduces-meeting-recording-and-connectors-for-google-drive-box-and-more/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has added meeting recording capabilities and connectors to popular enterprise platforms like Google Drive, Box, and SharePoint, significantly expanding ChatGPT's business utility and reinforcing its enterprise ambitions. Our analysts agreed this signals OpenAI’s push to be a core enterprise productivity platform, making it a must-know update for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Ensuring accurate product attributes at the source",
+        "links": [
+          "https://www.llama.com/static-resource/llama-case-study-shopify/"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta and Shopify collaborated on using a lightweight open-source LLaVA model to extract accurate product attributes from images, showcasing scalable AI automation for commerce. Our analysts noted the case study's architectural transparency and focus on cost-effectiveness with open source tools, especially valuable for those pursuing scalable AI.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model",
+        "links": [
+          "https://bowang-lab.github.io/BioReason"
+        ]
+      },
+      "Rationale": {
+        "text": "BioReason introduces a specialized DNA-LLM architecture for biological reasoning using small models, enabling sophisticated insights into genetic pathways. Our analysts found it impressive for life sciences applications, but noted that it has limited immediate relevance for broader enterprise AI audiences, positioning it as an important but specialized breakthrough.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Mistral Code",
+        "links": [
+          "https://mistral.ai/news/mistral-code"
+        ]
+      },
+      "Rationale": {
+        "text": "Mistral Code bundles tools like CodeStral and DevStral into a secure, on-prem coding suite aimed at European enterprises seeking AI-assisted development. Despite potential for regional appeal and a Red Hat-style open source model, our analysts agreed the offering lacks user traction and is largely playing catch-up, limiting its broader impact for now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Inside Intuit’s GenOS update",
+        "links": [
+          "https://venturebeat.com/ai/inside-intuits-genos-update-why-prompt-optimization-and-intelligent-data-cognition-are-critical-to-enterprise-agentic-ai-success/"
+        ]
+      },
+      "Rationale": {
+        "text": "Intuit’s GenOS refresh outlines three innovations — an agent starter kit, prompt optimization, and a new intelligent data ingestion layer — as key to its internal AI ecosystem. However, our analysts criticized the lack of depth, evidence, and measurable results in the article, concluding it’s more of a buzzword-heavy signal than a demonstrable advance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/04/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Anthropic has launched Claude 4 Opus and Claude Sonnet 4, marking significant advancements in AI capabilities, particularly in coding, reasoning, and long-duration task performance. Our analysts highlighted Claude 4 Opus's ability to handle complex tasks over extended periods, positioning it as a leading model in the AI landscape.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "05/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Document AI, powered by the world best OCR",
-        "links": [
-          "https://mistral.ai/solutions/document-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral's Document AI introduces a state-of-the-art OCR system capable of accurately processing complex documents, including those with interleaved imagery and advanced layouts at scale. Our analysts emphasized its potential to revolutionize document processing tasks across various industries.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Making AI Work: Leadership, Lab, and Crowd",
-        "links": [
-          "https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and"
-        ]
-      },
-      "Rationale": {
-        "text": "This article discusses the organizational challenges and strategies for effective AI integration, emphasizing the roles of leadership, experimentation, and collective input. Our analysts noted its practical insights into fostering AI adoption within companies.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Klarna used an AI avatar of its CEO to deliver earnings, it said",
-        "links": [
-          "https://techcrunch.com/2025/05/21/klarna-used-an-ai-avatar-of-its-ceo-to-deliver-earnings-it-said/"
-        ]
-      },
-      "Rationale": {
-        "text": "Klarna's use of an AI-generated avatar of its CEO to present earnings highlights signals Klarna commitment to GenAI even in corporate communications. Our analysts pointed out this move as indicative of growing trends in using AI-driven content creation and executive representation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Automating complex document processing: How Onity Group built an intelligent solution using Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/automating-complex-document-processing-how-onity-group-built-an-intelligent-solution-using-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "Onity Group's implementation of an intelligent document processing solution using Amazon Bedrock showcases practical applications of AI in handling diverse and complex documents. Our analysts highlighted the efficiency gains and scalability achieved through this approach.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Voice AI is Working. Here Where It Wins First",
-        "links": [
-          "https://www.nfx.com/post/voice-ai-is-working"
-        ]
-      },
-      "Rationale": {
-        "text": "This article explores the current successes and future potential of voice AI, particularly in high-volume, low-complexity tasks. Analysts emphasized its relevance in understanding the evolving landscape of AI-driven voice applications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Spring 2025 AI Model Usage Trends",
-        "links": [
-          "https://poe.com/blog/spring-2025-ai-model-usage-trends"
-        ]
-      },
-      "Rationale": {
-        "text": "Poe (a Quora product) released usage trend data across LLMs for Spring 2025, revealing shifts in adoption across models like OpenAI, Claude, DeepSeek, and Gemini. Though some of our analysts questioned the data's representativeness and trustworthiness, the report offers valuable insights for AI leaders assessing vendor landscapes and tracking real-world adoption trends across text, image, and reasoning model categories.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-05T08:17:21.134113+00:00"
+  "timestamp": "2025-06-05T16:16:04.134723+00:00"
 }

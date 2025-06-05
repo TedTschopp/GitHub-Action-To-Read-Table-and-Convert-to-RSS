@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action Table Scraper</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 05 Jun 2025 08:17:21 +0000</lastBuildDate>
-    <item>
-      <title>Spring 2025 AI Model Usage Trends [ * ]</title>
-      <link>https://poe.com/blog/spring-2025-ai-model-usage-trends</link>
-      <description>Poe (a Quora product) released usage trend data across LLMs for Spring 2025, revealing shifts in adoption across models like OpenAI, Claude, DeepSeek, and Gemini. Though some of our analysts questioned the data's representativeness and trustworthiness, the report offers valuable insights for AI leaders assessing vendor landscapes and tracking real-world adoption trends across text, image, and reasoning model categories.</description>
-      <guid isPermaLink="false">d5aeabbb77315da5bc4d5017537f642e</guid>
-      <pubDate>Thu, 22 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Voice AI is Working. Here Where It Wins First [ * ]</title>
-      <link>https://www.nfx.com/post/voice-ai-is-working</link>
-      <description>This article explores the current successes and future potential of voice AI, particularly in high-volume, low-complexity tasks. Analysts emphasized its relevance in understanding the evolving landscape of AI-driven voice applications.</description>
-      <guid isPermaLink="false">d0746b1d6887d845faf9490f78d4cd70</guid>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Automating complex document processing: How Onity Group built an intelligent solution using Amazon Bedrock [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/automating-complex-document-processing-how-onity-group-built-an-intelligent-solution-using-amazon-bedrock/</link>
-      <description>Onity Group's implementation of an intelligent document processing solution using Amazon Bedrock showcases practical applications of AI in handling diverse and complex documents. Our analysts highlighted the efficiency gains and scalability achieved through this approach.</description>
-      <guid isPermaLink="false">ec8f5f8e5716c43d817603362fbe379c</guid>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Klarna used an AI avatar of its CEO to deliver earnings, it said [ * ]</title>
-      <link>https://techcrunch.com/2025/05/21/klarna-used-an-ai-avatar-of-its-ceo-to-deliver-earnings-it-said/</link>
-      <description>Klarna's use of an AI-generated avatar of its CEO to present earnings highlights signals Klarna commitment to GenAI even in corporate communications. Our analysts pointed out this move as indicative of growing trends in using AI-driven content creation and executive representation.</description>
-      <guid isPermaLink="false">0539bc1642c580d4ccac352efc70e914</guid>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Making AI Work: Leadership, Lab, and Crowd [ * ]</title>
-      <link>https://www.oneusefulthing.org/p/making-ai-work-leadership-lab-and</link>
-      <description>This article discusses the organizational challenges and strategies for effective AI integration, emphasizing the roles of leadership, experimentation, and collective input. Our analysts noted its practical insights into fostering AI adoption within companies.</description>
-      <guid isPermaLink="false">540a221bfcddba87429328c81d97a8c9</guid>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Document AI, powered by the world best OCR [ ! ]</title>
-      <link>https://mistral.ai/solutions/document-ai</link>
-      <description>Mistral's Document AI introduces a state-of-the-art OCR system capable of accurately processing complex documents, including those with interleaved imagery and advanced layouts at scale. Our analysts emphasized its potential to revolutionize document processing tasks across various industries.</description>
-      <guid isPermaLink="false">d08f6fd57baa124bb34c6cd5c6f4a8cb</guid>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 05 Jun 2025 16:16:04 +0000</lastBuildDate>
     <item>
       <title>Introducing Claude 4 [ ! ]</title>
       <link>https://www.anthropic.com/news/claude-4</link>
@@ -357,6 +315,48 @@
       <description>This comprehensive visual report provides a strategic overview of China's accelerating progress in generative AI, challenging U.S. dominance and highlighting models approaching parity with OpenAI’s offerings. Our analysts emphasized the geopolitical significance of China's AI infrastructure investment, noting the report's utility for executive briefings and the clear visualization of shifts in global AI power structures.</description>
       <guid isPermaLink="false">d630db00ef3f120c376fe190655f735e</guid>
       <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside Intuit’s GenOS update [ ~ ]</title>
+      <link>https://venturebeat.com/ai/inside-intuits-genos-update-why-prompt-optimization-and-intelligent-data-cognition-are-critical-to-enterprise-agentic-ai-success/</link>
+      <description>Intuit’s GenOS refresh outlines three innovations — an agent starter kit, prompt optimization, and a new intelligent data ingestion layer — as key to its internal AI ecosystem. However, our analysts criticized the lack of depth, evidence, and measurable results in the article, concluding it’s more of a buzzword-heavy signal than a demonstrable advance.</description>
+      <guid isPermaLink="false">f724790c675f92b8123ab06a463d85bc</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral Code [ ~ ]</title>
+      <link>https://mistral.ai/news/mistral-code</link>
+      <description>Mistral Code bundles tools like CodeStral and DevStral into a secure, on-prem coding suite aimed at European enterprises seeking AI-assisted development. Despite potential for regional appeal and a Red Hat-style open source model, our analysts agreed the offering lacks user traction and is largely playing catch-up, limiting its broader impact for now.</description>
+      <guid isPermaLink="false">dd1387f14974b361279c585207545fca</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model [ * ]</title>
+      <link>https://bowang-lab.github.io/BioReason</link>
+      <description>BioReason introduces a specialized DNA-LLM architecture for biological reasoning using small models, enabling sophisticated insights into genetic pathways. Our analysts found it impressive for life sciences applications, but noted that it has limited immediate relevance for broader enterprise AI audiences, positioning it as an important but specialized breakthrough.</description>
+      <guid isPermaLink="false">e44558a1d685254b6714bd2371ebbb9a</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ensuring accurate product attributes at the source [ * ]</title>
+      <link>https://www.llama.com/static-resource/llama-case-study-shopify/</link>
+      <description>Meta and Shopify collaborated on using a lightweight open-source LLaVA model to extract accurate product attributes from images, showcasing scalable AI automation for commerce. Our analysts noted the case study's architectural transparency and focus on cost-effectiveness with open source tools, especially valuable for those pursuing scalable AI.</description>
+      <guid isPermaLink="false">5f032db55078e8d7e2c725db3d2e2a0a</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT introduces meeting recording and connectors for Google Drive, Box, and more [ ! ]</title>
+      <link>https://techcrunch.com/2025/06/04/chatgpt-introduces-meeting-recording-and-connectors-for-google-drive-box-and-more/</link>
+      <description>OpenAI has added meeting recording capabilities and connectors to popular enterprise platforms like Google Drive, Box, and SharePoint, significantly expanding ChatGPT's business utility and reinforcing its enterprise ambitions. Our analysts agreed this signals OpenAI’s push to be a core enterprise productivity platform, making it a must-know update for AI leaders.</description>
+      <guid isPermaLink="false">c89416317051f6e0073ee5b1ec6b8df7</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Modify Video [ ! ]</title>
+      <link>https://lumalabs.ai/blog/news/introducing-modify-video?s=09</link>
+      <description>Luma AI’s Modify Video enables users to alter video environments and textures with precision while preserving original motion — a major step in AI-driven video creation. Our analysts highlighted this as a leap in generative video, seeing broad implications for product marketing, training, and digital content, with the potential to disrupt traditional video production workflows.</description>
+      <guid isPermaLink="false">b2d4020ea4b867568bcc13ef5723f392</guid>
+      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
