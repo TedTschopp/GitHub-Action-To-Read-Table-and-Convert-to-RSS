@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action Table Scraper</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 06 Jun 2025 08:17:02 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Claude 4 [ ! ]</title>
-      <link>https://www.anthropic.com/news/claude-4</link>
-      <description>Anthropic has launched Claude 4 Opus and Claude Sonnet 4, marking significant advancements in AI capabilities, particularly in coding, reasoning, and long-duration task performance. Our analysts highlighted Claude 4 Opus's ability to handle complex tasks over extended periods, positioning it as a leading model in the AI landscape.</description>
-      <guid isPermaLink="false">ac05c5ba0d0c3fbaac5bd39a1befcc31</guid>
-      <pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bluenote Powers Intelligent Agents for Life Sciences with Claude [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/bluenote</link>
-      <description>Bluenote utilizes Anthropic's Claude to build AI agents that streamline operations in life sciences, enhancing efficiency in regulatory workflows and documentation. Our analysts acknowledged the practical application but considered it a specific case study with limited broader impact.</description>
-      <guid isPermaLink="false">fcabe9edf59102f114afd0f6bff8f4dc</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The New Economics of Enterprise Technology in an AI World [ ~ ]</title>
-      <link>https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-new-economics-of-enterprise-technology-in-an-ai-world</link>
-      <description>McKinsey explores how AI is reshaping enterprise technology spending and productivity. Our analysts found the insights valuable but noted that the article reiterates known trends without introducing new insights.</description>
-      <guid isPermaLink="false">807f39dc2ca75c83e9842f0d8dfaf5c1</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>At Amazon, Some Coders Say Their Jobs Have Begun to Resemble Warehouse Work [ ~ ]</title>
-      <link>https://archive.is/HVZRL</link>
-      <description>Amazon software engineers report increased pressure to work faster due to AI integration, likening their roles to warehouse work. Our analysts observed that while this highlights the impact of AI on job roles, it primarily reflects internal company dynamics rather than broader industry trends.</description>
-      <guid isPermaLink="false">5271c5a29b9c513511194b8a487f232a</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Capabilities for Building Agents on the Anthropic API [ * ]</title>
-      <link>https://www.anthropic.com/news/agent-capabilities-api</link>
-      <description>Anthropic has introduced four new features to its API, enhancing the development of AI agents through tools like code execution, MCP connector, Files API, and prompt caching. Our analysts pointed out that these capabilities significantly lower the barrier for developers to create sophisticated AI agents, marking a notable advancement in AI tooling.</description>
-      <guid isPermaLink="false">f878d25f8a74fcafc0ba1f275d60aa7f</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentic AI Is Already Changing the Workforce [ * ]</title>
-      <link>https://archive.md/KWYNe</link>
-      <description>he article discusses how agentic AI is expanding the definition of the workforce by introducing digital labor capable of performing complex tasks traditionally done by humans. Our analysts noted the significant implications for workforce dynamics and the necessity for organizations to adapt to this shift.</description>
-      <guid isPermaLink="false">386e61312f7979307056e6906d5d13bc</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 06 Jun 2025 16:15:50 +0000</lastBuildDate>
     <item>
       <title>Google’s ‘World-Model’ Bet: Building the AI Operating Layer Before Microsoft Captures the UI [ ! ]</title>
       <link>https://venturebeat.com/ai/googles-world-model-bet-building-the-ai-operating-layer-before-microsoft-captures-the-ui/</link>
@@ -357,6 +315,48 @@
       <description>Luma AI’s Modify Video enables users to alter video environments and textures with precision while preserving original motion — a major step in AI-driven video creation. Our analysts highlighted this as a leap in generative video, seeing broad implications for product marketing, training, and digital content, with the potential to disrupt traditional video production workflows.</description>
       <guid isPermaLink="false">b2d4020ea4b867568bcc13ef5723f392</guid>
       <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BNP Paribas provides its businesses with an LLM as a Service platform to accelerate the industrialization of generative AI use cases [ ~ ]</title>
+      <link>https://group.bnpparibas/en/press-release/bnp-paribas-provides-its-businesses-with-an-llm-as-a-service-platform-to-accelerate-the-industrialization-of-generative-ai-use-cases</link>
+      <description>BNP Paribas launched an internal platform offering LLM-as-a-Service to accelerate AI use cases across departments. The announcement lacked specific implementation outcomes or economic impact, leading our analysts to treat it as a basic product reveal rather than a strategic milestone.</description>
+      <guid isPermaLink="false">0a933617a477329aaea87cdd656958b4</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Morgan Stanley Tackled One of Coding’s Toughest Problems [ ~ ]</title>
+      <link>https://www.wsj.com/articles/how-morgan-stanley-tackled-one-of-codings-toughest-problems-4f465959?s=09</link>
+      <description>Morgan Stanley developed a custom model to convert COBOL code to English summaries to help refactor legacy systems, claiming a savings of 280,000 developer hours. Despite the financial scale, our analysts noted the approach lags behind current GenAI capabilities, and viewed the article as light on technical details and better suited for awareness than actionable insight.</description>
+      <guid isPermaLink="false">2f1f6b40e51ed5e78d8f88f89f8d9897</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coding Agents with Multimodal Browsing are Generalist Problem Solvers [ ~ ]</title>
+      <link>https://arxiv.org/abs/2506.03011?s=09</link>
+      <description>This research presents a model that uses a minimal toolset (web search, file access, code editing, browsing) to outperform specialist models on certain tasks using Claude Sonnet. However, our analysts considered it an academic benchmark exercise with limited immediate relevance for enterprise AI leaders.</description>
+      <guid isPermaLink="false">fedd78c10c6bdbc070ca9deb18838be2</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ether0: a scientific reasoning model for chemistry [ * ]</title>
+      <link>https://www.futurehouse.org/research-announcements/ether0-a-scientific-reasoning-model-for-chemistry</link>
+      <description>FutureHouse’s ether0 is a fine-tuned version of Mistral optimized for scientific reasoning in chemistry, demonstrating high performance in molecule generation but lower performance in language tasks. Our analysts viewed it as a compelling case of AI in science, highlighting the efficiency of small, domain-specific models and the implications for future AI-driven scientific discovery.</description>
+      <guid isPermaLink="false">cff607e251d95d7bd37b60baf211ab51</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enhanced diagnostics flow with LLM and Amazon Bedrock agent integration [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/enhanced-diagnostics-flow-with-llm-and-amazon-bedrock-agent-integration/</link>
+      <description>This AWS case study details how Noodoe used LLMs via Amazon Bedrock to optimize pricing for EV charging stations, claiming a 15% revenue increase and 10% implementation time reduction. While some of our analysts questioned whether GenAI was necessary for the task versus traditional ML, they acknowledged its cross-industry applicability and clear architectural insights.</description>
+      <guid isPermaLink="false">37cf08e5e451aba4dfc143d9aaacf416</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BenchmarkQED: Automated Benchmarking of RAG Systems [ * ]</title>
+      <link>https://www.microsoft.com/en-us/research/blog/benchmarkqed-automated-benchmarking-of-rag-systems/</link>
+      <description>Microsoft has introduced BenchmarkQED, a tool that automates evaluation of RAG systems using qualitative metrics such as comprehensiveness, diversity, empowerment, and relevance, with LLM acting as a judge. Our analysts emphasized its growing relevance for enterprise AI workflows and praised its open, framework-based approach to measuring the effectiveness of graph, vector, and relational RAG configurations across environments.</description>
+      <guid isPermaLink="false">96303c7abd8573e1df0c02da0f2b0dfb</guid>
+      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
