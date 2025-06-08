@@ -87,9 +87,13 @@ gems:
 
 # RSS feeds
 rss_feeds:
-  - name: "GAI Insights"
+  - name: "Latest News in AI"
     url: "/ai_rss_feed.xml"
     description: "Latest AI and technology insights"
   - name: "LinkedIn AI News"
     url: "/eei_ai_rss_feed.xml"
     description: "AI news from LinkedIn"
+
+# RSS display settings
+rss_preview_limit: 5  # Number of RSS items to show in homepage previews (default: 5)
+                      # Change this value to display more or fewer items on the homepage

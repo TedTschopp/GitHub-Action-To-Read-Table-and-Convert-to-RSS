@@ -98,6 +98,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Load RSS previews
     const rssFeeds = {{ site.rss_feeds | jsonify }};
+    const rssPreviewLimit = {{ site.rss_preview_limit | default: 5 }};
     
     rssFeeds.forEach(feed => {
         const previewElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-preview');
@@ -111,8 +112,8 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 let previewHtml = '<ul class="list-unstyled">';
                 
-                // Show first 5 items
-                for (let i = 0; i < Math.min(5, items.length); i++) {
+                // Show first items (configurable limit)
+                for (let i = 0; i < Math.min(rssPreviewLimit, items.length); i++) {
                     const item = items[i];
                     const title = item.querySelector('title')?.textContent || 'No title';
                     const link = item.querySelector('link')?.textContent || '#';
@@ -131,7 +132,7 @@ document.addEventListener('DOMContentLoaded', function() {
                                 <strong>${title}</strong>
                             </a>
                             ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
-                            ${description ? `<small class="text-muted d-block">${description.substring(0, 100)}...</small>` : ''}
+                            ${description ? `<small class="text-muted d-block">${description}...</small>` : ''}
                         </li>
                     `;
                 }
