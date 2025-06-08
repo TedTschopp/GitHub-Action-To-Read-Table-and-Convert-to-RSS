@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+
+# RSS feeds
+Allow: /ai_rss_feed.xml
+Allow: /eei_ai_rss_feed.xml
+Allow: /rss_status.json
+
+# Sitemap
+Sitemap: https://rss.tedt.org/sitemap.xml

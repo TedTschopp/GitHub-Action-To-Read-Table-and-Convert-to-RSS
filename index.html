@@ -1,0 +1,153 @@
+---
+layout: default
+class: home-template
+---
+
+<!-- Start Featured Posts -->
+<div class="featured-posts">
+    <div class="section-title">
+        <h2><span>RSS Feeds</span></h2>
+    </div>
+    <div class="row">
+        {% for feed in site.rss_feeds %}
+        <div class="col-md-6">
+            <div class="card border-0 mb-4 box-shadow">
+                <div class="card-header">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h2 class="card-title"><a href="{{ feed.url }}">{{ feed.name }}</a></h2>
+                            <small class="d-block text-muted">{{ feed.description }}</small>
+                        </div>
+                        <div class="col-auto">
+                            <a href="{{ feed.url }}" class="btn btn-sm btn-outline-success">
+                                <i class="fas fa-rss"></i> RSS
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div id="{{ feed.name | slugify }}-preview" class="rss-preview">
+                        Loading latest entries...
+                    </div>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- RSS Status -->
+<div class="rss-status mt-5">
+    <div class="section-title">
+        <h2><span>Feed Status</span></h2>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card border-0 box-shadow">
+                <div class="card-body">
+                    <div id="rss-status-content">
+                        Loading feed status...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- JavaScript for RSS preview -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Load RSS status
+    fetch('/rss_status.json')
+        .then(response => response.json())
+        .then(data => {
+            const statusContent = document.getElementById('rss-status-content');
+            let statusHtml = '<div class="row">';
+            
+            if (data.feeds) {
+                Object.entries(data.feeds).forEach(([feedName, feedData]) => {
+                    const statusClass = feedData.status === 'healthy' ? 'success' : 'danger';
+                    const statusIcon = feedData.status === 'healthy' ? 'check-circle' : 'exclamation-triangle';
+                    
+                    statusHtml += `
+                        <div class="col-md-6 mb-3">
+                            <div class="alert alert-${statusClass} d-flex align-items-center">
+                                <i class="fas fa-${statusIcon} me-2"></i>
+                                <div>
+                                    <strong>${feedName}</strong><br>
+                                    <small>
+                                        Entries: ${feedData.entry_count || 0} | 
+                                        Last Updated: ${feedData.last_updated ? new Date(feedData.last_updated).toLocaleString() : 'Unknown'}
+                                    </small>
+                                    ${feedData.error ? `<br><small class="text-muted">Error: ${feedData.error}</small>` : ''}
+                                </div>
+                            </div>
+                        </div>
+                    `;
+                });
+            }
+            
+            statusHtml += '</div>';
+            statusContent.innerHTML = statusHtml;
+        })
+        .catch(error => {
+            console.error('Error loading RSS status:', error);
+            document.getElementById('rss-status-content').innerHTML = 
+                '<div class="alert alert-warning">Unable to load feed status</div>';
+        });
+
+    // Load RSS previews
+    const rssFeeds = {{ site.rss_feeds | jsonify }};
+    
+    rssFeeds.forEach(feed => {
+        const previewElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-preview');
+        
+        fetch(feed.url)
+            .then(response => response.text())
+            .then(xmlText => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                const items = xmlDoc.querySelectorAll('item');
+                
+                let previewHtml = '<ul class="list-unstyled">';
+                
+                // Show first 5 items
+                for (let i = 0; i < Math.min(5, items.length); i++) {
+                    const item = items[i];
+                    const title = item.querySelector('title')?.textContent || 'No title';
+                    const link = item.querySelector('link')?.textContent || '#';
+                    const pubDate = item.querySelector('pubDate')?.textContent;
+                    const description = item.querySelector('description')?.textContent;
+                    
+                    let formattedDate = '';
+                    if (pubDate) {
+                        const date = new Date(pubDate);
+                        formattedDate = date.toLocaleDateString();
+                    }
+                    
+                    previewHtml += `
+                        <li class="mb-2">
+                            <a href="${link}" target="_blank" class="text-decoration-none">
+                                <strong>${title}</strong>
+                            </a>
+                            ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
+                            ${description ? `<small class="text-muted d-block">${description.substring(0, 100)}...</small>` : ''}
+                        </li>
+                    `;
+                }
+                
+                previewHtml += '</ul>';
+                
+                if (items.length === 0) {
+                    previewHtml = '<div class="alert alert-info">No entries found in this feed</div>';
+                }
+                
+                previewElement.innerHTML = previewHtml;
+            })
+            .catch(error => {
+                console.error('Error loading RSS feed:', error);
+                previewElement.innerHTML = '<div class="alert alert-warning">Unable to load feed preview</div>';
+            });
+    });
+});
+</script>

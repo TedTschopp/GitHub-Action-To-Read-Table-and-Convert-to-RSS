@@ -1,4 +1,4 @@
-name: Scrape Table and Generate RSS Feed
+name: RSS Feed Hub - Scrape and Deploy
 
 on:
   schedule:
@@ -6,6 +6,15 @@ on:
     - cron: '0 */8 * * *'
   workflow_dispatch:
     # Allow manual triggering
+  push:
+    branches: [ main ]
+    paths:
+      - '_config.yml'
+      - '_layouts/**'
+      - 'index.html'
+      - 'about.md'
+      - 'Gemfile'
+      - '*.py'
 
 jobs:
   scrape-and-generate-rss:
@@ -13,6 +22,8 @@ jobs:
     
     permissions:
       contents: write
+      pages: write
+      id-token: write
     
     outputs:
       rss-updated: ${{ steps.check-changes.outputs.changes-detected }}
@@ -37,7 +48,7 @@ jobs:
         pip install -r requirements.txt
         
     - name: Run scraper and generate RSS
-      run: python scrape_to_rss.py
+      run: python enhanced_scraper.py
       env:
         CHROME_BIN: /usr/bin/chromium-browser
         DEBUG: "true"
@@ -57,9 +68,74 @@ jobs:
         if git diff --staged --quiet; then
           echo "No changes to commit"
           echo "changes-detected=false" >> $GITHUB_OUTPUT
+          echo "## RSS Feed Status 📡" >> $GITHUB_STEP_SUMMARY
+          echo "No new RSS content detected in this run." >> $GITHUB_STEP_SUMMARY
         else
           echo "Changes detected, committing..."
           git commit -m "Update RSS feeds and status report - $(date -u)"
           git push
           echo "changes-detected=true" >> $GITHUB_OUTPUT
+          echo "## RSS Feed Status 📡" >> $GITHUB_STEP_SUMMARY
+          echo "✅ RSS feeds updated successfully!" >> $GITHUB_STEP_SUMMARY
+          echo "- RSS files committed and pushed to repository" >> $GITHUB_STEP_SUMMARY
+          echo "- Jekyll site will be rebuilt and deployed" >> $GITHUB_STEP_SUMMARY
         fi
+
+  # Build and deploy Jekyll site
+  build-and-deploy-site:
+    runs-on: ubuntu-latest
+    needs: scrape-and-generate-rss
+    if: always() # Run even if scraping fails
+    
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    
+    # Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+    # However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+    concurrency:
+      group: "pages"
+      cancel-in-progress: false
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        # Fetch latest changes if RSS was updated
+        ref: ${{ github.ref }}
+        
+    - name: Setup Ruby
+      uses: ruby/setup-ruby@v1
+      with:
+        ruby-version: '3.2'
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+        
+    - name: Setup Pages
+      id: pages
+      uses: actions/configure-pages@v4
+      
+    - name: Build Jekyll site
+      run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      env:
+        JEKYLL_ENV: production
+        
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v3
+      with:
+        path: ./_site
+        
+    - name: Deploy to GitHub Pages
+      id: deployment
+      uses: actions/deploy-pages@v4
+      
+    - name: Add deployment summary
+      run: |
+        echo "## Jekyll Site Deployment 🚀" >> $GITHUB_STEP_SUMMARY
+        echo "✅ Jekyll site successfully deployed!" >> $GITHUB_STEP_SUMMARY
+        echo "🌐 Site URL: ${{ steps.deployment.outputs.page_url }}" >> $GITHUB_STEP_SUMMARY
+        echo "📅 Deployed at: $(date -u)" >> $GITHUB_STEP_SUMMARY

@@ -1,0 +1,208 @@
+---
+layout: default
+title: "RSS Feeds"
+permalink: /feeds/
+---
+
+<div class="row">
+    <div class="col-md-12">
+        <h1>RSS Feeds</h1>
+        <p class="lead">Subscribe to our curated RSS feeds to stay updated with the latest AI and technology news.</p>
+    </div>
+</div>
+
+<div class="row">
+    {% for feed in site.rss_feeds %}
+    <div class="col-md-6 mb-4">
+        <div class="card h-100 border-0 box-shadow">
+            <div class="card-header bg-transparent">
+                <div class="d-flex justify-content-between align-items-center">
+                    <h3 class="card-title mb-0">{{ feed.name }}</h3>
+                    <div>
+                        <a href="{{ feed.url }}" class="btn btn-success btn-sm">
+                            <i class="fas fa-rss"></i> RSS
+                        </a>
+                        <button class="btn btn-outline-secondary btn-sm" onclick="copyFeedUrl('{{ site.url }}{{ feed.url }}')">
+                            <i class="fas fa-copy"></i> Copy
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="card-body">
+                <p class="card-text">{{ feed.description }}</p>
+                
+                <div class="mb-3">
+                    <strong>Feed URL:</strong>
+                    <div class="input-group">
+                        <input type="text" class="form-control form-control-sm" 
+                               value="{{ site.url }}{{ feed.url }}" 
+                               id="feed-url-{{ forloop.index }}" readonly>
+                        <button class="btn btn-outline-secondary btn-sm" type="button" 
+                                onclick="copyFeedUrl('{{ site.url }}{{ feed.url }}', {{ forloop.index }})">
+                            <i class="fas fa-copy"></i>
+                        </button>
+                    </div>
+                </div>
+                
+                <div id="{{ feed.name | slugify }}-status" class="feed-status">
+                    <small class="text-muted">Loading status...</small>
+                </div>
+                
+                <hr>
+                
+                <h5>Recent Entries</h5>
+                <div id="{{ feed.name | slugify }}-entries" class="feed-entries">
+                    <small class="text-muted">Loading entries...</small>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+
+<!-- Usage Instructions -->
+<div class="row mt-5">
+    <div class="col-md-12">
+        <div class="card border-0 box-shadow">
+            <div class="card-header">
+                <h4><i class="fas fa-question-circle"></i> How to Use RSS Feeds</h4>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h5>Popular RSS Readers</h5>
+                        <ul>
+                            <li><strong>Feedly</strong> - Web-based RSS reader</li>
+                            <li><strong>Inoreader</strong> - Feature-rich RSS service</li>
+                            <li><strong>NewsBlur</strong> - Social RSS reader</li>
+                            <li><strong>RSS Guard</strong> - Desktop RSS client</li>
+                            <li><strong>NetNewsWire</strong> - macOS/iOS RSS reader</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <h5>How to Subscribe</h5>
+                        <ol>
+                            <li>Copy the RSS feed URL from above</li>
+                            <li>Open your preferred RSS reader</li>
+                            <li>Add a new feed/subscription</li>
+                            <li>Paste the RSS URL</li>
+                            <li>Save and enjoy automatic updates!</li>
+                        </ol>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+// Copy feed URL to clipboard
+function copyFeedUrl(url, feedIndex = null) {
+    navigator.clipboard.writeText(url).then(function() {
+        // Show success message
+        const btn = feedIndex ? 
+            document.querySelector(`#feed-url-${feedIndex}`).nextElementSibling :
+            event.target;
+        
+        const originalText = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-check"></i> Copied!';
+        btn.classList.remove('btn-outline-secondary');
+        btn.classList.add('btn-success');
+        
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.classList.remove('btn-success');
+            btn.classList.add('btn-outline-secondary');
+        }, 2000);
+    }).catch(function(err) {
+        console.error('Could not copy text: ', err);
+        alert('Failed to copy URL. Please copy manually.');
+    });
+}
+
+document.addEventListener('DOMContentLoaded', function() {
+    // Load feed status and entries
+    const rssFeeds = {{ site.rss_feeds | jsonify }};
+    
+    // Load RSS status
+    fetch('/rss_status.json')
+        .then(response => response.json())
+        .then(data => {
+            rssFeeds.forEach((feed, index) => {
+                const feedKey = feed.name.toLowerCase().replace(/\s+/g, '_');
+                const statusElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-status');
+                
+                if (data.feeds && data.feeds[feedKey]) {
+                    const feedData = data.feeds[feedKey];
+                    const statusClass = feedData.status === 'healthy' ? 'success' : 'danger';
+                    const statusIcon = feedData.status === 'healthy' ? 'check-circle' : 'exclamation-triangle';
+                    
+                    statusElement.innerHTML = `
+                        <span class="badge bg-${statusClass}">
+                            <i class="fas fa-${statusIcon}"></i> ${feedData.status}
+                        </span>
+                        <small class="text-muted ms-2">
+                            ${feedData.entry_count || 0} entries | 
+                            Updated: ${feedData.last_updated ? new Date(feedData.last_updated).toLocaleDateString() : 'Unknown'}
+                        </small>
+                    `;
+                } else {
+                    statusElement.innerHTML = '<span class="badge bg-secondary">Unknown</span>';
+                }
+            });
+        })
+        .catch(error => {
+            console.error('Error loading RSS status:', error);
+        });
+    
+    // Load feed entries
+    rssFeeds.forEach(feed => {
+        const entriesElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-entries');
+        
+        fetch(feed.url)
+            .then(response => response.text())
+            .then(xmlText => {
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
+                const items = xmlDoc.querySelectorAll('item');
+                
+                if (items.length === 0) {
+                    entriesElement.innerHTML = '<small class="text-muted">No entries found</small>';
+                    return;
+                }
+                
+                let entriesHtml = '<ul class="list-unstyled">';
+                
+                // Show first 3 items
+                for (let i = 0; i < Math.min(3, items.length); i++) {
+                    const item = items[i];
+                    const title = item.querySelector('title')?.textContent || 'No title';
+                    const link = item.querySelector('link')?.textContent || '#';
+                    const pubDate = item.querySelector('pubDate')?.textContent;
+                    
+                    let formattedDate = '';
+                    if (pubDate) {
+                        const date = new Date(pubDate);
+                        formattedDate = date.toLocaleDateString();
+                    }
+                    
+                    entriesHtml += `
+                        <li class="mb-2">
+                            <a href="${link}" target="_blank" class="text-decoration-none">
+                                ${title}
+                            </a>
+                            ${formattedDate ? `<br><small class="text-muted">${formattedDate}</small>` : ''}
+                        </li>
+                    `;
+                }
+                
+                entriesHtml += '</ul>';
+                entriesElement.innerHTML = entriesHtml;
+            })
+            .catch(error => {
+                console.error('Error loading RSS feed:', error);
+                entriesElement.innerHTML = '<small class="text-danger">Unable to load entries</small>';
+            });
+    });
+});
+</script>

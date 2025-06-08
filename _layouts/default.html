@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+    
+    <!-- SEO -->
+    {% seo %}
+    
+    <!-- Favicon -->
+    <!-- <link rel="icon" href="{{ site.baseurl }}/assets/images/favicon.png"> -->
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.6;
+            color: #333;
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        
+        .section-title {
+            margin-bottom: 2rem;
+        }
+        
+        .section-title h2 {
+            position: relative;
+            display: inline-block;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+        
+        .section-title h2 span {
+            background: white;
+            padding-right: 20px;
+        }
+        
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: #e9ecef;
+            z-index: -1;
+        }
+        
+        .box-shadow {
+            box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+            transition: box-shadow 0.15s ease-in-out;
+        }
+        
+        .box-shadow:hover {
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+        }
+        
+        .card {
+            border-radius: 0.5rem;
+        }
+        
+        .card-header {
+            background: transparent;
+            border-bottom: 1px solid #e9ecef;
+        }
+        
+        .rss-preview ul {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        
+        .rss-preview a {
+            color: #2c3e50;
+        }
+        
+        .rss-preview a:hover {
+            color: #3498db;
+        }
+        
+        .footer {
+            background: #2c3e50;
+            color: white;
+            padding: 2rem 0;
+            margin-top: 4rem;
+        }
+        
+        .btn-outline-success {
+            border-color: #28a745;
+            color: #28a745;
+        }
+        
+        .btn-outline-success:hover {
+            background-color: #28a745;
+            border-color: #28a745;
+            color: white;
+        }
+        
+        @media (max-width: 768px) {
+            .section-title h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+    
+    <!-- RSS Feeds -->
+    {% feed_meta %}
+    {% for feed in site.rss_feeds %}
+    <link rel="alternate" type="application/rss+xml" title="{{ feed.name }}" href="{{ site.url }}{{ feed.url }}">
+    {% endfor %}
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white border-bottom">
+        <div class="container">
+            <a class="navbar-brand" href="{{ site.baseurl }}/">
+                {% if site.logo %}
+                <img src="{{ site.baseurl }}/{{ site.logo }}" alt="{{ site.title }}" height="32" class="me-2">
+                {% endif %}
+                {{ site.name }}
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ site.baseurl }}/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ site.baseurl }}/feeds/">RSS Feeds</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ site.baseurl }}/about.html">About</a>
+                    </li>
+                    {% if site.github_url %}
+                    <li class="nav-item">
+                        <a class="nav-link" href="{{ site.github_url }}" target="_blank">
+                            <i class="fab fa-github"></i> GitHub
+                        </a>
+                    </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Main Content -->
+    <main class="container my-5">
+        {{ content }}
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h5>{{ site.name }}</h5>
+                    <p>{{ site.description }}</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>RSS Feeds</h5>
+                    <ul class="list-unstyled">
+                        {% for feed in site.rss_feeds %}
+                        <li><a href="{{ feed.url }}" class="text-white-50">{{ feed.name }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </div>
+            <hr class="my-4">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <small>&copy; {{ 'now' | date: "%Y" }} {{ site.name }}. All rights reserved.</small>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    {% if site.github_url %}
+                    <a href="{{ site.github_url }}" class="text-white-50 me-3" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    {% endif %}
+                    <small>Powered by Jekyll</small>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JS -->
+    <script>
+        // Add smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

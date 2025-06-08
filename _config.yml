@@ -1,0 +1,95 @@
+# Site settings
+title: RSS Feed Hub
+description: > # this means to ignore newlines until "baseurl:"
+  Curated RSS feeds for AI Insights and Technology News
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://rss.tedt.org" # the base hostname & protocol for your site
+
+# Jasper theme settings
+name: 'RSS Feed Hub'
+description: 'Curated RSS feeds for AI Insights and Technology News'
+logo: # 'assets/images/logo.png' # Uncomment when logo is added
+favicon: # 'assets/images/favicon.png' # Uncomment when favicon is added
+production_url: https://rss.tedt.org
+source_url: https://github.com/yourusername/GitHub-Action-To-Read-Table-and-Convert-to-RSS
+
+# Social URLs
+facebook_url: 
+twitter_url: 
+instagram_url: 
+linkedin_url: 
+github_url: https://github.com/yourusername/GitHub-Action-To-Read-Table-and-Convert-to-RSS
+
+# Mailchimp newsletter
+mailchimp_url: 
+
+# Disqus
+disqus_identifier: 
+
+# Google Analytics
+google_analytics: 
+
+# Authors
+authors:
+  ted:
+    name: Ted
+    display_name: Ted
+    avatar: # 'assets/images/avatar.png' # Uncomment when avatar is added
+    web: https://rss.tedt.org
+    description: "RSS feed curator and automation enthusiast"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Pagination
+paginate: 6
+paginate_path: /page:num/
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - enhanced_scraper.py
+  - scrape_to_rss.py
+  - monitor.py
+  - config.py
+  - requirements.txt
+  - previous_data.json
+  - debug_*.html
+
+# Markdown settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Sass
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Gems
+gems:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# RSS feeds
+rss_feeds:
+  - name: "GAI Insights"
+    url: "/ai_rss_feed.xml"
+    description: "Latest AI and technology insights"
+  - name: "LinkedIn AI News"
+    url: "/eei_ai_rss_feed.xml"
+    description: "AI news from LinkedIn"

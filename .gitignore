@@ -51,6 +51,17 @@ ENV/
 env.bak/
 venv.bak/
 
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+vendor/
+
+# Bundler
+.bundle/
+Gemfile.lock
+
 # macOS
 .DS_Store
 
@@ -66,4 +77,9 @@ venv.bak/
 # Temporary files
 *.tmp
 *.temp
+
+# Keep RSS feeds (override global ignores)
+!ai_rss_feed.xml
+!eei_ai_rss_feed.xml
+!rss_status.json
 
