@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     let cleanTitle = title;
                     
                     if (title.endsWith('[ ! ]')) {
-                        priorityBadge = '<span class="badge bg-danger ms-2">Essential</span>';
+                        priorityBadge = '<span class="badge bg-success ms-2">Essential</span>';
                         cleanTitle = title.replace(/\s*\[\s*!\s*\]\s*$/, '').trim();
                     } else if (title.endsWith('[ * ]')) {
                         priorityBadge = '<span class="badge bg-warning text-dark ms-2">Important</span>';
