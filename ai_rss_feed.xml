@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 09 Jun 2025 08:18:51 +0000</lastBuildDate>
-    <item>
-      <title>Google’s ‘World-Model’ Bet: Building the AI Operating Layer Before Microsoft Captures the UI [ ! ]</title>
-      <link>https://venturebeat.com/ai/googles-world-model-bet-building-the-ai-operating-layer-before-microsoft-captures-the-ui/</link>
-      <description>Google is developing a "world model" AI operating layer to power a universal assistant, aiming to integrate AI deeply into its ecosystem and preempt competitors like Microsoft and OpenAI. Our analysts highlighted this as a pivotal strategic move in the AI landscape, emphasizing its potential to redefine user interaction and enterprise AI integration.</description>
-      <guid isPermaLink="false">e13a833f74be5d27564d67243a573b49</guid>
-      <pubDate>Tue, 27 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BAGEL: The Open-Source Unified Multimodal Model [ ~ ]</title>
-      <link>https://bagel-ai.org/</link>
-      <description>ByteDance's BAGEL is an open-source multimodal model capable of understanding and generating text and images, positioning itself as a competitor to models like GPT-4o. Analysts considered it a noteworthy development in open-source AI, though its practical applications are still emerging.</description>
-      <guid isPermaLink="false">5a2349087bcb13e8adcca60cdf3970f1</guid>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GuardianGamer Scales Family-Safe Cloud Gaming with AWS [ ~ ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/guardiangamer-scales-family-safe-cloud-gaming-with-aws/</link>
-      <description>GuardianGamer utilizes AWS services to create a cloud gaming platform focused on child safety and parental engagement, leveraging AI for content moderation and insights. Analysts found it to be an interesting application of AI in gaming, though its broader impact remains to be seen.</description>
-      <guid isPermaLink="false">2c626876d2bb9b9f5dc682d26a7c7be1</guid>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SoftBank Corp’s Large Telecom Model: Shaping the Future of Network Operations with Generative AI [ ~ ]</title>
-      <link>https://www.softbank.jp/en/corp/technology/research/story-event/079/</link>
-      <description>SoftBank has developed a Large Telecom Model (LTM), a generative AI foundation trained on extensive telecom data to optimize network operations. While our analysts acknowledged its potential to transform telecom infrastructure, they noted that its applicability is currently limited to specialized industry contexts.</description>
-      <guid isPermaLink="false">b208e48528d42562fee7365cd3ab971d</guid>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unmute: Make LLMs Listen and Speak [ * ]</title>
-      <link>https://kyutai.org/2025/05/22/unmute.html</link>
-      <description>Kyutai's Unmute introduces a modular system that adds real-time voice interaction to any text-based LLM, featuring low-latency speech-to-text and text-to-speech capabilities. Our analysts highlighted that this development is a significant step towards more natural and accessible AI-driven content creation and human-computer interaction.</description>
-      <guid isPermaLink="false">08e798f22cf515f92c6871bf1078161d</guid>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build AI Agents with the Mistral Agents API [ * ]</title>
-      <link>https://mistral.ai/news/agents-api?s=09</link>
-      <description>Mistral has launched its Agents API, enabling developers to create autonomous AI agents capable of executing code, performing web searches, and managing tasks with persistent memory. Our analysts noted that this release significantly enhances the capabilities of large language models, marking a substantial advancement in AI automation and agent orchestration.</description>
-      <guid isPermaLink="false">2f0f52849250fe6373ef643448509e6f</guid>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 09 Jun 2025 15:54:37 +0000</lastBuildDate>
     <item>
       <title>How the AI Hiring Landscape Is Shifting in 2025 [ ! ]</title>
       <link>https://www.signalfire.com/blog/signalfire-state-of-talent-report-2025</link>
@@ -357,6 +315,48 @@
       <description>Microsoft has introduced BenchmarkQED, a tool that automates evaluation of RAG systems using qualitative metrics such as comprehensiveness, diversity, empowerment, and relevance, with LLM acting as a judge. Our analysts emphasized its growing relevance for enterprise AI workflows and praised its open, framework-based approach to measuring the effectiveness of graph, vector, and relational RAG configurations across environments.</description>
       <guid isPermaLink="false">96303c7abd8573e1df0c02da0f2b0dfb</guid>
       <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Overcoming two issues that are sinking gen AI programs [ ~ ]</title>
+      <link>https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/overcoming-two-issues-that-are-sinking-gen-ai-programs</link>
+      <description>McKinsey highlights adoption challenges across 200+ companies and suggests centralized strategy and guardrails—but our analysts criticized it as superficial and self-promotional, noting the generic advice reads like a consulting pitch.</description>
+      <guid isPermaLink="false">4dc2f56e4f17d6d5b12da894c6d13540</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>EleutherAI releases massive AI training dataset of licensed and open domain text [ ~ ]</title>
+      <link>https://techcrunch.com/2025/06/06/eleutherai-releases-massive-ai-training-dataset-of-licensed-and-open-domain-text/</link>
+      <description>EleutherAI’s 8 TB dataset release and two new models are notable for open-source AI. But our analysts argued that without clear use cases or analysis of usage rights and ethics, it's more of a "cool story" than a strategic development.</description>
+      <guid isPermaLink="false">55fa6647a9728c2f1cab15b9e6158b77</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How climate tech startups are building foundation models with Amazon SageMaker HyperPod [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-climate-tech-startups-are-building-foundation-models-with-amazon-sagemaker-hyperpod/</link>
+      <description>AWS shares a case study on startups using foundation models to improve carbon scrubbers and materials, showcasing significant technical progress. However, our analysts called it promotional and lacking depth on AI’s carbon footprint and real-world impact.</description>
+      <guid isPermaLink="false">a8da43d59190f835f51ac92cb40582f0</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The last six months in LLMs, illustrated by pelicans on bicycles [ ~ ]</title>
+      <link>https://simonwillison.net/2025/Jun/6/six-months-in-llms/?s=09</link>
+      <description>Simon Willison’s whimsical benchmark reveals rapid LLM advancements using visually creative tests (e.g., drawing a pelican on a bicycle). While fun and reflective of fast model evolution, our analysts deemed it light and more suited to engineering audiences than enterprise AI strategy.</description>
+      <guid isPermaLink="false">d3b48fb9d333556d6724b7c6ef996850</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity [ ~ ]</title>
+      <link>https://machinelearning.apple.com/research/illusion-of-thinking</link>
+      <description>This Apple research explores how LLMs struggle with mid-level complexity and distinguishes pattern-recognition from true reasoning. Our analysts found it philosophically interesting but not immediately strategic for AI leaders managing real-world use cases.</description>
+      <guid isPermaLink="false">5f92ec5c9eed6f6c4447112da5693f35</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Eleven v3 (alpha) — the most expressive Text to Speech model [ * ]</title>
+      <link>https://elevenlabs.io/blog/eleven-v3</link>
+      <description>ElevenLabs’ v3 (alpha) introduces a major advance in voice-based AI - emotionally nuanced speech that feels like real conversation. Our analyst team highlighted that the voice interface shift from simple commands to conversational quality is “categorically different,” making this a key innovation in generative AI, especially for media tools, audiobooks, and voice-driven UX.</description>
+      <guid isPermaLink="false">3657812c3076653ad4ad6cfa1c200206</guid>
+      <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
