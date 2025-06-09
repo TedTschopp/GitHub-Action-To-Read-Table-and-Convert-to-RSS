@@ -29,7 +29,7 @@ SCRAPING_CONFIG = {
     "page_load_timeout": 30,
     "dynamic_content_wait": 10,
     "linkedin_wait": 15,
-    "max_articles_per_feed": 50,
+    "max_articles_per_feed": 512,
     "retry_attempts": 3,
     "retry_delay": 5
 }
@@ -71,5 +71,5 @@ CONTENT_FILTERS = {
         "robot", "deep learning", "nlp", "computer", "digital"
     ],
     "min_title_length": 15,
-    "max_description_length": 500
+    "max_description_length": 1024
 }

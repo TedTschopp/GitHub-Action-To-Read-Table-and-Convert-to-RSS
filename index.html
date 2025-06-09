@@ -112,13 +112,45 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 let previewHtml = '<ul class="list-unstyled">';
                 
-                // Show first items (configurable limit)
-                for (let i = 0; i < Math.min(rssPreviewLimit, items.length); i++) {
-                    const item = items[i];
-                    const title = item.querySelector('title')?.textContent || 'No title';
+                // Filter items from last 7 days
+                const sevenDaysAgo = new Date();
+                sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
+                
+                const recentItems = Array.from(items).filter(item => {
+                    const pubDateText = item.querySelector('pubDate')?.textContent;
+                    if (pubDateText) {
+                        const pubDate = new Date(pubDateText);
+                        return pubDate >= sevenDaysAgo;
+                    }
+                    return false; // Exclude items without valid dates
+                });
+                
+                // Use the larger of: items from last 7 days OR rssPreviewLimit
+                const itemsToShow = Math.max(recentItems.length, rssPreviewLimit);
+                const finalItems = itemsToShow <= recentItems.length ? recentItems : Array.from(items);
+                
+                // Show items (either recent items or up to preview limit)
+                for (let i = 0; i < Math.min(itemsToShow, finalItems.length); i++) {
+                    const item = finalItems[i];
+                    let title = item.querySelector('title')?.textContent || 'No title';
                     const link = item.querySelector('link')?.textContent || '#';
                     const pubDate = item.querySelector('pubDate')?.textContent;
                     const description = item.querySelector('description')?.textContent;
+                    
+                    // Parse title for priority tags
+                    let priorityBadge = '';
+                    let cleanTitle = title;
+                    
+                    if (title.endsWith('[ ! ]')) {
+                        priorityBadge = '<span class="badge bg-danger ms-2">Essential</span>';
+                        cleanTitle = title.replace(/\s*\[\s*!\s*\]\s*$/, '').trim();
+                    } else if (title.endsWith('[ * ]')) {
+                        priorityBadge = '<span class="badge bg-warning text-dark ms-2">Important</span>';
+                        cleanTitle = title.replace(/\s*\[\s*\*\s*\]\s*$/, '').trim();
+                    } else if (title.endsWith('[ ~ ]')) {
+                        priorityBadge = '<span class="badge bg-secondary ms-2">Optional</span>';
+                        cleanTitle = title.replace(/\s*\[\s*~\s*\]\s*$/, '').trim();
+                    }
                     
                     let formattedDate = '';
                     if (pubDate) {
@@ -129,7 +161,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     previewHtml += `
                         <li class="mb-2">
                             <a href="${link}" target="_blank" class="text-decoration-none">
-                                <strong>${title}</strong>
+                                <strong>${cleanTitle}</strong>${priorityBadge}
                             </a>
                             ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
                             ${description ? `<small class="text-muted d-block">${description}...</small>` : ''}

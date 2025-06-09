@@ -36,6 +36,30 @@ title: "About RSS Feed Hub"
             <li><strong>Update Regularly:</strong> Refresh content on a scheduled basis via GitHub Actions</li>
         </ul>
         
+        <h2>Priority Badges</h2>
+        
+        <p>RSS feed entries can include priority indicators in their titles, which are automatically converted to visual badges:</p>
+        
+        <ul>
+            <li><strong>[ ! ]</strong> → <span class="badge bg-danger">Essential</span> - Critical or urgent content</li>
+            <li><strong>[ * ]</strong> → <span class="badge bg-warning text-dark">Important</span> - High-priority content</li>
+            <li><strong>[ ~ ]</strong> → <span class="badge bg-secondary">Optional</span> - Supplementary or nice-to-know content</li>
+        </ul>
+        
+        <p>These badges help you quickly identify the importance level of each RSS entry on the homepage.</p>
+        
+        <h2>Smart Preview Display</h2>
+        
+        <p>The homepage RSS previews use intelligent filtering to show the most relevant content:</p>
+        
+        <ul>
+            <li><strong>Recent Content Priority:</strong> Always shows items from the last 7 days when available</li>
+            <li><strong>Minimum Guarantee:</strong> Ensures at least the configured preview limit (default: 5 items) are shown</li>
+            <li><strong>Adaptive Display:</strong> Shows whichever is larger - recent items (7 days) or the preview limit</li>
+        </ul>
+        
+        <p>This ensures you see fresh, timely content while maintaining a minimum number of items for context.</p>
+        
         <h2>Feed Status Monitoring</h2>
         
         <p>Each feed is continuously monitored for:</p>
