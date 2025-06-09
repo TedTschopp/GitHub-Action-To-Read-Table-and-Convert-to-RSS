@@ -93,7 +93,7 @@ rss_feeds:
     url: "/eei_ai_rss_feed.xml"
     description: "AI news from LinkedIn"
   - name: "Enterprise Architecture Insights"
-    url: "https://api.allorigins.win/get?url=https%3A%2F%2Ffeedmix.novaclic.com%2Fmashup.php%3Fs0%3Dhttps%253A%252F%252Fbizzdesign.com%252Fblog%252Ffeed%26n0%3D%26s1%3Dhttps%253A%252F%252Fblog.opengroup.org%252Ffeed%26n1%3D%26s2%3Dhttps%253A%252F%252Feapj.org%252Ffeed%26n2%3D%26s3%3Dhttps%253A%252F%252Feavoices.com%252Ffeed%26n3%3D%26s4%3Dhttps%253A%252F%252Ffeed.infoq.com%252Fenterprise-architecture%26n4%3D%26s5%3Dhttps%253A%252F%252Fwww.architectureandgovernance.com%252Felevating-ea%252Ffeed%252F%26n5%3D%26s6%3Dhttps%253A%252F%252Fwww.forrester.com%252Fblogs%252Fcategory%252Fenterprise-architecture%252Ffeed%252F%26n6%3D%26s7%3Dhttps%253A%252F%252Fwww.leanix.net%252Fen%252Fblog%252Frss.xml%26n7%3D%26k%3D%26t%3D1%26m%3Da%26v%3D1"
+    url: "https://api.allorigins.win/get?url=https%3A%2F%2Ffeedmix.novaclic.com%2Fmashup.php%3Fs0%3Dhttps%253A%252F%252Fbizzdesign.com%252Fblog%252Ffeed%26n0%3D%26s1%3Dhttps%253A%252F%252Fblog.opengroup.org%252Ffeed%26n1%3D%26s2%3Dhttps%253A%252F%252Feapj.org%252Ffeed%26n2%3D%26s3%3Dhttps%253A%252F%252Ffeed.infoq.com%252Fenterprise-architecture%26n3%3D%26s4%3Dhttps%253A%252F%252Fwww.architectureandgovernance.com%252Felevating-ea%252Ffeed%252F%26n4%3D%26s5%3Dhttps%253A%252F%252Fwww.forrester.com%252Fblogs%252Fcategory%252Fenterprise-architecture%252Ffeed%252F%26n5%3D%26s6%3Dhttps%253A%252F%252Fwww.leanix.net%252Fen%252Fblog%252Frss.xml%26n6%3D%26k%3D%26t%3D1%26m%3Da%26v%3D1"
     description: "Latest insights on Enterprise Architecture"
     proxy: true
 
