@@ -37,7 +37,7 @@ class: home-template
 </div>
 
 <!-- RSS Status -->
-<div class="rss-status mt-5">
+<div class="rss-status mt-5" style="display: none;">
     <div class="section-title">
         <h2><span>Feed Status</span></h2>
     </div>
@@ -112,11 +112,18 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 let previewHtml = '<ul class="list-unstyled">';
                 
+                // Sort all items by publication date (newest first)
+                const sortedItems = Array.from(items).sort((a, b) => {
+                    const dateA = new Date(a.querySelector('pubDate')?.textContent || 0);
+                    const dateB = new Date(b.querySelector('pubDate')?.textContent || 0);
+                    return dateB - dateA; // Descending order (newest first)
+                });
+                
                 // Filter items from last 7 days
                 const sevenDaysAgo = new Date();
                 sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
                 
-                const recentItems = Array.from(items).filter(item => {
+                const recentItems = sortedItems.filter(item => {
                     const pubDateText = item.querySelector('pubDate')?.textContent;
                     if (pubDateText) {
                         const pubDate = new Date(pubDateText);
@@ -127,7 +134,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 
                 // Use the larger of: items from last 7 days OR rssPreviewLimit
                 const itemsToShow = Math.max(recentItems.length, rssPreviewLimit);
-                const finalItems = itemsToShow <= recentItems.length ? recentItems : Array.from(items);
+                const finalItems = itemsToShow <= recentItems.length ? recentItems : sortedItems;
                 
                 // Show items (either recent items or up to preview limit)
                 for (let i = 0; i < Math.min(itemsToShow, finalItems.length); i++) {
@@ -172,7 +179,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 previewHtml += '</ul>';
                 
                 if (items.length === 0) {
-                    previewHtml = '<div class="alert alert-info">No entries found in this feed</div>';
+                    // Hide the entire feed card if no items
+                    const feedCard = previewElement.closest('.card').parentElement;
+                    feedCard.style.display = 'none';
+                    return;
                 }
                 
                 previewElement.innerHTML = previewHtml;
