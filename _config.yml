@@ -7,7 +7,6 @@ url: "https://rss.tedt.org" # the base hostname & protocol for your site
 
 # Jasper theme settings
 name: 'RSS Feed Hub'
-description: 'Curated RSS feeds for AI Insights and Technology News'
 logo: # 'assets/images/logo.png' # Uncomment when logo is added
 favicon: # 'assets/images/favicon.png' # Uncomment when favicon is added
 production_url: https://rss.tedt.org
@@ -93,6 +92,12 @@ rss_feeds:
   - name: "LinkedIn AI News"
     url: "/eei_ai_rss_feed.xml"
     description: "AI news from LinkedIn"
+  - name: "Enterprise Architecture Insights"
+    url: "https://tinyurl.com/288utxqa"
+    description: "Latest insights on Enterprise Architecture"
+
+
+
 
 # RSS display settings
 rss_preview_limit: 5  # Number of RSS items to show in homepage previews (minimum limit - will show more if last 7 days has more items) (default: 5)
