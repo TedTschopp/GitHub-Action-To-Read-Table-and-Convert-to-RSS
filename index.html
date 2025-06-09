@@ -123,11 +123,30 @@ document.addEventListener('DOMContentLoaded', function() {
                     throw new Error(`HTTP ${response.status}: ${response.statusText}`);
                 }
                 
-                return response.text();
+                // Check if this is a proxy response (JSON) or direct RSS (XML)
+                const contentType = response.headers.get('content-type') || '';
+                if (contentType.includes('application/json') && feed.proxy) {
+                    return response.json();
+                } else {
+                    return response.text();
+                }
             })
-            .then(xmlText => {
-                console.log('=== XML Processing ===');
+            .then(data => {
+                console.log('=== Data Processing ===');
                 console.log('Feed:', feed.name);
+                
+                let xmlText;
+                if (feed.proxy && typeof data === 'object' && data.contents) {
+                    // Handle proxy response format
+                    xmlText = data.contents;
+                    console.log('Proxy response detected, extracting contents');
+                } else if (typeof data === 'string') {
+                    // Handle direct RSS response
+                    xmlText = data;
+                } else {
+                    throw new Error('Unexpected response format');
+                }
+                
                 console.log('XML Length:', xmlText.length);
                 console.log('XML Preview (first 500 chars):', xmlText.substring(0, 500));
                 
@@ -341,9 +360,13 @@ document.addEventListener('DOMContentLoaded', function() {
                 if (error.message.includes('Mixed Content') || error.message.includes('insecure content')) {
                     errorType = 'Mixed Content Error';
                     suggestion = 'The feed URL uses HTTP instead of HTTPS. Update the feed URL to use HTTPS.';
-                } else if (error.message.includes('CORS') || error.message.includes('access control')) {
+                } else if (error.message.includes('CORS') || error.message.includes('access control') || error.message.includes('Load failed')) {
                     errorType = 'CORS Error';
-                    suggestion = 'The feed server does not allow cross-origin requests from this domain.';
+                    if (feed.proxy) {
+                        suggestion = 'CORS proxy failed. The proxy service may be unavailable or the target feed may be blocking requests.';
+                    } else {
+                        suggestion = 'The feed server does not allow cross-origin requests from this domain. Consider using a CORS proxy.';
+                    }
                 } else if (error.message.includes('Failed to fetch')) {
                     errorType = 'Network Error';
                     suggestion = 'Check if the feed URL is accessible and the server is responding.';
