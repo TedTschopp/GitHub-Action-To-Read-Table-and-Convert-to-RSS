@@ -101,21 +101,121 @@ document.addEventListener('DOMContentLoaded', function() {
     const rssPreviewLimit = {{ site.rss_preview_limit | default: 5 }};
     
     rssFeeds.forEach(feed => {
+        console.log('=== Processing Feed ===');
+        console.log('Feed Name:', feed.name);
+        console.log('Feed URL:', feed.url);
+        console.log('Feed Description:', feed.description);
+        
         const previewElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-preview');
+        console.log('Preview Element ID:', feed.name.toLowerCase().replace(/\s+/g, '-') + '-preview');
+        console.log('Preview Element Found:', !!previewElement);
         
         fetch(feed.url)
-            .then(response => response.text())
+            .then(response => {
+                console.log('=== Fetch Response ===');
+                console.log('Feed:', feed.name);
+                console.log('Response Status:', response.status);
+                console.log('Response OK:', response.ok);
+                console.log('Response Headers:', Object.fromEntries(response.headers.entries()));
+                console.log('Content Type:', response.headers.get('content-type'));
+                
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                return response.text();
+            })
             .then(xmlText => {
+                console.log('=== XML Processing ===');
+                console.log('Feed:', feed.name);
+                console.log('XML Length:', xmlText.length);
+                console.log('XML Preview (first 500 chars):', xmlText.substring(0, 500));
+                
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-                const items = xmlDoc.querySelectorAll('item');
+                
+                // Check for XML parsing errors
+                const parseError = xmlDoc.querySelector('parsererror');
+                if (parseError) {
+                    console.error('XML Parse Error:', parseError.textContent);
+                    throw new Error('XML parsing failed: ' + parseError.textContent);
+                }
+                
+                console.log('XML Root Element:', xmlDoc.documentElement?.tagName);
+                
+                // Detect feed type and get items accordingly
+                let items;
+                let isAtom = false;
+                
+                // Check if it's an Atom feed
+                if (xmlDoc.querySelector('feed') && xmlDoc.querySelector('entry')) {
+                    items = xmlDoc.querySelectorAll('entry');
+                    isAtom = true;
+                    console.log('Feed Type: Atom');
+                } else {
+                    // Default to RSS 2.0
+                    items = xmlDoc.querySelectorAll('item');
+                    isAtom = false;
+                    console.log('Feed Type: RSS 2.0');
+                }
+                
+                console.log('Total Items Found:', items.length);
+                
+                if (items.length === 0) {
+                    console.warn('No items found in feed. Checking alternative selectors...');
+                    // Try alternative selectors
+                    const alternativeItems = xmlDoc.querySelectorAll('rss item, feed entry, item, entry');
+                    console.log('Alternative selector found:', alternativeItems.length, 'items');
+                }
                 
                 let previewHtml = '<ul class="list-unstyled">';
                 
+                // Helper function to get date from either RSS or Atom entry
+                function getItemDate(item, isAtom) {
+                    if (isAtom) {
+                        // Atom feeds use <updated> or <published>
+                        return item.querySelector('updated')?.textContent || 
+                               item.querySelector('published')?.textContent || '';
+                    } else {
+                        // RSS feeds use <pubDate>
+                        return item.querySelector('pubDate')?.textContent || '';
+                    }
+                }
+                
+                // Helper function to get title from either RSS or Atom entry
+                function getItemTitle(item) {
+                    return item.querySelector('title')?.textContent || 'No title';
+                }
+                
+                // Helper function to get link from either RSS or Atom entry
+                function getItemLink(item, isAtom) {
+                    if (isAtom) {
+                        // Atom feeds use <link href="...">
+                        const linkElement = item.querySelector('link[href]');
+                        return linkElement?.getAttribute('href') || '#';
+                    } else {
+                        // RSS feeds use <link>text</link>
+                        return item.querySelector('link')?.textContent || '#';
+                    }
+                }
+                
+                // Helper function to get description from either RSS or Atom entry
+                function getItemDescription(item, isAtom) {
+                    if (isAtom) {
+                        // Atom feeds use <summary> or <content>
+                        const summary = item.querySelector('summary')?.textContent || '';
+                        const content = item.querySelector('content')?.textContent || '';
+                        return summary || content;
+                    } else {
+                        // RSS feeds use <description>
+                        return item.querySelector('description')?.textContent || '';
+                    }
+                }
+                
                 // Sort all items by publication date (newest first)
                 const sortedItems = Array.from(items).sort((a, b) => {
-                    const dateA = new Date(a.querySelector('pubDate')?.textContent || 0);
-                    const dateB = new Date(b.querySelector('pubDate')?.textContent || 0);
+                    const dateA = new Date(getItemDate(a, isAtom) || 0);
+                    const dateB = new Date(getItemDate(b, isAtom) || 0);
                     return dateB - dateA; // Descending order (newest first)
                 });
                 
@@ -124,7 +224,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
                 
                 const recentItems = sortedItems.filter(item => {
-                    const pubDateText = item.querySelector('pubDate')?.textContent;
+                    const pubDateText = getItemDate(item, isAtom);
                     if (pubDateText) {
                         const pubDate = new Date(pubDateText);
                         return pubDate >= sevenDaysAgo;
@@ -137,63 +237,115 @@ document.addEventListener('DOMContentLoaded', function() {
                 const finalItems = itemsToShow <= recentItems.length ? recentItems : sortedItems;
                 
                 // Show items (either recent items or up to preview limit)
+                console.log('=== Item Processing ===');
+                console.log('Feed:', feed.name);
+                console.log('Items to show:', Math.min(itemsToShow, finalItems.length));
+                console.log('Recent items count:', recentItems.length);
+                console.log('Preview limit:', rssPreviewLimit);
+                
                 for (let i = 0; i < Math.min(itemsToShow, finalItems.length); i++) {
-                    const item = finalItems[i];
-                    let title = item.querySelector('title')?.textContent || 'No title';
-                    const link = item.querySelector('link')?.textContent || '#';
-                    const pubDate = item.querySelector('pubDate')?.textContent;
-                    const description = item.querySelector('description')?.textContent;
-                    
-                    // Parse title for priority tags
-                    let priorityBadge = '';
-                    let cleanTitle = title;
-                    let backgroundStyle = '';
-                    
-                    if (title.endsWith('[ ! ]')) {
-                        priorityBadge = '<span class="badge bg-danger me-2">Essential</span>';
-                        cleanTitle = title.replace(/\s*\[\s*!\s*\]\s*$/, '').trim();
-                        backgroundStyle = 'style="background-color: rgba(220, 53, 69, 0.1); border-left: 3px solid rgba(220, 53, 69, 0.5); padding-left: 8px;"';
-                    } else if (title.endsWith('[ * ]')) {
-                        priorityBadge = '<span class="badge bg-warning text-dark me-2">Important</span>';
-                        cleanTitle = title.replace(/\s*\[\s*\*\s*\]\s*$/, '').trim();
-                        backgroundStyle = 'style="background-color: rgba(255, 193, 7, 0.1); border-left: 3px solid rgba(255, 193, 7, 0.5); padding-left: 8px;"';
-                    } else if (title.endsWith('[ ~ ]')) {
-                        priorityBadge = '<span class="badge bg-secondary me-2">Optional</span>';
-                        cleanTitle = title.replace(/\s*\[\s*~\s*\]\s*$/, '').trim();
-                        backgroundStyle = 'style="background-color: rgba(108, 117, 125, 0.1); border-left: 3px solid rgba(108, 117, 125, 0.5); padding-left: 8px;"';
+                    try {
+                        const item = finalItems[i];
+                        console.log(`--- Processing Item ${i + 1} ---`);
+                        
+                        let title = getItemTitle(item);
+                        const link = getItemLink(item, isAtom);
+                        const pubDate = getItemDate(item, isAtom);
+                        const description = getItemDescription(item, isAtom);
+                        
+                        console.log('Item Title:', title);
+                        console.log('Item Link:', link);
+                        console.log('Item Date:', pubDate);
+                        console.log('Item Description Length:', description ? description.length : 0);
+                        
+                        // Parse title for priority tags
+                        let priorityBadge = '';
+                        let cleanTitle = title;
+                        let backgroundStyle = '';
+                        
+                        if (title.endsWith('[ ! ]')) {
+                            priorityBadge = '<span class="badge bg-danger me-2">Essential</span>';
+                            cleanTitle = title.replace(/\s*\[\s*!\s*\]\s*$/, '').trim();
+                            backgroundStyle = 'style="background-color: rgba(220, 53, 69, 0.1); border-left: 3px solid rgba(220, 53, 69, 0.5); padding-left: 8px;"';
+                            console.log('Priority: Essential');
+                        } else if (title.endsWith('[ * ]')) {
+                            priorityBadge = '<span class="badge bg-warning text-dark me-2">Important</span>';
+                            cleanTitle = title.replace(/\s*\[\s*\*\s*\]\s*$/, '').trim();
+                            backgroundStyle = 'style="background-color: rgba(255, 193, 7, 0.1); border-left: 3px solid rgba(255, 193, 7, 0.5); padding-left: 8px;"';
+                            console.log('Priority: Important');
+                        } else if (title.endsWith('[ ~ ]')) {
+                            priorityBadge = '<span class="badge bg-secondary me-2">Optional</span>';
+                            cleanTitle = title.replace(/\s*\[\s*~\s*\]\s*$/, '').trim();
+                            backgroundStyle = 'style="background-color: rgba(108, 117, 125, 0.1); border-left: 3px solid rgba(108, 117, 125, 0.5); padding-left: 8px;"';
+                            console.log('Priority: Optional');
+                        } else {
+                            console.log('Priority: None');
+                        }
+                        
+                        let formattedDate = '';
+                        if (pubDate) {
+                            const date = new Date(pubDate);
+                            formattedDate = date.toLocaleDateString();
+                            console.log('Formatted Date:', formattedDate);
+                        }
+                        
+                        previewHtml += `
+                            <li class="mb-2">
+                                <a href="${link}" target="_blank" class="text-decoration-none d-block p-2 rounded" ${backgroundStyle}>
+                                    ${priorityBadge}<strong>${cleanTitle}</strong>
+                                    ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
+                                    ${description ? `<small class="text-muted d-block">${description.substring(0, 150)}...</small>` : ''}
+                                </a>
+                            </li>
+                        `;
+                        
+                        console.log(`Item ${i + 1} processed successfully`);
+                    } catch (itemError) {
+                        console.error(`Error processing item ${i + 1}:`, itemError);
+                        console.error('Item data:', finalItems[i]);
                     }
-                    
-                    let formattedDate = '';
-                    if (pubDate) {
-                        const date = new Date(pubDate);
-                        formattedDate = date.toLocaleDateString();
-                    }
-                    
-                    previewHtml += `
-                        <li class="mb-2">
-                            <a href="${link}" target="_blank" class="text-decoration-none d-block p-2 rounded" ${backgroundStyle}>
-                                ${priorityBadge}<strong>${cleanTitle}</strong>
-                                ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
-                                ${description ? `<small class="text-muted d-block">${description}...</small>` : ''}
-                            </a>
-                        </li>
-                    `;
                 }
                 
                 previewHtml += '</ul>';
                 
+                console.log('=== Final Processing ===');
+                console.log('Feed:', feed.name);
+                console.log('Total original items:', items.length);
+                
                 if (items.length === 0) {
+                    console.log('No items found - hiding feed card');
                     // Hide the entire feed card if no items
                     const feedCard = previewElement.closest('.card').parentElement;
                     feedCard.style.display = 'none';
                     return;
                 }
                 
+                console.log('Setting preview HTML - length:', previewHtml.length);
                 previewElement.innerHTML = previewHtml;
+                console.log('Feed processing completed successfully for:', feed.name);
+                console.log('=======================');
             })
             .catch(error => {
-                console.error('Error loading RSS feed:', error);
-                previewElement.innerHTML = '<div class="alert alert-warning">Unable to load feed preview</div>';
+                console.error('=== RSS Feed Error Details ===');
+                console.error('Feed Name:', feed.name);
+                console.error('Feed URL:', feed.url);
+                console.error('Error Type:', error.constructor.name);
+                console.error('Error Message:', error.message);
+                console.error('Error Stack:', error.stack);
+                console.error('Full Error Object:', error);
+                console.error('=============================');
+                
+                previewElement.innerHTML = `
+                    <div class="alert alert-warning">
+                        <strong>Unable to load feed preview</strong><br>
+                        <small class="text-muted">
+                            Feed: ${feed.name}<br>
+                            URL: ${feed.url}<br>
+                            Error: ${error.message || 'Unknown error'}<br>
+                            Check browser console for details.
+                        </small>
+                    </div>
+                `;
             });
     });
 });
