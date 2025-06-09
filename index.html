@@ -170,12 +170,12 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     
                     previewHtml += `
-                        <li class="mb-2" ${backgroundStyle}>
-                            <a href="${link}" target="_blank" class="text-decoration-none">
+                        <li class="mb-2">
+                            <a href="${link}" target="_blank" class="text-decoration-none d-block p-2 rounded" ${backgroundStyle}>
                                 ${priorityBadge}<strong>${cleanTitle}</strong>
+                                ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
+                                ${description ? `<small class="text-muted d-block">${description}...</small>` : ''}
                             </a>
-                            ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
-                            ${description ? `<small class="text-muted d-block">${description}...</small>` : ''}
                         </li>
                     `;
                 }
