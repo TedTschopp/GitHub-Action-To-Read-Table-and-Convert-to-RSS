@@ -333,16 +333,39 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.error('Error Message:', error.message);
                 console.error('Error Stack:', error.stack);
                 console.error('Full Error Object:', error);
+                
+                // Check for specific error types
+                let errorType = 'Unknown error';
+                let suggestion = '';
+                
+                if (error.message.includes('Mixed Content') || error.message.includes('insecure content')) {
+                    errorType = 'Mixed Content Error';
+                    suggestion = 'The feed URL uses HTTP instead of HTTPS. Update the feed URL to use HTTPS.';
+                } else if (error.message.includes('CORS') || error.message.includes('access control')) {
+                    errorType = 'CORS Error';
+                    suggestion = 'The feed server does not allow cross-origin requests from this domain.';
+                } else if (error.message.includes('Failed to fetch')) {
+                    errorType = 'Network Error';
+                    suggestion = 'Check if the feed URL is accessible and the server is responding.';
+                } else if (error.message.includes('Redirect was not allowed')) {
+                    errorType = 'Redirect Error';
+                    suggestion = 'The URL redirects to an insecure location. Try using the direct HTTPS URL.';
+                }
+                
+                console.error('Error Classification:', errorType);
+                console.error('Suggestion:', suggestion);
                 console.error('=============================');
                 
                 previewElement.innerHTML = `
                     <div class="alert alert-warning">
                         <strong>Unable to load feed preview</strong><br>
                         <small class="text-muted">
-                            Feed: ${feed.name}<br>
-                            URL: ${feed.url}<br>
-                            Error: ${error.message || 'Unknown error'}<br>
-                            Check browser console for details.
+                            <strong>Feed:</strong> ${feed.name}<br>
+                            <strong>URL:</strong> <code>${feed.url}</code><br>
+                            <strong>Error Type:</strong> ${errorType}<br>
+                            <strong>Details:</strong> ${error.message || 'Unknown error'}<br>
+                            ${suggestion ? `<strong>Suggestion:</strong> ${suggestion}<br>` : ''}
+                            <em>Check browser console for technical details.</em>
                         </small>
                     </div>
                 `;
