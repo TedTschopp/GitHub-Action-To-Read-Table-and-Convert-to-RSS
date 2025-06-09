@@ -147,16 +147,20 @@ document.addEventListener('DOMContentLoaded', function() {
                     // Parse title for priority tags
                     let priorityBadge = '';
                     let cleanTitle = title;
+                    let backgroundStyle = '';
                     
                     if (title.endsWith('[ ! ]')) {
-                        priorityBadge = '<span class="badge bg-success ms-2">Essential</span>';
+                        priorityBadge = '<span class="badge bg-danger me-2">Essential</span>';
                         cleanTitle = title.replace(/\s*\[\s*!\s*\]\s*$/, '').trim();
+                        backgroundStyle = 'style="background-color: rgba(220, 53, 69, 0.1); border-left: 3px solid rgba(220, 53, 69, 0.5); padding-left: 8px;"';
                     } else if (title.endsWith('[ * ]')) {
-                        priorityBadge = '<span class="badge bg-warning text-dark ms-2">Important</span>';
+                        priorityBadge = '<span class="badge bg-warning text-dark me-2">Important</span>';
                         cleanTitle = title.replace(/\s*\[\s*\*\s*\]\s*$/, '').trim();
+                        backgroundStyle = 'style="background-color: rgba(255, 193, 7, 0.1); border-left: 3px solid rgba(255, 193, 7, 0.5); padding-left: 8px;"';
                     } else if (title.endsWith('[ ~ ]')) {
-                        priorityBadge = '<span class="badge bg-secondary ms-2">Optional</span>';
+                        priorityBadge = '<span class="badge bg-secondary me-2">Optional</span>';
                         cleanTitle = title.replace(/\s*\[\s*~\s*\]\s*$/, '').trim();
+                        backgroundStyle = 'style="background-color: rgba(108, 117, 125, 0.1); border-left: 3px solid rgba(108, 117, 125, 0.5); padding-left: 8px;"';
                     }
                     
                     let formattedDate = '';
@@ -166,9 +170,9 @@ document.addEventListener('DOMContentLoaded', function() {
                     }
                     
                     previewHtml += `
-                        <li class="mb-2">
+                        <li class="mb-2" ${backgroundStyle}>
                             <a href="${link}" target="_blank" class="text-decoration-none">
-                                <strong>${cleanTitle}</strong>${priorityBadge}
+                                ${priorityBadge}<strong>${cleanTitle}</strong>
                             </a>
                             ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
                             ${description ? `<small class="text-muted d-block">${description}...</small>` : ''}
