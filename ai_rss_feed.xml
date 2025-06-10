@@ -7,56 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jun 2025 08:17:44 +0000</lastBuildDate>
-    <item>
-      <title>How the AI Hiring Landscape Is Shifting in 2025 [ ! ]</title>
-      <link>https://www.signalfire.com/blog/signalfire-state-of-talent-report-2025</link>
-      <description>SignalFire’s 2025 State of Talent Report reveals a dramatic shift in tech hiring, with new graduate hiring plummeting by over 50% compared to pre-pandemic levels, and Texas startup headcounts declining significantly. Our analysts emphasized that this report is crucial for understanding how AI automation and economic shifts are reshaping workforce strategies, especially in AI-intensive sectors.</description>
-      <guid isPermaLink="false">ec2408c8a06cd31084c9431dde18a8b1</guid>
-      <pubDate>Wed, 28 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Two Paths for A.I. [ ~ ]</title>
-      <link>https://www.newyorker.com/culture/open-questions/two-paths-for-ai?s=09</link>
-      <description>This New Yorker opinion piece presents a philosophical dichotomy on AI’s future—either existential threat or beneficial tool—centering on recursive self-improvement risks. Our analysts criticized the article for shallow analysis and rhetorical overreach, seeing little value beyond AI ethics speculation.</description>
-      <guid isPermaLink="false">882de051d1bb9ad4028b3e202d298df5</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codestral Embed [ ~ ]</title>
-      <link>https://mistral.ai/news/codestral-embed?s=09</link>
-      <description>Mistral launched Codestral Embed, a code-focused embedding model designed to assist with developer workflows and retrieval-augmented generation. Despite some relevance for technical practitioners, our analysts found the announcement light on implementation details and lacking broader industry impact.</description>
-      <guid isPermaLink="false">c295dac7b4f514e46e2c424a1ec3d474</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Voice Mode on Claude Mobile Apps [ ~ ]</title>
-      <link>https://support.anthropic.com/en/articles/11101966-using-voice-mode-on-claude-mobile-apps</link>
-      <description>Anthropic introduced a new voice mode for its Claude mobile apps, adding voice-to-text functionality for user prompts. While relevant for user experience evolution in AI chatbots, our analysts agreed it’s largely a product catch-up with limited technical or strategic depth.</description>
-      <guid isPermaLink="false">a281cf5a5aa81b58e4579f6402fce003</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Rufus Doubled Their Inference Speed and Handled Prime Day Traffic [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-rufus-doubled-their-inference-speed-and-handled-prime-day-traffic-with-aws-ai-chips-and-parallel-decoding/</link>
-      <description>Amazon’s Rufus chatbot showcases how infrastructure and inference optimizations—such as parallel decoding and AI-powered query planning—enabled it to meet massive Prime Day demand. Our analysts noted this as a strong case study in full-stack AI system thinking, demonstrating real-world applications of generative AI scalability and latency reduction.</description>
-      <guid isPermaLink="false">10adbcb39ed2b0f19fe887b3a670b34b</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Generative Engine Optimization (GEO) Rewrites the Rules of Search [ ! ]</title>
-      <link>https://a16z.com/geo-over-seo/?s=09</link>
-      <description>Andreessen Horowitz outlines how generative AI is shifting digital discovery from Search Engine Optimization to Generative Engine Optimization, changing how content must be structured to be quoted by AI models. Our analyst team noted this has far-reaching implications not just for marketing but also product discovery, brand reputation, and advertising economics—requiring immediate CEO and board-level awareness.</description>
-      <guid isPermaLink="false">f258d5d8f87ad4e8343cfbbaff3332d0</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The State of AI in the Enterprise [ ! ]</title>
-      <link>https://cloud.app.box.com/s/lai54mzu8a7nip4k1dlboiakfu4p94k1?s=09</link>
-      <description>This report offers data-backed insights from 1,300 executives across industries on how organizations are adapting to the AI-first era, highlighting trends in productivity, agent adoption, and IT budget allocation. Our analysts emphasized that companies aggressively investing in generative AI are pulling ahead, and the comprehensive metrics and implications make this required reading for AI leaders.</description>
-      <guid isPermaLink="false">10167eeeb05e327d7984f8fd0041fc3a</guid>
-      <pubDate>Thu, 29 May 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 10 Jun 2025 16:16:05 +0000</lastBuildDate>
     <item>
       <title>Opera new browser can code websites and games for you [ ~ ]</title>
       <link>https://techcrunch.com/2025/05/28/operas-new-browser-can-code-websites-and-games-for-you/</link>
@@ -357,6 +308,55 @@
       <description>ElevenLabs’ v3 (alpha) introduces a major advance in voice-based AI - emotionally nuanced speech that feels like real conversation. Our analyst team highlighted that the voice interface shift from simple commands to conversational quality is “categorically different,” making this a key innovation in generative AI, especially for media tools, audiobooks, and voice-driven UX.</description>
       <guid isPermaLink="false">3657812c3076653ad4ad6cfa1c200206</guid>
       <pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Intelligence gets even more powerful with new capabilities across Apple devices [ ~ ]</title>
+      <link>https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/</link>
+      <description>Apple’s WWDC announcement brings on-device models, translation features, extended language support, and developer access to its AI layer. Our analysts, however, found the rollout underwhelming—calling it “poorly integrated,” behind competitors, and largely “optional” for now.</description>
+      <guid isPermaLink="false">5c4555c175ecc088e826f3a17fc94cfe</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI’s metrics question [ ~ ]</title>
+      <link>https://www.ben-evans.com/benedictevans/2025/6/9/generative-ais-metrics-question</link>
+      <description>Benedict Evans' piece discusses the need for robust AI performance metrics but stops short of offering new frameworks or solutions. Our analysts described it as long yet unoriginal—suggesting it's only worth skimming if you're interested in AI KPIs.</description>
+      <guid isPermaLink="false">0ccab6d8827c061173a0e358b6b2d036</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How PepsiCo moves past AI pilot purgatory [ ~ ]</title>
+      <link>https://www.ciodive.com/news/PepsiCo-generative-AI-pilot-scale-strategy-agents/750095/</link>
+      <description>PepsiCo highlights its transition from pilots to broader AI adoption, leaning on cloud and data foundations tied to agent strategies. Our analysts noted it reads as a PR-style case study with limited new insights, making it “super‑optional”.</description>
+      <guid isPermaLink="false">264b48276c61102b38c65e8d2314581e</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Scaling Reinforcement Learning: Environments, Reward Hacking, Agents, Scaling Data [ ~ ]</title>
+      <link>https://semianalysis.com/2025/06/08/scaling-reinforcement-learning-environments-reward-hacking-agents-scaling-data/</link>
+      <description>This long-form SemiAnalysis post dives into intricate Reinforcement Learning (RL) challenges like reward hacking and infrastructure scaling as RL shifts to post-training paradigms. While praised for depth, our analysts felt it’s better suited for deep technical reading rather than executive-level summarization.</description>
+      <guid isPermaLink="false">7a28f5f7142a6c9f2713c5341710daf4</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Agents from First Principles [ * ]</title>
+      <link>https://cameronrwolfe.substack.com/p/ai-agents</link>
+      <description>Cameron Wolfe's article offers a structured, "from-scratch" breakdown of agent mechanics—from base LLMs to reinforcement learning—in clear, accessible language. Our analysts emphasized that it serves as a valuable primer for understanding the foundations of AI agents without diving into jargon.</description>
+      <guid isPermaLink="false">07b66eee0c04fcd4f1c2961fb8319bdc</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Kepler democratized AI access and enhanced client services with Amazon Q Business [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-kepler-democratized-ai-access-and-enhanced-client-services-with-amazon-q-business/</link>
+      <description>Kepler’s implementation of Amazon Q Business delivered measurable gains—2.7 hours saved per week per employee and nearly 90% satisfaction—by securely scaling AI across its workflows. Our analysts noted this as a compelling example of how organizations are now rebuilding early-gen AI apps to meet today’s expectations leveraging context continuity, document integration, and enterprise-grade security.</description>
+      <guid isPermaLink="false">62665908cde36f06ec45683868ec55be</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Spreadsheet Agent [ * ]</title>
+      <link>https://www.llamaindex.ai/blog/introducing-the-spreadsheet-agent-in-private-preview</link>
+      <description>LlamaIndex has launched a new Spreadsheet Agent that lets users query spreadsheets in natural language by generating a semantic graph of the data behind the scenes. As noted by our analysts, while still early-stage, its ability to extract semantic structure from complex spreadsheets is a breakthrough for knowledge workers wanting to automate analytics.</description>
+      <guid isPermaLink="false">bdbfce27c0e5ee745b2c232710e6b421</guid>
+      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

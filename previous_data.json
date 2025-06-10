@@ -2,6 +2,146 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing the Spreadsheet Agent",
+        "links": [
+          "https://www.llamaindex.ai/blog/introducing-the-spreadsheet-agent-in-private-preview"
+        ]
+      },
+      "Rationale": {
+        "text": "LlamaIndex has launched a new Spreadsheet Agent that lets users query spreadsheets in natural language by generating a semantic graph of the data behind the scenes. As noted by our analysts, while still early-stage, its ability to extract semantic structure from complex spreadsheets is a breakthrough for knowledge workers wanting to automate analytics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Kepler democratized AI access and enhanced client services with Amazon Q Business",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-kepler-democratized-ai-access-and-enhanced-client-services-with-amazon-q-business/"
+        ]
+      },
+      "Rationale": {
+        "text": "Kepler’s implementation of Amazon Q Business delivered measurable gains—2.7 hours saved per week per employee and nearly 90% satisfaction—by securely scaling AI across its workflows. Our analysts noted this as a compelling example of how organizations are now rebuilding early-gen AI apps to meet today’s expectations leveraging context continuity, document integration, and enterprise-grade security.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Agents from First Principles",
+        "links": [
+          "https://cameronrwolfe.substack.com/p/ai-agents"
+        ]
+      },
+      "Rationale": {
+        "text": "Cameron Wolfe's article offers a structured, \"from-scratch\" breakdown of agent mechanics—from base LLMs to reinforcement learning—in clear, accessible language. Our analysts emphasized that it serves as a valuable primer for understanding the foundations of AI agents without diving into jargon.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Scaling Reinforcement Learning: Environments, Reward Hacking, Agents, Scaling Data",
+        "links": [
+          "https://semianalysis.com/2025/06/08/scaling-reinforcement-learning-environments-reward-hacking-agents-scaling-data/"
+        ]
+      },
+      "Rationale": {
+        "text": "This long-form SemiAnalysis post dives into intricate Reinforcement Learning (RL) challenges like reward hacking and infrastructure scaling as RL shifts to post-training paradigms. While praised for depth, our analysts felt it’s better suited for deep technical reading rather than executive-level summarization.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How PepsiCo moves past AI pilot purgatory",
+        "links": [
+          "https://www.ciodive.com/news/PepsiCo-generative-AI-pilot-scale-strategy-agents/750095/"
+        ]
+      },
+      "Rationale": {
+        "text": "PepsiCo highlights its transition from pilots to broader AI adoption, leaning on cloud and data foundations tied to agent strategies. Our analysts noted it reads as a PR-style case study with limited new insights, making it “super‑optional”.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI’s metrics question",
+        "links": [
+          "https://www.ben-evans.com/benedictevans/2025/6/9/generative-ais-metrics-question"
+        ]
+      },
+      "Rationale": {
+        "text": "Benedict Evans' piece discusses the need for robust AI performance metrics but stops short of offering new frameworks or solutions. Our analysts described it as long yet unoriginal—suggesting it's only worth skimming if you're interested in AI KPIs.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Apple Intelligence gets even more powerful with new capabilities across Apple devices",
+        "links": [
+          "https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/"
+        ]
+      },
+      "Rationale": {
+        "text": "Apple’s WWDC announcement brings on-device models, translation features, extended language support, and developer access to its AI layer. Our analysts, however, found the rollout underwhelming—calling it “poorly integrated,” behind competitors, and largely “optional” for now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/09/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "Opera's new browser integrates generative AI to enable users to chat, make, and do — allowing them to build simple sites and games directly within the browser. While a slick user-friendly feature, our analysts pointed out that Opera's limited market share and the inevitability of similar tools from bigger players make this a lower-priority development.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "05/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The State of AI in the Enterprise",
-        "links": [
-          "https://cloud.app.box.com/s/lai54mzu8a7nip4k1dlboiakfu4p94k1?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This report offers data-backed insights from 1,300 executives across industries on how organizations are adapting to the AI-first era, highlighting trends in productivity, agent adoption, and IT budget allocation. Our analysts emphasized that companies aggressively investing in generative AI are pulling ahead, and the comprehensive metrics and implications make this required reading for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Generative Engine Optimization (GEO) Rewrites the Rules of Search",
-        "links": [
-          "https://a16z.com/geo-over-seo/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Andreessen Horowitz outlines how generative AI is shifting digital discovery from Search Engine Optimization to Generative Engine Optimization, changing how content must be structured to be quoted by AI models. Our analyst team noted this has far-reaching implications not just for marketing but also product discovery, brand reputation, and advertising economics—requiring immediate CEO and board-level awareness.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Rufus Doubled Their Inference Speed and Handled Prime Day Traffic",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-rufus-doubled-their-inference-speed-and-handled-prime-day-traffic-with-aws-ai-chips-and-parallel-decoding/"
-        ]
-      },
-      "Rationale": {
-        "text": "Amazon’s Rufus chatbot showcases how infrastructure and inference optimizations—such as parallel decoding and AI-powered query planning—enabled it to meet massive Prime Day demand. Our analysts noted this as a strong case study in full-stack AI system thinking, demonstrating real-world applications of generative AI scalability and latency reduction.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Using Voice Mode on Claude Mobile Apps",
-        "links": [
-          "https://support.anthropic.com/en/articles/11101966-using-voice-mode-on-claude-mobile-apps"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic introduced a new voice mode for its Claude mobile apps, adding voice-to-text functionality for user prompts. While relevant for user experience evolution in AI chatbots, our analysts agreed it’s largely a product catch-up with limited technical or strategic depth.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Codestral Embed",
-        "links": [
-          "https://mistral.ai/news/codestral-embed?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral launched Codestral Embed, a code-focused embedding model designed to assist with developer workflows and retrieval-augmented generation. Despite some relevance for technical practitioners, our analysts found the announcement light on implementation details and lacking broader industry impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Two Paths for A.I.",
-        "links": [
-          "https://www.newyorker.com/culture/open-questions/two-paths-for-ai?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This New Yorker opinion piece presents a philosophical dichotomy on AI’s future—either existential threat or beneficial tool—centering on recursive self-improvement risks. Our analysts criticized the article for shallow analysis and rhetorical overreach, seeing little value beyond AI ethics speculation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How the AI Hiring Landscape Is Shifting in 2025",
-        "links": [
-          "https://www.signalfire.com/blog/signalfire-state-of-talent-report-2025"
-        ]
-      },
-      "Rationale": {
-        "text": "SignalFire’s 2025 State of Talent Report reveals a dramatic shift in tech hiring, with new graduate hiring plummeting by over 50% compared to pre-pandemic levels, and Texas startup headcounts declining significantly. Our analysts emphasized that this report is crucial for understanding how AI automation and economic shifts are reshaping workforce strategies, especially in AI-intensive sectors.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-10T08:17:44.221219+00:00"
+  "timestamp": "2025-06-10T16:16:05.233440+00:00"
 }
