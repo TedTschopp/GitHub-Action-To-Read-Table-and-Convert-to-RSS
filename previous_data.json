@@ -2,6 +2,146 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "News Sites Are Getting Crushed by Google’s New AI Tools",
+        "links": [
+          "https://www.wsj.com/tech/ai/google-ai-news-publishers-7e687141"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s AI Overviews are altering how people access news, driving down traffic for publishers by summarizing content directly in search. This threatens the traditional ad-based model of many organizations. Our analysts noted this isn't just a media problem—any business that depends on search-driven traffic, including e-commerce, SaaS, and information services, is at risk. The discussion highlighted the urgent need for companies to rethink digital visibility in an AI-first ecosystem.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI releases o3-pro",
+        "links": [
+          "https://techcrunch.com/2025/06/10/openai-releases-o3-pro-a-souped-up-version-of-its-o3-ai-reasoning-model/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has released o3-pro, a new tier of its o3 AI reasoning model with improved performance across programming, business analysis, and scientific understanding. It supports better instruction following, multilingual capabilities, and code reasoning. Our analysts emphasized that this release significantly raises the bar for large language model capabilities in applied reasoning, marking it as a strategic advancement for OpenAI’s model stack.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Zip debuts 50 AI agents to kill procurement inefficiencies—OpenAI is already on board",
+        "links": [
+          "https://venturebeat.com/ai/zip-debuts-50-ai-agents-to-kill-procurement-inefficiencies-openai-is-already-on-board/"
+        ]
+      },
+      "Rationale": {
+        "text": "Zip has launched 50 modular AI agents aimed at automating procurement processes like approvals, policy checks, and data handling, helping companies like OpenAI and Canva reduce manual workload. Our analysts saw this as a clear demonstration of how AI automation can modernize enterprise operations and eliminate inefficiencies in manual workflows.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Zuckerberg makes his biggest AI bet as Meta nears $14 billion stake in Scale AI",
+        "links": [
+          "https://www.cnbc.com/2025/06/10/zuckerberg-makes-metas-biggest-bet-on-ai-14-billion-scale-ai-deal.html"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta is reportedly investing nearly $14 billion in Scale AI to advance its artificial intelligence ambitions, marking its largest external investment. Our analysts noted the strategic significance of this deal as Meta seeks to compete with top players like OpenAI, Anthropic and DeepSeek in long-term AI development.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Mistral releases a pair of AI reasoning models",
+        "links": [
+          "https://techcrunch.com/2025/06/10/mistral-releases-a-pair-of-ai-reasoning-models/"
+        ]
+      },
+      "Rationale": {
+        "text": "Mistral introduced two new reasoning models, Magistral Small and Magistral Medium, offering multilingual capabilities and step-by-step reasoning. Our analysts acknowledged the transparency, the 10x performance and open-weight nature of the release but pointed out the models’ relatively lower performance in benchmarks compared to leading models.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Announcing Krea 1",
+        "links": [
+          "https://www.krea.ai/krea-1?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Krea released Krea 1, a diffusion-based generative AI model for image creation, capable of real-time previews and advanced texture control. While the model offers value for creative professionals, our analysts agreed that its scope is currently limited to artistic and design use cases rather than broad enterprise adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "LVMH Deploys AI Tools Across Operation, Seeking Efficiency and Customer Retention",
+        "links": [
+          "https://www.pymnts.com/artificial-intelligence-2/2025/lvmh-deploys-ai-tools-across-operation-seeking-efficiency-and-customer-retention/"
+        ]
+      },
+      "Rationale": {
+        "text": "LVMH is scaling AI across its fashion and retail businesses to optimize customer retention and operational efficiency. Analysts viewed this as a case of AI in retail with limited novelty, mostly demonstrating catch-up rather than breakthrough innovation in enterprise AI deployment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/10/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "Black Forest Labs introduced a visual-language AI model with strong character consistency and context-awareness, targeted toward image generation and marketing use cases. While the technical progress was acknowledged, our analysts deemed it early-stage and lacking external validation, making it more of an incremental update than a must-read.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How ZURU improved the accuracy of floor plan generation by 109% using Amazon Bedrock and Amazon SageMaker",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-zuru-improved-the-accuracy-of-floor-plan-generation-by-109-using-amazon-bedrock-and-amazon-sagemaker/"
-        ]
-      },
-      "Rationale": {
-        "text": "This AWS case study outlines how ZURU used GenAI to automate 3D floor plan generation. Although informative, our analysts felt the insights were niche and reiterated known best practices in AI-driven content creation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "CodeRabbit improves code review accuracy with OpenAI o3, o4-mini, and GPT-4.1",
-        "links": [
-          "https://openai.com/index/coderabbit/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI's CodeRabbit tool is designed to enhance code review workflows by integrating large language models (LLMs) like GPT-4.1, offering dramatic improvements in review accuracy and bug reduction. Our analysts highlighted its impact on productivity and code quality, marking it as a core enabler in AI-driven software development and essential for organizations seeking to scale their development velocity.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "DeepSeek R1-0528 arrives in powerful open source challenge to OpenAI o3 and Google Gemini 2.5 Pro",
-        "links": [
-          "https://venturebeat.com/ai/deepseek-r1-0528-arrives-in-powerful-open-source-challenge-to-openai-o3-and-google-gemini-2-5-pro/"
-        ]
-      },
-      "Rationale": {
-        "text": "DeepSeek’s R1-0528 offers a competitive open-source LLM nearing the capabilities of top-tier models like OpenAI's GPT-4 and Gemini 2.5 Pro, with strong cost advantages and integration with support platforms like Azure Foundry. Our analysts emphasized the significance of its fine-tuning strategy and pricing parity, positioning it as a notable force in distributed AI intelligence and a strategic player to watch.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Open-sourcing circuit tracing tools",
-        "links": [
-          "https://www.anthropic.com/research/open-source-circuit-tracing"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic has open-sourced powerful tools for tracing attention pathways in large language models, advancing explainability in AI systems. Despite a lightweight article, our analysts agreed that such tools are foundational for AI safety, reducing hallucinations, and enabling transparency — key for enterprise and research applications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI video you can both watch and interact with in real-time",
-        "links": [
-          "https://odyssey.world/introducing-interactive-video"
-        ]
-      },
-      "Rationale": {
-        "text": "Odyssey introduces a new kind of AI-generated video that users can interact with in real-time, attempting to blend rendering and user input dynamically. Our analysts appreciated its potential but noted its current limitations in realism and utility, deeming it more of a tech demo at this stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "MemOS: An Operating System for Memory-Augmented Generation (MAG) in Large Language Models",
-        "links": [
-          "https://arxiv.org/abs/2505.22101"
-        ]
-      },
-      "Rationale": {
-        "text": "MemOS proposes a novel architecture for integrating training, inference, and RAG-style context into a continuous memory stream inspired by human neuroplasticity. Our analysts found the theory intriguing but noted the lack of performance metrics or practical demonstrations, making this an early-stage concept rather than a must-read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "05/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Opera new browser can code websites and games for you",
-        "links": [
-          "https://techcrunch.com/2025/05/28/operas-new-browser-can-code-websites-and-games-for-you/"
-        ]
-      },
-      "Rationale": {
-        "text": "Opera's new browser integrates generative AI to enable users to chat, make, and do — allowing them to build simple sites and games directly within the browser. While a slick user-friendly feature, our analysts pointed out that Opera's limited market share and the inevitability of similar tools from bigger players make this a lower-priority development.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-11T08:17:24.622220+00:00"
+  "timestamp": "2025-06-11T16:16:13.635649+00:00"
 }
