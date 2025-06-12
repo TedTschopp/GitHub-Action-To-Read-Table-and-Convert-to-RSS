@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI is changing how employees train—and starting to reduce how much training they need",
+        "links": [
+          "https://fortune.com/2025/06/11/ai-employee-training-simulation-labor/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article explores how AI tools like avatars and generative video platforms are transforming employee training by enabling rapid content creation and personalized simulations. Analysts emphasized its significance as part of a broader “sea change” in corporate learning, highlighting AI's potential as a “customized tutor” that accelerates learning efficiency and democratizes training production across organizations.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Mistral Compute",
+        "links": [
+          "https://mistral.ai/news/mistral-compute?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Mistral has launched a full-stack AI infrastructure platform supporting on-premise deployment, aiming to serve Europe’s AI sovereignty goals with enterprise clients like BNP Paribas and Total. Analysts viewed this as a meaningful strategic move, especially given Europe’s need for regional AI alternatives and Mistral’s $90M revenue traction, even if it remains a product launch without radical technical novelty.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Agent Bricks: Auto-Optimized Agents Using Your Data",
+        "links": [
+          "https://www.databricks.com/blog/introducing-agent-bricks"
+        ]
+      },
+      "Rationale": {
+        "text": "Databricks unveiled a new product called Agent Bricks that uses proprietary data to optimize AI agents, but the briefing labeled it a standard product announcement with limited specifics or impact. Analysts agreed it's part of a growing trend where vendors feel compelled to embed \"agent\" features, but offered little evidence of transformative value.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Cost Control: Scaling AI Without Going Broke",
+        "links": [
+          "https://ai.intellectronica.net/cost-control-guide?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This article outlines eight cost levers for managing AI deployment expenses, such as batching and model selection, but most of the guidance reflects well-known best practices. Analysts noted the advice is largely already available via cloud providers and lacked actionable novelty, making it more of a helpful summary than a breakthrough.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Ink: speech-to-text models for real-time conversation",
+        "links": [
+          "https://cartesia.ai/blog/introducing-ink-speech-to-text"
+        ]
+      },
+      "Rationale": {
+        "text": "Cartesia launched a speech-to-text model tuned for conversational use, supporting multiple voices and languages. While useful in niche applications like voice response systems and avatars, analysts noted it joins an already crowded field with little differentiation or innovation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Decreasing Value of Chain of Thought in Prompting",
+        "links": [
+          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285532"
+        ]
+      },
+      "Rationale": {
+        "text": "This academic paper argues that explicit chain-of-thought prompting is less helpful as newer models already internalize such reasoning patterns. Analysts found the conclusions expected and well-trodden, suggesting it reaffirms existing developer intuition rather than offering new prompting strategies.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/11/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Ethan Mollick uses a playful metaphor to chart the evolution of image and video generation in AI, making the exponential progress in generative visuals more tangible. Our analysts found it an effective communication tool to illustrate rapid advancement in generative AI, though it lacked technical or strategic depth to warrant essential status.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "PlayDiffusion by Play.ai",
-        "links": [
-          "https://github.com/playht/PlayDiffusion"
-        ]
-      },
-      "Rationale": {
-        "text": "PlayDiffusion enables AI-powered editing of video content, such as replacing characters like Neo with Morpheus in clips, showcasing an everyday miracle of generative video tools. Our analysts viewed it as an interesting algorithmic demo with limited leadership relevance, especially given its GitHub-based presentation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing ElevenLabs Conversational AI 2.0",
-        "links": [
-          "https://elevenlabs.io/blog/conversational-ai-2-0"
-        ]
-      },
-      "Rationale": {
-        "text": "ElevenLabs has released a major update to its voice technology platform, emphasizing conversational flow and filler word detection, representing a significant shift from traditional voice synthesis to full conversational AI. Our analysts agreed this marks a paradigm shift—transforming the web from something you read into something you talk to—underscoring the growing ubiquity of voice-native AI interfaces in enterprises.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The Darwin Gödel Machine: AI that improves itself by rewriting its own code",
-        "links": [
-          "https://sakana.ai/dgm/"
-        ]
-      },
-      "Rationale": {
-        "text": "Sakana's new Darwin Gödel Machine represents a shift in AI autonomy, combining evolutionary and mathematical reasoning to continuously improve its own code for complex tasks. Our analyst team noted its 20–50% performance boost on GitHub tasks as a sign of rapid evolution in self-coding AI, calling this a pivotal development for AI automation and software productivity.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "For Some Recent Graduates, the A.I. Job Apocalypse May Already Be Here",
-        "links": [
-          "https://www.nytimes.com/2025/05/30/technology/ai-jobs-college-graduates.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This article discusses the difficult hiring landscape for recent grads—particularly in computer science—amidst rising AI adoption and automation. While the reporting was seen as sensationalist, our team agreed the trend is real and critical for executives to understand as they rethink early-career hiring strategies in an AI-first economy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Which LLM should you use? Token Monster automatically combines multiple models and tools for you",
-        "links": [
-          "https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/"
-        ]
-      },
-      "Rationale": {
-        "text": "Token Monster proposes a model-agnostic routing layer across popular foundation models, but it remains an alpha-stage product with limited novelty in orchestration. Our analysts flagged it as a commoditized capability with unclear value for AI leaders, particularly given past credibility concerns around its creator.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing FLUX.1 Kontext and the BFL Playground",
-        "links": [
-          "https://bfl.ai/announcements/flux-1-kontext"
-        ]
-      },
-      "Rationale": {
-        "text": "Black Forest Labs introduced a visual-language AI model with strong character consistency and context-awareness, targeted toward image generation and marketing use cases. While the technical progress was acknowledged, our analysts deemed it early-stage and lacking external validation, making it more of an incremental update than a must-read.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-12T08:17:34.403345+00:00"
+  "timestamp": "2025-06-12T16:15:46.072013+00:00"
 }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 12 Jun 2025 08:17:34 +0000</lastBuildDate>
-    <item>
-      <title>Introducing FLUX.1 Kontext and the BFL Playground [ ~ ]</title>
-      <link>https://bfl.ai/announcements/flux-1-kontext</link>
-      <description>Black Forest Labs introduced a visual-language AI model with strong character consistency and context-awareness, targeted toward image generation and marketing use cases. While the technical progress was acknowledged, our analysts deemed it early-stage and lacking external validation, making it more of an incremental update than a must-read.</description>
-      <guid isPermaLink="false">c9419e4d15982ba2c66a8a7fb0743a8e</guid>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Which LLM should you use? Token Monster automatically combines multiple models and tools for you [ ~ ]</title>
-      <link>https://venturebeat.com/ai/which-llm-should-you-use-token-monster-automatically-combines-multiple-models-and-tools-for-you/</link>
-      <description>Token Monster proposes a model-agnostic routing layer across popular foundation models, but it remains an alpha-stage product with limited novelty in orchestration. Our analysts flagged it as a commoditized capability with unclear value for AI leaders, particularly given past credibility concerns around its creator.</description>
-      <guid isPermaLink="false">5a9dc04b88c91275770dd622c95a72f9</guid>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>For Some Recent Graduates, the A.I. Job Apocalypse May Already Be Here [ * ]</title>
-      <link>https://www.nytimes.com/2025/05/30/technology/ai-jobs-college-graduates.html</link>
-      <description>This article discusses the difficult hiring landscape for recent grads—particularly in computer science—amidst rising AI adoption and automation. While the reporting was seen as sensationalist, our team agreed the trend is real and critical for executives to understand as they rethink early-career hiring strategies in an AI-first economy.</description>
-      <guid isPermaLink="false">ddc5fe9a140e628e9ed51186f97decbb</guid>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Darwin Gödel Machine: AI that improves itself by rewriting its own code [ ! ]</title>
-      <link>https://sakana.ai/dgm/</link>
-      <description>Sakana's new Darwin Gödel Machine represents a shift in AI autonomy, combining evolutionary and mathematical reasoning to continuously improve its own code for complex tasks. Our analyst team noted its 20–50% performance boost on GitHub tasks as a sign of rapid evolution in self-coding AI, calling this a pivotal development for AI automation and software productivity.</description>
-      <guid isPermaLink="false">470104567125b5d7e2f195830b33b635</guid>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing ElevenLabs Conversational AI 2.0 [ ! ]</title>
-      <link>https://elevenlabs.io/blog/conversational-ai-2-0</link>
-      <description>ElevenLabs has released a major update to its voice technology platform, emphasizing conversational flow and filler word detection, representing a significant shift from traditional voice synthesis to full conversational AI. Our analysts agreed this marks a paradigm shift—transforming the web from something you read into something you talk to—underscoring the growing ubiquity of voice-native AI interfaces in enterprises.</description>
-      <guid isPermaLink="false">530d9dfe8f85bedc3f395223c3994844</guid>
-      <pubDate>Mon, 02 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>PlayDiffusion by Play.ai [ ~ ]</title>
-      <link>https://github.com/playht/PlayDiffusion</link>
-      <description>PlayDiffusion enables AI-powered editing of video content, such as replacing characters like Neo with Morpheus in clips, showcasing an everyday miracle of generative video tools. Our analysts viewed it as an interesting algorithmic demo with limited leadership relevance, especially given its GitHub-based presentation.</description>
-      <guid isPermaLink="false">d0ff14ab790619696f54663a79886806</guid>
-      <pubDate>Tue, 03 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 12 Jun 2025 16:15:46 +0000</lastBuildDate>
     <item>
       <title>The Recent History of AI in 32 Otters [ * ]</title>
       <link>https://www.oneusefulthing.org/p/the-recent-history-of-ai-in-32-otters</link>
@@ -357,6 +315,48 @@
       <description>Google’s AI Overviews are altering how people access news, driving down traffic for publishers by summarizing content directly in search. This threatens the traditional ad-based model of many organizations. Our analysts noted this isn't just a media problem—any business that depends on search-driven traffic, including e-commerce, SaaS, and information services, is at risk. The discussion highlighted the urgent need for companies to rethink digital visibility in an AI-first ecosystem.</description>
       <guid isPermaLink="false">73f22726aa199b265147ad6bb36f022e</guid>
       <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Decreasing Value of Chain of Thought in Prompting [ ~ ]</title>
+      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285532</link>
+      <description>This academic paper argues that explicit chain-of-thought prompting is less helpful as newer models already internalize such reasoning patterns. Analysts found the conclusions expected and well-trodden, suggesting it reaffirms existing developer intuition rather than offering new prompting strategies.</description>
+      <guid isPermaLink="false">ba9e1c4651b1f2dc7e1756f5e2691ae2</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Ink: speech-to-text models for real-time conversation [ ~ ]</title>
+      <link>https://cartesia.ai/blog/introducing-ink-speech-to-text</link>
+      <description>Cartesia launched a speech-to-text model tuned for conversational use, supporting multiple voices and languages. While useful in niche applications like voice response systems and avatars, analysts noted it joins an already crowded field with little differentiation or innovation.</description>
+      <guid isPermaLink="false">9c02958c34137d927e108bce6791e195</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cost Control: Scaling AI Without Going Broke [ ~ ]</title>
+      <link>https://ai.intellectronica.net/cost-control-guide?s=09</link>
+      <description>This article outlines eight cost levers for managing AI deployment expenses, such as batching and model selection, but most of the guidance reflects well-known best practices. Analysts noted the advice is largely already available via cloud providers and lacked actionable novelty, making it more of a helpful summary than a breakthrough.</description>
+      <guid isPermaLink="false">4c764e8f18b6c652eaf82fce29586cbf</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Agent Bricks: Auto-Optimized Agents Using Your Data [ ~ ]</title>
+      <link>https://www.databricks.com/blog/introducing-agent-bricks</link>
+      <description>Databricks unveiled a new product called Agent Bricks that uses proprietary data to optimize AI agents, but the briefing labeled it a standard product announcement with limited specifics or impact. Analysts agreed it's part of a growing trend where vendors feel compelled to embed "agent" features, but offered little evidence of transformative value.</description>
+      <guid isPermaLink="false">e23a324fb2ef60ef13b2ee74ee64b9d3</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral Compute [ * ]</title>
+      <link>https://mistral.ai/news/mistral-compute?s=09</link>
+      <description>Mistral has launched a full-stack AI infrastructure platform supporting on-premise deployment, aiming to serve Europe’s AI sovereignty goals with enterprise clients like BNP Paribas and Total. Analysts viewed this as a meaningful strategic move, especially given Europe’s need for regional AI alternatives and Mistral’s $90M revenue traction, even if it remains a product launch without radical technical novelty.</description>
+      <guid isPermaLink="false">2559321dd6f9433f0625b30104e73b5d</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI is changing how employees train—and starting to reduce how much training they need [ ! ]</title>
+      <link>https://fortune.com/2025/06/11/ai-employee-training-simulation-labor/</link>
+      <description>This article explores how AI tools like avatars and generative video platforms are transforming employee training by enabling rapid content creation and personalized simulations. Analysts emphasized its significance as part of a broader “sea change” in corporate learning, highlighting AI's potential as a “customized tutor” that accelerates learning efficiency and democratizes training production across organizations.</description>
+      <guid isPermaLink="false">3207a52ba02c25747ecd8895c2840d2a</guid>
+      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
