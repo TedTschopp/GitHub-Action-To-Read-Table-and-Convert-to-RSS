@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Gardenia Technologies helps customers create ESG disclosure reports 75% faster using agentic generative AI on Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-gardenia-technologies-helps-customers-create-esg-disclosure-reports-75-faster-using-agentic-generative-ai-on-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article showcases a practical enterprise deployment of agentic generative AI to significantly streamline ESG reporting by integrating data retrieval, natural language interfaces, and orchestration via Amazon Bedrock. Analysts highlighted its robust architectural detail, impact on compliance-heavy workflows, and the broader implication of evolving best practices for agentic frameworks across structured data domains.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AlphaSense launches its own Deep Research for the web AND your enterprise files",
+        "links": [
+          "https://venturebeat.com/ai/alphasense-launches-its-own-deep-research-for-the-web-and-your-enterprise-files-heres-why-it-matters/"
+        ]
+      },
+      "Rationale": {
+        "text": "AlphaSense introduced a deep research agent designed to unify enterprise and web data access, with a particular focus on financial services firms and access to proprietary analyst content. While its proprietary datasets offer value in finance, analysts found the product lacked technical novelty compared to other search tools. They noted its high cost and steep learning curve limit its broader applicability.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Browser Company launches its AI-first browser, Dia, in beta",
+        "links": [
+          "https://techcrunch.com/2025/06/11/the-browser-company-launches-its-ai-first-browser-dia-in-beta"
+        ]
+      },
+      "Rationale": {
+        "text": "Dia is a newly launched, AI-first browser designed to act as an intelligent assistant by learning from users’ workflows, integrating context from emails, tabs, and browsing behavior. Despite interesting features like memory sessions and multi-tab orchestration, the analysts emphasized that it is still in closed beta, with many browser vendors already offering AI integrations, making this more of a conceptual experiment than an impactful innovation at this stage.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing V-JEPA 2",
+        "links": [
+          "https://about.fb.com/news/2025/06/our-new-model-helps-ai-think-before-it-acts"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s V-JEPA 2 enhances video-based training and introduces limited physical reasoning capabilities intended to help AI “think before it acts,” particularly in robotics contexts. While Yann LeCun’s vision for AI with world models is reflected here, analysts felt the impact was niche and still theoretical, with current applications largely limited to robotic and logistics scenarios, not broadly relevant to most enterprise AI use cases.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "CRMArena-Pro: Holistic Assessment of LLM Agents Across Diverse Business Scenarios and Interactions",
+        "links": [
+          "https://arxiv.org/abs/2505.18878"
+        ]
+      },
+      "Rationale": {
+        "text": "CRMArena-Pro is a new academic benchmark framework designed to evaluate LLM agents in multi-step, real-world enterprise workflows, spanning domains like customer service and sales. Since the briefing did not delve into the findings or its real-world adoption, it was treated as optional, though potentially useful for researchers interested in agent evaluation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Apollo accelerates outbound sales at scale with Claude",
+        "links": [
+          "https://www.anthropic.com/customers/apollo"
+        ]
+      },
+      "Rationale": {
+        "text": "Apollo's integration of Claude to enhance outbound sales automates parts of the GTM motion, using generative AI to customize outreach at scale. Analysts acknowledged this as a tactical example of LLM usage in sales enablement but noted that it doesn't advance the state of agentic intelligence or demonstrate a novel technical implementation, placing it in the optional tier.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/12/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Dwarkesh Patel explores the limitations to rapid AGI development, focusing on the need for continual learning in AI models. Our analysts panel acknowledged the intellectual value but considered the topic speculative and less actionable for enterprise AI leaders.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Memory in ChatGPT",
-        "links": [
-          "https://x.com/OpenAI/status/1910378768172212636?t=XHAEwdIJQuyx3cFwviEKOw&s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI's memory feature in ChatGPT enhances persistent user personalization and conversational depth, representing a meaningful UX improvement. However, since the feature has been widely rolled out since April, analysts viewed it as useful but not newsworthy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Meta Aims to Fully Automate Ad Creation Using AI",
-        "links": [
-          "https://archive.is/oAOuK#selection-2539.0-2539.48"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta plans to use generative AI to fully automate ad creation, a move that could significantly reduce the effort required by small and mid-sized businesses to scale their advertising. Our analysts considered this a strategic shift from one of the world's largest digital advertising platforms, emphasizing its potential to disrupt AI-driven content creation across the industry.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Going beyond AI assistants: Examples from Amazon.com reinventing industries with generative AI",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/going-beyond-ai-assistants-examples-from-amazon-com-reinventing-industries-with-generative-ai/"
-        ]
-      },
-      "Rationale": {
-        "text": "Amazon showcases how it is using generative AI beyond chat-based assistants to redesign core business tasks, including in healthcare use cases. Our analysts praised the detailed, modular examples and highlighted Amazon's engineering-based approach and emphasized that the article powerfully reframes GenAI as a tool for full business process transformation, signaling a shift from surface-level AI adoption to measurable enterprise value.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Trends – Artificial Intelligence",
-        "links": [
-          "https://www.bondcap.com/report/pdf/Trends_Artificial_Intelligence.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "Mary Meeker's 340-page AI trends report aggregates comprehensive data on generative AI adoption, usage patterns, and market impact, positioning it as a reference point for leaders tracking industry acceleration. Despite its length, our analysts agreed the early sections provide indispensable context on the scale and speed of AI growth, especially in comparison to historical tech adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How CMOs Are Scaling GenAI in Turbulent Times",
-        "links": [
-          "https://www.bcg.com/publications/2025/how-cmos-scaling-gen-ai-in-turbulent-times"
-        ]
-      },
-      "Rationale": {
-        "text": "Based on a survey of 200 CMOs, this BCG report outlines how marketing leaders are using AI for personalization, customer insights, and experience enhancement, while also highlighting weak measurement practices. Analysts found it valuable as a snapshot of enterprise AI adoption in marketing, even though much of the content reinforced existing trends rather than breaking new ground.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Recent History of AI in 32 Otters",
-        "links": [
-          "https://www.oneusefulthing.org/p/the-recent-history-of-ai-in-32-otters"
-        ]
-      },
-      "Rationale": {
-        "text": "Ethan Mollick uses a playful metaphor to chart the evolution of image and video generation in AI, making the exponential progress in generative visuals more tangible. Our analysts found it an effective communication tool to illustrate rapid advancement in generative AI, though it lacked technical or strategic depth to warrant essential status.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-13T08:17:32.430087+00:00"
+  "timestamp": "2025-06-13T16:15:24.681640+00:00"
 }
