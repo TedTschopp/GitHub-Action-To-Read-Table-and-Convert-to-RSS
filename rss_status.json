@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-06-16T08:18:35.932756+00:00",
+  "timestamp": "2025-06-16T16:16:02.248365+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Mon, 16 Jun 2025 08:18:35 +0000",
-      "size_bytes": 37129,
+      "last_updated": "Mon, 16 Jun 2025 16:16:02 +0000",
+      "size_bytes": 37196,
       "errors": []
     },
     "eei_ai_rss_feed.xml": {

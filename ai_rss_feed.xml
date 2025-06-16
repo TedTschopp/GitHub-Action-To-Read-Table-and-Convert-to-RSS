@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 16 Jun 2025 08:18:35 +0000</lastBuildDate>
-    <item>
-      <title>Why I have slightly longer timelines than some of my guests [ ~ ]</title>
-      <link>https://www.dwarkesh.com/p/timelines-june-2025?manualredirect=</link>
-      <description>Dwarkesh Patel explores the limitations to rapid AGI development, focusing on the need for continual learning in AI models. Our analysts panel acknowledged the intellectual value but considered the topic speculative and less actionable for enterprise AI leaders.</description>
-      <guid isPermaLink="false">0f92d86f27f532a4f931086dbf59c76a</guid>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Selecting a Model Based on Stripe Conversion – A Practical Eval for Startups [ ~ ]</title>
-      <link>https://cookbook.openai.com/examples/stripe_model_eval/selecting_a_model_based_on_stripe_conversion?s=09</link>
-      <description>This OpenAI Cookbook example demonstrates how real-world business metrics, like Stripe conversion rates, can guide model selection. While conceptually useful, our analysts noted the approach is only relevant to startups with high traffic volume and was too technical or niche for most AI leaders.</description>
-      <guid isPermaLink="false">55fb50ca974abb8c6e6e354b9a327082</guid>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How S&amp;P is using deep web scraping, ensemble learning and Snowflake architecture to collect 5X more data on SMEs [ ~ ]</title>
-      <link>https://venturebeat.com/data-infrastructure/how-sp-is-using-deep-web-scraping-ensemble-learning-and-snowflake-architecture-to-collect-5x-more-data-on-smes/</link>
-      <description>S&amp;P’s data infrastructure initiative combines web scraping and ensemble learning to better assess SME risk, offering a glimpse into large-scale AI data engineering. However, our analysts viewed this as a narrow case study with limited generalizability beyond its industry-specific application.</description>
-      <guid isPermaLink="false">577e5ec0753bfe4a3f05696d139f5715</guid>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Faster, Smarter, Cheaper: AI Is Reinventing Market Research [ * ]</title>
-      <link>https://a16z.com/ai-market-research/?s=09</link>
-      <description>Andreessen Horowitz showcases how generative AI is reshaping market research by automating time-consuming data collection and analysis tasks, drastically reducing time-to-insight. Our analysts panel highlighted the shift from manual processes to AI-driven content creation in market research as a major operational change, noting the report as a useful benchmark for emerging practices.</description>
-      <guid isPermaLink="false">02b0058046d48a1df80a3a37437f0c9f</guid>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Holo-1: New family of GUI automation VLMs powering GUI agent Surfer-H [ * ]</title>
-      <link>https://huggingface.co/blog/Hcompany/holo1</link>
-      <description>The H Company has open-sourced Holo-1, a browser-based AI agent framework that mimics human interactions with web browsers and graphical user interfaces, aiming to automate complex workflows. While still early, our analysts noted its relevance in the rising wave of web automation agents and its open-source nature allows immediate experimentation, marking it as a notable step in the evolution of AI agents.</description>
-      <guid isPermaLink="false">2e8bf02cceb404ed9665ec96d08bcdc0</guid>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>State of AI: China [ ! ]</title>
-      <link>https://artificialanalysis.ai/downloads/china-report/2025/Artificial-Analysis-State-of-AI-China-Q2-2025-Highlights.pdf</link>
-      <description>This comprehensive visual report provides a strategic overview of China's accelerating progress in generative AI, challenging U.S. dominance and highlighting models approaching parity with OpenAI’s offerings. Our analysts emphasized the geopolitical significance of China's AI infrastructure investment, noting the report's utility for executive briefings and the clear visualization of shifts in global AI power structures.</description>
-      <guid isPermaLink="false">d630db00ef3f120c376fe190655f735e</guid>
-      <pubDate>Wed, 04 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 16 Jun 2025 16:16:02 +0000</lastBuildDate>
     <item>
       <title>Inside Intuit’s GenOS update [ ~ ]</title>
       <link>https://venturebeat.com/ai/inside-intuits-genos-update-why-prompt-optimization-and-intelligent-data-cognition-are-critical-to-enterprise-agentic-ai-success/</link>
@@ -357,6 +315,48 @@
       <description>This article showcases a practical enterprise deployment of agentic generative AI to significantly streamline ESG reporting by integrating data retrieval, natural language interfaces, and orchestration via Amazon Bedrock. Analysts highlighted its robust architectural detail, impact on compliance-heavy workflows, and the broader implication of evolving best practices for agentic frameworks across structured data domains.</description>
       <guid isPermaLink="false">bef4459e2b8d72c403ca82d149a16491</guid>
       <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ComfyUI-R1: Exploring Reasoning Models for Workflow Generation [ ~ ]</title>
+      <link>https://arxiv.org/abs/2506.09790</link>
+      <description>This research introduces an LLM‑driven UI layer for automating workflow design, showing promise in stitching together processes via generative AI. However, it remains early-stage with underwhelming benchmarks. Analysts viewed it as a valuable trend to monitor but not yet impactful enough for widespread adoption.</description>
+      <guid isPermaLink="false">a63517fe0bb26c54d4070b8be63809c0</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accelerating Articul8’s domain-specific model development with Amazon SageMaker HyperPod [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/accelerating-articul8s-domain-specific-model-development-with-amazon-sagemaker-hyperpod/</link>
+      <description>This AWS case study shows how fine-tuning domain-specific models (“DSM”) via SageMaker HyperPod boosts performance over general LLMs. While acknowledging performance gains, our analysts noted it reads like product marketing with limited strategic insights—worth reviewing, but not urgent.</description>
+      <guid isPermaLink="false">c4be1350ebc0a6110c2c8658e449aeaf</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Next‑Gen Pentesting: AI Empowers the Good Guys [ ~ ]</title>
+      <link>https://a16z.com/next-gen-pentesting-ai-empowers-the-good-guys</link>
+      <description>a16z spotlights AI-driven penetration testing tools like Unpatched AI that continuously scan and exploit vulnerabilities, reflecting a shift from manual to autonomous security approaches. Our analysts liked the concept but viewed it as a niche security update rather than must-have news for most AI leaders, making it optional for deeper exploration.</description>
+      <guid isPermaLink="false">3700545dcef5110ef09c900259e36ee2</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we built our multi-agent research system [ * ]</title>
+      <link>https://www.anthropic.com/engineering/built-multi-agent-research-system?s=09</link>
+      <description>Anthropic details its multi-agent “orchestrator-worker” architecture that coordinates parallel subagents for dynamic, high-quality research—marking a major step forward in AI automation and content generation. Our analysts highlighted its engineering rigor, lessons on token usage and traceability, and broad architectural applicability, making it crucial for anyone building reliable and scalable AI agent systems.</description>
+      <guid isPermaLink="false">60c3b3d08d47934713e6c2e4983709ab</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Future of Work with AI Agents [ * ]</title>
+      <link>https://futureofwork.saltlab.stanford.edu/?s=09</link>
+      <description>This Stanford SALT Lab study uncovers how 1,500 workers across 104 occupations view AI agents, revealing critical mismatches between their preferences and current capabilities in automation and augmentation. Our analysts emphasized that its data-driven human-agent framework (with zones and H1–H5 scale) offers valuable insights for AI leaders to align deployment strategies with real workforce preferences, making it essential for guiding long-term AI-driven workplace transformation.</description>
+      <guid isPermaLink="false">38bd3f0ba037a225e09ff57fa357d8cc</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Organizations Aren’t Ready for the Risks of Agentic AI [ * ]</title>
+      <link>https://hbr.org/2025/06/organizations-arent-ready-for-the-risks-of-agentic-ai</link>
+      <description>This HBR essay by Reid Blackman maps out how as organizations scale from narrow to multi-agent AI, risk escalates exponentially, offering a maturity curve and four capability gaps—stress testing, observability, kill-switches, and skilling—needed for responsible AI governance. Our analysts stressed that its clear risk framework and pragmatic guidance make it an essential read to avoid being unprepared as agentic AI becomes mainstream.</description>
+      <guid isPermaLink="false">85f15304e5579c6d86a8aa0e2ae0a460</guid>
+      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
