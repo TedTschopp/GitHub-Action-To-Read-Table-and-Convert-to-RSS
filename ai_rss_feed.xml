@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 17 Jun 2025 08:17:51 +0000</lastBuildDate>
-    <item>
-      <title>Inside Intuit’s GenOS update [ ~ ]</title>
-      <link>https://venturebeat.com/ai/inside-intuits-genos-update-why-prompt-optimization-and-intelligent-data-cognition-are-critical-to-enterprise-agentic-ai-success/</link>
-      <description>Intuit’s GenOS refresh outlines three innovations — an agent starter kit, prompt optimization, and a new intelligent data ingestion layer — as key to its internal AI ecosystem. However, our analysts criticized the lack of depth, evidence, and measurable results in the article, concluding it’s more of a buzzword-heavy signal than a demonstrable advance.</description>
-      <guid isPermaLink="false">f724790c675f92b8123ab06a463d85bc</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Mistral Code [ ~ ]</title>
-      <link>https://mistral.ai/news/mistral-code</link>
-      <description>Mistral Code bundles tools like CodeStral and DevStral into a secure, on-prem coding suite aimed at European enterprises seeking AI-assisted development. Despite potential for regional appeal and a Red Hat-style open source model, our analysts agreed the offering lacks user traction and is largely playing catch-up, limiting its broader impact for now.</description>
-      <guid isPermaLink="false">dd1387f14974b361279c585207545fca</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Incentivizing Multimodal Biological Reasoning within a DNA-LLM Model [ * ]</title>
-      <link>https://bowang-lab.github.io/BioReason</link>
-      <description>BioReason introduces a specialized DNA-LLM architecture for biological reasoning using small models, enabling sophisticated insights into genetic pathways. Our analysts found it impressive for life sciences applications, but noted that it has limited immediate relevance for broader enterprise AI audiences, positioning it as an important but specialized breakthrough.</description>
-      <guid isPermaLink="false">e44558a1d685254b6714bd2371ebbb9a</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ensuring accurate product attributes at the source [ * ]</title>
-      <link>https://www.llama.com/static-resource/llama-case-study-shopify/</link>
-      <description>Meta and Shopify collaborated on using a lightweight open-source LLaVA model to extract accurate product attributes from images, showcasing scalable AI automation for commerce. Our analysts noted the case study's architectural transparency and focus on cost-effectiveness with open source tools, especially valuable for those pursuing scalable AI.</description>
-      <guid isPermaLink="false">5f032db55078e8d7e2c725db3d2e2a0a</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT introduces meeting recording and connectors for Google Drive, Box, and more [ ! ]</title>
-      <link>https://techcrunch.com/2025/06/04/chatgpt-introduces-meeting-recording-and-connectors-for-google-drive-box-and-more/</link>
-      <description>OpenAI has added meeting recording capabilities and connectors to popular enterprise platforms like Google Drive, Box, and SharePoint, significantly expanding ChatGPT's business utility and reinforcing its enterprise ambitions. Our analysts agreed this signals OpenAI’s push to be a core enterprise productivity platform, making it a must-know update for AI leaders.</description>
-      <guid isPermaLink="false">c89416317051f6e0073ee5b1ec6b8df7</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Modify Video [ ! ]</title>
-      <link>https://lumalabs.ai/blog/news/introducing-modify-video?s=09</link>
-      <description>Luma AI’s Modify Video enables users to alter video environments and textures with precision while preserving original motion — a major step in AI-driven video creation. Our analysts highlighted this as a leap in generative video, seeing broad implications for product marketing, training, and digital content, with the potential to disrupt traditional video production workflows.</description>
-      <guid isPermaLink="false">b2d4020ea4b867568bcc13ef5723f392</guid>
-      <pubDate>Thu, 05 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 17 Jun 2025 16:16:06 +0000</lastBuildDate>
     <item>
       <title>BNP Paribas provides its businesses with an LLM as a Service platform to accelerate the industrialization of generative AI use cases [ ~ ]</title>
       <link>https://group.bnpparibas/en/press-release/bnp-paribas-provides-its-businesses-with-an-llm-as-a-service-platform-to-accelerate-the-industrialization-of-generative-ai-use-cases</link>
@@ -357,6 +315,48 @@
       <description>This HBR essay by Reid Blackman maps out how as organizations scale from narrow to multi-agent AI, risk escalates exponentially, offering a maturity curve and four capability gaps—stress testing, observability, kill-switches, and skilling—needed for responsible AI governance. Our analysts stressed that its clear risk framework and pragmatic guidance make it an essential read to avoid being unprepared as agentic AI becomes mainstream.</description>
       <guid isPermaLink="false">85f15304e5579c6d86a8aa0e2ae0a460</guid>
       <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seizing the agentic AI advantage [ ~ ]</title>
+      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/seizing-the-agentic-ai-advantage</link>
+      <description>McKinsey presents a strategic approach to implementing agentic AI, emphasizing organizational centralization and urgency. Our analysts were highly critical, viewing it as a promotional piece that potentially misguides enterprise leaders, particularly for its overemphasis on small models and vendor-specific solutions like Mistral.</description>
+      <guid isPermaLink="false">896ea0ef192cd2ea7842a017837791f8</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seedance 1.0: Exploring the Boundaries of Video Generation Models [ ~ ]</title>
+      <link>https://arxiv.org/abs/2506.09113</link>
+      <description>ByteDance introduces its first video generation foundation model, highlighting advancements in motion realism and instruction adherence. Our analysts agreed it signals progress in generative video AI but remains early-stage and niche in application for most enterprise AI leaders.</description>
+      <guid isPermaLink="false">c0fd69e7003c1940f2a8410162e1c4d6</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Private Equity Firms Are Creating Value with AI [ ~ ]</title>
+      <link>https://hbr.org/2025/06/how-private-equity-firms-are-creating-value-with-ai</link>
+      <description>This article outlines the role of generative AI in driving value creation in private equity, particularly in evaluating and scaling portfolio companies. Our analysts considered it a summary of obvious insights without offering actionable depth, resulting in a consensus optional rating.</description>
+      <guid isPermaLink="false">98f55ffb496f310a66ef275a3edcf9e4</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grab scales personalized merchant support across Southeast Asia with Claude [ * ]</title>
+      <link>https://www.anthropic.com/customers/grab</link>
+      <description>Grab is leveraging Anthropic’s Claude to enhance merchant support across Southeast Asia, improving customer experience and support efficiency. While light on technical implementation details, our analyst panel appreciated the regional scale and its relevance for small business enablement through AI automation.</description>
+      <guid isPermaLink="false">ddb8937183c3d934745f7a0ce2fd6477</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How can you make sure your brand shows up in LLM search? [ * ]</title>
+      <link>https://venturebeat.com/ai/how-can-you-best-position-your-brand-for-discovery-in-llm-search-adobes-new-llm-optimizer-seeks-to-provide-the-tools/</link>
+      <description>Adobe has launched a new tool aimed at optimizing content visibility in generative AI platforms, marking a shift from traditional SEO to GEO (Generation Optimization Engine). Our analysts highlighted how this tool supports brand presence in AI-driven environments and recognized it as a meaningful product move from a major vendor in response to falling search traffic and increasing use of large language models.</description>
+      <guid isPermaLink="false">0d8a8985304984e1909402da74f66b29</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Apollo Tyres is unlocking machine insights using agentic AI-powered Manufacturing Reasoner [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-apollo-tyres-is-unlocking-machine-insights-using-agentic-ai-powered-manufacturing-reasoner/</link>
+      <description>This case study shows Apollo Tyres applying agentic AI to streamline defect detection and process analytics in manufacturing. Our analysts noted it as a strong industrial AI use case with real data, demonstrating how generative AI builds on years of machine learning groundwork to enable scalable, expert-level automation.</description>
+      <guid isPermaLink="false">82cedb2e1c0e29e5964361b84e6e65d8</guid>
+      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
