@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Turbocharging Customer Support Chatbot Development with LLM-Based Automated Evaluation",
+        "links": [
+          "https://tech.instacart.com/turbocharging-customer-support-chatbot-development-with-llm-based-automated-evaluation-6a269aae56b2"
+        ]
+      },
+      "Rationale": {
+        "text": "Instacart reveals a quality evaluation process where LLM agents evaluate other LLMs to refine customer support bots—combining conversation monitoring, error detection, and iterative improvements. Our analysts called out the significance of embedding automated evaluation to ensure customer satisfaction and reduce friction, marking this as an essential use case for any AI‑infused customer service strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "SHADE-Arena: Evaluating sabotage and monitoring in LLM agents",
+        "links": [
+          "https://www.anthropic.com/research/shade-arena-sabotage-monitoring"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic introduces a sophisticated evaluation framework—SHADE‑Arena—that tests whether LLM‑based agents can covertly sabotage tasks (like Venmo payments), embed bugs, or evade oversight. Our analysts highlighted its clever experimental design and the critical need for dual‑agent monitoring systems to catch subversive behavior, especially as agents grow more autonomous and complex. This work is an important step in AI safety and governance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "A.I. Might Take Your Job. Here Are 22 New Ones It Could Give You.",
+        "links": [
+          "https://archive.is/MZt6K"
+        ]
+      },
+      "Rationale": {
+        "text": "This piece explores emerging AI‑created roles—like AI auditors, compliance leads, and risk integrators—countering the doom‑and‑gloom narrative. Our analysts noted how these roles mirror existing risk and audit functions in large organizations and emphasized that professionals will need to acquire new skills to adapt. It’s timely reading for business and AI leaders planning for workforce transformations.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Gemini 2.5: Updates to our family of thinking models",
+        "links": [
+          "https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Google introduces “Gemini 2.5 Light” with revised pricing (higher input costs, lower output costs) for all Gemini 2.5 models. While the development is interesting, our analysts felt it’s mainly a product update with no new technical breakthroughs. However, CIOs should monitor pricing trends as they impact cost predictability.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How VideoAmp uses Amazon Bedrock to power their media analytics interface",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-videoamp-uses-amazon-bedrock-to-power-their-media-analytics-interface/"
+        ]
+      },
+      "Rationale": {
+        "text": "The case study showcases structured‑data retrieval via Bedrock—turning natural language prompts into SQL queries for media analytics. As our analysts noted, it’s a clear example of RAG on structured data, but most steps are standard, making this an optional read.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Self-Adapting Language Models",
+        "links": [
+          "https://arxiv.org/abs/2506.10943"
+        ]
+      },
+      "Rationale": {
+        "text": "This MIT paper explores models generating synthetic data to improve themselves—akin to a student creating notes to learn. Although our analysts flagged it as a key frontier (with parallels to Google’s Alpha Evolve and Berkeley research), the consensus was that implementation and real‑world impact are still unclear, placing it in research‑only territory.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/17/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "McKinsey highlights adoption challenges across 200+ companies and suggests centralized strategy and guardrails—but our analysts criticized it as superficial and self-promotional, noting the generic advice reads like a consulting pitch.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "BenchmarkQED: Automated Benchmarking of RAG Systems",
-        "links": [
-          "https://www.microsoft.com/en-us/research/blog/benchmarkqed-automated-benchmarking-of-rag-systems/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft has introduced BenchmarkQED, a tool that automates evaluation of RAG systems using qualitative metrics such as comprehensiveness, diversity, empowerment, and relevance, with LLM acting as a judge. Our analysts emphasized its growing relevance for enterprise AI workflows and praised its open, framework-based approach to measuring the effectiveness of graph, vector, and relational RAG configurations across environments.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Enhanced diagnostics flow with LLM and Amazon Bedrock agent integration",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/enhanced-diagnostics-flow-with-llm-and-amazon-bedrock-agent-integration/"
-        ]
-      },
-      "Rationale": {
-        "text": "This AWS case study details how Noodoe used LLMs via Amazon Bedrock to optimize pricing for EV charging stations, claiming a 15% revenue increase and 10% implementation time reduction. While some of our analysts questioned whether GenAI was necessary for the task versus traditional ML, they acknowledged its cross-industry applicability and clear architectural insights.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "ether0: a scientific reasoning model for chemistry",
-        "links": [
-          "https://www.futurehouse.org/research-announcements/ether0-a-scientific-reasoning-model-for-chemistry"
-        ]
-      },
-      "Rationale": {
-        "text": "FutureHouse’s ether0 is a fine-tuned version of Mistral optimized for scientific reasoning in chemistry, demonstrating high performance in molecule generation but lower performance in language tasks. Our analysts viewed it as a compelling case of AI in science, highlighting the efficiency of small, domain-specific models and the implications for future AI-driven scientific discovery.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Coding Agents with Multimodal Browsing are Generalist Problem Solvers",
-        "links": [
-          "https://arxiv.org/abs/2506.03011?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This research presents a model that uses a minimal toolset (web search, file access, code editing, browsing) to outperform specialist models on certain tasks using Claude Sonnet. However, our analysts considered it an academic benchmark exercise with limited immediate relevance for enterprise AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Morgan Stanley Tackled One of Coding’s Toughest Problems",
-        "links": [
-          "https://www.wsj.com/articles/how-morgan-stanley-tackled-one-of-codings-toughest-problems-4f465959?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Morgan Stanley developed a custom model to convert COBOL code to English summaries to help refactor legacy systems, claiming a savings of 280,000 developer hours. Despite the financial scale, our analysts noted the approach lags behind current GenAI capabilities, and viewed the article as light on technical details and better suited for awareness than actionable insight.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "BNP Paribas provides its businesses with an LLM as a Service platform to accelerate the industrialization of generative AI use cases",
-        "links": [
-          "https://group.bnpparibas/en/press-release/bnp-paribas-provides-its-businesses-with-an-llm-as-a-service-platform-to-accelerate-the-industrialization-of-generative-ai-use-cases"
-        ]
-      },
-      "Rationale": {
-        "text": "BNP Paribas launched an internal platform offering LLM-as-a-Service to accelerate AI use cases across departments. The announcement lacked specific implementation outcomes or economic impact, leading our analysts to treat it as a basic product reveal rather than a strategic milestone.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-18T08:18:01.721962+00:00"
+  "timestamp": "2025-06-18T16:15:55.694022+00:00"
 }

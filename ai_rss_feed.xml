@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 18 Jun 2025 08:18:01 +0000</lastBuildDate>
-    <item>
-      <title>BNP Paribas provides its businesses with an LLM as a Service platform to accelerate the industrialization of generative AI use cases [ ~ ]</title>
-      <link>https://group.bnpparibas/en/press-release/bnp-paribas-provides-its-businesses-with-an-llm-as-a-service-platform-to-accelerate-the-industrialization-of-generative-ai-use-cases</link>
-      <description>BNP Paribas launched an internal platform offering LLM-as-a-Service to accelerate AI use cases across departments. The announcement lacked specific implementation outcomes or economic impact, leading our analysts to treat it as a basic product reveal rather than a strategic milestone.</description>
-      <guid isPermaLink="false">0a933617a477329aaea87cdd656958b4</guid>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Morgan Stanley Tackled One of Coding’s Toughest Problems [ ~ ]</title>
-      <link>https://www.wsj.com/articles/how-morgan-stanley-tackled-one-of-codings-toughest-problems-4f465959?s=09</link>
-      <description>Morgan Stanley developed a custom model to convert COBOL code to English summaries to help refactor legacy systems, claiming a savings of 280,000 developer hours. Despite the financial scale, our analysts noted the approach lags behind current GenAI capabilities, and viewed the article as light on technical details and better suited for awareness than actionable insight.</description>
-      <guid isPermaLink="false">2f1f6b40e51ed5e78d8f88f89f8d9897</guid>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coding Agents with Multimodal Browsing are Generalist Problem Solvers [ ~ ]</title>
-      <link>https://arxiv.org/abs/2506.03011?s=09</link>
-      <description>This research presents a model that uses a minimal toolset (web search, file access, code editing, browsing) to outperform specialist models on certain tasks using Claude Sonnet. However, our analysts considered it an academic benchmark exercise with limited immediate relevance for enterprise AI leaders.</description>
-      <guid isPermaLink="false">fedd78c10c6bdbc070ca9deb18838be2</guid>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ether0: a scientific reasoning model for chemistry [ * ]</title>
-      <link>https://www.futurehouse.org/research-announcements/ether0-a-scientific-reasoning-model-for-chemistry</link>
-      <description>FutureHouse’s ether0 is a fine-tuned version of Mistral optimized for scientific reasoning in chemistry, demonstrating high performance in molecule generation but lower performance in language tasks. Our analysts viewed it as a compelling case of AI in science, highlighting the efficiency of small, domain-specific models and the implications for future AI-driven scientific discovery.</description>
-      <guid isPermaLink="false">cff607e251d95d7bd37b60baf211ab51</guid>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Enhanced diagnostics flow with LLM and Amazon Bedrock agent integration [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/enhanced-diagnostics-flow-with-llm-and-amazon-bedrock-agent-integration/</link>
-      <description>This AWS case study details how Noodoe used LLMs via Amazon Bedrock to optimize pricing for EV charging stations, claiming a 15% revenue increase and 10% implementation time reduction. While some of our analysts questioned whether GenAI was necessary for the task versus traditional ML, they acknowledged its cross-industry applicability and clear architectural insights.</description>
-      <guid isPermaLink="false">37cf08e5e451aba4dfc143d9aaacf416</guid>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>BenchmarkQED: Automated Benchmarking of RAG Systems [ * ]</title>
-      <link>https://www.microsoft.com/en-us/research/blog/benchmarkqed-automated-benchmarking-of-rag-systems/</link>
-      <description>Microsoft has introduced BenchmarkQED, a tool that automates evaluation of RAG systems using qualitative metrics such as comprehensiveness, diversity, empowerment, and relevance, with LLM acting as a judge. Our analysts emphasized its growing relevance for enterprise AI workflows and praised its open, framework-based approach to measuring the effectiveness of graph, vector, and relational RAG configurations across environments.</description>
-      <guid isPermaLink="false">96303c7abd8573e1df0c02da0f2b0dfb</guid>
-      <pubDate>Fri, 06 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 18 Jun 2025 16:15:55 +0000</lastBuildDate>
     <item>
       <title>Overcoming two issues that are sinking gen AI programs [ ~ ]</title>
       <link>https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/overcoming-two-issues-that-are-sinking-gen-ai-programs</link>
@@ -357,6 +315,48 @@
       <description>This case study shows Apollo Tyres applying agentic AI to streamline defect detection and process analytics in manufacturing. Our analysts noted it as a strong industrial AI use case with real data, demonstrating how generative AI builds on years of machine learning groundwork to enable scalable, expert-level automation.</description>
       <guid isPermaLink="false">82cedb2e1c0e29e5964361b84e6e65d8</guid>
       <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Self-Adapting Language Models [ ~ ]</title>
+      <link>https://arxiv.org/abs/2506.10943</link>
+      <description>This MIT paper explores models generating synthetic data to improve themselves—akin to a student creating notes to learn. Although our analysts flagged it as a key frontier (with parallels to Google’s Alpha Evolve and Berkeley research), the consensus was that implementation and real‑world impact are still unclear, placing it in research‑only territory.</description>
+      <guid isPermaLink="false">194f086fcc631b71458a8e14e1505a11</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How VideoAmp uses Amazon Bedrock to power their media analytics interface [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-videoamp-uses-amazon-bedrock-to-power-their-media-analytics-interface/</link>
+      <description>The case study showcases structured‑data retrieval via Bedrock—turning natural language prompts into SQL queries for media analytics. As our analysts noted, it’s a clear example of RAG on structured data, but most steps are standard, making this an optional read.</description>
+      <guid isPermaLink="false">160ca93197a777016e21a348e85757a1</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini 2.5: Updates to our family of thinking models [ ~ ]</title>
+      <link>https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/?s=09</link>
+      <description>Google introduces “Gemini 2.5 Light” with revised pricing (higher input costs, lower output costs) for all Gemini 2.5 models. While the development is interesting, our analysts felt it’s mainly a product update with no new technical breakthroughs. However, CIOs should monitor pricing trends as they impact cost predictability.</description>
+      <guid isPermaLink="false">4f0c26e6a3efa691dbd7f0566bda36df</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A.I. Might Take Your Job. Here Are 22 New Ones It Could Give You. [ * ]</title>
+      <link>https://archive.is/MZt6K</link>
+      <description>This piece explores emerging AI‑created roles—like AI auditors, compliance leads, and risk integrators—countering the doom‑and‑gloom narrative. Our analysts noted how these roles mirror existing risk and audit functions in large organizations and emphasized that professionals will need to acquire new skills to adapt. It’s timely reading for business and AI leaders planning for workforce transformations.</description>
+      <guid isPermaLink="false">58c88ad8cf29c6115516d8da3bfd0cc0</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SHADE-Arena: Evaluating sabotage and monitoring in LLM agents [ * ]</title>
+      <link>https://www.anthropic.com/research/shade-arena-sabotage-monitoring</link>
+      <description>Anthropic introduces a sophisticated evaluation framework—SHADE‑Arena—that tests whether LLM‑based agents can covertly sabotage tasks (like Venmo payments), embed bugs, or evade oversight. Our analysts highlighted its clever experimental design and the critical need for dual‑agent monitoring systems to catch subversive behavior, especially as agents grow more autonomous and complex. This work is an important step in AI safety and governance.</description>
+      <guid isPermaLink="false">beda2802e01caff17f2337d9f080768f</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Turbocharging Customer Support Chatbot Development with LLM-Based Automated Evaluation [ ! ]</title>
+      <link>https://tech.instacart.com/turbocharging-customer-support-chatbot-development-with-llm-based-automated-evaluation-6a269aae56b2</link>
+      <description>Instacart reveals a quality evaluation process where LLM agents evaluate other LLMs to refine customer support bots—combining conversation monitoring, error detection, and iterative improvements. Our analysts called out the significance of embedding automated evaluation to ensure customer satisfaction and reduce friction, marking this as an essential use case for any AI‑infused customer service strategy.</description>
+      <guid isPermaLink="false">8c120af76d87b1d6a901033c4858fa50</guid>
+      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
