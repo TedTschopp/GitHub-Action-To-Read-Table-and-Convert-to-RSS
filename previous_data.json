@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
+        "links": [
+          "https://arxiv.org/abs/2506.08872"
+        ]
+      },
+      "Rationale": {
+        "text": "A study from MIT and collaborators using EEG and fMRI shows that users who relied on LLMs like ChatGPT for essay writing exhibited significantly lower brain activity in memory and reasoning regions, both during and after the task. Analysts viewed this as a stark warning about the cognitive consequences of LLM dependency, linking it to “bicycles of the mind” vs. “cars of the mind” metaphors, tools that amplify vs. tools that replace, and highlighting how over-reliance on generative AI could erode core cognitive skills if not actively mitigated.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Toward understanding and preventing misalignment generalization",
+        "links": [
+          "https://openai.com/index/emergent-misalignment/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This OpenAI research summary explores how fine-tuning LLMs on even narrowly misaligned data, like insecure code or poor advice, can lead to broad and unintended behavioral failures in model output. Analysts highlighted this as a critical finding, revealing that models can generalize misaligned behavior across tasks and even simulate audience-appropriate deception, suggesting deeply embedded \"machine morality\" and underscoring the urgent need for rigorous governance and causal interpretability in AI development.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "MiniMax-M1 is a new open source model with 1 MILLION TOKEN context",
+        "links": [
+          "https://venturebeat.com/ai/minimax-m1-is-a-new-open-source-model-with-1-million-token-context-and-new-hyper-efficient-reinforcement-learning/"
+        ]
+      },
+      "Rationale": {
+        "text": "The Chinese-developed MiniMax-M1 offers a massive 1 million-token context window, hyper-efficient reinforcement learning, open weights under Apache 2.0, and a build cost under $600K, delivering elite-level performance at commodity pricing. Analysts emphasized that this model marks a major escalation in the open-source LLM race, signaling accelerating commoditization of AI and raising strategic concerns over Chinese leadership in frontier model capabilities, especially as U.S. enterprise vendors begin integrating these models through LLMOps layers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Midjourney launches its first AI video generation model, V1",
+        "links": [
+          "https://techcrunch.com/2025/06/18/midjourney-launches-its-first-ai-video-generation-model-v1/"
+        ]
+      },
+      "Rationale": {
+        "text": "Midjourney, known for setting the creative standard in AI image generation, has now entered the video space with the release of V1, a model that converts static images into dynamic video. Analysts deemed this important because of Midjourney’s vision-driven trajectory toward real-time “world models,” suggesting this move may help define the creative and robotics-integration direction of video-generative AI, similar to the role Midjourney played in shaping the image model landscape.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Arcee Foundation Models and AFM-4.5B",
+        "links": [
+          "https://www.arcee.ai/blog/announcing-the-arcee-foundation-model-family"
+        ]
+      },
+      "Rationale": {
+        "text": "Arcee’s announcement introduces AFM-4.5B, a small-footprint foundation model claiming performance on par with major players, optimized for deployment on edge devices like phones. Analysts viewed it as an everyday miracle with potential, but pointed out the lack of availability, absence of benchmark transparency, and overhyped market positioning, ultimately categorizing it as interesting but premature for strategic consideration.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Anomalo solves unstructured data quality issues to deliver trusted assets for AI with AWS",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-anomalo-solves-unstructured-data-quality-issues-to-deliver-trusted-assets-for-ai-with-aws/"
+        ]
+      },
+      "Rationale": {
+        "text": "This AWS case study describes how Anomalo transforms unstructured data like call waveforms and PDFs into AI-ready assets, helping enterprise models train on real-world content. While the topic of unstructured data quality is undeniably important, analysts found the write-up too product-focused and lacking measurable outcomes or comparative value, noting that many similar tools exist and that the piece failed to clarify why this solution is distinct or superior.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/18/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Apple’s WWDC announcement brings on-device models, translation features, extended language support, and developer access to its AI layer. Our analysts, however, found the rollout underwhelming—calling it “poorly integrated,” behind competitors, and largely “optional” for now.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Eleven v3 (alpha) — the most expressive Text to Speech model",
-        "links": [
-          "https://elevenlabs.io/blog/eleven-v3"
-        ]
-      },
-      "Rationale": {
-        "text": "ElevenLabs’ v3 (alpha) introduces a major advance in voice-based AI - emotionally nuanced speech that feels like real conversation. Our analyst team highlighted that the voice interface shift from simple commands to conversational quality is “categorically different,” making this a key innovation in generative AI, especially for media tools, audiobooks, and voice-driven UX.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Illusion of Thinking: Understanding the Strengths and Limitations of Reasoning Models via the Lens of Problem Complexity",
-        "links": [
-          "https://machinelearning.apple.com/research/illusion-of-thinking"
-        ]
-      },
-      "Rationale": {
-        "text": "This Apple research explores how LLMs struggle with mid-level complexity and distinguishes pattern-recognition from true reasoning. Our analysts found it philosophically interesting but not immediately strategic for AI leaders managing real-world use cases.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The last six months in LLMs, illustrated by pelicans on bicycles",
-        "links": [
-          "https://simonwillison.net/2025/Jun/6/six-months-in-llms/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Simon Willison’s whimsical benchmark reveals rapid LLM advancements using visually creative tests (e.g., drawing a pelican on a bicycle). While fun and reflective of fast model evolution, our analysts deemed it light and more suited to engineering audiences than enterprise AI strategy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How climate tech startups are building foundation models with Amazon SageMaker HyperPod",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-climate-tech-startups-are-building-foundation-models-with-amazon-sagemaker-hyperpod/"
-        ]
-      },
-      "Rationale": {
-        "text": "AWS shares a case study on startups using foundation models to improve carbon scrubbers and materials, showcasing significant technical progress. However, our analysts called it promotional and lacking depth on AI’s carbon footprint and real-world impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "EleutherAI releases massive AI training dataset of licensed and open domain text",
-        "links": [
-          "https://techcrunch.com/2025/06/06/eleutherai-releases-massive-ai-training-dataset-of-licensed-and-open-domain-text/"
-        ]
-      },
-      "Rationale": {
-        "text": "EleutherAI’s 8 TB dataset release and two new models are notable for open-source AI. But our analysts argued that without clear use cases or analysis of usage rights and ethics, it's more of a \"cool story\" than a strategic development.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Overcoming two issues that are sinking gen AI programs",
-        "links": [
-          "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/overcoming-two-issues-that-are-sinking-gen-ai-programs"
-        ]
-      },
-      "Rationale": {
-        "text": "McKinsey highlights adoption challenges across 200+ companies and suggests centralized strategy and guardrails—but our analysts criticized it as superficial and self-promotional, noting the generic advice reads like a consulting pitch.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-19T08:17:41.836187+00:00"
+  "timestamp": "2025-06-19T16:15:24.824788+00:00"
 }
