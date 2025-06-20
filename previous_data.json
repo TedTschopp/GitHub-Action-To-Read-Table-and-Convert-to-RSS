@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI open-sourced a new Customer Service Agent framework",
+        "links": [
+          "https://venturebeat.com/programming-development/openai-open-sourced-a-new-customer-service-agent-framework-learn-more-about-its-growing-enterprise-strategy/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has released an open‑source, end‑to‑end customer service agent framework—complete with a frontend, backend, and live orchestration visuals—to accelerate enterprise adoption of agentic systems. As our analysts noted, this “smart playbook” is a strong signal that OpenAI is doubling down on enterprise GenAI and giving developers a clear blueprint for building robust, tool-enabled agents.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Zoho unveils Zia Hubs",
+        "links": [
+          "https://www.cio.com/article/4008999/zoho-unveils-zia-hubs-its-answer-to-copilot-and-duet-ai-for-unstructured-content-intelligence.html"
+        ]
+      },
+      "Rationale": {
+        "text": "Zoho’s launch of Zia Hubs brings AI-driven insights into unstructured content across its WorkDrive ecosystem—targeting a crowded field with Copilot and Duet AI. While the scale of unstructured data is vast, our analysts felt the announcement reads more like a competitive positioning move than a groundbreaking innovation, and the solution’s impact remains uncertain.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Solvely.ai transforms global learning with Claude",
+        "links": [
+          "https://www.anthropic.com/customers/solvely"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study highlights how Claude powers Solvely.ai’s adaptive education platform, now the top education app globally and reaching underserved students in 120+ countries. Our analysts appreciated its role in AI-driven learning, but noted it lacks depth on implementation details, limiting its direct relevance for broader enterprise adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "MiniMax Agent",
+        "links": [
+          "https://x.com/MiniMax__AI/status/1935496799726543233"
+        ]
+      },
+      "Rationale": {
+        "text": "The MiniMax Agent is a multimodal toolkit—handling text, voice, image, and more—with impressive capabilities in tasks like chart-to-PPT conversion and meditation audio generation. While powerful, our analysts saw it as part of a crowded landscape of AI agents and noted it’s still early-stage.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs",
+        "links": [
+          "https://huggingface.co/papers/2506.15211"
+        ]
+      },
+      "Rationale": {
+        "text": "This research paper introduces proto‑reasoning, a hybrid symbolic–neural method that leverages prototypes for stronger LLM reasoning, reporting 4–6% performance gains. Our analysts found it technically rich, framing it as a refinement rather than revolutionary, with potential upside—but more relevance for R&D than current enterprise use.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Hunyuan 3D 2.1 is here",
+        "links": [
+          "https://x.com/TencentHunyuan/status/1933563360320385527?t=K2Q_wH8CVPDHAs8qPecHow&s=19"
+        ]
+      },
+      "Rationale": {
+        "text": "Tencent’s Hunyuan3D‑2.1 is a fully open‑source, text‑to‑3D asset generator—complete with model weights, code, PBR texture synthesis, and consumer‑GPU support. Our analysts praised the high-quality output and speed, but questioned enterprise uptake given geopolitical caution around Chinese-origin models.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/19/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "LlamaIndex has launched a new Spreadsheet Agent that lets users query spreadsheets in natural language by generating a semantic graph of the data behind the scenes. As noted by our analysts, while still early-stage, its ability to extract semantic structure from complex spreadsheets is a breakthrough for knowledge workers wanting to automate analytics.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Kepler democratized AI access and enhanced client services with Amazon Q Business",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-kepler-democratized-ai-access-and-enhanced-client-services-with-amazon-q-business/"
-        ]
-      },
-      "Rationale": {
-        "text": "Kepler’s implementation of Amazon Q Business delivered measurable gains—2.7 hours saved per week per employee and nearly 90% satisfaction—by securely scaling AI across its workflows. Our analysts noted this as a compelling example of how organizations are now rebuilding early-gen AI apps to meet today’s expectations leveraging context continuity, document integration, and enterprise-grade security.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Agents from First Principles",
-        "links": [
-          "https://cameronrwolfe.substack.com/p/ai-agents"
-        ]
-      },
-      "Rationale": {
-        "text": "Cameron Wolfe's article offers a structured, \"from-scratch\" breakdown of agent mechanics—from base LLMs to reinforcement learning—in clear, accessible language. Our analysts emphasized that it serves as a valuable primer for understanding the foundations of AI agents without diving into jargon.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Scaling Reinforcement Learning: Environments, Reward Hacking, Agents, Scaling Data",
-        "links": [
-          "https://semianalysis.com/2025/06/08/scaling-reinforcement-learning-environments-reward-hacking-agents-scaling-data/"
-        ]
-      },
-      "Rationale": {
-        "text": "This long-form SemiAnalysis post dives into intricate Reinforcement Learning (RL) challenges like reward hacking and infrastructure scaling as RL shifts to post-training paradigms. While praised for depth, our analysts felt it’s better suited for deep technical reading rather than executive-level summarization.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How PepsiCo moves past AI pilot purgatory",
-        "links": [
-          "https://www.ciodive.com/news/PepsiCo-generative-AI-pilot-scale-strategy-agents/750095/"
-        ]
-      },
-      "Rationale": {
-        "text": "PepsiCo highlights its transition from pilots to broader AI adoption, leaning on cloud and data foundations tied to agent strategies. Our analysts noted it reads as a PR-style case study with limited new insights, making it “super‑optional”.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI’s metrics question",
-        "links": [
-          "https://www.ben-evans.com/benedictevans/2025/6/9/generative-ais-metrics-question"
-        ]
-      },
-      "Rationale": {
-        "text": "Benedict Evans' piece discusses the need for robust AI performance metrics but stops short of offering new frameworks or solutions. Our analysts described it as long yet unoriginal—suggesting it's only worth skimming if you're interested in AI KPIs.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Apple Intelligence gets even more powerful with new capabilities across Apple devices",
-        "links": [
-          "https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/"
-        ]
-      },
-      "Rationale": {
-        "text": "Apple’s WWDC announcement brings on-device models, translation features, extended language support, and developer access to its AI layer. Our analysts, however, found the rollout underwhelming—calling it “poorly integrated,” behind competitors, and largely “optional” for now.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-20T08:17:37.176081+00:00"
+  "timestamp": "2025-06-20T16:25:55.742405+00:00"
 }

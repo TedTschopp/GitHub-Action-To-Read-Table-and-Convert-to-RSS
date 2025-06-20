@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 20 Jun 2025 08:17:37 +0000</lastBuildDate>
-    <item>
-      <title>Apple Intelligence gets even more powerful with new capabilities across Apple devices [ ~ ]</title>
-      <link>https://www.apple.com/newsroom/2025/06/apple-intelligence-gets-even-more-powerful-with-new-capabilities-across-apple-devices/</link>
-      <description>Apple’s WWDC announcement brings on-device models, translation features, extended language support, and developer access to its AI layer. Our analysts, however, found the rollout underwhelming—calling it “poorly integrated,” behind competitors, and largely “optional” for now.</description>
-      <guid isPermaLink="false">5c4555c175ecc088e826f3a17fc94cfe</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI’s metrics question [ ~ ]</title>
-      <link>https://www.ben-evans.com/benedictevans/2025/6/9/generative-ais-metrics-question</link>
-      <description>Benedict Evans' piece discusses the need for robust AI performance metrics but stops short of offering new frameworks or solutions. Our analysts described it as long yet unoriginal—suggesting it's only worth skimming if you're interested in AI KPIs.</description>
-      <guid isPermaLink="false">0ccab6d8827c061173a0e358b6b2d036</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How PepsiCo moves past AI pilot purgatory [ ~ ]</title>
-      <link>https://www.ciodive.com/news/PepsiCo-generative-AI-pilot-scale-strategy-agents/750095/</link>
-      <description>PepsiCo highlights its transition from pilots to broader AI adoption, leaning on cloud and data foundations tied to agent strategies. Our analysts noted it reads as a PR-style case study with limited new insights, making it “super‑optional”.</description>
-      <guid isPermaLink="false">264b48276c61102b38c65e8d2314581e</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Scaling Reinforcement Learning: Environments, Reward Hacking, Agents, Scaling Data [ ~ ]</title>
-      <link>https://semianalysis.com/2025/06/08/scaling-reinforcement-learning-environments-reward-hacking-agents-scaling-data/</link>
-      <description>This long-form SemiAnalysis post dives into intricate Reinforcement Learning (RL) challenges like reward hacking and infrastructure scaling as RL shifts to post-training paradigms. While praised for depth, our analysts felt it’s better suited for deep technical reading rather than executive-level summarization.</description>
-      <guid isPermaLink="false">7a28f5f7142a6c9f2713c5341710daf4</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Agents from First Principles [ * ]</title>
-      <link>https://cameronrwolfe.substack.com/p/ai-agents</link>
-      <description>Cameron Wolfe's article offers a structured, "from-scratch" breakdown of agent mechanics—from base LLMs to reinforcement learning—in clear, accessible language. Our analysts emphasized that it serves as a valuable primer for understanding the foundations of AI agents without diving into jargon.</description>
-      <guid isPermaLink="false">07b66eee0c04fcd4f1c2961fb8319bdc</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Kepler democratized AI access and enhanced client services with Amazon Q Business [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-kepler-democratized-ai-access-and-enhanced-client-services-with-amazon-q-business/</link>
-      <description>Kepler’s implementation of Amazon Q Business delivered measurable gains—2.7 hours saved per week per employee and nearly 90% satisfaction—by securely scaling AI across its workflows. Our analysts noted this as a compelling example of how organizations are now rebuilding early-gen AI apps to meet today’s expectations leveraging context continuity, document integration, and enterprise-grade security.</description>
-      <guid isPermaLink="false">62665908cde36f06ec45683868ec55be</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 20 Jun 2025 16:25:55 +0000</lastBuildDate>
     <item>
       <title>Introducing the Spreadsheet Agent [ * ]</title>
       <link>https://www.llamaindex.ai/blog/introducing-the-spreadsheet-agent-in-private-preview</link>
@@ -357,6 +315,48 @@
       <description>A study from MIT and collaborators using EEG and fMRI shows that users who relied on LLMs like ChatGPT for essay writing exhibited significantly lower brain activity in memory and reasoning regions, both during and after the task. Analysts viewed this as a stark warning about the cognitive consequences of LLM dependency, linking it to “bicycles of the mind” vs. “cars of the mind” metaphors, tools that amplify vs. tools that replace, and highlighting how over-reliance on generative AI could erode core cognitive skills if not actively mitigated.</description>
       <guid isPermaLink="false">fc70e64e733e99d299f57fbebf9fadee</guid>
       <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hunyuan 3D 2.1 is here [ ~ ]</title>
+      <link>https://x.com/TencentHunyuan/status/1933563360320385527?t=K2Q_wH8CVPDHAs8qPecHow&amp;s=19</link>
+      <description>Tencent’s Hunyuan3D‑2.1 is a fully open‑source, text‑to‑3D asset generator—complete with model weights, code, PBR texture synthesis, and consumer‑GPU support. Our analysts praised the high-quality output and speed, but questioned enterprise uptake given geopolitical caution around Chinese-origin models.</description>
+      <guid isPermaLink="false">7365d20b21a51338f3f49883245a99e5</guid>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs [ ~ ]</title>
+      <link>https://huggingface.co/papers/2506.15211</link>
+      <description>This research paper introduces proto‑reasoning, a hybrid symbolic–neural method that leverages prototypes for stronger LLM reasoning, reporting 4–6% performance gains. Our analysts found it technically rich, framing it as a refinement rather than revolutionary, with potential upside—but more relevance for R&amp;D than current enterprise use.</description>
+      <guid isPermaLink="false">a46a5f408bf2e09c41f4e98d21b24e9b</guid>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MiniMax Agent [ ~ ]</title>
+      <link>https://x.com/MiniMax__AI/status/1935496799726543233</link>
+      <description>The MiniMax Agent is a multimodal toolkit—handling text, voice, image, and more—with impressive capabilities in tasks like chart-to-PPT conversion and meditation audio generation. While powerful, our analysts saw it as part of a crowded landscape of AI agents and noted it’s still early-stage.</description>
+      <guid isPermaLink="false">d63655144eb65e082dd146bce950e797</guid>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solvely.ai transforms global learning with Claude [ ~ ]</title>
+      <link>https://www.anthropic.com/customers/solvely</link>
+      <description>This case study highlights how Claude powers Solvely.ai’s adaptive education platform, now the top education app globally and reaching underserved students in 120+ countries. Our analysts appreciated its role in AI-driven learning, but noted it lacks depth on implementation details, limiting its direct relevance for broader enterprise adoption.</description>
+      <guid isPermaLink="false">de06376165ad0dc08165109906cde9e7</guid>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zoho unveils Zia Hubs [ ~ ]</title>
+      <link>https://www.cio.com/article/4008999/zoho-unveils-zia-hubs-its-answer-to-copilot-and-duet-ai-for-unstructured-content-intelligence.html</link>
+      <description>Zoho’s launch of Zia Hubs brings AI-driven insights into unstructured content across its WorkDrive ecosystem—targeting a crowded field with Copilot and Duet AI. While the scale of unstructured data is vast, our analysts felt the announcement reads more like a competitive positioning move than a groundbreaking innovation, and the solution’s impact remains uncertain.</description>
+      <guid isPermaLink="false">8eccc18b65da9d816d5ecbdb76b0bf25</guid>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI open-sourced a new Customer Service Agent framework [ ! ]</title>
+      <link>https://venturebeat.com/programming-development/openai-open-sourced-a-new-customer-service-agent-framework-learn-more-about-its-growing-enterprise-strategy/</link>
+      <description>OpenAI has released an open‑source, end‑to‑end customer service agent framework—complete with a frontend, backend, and live orchestration visuals—to accelerate enterprise adoption of agentic systems. As our analysts noted, this “smart playbook” is a strong signal that OpenAI is doubling down on enterprise GenAI and giving developers a clear blueprint for building robust, tool-enabled agents.</description>
+      <guid isPermaLink="false">8998a980923fbe5e8c6d14d8d8042fe0</guid>
+      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
