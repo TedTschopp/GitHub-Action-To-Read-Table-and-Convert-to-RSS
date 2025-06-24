@@ -2,6 +2,146 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Using AI Right Now: A Quick Guide",
+        "links": [
+          "https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide"
+        ]
+      },
+      "Rationale": {
+        "text": "This article by Ethan Mollick offers a concise and actionable overview of current generative AI tools, comparing platforms like ChatGPT, Claude, and Gemini, with practical tips on pricing, deep research, and voice mode usage. Our analysts emphasized its value as a comprehensive refresher for AI leaders, noting it reflects the real-world tools their teams are using and provides essential frameworks for model selection and user guidance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Coding Agents Have Crossed a Chasm",
+        "links": [
+          "https://blog.singleton.io/posts/2025-06-14-coding-agents-cross-a-chasm/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article discusses a significant advancement in AI-assisted coding, where generative AI agents now handle not just code generation but debugging and iterative refinement. Our analysts highlighted its importance for leaders in software development, likening the tools to capable interns and emphasizing the shift from novelty to practical collaboration in AI-driven software engineering.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Reinforcement Learning Teachers of Test Time Scaling",
+        "links": [
+          "https://sakana.ai/rlt/"
+        ]
+      },
+      "Rationale": {
+        "text": "Sakana’s research introduces a novel approach using reinforcement learning to create teacher models that train other models more effectively. While not yet widely adopted, our analysts recognized its conceptual importance and the potential to transform generative AI training efficiency, calling it a thought-provoking direction worth noting for AI researchers and strategists.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Why CIOs Must Embrace Persona-Based AI",
+        "links": [
+          "https://www.cio.com/article/4010141/why-cios-must-embrace-persona-based-ai.html"
+        ]
+      },
+      "Rationale": {
+        "text": "This article promotes the idea that CIOs should tailor AI to user personas to increase adoption and value. Our analysts dismissed it as a buzzword-heavy piece offering little actionable insight, with conclusions that were viewed as obvious and lacking in depth.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Harvey Transforms Legal Work with Claude",
+        "links": [
+          "https://www.anthropic.com/customers/harvey"
+        ]
+      },
+      "Rationale": {
+        "text": "Harvey's integration with Claude to assist legal professionals is presented here more as a marketing update than a substantive case study. Our analysts found the article lacking in technical depth and practical detail, reducing its value to a general audience despite Harvey’s prominence in AI legal tech.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Recalculating the Costs and Benefits of GenAI",
+        "links": [
+          "https://archive.md/GqKD9"
+        ]
+      },
+      "Rationale": {
+        "text": "Although framed as an analytical piece, this article fails to offer new insights or data on the real costs and benefits of generative AI. Our analysts criticized it as vague and lacking content, offering generic advice without meaningful takeaways.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Arc Institute’s first virtual cell model: State",
+        "links": [
+          "https://arcinstitute.org/news/virtual-cell-model-state"
+        ]
+      },
+      "Rationale": {
+        "text": "The Arc Institute’s development of a virtual cell model showcases generative AI applications in biosciences, particularly cellular biology. However, our analysts deemed it highly specialized and not directly relevant to most AI leaders outside of life sciences, thus classifying it as optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/23/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "Mistral has launched a full-stack AI infrastructure platform supporting on-premise deployment, aiming to serve Europe’s AI sovereignty goals with enterprise clients like BNP Paribas and Total. Analysts viewed this as a meaningful strategic move, especially given Europe’s need for regional AI alternatives and Mistral’s $90M revenue traction, even if it remains a product launch without radical technical novelty.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Agent Bricks: Auto-Optimized Agents Using Your Data",
-        "links": [
-          "https://www.databricks.com/blog/introducing-agent-bricks"
-        ]
-      },
-      "Rationale": {
-        "text": "Databricks unveiled a new product called Agent Bricks that uses proprietary data to optimize AI agents, but the briefing labeled it a standard product announcement with limited specifics or impact. Analysts agreed it's part of a growing trend where vendors feel compelled to embed \"agent\" features, but offered little evidence of transformative value.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Cost Control: Scaling AI Without Going Broke",
-        "links": [
-          "https://ai.intellectronica.net/cost-control-guide?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This article outlines eight cost levers for managing AI deployment expenses, such as batching and model selection, but most of the guidance reflects well-known best practices. Analysts noted the advice is largely already available via cloud providers and lacked actionable novelty, making it more of a helpful summary than a breakthrough.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Ink: speech-to-text models for real-time conversation",
-        "links": [
-          "https://cartesia.ai/blog/introducing-ink-speech-to-text"
-        ]
-      },
-      "Rationale": {
-        "text": "Cartesia launched a speech-to-text model tuned for conversational use, supporting multiple voices and languages. While useful in niche applications like voice response systems and avatars, analysts noted it joins an already crowded field with little differentiation or innovation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Decreasing Value of Chain of Thought in Prompting",
-        "links": [
-          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5285532"
-        ]
-      },
-      "Rationale": {
-        "text": "This academic paper argues that explicit chain-of-thought prompting is less helpful as newer models already internalize such reasoning patterns. Analysts found the conclusions expected and well-trodden, suggesting it reaffirms existing developer intuition rather than offering new prompting strategies.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "News Sites Are Getting Crushed by Google’s New AI Tools",
-        "links": [
-          "https://www.wsj.com/tech/ai/google-ai-news-publishers-7e687141"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s AI Overviews are altering how people access news, driving down traffic for publishers by summarizing content directly in search. This threatens the traditional ad-based model of many organizations. Our analysts noted this isn't just a media problem—any business that depends on search-driven traffic, including e-commerce, SaaS, and information services, is at risk. The discussion highlighted the urgent need for companies to rethink digital visibility in an AI-first ecosystem.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI releases o3-pro",
-        "links": [
-          "https://techcrunch.com/2025/06/10/openai-releases-o3-pro-a-souped-up-version-of-its-o3-ai-reasoning-model/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI has released o3-pro, a new tier of its o3 AI reasoning model with improved performance across programming, business analysis, and scientific understanding. It supports better instruction following, multilingual capabilities, and code reasoning. Our analysts emphasized that this release significantly raises the bar for large language model capabilities in applied reasoning, marking it as a strategic advancement for OpenAI’s model stack.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Zip debuts 50 AI agents to kill procurement inefficiencies—OpenAI is already on board",
-        "links": [
-          "https://venturebeat.com/ai/zip-debuts-50-ai-agents-to-kill-procurement-inefficiencies-openai-is-already-on-board/"
-        ]
-      },
-      "Rationale": {
-        "text": "Zip has launched 50 modular AI agents aimed at automating procurement processes like approvals, policy checks, and data handling, helping companies like OpenAI and Canva reduce manual workload. Our analysts saw this as a clear demonstration of how AI automation can modernize enterprise operations and eliminate inefficiencies in manual workflows.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-24T08:18:23.797851+00:00"
+  "timestamp": "2025-06-24T16:15:33.107604+00:00"
 }
