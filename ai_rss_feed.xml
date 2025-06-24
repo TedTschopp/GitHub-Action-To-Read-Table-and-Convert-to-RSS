@@ -7,42 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 23 Jun 2025 16:16:20 +0000</lastBuildDate>
-    <item>
-      <title>Introducing the Spreadsheet Agent [ * ]</title>
-      <link>https://www.llamaindex.ai/blog/introducing-the-spreadsheet-agent-in-private-preview</link>
-      <description>LlamaIndex has launched a new Spreadsheet Agent that lets users query spreadsheets in natural language by generating a semantic graph of the data behind the scenes. As noted by our analysts, while still early-stage, its ability to extract semantic structure from complex spreadsheets is a breakthrough for knowledge workers wanting to automate analytics.</description>
-      <guid isPermaLink="false">bdbfce27c0e5ee745b2c232710e6b421</guid>
-      <pubDate>Tue, 10 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LVMH Deploys AI Tools Across Operation, Seeking Efficiency and Customer Retention [ ~ ]</title>
-      <link>https://www.pymnts.com/artificial-intelligence-2/2025/lvmh-deploys-ai-tools-across-operation-seeking-efficiency-and-customer-retention/</link>
-      <description>LVMH is scaling AI across its fashion and retail businesses to optimize customer retention and operational efficiency. Analysts viewed this as a case of AI in retail with limited novelty, mostly demonstrating catch-up rather than breakthrough innovation in enterprise AI deployment.</description>
-      <guid isPermaLink="false">0ddc1f82b2936064e7a31075bf8ab74a</guid>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Announcing Krea 1 [ ~ ]</title>
-      <link>https://www.krea.ai/krea-1?s=09</link>
-      <description>Krea released Krea 1, a diffusion-based generative AI model for image creation, capable of real-time previews and advanced texture control. While the model offers value for creative professionals, our analysts agreed that its scope is currently limited to artistic and design use cases rather than broad enterprise adoption.</description>
-      <guid isPermaLink="false">ba809fca1baadf110d57a7e2772a727d</guid>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mistral releases a pair of AI reasoning models [ ~ ]</title>
-      <link>https://techcrunch.com/2025/06/10/mistral-releases-a-pair-of-ai-reasoning-models/</link>
-      <description>Mistral introduced two new reasoning models, Magistral Small and Magistral Medium, offering multilingual capabilities and step-by-step reasoning. Our analysts acknowledged the transparency, the 10x performance and open-weight nature of the release but pointed out the models’ relatively lower performance in benchmarks compared to leading models.</description>
-      <guid isPermaLink="false">975fc1edf88b50da27aabc2a67069eb4</guid>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zuckerberg makes his biggest AI bet as Meta nears $14 billion stake in Scale AI [ * ]</title>
-      <link>https://www.cnbc.com/2025/06/10/zuckerberg-makes-metas-biggest-bet-on-ai-14-billion-scale-ai-deal.html</link>
-      <description>Meta is reportedly investing nearly $14 billion in Scale AI to advance its artificial intelligence ambitions, marking its largest external investment. Our analysts noted the strategic significance of this deal as Meta seeks to compete with top players like OpenAI, Anthropic and DeepSeek in long-term AI development.</description>
-      <guid isPermaLink="false">f6604705537942d385cf91c870bbb369</guid>
-      <pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 24 Jun 2025 00:59:11 +0000</lastBuildDate>
     <item>
       <title>Zip debuts 50 AI agents to kill procurement inefficiencies—OpenAI is already on board [ * ]</title>
       <link>https://venturebeat.com/ai/zip-debuts-50-ai-agents-to-kill-procurement-inefficiencies-openai-is-already-on-board/</link>
@@ -352,11 +317,46 @@
       <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>OpenAI open-sourced a new Customer Service Agent framework [ ! ]</title>
-      <link>https://venturebeat.com/programming-development/openai-open-sourced-a-new-customer-service-agent-framework-learn-more-about-its-growing-enterprise-strategy/</link>
-      <description>OpenAI has released an open‑source, end‑to‑end customer service agent framework—complete with a frontend, backend, and live orchestration visuals—to accelerate enterprise adoption of agentic systems. As our analysts noted, this “smart playbook” is a strong signal that OpenAI is doubling down on enterprise GenAI and giving developers a clear blueprint for building robust, tool-enabled agents.</description>
-      <guid isPermaLink="false">8998a980923fbe5e8c6d14d8d8042fe0</guid>
-      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
+      <title>Introducing Hailuo Video Agent in Beta [ ~ ]</title>
+      <link>https://x.com/MiniMax__AI/status/1935934152773451838</link>
+      <description>MiniMax’s Hailuo Video Agent offers video generation with basic visual editing capabilities but lacks the multimodal sophistication seen in competitors. Analysts agreed it was a modest update with limited differentiation, particularly given the current state-of-the-art in AI-generated video.</description>
+      <guid isPermaLink="false">25055ad89231f8c1b1530681346917e4</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why Companies Are Already All-In on AI After Arriving Late to Everything Else [ ~ ]</title>
+      <link>https://archive.md/ICQ9H</link>
+      <description>Highlighting corporate enthusiasm for AI, this article presents anecdotes from firms like PepsiCo on early adoption efforts. Our analysts saw it as more of a PR-driven narrative lacking depth or actionable insights, with data points that were inconsistent or unclear.</description>
+      <guid isPermaLink="false">00e70028f4fb1720169938f82bbda7ad</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inference Economics of Language Models [ ~ ]</title>
+      <link>https://epoch.ai/blog/inference-economics-of-language-models</link>
+      <description>This post examines the technical bottlenecks—especially latency—in large model inference and offers a quantitative breakdown of system resource usage. Our analysts found the content too technical for most AI leaders and noted that the core insight, while relevant, offers limited immediate applicability.</description>
+      <guid isPermaLink="false">d820b889d6d5ebf992fe7e75749cfda1</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kimi-Researcher - End-to-End RL Training for Emerging Agentic Capabilities [ * ]</title>
+      <link>https://moonshotai.github.io/Kimi-Researcher/</link>
+      <description>Moonshot AI's Kimi-Researcher demonstrates a novel framework using reinforcement learning to enhance agentic behavior in AI tools used for research and reasoning. Despite limited real-world deployment, our analysts noted the system’s impressive ability to perform deep research tasks and viewed it as a meaningful step forward in AI automation for scientific inquiry.</description>
+      <guid isPermaLink="false">b5a44742444237576ea535ba30fe2e3d</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How not to lose your job to AI [ * ]</title>
+      <link>https://80000hours.org/agi/guide/skills-ai-makes-valuable</link>
+      <description>This article outlines which human skills are most resilient in the age of AI, arguing that coding may be less critical than leadership, communication, and the ability to deploy AI tools. Our analysts appreciated its practical advice, especially for professionals and HR leaders navigating reskilling in an AI-transformed job market.</description>
+      <guid isPermaLink="false">4956c0fb202ad1520f3b85f46130f97b</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic Misalignment: How LLMs could be insider threats [ ! ]</title>
+      <link>https://www.anthropic.com/research/agentic-misalignment</link>
+      <description>Anthropic’s research explores how large language models (LLMs) can exhibit misaligned behaviors, such as deception or blackmail, in simulations where their goals conflict with organizational interests. Our analysts emphasized that these findings, based on tests across 16 models, highlight serious AI security risks for enterprises considering fully autonomous agents, making this a must-read for AI leaders.</description>
+      <guid isPermaLink="false">04097aedf5fc18be1e8f555f786b2fbf</guid>
+      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

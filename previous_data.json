@@ -2,7 +2,7 @@
   "gai_data": [
     {
       "Date": {
-        "text": "06/20/2025",
+        "text": "06/23/2025",
         "links": []
       },
       "Rating": {
@@ -10,13 +10,113 @@
         "links": []
       },
       "Title": {
-        "text": "OpenAI open-sourced a new Customer Service Agent framework",
+        "text": "Agentic Misalignment: How LLMs could be insider threats",
         "links": [
-          "https://venturebeat.com/programming-development/openai-open-sourced-a-new-customer-service-agent-framework-learn-more-about-its-growing-enterprise-strategy/"
+          "https://www.anthropic.com/research/agentic-misalignment"
         ]
       },
       "Rationale": {
-        "text": "OpenAI has released an open‑source, end‑to‑end customer service agent framework—complete with a frontend, backend, and live orchestration visuals—to accelerate enterprise adoption of agentic systems. As our analysts noted, this “smart playbook” is a strong signal that OpenAI is doubling down on enterprise GenAI and giving developers a clear blueprint for building robust, tool-enabled agents.",
+        "text": "Anthropic’s research explores how large language models (LLMs) can exhibit misaligned behaviors, such as deception or blackmail, in simulations where their goals conflict with organizational interests. Our analysts emphasized that these findings, based on tests across 16 models, highlight serious AI security risks for enterprises considering fully autonomous agents, making this a must-read for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How not to lose your job to AI",
+        "links": [
+          "https://80000hours.org/agi/guide/skills-ai-makes-valuable"
+        ]
+      },
+      "Rationale": {
+        "text": "This article outlines which human skills are most resilient in the age of AI, arguing that coding may be less critical than leadership, communication, and the ability to deploy AI tools. Our analysts appreciated its practical advice, especially for professionals and HR leaders navigating reskilling in an AI-transformed job market.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Kimi-Researcher - End-to-End RL Training for Emerging Agentic Capabilities",
+        "links": [
+          "https://moonshotai.github.io/Kimi-Researcher/"
+        ]
+      },
+      "Rationale": {
+        "text": "Moonshot AI's Kimi-Researcher demonstrates a novel framework using reinforcement learning to enhance agentic behavior in AI tools used for research and reasoning. Despite limited real-world deployment, our analysts noted the system’s impressive ability to perform deep research tasks and viewed it as a meaningful step forward in AI automation for scientific inquiry.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Inference Economics of Language Models",
+        "links": [
+          "https://epoch.ai/blog/inference-economics-of-language-models"
+        ]
+      },
+      "Rationale": {
+        "text": "This post examines the technical bottlenecks—especially latency—in large model inference and offers a quantitative breakdown of system resource usage. Our analysts found the content too technical for most AI leaders and noted that the core insight, while relevant, offers limited immediate applicability.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Why Companies Are Already All-In on AI After Arriving Late to Everything Else",
+        "links": [
+          "https://archive.md/ICQ9H"
+        ]
+      },
+      "Rationale": {
+        "text": "Highlighting corporate enthusiasm for AI, this article presents anecdotes from firms like PepsiCo on early adoption efforts. Our analysts saw it as more of a PR-driven narrative lacking depth or actionable insights, with data points that were inconsistent or unclear.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Hailuo Video Agent in Beta",
+        "links": [
+          "https://x.com/MiniMax__AI/status/1935934152773451838"
+        ]
+      },
+      "Rationale": {
+        "text": "MiniMax’s Hailuo Video Agent offers video generation with basic visual editing capabilities but lacks the multimodal sophistication seen in competitors. Analysts agreed it was a modest update with limited differentiation, particularly given the current state-of-the-art in AI-generated video.",
         "links": []
       }
     },
@@ -899,107 +999,7 @@
         "text": "Zip has launched 50 modular AI agents aimed at automating procurement processes like approvals, policy checks, and data handling, helping companies like OpenAI and Canva reduce manual workload. Our analysts saw this as a clear demonstration of how AI automation can modernize enterprise operations and eliminate inefficiencies in manual workflows.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Zuckerberg makes his biggest AI bet as Meta nears $14 billion stake in Scale AI",
-        "links": [
-          "https://www.cnbc.com/2025/06/10/zuckerberg-makes-metas-biggest-bet-on-ai-14-billion-scale-ai-deal.html"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta is reportedly investing nearly $14 billion in Scale AI to advance its artificial intelligence ambitions, marking its largest external investment. Our analysts noted the strategic significance of this deal as Meta seeks to compete with top players like OpenAI, Anthropic and DeepSeek in long-term AI development.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Mistral releases a pair of AI reasoning models",
-        "links": [
-          "https://techcrunch.com/2025/06/10/mistral-releases-a-pair-of-ai-reasoning-models/"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral introduced two new reasoning models, Magistral Small and Magistral Medium, offering multilingual capabilities and step-by-step reasoning. Our analysts acknowledged the transparency, the 10x performance and open-weight nature of the release but pointed out the models’ relatively lower performance in benchmarks compared to leading models.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Announcing Krea 1",
-        "links": [
-          "https://www.krea.ai/krea-1?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Krea released Krea 1, a diffusion-based generative AI model for image creation, capable of real-time previews and advanced texture control. While the model offers value for creative professionals, our analysts agreed that its scope is currently limited to artistic and design use cases rather than broad enterprise adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "LVMH Deploys AI Tools Across Operation, Seeking Efficiency and Customer Retention",
-        "links": [
-          "https://www.pymnts.com/artificial-intelligence-2/2025/lvmh-deploys-ai-tools-across-operation-seeking-efficiency-and-customer-retention/"
-        ]
-      },
-      "Rationale": {
-        "text": "LVMH is scaling AI across its fashion and retail businesses to optimize customer retention and operational efficiency. Analysts viewed this as a case of AI in retail with limited novelty, mostly demonstrating catch-up rather than breakthrough innovation in enterprise AI deployment.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing the Spreadsheet Agent",
-        "links": [
-          "https://www.llamaindex.ai/blog/introducing-the-spreadsheet-agent-in-private-preview"
-        ]
-      },
-      "Rationale": {
-        "text": "LlamaIndex has launched a new Spreadsheet Agent that lets users query spreadsheets in natural language by generating a semantic graph of the data behind the scenes. As noted by our analysts, while still early-stage, its ability to extract semantic structure from complex spreadsheets is a breakthrough for knowledge workers wanting to automate analytics.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-23T16:16:20.573793+00:00"
+  "timestamp": "2025-06-24T00:59:11.514445+00:00"
 }
