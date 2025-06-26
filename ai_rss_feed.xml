@@ -7,56 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 25 Jun 2025 16:16:13 +0000</lastBuildDate>
-    <item>
-      <title>Mistral Compute [ * ]</title>
-      <link>https://mistral.ai/news/mistral-compute?s=09</link>
-      <description>Mistral has launched a full-stack AI infrastructure platform supporting on-premise deployment, aiming to serve Europe’s AI sovereignty goals with enterprise clients like BNP Paribas and Total. Analysts viewed this as a meaningful strategic move, especially given Europe’s need for regional AI alternatives and Mistral’s $90M revenue traction, even if it remains a product launch without radical technical novelty.</description>
-      <guid isPermaLink="false">2559321dd6f9433f0625b30104e73b5d</guid>
-      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI is changing how employees train—and starting to reduce how much training they need [ ! ]</title>
-      <link>https://fortune.com/2025/06/11/ai-employee-training-simulation-labor/</link>
-      <description>This article explores how AI tools like avatars and generative video platforms are transforming employee training by enabling rapid content creation and personalized simulations. Analysts emphasized its significance as part of a broader “sea change” in corporate learning, highlighting AI's potential as a “customized tutor” that accelerates learning efficiency and democratizes training production across organizations.</description>
-      <guid isPermaLink="false">3207a52ba02c25747ecd8895c2840d2a</guid>
-      <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apollo accelerates outbound sales at scale with Claude [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/apollo</link>
-      <description>Apollo's integration of Claude to enhance outbound sales automates parts of the GTM motion, using generative AI to customize outreach at scale. Analysts acknowledged this as a tactical example of LLM usage in sales enablement but noted that it doesn't advance the state of agentic intelligence or demonstrate a novel technical implementation, placing it in the optional tier.</description>
-      <guid isPermaLink="false">c9d9e99354a52d08fc74c67c038a4a53</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CRMArena-Pro: Holistic Assessment of LLM Agents Across Diverse Business Scenarios and Interactions [ ~ ]</title>
-      <link>https://arxiv.org/abs/2505.18878</link>
-      <description>CRMArena-Pro is a new academic benchmark framework designed to evaluate LLM agents in multi-step, real-world enterprise workflows, spanning domains like customer service and sales. Since the briefing did not delve into the findings or its real-world adoption, it was treated as optional, though potentially useful for researchers interested in agent evaluation.</description>
-      <guid isPermaLink="false">c97b58d3e7117ab2a1eed0678f035d7a</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing V-JEPA 2 [ ~ ]</title>
-      <link>https://about.fb.com/news/2025/06/our-new-model-helps-ai-think-before-it-acts</link>
-      <description>Meta’s V-JEPA 2 enhances video-based training and introduces limited physical reasoning capabilities intended to help AI “think before it acts,” particularly in robotics contexts. While Yann LeCun’s vision for AI with world models is reflected here, analysts felt the impact was niche and still theoretical, with current applications largely limited to robotic and logistics scenarios, not broadly relevant to most enterprise AI use cases.</description>
-      <guid isPermaLink="false">02f70c73a90ffad9df9b909d8d85576c</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Browser Company launches its AI-first browser, Dia, in beta [ ~ ]</title>
-      <link>https://techcrunch.com/2025/06/11/the-browser-company-launches-its-ai-first-browser-dia-in-beta</link>
-      <description>Dia is a newly launched, AI-first browser designed to act as an intelligent assistant by learning from users’ workflows, integrating context from emails, tabs, and browsing behavior. Despite interesting features like memory sessions and multi-tab orchestration, the analysts emphasized that it is still in closed beta, with many browser vendors already offering AI integrations, making this more of a conceptual experiment than an impactful innovation at this stage.</description>
-      <guid isPermaLink="false">896562743cffe84fcb4379fb078cd261</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AlphaSense launches its own Deep Research for the web AND your enterprise files [ ~ ]</title>
-      <link>https://venturebeat.com/ai/alphasense-launches-its-own-deep-research-for-the-web-and-your-enterprise-files-heres-why-it-matters/</link>
-      <description>AlphaSense introduced a deep research agent designed to unify enterprise and web data access, with a particular focus on financial services firms and access to proprietary analyst content. While its proprietary datasets offer value in finance, analysts found the product lacked technical novelty compared to other search tools. They noted its high cost and steep learning curve limit its broader applicability.</description>
-      <guid isPermaLink="false">c8f73e8e67a786b458383ee0470dd0eb</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 26 Jun 2025 00:59:10 +0000</lastBuildDate>
     <item>
       <title>How Gardenia Technologies helps customers create ESG disclosure reports 75% faster using agentic generative AI on Amazon Bedrock [ * ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-gardenia-technologies-helps-customers-create-esg-disclosure-reports-75-faster-using-agentic-generative-ai-on-amazon-bedrock/</link>
@@ -357,6 +308,55 @@
       <description>This article by Ethan Mollick offers a concise and actionable overview of current generative AI tools, comparing platforms like ChatGPT, Claude, and Gemini, with practical tips on pricing, deep research, and voice mode usage. Our analysts emphasized its value as a comprehensive refresher for AI leaders, noting it reflects the real-world tools their teams are using and provides essential frameworks for model selection and user guidance.</description>
       <guid isPermaLink="false">6ae86c6b1555c1ff45776e2adf0b0897</guid>
       <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SYNTHETIC-2: Planetary-Scale Pipeline Parallel Inference for Verified Reasoning [ ~ ]</title>
+      <link>https://www.primeintellect.ai/blog/synthetic-2</link>
+      <description>Prime Intellect introduces SYNTHETIC-2, a system for large-scale parallel inference aimed at verified reasoning. Despite the technical interest in decentralized LLM infrastructure, our analysts felt it has limited relevance to current enterprise needs, categorizing it as a niche R&amp;D announcement.</description>
+      <guid isPermaLink="false">2589c1e96ff8806800c6be3f62d85732</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Demos to Deals: Insights for Building in Enterprise AI [ ~ ]</title>
+      <link>https://a16z.com/insights-for-enterprise-ai-builders/</link>
+      <description>The article discusses common challenges in transitioning from AI prototypes to enterprise-scale deployments, offering high-level commentary on moats and data readiness. Our analysts described the content as obvious and superficial, with few actionable takeaways for AI leaders.</description>
+      <guid isPermaLink="false">de7aa225cd0e5f54d721e17803bd3ef7</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can we fix AI’s evaluation crisis? [ ~ ]</title>
+      <link>https://www.technologyreview.com/2025/06/24/1119187/fix-ai-evaluation-crisis/</link>
+      <description>This article critiques the shortcomings of current AI evaluation benchmarks and argues for tailored, proprietary evaluation methods. Our analysts agreed the issue is conceptually valid but found the article lacked new insights, calling it more of a general overview than a tactical guide.</description>
+      <guid isPermaLink="false">777b05cbcfd4d319479dfac632cf71ca</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>NewDay builds A Generative AI based Customer service Agent Assist with over 90% accuracy [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/newday-builds-a-generative-ai-based-customer-service-agent-assist-with-over-90-accuracy/</link>
+      <description>NewDay used Amazon Bedrock to build a generative AI-powered Agent Assist tool that achieved over 90% accuracy in customer service scenarios. Our analysts praised this real-world RAG implementation, noting its relevance for enterprises currently deploying AI for support operations.</description>
+      <guid isPermaLink="false">e5d1adf898930c1c835d7ee4a3f9723f</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini Robotics On-Device brings AI to local robotic devices [ * ]</title>
+      <link>https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/</link>
+      <description>Google DeepMind has optimized its Gemini 2.2 model for fully on-device use, enabling robots to perform without cloud connectivity. Our analysts viewed this as a significant advance in decentralized AI and robotics, with practical implications for energy-efficient and real-time AI in physical systems.</description>
+      <guid isPermaLink="false">12ea66ab9370b27682f76db4d02e6750</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing 11ai: the voice-first AI assistant that takes action [ * ]</title>
+      <link>https://elevenlabs.io/blog/introducing-11ai</link>
+      <description>ElevenLabs has launched 11ai, a voice-first AI assistant that can perform tasks, offering a glimpse into the future of AI-powered personal assistants. While it lacks visual capabilities, our analysts noted its strong voice interaction design and considered it a meaningful step toward more interactive, action-oriented AI agents.</description>
+      <guid isPermaLink="false">26e696c7ac298b03bd4c3abdbca80756</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The next innovation revolution—powered by AI [ ! ]</title>
+      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-next-innovation-revolution-powered-by-ai?stcr=BD87777F43544B3D8B1ED5C61E9B00A1&amp;cid=other-eml-alt-mip-mck&amp;hlkid=d69acabc2d264614af33a3e51a89797a&amp;hctky=1595995&amp;hdpid=71f74922-65ff-47fb-9dbb-a20abccfc793</link>
+      <description>This article explores how generative AI is catalyzing a new wave of innovation across industries such as pharmaceuticals, materials science, and aerospace, supported by detailed data on R&amp;D productivity and technological acceleration. Our analysts emphasized its broad relevance, framing it as a vital read for leaders wanting to understand AI’s transformative potential on a global scale.</description>
+      <guid isPermaLink="false">f7bb8ebb69ed32a886797df670a8b53c</guid>
+      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
