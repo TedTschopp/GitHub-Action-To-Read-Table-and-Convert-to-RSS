@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 26 Jun 2025 16:16:02 +0000</lastBuildDate>
-    <item>
-      <title>How Gardenia Technologies helps customers create ESG disclosure reports 75% faster using agentic generative AI on Amazon Bedrock [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-gardenia-technologies-helps-customers-create-esg-disclosure-reports-75-faster-using-agentic-generative-ai-on-amazon-bedrock/</link>
-      <description>This article showcases a practical enterprise deployment of agentic generative AI to significantly streamline ESG reporting by integrating data retrieval, natural language interfaces, and orchestration via Amazon Bedrock. Analysts highlighted its robust architectural detail, impact on compliance-heavy workflows, and the broader implication of evolving best practices for agentic frameworks across structured data domains.</description>
-      <guid isPermaLink="false">bef4459e2b8d72c403ca82d149a16491</guid>
-      <pubDate>Fri, 13 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ComfyUI-R1: Exploring Reasoning Models for Workflow Generation [ ~ ]</title>
-      <link>https://arxiv.org/abs/2506.09790</link>
-      <description>This research introduces an LLM‑driven UI layer for automating workflow design, showing promise in stitching together processes via generative AI. However, it remains early-stage with underwhelming benchmarks. Analysts viewed it as a valuable trend to monitor but not yet impactful enough for widespread adoption.</description>
-      <guid isPermaLink="false">a63517fe0bb26c54d4070b8be63809c0</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Accelerating Articul8’s domain-specific model development with Amazon SageMaker HyperPod [ ~ ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/accelerating-articul8s-domain-specific-model-development-with-amazon-sagemaker-hyperpod/</link>
-      <description>This AWS case study shows how fine-tuning domain-specific models (“DSM”) via SageMaker HyperPod boosts performance over general LLMs. While acknowledging performance gains, our analysts noted it reads like product marketing with limited strategic insights—worth reviewing, but not urgent.</description>
-      <guid isPermaLink="false">c4be1350ebc0a6110c2c8658e449aeaf</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Next‑Gen Pentesting: AI Empowers the Good Guys [ ~ ]</title>
-      <link>https://a16z.com/next-gen-pentesting-ai-empowers-the-good-guys</link>
-      <description>a16z spotlights AI-driven penetration testing tools like Unpatched AI that continuously scan and exploit vulnerabilities, reflecting a shift from manual to autonomous security approaches. Our analysts liked the concept but viewed it as a niche security update rather than must-have news for most AI leaders, making it optional for deeper exploration.</description>
-      <guid isPermaLink="false">3700545dcef5110ef09c900259e36ee2</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How we built our multi-agent research system [ * ]</title>
-      <link>https://www.anthropic.com/engineering/built-multi-agent-research-system?s=09</link>
-      <description>Anthropic details its multi-agent “orchestrator-worker” architecture that coordinates parallel subagents for dynamic, high-quality research—marking a major step forward in AI automation and content generation. Our analysts highlighted its engineering rigor, lessons on token usage and traceability, and broad architectural applicability, making it crucial for anyone building reliable and scalable AI agent systems.</description>
-      <guid isPermaLink="false">60c3b3d08d47934713e6c2e4983709ab</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Future of Work with AI Agents [ * ]</title>
-      <link>https://futureofwork.saltlab.stanford.edu/?s=09</link>
-      <description>This Stanford SALT Lab study uncovers how 1,500 workers across 104 occupations view AI agents, revealing critical mismatches between their preferences and current capabilities in automation and augmentation. Our analysts emphasized that its data-driven human-agent framework (with zones and H1–H5 scale) offers valuable insights for AI leaders to align deployment strategies with real workforce preferences, making it essential for guiding long-term AI-driven workplace transformation.</description>
-      <guid isPermaLink="false">38bd3f0ba037a225e09ff57fa357d8cc</guid>
-      <pubDate>Mon, 16 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 27 Jun 2025 01:00:10 +0000</lastBuildDate>
     <item>
       <title>Organizations Aren’t Ready for the Risks of Agentic AI [ * ]</title>
       <link>https://hbr.org/2025/06/organizations-arent-ready-for-the-risks-of-agentic-ai</link>
@@ -357,6 +315,48 @@
       <description>This article explores how generative AI is catalyzing a new wave of innovation across industries such as pharmaceuticals, materials science, and aerospace, supported by detailed data on R&amp;D productivity and technological acceleration. Our analysts emphasized its broad relevance, framing it as a vital read for leaders wanting to understand AI’s transformative potential on a global scale.</description>
       <guid isPermaLink="false">f7bb8ebb69ed32a886797df670a8b53c</guid>
       <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI Efficiency Trap: When Productivity Tools Create Perpetual Pressure [ ~ ]</title>
+      <link>https://knowledge.wharton.upenn.edu/article/the-ai-efficiency-trap-when-productivity-tools-create-perpetual-pressure/</link>
+      <description>This article critiques how AI tools may amplify workplace pressure and alienation despite promising productivity gains. While thought-provoking, our analysts agreed that it revisits longstanding debates in labor and automation studies, offering limited new insight for today’s AI strategy decisions.</description>
+      <guid isPermaLink="false">5d79dd287c81060eca6ca953b638cf65</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Captide agents running on LangGraph Platform compress investment research from days to seconds [ ~ ]</title>
+      <link>https://blog.langchain.com/captide/</link>
+      <description>Captide uses LangGraph and LangSmith to automate and monitor financial analysis tasks like parsing SEC filings. While our analysts acknowledged this as a strong example of AI in finance and agent observability, they rated it optional due to limited clarity on outcomes or broader applicability beyond niche financial research automation.</description>
+      <guid isPermaLink="false">406f0e741e57b12431b122e3daaddc81</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mu language model and how it enabled the agent in Windows Settings [ * ]</title>
+      <link>https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/</link>
+      <description>Microsoft’s new Mu model, a lightweight 330M parameter model, powers an on-device settings agent in Windows Copilot. Our analysts highlighted this as a noteworthy example of practical, small language model deployment at scale, relevant for those exploring edge AI or on-device generative capabilities, especially in constrained environments like embedded systems or regulated industries.</description>
+      <guid isPermaLink="false">0b7758077818af699fef8b67885c3dda</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google unveils Gemini CLI, an open-source AI tool for terminals [ * ]</title>
+      <link>https://techcrunch.com/2025/06/25/google-unveils-gemini-cli-an-open-source-ai-tool-for-terminals/</link>
+      <description>Google has released Gemini CLI, an open-source terminal assistant that integrates with its broader suite of coding tools. Our analysts framed this as an incremental but necessary move from one of the major AI players—relevant especially for developers—and noted its integration into the larger Gemini ecosystem and the subtle but growing implications for code automation.</description>
+      <guid isPermaLink="false">ff2241d71a4acf327f9adbbc394e0204</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing two new ways to create with Claude [ * ]</title>
+      <link>https://x.com/AnthropicAI/status/1937921801000219041</link>
+      <description>Anthropic announced tools for building and sharing Claude-powered applications, enabling developers to create embedded experiences that monetize usage via users’ own Claude subscriptions. Our analysts saw this as a catch-up to OpenAI's GPT Store but emphasized the unique architecture allowing native Claude embedding and noted its strategic importance given Claude's level of adoption in enterprise deployments.</description>
+      <guid isPermaLink="false">57fff50f2047a8a584735228de412142</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Walmart built an AI platform that makes it beholden to no one [ ! ]</title>
+      <link>https://venturebeat.com/ai/walmart-ai-foundry-ships-first-apps-3m-daily-queries-67-faster-planning/</link>
+      <description>Walmart has developed an in-house AI platform, AI Foundry, to drive operational transformation across planning, translation, and employee support, reportedly reducing manager planning time from 90 to 30 minutes and handling 3 million daily queries. Our analysts emphasized the scale and depth of Walmart's integration of generative AI—across use cases from conversational agents to computer vision—highlighting it as a benchmark for scaled generative AI integration in retail, making it a must-read for enterprise AI leaders.</description>
+      <guid isPermaLink="false">67df1dc5a48cef93b76db32ca75634c6</guid>
+      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
