@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "06/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "2025 State of AI Report: The Builder’s Playbook",
+        "links": [
+          "https://www.iconiqcapital.com/growth/reports/2025-state-of-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "ICONIQ Growth's report synthesizes insights from 300 software executives into a dense, visual playbook on how to build, scale, and structure AI-driven products and companies. Our analysts unanimously flagged this as a vital, strategy-oriented guide for AI leaders, investors, and enterprise builders due to its breadth, clarity, and relevance across key implementation fronts.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "A Survey of LLM-Driven AI Agent Communication",
+        "links": [
+          "https://arxiv.org/abs/2506.19676"
+        ]
+      },
+      "Rationale": {
+        "text": "This comprehensive academic survey outlines communication frameworks, security vulnerabilities, and mitigation strategies for large language model (LLM) based AI agents, spanning user-agent, agent-agent, and agent-environment interactions. Our analysts agreed it’s a critical reference for security leaders and AI architects navigating the evolving landscape of agentic AI systems, especially given its relevance to emerging protocols like MCP and A2A.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Project Vend: Can Claude run a small shop? (And why does that matter?)",
+        "links": [
+          "https://www.anthropic.com/research/project-vend-1"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s Project VEND simulates an autonomous AI system managing a physical store to explore the boundaries of agentic AI in real-world settings. While the experiment highlighted the current limitations in AI contextual understanding, our analysts agreed it represents a meaningful milestone in the development of AI agents and underscores key lessons for future applications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Boost Embedding Model Accuracy for Custom Information Retrieval",
+        "links": [
+          "https://developer.nvidia.com/blog/boost-embedding-model-accuracy-for-custom-information-retrieval/"
+        ]
+      },
+      "Rationale": {
+        "text": "NVIDIA showcases how preparing quality data for small embedding models can significantly enhance custom information retrieval performance, particularly in low-context environments like customer service. Our analysts viewed this as a practical and timely demonstration of how AI accuracy gains can be achieved with curated data, making it a valuable read for technical AI implementers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Evaluating Long-Context Question & Answer Systems",
+        "links": [
+          "https://eugeneyan.com/writing/qa-evals/"
+        ]
+      },
+      "Rationale": {
+        "text": "Eugene Yan’s long-form exploration of evaluation metrics for long-context Q&A systems offers a thorough conceptual foundation but lacks applied examples. Our analysts noted the theoretical nature of the article limits its immediate utility for AI leaders, though it touches on important issues in AI-driven content retrieval.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "06/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Unify engineers growth by using the right model for every task",
+        "links": [
+          "https://openai.com/index/unify/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI and Unify describe a high-level overview of using multiple models for distinct tasks like research, observation, and content generation. While the article introduces a useful concept of model specialization, our analysts found it too superficial to warrant a higher rating, especially given the availability of more detailed educational resources.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "06/27/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Instacart reveals a quality evaluation process where LLM agents evaluate other LLMs to refine customer support bots—combining conversation monitoring, error detection, and iterative improvements. Our analysts called out the significance of embedding automated evaluation to ensure customer satisfaction and reduce friction, marking this as an essential use case for any AI‑infused customer service strategy.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "SHADE-Arena: Evaluating sabotage and monitoring in LLM agents",
-        "links": [
-          "https://www.anthropic.com/research/shade-arena-sabotage-monitoring"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic introduces a sophisticated evaluation framework—SHADE‑Arena—that tests whether LLM‑based agents can covertly sabotage tasks (like Venmo payments), embed bugs, or evade oversight. Our analysts highlighted its clever experimental design and the critical need for dual‑agent monitoring systems to catch subversive behavior, especially as agents grow more autonomous and complex. This work is an important step in AI safety and governance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "A.I. Might Take Your Job. Here Are 22 New Ones It Could Give You.",
-        "links": [
-          "https://archive.is/MZt6K"
-        ]
-      },
-      "Rationale": {
-        "text": "This piece explores emerging AI‑created roles—like AI auditors, compliance leads, and risk integrators—countering the doom‑and‑gloom narrative. Our analysts noted how these roles mirror existing risk and audit functions in large organizations and emphasized that professionals will need to acquire new skills to adapt. It’s timely reading for business and AI leaders planning for workforce transformations.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Gemini 2.5: Updates to our family of thinking models",
-        "links": [
-          "https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Google introduces “Gemini 2.5 Light” with revised pricing (higher input costs, lower output costs) for all Gemini 2.5 models. While the development is interesting, our analysts felt it’s mainly a product update with no new technical breakthroughs. However, CIOs should monitor pricing trends as they impact cost predictability.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How VideoAmp uses Amazon Bedrock to power their media analytics interface",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-videoamp-uses-amazon-bedrock-to-power-their-media-analytics-interface/"
-        ]
-      },
-      "Rationale": {
-        "text": "The case study showcases structured‑data retrieval via Bedrock—turning natural language prompts into SQL queries for media analytics. As our analysts noted, it’s a clear example of RAG on structured data, but most steps are standard, making this an optional read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Self-Adapting Language Models",
-        "links": [
-          "https://arxiv.org/abs/2506.10943"
-        ]
-      },
-      "Rationale": {
-        "text": "This MIT paper explores models generating synthetic data to improve themselves—akin to a student creating notes to learn. Although our analysts flagged it as a key frontier (with parallels to Google’s Alpha Evolve and Berkeley research), the consensus was that implementation and real‑world impact are still unclear, placing it in research‑only territory.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Apollo Tyres is unlocking machine insights using agentic AI-powered Manufacturing Reasoner",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-apollo-tyres-is-unlocking-machine-insights-using-agentic-ai-powered-manufacturing-reasoner/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study shows Apollo Tyres applying agentic AI to streamline defect detection and process analytics in manufacturing. Our analysts noted it as a strong industrial AI use case with real data, demonstrating how generative AI builds on years of machine learning groundwork to enable scalable, expert-level automation.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-06-30T08:18:47.986900+00:00"
+  "timestamp": "2025-06-30T16:15:39.492344+00:00"
 }

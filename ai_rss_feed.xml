@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 30 Jun 2025 08:18:47 +0000</lastBuildDate>
-    <item>
-      <title>How Apollo Tyres is unlocking machine insights using agentic AI-powered Manufacturing Reasoner [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-apollo-tyres-is-unlocking-machine-insights-using-agentic-ai-powered-manufacturing-reasoner/</link>
-      <description>This case study shows Apollo Tyres applying agentic AI to streamline defect detection and process analytics in manufacturing. Our analysts noted it as a strong industrial AI use case with real data, demonstrating how generative AI builds on years of machine learning groundwork to enable scalable, expert-level automation.</description>
-      <guid isPermaLink="false">82cedb2e1c0e29e5964361b84e6e65d8</guid>
-      <pubDate>Tue, 17 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Self-Adapting Language Models [ ~ ]</title>
-      <link>https://arxiv.org/abs/2506.10943</link>
-      <description>This MIT paper explores models generating synthetic data to improve themselves—akin to a student creating notes to learn. Although our analysts flagged it as a key frontier (with parallels to Google’s Alpha Evolve and Berkeley research), the consensus was that implementation and real‑world impact are still unclear, placing it in research‑only territory.</description>
-      <guid isPermaLink="false">194f086fcc631b71458a8e14e1505a11</guid>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How VideoAmp uses Amazon Bedrock to power their media analytics interface [ ~ ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-videoamp-uses-amazon-bedrock-to-power-their-media-analytics-interface/</link>
-      <description>The case study showcases structured‑data retrieval via Bedrock—turning natural language prompts into SQL queries for media analytics. As our analysts noted, it’s a clear example of RAG on structured data, but most steps are standard, making this an optional read.</description>
-      <guid isPermaLink="false">160ca93197a777016e21a348e85757a1</guid>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gemini 2.5: Updates to our family of thinking models [ ~ ]</title>
-      <link>https://developers.googleblog.com/en/gemini-2-5-thinking-model-updates/?s=09</link>
-      <description>Google introduces “Gemini 2.5 Light” with revised pricing (higher input costs, lower output costs) for all Gemini 2.5 models. While the development is interesting, our analysts felt it’s mainly a product update with no new technical breakthroughs. However, CIOs should monitor pricing trends as they impact cost predictability.</description>
-      <guid isPermaLink="false">4f0c26e6a3efa691dbd7f0566bda36df</guid>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A.I. Might Take Your Job. Here Are 22 New Ones It Could Give You. [ * ]</title>
-      <link>https://archive.is/MZt6K</link>
-      <description>This piece explores emerging AI‑created roles—like AI auditors, compliance leads, and risk integrators—countering the doom‑and‑gloom narrative. Our analysts noted how these roles mirror existing risk and audit functions in large organizations and emphasized that professionals will need to acquire new skills to adapt. It’s timely reading for business and AI leaders planning for workforce transformations.</description>
-      <guid isPermaLink="false">58c88ad8cf29c6115516d8da3bfd0cc0</guid>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SHADE-Arena: Evaluating sabotage and monitoring in LLM agents [ * ]</title>
-      <link>https://www.anthropic.com/research/shade-arena-sabotage-monitoring</link>
-      <description>Anthropic introduces a sophisticated evaluation framework—SHADE‑Arena—that tests whether LLM‑based agents can covertly sabotage tasks (like Venmo payments), embed bugs, or evade oversight. Our analysts highlighted its clever experimental design and the critical need for dual‑agent monitoring systems to catch subversive behavior, especially as agents grow more autonomous and complex. This work is an important step in AI safety and governance.</description>
-      <guid isPermaLink="false">beda2802e01caff17f2337d9f080768f</guid>
-      <pubDate>Wed, 18 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 30 Jun 2025 16:15:39 +0000</lastBuildDate>
     <item>
       <title>Turbocharging Customer Support Chatbot Development with LLM-Based Automated Evaluation [ ! ]</title>
       <link>https://tech.instacart.com/turbocharging-customer-support-chatbot-development-with-llm-based-automated-evaluation-6a269aae56b2</link>
@@ -357,6 +315,48 @@
       <description>This Menlo Ventures report examines how consumers are interacting with generative AI, highlighting a key challenge: despite widespread adoption, only 3% of consumers are converting to paid plans. Analysts emphasized its essential value for business and product leaders due to its sharp breakdown of demographic trends, predictions around voice interfaces, assistant automation, vertical specialization, and diversified monetization, helping frame how B2C AI is rapidly evolving beyond early adopters.</description>
       <guid isPermaLink="false">8532e11c3ead8bc4209ffa3f298e376f</guid>
       <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unify engineers growth by using the right model for every task [ ~ ]</title>
+      <link>https://openai.com/index/unify/</link>
+      <description>OpenAI and Unify describe a high-level overview of using multiple models for distinct tasks like research, observation, and content generation. While the article introduces a useful concept of model specialization, our analysts found it too superficial to warrant a higher rating, especially given the availability of more detailed educational resources.</description>
+      <guid isPermaLink="false">ece21be0d619799a9738c2092b48846f</guid>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Evaluating Long-Context Question &amp; Answer Systems [ ~ ]</title>
+      <link>https://eugeneyan.com/writing/qa-evals/</link>
+      <description>Eugene Yan’s long-form exploration of evaluation metrics for long-context Q&amp;A systems offers a thorough conceptual foundation but lacks applied examples. Our analysts noted the theoretical nature of the article limits its immediate utility for AI leaders, though it touches on important issues in AI-driven content retrieval.</description>
+      <guid isPermaLink="false">13eed5a5de7c2b87bca2de4481433691</guid>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Boost Embedding Model Accuracy for Custom Information Retrieval [ * ]</title>
+      <link>https://developer.nvidia.com/blog/boost-embedding-model-accuracy-for-custom-information-retrieval/</link>
+      <description>NVIDIA showcases how preparing quality data for small embedding models can significantly enhance custom information retrieval performance, particularly in low-context environments like customer service. Our analysts viewed this as a practical and timely demonstration of how AI accuracy gains can be achieved with curated data, making it a valuable read for technical AI implementers.</description>
+      <guid isPermaLink="false">78c523d5a9c1c4a565836a7106775112</guid>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Project Vend: Can Claude run a small shop? (And why does that matter?) [ * ]</title>
+      <link>https://www.anthropic.com/research/project-vend-1</link>
+      <description>Anthropic’s Project VEND simulates an autonomous AI system managing a physical store to explore the boundaries of agentic AI in real-world settings. While the experiment highlighted the current limitations in AI contextual understanding, our analysts agreed it represents a meaningful milestone in the development of AI agents and underscores key lessons for future applications.</description>
+      <guid isPermaLink="false">17bbb0b0dc333d4ac8a89a855e45f4bc</guid>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Survey of LLM-Driven AI Agent Communication [ ! ]</title>
+      <link>https://arxiv.org/abs/2506.19676</link>
+      <description>This comprehensive academic survey outlines communication frameworks, security vulnerabilities, and mitigation strategies for large language model (LLM) based AI agents, spanning user-agent, agent-agent, and agent-environment interactions. Our analysts agreed it’s a critical reference for security leaders and AI architects navigating the evolving landscape of agentic AI systems, especially given its relevance to emerging protocols like MCP and A2A.</description>
+      <guid isPermaLink="false">3a94e511f0f568b6891dd05f69da5828</guid>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025 State of AI Report: The Builder’s Playbook [ ! ]</title>
+      <link>https://www.iconiqcapital.com/growth/reports/2025-state-of-ai</link>
+      <description>ICONIQ Growth's report synthesizes insights from 300 software executives into a dense, visual playbook on how to build, scale, and structure AI-driven products and companies. Our analysts unanimously flagged this as a vital, strategy-oriented guide for AI leaders, investors, and enterprise builders due to its breadth, clarity, and relevance across key implementation fronts.</description>
+      <guid isPermaLink="false">9cbbf142841dc99f33addefdaffd959d</guid>
+      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
