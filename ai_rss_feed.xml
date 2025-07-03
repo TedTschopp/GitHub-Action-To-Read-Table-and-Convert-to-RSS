@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Jul 2025 08:18:02 +0000</lastBuildDate>
-    <item>
-      <title>Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task [ ! ]</title>
-      <link>https://arxiv.org/abs/2506.08872</link>
-      <description>A study from MIT and collaborators using EEG and fMRI shows that users who relied on LLMs like ChatGPT for essay writing exhibited significantly lower brain activity in memory and reasoning regions, both during and after the task. Analysts viewed this as a stark warning about the cognitive consequences of LLM dependency, linking it to “bicycles of the mind” vs. “cars of the mind” metaphors, tools that amplify vs. tools that replace, and highlighting how over-reliance on generative AI could erode core cognitive skills if not actively mitigated.</description>
-      <guid isPermaLink="false">fc70e64e733e99d299f57fbebf9fadee</guid>
-      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hunyuan 3D 2.1 is here [ ~ ]</title>
-      <link>https://x.com/TencentHunyuan/status/1933563360320385527?t=K2Q_wH8CVPDHAs8qPecHow&amp;s=19</link>
-      <description>Tencent’s Hunyuan3D‑2.1 is a fully open‑source, text‑to‑3D asset generator—complete with model weights, code, PBR texture synthesis, and consumer‑GPU support. Our analysts praised the high-quality output and speed, but questioned enterprise uptake given geopolitical caution around Chinese-origin models.</description>
-      <guid isPermaLink="false">7365d20b21a51338f3f49883245a99e5</guid>
-      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs [ ~ ]</title>
-      <link>https://huggingface.co/papers/2506.15211</link>
-      <description>This research paper introduces proto‑reasoning, a hybrid symbolic–neural method that leverages prototypes for stronger LLM reasoning, reporting 4–6% performance gains. Our analysts found it technically rich, framing it as a refinement rather than revolutionary, with potential upside—but more relevance for R&amp;D than current enterprise use.</description>
-      <guid isPermaLink="false">a46a5f408bf2e09c41f4e98d21b24e9b</guid>
-      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MiniMax Agent [ ~ ]</title>
-      <link>https://x.com/MiniMax__AI/status/1935496799726543233</link>
-      <description>The MiniMax Agent is a multimodal toolkit—handling text, voice, image, and more—with impressive capabilities in tasks like chart-to-PPT conversion and meditation audio generation. While powerful, our analysts saw it as part of a crowded landscape of AI agents and noted it’s still early-stage.</description>
-      <guid isPermaLink="false">d63655144eb65e082dd146bce950e797</guid>
-      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Solvely.ai transforms global learning with Claude [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/solvely</link>
-      <description>This case study highlights how Claude powers Solvely.ai’s adaptive education platform, now the top education app globally and reaching underserved students in 120+ countries. Our analysts appreciated its role in AI-driven learning, but noted it lacks depth on implementation details, limiting its direct relevance for broader enterprise adoption.</description>
-      <guid isPermaLink="false">de06376165ad0dc08165109906cde9e7</guid>
-      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zoho unveils Zia Hubs [ ~ ]</title>
-      <link>https://www.cio.com/article/4008999/zoho-unveils-zia-hubs-its-answer-to-copilot-and-duet-ai-for-unstructured-content-intelligence.html</link>
-      <description>Zoho’s launch of Zia Hubs brings AI-driven insights into unstructured content across its WorkDrive ecosystem—targeting a crowded field with Copilot and Duet AI. While the scale of unstructured data is vast, our analysts felt the announcement reads more like a competitive positioning move than a groundbreaking innovation, and the solution’s impact remains uncertain.</description>
-      <guid isPermaLink="false">8eccc18b65da9d816d5ecbdb76b0bf25</guid>
-      <pubDate>Fri, 20 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 03 Jul 2025 00:59:18 +0000</lastBuildDate>
     <item>
       <title>Introducing Hailuo Video Agent in Beta [ ~ ]</title>
       <link>https://x.com/MiniMax__AI/status/1935934152773451838</link>
@@ -357,6 +315,48 @@
       <description>Microsoft’s research showcases a generative AI system capable of diagnosing complex medical cases with accuracy and cost-efficiency significantly outperforming human doctors. Our analysts noted its potential to commoditize elite diagnostic expertise and transform clinical healthcare, though its broader relevance across industries was only briefly hinted at.</description>
       <guid isPermaLink="false">9d57b48988a2e0b8062ab1f15d6f84e1</guid>
       <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Exa built a Web Research Multi‑Agent System with LangGraph and LangSmith [ ~ ]</title>
+      <link>https://blog.langchain.com/exa/?s=09</link>
+      <description>Exa’s use of LangChain tools to develop a structured planner-doer-evaluator architecture showcases efficient, token-sparing search workflows. Our analysts saw it as a solid product-level update, but lacking disruptive novelty or scale to elevate beyond optional interest.</description>
+      <guid isPermaLink="false">ec09c127fd2fbf78183dfc7a54ab7fbc</guid>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inference‑Time Scaling and Collective Intelligence for Frontier AI [ ~ ]</title>
+      <link>https://sakana.ai/ab-mcts/?s=09</link>
+      <description>This research introduces advanced Monte Carlo techniques and dynamic model orchestration that blend depth and breadth in AI inference. While the underlying algorithm is compelling, our analysts cautioned that this remains a technical deep dive rather than a widely deployed algorithm.</description>
+      <guid isPermaLink="false">21b74f90be70aac7794217ac422a8601</guid>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Retell AI makes voice agent automation customizable and code-free with GPT‑4o [ ~ ]</title>
+      <link>https://openai.com/index/retell-ai/</link>
+      <description>Retell AI's no-code voice automation, powered by GPT‑4o, is notable for enabling deeper AI integration beyond traditional chatbots in customer service. However, our analysts viewed this as one of many similar emerging tools—interesting but not yet game-changing at enterprise scale.</description>
+      <guid isPermaLink="false">6d8ee5318ab321748e9ccb0aadb65db9</guid>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Insurers ramp up AI adoption — cautiously [ * ]</title>
+      <link>https://www.ciodive.com/news/insurance-industry-generative-ai-adoption-evident-manulife-axa/751874/</link>
+      <description>This article summarizes Evident’s inaugural AI benchmarking index, naming AXA, Allianz, USAA, Intact, and Manulife as frontrunners—driven by strong talent development, infrastructure, and governance. Our analysts highlighted that this marks a critical inflection in a risk-averse industry, signaling a board-level transformation in financial services toward AI-driven automation and strategic competitiveness.</description>
+      <guid isPermaLink="false">b169b7d6aea2954837ef26303ad0b81b</guid>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zero-shot antibody design in a 24-well plate [ * ]</title>
+      <link>https://chaiassets.com/chai-2/paper/technical_report.pdf</link>
+      <description>This technical report unveils a huge leap in biotech: zero-shot antibody design that achieves unprecedented success rates (10–30%) in silico screenings, a major improvement over past performance. Our analysts noted its profound implications for life sciences, from treating autoimmune diseases to advancing material science, underlining domain-specific AI's untapped potential in areas beyond language and vision.</description>
+      <guid isPermaLink="false">909d1e0d86a5c6e328608568be713e96</guid>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Amazon launches a new AI foundation model to power its robotic fleet and deploys its 1 millionth robot [ ! ]</title>
+      <link>https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model</link>
+      <description>This milestone announcement goes beyond a robotic count—it marks Amazon's deployment of its DeepFleet generative AI model, which optimizes warehouse operations by coordinating movement across a fleet of one million robots and boosting efficiency by 10%. Our analysts emphasized its strategic weight: it’s a “wow factor” illustrating mass automation and a blueprint for executives on how to integrate AI into core logistics—already inspiring follow-on opportunities via AWS.</description>
+      <guid isPermaLink="false">1b1227dbe707e65b6e6b72d55451a295</guid>
+      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

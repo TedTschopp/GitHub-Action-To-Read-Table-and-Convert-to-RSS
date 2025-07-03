@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Amazon launches a new AI foundation model to power its robotic fleet and deploys its 1 millionth robot",
+        "links": [
+          "https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model"
+        ]
+      },
+      "Rationale": {
+        "text": "This milestone announcement goes beyond a robotic count—it marks Amazon's deployment of its DeepFleet generative AI model, which optimizes warehouse operations by coordinating movement across a fleet of one million robots and boosting efficiency by 10%. Our analysts emphasized its strategic weight: it’s a “wow factor” illustrating mass automation and a blueprint for executives on how to integrate AI into core logistics—already inspiring follow-on opportunities via AWS.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Zero-shot antibody design in a 24-well plate",
+        "links": [
+          "https://chaiassets.com/chai-2/paper/technical_report.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "This technical report unveils a huge leap in biotech: zero-shot antibody design that achieves unprecedented success rates (10–30%) in silico screenings, a major improvement over past performance. Our analysts noted its profound implications for life sciences, from treating autoimmune diseases to advancing material science, underlining domain-specific AI's untapped potential in areas beyond language and vision.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Insurers ramp up AI adoption — cautiously",
+        "links": [
+          "https://www.ciodive.com/news/insurance-industry-generative-ai-adoption-evident-manulife-axa/751874/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article summarizes Evident’s inaugural AI benchmarking index, naming AXA, Allianz, USAA, Intact, and Manulife as frontrunners—driven by strong talent development, infrastructure, and governance. Our analysts highlighted that this marks a critical inflection in a risk-averse industry, signaling a board-level transformation in financial services toward AI-driven automation and strategic competitiveness.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Retell AI makes voice agent automation customizable and code-free with GPT‑4o",
+        "links": [
+          "https://openai.com/index/retell-ai/"
+        ]
+      },
+      "Rationale": {
+        "text": "Retell AI's no-code voice automation, powered by GPT‑4o, is notable for enabling deeper AI integration beyond traditional chatbots in customer service. However, our analysts viewed this as one of many similar emerging tools—interesting but not yet game-changing at enterprise scale.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Inference‑Time Scaling and Collective Intelligence for Frontier AI",
+        "links": [
+          "https://sakana.ai/ab-mcts/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This research introduces advanced Monte Carlo techniques and dynamic model orchestration that blend depth and breadth in AI inference. While the underlying algorithm is compelling, our analysts cautioned that this remains a technical deep dive rather than a widely deployed algorithm.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Exa built a Web Research Multi‑Agent System with LangGraph and LangSmith",
+        "links": [
+          "https://blog.langchain.com/exa/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Exa’s use of LangChain tools to develop a structured planner-doer-evaluator architecture showcases efficient, token-sparing search workflows. Our analysts saw it as a solid product-level update, but lacking disruptive novelty or scale to elevate beyond optional interest.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/01/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "MiniMax’s Hailuo Video Agent offers video generation with basic visual editing capabilities but lacks the multimodal sophistication seen in competitors. Analysts agreed it was a modest update with limited differentiation, particularly given the current state-of-the-art in AI-generated video.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Zoho unveils Zia Hubs",
-        "links": [
-          "https://www.cio.com/article/4008999/zoho-unveils-zia-hubs-its-answer-to-copilot-and-duet-ai-for-unstructured-content-intelligence.html"
-        ]
-      },
-      "Rationale": {
-        "text": "Zoho’s launch of Zia Hubs brings AI-driven insights into unstructured content across its WorkDrive ecosystem—targeting a crowded field with Copilot and Duet AI. While the scale of unstructured data is vast, our analysts felt the announcement reads more like a competitive positioning move than a groundbreaking innovation, and the solution’s impact remains uncertain.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Solvely.ai transforms global learning with Claude",
-        "links": [
-          "https://www.anthropic.com/customers/solvely"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study highlights how Claude powers Solvely.ai’s adaptive education platform, now the top education app globally and reaching underserved students in 120+ countries. Our analysts appreciated its role in AI-driven learning, but noted it lacks depth on implementation details, limiting its direct relevance for broader enterprise adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "MiniMax Agent",
-        "links": [
-          "https://x.com/MiniMax__AI/status/1935496799726543233"
-        ]
-      },
-      "Rationale": {
-        "text": "The MiniMax Agent is a multimodal toolkit—handling text, voice, image, and more—with impressive capabilities in tasks like chart-to-PPT conversion and meditation audio generation. While powerful, our analysts saw it as part of a crowded landscape of AI agents and noted it’s still early-stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "ProtoReasoning: Prototypes as the Foundation for Generalizable Reasoning in LLMs",
-        "links": [
-          "https://huggingface.co/papers/2506.15211"
-        ]
-      },
-      "Rationale": {
-        "text": "This research paper introduces proto‑reasoning, a hybrid symbolic–neural method that leverages prototypes for stronger LLM reasoning, reporting 4–6% performance gains. Our analysts found it technically rich, framing it as a refinement rather than revolutionary, with potential upside—but more relevance for R&D than current enterprise use.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Hunyuan 3D 2.1 is here",
-        "links": [
-          "https://x.com/TencentHunyuan/status/1933563360320385527?t=K2Q_wH8CVPDHAs8qPecHow&s=19"
-        ]
-      },
-      "Rationale": {
-        "text": "Tencent’s Hunyuan3D‑2.1 is a fully open‑source, text‑to‑3D asset generator—complete with model weights, code, PBR texture synthesis, and consumer‑GPU support. Our analysts praised the high-quality output and speed, but questioned enterprise uptake given geopolitical caution around Chinese-origin models.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Your Brain on ChatGPT: Accumulation of Cognitive Debt when Using an AI Assistant for Essay Writing Task",
-        "links": [
-          "https://arxiv.org/abs/2506.08872"
-        ]
-      },
-      "Rationale": {
-        "text": "A study from MIT and collaborators using EEG and fMRI shows that users who relied on LLMs like ChatGPT for essay writing exhibited significantly lower brain activity in memory and reasoning regions, both during and after the task. Analysts viewed this as a stark warning about the cognitive consequences of LLM dependency, linking it to “bicycles of the mind” vs. “cars of the mind” metaphors, tools that amplify vs. tools that replace, and highlighting how over-reliance on generative AI could erode core cognitive skills if not actively mitigated.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-02T08:18:02.788928+00:00"
+  "timestamp": "2025-07-03T00:59:18.968945+00:00"
 }
