@@ -7,42 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 03 Jul 2025 08:17:27 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Hailuo Video Agent in Beta [ ~ ]</title>
-      <link>https://x.com/MiniMax__AI/status/1935934152773451838</link>
-      <description>MiniMax’s Hailuo Video Agent offers video generation with basic visual editing capabilities but lacks the multimodal sophistication seen in competitors. Analysts agreed it was a modest update with limited differentiation, particularly given the current state-of-the-art in AI-generated video.</description>
-      <guid isPermaLink="false">25055ad89231f8c1b1530681346917e4</guid>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Companies Are Already All-In on AI After Arriving Late to Everything Else [ ~ ]</title>
-      <link>https://archive.md/ICQ9H</link>
-      <description>Highlighting corporate enthusiasm for AI, this article presents anecdotes from firms like PepsiCo on early adoption efforts. Our analysts saw it as more of a PR-driven narrative lacking depth or actionable insights, with data points that were inconsistent or unclear.</description>
-      <guid isPermaLink="false">00e70028f4fb1720169938f82bbda7ad</guid>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inference Economics of Language Models [ ~ ]</title>
-      <link>https://epoch.ai/blog/inference-economics-of-language-models</link>
-      <description>This post examines the technical bottlenecks—especially latency—in large model inference and offers a quantitative breakdown of system resource usage. Our analysts found the content too technical for most AI leaders and noted that the core insight, while relevant, offers limited immediate applicability.</description>
-      <guid isPermaLink="false">d820b889d6d5ebf992fe7e75749cfda1</guid>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kimi-Researcher - End-to-End RL Training for Emerging Agentic Capabilities [ * ]</title>
-      <link>https://moonshotai.github.io/Kimi-Researcher/</link>
-      <description>Moonshot AI's Kimi-Researcher demonstrates a novel framework using reinforcement learning to enhance agentic behavior in AI tools used for research and reasoning. Despite limited real-world deployment, our analysts noted the system’s impressive ability to perform deep research tasks and viewed it as a meaningful step forward in AI automation for scientific inquiry.</description>
-      <guid isPermaLink="false">b5a44742444237576ea535ba30fe2e3d</guid>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How not to lose your job to AI [ * ]</title>
-      <link>https://80000hours.org/agi/guide/skills-ai-makes-valuable</link>
-      <description>This article outlines which human skills are most resilient in the age of AI, arguing that coding may be less critical than leadership, communication, and the ability to deploy AI tools. Our analysts appreciated its practical advice, especially for professionals and HR leaders navigating reskilling in an AI-transformed job market.</description>
-      <guid isPermaLink="false">4956c0fb202ad1520f3b85f46130f97b</guid>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 03 Jul 2025 16:16:41 +0000</lastBuildDate>
     <item>
       <title>Agentic Misalignment: How LLMs could be insider threats [ ! ]</title>
       <link>https://www.anthropic.com/research/agentic-misalignment</link>
@@ -357,6 +322,41 @@
       <description>This milestone announcement goes beyond a robotic count—it marks Amazon's deployment of its DeepFleet generative AI model, which optimizes warehouse operations by coordinating movement across a fleet of one million robots and boosting efficiency by 10%. Our analysts emphasized its strategic weight: it’s a “wow factor” illustrating mass automation and a blueprint for executives on how to integrate AI into core logistics—already inspiring follow-on opportunities via AWS.</description>
       <guid isPermaLink="false">1b1227dbe707e65b6e6b72d55451a295</guid>
       <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Top 9 generative AI use cases for business [ ~ ]</title>
+      <link>https://www.cio.com/article/3478721/top-7-generative-ai-use-cases-for-business.html</link>
+      <description>CIO magazine’s roundup of common generative AI applications provides a surface‑level overview of trends like customer support and content creation. Although it reflects mainstream CIO thinking and current adoption patterns, our analysts agreed it lacks depth or value‑driven case studies, making it basic pre‑work rather than a strategic resource.</description>
+      <guid isPermaLink="false">8a0cd27e7f7ff09074ce48560395bf5e</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Bilt Built a Million-Agent Recommendation System with Letta [ ~ ]</title>
+      <link>https://www.letta.com/case-studies/bilt</link>
+      <description>Letta’s construction of a million‑agent recommendation system for Bilt, leveraging contextual memory and reasoning agents to personalize suggestions, represents an innovative agent‑based approach. Still, the lack of quantitative results or deep technical detail led our analysts to categorize this as an experimental showcase rather than a proven business approach.</description>
+      <guid isPermaLink="false">39a4b138655d91ea392c80e2d7fde7df</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Databricks AI Governance Framework [ ~ ]</title>
+      <link>https://www.databricks.com/blog/introducing-databricks-ai-governance-framework</link>
+      <description>Databricks’ launch of a structured governance framework across pillars like ethics, legal compliance, data ops, and protection could be a useful toolkit for AI teams. That said, our analysts cautioned that it reads as vendor‑driven and broad rather than gap‑addressing, making it supplementary to existing governance strategies rather than essential.</description>
+      <guid isPermaLink="false">951739746bbec0436bb1d285b3290bb7</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing pay per crawl: enabling content owners to charge AI crawlers for access [ ~ ]</title>
+      <link>https://blog.cloudflare.com/introducing-pay-per-crawl</link>
+      <description>Cloudflare’s announcement introduces a novel pay‑per‑crawl model allowing content owners to monetize AI crawler access—a potentially innovative approach to content licensing in the generative AI era. However, as our analysts noted, market dynamics favor dominant crawler players like OpenAI and Google, leaving limited practical upside, so it remains interesting but not yet impactful.</description>
+      <guid isPermaLink="false">82e785e4afbecc5f41657b352490b893</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>China Is Quickly Eroding America’s Lead in the Global AI Race [ ! ]</title>
+      <link>https://drive.google.com/file/d/1k2U3LnyB5lrNlMsGehGO6i57cSVwTtX0/view?usp=sharing</link>
+      <description>This Wall Street Journal piece highlights how Chinese AI models like DeepSeq and Alibaba’s offerings are gaining traction globally due to their performance and cost advantages—often 15–20× cheaper than U.S. counterparts. Our analysts noted that multiple major companies, including HSBC, are opting for these behind‑the‑firewall, open‑source Chinese models, underscoring a strategic shift in the global AI landscape and making this critical for AI leaders to watch.</description>
+      <guid isPermaLink="false">6182c3a3ac8f1f4678e124d0c19e53c9</guid>
+      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
