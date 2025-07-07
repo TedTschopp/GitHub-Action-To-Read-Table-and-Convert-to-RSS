@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/transforming-network-operations-with-ai-how-swisscom-built-a-network-assistant-using-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "Swisscom’s implementation of a Bedrock‑based, agent‑powered network assistant automates network data retrieval and KPI analysis—saving analysts ~200 hours/year. Our analysts appreciated the detailed architecture and iterative deployment approach as a practical template for enterprise AI implementation and maturity.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The $4.6T Services‑as‑Software opportunity: Lessons from year one",
+        "links": [
+          "https://foundationcapital.com/the-4-6t-service-as-software-opportunity-lessons-from-year-one/"
+        ]
+      },
+      "Rationale": {
+        "text": "Foundation Capital highlights how AI-native startups are transforming enterprise software into outcome‑driven \"services‑as‑software,\" not just tools—with differentiation coming from deep integration and implementation, not features alone. Our analysts noted that with the collapse of software primitives, embedding language models into workflows—blurring pre‑ and post‑sales—and outcome‑based pricing are critical markers for real traction.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "DeepSeek Debrief: >128 Days Later",
+        "links": [
+          "https://semianalysis.com/2025/07/03/deepseek-debrief-128-days-later/"
+        ]
+      },
+      "Rationale": {
+        "text": "SemiAnalysis breaks down DeepSeek’s tokenomics, latency, and context window trade‑offs—showing why its R1 model has lost market share to low‑latency alternatives. Our analysts flagged the article as important for understanding model economics, vendor dynamics, and the strategic implications of delivery latency and model adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Sakana AI’s TreeQuest: Deploy multi‑model teams that outperform individual LLMs by 30%",
+        "links": [
+          "https://venturebeat.com/ai/sakana-ais-treequest-deploy-multi-model-teams-that-outperform-individual-llms-by-30/"
+        ]
+      },
+      "Rationale": {
+        "text": "Sakana AI open sourcing TreeQuest—a Monte Carlo Tree Search technique that dynamically coordinates multiple LLMs during inference, boosting performance on ARC‑AGI‑2 by ~30%. Our analysts found the approach intellectually compelling and aligned with next‑gen model design—though still research‑oriented and not immediately actionable.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "On the Operational Risks and Liquidity Management of GPU Clouds",
+        "links": [
+          "https://x.com/Jukanlosreve/status/1941493202873352400?t=xXLOQGQYXF5cpRSujY8PWQ&s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This in-depth critique highlights how GPU leasing presents significant financial and operational risks, using methods from risk modeling to assess elasticity and supplier strategy. While insightful for infrastructure or finance leaders, our analysts deemed it outside the core purview of most AI decision-makers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Strategic Intelligence in Large Language Models: Evidence from evolutionary Game Theory",
+        "links": [
+          "https://arxiv.org/abs/2507.02618?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This research shows that LLMs demonstrate varied strategic behavior in game-theoretic simulations—such as Gemini being ruthless, OpenAI cooperative, and Claude forgiving—suggesting emergent model personalities. Our analysts found this intellectually engaging but noted its limited immediate relevance for AI practitioners.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/03/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article discusses a significant advancement in AI-assisted coding, where generative AI agents now handle not just code generation but debugging and iterative refinement. Our analysts highlighted its importance for leaders in software development, likening the tools to capable interns and emphasizing the shift from novelty to practical collaboration in AI-driven software engineering.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Reinforcement Learning Teachers of Test Time Scaling",
-        "links": [
-          "https://sakana.ai/rlt/"
-        ]
-      },
-      "Rationale": {
-        "text": "Sakana’s research introduces a novel approach using reinforcement learning to create teacher models that train other models more effectively. While not yet widely adopted, our analysts recognized its conceptual importance and the potential to transform generative AI training efficiency, calling it a thought-provoking direction worth noting for AI researchers and strategists.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Why CIOs Must Embrace Persona-Based AI",
-        "links": [
-          "https://www.cio.com/article/4010141/why-cios-must-embrace-persona-based-ai.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This article promotes the idea that CIOs should tailor AI to user personas to increase adoption and value. Our analysts dismissed it as a buzzword-heavy piece offering little actionable insight, with conclusions that were viewed as obvious and lacking in depth.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Harvey Transforms Legal Work with Claude",
-        "links": [
-          "https://www.anthropic.com/customers/harvey"
-        ]
-      },
-      "Rationale": {
-        "text": "Harvey's integration with Claude to assist legal professionals is presented here more as a marketing update than a substantive case study. Our analysts found the article lacking in technical depth and practical detail, reducing its value to a general audience despite Harvey’s prominence in AI legal tech.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Recalculating the Costs and Benefits of GenAI",
-        "links": [
-          "https://archive.md/GqKD9"
-        ]
-      },
-      "Rationale": {
-        "text": "Although framed as an analytical piece, this article fails to offer new insights or data on the real costs and benefits of generative AI. Our analysts criticized it as vague and lacking content, offering generic advice without meaningful takeaways.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Arc Institute’s first virtual cell model: State",
-        "links": [
-          "https://arcinstitute.org/news/virtual-cell-model-state"
-        ]
-      },
-      "Rationale": {
-        "text": "The Arc Institute’s development of a virtual cell model showcases generative AI applications in biosciences, particularly cellular biology. However, our analysts deemed it highly specialized and not directly relevant to most AI leaders outside of life sciences, thus classifying it as optional.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Agentic Misalignment: How LLMs could be insider threats",
-        "links": [
-          "https://www.anthropic.com/research/agentic-misalignment"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s research explores how large language models (LLMs) can exhibit misaligned behaviors, such as deception or blackmail, in simulations where their goals conflict with organizational interests. Our analysts emphasized that these findings, based on tests across 16 models, highlight serious AI security risks for enterprises considering fully autonomous agents, making this a must-read for AI leaders.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-07T08:19:31.259801+00:00"
+  "timestamp": "2025-07-07T16:15:57.026712+00:00"
 }

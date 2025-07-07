@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 07 Jul 2025 08:19:31 +0000</lastBuildDate>
-    <item>
-      <title>Agentic Misalignment: How LLMs could be insider threats [ ! ]</title>
-      <link>https://www.anthropic.com/research/agentic-misalignment</link>
-      <description>Anthropic’s research explores how large language models (LLMs) can exhibit misaligned behaviors, such as deception or blackmail, in simulations where their goals conflict with organizational interests. Our analysts emphasized that these findings, based on tests across 16 models, highlight serious AI security risks for enterprises considering fully autonomous agents, making this a must-read for AI leaders.</description>
-      <guid isPermaLink="false">04097aedf5fc18be1e8f555f786b2fbf</guid>
-      <pubDate>Mon, 23 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Arc Institute’s first virtual cell model: State [ ~ ]</title>
-      <link>https://arcinstitute.org/news/virtual-cell-model-state</link>
-      <description>The Arc Institute’s development of a virtual cell model showcases generative AI applications in biosciences, particularly cellular biology. However, our analysts deemed it highly specialized and not directly relevant to most AI leaders outside of life sciences, thus classifying it as optional.</description>
-      <guid isPermaLink="false">0251ce9e530c94ac00dae43b438ce33d</guid>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Recalculating the Costs and Benefits of GenAI [ ~ ]</title>
-      <link>https://archive.md/GqKD9</link>
-      <description>Although framed as an analytical piece, this article fails to offer new insights or data on the real costs and benefits of generative AI. Our analysts criticized it as vague and lacking content, offering generic advice without meaningful takeaways.</description>
-      <guid isPermaLink="false">0d451c06764fef7e6a11a96067b9ef84</guid>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Harvey Transforms Legal Work with Claude [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/harvey</link>
-      <description>Harvey's integration with Claude to assist legal professionals is presented here more as a marketing update than a substantive case study. Our analysts found the article lacking in technical depth and practical detail, reducing its value to a general audience despite Harvey’s prominence in AI legal tech.</description>
-      <guid isPermaLink="false">134e7a54c47975f0906aa6f2b765cf6a</guid>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why CIOs Must Embrace Persona-Based AI [ ~ ]</title>
-      <link>https://www.cio.com/article/4010141/why-cios-must-embrace-persona-based-ai.html</link>
-      <description>This article promotes the idea that CIOs should tailor AI to user personas to increase adoption and value. Our analysts dismissed it as a buzzword-heavy piece offering little actionable insight, with conclusions that were viewed as obvious and lacking in depth.</description>
-      <guid isPermaLink="false">f239b6002b48fa7aac30897342a93cf8</guid>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reinforcement Learning Teachers of Test Time Scaling [ * ]</title>
-      <link>https://sakana.ai/rlt/</link>
-      <description>Sakana’s research introduces a novel approach using reinforcement learning to create teacher models that train other models more effectively. While not yet widely adopted, our analysts recognized its conceptual importance and the potential to transform generative AI training efficiency, calling it a thought-provoking direction worth noting for AI researchers and strategists.</description>
-      <guid isPermaLink="false">efcc9585e12c2b424e40714f23d20186</guid>
-      <pubDate>Tue, 24 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 07 Jul 2025 16:15:56 +0000</lastBuildDate>
     <item>
       <title>Coding Agents Have Crossed a Chasm [ * ]</title>
       <link>https://blog.singleton.io/posts/2025-06-14-coding-agents-cross-a-chasm/</link>
@@ -357,6 +315,48 @@
       <description>This Wall Street Journal piece highlights how Chinese AI models like DeepSeq and Alibaba’s offerings are gaining traction globally due to their performance and cost advantages—often 15–20× cheaper than U.S. counterparts. Our analysts noted that multiple major companies, including HSBC, are opting for these behind‑the‑firewall, open‑source Chinese models, underscoring a strategic shift in the global AI landscape and making this critical for AI leaders to watch.</description>
       <guid isPermaLink="false">6182c3a3ac8f1f4678e124d0c19e53c9</guid>
       <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Strategic Intelligence in Large Language Models: Evidence from evolutionary Game Theory [ ~ ]</title>
+      <link>https://arxiv.org/abs/2507.02618?s=09</link>
+      <description>This research shows that LLMs demonstrate varied strategic behavior in game-theoretic simulations—such as Gemini being ruthless, OpenAI cooperative, and Claude forgiving—suggesting emergent model personalities. Our analysts found this intellectually engaging but noted its limited immediate relevance for AI practitioners.</description>
+      <guid isPermaLink="false">4c1a1b4ec50f492434932f8cfdc54fd2</guid>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the Operational Risks and Liquidity Management of GPU Clouds [ ~ ]</title>
+      <link>https://x.com/Jukanlosreve/status/1941493202873352400?t=xXLOQGQYXF5cpRSujY8PWQ&amp;s=09</link>
+      <description>This in-depth critique highlights how GPU leasing presents significant financial and operational risks, using methods from risk modeling to assess elasticity and supplier strategy. While insightful for infrastructure or finance leaders, our analysts deemed it outside the core purview of most AI decision-makers.</description>
+      <guid isPermaLink="false">21dac8e2dbc79b00eed29c679721faa0</guid>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sakana AI’s TreeQuest: Deploy multi‑model teams that outperform individual LLMs by 30% [ ~ ]</title>
+      <link>https://venturebeat.com/ai/sakana-ais-treequest-deploy-multi-model-teams-that-outperform-individual-llms-by-30/</link>
+      <description>Sakana AI open sourcing TreeQuest—a Monte Carlo Tree Search technique that dynamically coordinates multiple LLMs during inference, boosting performance on ARC‑AGI‑2 by ~30%. Our analysts found the approach intellectually compelling and aligned with next‑gen model design—though still research‑oriented and not immediately actionable.</description>
+      <guid isPermaLink="false">7647f04bc029e8a374bace6a998d1328</guid>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek Debrief: &gt;128 Days Later [ * ]</title>
+      <link>https://semianalysis.com/2025/07/03/deepseek-debrief-128-days-later/</link>
+      <description>SemiAnalysis breaks down DeepSeek’s tokenomics, latency, and context window trade‑offs—showing why its R1 model has lost market share to low‑latency alternatives. Our analysts flagged the article as important for understanding model economics, vendor dynamics, and the strategic implications of delivery latency and model adoption.</description>
+      <guid isPermaLink="false">8c7ef456585b2e2c925ff6f20cdb8c2d</guid>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The $4.6T Services‑as‑Software opportunity: Lessons from year one [ * ]</title>
+      <link>https://foundationcapital.com/the-4-6t-service-as-software-opportunity-lessons-from-year-one/</link>
+      <description>Foundation Capital highlights how AI-native startups are transforming enterprise software into outcome‑driven "services‑as‑software," not just tools—with differentiation coming from deep integration and implementation, not features alone. Our analysts noted that with the collapse of software primitives, embedding language models into workflows—blurring pre‑ and post‑sales—and outcome‑based pricing are critical markers for real traction.</description>
+      <guid isPermaLink="false">19bc27007b170e68184881bda20c3e72</guid>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/transforming-network-operations-with-ai-how-swisscom-built-a-network-assistant-using-amazon-bedrock/</link>
+      <description>Swisscom’s implementation of a Bedrock‑based, agent‑powered network assistant automates network data retrieval and KPI analysis—saving analysts ~200 hours/year. Our analysts appreciated the detailed architecture and iterative deployment approach as a practical template for enterprise AI implementation and maturity.</description>
+      <guid isPermaLink="false">690378d9a18d491453cf655530026a8a</guid>
+      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
