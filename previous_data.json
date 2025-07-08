@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Against \"Brain Damage\"",
+        "links": [
+          "https://www.oneusefulthing.org/p/against-brain-damage"
+        ]
+      },
+      "Rationale": {
+        "text": "Ethan Mollick’s critique on how generative AI tools can subtly erode critical thinking is a timely exploration of AI ethics, cognitive rigour, and human‑machine interaction. Our analysts emphasized that AI shouldn't replace learning processes, but instead coach and critique our thinking—making this a must-read for any AI leader.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Commonwealth Bank’s ChatIT helps employees fix IT issues in seconds using generative AI",
+        "links": [
+          "https://news.microsoft.com/source/asia/2025/07/01/commonwealth-banks-chatit-helps-employees-fix-it-issues-in-seconds-using-generative-ai/"
+        ]
+      },
+      "Rationale": {
+        "text": "This Microsoft-backed case study shows CBA using generative AI to reduce average IT resolution time from 17 to 2 minutes—a concrete demonstration of AI automation and enterprise ROI. As our analysts noted, this is a pervasive, high-impact use case in large organizations that delivers visible savings and productivity gains.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Companies Betting They Can Profit From Google Search’s Demise",
+        "links": [
+          "https://archive.md/JIKVH"
+        ]
+      },
+      "Rationale": {
+        "text": "A Wall Street Journal article reveals how startups like Athena and Profound are positioning themselves for a “zero-click internet” by optimizing content for AI‑driven search engines—a critical AI trend for marketing and SEO leaders. Our analysts flagged its credibility (being WSJ), and encouraged sharing it broadly to alert leaders still sleepwalking through this shift.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Research Agents for Machine Learning",
+        "links": [
+          "https://arxiv.org/abs/2507.02554"
+        ]
+      },
+      "Rationale": {
+        "text": "This academic paper introduces AI “operators” that increase model performance—highlighting that algorithmic bottlenecks in ML research lie not in search algorithms but in infrastructure and tooling. As our analysts discussed, it's a foundational contribution to generative AI architecture and future agentic systems.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Dust helps enterprises create actionable AI agents with MCP and Claude",
+        "links": [
+          "https://www.anthropic.com/customers/dust"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s case study on deploying Claude-based agents via MCP is a lightweight showcase of AI‑driven content creation for enterprise automation. Though interesting, the analysts called it “fluffy” with no real metrics or depth—making it good for awareness, but not urgent.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "DeepSWE: Training a Fully Open‑sourced, State‑of‑the‑Art Coding Agent by Scaling RL",
+        "links": [
+          "https://www.together.ai/blog/deepswe"
+        ]
+      },
+      "Rationale": {
+        "text": "This technical update outlines how reinforcement learning has improved a 32‑billion‑parameter open‑source coding model—demonstrating incremental AI advances. Our analysts noted its value for researchers and developers, but labeled it \"optional\" due to its narrow scope and sophistication level.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/07/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Google DeepMind has optimized its Gemini 2.2 model for fully on-device use, enabling robots to perform without cloud connectivity. Our analysts viewed this as a significant advance in decentralized AI and robotics, with practical implications for energy-efficient and real-time AI in physical systems.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "NewDay builds A Generative AI based Customer service Agent Assist with over 90% accuracy",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/newday-builds-a-generative-ai-based-customer-service-agent-assist-with-over-90-accuracy/"
-        ]
-      },
-      "Rationale": {
-        "text": "NewDay used Amazon Bedrock to build a generative AI-powered Agent Assist tool that achieved over 90% accuracy in customer service scenarios. Our analysts praised this real-world RAG implementation, noting its relevance for enterprises currently deploying AI for support operations.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Can we fix AI’s evaluation crisis?",
-        "links": [
-          "https://www.technologyreview.com/2025/06/24/1119187/fix-ai-evaluation-crisis/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article critiques the shortcomings of current AI evaluation benchmarks and argues for tailored, proprietary evaluation methods. Our analysts agreed the issue is conceptually valid but found the article lacked new insights, calling it more of a general overview than a tactical guide.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "From Demos to Deals: Insights for Building in Enterprise AI",
-        "links": [
-          "https://a16z.com/insights-for-enterprise-ai-builders/"
-        ]
-      },
-      "Rationale": {
-        "text": "The article discusses common challenges in transitioning from AI prototypes to enterprise-scale deployments, offering high-level commentary on moats and data readiness. Our analysts described the content as obvious and superficial, with few actionable takeaways for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "SYNTHETIC-2: Planetary-Scale Pipeline Parallel Inference for Verified Reasoning",
-        "links": [
-          "https://www.primeintellect.ai/blog/synthetic-2"
-        ]
-      },
-      "Rationale": {
-        "text": "Prime Intellect introduces SYNTHETIC-2, a system for large-scale parallel inference aimed at verified reasoning. Despite the technical interest in decentralized LLM infrastructure, our analysts felt it has limited relevance to current enterprise needs, categorizing it as a niche R&D announcement.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Using AI Right Now: A Quick Guide",
-        "links": [
-          "https://www.oneusefulthing.org/p/using-ai-right-now-a-quick-guide"
-        ]
-      },
-      "Rationale": {
-        "text": "This article by Ethan Mollick offers a concise and actionable overview of current generative AI tools, comparing platforms like ChatGPT, Claude, and Gemini, with practical tips on pricing, deep research, and voice mode usage. Our analysts emphasized its value as a comprehensive refresher for AI leaders, noting it reflects the real-world tools their teams are using and provides essential frameworks for model selection and user guidance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Coding Agents Have Crossed a Chasm",
-        "links": [
-          "https://blog.singleton.io/posts/2025-06-14-coding-agents-cross-a-chasm/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article discusses a significant advancement in AI-assisted coding, where generative AI agents now handle not just code generation but debugging and iterative refinement. Our analysts highlighted its importance for leaders in software development, likening the tools to capable interns and emphasizing the shift from novelty to practical collaboration in AI-driven software engineering.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-08T08:18:27.346078+00:00"
+  "timestamp": "2025-07-08T16:16:18.531256+00:00"
 }
