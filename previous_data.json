@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Reka Vision: Intelligence Made Visible",
+        "links": [
+          "https://reka.ai/news/reka-vision-intelligence-made-visible"
+        ]
+      },
+      "Rationale": {
+        "text": "Reka Vision introduces a multimodal AI platform that enables searching, summarizing, and reasoning over vast video/image collections—allowing users to produce targeted snippets, alerts, or summaries with chat capabilities. Our analysts emphasized its massive utility across media, surveillance, and live feeds, noting its “foundational” technology and reports of enterprise-level usage—even amidst a crowded visual AI landscape.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "SmolLM3: smol, multilingual, long-context reasoner",
+        "links": [
+          "https://huggingface.co/blog/smollm3"
+        ]
+      },
+      "Rationale": {
+        "text": "This Hugging Face release of SmolLM3 highlights a compact 3B‑parameter model that punches above its weight—with multilingual support across six languages and long-context reasoning up to 128K tokens—making it a strong performer near the 4B‑parameter tier. Our analysts noted the value of the “open book” training methodology—full transparency in data mixture, architecture, and reasoning methodology—which is rare and highly valuable for teams deploying edge models.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Banking on gen AI in the credit business: The route to value creation",
+        "links": [
+          "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-gen-ai-in-the-credit-business-the-route-to-value-creation"
+        ]
+      },
+      "Rationale": {
+        "text": "McKinsey’s survey of 44 banks revisiting how generative AI is being integrated into credit operations offers helpful segmentation insight—including that smaller regional banks are leading investment in AI-driven workflows. However, our analysts agreed that it confirms known trends without providing new evidence of realized ROI or breakthrough outcomes, making it worth an optional read.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Character.AI’s Real‑Time Video Breakthrough",
+        "links": [
+          "https://blog.character.ai/character-ais-real-time-video-breakthrough"
+        ]
+      },
+      "Rationale": {
+        "text": "Character.AI’s new TalkingMachines model demonstrates an exciting leap in real-time, audio-driven video generation—delivering lip-synced, interactive avatars that could reshape storytelling and immersive interactions. Our analysts flagged it as a strong research advancement and hot trend, but remained cautious since it’s not yet product-ready and primarily a proof‑of‑concept.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How INRIX accelerates transportation planning with Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-inrix-accelerates-transportation-planning-with-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "INRIX’s deployment of Bedrock to analyze 50 petabytes of rich traffic data—such as accident histories and connected-car streams—to improve transport planning offers a deep-dive into real-world scale and architecture. While the project is impressive in scope, our analysts noted the lack of clear impact metrics, placing it in the optional category.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Why CISOs are making the SASE switch: Fewer vendors, smarter security, better AI guardrails",
+        "links": [
+          "https://venturebeat.com/security/facing-ai-powered-threats-cisos-consolidate-around-single-vendor-sase/"
+        ]
+      },
+      "Rationale": {
+        "text": "VentureBeat outlines a surge in CISO adoption of single-vendor SASE systems to reduce complexity and shore up AI-era vulnerabilities—with Gartner data showing 75% of orgs pursuing consolidation and Cato, Palo Alto, and Netskope leading. Our analysts agreed the trend is important to cybersecurity leaders, but the article primarily covers a fundraising angle and vendor marketing, so it lands as optional for AI-focused audiences.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/08/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Google has released Gemini CLI, an open-source terminal assistant that integrates with its broader suite of coding tools. Our analysts framed this as an incremental but necessary move from one of the major AI players—relevant especially for developers—and noted its integration into the larger Gemini ecosystem and the subtle but growing implications for code automation.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Mu language model and how it enabled the agent in Windows Settings",
-        "links": [
-          "https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft’s new Mu model, a lightweight 330M parameter model, powers an on-device settings agent in Windows Copilot. Our analysts highlighted this as a noteworthy example of practical, small language model deployment at scale, relevant for those exploring edge AI or on-device generative capabilities, especially in constrained environments like embedded systems or regulated industries.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Captide agents running on LangGraph Platform compress investment research from days to seconds",
-        "links": [
-          "https://blog.langchain.com/captide/"
-        ]
-      },
-      "Rationale": {
-        "text": "Captide uses LangGraph and LangSmith to automate and monitor financial analysis tasks like parsing SEC filings. While our analysts acknowledged this as a strong example of AI in finance and agent observability, they rated it optional due to limited clarity on outcomes or broader applicability beyond niche financial research automation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The AI Efficiency Trap: When Productivity Tools Create Perpetual Pressure",
-        "links": [
-          "https://knowledge.wharton.upenn.edu/article/the-ai-efficiency-trap-when-productivity-tools-create-perpetual-pressure/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article critiques how AI tools may amplify workplace pressure and alienation despite promising productivity gains. While thought-provoking, our analysts agreed that it revisits longstanding debates in labor and automation studies, offering limited new insight for today’s AI strategy decisions.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The next innovation revolution—powered by AI",
-        "links": [
-          "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-next-innovation-revolution-powered-by-ai?stcr=BD87777F43544B3D8B1ED5C61E9B00A1&cid=other-eml-alt-mip-mck&hlkid=d69acabc2d264614af33a3e51a89797a&hctky=1595995&hdpid=71f74922-65ff-47fb-9dbb-a20abccfc793"
-        ]
-      },
-      "Rationale": {
-        "text": "This article explores how generative AI is catalyzing a new wave of innovation across industries such as pharmaceuticals, materials science, and aerospace, supported by detailed data on R&D productivity and technological acceleration. Our analysts emphasized its broad relevance, framing it as a vital read for leaders wanting to understand AI’s transformative potential on a global scale.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing 11ai: the voice-first AI assistant that takes action",
-        "links": [
-          "https://elevenlabs.io/blog/introducing-11ai"
-        ]
-      },
-      "Rationale": {
-        "text": "ElevenLabs has launched 11ai, a voice-first AI assistant that can perform tasks, offering a glimpse into the future of AI-powered personal assistants. While it lacks visual capabilities, our analysts noted its strong voice interaction design and considered it a meaningful step toward more interactive, action-oriented AI agents.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Gemini Robotics On-Device brings AI to local robotic devices",
-        "links": [
-          "https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google DeepMind has optimized its Gemini 2.2 model for fully on-device use, enabling robots to perform without cloud connectivity. Our analysts viewed this as a significant advance in decentralized AI and robotics, with practical implications for energy-efficient and real-time AI in physical systems.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-09T08:18:06.502197+00:00"
+  "timestamp": "2025-07-09T16:13:47.579718+00:00"
 }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 09 Jul 2025 08:18:06 +0000</lastBuildDate>
-    <item>
-      <title>Gemini Robotics On-Device brings AI to local robotic devices [ * ]</title>
-      <link>https://deepmind.google/discover/blog/gemini-robotics-on-device-brings-ai-to-local-robotic-devices/</link>
-      <description>Google DeepMind has optimized its Gemini 2.2 model for fully on-device use, enabling robots to perform without cloud connectivity. Our analysts viewed this as a significant advance in decentralized AI and robotics, with practical implications for energy-efficient and real-time AI in physical systems.</description>
-      <guid isPermaLink="false">12ea66ab9370b27682f76db4d02e6750</guid>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing 11ai: the voice-first AI assistant that takes action [ * ]</title>
-      <link>https://elevenlabs.io/blog/introducing-11ai</link>
-      <description>ElevenLabs has launched 11ai, a voice-first AI assistant that can perform tasks, offering a glimpse into the future of AI-powered personal assistants. While it lacks visual capabilities, our analysts noted its strong voice interaction design and considered it a meaningful step toward more interactive, action-oriented AI agents.</description>
-      <guid isPermaLink="false">26e696c7ac298b03bd4c3abdbca80756</guid>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The next innovation revolution—powered by AI [ ! ]</title>
-      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-next-innovation-revolution-powered-by-ai?stcr=BD87777F43544B3D8B1ED5C61E9B00A1&amp;cid=other-eml-alt-mip-mck&amp;hlkid=d69acabc2d264614af33a3e51a89797a&amp;hctky=1595995&amp;hdpid=71f74922-65ff-47fb-9dbb-a20abccfc793</link>
-      <description>This article explores how generative AI is catalyzing a new wave of innovation across industries such as pharmaceuticals, materials science, and aerospace, supported by detailed data on R&amp;D productivity and technological acceleration. Our analysts emphasized its broad relevance, framing it as a vital read for leaders wanting to understand AI’s transformative potential on a global scale.</description>
-      <guid isPermaLink="false">f7bb8ebb69ed32a886797df670a8b53c</guid>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The AI Efficiency Trap: When Productivity Tools Create Perpetual Pressure [ ~ ]</title>
-      <link>https://knowledge.wharton.upenn.edu/article/the-ai-efficiency-trap-when-productivity-tools-create-perpetual-pressure/</link>
-      <description>This article critiques how AI tools may amplify workplace pressure and alienation despite promising productivity gains. While thought-provoking, our analysts agreed that it revisits longstanding debates in labor and automation studies, offering limited new insight for today’s AI strategy decisions.</description>
-      <guid isPermaLink="false">5d79dd287c81060eca6ca953b638cf65</guid>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Captide agents running on LangGraph Platform compress investment research from days to seconds [ ~ ]</title>
-      <link>https://blog.langchain.com/captide/</link>
-      <description>Captide uses LangGraph and LangSmith to automate and monitor financial analysis tasks like parsing SEC filings. While our analysts acknowledged this as a strong example of AI in finance and agent observability, they rated it optional due to limited clarity on outcomes or broader applicability beyond niche financial research automation.</description>
-      <guid isPermaLink="false">406f0e741e57b12431b122e3daaddc81</guid>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Mu language model and how it enabled the agent in Windows Settings [ * ]</title>
-      <link>https://blogs.windows.com/windowsexperience/2025/06/23/introducing-mu-language-model-and-how-it-enabled-the-agent-in-windows-settings/</link>
-      <description>Microsoft’s new Mu model, a lightweight 330M parameter model, powers an on-device settings agent in Windows Copilot. Our analysts highlighted this as a noteworthy example of practical, small language model deployment at scale, relevant for those exploring edge AI or on-device generative capabilities, especially in constrained environments like embedded systems or regulated industries.</description>
-      <guid isPermaLink="false">0b7758077818af699fef8b67885c3dda</guid>
-      <pubDate>Thu, 26 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 09 Jul 2025 16:13:47 +0000</lastBuildDate>
     <item>
       <title>Google unveils Gemini CLI, an open-source AI tool for terminals [ * ]</title>
       <link>https://techcrunch.com/2025/06/25/google-unveils-gemini-cli-an-open-source-ai-tool-for-terminals/</link>
@@ -357,6 +315,48 @@
       <description>Ethan Mollick’s critique on how generative AI tools can subtly erode critical thinking is a timely exploration of AI ethics, cognitive rigour, and human‑machine interaction. Our analysts emphasized that AI shouldn't replace learning processes, but instead coach and critique our thinking—making this a must-read for any AI leader.</description>
       <guid isPermaLink="false">f3d564e96567ad76d1ca217d1dfb689a</guid>
       <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why CISOs are making the SASE switch: Fewer vendors, smarter security, better AI guardrails [ ~ ]</title>
+      <link>https://venturebeat.com/security/facing-ai-powered-threats-cisos-consolidate-around-single-vendor-sase/</link>
+      <description>VentureBeat outlines a surge in CISO adoption of single-vendor SASE systems to reduce complexity and shore up AI-era vulnerabilities—with Gartner data showing 75% of orgs pursuing consolidation and Cato, Palo Alto, and Netskope leading. Our analysts agreed the trend is important to cybersecurity leaders, but the article primarily covers a fundraising angle and vendor marketing, so it lands as optional for AI-focused audiences.</description>
+      <guid isPermaLink="false">3292aec13d52b68b9fcebddaaade4dee</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How INRIX accelerates transportation planning with Amazon Bedrock [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-inrix-accelerates-transportation-planning-with-amazon-bedrock/</link>
+      <description>INRIX’s deployment of Bedrock to analyze 50 petabytes of rich traffic data—such as accident histories and connected-car streams—to improve transport planning offers a deep-dive into real-world scale and architecture. While the project is impressive in scope, our analysts noted the lack of clear impact metrics, placing it in the optional category.</description>
+      <guid isPermaLink="false">da1c68d7a728aa41b088d3aa37e51021</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Character.AI’s Real‑Time Video Breakthrough [ ~ ]</title>
+      <link>https://blog.character.ai/character-ais-real-time-video-breakthrough</link>
+      <description>Character.AI’s new TalkingMachines model demonstrates an exciting leap in real-time, audio-driven video generation—delivering lip-synced, interactive avatars that could reshape storytelling and immersive interactions. Our analysts flagged it as a strong research advancement and hot trend, but remained cautious since it’s not yet product-ready and primarily a proof‑of‑concept.</description>
+      <guid isPermaLink="false">febf9d4aa575512ffbd64155ee0a95f4</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Banking on gen AI in the credit business: The route to value creation [ ~ ]</title>
+      <link>https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-gen-ai-in-the-credit-business-the-route-to-value-creation</link>
+      <description>McKinsey’s survey of 44 banks revisiting how generative AI is being integrated into credit operations offers helpful segmentation insight—including that smaller regional banks are leading investment in AI-driven workflows. However, our analysts agreed that it confirms known trends without providing new evidence of realized ROI or breakthrough outcomes, making it worth an optional read.</description>
+      <guid isPermaLink="false">7c6f08d84881e1b7051ba0c49a75c25f</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SmolLM3: smol, multilingual, long-context reasoner [ * ]</title>
+      <link>https://huggingface.co/blog/smollm3</link>
+      <description>This Hugging Face release of SmolLM3 highlights a compact 3B‑parameter model that punches above its weight—with multilingual support across six languages and long-context reasoning up to 128K tokens—making it a strong performer near the 4B‑parameter tier. Our analysts noted the value of the “open book” training methodology—full transparency in data mixture, architecture, and reasoning methodology—which is rare and highly valuable for teams deploying edge models.</description>
+      <guid isPermaLink="false">d203a4336ef8776355f5513a34109c11</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reka Vision: Intelligence Made Visible [ * ]</title>
+      <link>https://reka.ai/news/reka-vision-intelligence-made-visible</link>
+      <description>Reka Vision introduces a multimodal AI platform that enables searching, summarizing, and reasoning over vast video/image collections—allowing users to produce targeted snippets, alerts, or summaries with chat capabilities. Our analysts emphasized its massive utility across media, surveillance, and live feeds, noting its “foundational” technology and reports of enterprise-level usage—even amidst a crowded visual AI landscape.</description>
+      <guid isPermaLink="false">fe11225d6d367716b8c8e2fea6239057</guid>
+      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
