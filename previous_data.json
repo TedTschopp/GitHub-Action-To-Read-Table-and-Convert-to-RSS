@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How to Scale GenAI in the Workplace",
+        "links": [
+          "https://sloanreview.mit.edu/article/how-to-scale-genai-in-the-workplace/"
+        ]
+      },
+      "Rationale": {
+        "text": "This MIT Sloan article draws on Novo Nordisk’s deployment of generative AI across 20,000 employees to showcase a structured, real-world approach to scaling GenAI initiatives. Our analysts highlighted its practical insights—proactive management of adoption dips, targeted training led by workflow experts, and use of senior-led champion networks—as critical lessons for AI transformation in the enterprise.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Perplexity launches Comet, an AI‑powered web browser",
+        "links": [
+          "https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser"
+        ]
+      },
+      "Rationale": {
+        "text": "Perplexity’s introduces a browser, Comet, and a browser-level AI assistant capable of contextual summarization, task automation, and seamless interaction across browsing activities—a strategic innovation in the battle for user attention. Our analysts noted its potential to disrupt entrenched players like Google Chrome by embedding AI as an operating-system-level tool, even as practical rollout remains limited to high-tier subscribers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Moonvalley’s ‘ethical’ AI video model for filmmakers is now publicly available",
+        "links": [
+          "https://techcrunch.com/2025/07/08/moonvalleys-ethical-ai-video-model-for-filmmakers-is-now-publicly-available/"
+        ]
+      },
+      "Rationale": {
+        "text": "Marey is positioned as an ethically sourced, creator‑centric video model—opening up generative AI to filmmakers via licensed data without litigation risk. Our analysts emphasized that provenance transparency and creative control align well with commercial film workflows, setting this apart in a crowded video‑gen space.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Elon Musk’s xAI launches Grok 4 alongside a $300 monthly subscription",
+        "links": [
+          "https://techcrunch.com/2025/07/09/elon-musks-xai-launches-grok-4-alongside-a-300-monthly-subscription/"
+        ]
+      },
+      "Rationale": {
+        "text": "xAI’s Grok 4 introduces a multi‑agent setup and exhibits strong performance on standardized benchmarks—though its enterprise readiness is questioned due to cost and controversial content incidents. Our analysts flagged its high pricing and brand-driven appeal as limiting factors outside enthusiast circles.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "T5Gemma: A new collection of encoder‑decoder Gemma models",
+        "links": [
+          "https://developers.googleblog.com/en/t5gemma/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s T5Gemma release offers encoder‑decoder LLM architecture promising deeper contextual understanding in compact models. Our analysts described it as an intriguing algorithmic advance for edge and embedded systems, but emphasized it remains primarily of interest to researchers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Energy‑Based Transformers are Scalable Learners and Thinkers",
+        "links": [
+          "https://arxiv.org/abs/2507.02092"
+        ]
+      },
+      "Rationale": {
+        "text": "This paper introduces Energy-Based Transformers (EBTs)—a novel model architecture that frames prediction as energy minimization over input–output pairs, enabling models to \"think\" at inference time without extra supervision or modality-specific tuning. EBTs generalize across domains (text and vision) and outperform traditional transformer models in both efficiency and generalization. Our analysts noted it’s compelling for theory, but distant from practical deployment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/09/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article reveals that many MCP (Model Context Protocol) servers, foundational to agent-based AI architectures, are being deployed with insecure defaults that allow unauthorized access and compromise. Analysts flagged it as important due to its real-world illustration of emerging risks in AI infrastructure security, especially relevant as interest in autonomous agents grows, underscoring the need for better governance and security hygiene at scale.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AlphaGenome: AI for Better Understanding the Genome",
-        "links": [
-          "https://deepmind.google/discover/blog/alphagenome-ai-for-better-understanding-the-genome"
-        ]
-      },
-      "Rationale": {
-        "text": "DeepMind’s AlphaGenome introduces a unifying transformer-based model that predicts thousands of molecular properties from DNA sequences, enabling more accurate disease prediction and synthetic genome design. While recognized as a scientific milestone in genomics AI, analysts agreed it remains highly technical and niche, with limited direct applicability to general AI practitioners or enterprise leaders outside of the life sciences.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How People Use Claude for Support, Advice, and Companionship",
-        "links": [
-          "https://www.anthropic.com/news/how-people-use-claude-for-support-advice-and-companionship"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic shares internal data on how users interact emotionally with Claude, noting that only 2.5% of use cases involve emotional conversations, contrary to common assumptions. While analysts appreciated the transparency and recognized the trend toward emotional AI interfaces, they felt the article lacked actionable guidance and was ultimately too anecdotal to be of strong practical value for most AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Towards AI Search Paradigm",
-        "links": [
-          "https://arxiv.org/abs/2506.17188"
-        ]
-      },
-      "Rationale": {
-        "text": "This academic paper proposes a modular agent architecture for next-generation search, involving planning, task execution, and synthesis components working in coordination. Analysts critiqued the work as overengineered and conceptually underwhelming, presenting a standard multi-agent workflow without truly novel mechanisms, ultimately rating it as optional unless the reader is deeply immersed in AI agent systems research.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Walmart built an AI platform that makes it beholden to no one",
-        "links": [
-          "https://venturebeat.com/ai/walmart-ai-foundry-ships-first-apps-3m-daily-queries-67-faster-planning/"
-        ]
-      },
-      "Rationale": {
-        "text": "Walmart has developed an in-house AI platform, AI Foundry, to drive operational transformation across planning, translation, and employee support, reportedly reducing manager planning time from 90 to 30 minutes and handling 3 million daily queries. Our analysts emphasized the scale and depth of Walmart's integration of generative AI—across use cases from conversational agents to computer vision—highlighting it as a benchmark for scaled generative AI integration in retail, making it a must-read for enterprise AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing two new ways to create with Claude",
-        "links": [
-          "https://x.com/AnthropicAI/status/1937921801000219041"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic announced tools for building and sharing Claude-powered applications, enabling developers to create embedded experiences that monetize usage via users’ own Claude subscriptions. Our analysts saw this as a catch-up to OpenAI's GPT Store but emphasized the unique architecture allowing native Claude embedding and noted its strategic importance given Claude's level of adoption in enterprise deployments.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Google unveils Gemini CLI, an open-source AI tool for terminals",
-        "links": [
-          "https://techcrunch.com/2025/06/25/google-unveils-gemini-cli-an-open-source-ai-tool-for-terminals/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google has released Gemini CLI, an open-source terminal assistant that integrates with its broader suite of coding tools. Our analysts framed this as an incremental but necessary move from one of the major AI players—relevant especially for developers—and noted its integration into the larger Gemini ecosystem and the subtle but growing implications for code automation.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-10T08:18:14.255976+00:00"
+  "timestamp": "2025-07-10T16:16:03.879962+00:00"
 }
