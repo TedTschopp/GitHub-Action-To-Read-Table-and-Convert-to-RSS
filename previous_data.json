@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How to Build an Agent",
+        "links": [
+          "https://blog.langchain.com/how-to-build-an-agent"
+        ]
+      },
+      "Rationale": {
+        "text": "This guide provides a clear, step‑by‑step primer on designing, testing, and deploying AI agents in production—covering data collection, MVP building, safety checks, and orchestration. Our analysts praised it for demystifying agent creation, helping everyone from leaders to developers gain practical confidence in AI‑driven agentic content creation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing LFM2: The Fastest On‑Device Foundation Models on the Market",
+        "links": [
+          "https://www.liquid.ai/blog/liquid-foundation-models-v2-our-second-series-of-generative-ai-models"
+        ]
+      },
+      "Rationale": {
+        "text": "LFM2 delivers record‑setting speed and memory efficiency—2× faster than Qwen3—with hybrid architecture optimized for edge deployment on phones, laptops, and wearables. Our analysts highlighted how this marks critical innovation in on‑device AI, enabling smarter devices in 2026 and beyond.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Rocket streamlines the home buying experience with Amazon Bedrock Agent",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-rocket-streamlines-the-home-buying-experience-with-amazon-bedrock-agents/"
+        ]
+      },
+      "Rationale": {
+        "text": "Rocket Mortgage leverages Amazon Bedrock Agents to deliver context‑aware assistant—boosting retention and scheduling efficiency with real‑time engagement. Our analysts emphasize this as a strong AI case study showing measurable ROI and operational improvements.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Reasoning reimagined: Introducing Phi‑4‑mini‑flash‑reasoning",
+        "links": [
+          "https://azure.microsoft.com/en-us/blog/reasoning-reimagined-introducing-phi-4-mini-flash-reasoning/"
+        ]
+      },
+      "Rationale": {
+        "text": "Microsoft’s Phi‑4‑mini‑flash‑reasoning delivers a Samba hybrid architecture—achieving up to 10× faster throughput and 2–3× lower latency on edge and mobile reasoning tasks. Our analysts noted its practical value for IoT and robotics, making efficient on‑device reasoning increasingly achievable.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Upgrading agentic coding capabilities with the new Devstral models",
+        "links": [
+          "https://mistral.ai/news/devstral-2507"
+        ]
+      },
+      "Rationale": {
+        "text": "Mistral’s DevStral (Small and Medium) offers high‑performance, Apache‑licensed agentic coding models that hit strong SWE‑Bench scores at low cost—beating Gemini 2.5 Pro and GPT‑4.1. Our analysts saw promise in its open‑source, tool‑aware design, though it landed in a crowded space with marginal incremental novelty.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Ramp agents: Let finance teams do finance",
+        "links": [
+          "https://ramp.com/blog/ramp-agents-announcement"
+        ]
+      },
+      "Rationale": {
+        "text": "Ramp's agent automate finance workflows, policy enforcement, and conversational interactions within finance teams. Our analysts regarded it as a product announcement in an emerging automation trend, noting significant potential but limited differentiation from other solutions.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/10/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Anthropic’s Project VEND simulates an autonomous AI system managing a physical store to explore the boundaries of agentic AI in real-world settings. While the experiment highlighted the current limitations in AI contextual understanding, our analysts agreed it represents a meaningful milestone in the development of AI agents and underscores key lessons for future applications.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "06/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Boost Embedding Model Accuracy for Custom Information Retrieval",
-        "links": [
-          "https://developer.nvidia.com/blog/boost-embedding-model-accuracy-for-custom-information-retrieval/"
-        ]
-      },
-      "Rationale": {
-        "text": "NVIDIA showcases how preparing quality data for small embedding models can significantly enhance custom information retrieval performance, particularly in low-context environments like customer service. Our analysts viewed this as a practical and timely demonstration of how AI accuracy gains can be achieved with curated data, making it a valuable read for technical AI implementers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Evaluating Long-Context Question & Answer Systems",
-        "links": [
-          "https://eugeneyan.com/writing/qa-evals/"
-        ]
-      },
-      "Rationale": {
-        "text": "Eugene Yan’s long-form exploration of evaluation metrics for long-context Q&A systems offers a thorough conceptual foundation but lacks applied examples. Our analysts noted the theoretical nature of the article limits its immediate utility for AI leaders, though it touches on important issues in AI-driven content retrieval.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Unify engineers growth by using the right model for every task",
-        "links": [
-          "https://openai.com/index/unify/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI and Unify describe a high-level overview of using multiple models for distinct tasks like research, observation, and content generation. While the article introduces a useful concept of model specialization, our analysts found it too superficial to warrant a higher rating, especially given the availability of more detailed educational resources.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "2025: The State of Consumer AI",
-        "links": [
-          "https://menlovc.com/perspective/2025-the-state-of-consumer-ai/"
-        ]
-      },
-      "Rationale": {
-        "text": "This Menlo Ventures report examines how consumers are interacting with generative AI, highlighting a key challenge: despite widespread adoption, only 3% of consumers are converting to paid plans. Analysts emphasized its essential value for business and product leaders due to its sharp breakdown of demographic trends, predictions around voice interfaces, assistant automation, vertical specialization, and diversified monetization, helping frame how B2C AI is rapidly evolving beyond early adopters.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "AI at Work: Momentum Builds, but Gaps Remain",
-        "links": [
-          "https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain"
-        ]
-      },
-      "Rationale": {
-        "text": "This BCG report offers a data-rich examination of enterprise AI adoption, identifying strong momentum but also exposing critical bottlenecks in skills, training, and measurable ROI. Analysts called it essential for AI leaders because it benchmarks where real value is being achieved, and where companies continue to struggle with operationalizing GenAI, offering a strategic roadmap for those looking to scale responsibly and effectively.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Misconfigured MCP Servers Expose AI Agent Systems to Compromise",
-        "links": [
-          "https://www.csoonline.com/article/4012712/misconfigured-mcp-servers-expose-ai-agent-systems-to-compromise.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This article reveals that many MCP (Model Context Protocol) servers, foundational to agent-based AI architectures, are being deployed with insecure defaults that allow unauthorized access and compromise. Analysts flagged it as important due to its real-world illustration of emerging risks in AI infrastructure security, especially relevant as interest in autonomous agents grows, underscoring the need for better governance and security hygiene at scale.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-11T08:17:54.548820+00:00"
+  "timestamp": "2025-07-11T16:16:11.802130+00:00"
 }

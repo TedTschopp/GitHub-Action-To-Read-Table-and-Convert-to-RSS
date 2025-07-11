@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 11 Jul 2025 08:17:54 +0000</lastBuildDate>
-    <item>
-      <title>Misconfigured MCP Servers Expose AI Agent Systems to Compromise [ * ]</title>
-      <link>https://www.csoonline.com/article/4012712/misconfigured-mcp-servers-expose-ai-agent-systems-to-compromise.html</link>
-      <description>This article reveals that many MCP (Model Context Protocol) servers, foundational to agent-based AI architectures, are being deployed with insecure defaults that allow unauthorized access and compromise. Analysts flagged it as important due to its real-world illustration of emerging risks in AI infrastructure security, especially relevant as interest in autonomous agents grows, underscoring the need for better governance and security hygiene at scale.</description>
-      <guid isPermaLink="false">6f2db12358567b5acdf8ad0e5305873b</guid>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI at Work: Momentum Builds, but Gaps Remain [ ! ]</title>
-      <link>https://www.bcg.com/publications/2025/ai-at-work-momentum-builds-but-gaps-remain</link>
-      <description>This BCG report offers a data-rich examination of enterprise AI adoption, identifying strong momentum but also exposing critical bottlenecks in skills, training, and measurable ROI. Analysts called it essential for AI leaders because it benchmarks where real value is being achieved, and where companies continue to struggle with operationalizing GenAI, offering a strategic roadmap for those looking to scale responsibly and effectively.</description>
-      <guid isPermaLink="false">0a7410f8d1ec3664a1844a262132e715</guid>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>2025: The State of Consumer AI [ ! ]</title>
-      <link>https://menlovc.com/perspective/2025-the-state-of-consumer-ai/</link>
-      <description>This Menlo Ventures report examines how consumers are interacting with generative AI, highlighting a key challenge: despite widespread adoption, only 3% of consumers are converting to paid plans. Analysts emphasized its essential value for business and product leaders due to its sharp breakdown of demographic trends, predictions around voice interfaces, assistant automation, vertical specialization, and diversified monetization, helping frame how B2C AI is rapidly evolving beyond early adopters.</description>
-      <guid isPermaLink="false">8532e11c3ead8bc4209ffa3f298e376f</guid>
-      <pubDate>Fri, 27 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unify engineers growth by using the right model for every task [ ~ ]</title>
-      <link>https://openai.com/index/unify/</link>
-      <description>OpenAI and Unify describe a high-level overview of using multiple models for distinct tasks like research, observation, and content generation. While the article introduces a useful concept of model specialization, our analysts found it too superficial to warrant a higher rating, especially given the availability of more detailed educational resources.</description>
-      <guid isPermaLink="false">ece21be0d619799a9738c2092b48846f</guid>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Evaluating Long-Context Question &amp; Answer Systems [ ~ ]</title>
-      <link>https://eugeneyan.com/writing/qa-evals/</link>
-      <description>Eugene Yan’s long-form exploration of evaluation metrics for long-context Q&amp;A systems offers a thorough conceptual foundation but lacks applied examples. Our analysts noted the theoretical nature of the article limits its immediate utility for AI leaders, though it touches on important issues in AI-driven content retrieval.</description>
-      <guid isPermaLink="false">13eed5a5de7c2b87bca2de4481433691</guid>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Boost Embedding Model Accuracy for Custom Information Retrieval [ * ]</title>
-      <link>https://developer.nvidia.com/blog/boost-embedding-model-accuracy-for-custom-information-retrieval/</link>
-      <description>NVIDIA showcases how preparing quality data for small embedding models can significantly enhance custom information retrieval performance, particularly in low-context environments like customer service. Our analysts viewed this as a practical and timely demonstration of how AI accuracy gains can be achieved with curated data, making it a valuable read for technical AI implementers.</description>
-      <guid isPermaLink="false">78c523d5a9c1c4a565836a7106775112</guid>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 11 Jul 2025 16:16:11 +0000</lastBuildDate>
     <item>
       <title>Project Vend: Can Claude run a small shop? (And why does that matter?) [ * ]</title>
       <link>https://www.anthropic.com/research/project-vend-1</link>
@@ -357,6 +315,48 @@
       <description>This MIT Sloan article draws on Novo Nordisk’s deployment of generative AI across 20,000 employees to showcase a structured, real-world approach to scaling GenAI initiatives. Our analysts highlighted its practical insights—proactive management of adoption dips, targeted training led by workflow experts, and use of senior-led champion networks—as critical lessons for AI transformation in the enterprise.</description>
       <guid isPermaLink="false">cd84e66c6e823417ccc654e59b39d11e</guid>
       <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ramp agents: Let finance teams do finance [ ~ ]</title>
+      <link>https://ramp.com/blog/ramp-agents-announcement</link>
+      <description>Ramp's agent automate finance workflows, policy enforcement, and conversational interactions within finance teams. Our analysts regarded it as a product announcement in an emerging automation trend, noting significant potential but limited differentiation from other solutions.</description>
+      <guid isPermaLink="false">a261cf207884d29f59e304b02bb3f1a9</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Upgrading agentic coding capabilities with the new Devstral models [ ~ ]</title>
+      <link>https://mistral.ai/news/devstral-2507</link>
+      <description>Mistral’s DevStral (Small and Medium) offers high‑performance, Apache‑licensed agentic coding models that hit strong SWE‑Bench scores at low cost—beating Gemini 2.5 Pro and GPT‑4.1. Our analysts saw promise in its open‑source, tool‑aware design, though it landed in a crowded space with marginal incremental novelty.</description>
+      <guid isPermaLink="false">70ad45c02c2c8dd4fb669e896c68282e</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Reasoning reimagined: Introducing Phi‑4‑mini‑flash‑reasoning [ * ]</title>
+      <link>https://azure.microsoft.com/en-us/blog/reasoning-reimagined-introducing-phi-4-mini-flash-reasoning/</link>
+      <description>Microsoft’s Phi‑4‑mini‑flash‑reasoning delivers a Samba hybrid architecture—achieving up to 10× faster throughput and 2–3× lower latency on edge and mobile reasoning tasks. Our analysts noted its practical value for IoT and robotics, making efficient on‑device reasoning increasingly achievable.</description>
+      <guid isPermaLink="false">968d862186c56e61a64bb5df1a3257a0</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Rocket streamlines the home buying experience with Amazon Bedrock Agent [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-rocket-streamlines-the-home-buying-experience-with-amazon-bedrock-agents/</link>
+      <description>Rocket Mortgage leverages Amazon Bedrock Agents to deliver context‑aware assistant—boosting retention and scheduling efficiency with real‑time engagement. Our analysts emphasize this as a strong AI case study showing measurable ROI and operational improvements.</description>
+      <guid isPermaLink="false">ec6c30ff2b0a96c3f86076da6a07c511</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing LFM2: The Fastest On‑Device Foundation Models on the Market [ * ]</title>
+      <link>https://www.liquid.ai/blog/liquid-foundation-models-v2-our-second-series-of-generative-ai-models</link>
+      <description>LFM2 delivers record‑setting speed and memory efficiency—2× faster than Qwen3—with hybrid architecture optimized for edge deployment on phones, laptops, and wearables. Our analysts highlighted how this marks critical innovation in on‑device AI, enabling smarter devices in 2026 and beyond.</description>
+      <guid isPermaLink="false">2bc85e57cc9a21281072c2b621a2bb43</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Build an Agent [ ! ]</title>
+      <link>https://blog.langchain.com/how-to-build-an-agent</link>
+      <description>This guide provides a clear, step‑by‑step primer on designing, testing, and deploying AI agents in production—covering data collection, MVP building, safety checks, and orchestration. Our analysts praised it for demystifying agent creation, helping everyone from leaders to developers gain practical confidence in AI‑driven agentic content creation.</description>
+      <guid isPermaLink="false">75981503179a776cf35ad0e6bcd9f5d3</guid>
+      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
