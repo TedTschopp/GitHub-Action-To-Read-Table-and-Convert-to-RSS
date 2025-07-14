@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Kimi K2: Open Agentic Intelligence",
+        "links": [
+          "https://moonshotai.github.io/Kimi-K2/"
+        ]
+      },
+      "Rationale": {
+        "text": "Kimi K2 is an advanced open‑source mixture‑of‑experts model with 1 trillion parameters (32 B activated), demonstrating state‑of‑the‑art performance in agentic tasks, reasoning, and coding—surpassing rivals like DeepSeek V3 and U.S. models in benchmarks. Our analysts emphasized its significance: an “Open Agentic Intelligence” milestone that competitors are not yet matching, and a sign of increasing collaboration among Chinese AI labs accelerating innovation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Why xAI’s Grok Went Rogue",
+        "links": [
+          "https://archive.is/4GkX8#selection-543.0-543.25"
+        ]
+      },
+      "Rationale": {
+        "text": "This article explains how Grok, the chatbot from xAI, began producing unexpected outputs after a system prompt change—shedding light on the fragility of alignment mechanisms in generative AI systems. Analysts emphasized that this incident underscores a broader governance risk for public-facing AI tools, as it highlights how minor misconfigurations can quickly become brand-level liabilities if monitoring and safety protocols aren’t in place.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Hierarchical Modeling",
+        "links": [
+          "https://cartesia.ai/blog/hierarchical-modeling"
+        ]
+      },
+      "Rationale": {
+        "text": "This research introduces byte-based, hierarchical token chunking to enhance long-context understanding and multimodal efficiencies. While technically promising, our analyst team viewed it as early-stage R&D without immediate business impact.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Nestlé and IBM leverage AI and deep tech to unlock new packaging innovations",
+        "links": [
+          "https://www.nestle.com/about/research-development/news/ibm-ai-powered-sustainable-packaging"
+        ]
+      },
+      "Rationale": {
+        "text": "Nestlé is piloting IBM’s regression transformer to accelerate molecular design for sustainable packaging, marking a niche but functional use of AI in material science. Our analysts regarded it as a neat product announcement with a significant potential but lacking depth on practical deployment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Hybrid jobs: How AI is rewriting work in finance",
+        "links": [
+          "https://www.brookings.edu/articles/hybrid-jobs-how-ai-is-rewriting-work-in-finance/"
+        ]
+      },
+      "Rationale": {
+        "text": "The Brookings feature summarizes how finance roles are evolving due to AI—shifting from data collection tasks to oversight. While timely, our analysts found little new insight, considering it a reinforcement of existing trends.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Grafana transforms observability workflows with Claude-powered multi-agent assistant",
+        "links": [
+          "https://www.anthropic.com/customers/grafana"
+        ]
+      },
+      "Rationale": {
+        "text": "Grafana has partnered with Anthropic to add Claude-powered natural language querying to its observability platform, allowing non-technical users to interact with structured system data more intuitively. However, our analysts noted that the term \"observability\" here refers to traditional infrastructure and IT system monitoring—not model-level observability for AI systems—making the use case valuable but ultimately narrow and lacking detail on measurable outcomes.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/11/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Baidu has released its ERNIE 4.5 family of multimodal large language models, adding new open-source competition in the Chinese AI ecosystem. While it signals Baidu's push into generative AI, our analysts categorized it as a product announcement with limited immediate impact beyond the regional market.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Releasing Five Open-Weights Models",
-        "links": [
-          "https://www.arcee.ai/blog/releasing-five-new-open-weights-models"
-        ]
-      },
-      "Rationale": {
-        "text": "Arcee released a set of smaller, open-weight generative AI models trained for specific verticals under an open-source license. Despite technical merit and licensing appeal, our analysts saw it as a product announcement lacking broader strategic significance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Brex reimagines spend management with Claude in Amazon Bedrock",
-        "links": [
-          "https://www.anthropic.com/customers/brex"
-        ]
-      },
-      "Rationale": {
-        "text": "Brex leveraged Claude via Amazon Bedrock to develop software to overhaul expense management systems, highlighting efficiency gains through AI automation. Our analysts saw this as a typical vendor case study with unverified claims and limited applicability outside Brex’s product offering.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Long Contexts Fail",
-        "links": [
-          "https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This article discusses pitfalls in using long context windows in large language models, including issues like context poisoning and confusion. While it introduced useful framing, our analysts noted it offered little new technical insight and served more as cautionary advice than strategic guidance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "2025 State of AI Report: The Builder’s Playbook",
-        "links": [
-          "https://www.iconiqcapital.com/growth/reports/2025-state-of-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "ICONIQ Growth's report synthesizes insights from 300 software executives into a dense, visual playbook on how to build, scale, and structure AI-driven products and companies. Our analysts unanimously flagged this as a vital, strategy-oriented guide for AI leaders, investors, and enterprise builders due to its breadth, clarity, and relevance across key implementation fronts.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "A Survey of LLM-Driven AI Agent Communication",
-        "links": [
-          "https://arxiv.org/abs/2506.19676"
-        ]
-      },
-      "Rationale": {
-        "text": "This comprehensive academic survey outlines communication frameworks, security vulnerabilities, and mitigation strategies for large language model (LLM) based AI agents, spanning user-agent, agent-agent, and agent-environment interactions. Our analysts agreed it’s a critical reference for security leaders and AI architects navigating the evolving landscape of agentic AI systems, especially given its relevance to emerging protocols like MCP and A2A.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "06/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Project Vend: Can Claude run a small shop? (And why does that matter?)",
-        "links": [
-          "https://www.anthropic.com/research/project-vend-1"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s Project VEND simulates an autonomous AI system managing a physical store to explore the boundaries of agentic AI in real-world settings. While the experiment highlighted the current limitations in AI contextual understanding, our analysts agreed it represents a meaningful milestone in the development of AI agents and underscores key lessons for future applications.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-14T08:19:39.506122+00:00"
+  "timestamp": "2025-07-14T16:16:34.860663+00:00"
 }

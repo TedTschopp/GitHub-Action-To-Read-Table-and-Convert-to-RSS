@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 14 Jul 2025 08:19:39 +0000</lastBuildDate>
-    <item>
-      <title>Project Vend: Can Claude run a small shop? (And why does that matter?) [ * ]</title>
-      <link>https://www.anthropic.com/research/project-vend-1</link>
-      <description>Anthropic’s Project VEND simulates an autonomous AI system managing a physical store to explore the boundaries of agentic AI in real-world settings. While the experiment highlighted the current limitations in AI contextual understanding, our analysts agreed it represents a meaningful milestone in the development of AI agents and underscores key lessons for future applications.</description>
-      <guid isPermaLink="false">17bbb0b0dc333d4ac8a89a855e45f4bc</guid>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Survey of LLM-Driven AI Agent Communication [ ! ]</title>
-      <link>https://arxiv.org/abs/2506.19676</link>
-      <description>This comprehensive academic survey outlines communication frameworks, security vulnerabilities, and mitigation strategies for large language model (LLM) based AI agents, spanning user-agent, agent-agent, and agent-environment interactions. Our analysts agreed it’s a critical reference for security leaders and AI architects navigating the evolving landscape of agentic AI systems, especially given its relevance to emerging protocols like MCP and A2A.</description>
-      <guid isPermaLink="false">3a94e511f0f568b6891dd05f69da5828</guid>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>2025 State of AI Report: The Builder’s Playbook [ ! ]</title>
-      <link>https://www.iconiqcapital.com/growth/reports/2025-state-of-ai</link>
-      <description>ICONIQ Growth's report synthesizes insights from 300 software executives into a dense, visual playbook on how to build, scale, and structure AI-driven products and companies. Our analysts unanimously flagged this as a vital, strategy-oriented guide for AI leaders, investors, and enterprise builders due to its breadth, clarity, and relevance across key implementation fronts.</description>
-      <guid isPermaLink="false">9cbbf142841dc99f33addefdaffd959d</guid>
-      <pubDate>Mon, 30 Jun 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Long Contexts Fail [ ~ ]</title>
-      <link>https://www.dbreunig.com/2025/06/22/how-contexts-fail-and-how-to-fix-them.html?s=09</link>
-      <description>This article discusses pitfalls in using long context windows in large language models, including issues like context poisoning and confusion. While it introduced useful framing, our analysts noted it offered little new technical insight and served more as cautionary advice than strategic guidance.</description>
-      <guid isPermaLink="false">103102479319bd35ef80f93728e24726</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Brex reimagines spend management with Claude in Amazon Bedrock [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/brex</link>
-      <description>Brex leveraged Claude via Amazon Bedrock to develop software to overhaul expense management systems, highlighting efficiency gains through AI automation. Our analysts saw this as a typical vendor case study with unverified claims and limited applicability outside Brex’s product offering.</description>
-      <guid isPermaLink="false">05c7c25d3d3758d725f10cd447ddb31b</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Releasing Five Open-Weights Models [ ~ ]</title>
-      <link>https://www.arcee.ai/blog/releasing-five-new-open-weights-models</link>
-      <description>Arcee released a set of smaller, open-weight generative AI models trained for specific verticals under an open-source license. Despite technical merit and licensing appeal, our analysts saw it as a product announcement lacking broader strategic significance.</description>
-      <guid isPermaLink="false">f68621188a7b60335c666e1263b4ee41</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 14 Jul 2025 16:16:34 +0000</lastBuildDate>
     <item>
       <title>Announcing the Open Source Release of the ERNIE 4.5 Model Family [ ~ ]</title>
       <link>https://ernie.baidu.com/blog/posts/ernie4.5/</link>
@@ -357,6 +315,48 @@
       <description>This guide provides a clear, step‑by‑step primer on designing, testing, and deploying AI agents in production—covering data collection, MVP building, safety checks, and orchestration. Our analysts praised it for demystifying agent creation, helping everyone from leaders to developers gain practical confidence in AI‑driven agentic content creation.</description>
       <guid isPermaLink="false">75981503179a776cf35ad0e6bcd9f5d3</guid>
       <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grafana transforms observability workflows with Claude-powered multi-agent assistant [ ~ ]</title>
+      <link>https://www.anthropic.com/customers/grafana</link>
+      <description>Grafana has partnered with Anthropic to add Claude-powered natural language querying to its observability platform, allowing non-technical users to interact with structured system data more intuitively. However, our analysts noted that the term "observability" here refers to traditional infrastructure and IT system monitoring—not model-level observability for AI systems—making the use case valuable but ultimately narrow and lacking detail on measurable outcomes.</description>
+      <guid isPermaLink="false">7202ef91deb6b9840dae95dcded06876</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hybrid jobs: How AI is rewriting work in finance [ ~ ]</title>
+      <link>https://www.brookings.edu/articles/hybrid-jobs-how-ai-is-rewriting-work-in-finance/</link>
+      <description>The Brookings feature summarizes how finance roles are evolving due to AI—shifting from data collection tasks to oversight. While timely, our analysts found little new insight, considering it a reinforcement of existing trends.</description>
+      <guid isPermaLink="false">27200c5f1ca5fe5e5baf37f69d6f1dfe</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nestlé and IBM leverage AI and deep tech to unlock new packaging innovations [ ~ ]</title>
+      <link>https://www.nestle.com/about/research-development/news/ibm-ai-powered-sustainable-packaging</link>
+      <description>Nestlé is piloting IBM’s regression transformer to accelerate molecular design for sustainable packaging, marking a niche but functional use of AI in material science. Our analysts regarded it as a neat product announcement with a significant potential but lacking depth on practical deployment.</description>
+      <guid isPermaLink="false">258ee1e90cf0be5c61e118dd1c5e7689</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hierarchical Modeling [ ~ ]</title>
+      <link>https://cartesia.ai/blog/hierarchical-modeling</link>
+      <description>This research introduces byte-based, hierarchical token chunking to enhance long-context understanding and multimodal efficiencies. While technically promising, our analyst team viewed it as early-stage R&amp;D without immediate business impact.</description>
+      <guid isPermaLink="false">23e497a5ad692530ccfd6b99031fa563</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why xAI’s Grok Went Rogue [ ! ]</title>
+      <link>https://archive.is/4GkX8#selection-543.0-543.25</link>
+      <description>This article explains how Grok, the chatbot from xAI, began producing unexpected outputs after a system prompt change—shedding light on the fragility of alignment mechanisms in generative AI systems. Analysts emphasized that this incident underscores a broader governance risk for public-facing AI tools, as it highlights how minor misconfigurations can quickly become brand-level liabilities if monitoring and safety protocols aren’t in place.</description>
+      <guid isPermaLink="false">dd22aef4ff88af8da1f6c98c64945525</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kimi K2: Open Agentic Intelligence [ ! ]</title>
+      <link>https://moonshotai.github.io/Kimi-K2/</link>
+      <description>Kimi K2 is an advanced open‑source mixture‑of‑experts model with 1 trillion parameters (32 B activated), demonstrating state‑of‑the‑art performance in agentic tasks, reasoning, and coding—surpassing rivals like DeepSeek V3 and U.S. models in benchmarks. Our analysts emphasized its significance: an “Open Agentic Intelligence” milestone that competitors are not yet matching, and a sign of increasing collaboration among Chinese AI labs accelerating innovation.</description>
+      <guid isPermaLink="false">2d17ab6998051904d3fdd29075a1ca92</guid>
+      <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
