@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Unilever Used AI to Make Soap Go Viral",
+        "links": [
+          "https://www.wsj.com/articles/how-unilever-used-ai-to-make-soap-go-viral-8e723717"
+        ]
+      },
+      "Rationale": {
+        "text": "This WSJ story reveals how Unilever leveraged generative AI—not just internally but across tens of thousands of influencers—to remix content at scale, generating over 3.5 billion impressions and converting 52% new customers. Our analysts highlighted that AI-enabled \"digital twins\" and rapid content personalization are reshaping marketing networks and brand dynamics, making this a important for AI leaders in consumer and retail sectors.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Kiro",
+        "links": [
+          "https://kiro.dev/blog/introducing-kiro"
+        ]
+      },
+      "Rationale": {
+        "text": "AWS’s new \"agentic IDE\" ups the ante in AI-driven development by integrating spec‑driven workflows and production-ready hooks, bridging the gap between prototyping and maintainable code. Our analysts emphasized that Kiro could significantly accelerate the software development lifecycle—automating documentation, testing, and integration—making it an important tool for tech leaders managing complex codebases with AI automation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "New Grok‑4 AI Breached Within 48 Hours Using ‘Whispered’ Jailbreaks",
+        "links": [
+          "https://www.csoonline.com/article/4021749/new-grok-4-ai-breached-within-48-hours-using-whispered-jailbreaks.html"
+        ]
+      },
+      "Rationale": {
+        "text": "The CSO article reports a novel but familiar jailbreak tactic used on Grok‑4 that manipulates model behavior through subtle persuasion rather than explicit prompts. Our analysts noted this as another instance in a long line of jailbreak techniques that are already well understood by security professionals, making it optional rather than a strategic insight.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Is CUDA's Moat Cracking? The Rise of ROCm and the Role of Meta and OpenAI",
+        "links": [
+          "https://quixotry.app/articles/rocm-vs-cuda-ecosystem-analysis-competition-heating-up"
+        ]
+      },
+      "Rationale": {
+        "text": "The article explores ROCm’s emergence as a viable alternative to CUDA, backed by AMD and support from OpenAI and Meta. While interesting for infrastructure planning, our analysts noted it doesn’t signal an immediate paradigm shift in hardware stacks.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Mark Zuckerberg says Meta is building a 5 GW AI data center",
+        "links": [
+          "https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s ambitious 5 GW data center plans underscore the escalating scale arms race in AI infrastructure. Our analysts saw it as another sign of overspending on power and scale, but highlighted that talent remains the limiting factor.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Gemini Embedding now generally available in the Gemini API",
+        "links": [
+          "https://developers.googleblog.com/en/gemini-embedding-available-gemini-api/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s Gemini embeddings top benchmark charts and offer competitive pricing, but our analysts pointed out cheaper alternatives like Mistral, making it interesting but not a priority for enterprise adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/14/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article summarizes Evident’s inaugural AI benchmarking index, naming AXA, Allianz, USAA, Intact, and Manulife as frontrunners—driven by strong talent development, infrastructure, and governance. Our analysts highlighted that this marks a critical inflection in a risk-averse industry, signaling a board-level transformation in financial services toward AI-driven automation and strategic competitiveness.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Retell AI makes voice agent automation customizable and code-free with GPT‑4o",
-        "links": [
-          "https://openai.com/index/retell-ai/"
-        ]
-      },
-      "Rationale": {
-        "text": "Retell AI's no-code voice automation, powered by GPT‑4o, is notable for enabling deeper AI integration beyond traditional chatbots in customer service. However, our analysts viewed this as one of many similar emerging tools—interesting but not yet game-changing at enterprise scale.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Inference‑Time Scaling and Collective Intelligence for Frontier AI",
-        "links": [
-          "https://sakana.ai/ab-mcts/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This research introduces advanced Monte Carlo techniques and dynamic model orchestration that blend depth and breadth in AI inference. While the underlying algorithm is compelling, our analysts cautioned that this remains a technical deep dive rather than a widely deployed algorithm.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Exa built a Web Research Multi‑Agent System with LangGraph and LangSmith",
-        "links": [
-          "https://blog.langchain.com/exa/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Exa’s use of LangChain tools to develop a structured planner-doer-evaluator architecture showcases efficient, token-sparing search workflows. Our analysts saw it as a solid product-level update, but lacking disruptive novelty or scale to elevate beyond optional interest.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Path to Medical Superintelligence",
-        "links": [
-          "https://microsoft.ai/new/the-path-to-medical-superintelligence/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft’s research showcases a generative AI system capable of diagnosing complex medical cases with accuracy and cost-efficiency significantly outperforming human doctors. Our analysts noted its potential to commoditize elite diagnostic expertise and transform clinical healthcare, though its broader relevance across industries was only briefly hinted at.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Oracle Is Winning the AI Compute Market",
-        "links": [
-          "https://semianalysis.com/2025/06/30/how-oracle-is-winning-the-ai-compute-market/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article outlines how Oracle, once sidelined in the cloud race, is now gaining market share in AI compute by targeting underserved segments and forging strategic deals, including with ByteDance. Our analysts emphasized Oracle's emergence as a strong alternative to hyperscalers and the implications of this shift for AI infrastructure leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Announcing the Open Source Release of the ERNIE 4.5 Model Family",
-        "links": [
-          "https://ernie.baidu.com/blog/posts/ernie4.5/"
-        ]
-      },
-      "Rationale": {
-        "text": "Baidu has released its ERNIE 4.5 family of multimodal large language models, adding new open-source competition in the Chinese AI ecosystem. While it signals Baidu's push into generative AI, our analysts categorized it as a product announcement with limited immediate impact beyond the regional market.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-15T08:18:51.966326+00:00"
+  "timestamp": "2025-07-15T14:07:01.933128+00:00"
 }

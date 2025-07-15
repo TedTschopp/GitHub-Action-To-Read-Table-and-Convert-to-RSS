@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 15 Jul 2025 08:18:51 +0000</lastBuildDate>
-    <item>
-      <title>Announcing the Open Source Release of the ERNIE 4.5 Model Family [ ~ ]</title>
-      <link>https://ernie.baidu.com/blog/posts/ernie4.5/</link>
-      <description>Baidu has released its ERNIE 4.5 family of multimodal large language models, adding new open-source competition in the Chinese AI ecosystem. While it signals Baidu's push into generative AI, our analysts categorized it as a product announcement with limited immediate impact beyond the regional market.</description>
-      <guid isPermaLink="false">92878799cf0e85df85e2db24b1d6534b</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Oracle Is Winning the AI Compute Market [ * ]</title>
-      <link>https://semianalysis.com/2025/06/30/how-oracle-is-winning-the-ai-compute-market/</link>
-      <description>This article outlines how Oracle, once sidelined in the cloud race, is now gaining market share in AI compute by targeting underserved segments and forging strategic deals, including with ByteDance. Our analysts emphasized Oracle's emergence as a strong alternative to hyperscalers and the implications of this shift for AI infrastructure leaders.</description>
-      <guid isPermaLink="false">2bf3f6691d98b18ad548a530fff4215f</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Path to Medical Superintelligence [ * ]</title>
-      <link>https://microsoft.ai/new/the-path-to-medical-superintelligence/?s=09</link>
-      <description>Microsoft’s research showcases a generative AI system capable of diagnosing complex medical cases with accuracy and cost-efficiency significantly outperforming human doctors. Our analysts noted its potential to commoditize elite diagnostic expertise and transform clinical healthcare, though its broader relevance across industries was only briefly hinted at.</description>
-      <guid isPermaLink="false">9d57b48988a2e0b8062ab1f15d6f84e1</guid>
-      <pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Exa built a Web Research Multi‑Agent System with LangGraph and LangSmith [ ~ ]</title>
-      <link>https://blog.langchain.com/exa/?s=09</link>
-      <description>Exa’s use of LangChain tools to develop a structured planner-doer-evaluator architecture showcases efficient, token-sparing search workflows. Our analysts saw it as a solid product-level update, but lacking disruptive novelty or scale to elevate beyond optional interest.</description>
-      <guid isPermaLink="false">ec09c127fd2fbf78183dfc7a54ab7fbc</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inference‑Time Scaling and Collective Intelligence for Frontier AI [ ~ ]</title>
-      <link>https://sakana.ai/ab-mcts/?s=09</link>
-      <description>This research introduces advanced Monte Carlo techniques and dynamic model orchestration that blend depth and breadth in AI inference. While the underlying algorithm is compelling, our analysts cautioned that this remains a technical deep dive rather than a widely deployed algorithm.</description>
-      <guid isPermaLink="false">21b74f90be70aac7794217ac422a8601</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Retell AI makes voice agent automation customizable and code-free with GPT‑4o [ ~ ]</title>
-      <link>https://openai.com/index/retell-ai/</link>
-      <description>Retell AI's no-code voice automation, powered by GPT‑4o, is notable for enabling deeper AI integration beyond traditional chatbots in customer service. However, our analysts viewed this as one of many similar emerging tools—interesting but not yet game-changing at enterprise scale.</description>
-      <guid isPermaLink="false">6d8ee5318ab321748e9ccb0aadb65db9</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 15 Jul 2025 14:07:01 +0000</lastBuildDate>
     <item>
       <title>Insurers ramp up AI adoption — cautiously [ * ]</title>
       <link>https://www.ciodive.com/news/insurance-industry-generative-ai-adoption-evident-manulife-axa/751874/</link>
@@ -357,6 +315,48 @@
       <description>Kimi K2 is an advanced open‑source mixture‑of‑experts model with 1 trillion parameters (32 B activated), demonstrating state‑of‑the‑art performance in agentic tasks, reasoning, and coding—surpassing rivals like DeepSeek V3 and U.S. models in benchmarks. Our analysts emphasized its significance: an “Open Agentic Intelligence” milestone that competitors are not yet matching, and a sign of increasing collaboration among Chinese AI labs accelerating innovation.</description>
       <guid isPermaLink="false">2d17ab6998051904d3fdd29075a1ca92</guid>
       <pubDate>Mon, 14 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gemini Embedding now generally available in the Gemini API [ ~ ]</title>
+      <link>https://developers.googleblog.com/en/gemini-embedding-available-gemini-api/</link>
+      <description>Google’s Gemini embeddings top benchmark charts and offer competitive pricing, but our analysts pointed out cheaper alternatives like Mistral, making it interesting but not a priority for enterprise adoption.</description>
+      <guid isPermaLink="false">4b4b8b021cd808240c0402e3a57b8812</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mark Zuckerberg says Meta is building a 5 GW AI data center [ ~ ]</title>
+      <link>https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center</link>
+      <description>Meta’s ambitious 5 GW data center plans underscore the escalating scale arms race in AI infrastructure. Our analysts saw it as another sign of overspending on power and scale, but highlighted that talent remains the limiting factor.</description>
+      <guid isPermaLink="false">09fdcacc2581043161106f85fd7c8d67</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is CUDA's Moat Cracking? The Rise of ROCm and the Role of Meta and OpenAI [ ~ ]</title>
+      <link>https://quixotry.app/articles/rocm-vs-cuda-ecosystem-analysis-competition-heating-up</link>
+      <description>The article explores ROCm’s emergence as a viable alternative to CUDA, backed by AMD and support from OpenAI and Meta. While interesting for infrastructure planning, our analysts noted it doesn’t signal an immediate paradigm shift in hardware stacks.</description>
+      <guid isPermaLink="false">07ecacec891755a490db8e6e6bbdb836</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>New Grok‑4 AI Breached Within 48 Hours Using ‘Whispered’ Jailbreaks [ ~ ]</title>
+      <link>https://www.csoonline.com/article/4021749/new-grok-4-ai-breached-within-48-hours-using-whispered-jailbreaks.html</link>
+      <description>The CSO article reports a novel but familiar jailbreak tactic used on Grok‑4 that manipulates model behavior through subtle persuasion rather than explicit prompts. Our analysts noted this as another instance in a long line of jailbreak techniques that are already well understood by security professionals, making it optional rather than a strategic insight.</description>
+      <guid isPermaLink="false">7e32bc8e823416a3063e4c0244d5df74</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Kiro [ * ]</title>
+      <link>https://kiro.dev/blog/introducing-kiro</link>
+      <description>AWS’s new "agentic IDE" ups the ante in AI-driven development by integrating spec‑driven workflows and production-ready hooks, bridging the gap between prototyping and maintainable code. Our analysts emphasized that Kiro could significantly accelerate the software development lifecycle—automating documentation, testing, and integration—making it an important tool for tech leaders managing complex codebases with AI automation.</description>
+      <guid isPermaLink="false">d8c473fdaf179781118fdfe7601ccfc3</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Unilever Used AI to Make Soap Go Viral [ * ]</title>
+      <link>https://www.wsj.com/articles/how-unilever-used-ai-to-make-soap-go-viral-8e723717</link>
+      <description>This WSJ story reveals how Unilever leveraged generative AI—not just internally but across tens of thousands of influencers—to remix content at scale, generating over 3.5 billion impressions and converting 52% new customers. Our analysts highlighted that AI-enabled "digital twins" and rapid content personalization are reshaping marketing networks and brand dynamics, making this a important for AI leaders in consumer and retail sectors.</description>
+      <guid isPermaLink="false">6c08750c1e59d99c94d7b6835894b851</guid>
+      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
