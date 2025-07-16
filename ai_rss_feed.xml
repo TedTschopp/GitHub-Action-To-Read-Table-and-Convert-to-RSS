@@ -7,56 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 16 Jul 2025 08:18:51 +0000</lastBuildDate>
-    <item>
-      <title>Insurers ramp up AI adoption — cautiously [ * ]</title>
-      <link>https://www.ciodive.com/news/insurance-industry-generative-ai-adoption-evident-manulife-axa/751874/</link>
-      <description>This article summarizes Evident’s inaugural AI benchmarking index, naming AXA, Allianz, USAA, Intact, and Manulife as frontrunners—driven by strong talent development, infrastructure, and governance. Our analysts highlighted that this marks a critical inflection in a risk-averse industry, signaling a board-level transformation in financial services toward AI-driven automation and strategic competitiveness.</description>
-      <guid isPermaLink="false">b169b7d6aea2954837ef26303ad0b81b</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zero-shot antibody design in a 24-well plate [ * ]</title>
-      <link>https://chaiassets.com/chai-2/paper/technical_report.pdf</link>
-      <description>This technical report unveils a huge leap in biotech: zero-shot antibody design that achieves unprecedented success rates (10–30%) in silico screenings, a major improvement over past performance. Our analysts noted its profound implications for life sciences, from treating autoimmune diseases to advancing material science, underlining domain-specific AI's untapped potential in areas beyond language and vision.</description>
-      <guid isPermaLink="false">909d1e0d86a5c6e328608568be713e96</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Amazon launches a new AI foundation model to power its robotic fleet and deploys its 1 millionth robot [ ! ]</title>
-      <link>https://www.aboutamazon.com/news/operations/amazon-million-robots-ai-foundation-model</link>
-      <description>This milestone announcement goes beyond a robotic count—it marks Amazon's deployment of its DeepFleet generative AI model, which optimizes warehouse operations by coordinating movement across a fleet of one million robots and boosting efficiency by 10%. Our analysts emphasized its strategic weight: it’s a “wow factor” illustrating mass automation and a blueprint for executives on how to integrate AI into core logistics—already inspiring follow-on opportunities via AWS.</description>
-      <guid isPermaLink="false">1b1227dbe707e65b6e6b72d55451a295</guid>
-      <pubDate>Wed, 02 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Top 9 generative AI use cases for business [ ~ ]</title>
-      <link>https://www.cio.com/article/3478721/top-7-generative-ai-use-cases-for-business.html</link>
-      <description>CIO magazine’s roundup of common generative AI applications provides a surface‑level overview of trends like customer support and content creation. Although it reflects mainstream CIO thinking and current adoption patterns, our analysts agreed it lacks depth or value‑driven case studies, making it basic pre‑work rather than a strategic resource.</description>
-      <guid isPermaLink="false">8a0cd27e7f7ff09074ce48560395bf5e</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Bilt Built a Million-Agent Recommendation System with Letta [ ~ ]</title>
-      <link>https://www.letta.com/case-studies/bilt</link>
-      <description>Letta’s construction of a million‑agent recommendation system for Bilt, leveraging contextual memory and reasoning agents to personalize suggestions, represents an innovative agent‑based approach. Still, the lack of quantitative results or deep technical detail led our analysts to categorize this as an experimental showcase rather than a proven business approach.</description>
-      <guid isPermaLink="false">39a4b138655d91ea392c80e2d7fde7df</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Databricks AI Governance Framework [ ~ ]</title>
-      <link>https://www.databricks.com/blog/introducing-databricks-ai-governance-framework</link>
-      <description>Databricks’ launch of a structured governance framework across pillars like ethics, legal compliance, data ops, and protection could be a useful toolkit for AI teams. That said, our analysts cautioned that it reads as vendor‑driven and broad rather than gap‑addressing, making it supplementary to existing governance strategies rather than essential.</description>
-      <guid isPermaLink="false">951739746bbec0436bb1d285b3290bb7</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing pay per crawl: enabling content owners to charge AI crawlers for access [ ~ ]</title>
-      <link>https://blog.cloudflare.com/introducing-pay-per-crawl</link>
-      <description>Cloudflare’s announcement introduces a novel pay‑per‑crawl model allowing content owners to monetize AI crawler access—a potentially innovative approach to content licensing in the generative AI era. However, as our analysts noted, market dynamics favor dominant crawler players like OpenAI and Google, leaving limited practical upside, so it remains interesting but not yet impactful.</description>
-      <guid isPermaLink="false">82e785e4afbecc5f41657b352490b893</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 16 Jul 2025 16:17:09 +0000</lastBuildDate>
     <item>
       <title>China Is Quickly Eroding America’s Lead in the Global AI Race [ ! ]</title>
       <link>https://drive.google.com/file/d/1k2U3LnyB5lrNlMsGehGO6i57cSVwTtX0/view?usp=sharing</link>
@@ -357,6 +308,55 @@
       <description>This WSJ story reveals how Unilever leveraged generative AI—not just internally but across tens of thousands of influencers—to remix content at scale, generating over 3.5 billion impressions and converting 52% new customers. Our analysts highlighted that AI-enabled "digital twins" and rapid content personalization are reshaping marketing networks and brand dynamics, making this a important for AI leaders in consumer and retail sectors.</description>
       <guid isPermaLink="false">6c08750c1e59d99c94d7b6835894b851</guid>
       <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A summer of security: empowering cyber defenders with AI [ ~ ]</title>
+      <link>https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/?s=09</link>
+      <description>Google highlighted AI agents like Big Sleep and enhancements to Timesketch as part of its summer-long push into AI‑augmented cybersecurity. While the execs framed it as strategic positioning ahead of Black Hat and related conferences, our analysts judged it largely marketing support—important for security practitioners, but optional in broader AI news.</description>
+      <guid isPermaLink="false">f04b06433fcc3c85e1b4781a031a4877</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistral releases Voxtral, its first open source AI audio model [ ~ ]</title>
+      <link>https://techcrunch.com/2025/07/15/mistral-releases-voxtral-its-first-open-source-ai-audio-model/</link>
+      <description>Voxtral is Mistral’s open-source audio model pitched as enterprise-ready, reportedly outperforming Whisper, GPT‑4o‑mini, Gemini 2.5 Flash, and ElevenLabs in transcription, summarization, translation, and multilingual usage. Analysts regarded it as a solid product development—but deemed it optional, noting Mistral’s waning market share and the crowded open‑model landscape.</description>
+      <guid isPermaLink="false">99fbc5ceb23cae6aa02c512b19eb20a9</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump announces billions in investments to make Pennsylvania an AI hub [ * ]</title>
+      <link>https://www.theverge.com/news/707369/trump-ai-energy-investments-pennsylvania-billions</link>
+      <description>Former President Trump touted over $90 billion in private AI and energy commitments at Carnegie Mellon, including investments from Google, Blackstone, CoreWeave, Meta, and Anthropic—linking AI expansion to infrastructure and fossil/nuclear energy. Our analysts viewed it as a politically savvy move to fund in-demand AI capacity—but cautioned that energy investment without research talent (“the sound of one hand clapping”) may limit impact.</description>
+      <guid isPermaLink="false">3c2d28eb656167d2c1c0cc85f9aa3399</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Liquid AI Launches LEAP and Apollo [ * ]</title>
+      <link>https://www.liquid.ai/blog/liquid-ai-launches-leap-and-apollo-bringing-edge-ai-to-every-developer</link>
+      <description>Liquid AI unveiled LEAP, a developer‑first edge‑AI platform with OS‑ and model‑agnostic SDKs, plus Apollo, a consumer-facing app—making small language models runnable offline on mobile without cloud dependency. Our analysts characterized this as a leap forward for LLMs on device, highlighting its low latency, zero‑infrastructure deployment, and future relevance to IoT, robotics, and energy‑intelligent applications.</description>
+      <guid isPermaLink="false">74c2d45d14638dfd13d4a86fa67600f2</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta’s New Superintelligence Lab Is Discussing Major A.I. Strategy Changes [ * ]</title>
+      <link>https://www.nytimes.com/2025/07/14/technology/meta-superintelligence-lab-ai.html</link>
+      <description>Meta is reportedly exploring a strategic pivot from open-source work (e.g., Behemoth) to a closed-model approach under its new superintelligence division led by Alexander Wang—a potential philosophical shift that could reshape the open‑source AI landscape. Our analysts flagged the significance of this direction for builders relying on open models and noted that Zuckerberg’s ability to fund both tracks gives Meta strategic flexibility.</description>
+      <guid isPermaLink="false">c55164d7f118f7d6fe15541494c09957</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic launches finance-specific Claude with built-in data connectors, higher limits and prompt libraries [ * ]</title>
+      <link>https://venturebeat.com/ai/financial-firms-get-a-purpose-built-claude-as-anthropic-bets-on-vertical-ai-platforms/</link>
+      <description>Anthropic has tailored Claude specifically for finance, integrating data sources like Morningstar and FactSet, and beefing up rate limits and libraries to meet analyst workflows. Our analysts highlighted that this marks a maturation of enterprise AI—while its initial impact may be niche, it sets the stage for future sector-specific, Bloomberg‑style innovation.</description>
+      <guid isPermaLink="false">1a8d57a8fd7a7b1b2f08f874c0fbfc50</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Adoption Survey – H1 2025 [ ! ]</title>
+      <link>https://artificialanalysis.ai/downloads/ai-adoption-survey/2025/Artificial-Analysis-AI-Adoption-Survey-H1-2025.pdf</link>
+      <description>This survey aggregates responses from over 1,000 enterprises, offering key AI‑driven adoption trends in engineering, support, and sales that help AI leaders make strategic decisions. Our analysts noted its strong visuals, directional insights, and surprising data—such as 32% in favor of building their own systems and significant Chinese model uptake—even if one must “take it with a grain of salt.”</description>
+      <guid isPermaLink="false">897feb028e5df2b7e920ab7fddbbbdbe</guid>
+      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
