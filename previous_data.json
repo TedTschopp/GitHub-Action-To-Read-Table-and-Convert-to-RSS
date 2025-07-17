@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "CollabLLM: Teaching LLMs to collaborate with users",
+        "links": [
+          "https://www.microsoft.com/en-us/research/blog/collabllm-teaching-llms-to-collaborate-with-users/"
+        ]
+      },
+      "Rationale": {
+        "text": "Microsoft Research introduces CollabLLM, a method for teaching large language models to engage in cooperative dialogue with users through reinforcement learning. Our analysts highlighted this as a critical evolution in human-AI interaction, signaling a shift from passive compliance to active collaboration, essential for future AI productivity and augmentation use cases.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "AWS announces new innovations for building AI agents at AWS Summit New York 2025",
+        "links": [
+          "https://www.aboutamazon.com/news/aws/aws-summit-agentic-ai-innovations-2025?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "AWS revealed a suite of tools—including Agent Core with Interpreter, and observability features—designed to simplify the creation and deployment of AI agents. Though the updates were seen as iterative rather than groundbreaking, our analysts agreed this continues AWS’s momentum in agentic AI development and warrants attention from AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Google rolls out AI-powered business calling feature, brings Gemini 2.5 Pro to AI Mode",
+        "links": [
+          "https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google introduced a business-calling AI that can autonomously contact local businesses to gather information on pricing and availability, aiming to remove the friction of live calls for consumers and small businesses. In parallel, Google enhanced its AI Mode in Search by upgrading it to Gemini 2.5 Pro for premium users. Our analyst highlighted this as an important step toward more powerful, multi-part AI-driven queries that signal evolving monetization strategies and the growing role of conversational interfaces in search and commerce.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How PayU built a secure enterprise AI assistant using Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-payu-built-a-secure-enterprise-ai-assistant-using-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "PayU's case study describes how it leveraged Amazon Bedrock to deploy a secure AI assistant using private cloud connections and rigorous access control. Our analysts praised the technical clarity and architectural transparency, especially around AI security, though noted that measured business outcomes were still early and lightly quantified.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Lloyds Bank Rolls Out Generative AI Tool Athena",
+        "links": [
+          "https://www.pymnts.com/news/banking/2025/lloyds-bank-rolls-out-generative-ai-tool-athena/"
+        ]
+      },
+      "Rationale": {
+        "text": "Lloyds Bank launched Athena, a generative AI assistant that enables employees to quickly retrieve customer-facing content from over 13,000 internal documents. While adoption figures were strong, our analysts found the article lacking in implementation details and concrete impact, framing it as a typical but under-documented enterprise use case of AI in finance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety",
+        "links": [
+          "https://arxiv.org/abs/2507.11473"
+        ]
+      },
+      "Rationale": {
+        "text": "This position paper argues for greater transparency in large language models via chain-of-thought outputs to enhance AI safety and monitorability. Despite being authored by major AI labs, our analysts felt it was a research-centric discussion with limited immediate applicability for enterprise AI leaders and lacked actionable takeaways.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/16/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Swisscom’s implementation of a Bedrock‑based, agent‑powered network assistant automates network data retrieval and KPI analysis—saving analysts ~200 hours/year. Our analysts appreciated the detailed architecture and iterative deployment approach as a practical template for enterprise AI implementation and maturity.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The $4.6T Services‑as‑Software opportunity: Lessons from year one",
-        "links": [
-          "https://foundationcapital.com/the-4-6t-service-as-software-opportunity-lessons-from-year-one/"
-        ]
-      },
-      "Rationale": {
-        "text": "Foundation Capital highlights how AI-native startups are transforming enterprise software into outcome‑driven \"services‑as‑software,\" not just tools—with differentiation coming from deep integration and implementation, not features alone. Our analysts noted that with the collapse of software primitives, embedding language models into workflows—blurring pre‑ and post‑sales—and outcome‑based pricing are critical markers for real traction.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "DeepSeek Debrief: >128 Days Later",
-        "links": [
-          "https://semianalysis.com/2025/07/03/deepseek-debrief-128-days-later/"
-        ]
-      },
-      "Rationale": {
-        "text": "SemiAnalysis breaks down DeepSeek’s tokenomics, latency, and context window trade‑offs—showing why its R1 model has lost market share to low‑latency alternatives. Our analysts flagged the article as important for understanding model economics, vendor dynamics, and the strategic implications of delivery latency and model adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Sakana AI’s TreeQuest: Deploy multi‑model teams that outperform individual LLMs by 30%",
-        "links": [
-          "https://venturebeat.com/ai/sakana-ais-treequest-deploy-multi-model-teams-that-outperform-individual-llms-by-30/"
-        ]
-      },
-      "Rationale": {
-        "text": "Sakana AI open sourcing TreeQuest—a Monte Carlo Tree Search technique that dynamically coordinates multiple LLMs during inference, boosting performance on ARC‑AGI‑2 by ~30%. Our analysts found the approach intellectually compelling and aligned with next‑gen model design—though still research‑oriented and not immediately actionable.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "On the Operational Risks and Liquidity Management of GPU Clouds",
-        "links": [
-          "https://x.com/Jukanlosreve/status/1941493202873352400?t=xXLOQGQYXF5cpRSujY8PWQ&s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This in-depth critique highlights how GPU leasing presents significant financial and operational risks, using methods from risk modeling to assess elasticity and supplier strategy. While insightful for infrastructure or finance leaders, our analysts deemed it outside the core purview of most AI decision-makers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Strategic Intelligence in Large Language Models: Evidence from evolutionary Game Theory",
-        "links": [
-          "https://arxiv.org/abs/2507.02618?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This research shows that LLMs demonstrate varied strategic behavior in game-theoretic simulations—such as Gemini being ruthless, OpenAI cooperative, and Claude forgiving—suggesting emergent model personalities. Our analysts found this intellectually engaging but noted its limited immediate relevance for AI practitioners.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "China Is Quickly Eroding America’s Lead in the Global AI Race",
-        "links": [
-          "https://drive.google.com/file/d/1k2U3LnyB5lrNlMsGehGO6i57cSVwTtX0/view?usp=sharing"
-        ]
-      },
-      "Rationale": {
-        "text": "This Wall Street Journal piece highlights how Chinese AI models like DeepSeq and Alibaba’s offerings are gaining traction globally due to their performance and cost advantages—often 15–20× cheaper than U.S. counterparts. Our analysts noted that multiple major companies, including HSBC, are opting for these behind‑the‑firewall, open‑source Chinese models, underscoring a strategic shift in the global AI landscape and making this critical for AI leaders to watch.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-17T08:18:28.795318+00:00"
+  "timestamp": "2025-07-17T16:16:44.962387+00:00"
 }

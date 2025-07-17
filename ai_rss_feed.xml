@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 17 Jul 2025 08:18:28 +0000</lastBuildDate>
-    <item>
-      <title>China Is Quickly Eroding America’s Lead in the Global AI Race [ ! ]</title>
-      <link>https://drive.google.com/file/d/1k2U3LnyB5lrNlMsGehGO6i57cSVwTtX0/view?usp=sharing</link>
-      <description>This Wall Street Journal piece highlights how Chinese AI models like DeepSeq and Alibaba’s offerings are gaining traction globally due to their performance and cost advantages—often 15–20× cheaper than U.S. counterparts. Our analysts noted that multiple major companies, including HSBC, are opting for these behind‑the‑firewall, open‑source Chinese models, underscoring a strategic shift in the global AI landscape and making this critical for AI leaders to watch.</description>
-      <guid isPermaLink="false">6182c3a3ac8f1f4678e124d0c19e53c9</guid>
-      <pubDate>Thu, 03 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Strategic Intelligence in Large Language Models: Evidence from evolutionary Game Theory [ ~ ]</title>
-      <link>https://arxiv.org/abs/2507.02618?s=09</link>
-      <description>This research shows that LLMs demonstrate varied strategic behavior in game-theoretic simulations—such as Gemini being ruthless, OpenAI cooperative, and Claude forgiving—suggesting emergent model personalities. Our analysts found this intellectually engaging but noted its limited immediate relevance for AI practitioners.</description>
-      <guid isPermaLink="false">4c1a1b4ec50f492434932f8cfdc54fd2</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On the Operational Risks and Liquidity Management of GPU Clouds [ ~ ]</title>
-      <link>https://x.com/Jukanlosreve/status/1941493202873352400?t=xXLOQGQYXF5cpRSujY8PWQ&amp;s=09</link>
-      <description>This in-depth critique highlights how GPU leasing presents significant financial and operational risks, using methods from risk modeling to assess elasticity and supplier strategy. While insightful for infrastructure or finance leaders, our analysts deemed it outside the core purview of most AI decision-makers.</description>
-      <guid isPermaLink="false">21dac8e2dbc79b00eed29c679721faa0</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sakana AI’s TreeQuest: Deploy multi‑model teams that outperform individual LLMs by 30% [ ~ ]</title>
-      <link>https://venturebeat.com/ai/sakana-ais-treequest-deploy-multi-model-teams-that-outperform-individual-llms-by-30/</link>
-      <description>Sakana AI open sourcing TreeQuest—a Monte Carlo Tree Search technique that dynamically coordinates multiple LLMs during inference, boosting performance on ARC‑AGI‑2 by ~30%. Our analysts found the approach intellectually compelling and aligned with next‑gen model design—though still research‑oriented and not immediately actionable.</description>
-      <guid isPermaLink="false">7647f04bc029e8a374bace6a998d1328</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek Debrief: &gt;128 Days Later [ * ]</title>
-      <link>https://semianalysis.com/2025/07/03/deepseek-debrief-128-days-later/</link>
-      <description>SemiAnalysis breaks down DeepSeek’s tokenomics, latency, and context window trade‑offs—showing why its R1 model has lost market share to low‑latency alternatives. Our analysts flagged the article as important for understanding model economics, vendor dynamics, and the strategic implications of delivery latency and model adoption.</description>
-      <guid isPermaLink="false">8c7ef456585b2e2c925ff6f20cdb8c2d</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The $4.6T Services‑as‑Software opportunity: Lessons from year one [ * ]</title>
-      <link>https://foundationcapital.com/the-4-6t-service-as-software-opportunity-lessons-from-year-one/</link>
-      <description>Foundation Capital highlights how AI-native startups are transforming enterprise software into outcome‑driven "services‑as‑software," not just tools—with differentiation coming from deep integration and implementation, not features alone. Our analysts noted that with the collapse of software primitives, embedding language models into workflows—blurring pre‑ and post‑sales—and outcome‑based pricing are critical markers for real traction.</description>
-      <guid isPermaLink="false">19bc27007b170e68184881bda20c3e72</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 17 Jul 2025 16:16:44 +0000</lastBuildDate>
     <item>
       <title>Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock [ * ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/transforming-network-operations-with-ai-how-swisscom-built-a-network-assistant-using-amazon-bedrock/</link>
@@ -357,6 +315,48 @@
       <description>This survey aggregates responses from over 1,000 enterprises, offering key AI‑driven adoption trends in engineering, support, and sales that help AI leaders make strategic decisions. Our analysts noted its strong visuals, directional insights, and surprising data—such as 32% in favor of building their own systems and significant Chinese model uptake—even if one must “take it with a grain of salt.”</description>
       <guid isPermaLink="false">897feb028e5df2b7e920ab7fddbbbdbe</guid>
       <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety [ ~ ]</title>
+      <link>https://arxiv.org/abs/2507.11473</link>
+      <description>This position paper argues for greater transparency in large language models via chain-of-thought outputs to enhance AI safety and monitorability. Despite being authored by major AI labs, our analysts felt it was a research-centric discussion with limited immediate applicability for enterprise AI leaders and lacked actionable takeaways.</description>
+      <guid isPermaLink="false">55a6d30445013735385912faa2927c4c</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lloyds Bank Rolls Out Generative AI Tool Athena [ ~ ]</title>
+      <link>https://www.pymnts.com/news/banking/2025/lloyds-bank-rolls-out-generative-ai-tool-athena/</link>
+      <description>Lloyds Bank launched Athena, a generative AI assistant that enables employees to quickly retrieve customer-facing content from over 13,000 internal documents. While adoption figures were strong, our analysts found the article lacking in implementation details and concrete impact, framing it as a typical but under-documented enterprise use case of AI in finance.</description>
+      <guid isPermaLink="false">ddd1b04b3e0156b13c28a792b9a59a78</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How PayU built a secure enterprise AI assistant using Amazon Bedrock [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-payu-built-a-secure-enterprise-ai-assistant-using-amazon-bedrock/</link>
+      <description>PayU's case study describes how it leveraged Amazon Bedrock to deploy a secure AI assistant using private cloud connections and rigorous access control. Our analysts praised the technical clarity and architectural transparency, especially around AI security, though noted that measured business outcomes were still early and lightly quantified.</description>
+      <guid isPermaLink="false">5fbc8ed215791d6531d9cb24f22c4057</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google rolls out AI-powered business calling feature, brings Gemini 2.5 Pro to AI Mode [ * ]</title>
+      <link>https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode/</link>
+      <description>Google introduced a business-calling AI that can autonomously contact local businesses to gather information on pricing and availability, aiming to remove the friction of live calls for consumers and small businesses. In parallel, Google enhanced its AI Mode in Search by upgrading it to Gemini 2.5 Pro for premium users. Our analyst highlighted this as an important step toward more powerful, multi-part AI-driven queries that signal evolving monetization strategies and the growing role of conversational interfaces in search and commerce.</description>
+      <guid isPermaLink="false">d860b2be340e71001b158bb1e72262b8</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWS announces new innovations for building AI agents at AWS Summit New York 2025 [ * ]</title>
+      <link>https://www.aboutamazon.com/news/aws/aws-summit-agentic-ai-innovations-2025?s=09</link>
+      <description>AWS revealed a suite of tools—including Agent Core with Interpreter, and observability features—designed to simplify the creation and deployment of AI agents. Though the updates were seen as iterative rather than groundbreaking, our analysts agreed this continues AWS’s momentum in agentic AI development and warrants attention from AI leaders.</description>
+      <guid isPermaLink="false">784deae11441f5205fd94c5b6f087df3</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CollabLLM: Teaching LLMs to collaborate with users [ ! ]</title>
+      <link>https://www.microsoft.com/en-us/research/blog/collabllm-teaching-llms-to-collaborate-with-users/</link>
+      <description>Microsoft Research introduces CollabLLM, a method for teaching large language models to engage in cooperative dialogue with users through reinforcement learning. Our analysts highlighted this as a critical evolution in human-AI interaction, signaling a shift from passive compliance to active collaboration, essential for future AI productivity and augmentation use cases.</description>
+      <guid isPermaLink="false">78699a0a209ceda85c8e5cb504a14eec</guid>
+      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
