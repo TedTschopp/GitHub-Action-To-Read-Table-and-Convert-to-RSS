@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 18 Jul 2025 08:18:10 +0000</lastBuildDate>
-    <item>
-      <title>Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/transforming-network-operations-with-ai-how-swisscom-built-a-network-assistant-using-amazon-bedrock/</link>
-      <description>Swisscom’s implementation of a Bedrock‑based, agent‑powered network assistant automates network data retrieval and KPI analysis—saving analysts ~200 hours/year. Our analysts appreciated the detailed architecture and iterative deployment approach as a practical template for enterprise AI implementation and maturity.</description>
-      <guid isPermaLink="false">690378d9a18d491453cf655530026a8a</guid>
-      <pubDate>Mon, 07 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepSWE: Training a Fully Open‑sourced, State‑of‑the‑Art Coding Agent by Scaling RL [ ~ ]</title>
-      <link>https://www.together.ai/blog/deepswe</link>
-      <description>This technical update outlines how reinforcement learning has improved a 32‑billion‑parameter open‑source coding model—demonstrating incremental AI advances. Our analysts noted its value for researchers and developers, but labeled it "optional" due to its narrow scope and sophistication level.</description>
-      <guid isPermaLink="false">9f240629a8410219eaa1d7317a5035ad</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Dust helps enterprises create actionable AI agents with MCP and Claude [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/dust</link>
-      <description>Anthropic’s case study on deploying Claude-based agents via MCP is a lightweight showcase of AI‑driven content creation for enterprise automation. Though interesting, the analysts called it “fluffy” with no real metrics or depth—making it good for awareness, but not urgent.</description>
-      <guid isPermaLink="false">5d69ba1ed627f87a1095e4e204cf3f90</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Research Agents for Machine Learning [ * ]</title>
-      <link>https://arxiv.org/abs/2507.02554</link>
-      <description>This academic paper introduces AI “operators” that increase model performance—highlighting that algorithmic bottlenecks in ML research lie not in search algorithms but in infrastructure and tooling. As our analysts discussed, it's a foundational contribution to generative AI architecture and future agentic systems.</description>
-      <guid isPermaLink="false">18b667329b963af3b10371fe5609a722</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Companies Betting They Can Profit From Google Search’s Demise [ * ]</title>
-      <link>https://archive.md/JIKVH</link>
-      <description>A Wall Street Journal article reveals how startups like Athena and Profound are positioning themselves for a “zero-click internet” by optimizing content for AI‑driven search engines—a critical AI trend for marketing and SEO leaders. Our analysts flagged its credibility (being WSJ), and encouraged sharing it broadly to alert leaders still sleepwalking through this shift.</description>
-      <guid isPermaLink="false">0861483adb09e5de8b89f6e2bbfbbe27</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Commonwealth Bank’s ChatIT helps employees fix IT issues in seconds using generative AI [ ! ]</title>
-      <link>https://news.microsoft.com/source/asia/2025/07/01/commonwealth-banks-chatit-helps-employees-fix-it-issues-in-seconds-using-generative-ai/</link>
-      <description>This Microsoft-backed case study shows CBA using generative AI to reduce average IT resolution time from 17 to 2 minutes—a concrete demonstration of AI automation and enterprise ROI. As our analysts noted, this is a pervasive, high-impact use case in large organizations that delivers visible savings and productivity gains.</description>
-      <guid isPermaLink="false">0a5b341879e2c49a27012277ffb1c48a</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 18 Jul 2025 16:18:01 +0000</lastBuildDate>
     <item>
       <title>Against "Brain Damage" [ ! ]</title>
       <link>https://www.oneusefulthing.org/p/against-brain-damage</link>
@@ -357,6 +315,48 @@
       <description>Microsoft Research introduces CollabLLM, a method for teaching large language models to engage in cooperative dialogue with users through reinforcement learning. Our analysts highlighted this as a critical evolution in human-AI interaction, signaling a shift from passive compliance to active collaboration, essential for future AI productivity and augmentation use cases.</description>
       <guid isPermaLink="false">78699a0a209ceda85c8e5cb504a14eec</guid>
       <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Code revenue jumps 5.5x as Anthropic launches analytics dashboard [ ~ ]</title>
+      <link>https://venturebeat.com/ai/anthropic-adds-usage-tracking-to-claude-code-as-enterprise-ai-spending-surges/</link>
+      <description>Anthropic’s Claude Code now offers an analytics dashboard, enabling developers and managers to monitor code usage, costs, and ROI—a significant step in mainstreaming AI through measurable impact. Our analysts agreed that while 5× revenue growth isn’t surprising for code AI and embedding usage analytics is becoming a norm in enterprise accountability and investment justification.</description>
+      <guid isPermaLink="false">e0bb62d6e7627a0e29b0bdb48e3c0195</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic‑R1: Distilled Dual‑Strategy Reasoning [ ~ ]</title>
+      <link>https://arxiv.org/abs/2507.05707</link>
+      <description>CMU’s research introduces a dual‑teacher distilled model that dynamically chooses between tool‑use and reasoning—pushing frontier research on model “test‑time intelligence.” It’s fascinating from a technical standpoint, but our analysts agreed it’s more of academic interest and not yet directly actionable for enterprise deployment.</description>
+      <guid isPermaLink="false">1ade3b71fc90ef3b9870476fe965a96e</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stanford’s Marin foundation model: The first fully open model developed using JAX [ * ]</title>
+      <link>https://developers.googleblog.com/en/stanfords-marin-foundation-model-first-fully-open-model-developed-using-jax/</link>
+      <description>The Marin model is fully open—from code to weights to data—complemented by a clear taxonomy (open development, open weights, etc.), setting a new benchmark in open‑source AI. Our analysts described its transparency as a “Ben Franklin moment,” enabling AI leaders to differentiate true openness from marketing and encouraging scrutiny of vendor claims.</description>
+      <guid isPermaLink="false">1bd8d7fe405d4fcefbc6c43167046131</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Accenture scales video analysis with Amazon Nova and Amazon Bedrock Agents [ ! ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/accenture-scales-video-analysis-with-amazon-nova-and-amazon-bedrock-agents/</link>
+      <description>Accenture’s AI system uses multiple agents to process and extract highlights from large video footage, reflecting a broader shift toward short‑form video as a "post‑text" language for knowledge workers. Our analysts emphasized its importance in democratizing video content creation, meeting professional demand for automated editing and curation—raising it from interesting demo to essential trend for enterprises.</description>
+      <guid isPermaLink="false">14649c94dcab35c927f3e7ffd864e7ca</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI launches a general purpose agent in ChatGPT [ ! ]</title>
+      <link>https://techcrunch.com/2025/07/17/openai-launches-a-general-purpose-agent-in-chatgpt/</link>
+      <description>OpenAI has introduced the new “ChatGPT Agent,” a model combining browsing, research, and code tools into a unified, autonomous assistant capable of handling complex tasks like booking plans and creating presentations on its own. Our analysts highlighted its significance as an incremental leap—scoring ~42% on Humanity’s Last Exam and demonstrating serious agent-level capability under the hood (PowerPoint editing, terminal use), making it essential for AI leaders to follow closely.</description>
+      <guid isPermaLink="false">661a3e645b7be943dbc42e13a9ece665</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bank of America touts AI gains amid industrywide adoption push [ ! ]</title>
+      <link>https://www.ciodive.com/news/bank-of-america-ai-gains-bny-goldman-sachs-wells-fargo/753264/</link>
+      <description>Bank of America reported reducing headcount from 300K to 212K while expanding deposits from $400B to $900B over 15 years, underscoring AI-driven productivity gains across major financial institutions. Our analysts noted that BofA dedicates ~25% of its $13B tech budget to AI and ML—sending a strong message to enterprise leaders to invest boldly in AI over the long term.</description>
+      <guid isPermaLink="false">f62fb07042942e3a85aab4c2722c6878</guid>
+      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

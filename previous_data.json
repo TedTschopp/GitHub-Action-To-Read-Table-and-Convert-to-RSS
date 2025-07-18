@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Bank of America touts AI gains amid industrywide adoption push",
+        "links": [
+          "https://www.ciodive.com/news/bank-of-america-ai-gains-bny-goldman-sachs-wells-fargo/753264/"
+        ]
+      },
+      "Rationale": {
+        "text": "Bank of America reported reducing headcount from 300K to 212K while expanding deposits from $400B to $900B over 15 years, underscoring AI-driven productivity gains across major financial institutions. Our analysts noted that BofA dedicates ~25% of its $13B tech budget to AI and ML—sending a strong message to enterprise leaders to invest boldly in AI over the long term.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI launches a general purpose agent in ChatGPT",
+        "links": [
+          "https://techcrunch.com/2025/07/17/openai-launches-a-general-purpose-agent-in-chatgpt/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has introduced the new “ChatGPT Agent,” a model combining browsing, research, and code tools into a unified, autonomous assistant capable of handling complex tasks like booking plans and creating presentations on its own. Our analysts highlighted its significance as an incremental leap—scoring ~42% on Humanity’s Last Exam and demonstrating serious agent-level capability under the hood (PowerPoint editing, terminal use), making it essential for AI leaders to follow closely.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Accenture scales video analysis with Amazon Nova and Amazon Bedrock Agents",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/accenture-scales-video-analysis-with-amazon-nova-and-amazon-bedrock-agents/"
+        ]
+      },
+      "Rationale": {
+        "text": "Accenture’s AI system uses multiple agents to process and extract highlights from large video footage, reflecting a broader shift toward short‑form video as a \"post‑text\" language for knowledge workers. Our analysts emphasized its importance in democratizing video content creation, meeting professional demand for automated editing and curation—raising it from interesting demo to essential trend for enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Stanford’s Marin foundation model: The first fully open model developed using JAX",
+        "links": [
+          "https://developers.googleblog.com/en/stanfords-marin-foundation-model-first-fully-open-model-developed-using-jax/"
+        ]
+      },
+      "Rationale": {
+        "text": "The Marin model is fully open—from code to weights to data—complemented by a clear taxonomy (open development, open weights, etc.), setting a new benchmark in open‑source AI. Our analysts described its transparency as a “Ben Franklin moment,” enabling AI leaders to differentiate true openness from marketing and encouraging scrutiny of vendor claims.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Agentic‑R1: Distilled Dual‑Strategy Reasoning",
+        "links": [
+          "https://arxiv.org/abs/2507.05707"
+        ]
+      },
+      "Rationale": {
+        "text": "CMU’s research introduces a dual‑teacher distilled model that dynamically chooses between tool‑use and reasoning—pushing frontier research on model “test‑time intelligence.” It’s fascinating from a technical standpoint, but our analysts agreed it’s more of academic interest and not yet directly actionable for enterprise deployment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Claude Code revenue jumps 5.5x as Anthropic launches analytics dashboard",
+        "links": [
+          "https://venturebeat.com/ai/anthropic-adds-usage-tracking-to-claude-code-as-enterprise-ai-spending-surges/"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s Claude Code now offers an analytics dashboard, enabling developers and managers to monitor code usage, costs, and ROI—a significant step in mainstreaming AI through measurable impact. Our analysts agreed that while 5× revenue growth isn’t surprising for code AI and embedding usage analytics is becoming a norm in enterprise accountability and investment justification.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/17/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Ethan Mollick’s critique on how generative AI tools can subtly erode critical thinking is a timely exploration of AI ethics, cognitive rigour, and human‑machine interaction. Our analysts emphasized that AI shouldn't replace learning processes, but instead coach and critique our thinking—making this a must-read for any AI leader.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Commonwealth Bank’s ChatIT helps employees fix IT issues in seconds using generative AI",
-        "links": [
-          "https://news.microsoft.com/source/asia/2025/07/01/commonwealth-banks-chatit-helps-employees-fix-it-issues-in-seconds-using-generative-ai/"
-        ]
-      },
-      "Rationale": {
-        "text": "This Microsoft-backed case study shows CBA using generative AI to reduce average IT resolution time from 17 to 2 minutes—a concrete demonstration of AI automation and enterprise ROI. As our analysts noted, this is a pervasive, high-impact use case in large organizations that delivers visible savings and productivity gains.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Companies Betting They Can Profit From Google Search’s Demise",
-        "links": [
-          "https://archive.md/JIKVH"
-        ]
-      },
-      "Rationale": {
-        "text": "A Wall Street Journal article reveals how startups like Athena and Profound are positioning themselves for a “zero-click internet” by optimizing content for AI‑driven search engines—a critical AI trend for marketing and SEO leaders. Our analysts flagged its credibility (being WSJ), and encouraged sharing it broadly to alert leaders still sleepwalking through this shift.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Research Agents for Machine Learning",
-        "links": [
-          "https://arxiv.org/abs/2507.02554"
-        ]
-      },
-      "Rationale": {
-        "text": "This academic paper introduces AI “operators” that increase model performance—highlighting that algorithmic bottlenecks in ML research lie not in search algorithms but in infrastructure and tooling. As our analysts discussed, it's a foundational contribution to generative AI architecture and future agentic systems.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Dust helps enterprises create actionable AI agents with MCP and Claude",
-        "links": [
-          "https://www.anthropic.com/customers/dust"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s case study on deploying Claude-based agents via MCP is a lightweight showcase of AI‑driven content creation for enterprise automation. Though interesting, the analysts called it “fluffy” with no real metrics or depth—making it good for awareness, but not urgent.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "DeepSWE: Training a Fully Open‑sourced, State‑of‑the‑Art Coding Agent by Scaling RL",
-        "links": [
-          "https://www.together.ai/blog/deepswe"
-        ]
-      },
-      "Rationale": {
-        "text": "This technical update outlines how reinforcement learning has improved a 32‑billion‑parameter open‑source coding model—demonstrating incremental AI advances. Our analysts noted its value for researchers and developers, but labeled it \"optional\" due to its narrow scope and sophistication level.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Transforming network operations with AI: How Swisscom built a network assistant using Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/transforming-network-operations-with-ai-how-swisscom-built-a-network-assistant-using-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "Swisscom’s implementation of a Bedrock‑based, agent‑powered network assistant automates network data retrieval and KPI analysis—saving analysts ~200 hours/year. Our analysts appreciated the detailed architecture and iterative deployment approach as a practical template for enterprise AI implementation and maturity.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-18T08:18:10.633013+00:00"
+  "timestamp": "2025-07-18T16:18:01.346556+00:00"
 }
