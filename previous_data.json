@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Big LLM Architecture Comparison",
+        "links": [
+          "https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison"
+        ]
+      },
+      "Rationale": {
+        "text": "This article provides a detailed overview of how leading LLMs like DeepSeek are evolving and what their architectural differences mean for enterprise deployment. Analysts emphasized its technical depth and strategic relevance for IT and enterprise architecture leaders needing to stay updated on open-source LLM progress, particularly the growing competition from Chinese models.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Using Gen AI for Early-Stage Market Research",
+        "links": [
+          "https://hbr.org/2025/07/using-gen-ai-for-early-stage-market-research"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR article explores how generative AI can simulate synthetic markets to inform early-stage product development and reduce risk. Analysts praised its practical implications for both startups and large firms and appreciated its nuanced discussion on using general-purpose vs. fine-tuned models, highlighting both opportunities and caveats.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Context Rot: How Increasing Input Tokens Impacts LLM Performance",
+        "links": [
+          "https://research.trychroma.com/context-rot"
+        ]
+      },
+      "Rationale": {
+        "text": "The article explores how long context windows in LLMs often degrade performance, challenging assumptions that bigger context is always better. The discussion highlighted its value in contrasting the current hype around “context engineering,” serving as a caution for AI leaders to balance retrieval-augmented generation (RAG) with architectural limitations.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "This “smart coach” helps LLMs switch between text and code",
+        "links": [
+          "https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717"
+        ]
+      },
+      "Rationale": {
+        "text": "This article highlights MIT’s development of a “smart coach” LLM that acts as an intermediary to help large language models dynamically switch between handling text and code depending on the task. Analysts noted this is an early but notable step toward model orchestration—potentially foreshadowing architectures like GPT-5 that could use coach-like agents to route queries across multiple specialized models.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "MirageLSD: The First Live-Stream Diffusion AI Video Model",
+        "links": [
+          "https://about.decart.ai/publications/mirage"
+        ]
+      },
+      "Rationale": {
+        "text": "Decart AI unveils a model for continuous, real-time diffusion-based video generation, claiming infinite streaming capabilities. Analysts found it fascinating for gaming and creative industries but noted it’s primarily a product announcement with few details on performance tradeoffs, making it less relevant for general AI leadership.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Language Models Improve When Pretraining Data Matches Target Tasks",
+        "links": [
+          "https://arxiv.org/pdf/2507.12466"
+        ]
+      },
+      "Rationale": {
+        "text": "This research paper provides empirical evidence that aligning pretraining data more closely with downstream target tasks can significantly boost model performance. While the insight reinforces a long-standing hypothesis in the AI community, the analysts viewed it as incremental rather than groundbreaking, affirming a best practice rather than introducing a new concept.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/18/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Reka Vision introduces a multimodal AI platform that enables searching, summarizing, and reasoning over vast video/image collections—allowing users to produce targeted snippets, alerts, or summaries with chat capabilities. Our analysts emphasized its massive utility across media, surveillance, and live feeds, noting its “foundational” technology and reports of enterprise-level usage—even amidst a crowded visual AI landscape.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "SmolLM3: smol, multilingual, long-context reasoner",
-        "links": [
-          "https://huggingface.co/blog/smollm3"
-        ]
-      },
-      "Rationale": {
-        "text": "This Hugging Face release of SmolLM3 highlights a compact 3B‑parameter model that punches above its weight—with multilingual support across six languages and long-context reasoning up to 128K tokens—making it a strong performer near the 4B‑parameter tier. Our analysts noted the value of the “open book” training methodology—full transparency in data mixture, architecture, and reasoning methodology—which is rare and highly valuable for teams deploying edge models.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Banking on gen AI in the credit business: The route to value creation",
-        "links": [
-          "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/banking-on-gen-ai-in-the-credit-business-the-route-to-value-creation"
-        ]
-      },
-      "Rationale": {
-        "text": "McKinsey’s survey of 44 banks revisiting how generative AI is being integrated into credit operations offers helpful segmentation insight—including that smaller regional banks are leading investment in AI-driven workflows. However, our analysts agreed that it confirms known trends without providing new evidence of realized ROI or breakthrough outcomes, making it worth an optional read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Character.AI’s Real‑Time Video Breakthrough",
-        "links": [
-          "https://blog.character.ai/character-ais-real-time-video-breakthrough"
-        ]
-      },
-      "Rationale": {
-        "text": "Character.AI’s new TalkingMachines model demonstrates an exciting leap in real-time, audio-driven video generation—delivering lip-synced, interactive avatars that could reshape storytelling and immersive interactions. Our analysts flagged it as a strong research advancement and hot trend, but remained cautious since it’s not yet product-ready and primarily a proof‑of‑concept.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How INRIX accelerates transportation planning with Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-inrix-accelerates-transportation-planning-with-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "INRIX’s deployment of Bedrock to analyze 50 petabytes of rich traffic data—such as accident histories and connected-car streams—to improve transport planning offers a deep-dive into real-world scale and architecture. While the project is impressive in scope, our analysts noted the lack of clear impact metrics, placing it in the optional category.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Why CISOs are making the SASE switch: Fewer vendors, smarter security, better AI guardrails",
-        "links": [
-          "https://venturebeat.com/security/facing-ai-powered-threats-cisos-consolidate-around-single-vendor-sase/"
-        ]
-      },
-      "Rationale": {
-        "text": "VentureBeat outlines a surge in CISO adoption of single-vendor SASE systems to reduce complexity and shore up AI-era vulnerabilities—with Gartner data showing 75% of orgs pursuing consolidation and Cato, Palo Alto, and Netskope leading. Our analysts agreed the trend is important to cybersecurity leaders, but the article primarily covers a fundraising angle and vendor marketing, so it lands as optional for AI-focused audiences.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Against \"Brain Damage\"",
-        "links": [
-          "https://www.oneusefulthing.org/p/against-brain-damage"
-        ]
-      },
-      "Rationale": {
-        "text": "Ethan Mollick’s critique on how generative AI tools can subtly erode critical thinking is a timely exploration of AI ethics, cognitive rigour, and human‑machine interaction. Our analysts emphasized that AI shouldn't replace learning processes, but instead coach and critique our thinking—making this a must-read for any AI leader.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-21T08:20:37.897347+00:00"
+  "timestamp": "2025-07-21T16:15:59.972059+00:00"
 }
