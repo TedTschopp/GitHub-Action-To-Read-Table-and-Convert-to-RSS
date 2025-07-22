@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-07-22T01:02:09.404332+00:00",
+  "timestamp": "2025-07-22T08:19:18.234808+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Tue, 22 Jul 2025 01:02:09 +0000",
+      "last_updated": "Tue, 22 Jul 2025 08:19:18 +0000",
       "size_bytes": 37474,
       "errors": []
     },
