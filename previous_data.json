@@ -2,6 +2,246 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Kyruus builds a generative AI provider matching solution on AWS",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/kyruus-builds-a-generative-ai-provider-matching-solution-on-aws/"
+        ]
+      },
+      "Rationale": {
+        "text": "Kyruus has built a hybrid generative AI solution on AWS that helps match patients to appropriate healthcare providers, incorporating natural language input, medical taxonomy, and symptom interpretation. Analysts found this use case significant because it exemplifies LLMs acting as mediators across asymmetrical knowledge domains, bridging patient language and clinical terminology, and shows how AI can meaningfully enhance healthcare navigation without aiming for diagnostic precision.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Build AI in America",
+        "links": [
+          "https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic outlines a national strategy for U.S. AI infrastructure development, calling for 50 gigawatts of AI-specific power capacity by 2028 and 90 by 2050, leveraging federal lands and invoking defence legislation to streamline permitting. While the article is deeply detailed and offers valuable macro-context for AI growth, analysts agreed it's optional for practitioners since it's more policy-driven and lacks actionable insights for enterprise AI leaders; moreover, it reflects the interests of large model companies advocating for infrastructure favourable to their operations.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Stargate advances with 4.5 GW partnership with Oracle",
+        "links": [
+          "https://openai.com/index/stargate-advances-with-partnership-with-oracle/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI and Oracle announce a partnership to build 4.5 GW of infrastructure capacity as part of the Stargate initiative. However, analysts unanimously regarded this as low-substance PR amid recent conflicting reports questioning the deal’s stability, describing it as a distraction for AI leaders and reflective more of tech hype cycles than tangible execution.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design",
+        "links": [
+          "https://www.latentlabs.com/latent-x/"
+        ]
+      },
+      "Rationale": {
+        "text": "Latent Labs introduces Latent-X, a generative AI model capable of atom-level precision in protein binder design, claiming it can identify candidates with only 30–100 wet-lab samples instead of millions. Although the team highlighted its revolutionary potential, particularly for drug discovery and digital twins, analysts emphasized it remains a product announcement with domain-specific relevance, making it optional for most AI professionals outside life sciences.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Udemy Introduces New MCP Server to Bring AI-Powered Learning Directly Into the Flow of Work",
+        "links": [
+          "https://about.udemy.com/press-releases/udemy-introduces-new-mcp-server-to-bring-ai-powered-learning-directly-into-the-flow-of-work/"
+        ]
+      },
+      "Rationale": {
+        "text": "Udemy’s new Model Connectivity Platform (MCP) server aims to embed AI-discoverable learning content within enterprise tools and chatbots. Despite aligning with the broader vision of just-in-time, workflow-integrated learning, analysts considered it a marginal release due to lack of detail on adoption or value creation, and also pointed to Udemy’s ongoing struggle with negative returns and shrinking assets as limiting its immediate impact.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Conversational image segmentation with Gemini 2.5",
+        "links": [
+          "https://developers.googleblog.com/en/conversational-image-segmentation-gemini-2-5/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s Gemini 2.5 introduces advanced conversational segmentation that allows users to refer to image elements abstractly (e.g., “the person not wearing a hard hat”) for real-time annotation and editing. Analysts acknowledged the technical progress and future potential in areas like robotics and military vision systems, but ultimately viewed it as another “everyday miracle” with no immediate application for most AI leaders, placing it in the optional category until more use cases and integrations emerge.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Textron takes flight with gen AI",
+        "links": [
+          "https://www.cio.com/article/4025048/textron-takes-flight-with-gen-ai.html"
+        ]
+      },
+      "Rationale": {
+        "text": "Textron, a major industrial conglomerate, is deploying GenAI at scale to assist over 1,500 maintenance workers in field operations. Analysts noted the strategic value in targeting high-impact, structured use cases like maintenance, and praised the company's rapid move from POC to deployment without getting bogged down in ROI concerns, making this a noteworthy example for other industrial enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "TransEvalnia: Reasoning-based Evaluation and Ranking of Translations",
+        "links": [
+          "https://arxiv.org/abs/2507.12724"
+        ]
+      },
+      "Rationale": {
+        "text": "This research introduces a reasoning-based approach to translation evaluation using judge models, addressing a key gap in assessing translation quality. The discussion highlighted its practical implications for sectors like healthcare content localization and the broader importance of trustworthy evaluation frameworks, making it valuable reading for those focused on multilingual GenAI applications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Le Chat dives deep",
+        "links": [
+          "https://mistral.ai/news/le-chat-dives-deep"
+        ]
+      },
+      "Rationale": {
+        "text": "Mistral has introduced deep research capabilities for its chatbot, similar to agentic search tools offered by competitors. While the capability is useful, analysts emphasized that it’s a \"me too\" offering in an increasingly commoditized space, with Mistral playing catch-up rather than leading.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How CodeRabbit brings AI to code reviews",
+        "links": [
+          "https://www.infoworld.com/article/4025088/how-coderabbit-brings-ai-to-code-reviews.html"
+        ]
+      },
+      "Rationale": {
+        "text": "CodeRabbit is leveraging AI to automate code reviews, targeting a traditionally manual and time-consuming step in the software development lifecycle. Analysts noted that while code generation is a top AI use case, AI-assisted code review is less saturated, making this an interesting play, especially as the rise of “AI co-pilots” leads to more low-quality code from non-experts, increasing the need for automated quality control.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Solar Pro 2",
+        "links": [
+          "https://www.upstage.ai/blog/en/solar-pro-2-launch"
+        ]
+      },
+      "Rationale": {
+        "text": "Upstage has released Solar Pro 2, a 32B-parameter multilingual LLM focused on Korean and English, marketed as a lightweight, efficient alternative to models like GPT-4. Analysts saw this as part of the sovereign AI trend, emphasizing local language nuance and cultural specificity, but noted that smaller niche models may struggle to compete with foundation models on versatility and longevity.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenReasoning-Nemotron: A Family of State-of-the-Art Distilled Reasoning Models",
+        "links": [
+          "https://huggingface.co/blog/nvidia/openreasoning-nemotron"
+        ]
+      },
+      "Rationale": {
+        "text": "NVIDIA’s Nemotron models highlight advancements in distilled reasoning by producing compact LLMs that perform competitively on reasoning tasks. While the group appreciated the focus on evaluation and efficiency, especially for edge deployments and use in constrained environments, they viewed it as part of a broader, incremental trend and not yet game-changing without clear differentiation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/21/2025",
         "links": []
       },
@@ -759,247 +999,7 @@
         "text": "This guide provides a clear, step‑by‑step primer on designing, testing, and deploying AI agents in production—covering data collection, MVP building, safety checks, and orchestration. Our analysts praised it for demystifying agent creation, helping everyone from leaders to developers gain practical confidence in AI‑driven agentic content creation.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing LFM2: The Fastest On‑Device Foundation Models on the Market",
-        "links": [
-          "https://www.liquid.ai/blog/liquid-foundation-models-v2-our-second-series-of-generative-ai-models"
-        ]
-      },
-      "Rationale": {
-        "text": "LFM2 delivers record‑setting speed and memory efficiency—2× faster than Qwen3—with hybrid architecture optimized for edge deployment on phones, laptops, and wearables. Our analysts highlighted how this marks critical innovation in on‑device AI, enabling smarter devices in 2026 and beyond.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Rocket streamlines the home buying experience with Amazon Bedrock Agent",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-rocket-streamlines-the-home-buying-experience-with-amazon-bedrock-agents/"
-        ]
-      },
-      "Rationale": {
-        "text": "Rocket Mortgage leverages Amazon Bedrock Agents to deliver context‑aware assistant—boosting retention and scheduling efficiency with real‑time engagement. Our analysts emphasize this as a strong AI case study showing measurable ROI and operational improvements.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Reasoning reimagined: Introducing Phi‑4‑mini‑flash‑reasoning",
-        "links": [
-          "https://azure.microsoft.com/en-us/blog/reasoning-reimagined-introducing-phi-4-mini-flash-reasoning/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft’s Phi‑4‑mini‑flash‑reasoning delivers a Samba hybrid architecture—achieving up to 10× faster throughput and 2–3× lower latency on edge and mobile reasoning tasks. Our analysts noted its practical value for IoT and robotics, making efficient on‑device reasoning increasingly achievable.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Upgrading agentic coding capabilities with the new Devstral models",
-        "links": [
-          "https://mistral.ai/news/devstral-2507"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral’s DevStral (Small and Medium) offers high‑performance, Apache‑licensed agentic coding models that hit strong SWE‑Bench scores at low cost—beating Gemini 2.5 Pro and GPT‑4.1. Our analysts saw promise in its open‑source, tool‑aware design, though it landed in a crowded space with marginal incremental novelty.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Ramp agents: Let finance teams do finance",
-        "links": [
-          "https://ramp.com/blog/ramp-agents-announcement"
-        ]
-      },
-      "Rationale": {
-        "text": "Ramp's agent automate finance workflows, policy enforcement, and conversational interactions within finance teams. Our analysts regarded it as a product announcement in an emerging automation trend, noting significant potential but limited differentiation from other solutions.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How to Scale GenAI in the Workplace",
-        "links": [
-          "https://sloanreview.mit.edu/article/how-to-scale-genai-in-the-workplace/"
-        ]
-      },
-      "Rationale": {
-        "text": "This MIT Sloan article draws on Novo Nordisk’s deployment of generative AI across 20,000 employees to showcase a structured, real-world approach to scaling GenAI initiatives. Our analysts highlighted its practical insights—proactive management of adoption dips, targeted training led by workflow experts, and use of senior-led champion networks—as critical lessons for AI transformation in the enterprise.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Perplexity launches Comet, an AI‑powered web browser",
-        "links": [
-          "https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser"
-        ]
-      },
-      "Rationale": {
-        "text": "Perplexity’s introduces a browser, Comet, and a browser-level AI assistant capable of contextual summarization, task automation, and seamless interaction across browsing activities—a strategic innovation in the battle for user attention. Our analysts noted its potential to disrupt entrenched players like Google Chrome by embedding AI as an operating-system-level tool, even as practical rollout remains limited to high-tier subscribers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Moonvalley’s ‘ethical’ AI video model for filmmakers is now publicly available",
-        "links": [
-          "https://techcrunch.com/2025/07/08/moonvalleys-ethical-ai-video-model-for-filmmakers-is-now-publicly-available/"
-        ]
-      },
-      "Rationale": {
-        "text": "Marey is positioned as an ethically sourced, creator‑centric video model—opening up generative AI to filmmakers via licensed data without litigation risk. Our analysts emphasized that provenance transparency and creative control align well with commercial film workflows, setting this apart in a crowded video‑gen space.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Elon Musk’s xAI launches Grok 4 alongside a $300 monthly subscription",
-        "links": [
-          "https://techcrunch.com/2025/07/09/elon-musks-xai-launches-grok-4-alongside-a-300-monthly-subscription/"
-        ]
-      },
-      "Rationale": {
-        "text": "xAI’s Grok 4 introduces a multi‑agent setup and exhibits strong performance on standardized benchmarks—though its enterprise readiness is questioned due to cost and controversial content incidents. Our analysts flagged its high pricing and brand-driven appeal as limiting factors outside enthusiast circles.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "T5Gemma: A new collection of encoder‑decoder Gemma models",
-        "links": [
-          "https://developers.googleblog.com/en/t5gemma/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s T5Gemma release offers encoder‑decoder LLM architecture promising deeper contextual understanding in compact models. Our analysts described it as an intriguing algorithmic advance for edge and embedded systems, but emphasized it remains primarily of interest to researchers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Energy‑Based Transformers are Scalable Learners and Thinkers",
-        "links": [
-          "https://arxiv.org/abs/2507.02092"
-        ]
-      },
-      "Rationale": {
-        "text": "This paper introduces Energy-Based Transformers (EBTs)—a novel model architecture that frames prediction as energy minimization over input–output pairs, enabling models to \"think\" at inference time without extra supervision or modality-specific tuning. EBTs generalize across domains (text and vision) and outperform traditional transformer models in both efficiency and generalization. Our analysts noted it’s compelling for theory, but distant from practical deployment.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Reka Vision: Intelligence Made Visible",
-        "links": [
-          "https://reka.ai/news/reka-vision-intelligence-made-visible"
-        ]
-      },
-      "Rationale": {
-        "text": "Reka Vision introduces a multimodal AI platform that enables searching, summarizing, and reasoning over vast video/image collections—allowing users to produce targeted snippets, alerts, or summaries with chat capabilities. Our analysts emphasized its massive utility across media, surveillance, and live feeds, noting its “foundational” technology and reports of enterprise-level usage—even amidst a crowded visual AI landscape.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-23T08:18:51.095738+00:00"
+  "timestamp": "2025-07-23T16:16:56.360705+00:00"
 }

@@ -7,91 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 23 Jul 2025 08:18:51 +0000</lastBuildDate>
-    <item>
-      <title>Reka Vision: Intelligence Made Visible [ * ]</title>
-      <link>https://reka.ai/news/reka-vision-intelligence-made-visible</link>
-      <description>Reka Vision introduces a multimodal AI platform that enables searching, summarizing, and reasoning over vast video/image collections—allowing users to produce targeted snippets, alerts, or summaries with chat capabilities. Our analysts emphasized its massive utility across media, surveillance, and live feeds, noting its “foundational” technology and reports of enterprise-level usage—even amidst a crowded visual AI landscape.</description>
-      <guid isPermaLink="false">fe11225d6d367716b8c8e2fea6239057</guid>
-      <pubDate>Wed, 09 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Energy‑Based Transformers are Scalable Learners and Thinkers [ ~ ]</title>
-      <link>https://arxiv.org/abs/2507.02092</link>
-      <description>This paper introduces Energy-Based Transformers (EBTs)—a novel model architecture that frames prediction as energy minimization over input–output pairs, enabling models to "think" at inference time without extra supervision or modality-specific tuning. EBTs generalize across domains (text and vision) and outperform traditional transformer models in both efficiency and generalization. Our analysts noted it’s compelling for theory, but distant from practical deployment.</description>
-      <guid isPermaLink="false">65415e30651741a94036645bfab7b893</guid>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>T5Gemma: A new collection of encoder‑decoder Gemma models [ ~ ]</title>
-      <link>https://developers.googleblog.com/en/t5gemma/</link>
-      <description>Google’s T5Gemma release offers encoder‑decoder LLM architecture promising deeper contextual understanding in compact models. Our analysts described it as an intriguing algorithmic advance for edge and embedded systems, but emphasized it remains primarily of interest to researchers.</description>
-      <guid isPermaLink="false">2d730baf3bfbfc36a74c53c0e356c69c</guid>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Elon Musk’s xAI launches Grok 4 alongside a $300 monthly subscription [ ~ ]</title>
-      <link>https://techcrunch.com/2025/07/09/elon-musks-xai-launches-grok-4-alongside-a-300-monthly-subscription/</link>
-      <description>xAI’s Grok 4 introduces a multi‑agent setup and exhibits strong performance on standardized benchmarks—though its enterprise readiness is questioned due to cost and controversial content incidents. Our analysts flagged its high pricing and brand-driven appeal as limiting factors outside enthusiast circles.</description>
-      <guid isPermaLink="false">e7cc260568eb1afd89b37c7cd9f3191f</guid>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Moonvalley’s ‘ethical’ AI video model for filmmakers is now publicly available [ * ]</title>
-      <link>https://techcrunch.com/2025/07/08/moonvalleys-ethical-ai-video-model-for-filmmakers-is-now-publicly-available/</link>
-      <description>Marey is positioned as an ethically sourced, creator‑centric video model—opening up generative AI to filmmakers via licensed data without litigation risk. Our analysts emphasized that provenance transparency and creative control align well with commercial film workflows, setting this apart in a crowded video‑gen space.</description>
-      <guid isPermaLink="false">e28cbbab0daa005cc500b8ec9fbe80c6</guid>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Perplexity launches Comet, an AI‑powered web browser [ * ]</title>
-      <link>https://techcrunch.com/2025/07/09/perplexity-launches-comet-an-ai-powered-web-browser</link>
-      <description>Perplexity’s introduces a browser, Comet, and a browser-level AI assistant capable of contextual summarization, task automation, and seamless interaction across browsing activities—a strategic innovation in the battle for user attention. Our analysts noted its potential to disrupt entrenched players like Google Chrome by embedding AI as an operating-system-level tool, even as practical rollout remains limited to high-tier subscribers.</description>
-      <guid isPermaLink="false">43dbfd27d3116806ad5b6afca98dfa8a</guid>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to Scale GenAI in the Workplace [ ! ]</title>
-      <link>https://sloanreview.mit.edu/article/how-to-scale-genai-in-the-workplace/</link>
-      <description>This MIT Sloan article draws on Novo Nordisk’s deployment of generative AI across 20,000 employees to showcase a structured, real-world approach to scaling GenAI initiatives. Our analysts highlighted its practical insights—proactive management of adoption dips, targeted training led by workflow experts, and use of senior-led champion networks—as critical lessons for AI transformation in the enterprise.</description>
-      <guid isPermaLink="false">cd84e66c6e823417ccc654e59b39d11e</guid>
-      <pubDate>Thu, 10 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Ramp agents: Let finance teams do finance [ ~ ]</title>
-      <link>https://ramp.com/blog/ramp-agents-announcement</link>
-      <description>Ramp's agent automate finance workflows, policy enforcement, and conversational interactions within finance teams. Our analysts regarded it as a product announcement in an emerging automation trend, noting significant potential but limited differentiation from other solutions.</description>
-      <guid isPermaLink="false">a261cf207884d29f59e304b02bb3f1a9</guid>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Upgrading agentic coding capabilities with the new Devstral models [ ~ ]</title>
-      <link>https://mistral.ai/news/devstral-2507</link>
-      <description>Mistral’s DevStral (Small and Medium) offers high‑performance, Apache‑licensed agentic coding models that hit strong SWE‑Bench scores at low cost—beating Gemini 2.5 Pro and GPT‑4.1. Our analysts saw promise in its open‑source, tool‑aware design, though it landed in a crowded space with marginal incremental novelty.</description>
-      <guid isPermaLink="false">70ad45c02c2c8dd4fb669e896c68282e</guid>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reasoning reimagined: Introducing Phi‑4‑mini‑flash‑reasoning [ * ]</title>
-      <link>https://azure.microsoft.com/en-us/blog/reasoning-reimagined-introducing-phi-4-mini-flash-reasoning/</link>
-      <description>Microsoft’s Phi‑4‑mini‑flash‑reasoning delivers a Samba hybrid architecture—achieving up to 10× faster throughput and 2–3× lower latency on edge and mobile reasoning tasks. Our analysts noted its practical value for IoT and robotics, making efficient on‑device reasoning increasingly achievable.</description>
-      <guid isPermaLink="false">968d862186c56e61a64bb5df1a3257a0</guid>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Rocket streamlines the home buying experience with Amazon Bedrock Agent [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-rocket-streamlines-the-home-buying-experience-with-amazon-bedrock-agents/</link>
-      <description>Rocket Mortgage leverages Amazon Bedrock Agents to deliver context‑aware assistant—boosting retention and scheduling efficiency with real‑time engagement. Our analysts emphasize this as a strong AI case study showing measurable ROI and operational improvements.</description>
-      <guid isPermaLink="false">ec6c30ff2b0a96c3f86076da6a07c511</guid>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing LFM2: The Fastest On‑Device Foundation Models on the Market [ * ]</title>
-      <link>https://www.liquid.ai/blog/liquid-foundation-models-v2-our-second-series-of-generative-ai-models</link>
-      <description>LFM2 delivers record‑setting speed and memory efficiency—2× faster than Qwen3—with hybrid architecture optimized for edge deployment on phones, laptops, and wearables. Our analysts highlighted how this marks critical innovation in on‑device AI, enabling smarter devices in 2026 and beyond.</description>
-      <guid isPermaLink="false">2bc85e57cc9a21281072c2b621a2bb43</guid>
-      <pubDate>Fri, 11 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 23 Jul 2025 16:16:56 +0000</lastBuildDate>
     <item>
       <title>How to Build an Agent [ ! ]</title>
       <link>https://blog.langchain.com/how-to-build-an-agent</link>
@@ -357,6 +273,90 @@
       <description>This article provides a detailed overview of how leading LLMs like DeepSeek are evolving and what their architectural differences mean for enterprise deployment. Analysts emphasized its technical depth and strategic relevance for IT and enterprise architecture leaders needing to stay updated on open-source LLM progress, particularly the growing competition from Chinese models.</description>
       <guid isPermaLink="false">d149cd81b5fb6d8af18acf69501030db</guid>
       <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenReasoning-Nemotron: A Family of State-of-the-Art Distilled Reasoning Models [ ~ ]</title>
+      <link>https://huggingface.co/blog/nvidia/openreasoning-nemotron</link>
+      <description>NVIDIA’s Nemotron models highlight advancements in distilled reasoning by producing compact LLMs that perform competitively on reasoning tasks. While the group appreciated the focus on evaluation and efficiency, especially for edge deployments and use in constrained environments, they viewed it as part of a broader, incremental trend and not yet game-changing without clear differentiation.</description>
+      <guid isPermaLink="false">e6de72591fca87edbb1df3d4a13162b4</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Solar Pro 2 [ ~ ]</title>
+      <link>https://www.upstage.ai/blog/en/solar-pro-2-launch</link>
+      <description>Upstage has released Solar Pro 2, a 32B-parameter multilingual LLM focused on Korean and English, marketed as a lightweight, efficient alternative to models like GPT-4. Analysts saw this as part of the sovereign AI trend, emphasizing local language nuance and cultural specificity, but noted that smaller niche models may struggle to compete with foundation models on versatility and longevity.</description>
+      <guid isPermaLink="false">79141d32669308970bbd66debd3de5a8</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How CodeRabbit brings AI to code reviews [ ~ ]</title>
+      <link>https://www.infoworld.com/article/4025088/how-coderabbit-brings-ai-to-code-reviews.html</link>
+      <description>CodeRabbit is leveraging AI to automate code reviews, targeting a traditionally manual and time-consuming step in the software development lifecycle. Analysts noted that while code generation is a top AI use case, AI-assisted code review is less saturated, making this an interesting play, especially as the rise of “AI co-pilots” leads to more low-quality code from non-experts, increasing the need for automated quality control.</description>
+      <guid isPermaLink="false">4ce1692a5aae79b030cc599d2cd865ae</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le Chat dives deep [ ~ ]</title>
+      <link>https://mistral.ai/news/le-chat-dives-deep</link>
+      <description>Mistral has introduced deep research capabilities for its chatbot, similar to agentic search tools offered by competitors. While the capability is useful, analysts emphasized that it’s a "me too" offering in an increasingly commoditized space, with Mistral playing catch-up rather than leading.</description>
+      <guid isPermaLink="false">2877ed7385d445598aea14def7efbbc8</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TransEvalnia: Reasoning-based Evaluation and Ranking of Translations [ * ]</title>
+      <link>https://arxiv.org/abs/2507.12724</link>
+      <description>This research introduces a reasoning-based approach to translation evaluation using judge models, addressing a key gap in assessing translation quality. The discussion highlighted its practical implications for sectors like healthcare content localization and the broader importance of trustworthy evaluation frameworks, making it valuable reading for those focused on multilingual GenAI applications.</description>
+      <guid isPermaLink="false">510e095d9394be7232ede3e2f4fc17cd</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Textron takes flight with gen AI [ * ]</title>
+      <link>https://www.cio.com/article/4025048/textron-takes-flight-with-gen-ai.html</link>
+      <description>Textron, a major industrial conglomerate, is deploying GenAI at scale to assist over 1,500 maintenance workers in field operations. Analysts noted the strategic value in targeting high-impact, structured use cases like maintenance, and praised the company's rapid move from POC to deployment without getting bogged down in ROI concerns, making this a noteworthy example for other industrial enterprises.</description>
+      <guid isPermaLink="false">aa3cb8d80299c42cb5ef1a1488f1ad06</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Conversational image segmentation with Gemini 2.5 [ ~ ]</title>
+      <link>https://developers.googleblog.com/en/conversational-image-segmentation-gemini-2-5/</link>
+      <description>Google’s Gemini 2.5 introduces advanced conversational segmentation that allows users to refer to image elements abstractly (e.g., “the person not wearing a hard hat”) for real-time annotation and editing. Analysts acknowledged the technical progress and future potential in areas like robotics and military vision systems, but ultimately viewed it as another “everyday miracle” with no immediate application for most AI leaders, placing it in the optional category until more use cases and integrations emerge.</description>
+      <guid isPermaLink="false">d5a85c80f6e5de77ba4df294c727db2d</guid>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Udemy Introduces New MCP Server to Bring AI-Powered Learning Directly Into the Flow of Work [ ~ ]</title>
+      <link>https://about.udemy.com/press-releases/udemy-introduces-new-mcp-server-to-bring-ai-powered-learning-directly-into-the-flow-of-work/</link>
+      <description>Udemy’s new Model Connectivity Platform (MCP) server aims to embed AI-discoverable learning content within enterprise tools and chatbots. Despite aligning with the broader vision of just-in-time, workflow-integrated learning, analysts considered it a marginal release due to lack of detail on adoption or value creation, and also pointed to Udemy’s ongoing struggle with negative returns and shrinking assets as limiting its immediate impact.</description>
+      <guid isPermaLink="false">ef1f553e50f61076627c702843261b4e</guid>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design [ ~ ]</title>
+      <link>https://www.latentlabs.com/latent-x/</link>
+      <description>Latent Labs introduces Latent-X, a generative AI model capable of atom-level precision in protein binder design, claiming it can identify candidates with only 30–100 wet-lab samples instead of millions. Although the team highlighted its revolutionary potential, particularly for drug discovery and digital twins, analysts emphasized it remains a product announcement with domain-specific relevance, making it optional for most AI professionals outside life sciences.</description>
+      <guid isPermaLink="false">e6c6b46ba8ef68495e48537923394571</guid>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stargate advances with 4.5 GW partnership with Oracle [ ~ ]</title>
+      <link>https://openai.com/index/stargate-advances-with-partnership-with-oracle/</link>
+      <description>OpenAI and Oracle announce a partnership to build 4.5 GW of infrastructure capacity as part of the Stargate initiative. However, analysts unanimously regarded this as low-substance PR amid recent conflicting reports questioning the deal’s stability, describing it as a distraction for AI leaders and reflective more of tech hype cycles than tangible execution.</description>
+      <guid isPermaLink="false">59448dd159dfcdedb5bbd05b6ca45986</guid>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build AI in America [ ~ ]</title>
+      <link>https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf</link>
+      <description>Anthropic outlines a national strategy for U.S. AI infrastructure development, calling for 50 gigawatts of AI-specific power capacity by 2028 and 90 by 2050, leveraging federal lands and invoking defence legislation to streamline permitting. While the article is deeply detailed and offers valuable macro-context for AI growth, analysts agreed it's optional for practitioners since it's more policy-driven and lacks actionable insights for enterprise AI leaders; moreover, it reflects the interests of large model companies advocating for infrastructure favourable to their operations.</description>
+      <guid isPermaLink="false">f253aa6b1f6826db5ebe66b43ed13d53</guid>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kyruus builds a generative AI provider matching solution on AWS [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/kyruus-builds-a-generative-ai-provider-matching-solution-on-aws/</link>
+      <description>Kyruus has built a hybrid generative AI solution on AWS that helps match patients to appropriate healthcare providers, incorporating natural language input, medical taxonomy, and symptom interpretation. Analysts found this use case significant because it exemplifies LLMs acting as mediators across asymmetrical knowledge domains, bridging patient language and clinical terminology, and shows how AI can meaningfully enhance healthcare navigation without aiming for diagnostic precision.</description>
+      <guid isPermaLink="false">2dacf22c2d8b0c3152fa63c6a12b0f7e</guid>
+      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
