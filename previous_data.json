@@ -2,6 +2,146 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Pioneering an AI clinical copilot with Penda Health",
+        "links": [
+          "https://openai.com/index/ai-clinical-copilot-penda-health"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study highlights OpenAI’s partnership with Penda Health in Kenya, where an AI clinical copilot was integrated into physician workflows, resulting in a 16% improvement in diagnosis rates and a 13% reduction in treatment errors. Analysts emphasized that workflow integration was critical to adoption and effectiveness, demonstrating how enterprise-grade GenAI can drive measurable impact in healthcare, especially in resource-constrained environments, a blueprint for similar deployments globally.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Bay Area tech CEO apologizes after product goes 'rogue'",
+        "links": [
+          "https://www.sfgate.com/tech/article/bay-area-tech-product-rogue-ceo-apology-20780833.php"
+        ]
+      },
+      "Rationale": {
+        "text": "This story covers a major incident where a Replit agent, behaving autonomously, deleted a production database, prompting a public apology from the CEO. The panel linked this real-world mishap to broader concerns around agent alignment and the limits of our understanding of LLM behavior, reinforcing the urgent need for robust safety guardrails and interpretability in autonomous AI systems.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data",
+        "links": [
+          "https://alignment.anthropic.com/2025/subliminal-learning"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s research reveals that behavioral traits, such as preferences, can be unintentionally transferred from teacher to student models during distillation, even if those traits are not explicitly encoded. Analysts found this phenomenon of \"hidden signal transmission\" both fascinating and concerning, likening it to genetic inheritance in AI and warning that such implicit bias could propagate undetected through generations of models, especially from opaque sources.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Carta’s internal AI agents save thousands of hours of back-and-forth work",
+        "links": [
+          "https://www.firstround.com/ai/carta?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Carta’s implementation of internal AI agents streamlined repetitive processes by deeply integrating structured data, like Lucidchart diagrams, into prompts, saving thousands of hours of manual work. The discussion highlighted the article’s lessons on “context engineering,” stressing how domain-specific workflow integration and structured context (beyond RAG) can significantly enhance the effectiveness of enterprise LLM deployments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "LSM-2: Learning from incomplete wearable sensor data",
+        "links": [
+          "https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s LSM-2 project explores how models can handle missing or incomplete data from wearable sensors, offering promising results across millions of data points. Analysts agreed the work is algorithmically compelling, particularly for IoT and healthcare use cases, but viewed it as too early-stage or domain-specific to be broadly applicable to AI leaders today.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Market Clarity",
+        "links": [
+          "https://blog.eladgil.com/p/ai-market-clarity"
+        ]
+      },
+      "Rationale": {
+        "text": "Elad Gil outlines his framework for understanding AI startup segments and market potential in infrastructure, applications, and models. While the post brings together well-known ideas in a concise format, the group found it largely derivative and not particularly novel; useful mainly as a basic primer for newcomers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "DeepMind’s Quest for Self-Improving Table Tennis Agents",
+        "links": [
+          "https://spectrum.ieee.org/deepmind-table-tennis-robots"
+        ]
+      },
+      "Rationale": {
+        "text": "DeepMind’s table tennis project applies reinforcement learning to robotic agents capable of improving their performance through gameplay. Although this represents progress in physical AI and robotic learning, analysts noted it's largely relevant to those in robotics, making it a niche interest rather than a general priority for most AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/23/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "Google’s Gemini embeddings top benchmark charts and offer competitive pricing, but our analysts pointed out cheaper alternatives like Mistral, making it interesting but not a priority for enterprise adoption.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Kimi K2: Open Agentic Intelligence",
-        "links": [
-          "https://moonshotai.github.io/Kimi-K2/"
-        ]
-      },
-      "Rationale": {
-        "text": "Kimi K2 is an advanced open‑source mixture‑of‑experts model with 1 trillion parameters (32 B activated), demonstrating state‑of‑the‑art performance in agentic tasks, reasoning, and coding—surpassing rivals like DeepSeek V3 and U.S. models in benchmarks. Our analysts emphasized its significance: an “Open Agentic Intelligence” milestone that competitors are not yet matching, and a sign of increasing collaboration among Chinese AI labs accelerating innovation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Why xAI’s Grok Went Rogue",
-        "links": [
-          "https://archive.is/4GkX8#selection-543.0-543.25"
-        ]
-      },
-      "Rationale": {
-        "text": "This article explains how Grok, the chatbot from xAI, began producing unexpected outputs after a system prompt change—shedding light on the fragility of alignment mechanisms in generative AI systems. Analysts emphasized that this incident underscores a broader governance risk for public-facing AI tools, as it highlights how minor misconfigurations can quickly become brand-level liabilities if monitoring and safety protocols aren’t in place.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Hierarchical Modeling",
-        "links": [
-          "https://cartesia.ai/blog/hierarchical-modeling"
-        ]
-      },
-      "Rationale": {
-        "text": "This research introduces byte-based, hierarchical token chunking to enhance long-context understanding and multimodal efficiencies. While technically promising, our analyst team viewed it as early-stage R&D without immediate business impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Nestlé and IBM leverage AI and deep tech to unlock new packaging innovations",
-        "links": [
-          "https://www.nestle.com/about/research-development/news/ibm-ai-powered-sustainable-packaging"
-        ]
-      },
-      "Rationale": {
-        "text": "Nestlé is piloting IBM’s regression transformer to accelerate molecular design for sustainable packaging, marking a niche but functional use of AI in material science. Our analysts regarded it as a neat product announcement with a significant potential but lacking depth on practical deployment.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Hybrid jobs: How AI is rewriting work in finance",
-        "links": [
-          "https://www.brookings.edu/articles/hybrid-jobs-how-ai-is-rewriting-work-in-finance/"
-        ]
-      },
-      "Rationale": {
-        "text": "The Brookings feature summarizes how finance roles are evolving due to AI—shifting from data collection tasks to oversight. While timely, our analysts found little new insight, considering it a reinforcement of existing trends.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Grafana transforms observability workflows with Claude-powered multi-agent assistant",
-        "links": [
-          "https://www.anthropic.com/customers/grafana"
-        ]
-      },
-      "Rationale": {
-        "text": "Grafana has partnered with Anthropic to add Claude-powered natural language querying to its observability platform, allowing non-technical users to interact with structured system data more intuitively. However, our analysts noted that the term \"observability\" here refers to traditional infrastructure and IT system monitoring—not model-level observability for AI systems—making the use case valuable but ultimately narrow and lacking detail on measurable outcomes.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How to Build an Agent",
-        "links": [
-          "https://blog.langchain.com/how-to-build-an-agent"
-        ]
-      },
-      "Rationale": {
-        "text": "This guide provides a clear, step‑by‑step primer on designing, testing, and deploying AI agents in production—covering data collection, MVP building, safety checks, and orchestration. Our analysts praised it for demystifying agent creation, helping everyone from leaders to developers gain practical confidence in AI‑driven agentic content creation.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-24T08:19:14.799241+00:00"
+  "timestamp": "2025-07-24T16:15:44.665796+00:00"
 }
