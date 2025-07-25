@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Trump Administration Pledges to Stimulate AI Use and Exports",
+        "links": [
+          "https://archive.md/AfqbK"
+        ]
+      },
+      "Rationale": {
+        "text": "The Trump administration has unveiled a sweeping AI policy agenda promoting deregulation, exports, and infrastructure development, including nuclear energy and open-source model support. Analysts flagged this as essential due to its significant implications for AI infrastructure and the consolidation of a national AI policy amidst fragmented state-level efforts, making it highly relevant for AI leaders monitoring geopolitical and regulatory trends.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "GitHub Spark",
+        "links": [
+          "https://githubnext.com/projects/github-spark"
+        ]
+      },
+      "Rationale": {
+        "text": "GitHub Spark is a new tool aimed at rapid prototyping and MVP development using natural language, integrating closely with GitHub’s developer ecosystem. While promising for accelerating GenAI app development, its limited access (ProPlus only) and competition in a crowded space (e.g., Replit, Cursor) made analysts view this as important, not yet essential, for AI teams.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Qwen3-Coder-480B-A35B-Instruct Launch",
+        "links": [
+          "https://venturebeat.com/programming-development/qwen3-coder-480b-a35b-instruct-launches-and-it-might-be-the-best-coding-model-yet/"
+        ]
+      },
+      "Rationale": {
+        "text": "Alibaba's Qwen3-Coder, a sparse MoE model with high benchmark performance and a permissive Apache 2.0 license, signals major open-source advances in AI coding tools. Analysts considered this important due to its potential impact on enterprise adoption, open innovation, and the competitive positioning of Chinese AI models globally.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Gradient Labs transforms financial services customer support with Claude",
+        "links": [
+          "https://www.anthropic.com/customers/gradient-labs"
+        ]
+      },
+      "Rationale": {
+        "text": "Gradient Labs uses Claude to automate customer service in financial services, achieving high satisfaction and resolution rates. While impactful, the case study lacks implementation detail and broader economic metrics, limiting its utility for leaders seeking replicable strategies.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models",
+        "links": [
+          "https://arxiv.org/pdf/2507.14241"
+        ]
+      },
+      "Rationale": {
+        "text": "Salesforce's Promptomatix introduces a framework for automatic prompt optimization, aimed at improving LLM outputs. Analysts viewed it as academically solid but noted redundancy with LLMs' internal capabilities and its lack of open-source resources or deployment guidance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Building and evaluating alignment auditing agents",
+        "links": [
+          "https://alignment.anthropic.com/2025/automated-auditing/"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic shares internal research on evaluating model alignment using auditing agents as part of Claude Opus training. Despite being insightful and transparent, the limited current applicability and unclear implementation pathways led to it being rated as optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/24/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Google highlighted AI agents like Big Sleep and enhancements to Timesketch as part of its summer-long push into AI‑augmented cybersecurity. While the execs framed it as strategic positioning ahead of Black Hat and related conferences, our analysts judged it largely marketing support—important for security practitioners, but optional in broader AI news.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Unilever Used AI to Make Soap Go Viral",
-        "links": [
-          "https://www.wsj.com/articles/how-unilever-used-ai-to-make-soap-go-viral-8e723717"
-        ]
-      },
-      "Rationale": {
-        "text": "This WSJ story reveals how Unilever leveraged generative AI—not just internally but across tens of thousands of influencers—to remix content at scale, generating over 3.5 billion impressions and converting 52% new customers. Our analysts highlighted that AI-enabled \"digital twins\" and rapid content personalization are reshaping marketing networks and brand dynamics, making this a important for AI leaders in consumer and retail sectors.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Kiro",
-        "links": [
-          "https://kiro.dev/blog/introducing-kiro"
-        ]
-      },
-      "Rationale": {
-        "text": "AWS’s new \"agentic IDE\" ups the ante in AI-driven development by integrating spec‑driven workflows and production-ready hooks, bridging the gap between prototyping and maintainable code. Our analysts emphasized that Kiro could significantly accelerate the software development lifecycle—automating documentation, testing, and integration—making it an important tool for tech leaders managing complex codebases with AI automation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "New Grok‑4 AI Breached Within 48 Hours Using ‘Whispered’ Jailbreaks",
-        "links": [
-          "https://www.csoonline.com/article/4021749/new-grok-4-ai-breached-within-48-hours-using-whispered-jailbreaks.html"
-        ]
-      },
-      "Rationale": {
-        "text": "The CSO article reports a novel but familiar jailbreak tactic used on Grok‑4 that manipulates model behavior through subtle persuasion rather than explicit prompts. Our analysts noted this as another instance in a long line of jailbreak techniques that are already well understood by security professionals, making it optional rather than a strategic insight.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Is CUDA's Moat Cracking? The Rise of ROCm and the Role of Meta and OpenAI",
-        "links": [
-          "https://quixotry.app/articles/rocm-vs-cuda-ecosystem-analysis-competition-heating-up"
-        ]
-      },
-      "Rationale": {
-        "text": "The article explores ROCm’s emergence as a viable alternative to CUDA, backed by AMD and support from OpenAI and Meta. While interesting for infrastructure planning, our analysts noted it doesn’t signal an immediate paradigm shift in hardware stacks.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Mark Zuckerberg says Meta is building a 5 GW AI data center",
-        "links": [
-          "https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta’s ambitious 5 GW data center plans underscore the escalating scale arms race in AI infrastructure. Our analysts saw it as another sign of overspending on power and scale, but highlighted that talent remains the limiting factor.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Gemini Embedding now generally available in the Gemini API",
-        "links": [
-          "https://developers.googleblog.com/en/gemini-embedding-available-gemini-api/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s Gemini embeddings top benchmark charts and offer competitive pricing, but our analysts pointed out cheaper alternatives like Mistral, making it interesting but not a priority for enterprise adoption.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-25T08:18:11.867900+00:00"
+  "timestamp": "2025-07-25T16:16:12.660559+00:00"
 }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 25 Jul 2025 08:18:11 +0000</lastBuildDate>
-    <item>
-      <title>Gemini Embedding now generally available in the Gemini API [ ~ ]</title>
-      <link>https://developers.googleblog.com/en/gemini-embedding-available-gemini-api/</link>
-      <description>Google’s Gemini embeddings top benchmark charts and offer competitive pricing, but our analysts pointed out cheaper alternatives like Mistral, making it interesting but not a priority for enterprise adoption.</description>
-      <guid isPermaLink="false">4b4b8b021cd808240c0402e3a57b8812</guid>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mark Zuckerberg says Meta is building a 5 GW AI data center [ ~ ]</title>
-      <link>https://techcrunch.com/2025/07/14/mark-zuckerberg-says-meta-is-building-a-5gw-ai-data-center</link>
-      <description>Meta’s ambitious 5 GW data center plans underscore the escalating scale arms race in AI infrastructure. Our analysts saw it as another sign of overspending on power and scale, but highlighted that talent remains the limiting factor.</description>
-      <guid isPermaLink="false">09fdcacc2581043161106f85fd7c8d67</guid>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Is CUDA's Moat Cracking? The Rise of ROCm and the Role of Meta and OpenAI [ ~ ]</title>
-      <link>https://quixotry.app/articles/rocm-vs-cuda-ecosystem-analysis-competition-heating-up</link>
-      <description>The article explores ROCm’s emergence as a viable alternative to CUDA, backed by AMD and support from OpenAI and Meta. While interesting for infrastructure planning, our analysts noted it doesn’t signal an immediate paradigm shift in hardware stacks.</description>
-      <guid isPermaLink="false">07ecacec891755a490db8e6e6bbdb836</guid>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New Grok‑4 AI Breached Within 48 Hours Using ‘Whispered’ Jailbreaks [ ~ ]</title>
-      <link>https://www.csoonline.com/article/4021749/new-grok-4-ai-breached-within-48-hours-using-whispered-jailbreaks.html</link>
-      <description>The CSO article reports a novel but familiar jailbreak tactic used on Grok‑4 that manipulates model behavior through subtle persuasion rather than explicit prompts. Our analysts noted this as another instance in a long line of jailbreak techniques that are already well understood by security professionals, making it optional rather than a strategic insight.</description>
-      <guid isPermaLink="false">7e32bc8e823416a3063e4c0244d5df74</guid>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Kiro [ * ]</title>
-      <link>https://kiro.dev/blog/introducing-kiro</link>
-      <description>AWS’s new "agentic IDE" ups the ante in AI-driven development by integrating spec‑driven workflows and production-ready hooks, bridging the gap between prototyping and maintainable code. Our analysts emphasized that Kiro could significantly accelerate the software development lifecycle—automating documentation, testing, and integration—making it an important tool for tech leaders managing complex codebases with AI automation.</description>
-      <guid isPermaLink="false">d8c473fdaf179781118fdfe7601ccfc3</guid>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Unilever Used AI to Make Soap Go Viral [ * ]</title>
-      <link>https://www.wsj.com/articles/how-unilever-used-ai-to-make-soap-go-viral-8e723717</link>
-      <description>This WSJ story reveals how Unilever leveraged generative AI—not just internally but across tens of thousands of influencers—to remix content at scale, generating over 3.5 billion impressions and converting 52% new customers. Our analysts highlighted that AI-enabled "digital twins" and rapid content personalization are reshaping marketing networks and brand dynamics, making this a important for AI leaders in consumer and retail sectors.</description>
-      <guid isPermaLink="false">6c08750c1e59d99c94d7b6835894b851</guid>
-      <pubDate>Tue, 15 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 25 Jul 2025 16:16:12 +0000</lastBuildDate>
     <item>
       <title>A summer of security: empowering cyber defenders with AI [ ~ ]</title>
       <link>https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/?s=09</link>
@@ -357,6 +315,48 @@
       <description>This case study highlights OpenAI’s partnership with Penda Health in Kenya, where an AI clinical copilot was integrated into physician workflows, resulting in a 16% improvement in diagnosis rates and a 13% reduction in treatment errors. Analysts emphasized that workflow integration was critical to adoption and effectiveness, demonstrating how enterprise-grade GenAI can drive measurable impact in healthcare, especially in resource-constrained environments, a blueprint for similar deployments globally.</description>
       <guid isPermaLink="false">bb52d929c57888978600e6d8d69a188e</guid>
       <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building and evaluating alignment auditing agents [ ~ ]</title>
+      <link>https://alignment.anthropic.com/2025/automated-auditing/</link>
+      <description>Anthropic shares internal research on evaluating model alignment using auditing agents as part of Claude Opus training. Despite being insightful and transparent, the limited current applicability and unclear implementation pathways led to it being rated as optional.</description>
+      <guid isPermaLink="false">158fa47a0e3d65302e40bb6a6e1bc8e7</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models [ ~ ]</title>
+      <link>https://arxiv.org/pdf/2507.14241</link>
+      <description>Salesforce's Promptomatix introduces a framework for automatic prompt optimization, aimed at improving LLM outputs. Analysts viewed it as academically solid but noted redundancy with LLMs' internal capabilities and its lack of open-source resources or deployment guidance.</description>
+      <guid isPermaLink="false">c968db2ea87828412b6bd5d0bbdad1d4</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gradient Labs transforms financial services customer support with Claude [ ~ ]</title>
+      <link>https://www.anthropic.com/customers/gradient-labs</link>
+      <description>Gradient Labs uses Claude to automate customer service in financial services, achieving high satisfaction and resolution rates. While impactful, the case study lacks implementation detail and broader economic metrics, limiting its utility for leaders seeking replicable strategies.</description>
+      <guid isPermaLink="false">0983b8a7b8c8b1aee89f7b992da034db</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen3-Coder-480B-A35B-Instruct Launch [ * ]</title>
+      <link>https://venturebeat.com/programming-development/qwen3-coder-480b-a35b-instruct-launches-and-it-might-be-the-best-coding-model-yet/</link>
+      <description>Alibaba's Qwen3-Coder, a sparse MoE model with high benchmark performance and a permissive Apache 2.0 license, signals major open-source advances in AI coding tools. Analysts considered this important due to its potential impact on enterprise adoption, open innovation, and the competitive positioning of Chinese AI models globally.</description>
+      <guid isPermaLink="false">7678ba4895ebef73931d0bbab8cdb34d</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GitHub Spark [ * ]</title>
+      <link>https://githubnext.com/projects/github-spark</link>
+      <description>GitHub Spark is a new tool aimed at rapid prototyping and MVP development using natural language, integrating closely with GitHub’s developer ecosystem. While promising for accelerating GenAI app development, its limited access (ProPlus only) and competition in a crowded space (e.g., Replit, Cursor) made analysts view this as important, not yet essential, for AI teams.</description>
+      <guid isPermaLink="false">3b33705d62c873bb00a2a61015f5dc42</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump Administration Pledges to Stimulate AI Use and Exports [ ! ]</title>
+      <link>https://archive.md/AfqbK</link>
+      <description>The Trump administration has unveiled a sweeping AI policy agenda promoting deregulation, exports, and infrastructure development, including nuclear energy and open-source model support. Analysts flagged this as essential due to its significant implications for AI infrastructure and the consolidation of a national AI policy amidst fragmented state-level efforts, making it highly relevant for AI leaders monitoring geopolitical and regulatory trends.</description>
+      <guid isPermaLink="false">48896cd2e55d6f22d354546c716e7991</guid>
+      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
