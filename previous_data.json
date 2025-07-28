@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "It’s Qwen’s summer: new open source Qwen3‑235B‑A22B‑Thinking‑2507 tops OpenAI, Gemini reasoning models on key benchmarks",
+        "links": [
+          "https://venturebeat.com/ai/its-qwens-summer-new-open-source-qwen3-235b-a22b-thinking-2507-tops-openai-gemini-reasoning-models-on-key-benchmarks/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces Alibaba’s Qwen3‑235B‑A22B‑Thinking‑2507, an open‑source language model that outperforms proprietary models from OpenAI o4-mini and Google Gemini 2.5 Pro on key reasoning benchmarks. Our analysts emphasized its strategic significance: it positions Qwen as a serious open‑source competitor in large‑language‑model landscape for enterprise applications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Hacker inserts destructive code in Amazon Q tool as update goes live",
+        "links": [
+          "https://www.csoonline.com/article/4027963/hacker-inserts-destructive-code-in-amazon-q-as-update-goes-live.html"
+        ]
+      },
+      "Rationale": {
+        "text": "This CSO report covers a prompt‑injection attack in Amazon Q’s that attempted to delete local files and AWS resources when the update (version 1.84) was published. Although the malicious code never executed, AWS pulled the update, released a patched version (1.85), and revised contribution guidelines within days to mitigate further risk. Our analysts flagged this as a wake‑up call on AI safety and pipeline security—highlighting an urgent need for traceability and observability in developer workflows.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Opal: describe, create, and share your AI mini‑apps",
+        "links": [
+          "https://developers.googleblog.com/en/introducing-opal/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google has launched Opal, a no‑code AI mini‑app builder in beta (currently U.S.‑only) that allows users to assemble workflows with natural language prompts and a visual logic editor—enabling prototype deployment without coding. Our analysts highlighted it as a marker of the broader “vibe‑coding” trend underscoring its relevance for democratizing development even though the market is already crowded with similar tools.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Runway Aleph",
+        "links": [
+          "https://x.com/runwayml/status/1949398599894257748"
+        ]
+      },
+      "Rationale": {
+        "text": "Runway launches Aleph, a state‑of‑the‑art video model that lets users edit and generate video content in context—such as changing camera angles, replacing objects, adjusting lighting, or re‑texturing scenes via text prompts or image references. Our analysts noted its significance for synthetic media and post‑production workflows, particularly for enterprise use cases like scenario modeling, training, or interactive demos.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Deep Researcher with Test-Time Diffusion",
+        "links": [
+          "https://arxiv.org/abs/2507.16075"
+        ]
+      },
+      "Rationale": {
+        "text": "The TTD‑DR (Test‑Time Diffusion Deep Researcher) framework applies iterative refinement and external retrieval at inference time—mirroring human research cycles to produce rigorously fact‑checked, high‑quality reports. While some of our analysts viewed it as more academic than actionable, others regarded it as a pivotal evolution for LLM‑powered research agents, emphasizing growing demand in proof‑based enterprise workflows over speed alone.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Personalized learning support at scale: How UT Austin built a generative AI tutor platform on AWS",
+        "links": [
+          "https://aws.amazon.com/blogs/publicsector/personalized-learning-support-at-scale-how-ut-austin-built-a-generative-ai-tutor-platform-on-aws/"
+        ]
+      },
+      "Rationale": {
+        "text": "This AWS blog describes UT Sage, a generative AI tutor platform co‑developed by UT Austin and AWS that offers faculty‑guided chatbots for students using responsible AI frameworks. Our analysts appreciated the education focus and platform architecture, but found details minimal—leaving questions about actual impact and adoption metrics, so they rated it optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/25/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This survey aggregates responses from over 1,000 enterprises, offering key AI‑driven adoption trends in engineering, support, and sales that help AI leaders make strategic decisions. Our analysts noted its strong visuals, directional insights, and surprising data—such as 32% in favor of building their own systems and significant Chinese model uptake—even if one must “take it with a grain of salt.”",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Anthropic launches finance-specific Claude with built-in data connectors, higher limits and prompt libraries",
-        "links": [
-          "https://venturebeat.com/ai/financial-firms-get-a-purpose-built-claude-as-anthropic-bets-on-vertical-ai-platforms/"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic has tailored Claude specifically for finance, integrating data sources like Morningstar and FactSet, and beefing up rate limits and libraries to meet analyst workflows. Our analysts highlighted that this marks a maturation of enterprise AI—while its initial impact may be niche, it sets the stage for future sector-specific, Bloomberg‑style innovation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Meta’s New Superintelligence Lab Is Discussing Major A.I. Strategy Changes",
-        "links": [
-          "https://www.nytimes.com/2025/07/14/technology/meta-superintelligence-lab-ai.html"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta is reportedly exploring a strategic pivot from open-source work (e.g., Behemoth) to a closed-model approach under its new superintelligence division led by Alexander Wang—a potential philosophical shift that could reshape the open‑source AI landscape. Our analysts flagged the significance of this direction for builders relying on open models and noted that Zuckerberg’s ability to fund both tracks gives Meta strategic flexibility.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Liquid AI Launches LEAP and Apollo",
-        "links": [
-          "https://www.liquid.ai/blog/liquid-ai-launches-leap-and-apollo-bringing-edge-ai-to-every-developer"
-        ]
-      },
-      "Rationale": {
-        "text": "Liquid AI unveiled LEAP, a developer‑first edge‑AI platform with OS‑ and model‑agnostic SDKs, plus Apollo, a consumer-facing app—making small language models runnable offline on mobile without cloud dependency. Our analysts characterized this as a leap forward for LLMs on device, highlighting its low latency, zero‑infrastructure deployment, and future relevance to IoT, robotics, and energy‑intelligent applications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Trump announces billions in investments to make Pennsylvania an AI hub",
-        "links": [
-          "https://www.theverge.com/news/707369/trump-ai-energy-investments-pennsylvania-billions"
-        ]
-      },
-      "Rationale": {
-        "text": "Former President Trump touted over $90 billion in private AI and energy commitments at Carnegie Mellon, including investments from Google, Blackstone, CoreWeave, Meta, and Anthropic—linking AI expansion to infrastructure and fossil/nuclear energy. Our analysts viewed it as a politically savvy move to fund in-demand AI capacity—but cautioned that energy investment without research talent (“the sound of one hand clapping”) may limit impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Mistral releases Voxtral, its first open source AI audio model",
-        "links": [
-          "https://techcrunch.com/2025/07/15/mistral-releases-voxtral-its-first-open-source-ai-audio-model/"
-        ]
-      },
-      "Rationale": {
-        "text": "Voxtral is Mistral’s open-source audio model pitched as enterprise-ready, reportedly outperforming Whisper, GPT‑4o‑mini, Gemini 2.5 Flash, and ElevenLabs in transcription, summarization, translation, and multilingual usage. Analysts regarded it as a solid product development—but deemed it optional, noting Mistral’s waning market share and the crowded open‑model landscape.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "A summer of security: empowering cyber defenders with AI",
-        "links": [
-          "https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Google highlighted AI agents like Big Sleep and enhancements to Timesketch as part of its summer-long push into AI‑augmented cybersecurity. While the execs framed it as strategic positioning ahead of Black Hat and related conferences, our analysts judged it largely marketing support—important for security practitioners, but optional in broader AI news.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-28T08:20:46.669826+00:00"
+  "timestamp": "2025-07-28T16:18:03.206893+00:00"
 }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 28 Jul 2025 08:20:46 +0000</lastBuildDate>
-    <item>
-      <title>A summer of security: empowering cyber defenders with AI [ ~ ]</title>
-      <link>https://blog.google/technology/safety-security/cybersecurity-updates-summer-2025/?s=09</link>
-      <description>Google highlighted AI agents like Big Sleep and enhancements to Timesketch as part of its summer-long push into AI‑augmented cybersecurity. While the execs framed it as strategic positioning ahead of Black Hat and related conferences, our analysts judged it largely marketing support—important for security practitioners, but optional in broader AI news.</description>
-      <guid isPermaLink="false">f04b06433fcc3c85e1b4781a031a4877</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mistral releases Voxtral, its first open source AI audio model [ ~ ]</title>
-      <link>https://techcrunch.com/2025/07/15/mistral-releases-voxtral-its-first-open-source-ai-audio-model/</link>
-      <description>Voxtral is Mistral’s open-source audio model pitched as enterprise-ready, reportedly outperforming Whisper, GPT‑4o‑mini, Gemini 2.5 Flash, and ElevenLabs in transcription, summarization, translation, and multilingual usage. Analysts regarded it as a solid product development—but deemed it optional, noting Mistral’s waning market share and the crowded open‑model landscape.</description>
-      <guid isPermaLink="false">99fbc5ceb23cae6aa02c512b19eb20a9</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump announces billions in investments to make Pennsylvania an AI hub [ * ]</title>
-      <link>https://www.theverge.com/news/707369/trump-ai-energy-investments-pennsylvania-billions</link>
-      <description>Former President Trump touted over $90 billion in private AI and energy commitments at Carnegie Mellon, including investments from Google, Blackstone, CoreWeave, Meta, and Anthropic—linking AI expansion to infrastructure and fossil/nuclear energy. Our analysts viewed it as a politically savvy move to fund in-demand AI capacity—but cautioned that energy investment without research talent (“the sound of one hand clapping”) may limit impact.</description>
-      <guid isPermaLink="false">3c2d28eb656167d2c1c0cc85f9aa3399</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Liquid AI Launches LEAP and Apollo [ * ]</title>
-      <link>https://www.liquid.ai/blog/liquid-ai-launches-leap-and-apollo-bringing-edge-ai-to-every-developer</link>
-      <description>Liquid AI unveiled LEAP, a developer‑first edge‑AI platform with OS‑ and model‑agnostic SDKs, plus Apollo, a consumer-facing app—making small language models runnable offline on mobile without cloud dependency. Our analysts characterized this as a leap forward for LLMs on device, highlighting its low latency, zero‑infrastructure deployment, and future relevance to IoT, robotics, and energy‑intelligent applications.</description>
-      <guid isPermaLink="false">74c2d45d14638dfd13d4a86fa67600f2</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meta’s New Superintelligence Lab Is Discussing Major A.I. Strategy Changes [ * ]</title>
-      <link>https://www.nytimes.com/2025/07/14/technology/meta-superintelligence-lab-ai.html</link>
-      <description>Meta is reportedly exploring a strategic pivot from open-source work (e.g., Behemoth) to a closed-model approach under its new superintelligence division led by Alexander Wang—a potential philosophical shift that could reshape the open‑source AI landscape. Our analysts flagged the significance of this direction for builders relying on open models and noted that Zuckerberg’s ability to fund both tracks gives Meta strategic flexibility.</description>
-      <guid isPermaLink="false">c55164d7f118f7d6fe15541494c09957</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic launches finance-specific Claude with built-in data connectors, higher limits and prompt libraries [ * ]</title>
-      <link>https://venturebeat.com/ai/financial-firms-get-a-purpose-built-claude-as-anthropic-bets-on-vertical-ai-platforms/</link>
-      <description>Anthropic has tailored Claude specifically for finance, integrating data sources like Morningstar and FactSet, and beefing up rate limits and libraries to meet analyst workflows. Our analysts highlighted that this marks a maturation of enterprise AI—while its initial impact may be niche, it sets the stage for future sector-specific, Bloomberg‑style innovation.</description>
-      <guid isPermaLink="false">1a8d57a8fd7a7b1b2f08f874c0fbfc50</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 28 Jul 2025 16:18:03 +0000</lastBuildDate>
     <item>
       <title>AI Adoption Survey – H1 2025 [ ! ]</title>
       <link>https://artificialanalysis.ai/downloads/ai-adoption-survey/2025/Artificial-Analysis-AI-Adoption-Survey-H1-2025.pdf</link>
@@ -357,6 +315,48 @@
       <description>The Trump administration has unveiled a sweeping AI policy agenda promoting deregulation, exports, and infrastructure development, including nuclear energy and open-source model support. Analysts flagged this as essential due to its significant implications for AI infrastructure and the consolidation of a national AI policy amidst fragmented state-level efforts, making it highly relevant for AI leaders monitoring geopolitical and regulatory trends.</description>
       <guid isPermaLink="false">48896cd2e55d6f22d354546c716e7991</guid>
       <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personalized learning support at scale: How UT Austin built a generative AI tutor platform on AWS [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/publicsector/personalized-learning-support-at-scale-how-ut-austin-built-a-generative-ai-tutor-platform-on-aws/</link>
+      <description>This AWS blog describes UT Sage, a generative AI tutor platform co‑developed by UT Austin and AWS that offers faculty‑guided chatbots for students using responsible AI frameworks. Our analysts appreciated the education focus and platform architecture, but found details minimal—leaving questions about actual impact and adoption metrics, so they rated it optional.</description>
+      <guid isPermaLink="false">9472ebebdf1262c092ae2e0ca3111f35</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deep Researcher with Test-Time Diffusion [ * ]</title>
+      <link>https://arxiv.org/abs/2507.16075</link>
+      <description>The TTD‑DR (Test‑Time Diffusion Deep Researcher) framework applies iterative refinement and external retrieval at inference time—mirroring human research cycles to produce rigorously fact‑checked, high‑quality reports. While some of our analysts viewed it as more academic than actionable, others regarded it as a pivotal evolution for LLM‑powered research agents, emphasizing growing demand in proof‑based enterprise workflows over speed alone.</description>
+      <guid isPermaLink="false">42fb405c190b193fb30c8a3e88e07398</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Runway Aleph [ * ]</title>
+      <link>https://x.com/runwayml/status/1949398599894257748</link>
+      <description>Runway launches Aleph, a state‑of‑the‑art video model that lets users edit and generate video content in context—such as changing camera angles, replacing objects, adjusting lighting, or re‑texturing scenes via text prompts or image references. Our analysts noted its significance for synthetic media and post‑production workflows, particularly for enterprise use cases like scenario modeling, training, or interactive demos.</description>
+      <guid isPermaLink="false">c5fc73a943d04dd211cf4e587cc42ec9</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Opal: describe, create, and share your AI mini‑apps [ * ]</title>
+      <link>https://developers.googleblog.com/en/introducing-opal/</link>
+      <description>Google has launched Opal, a no‑code AI mini‑app builder in beta (currently U.S.‑only) that allows users to assemble workflows with natural language prompts and a visual logic editor—enabling prototype deployment without coding. Our analysts highlighted it as a marker of the broader “vibe‑coding” trend underscoring its relevance for democratizing development even though the market is already crowded with similar tools.</description>
+      <guid isPermaLink="false">e6eef66482f195876837af9f2be1d610</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hacker inserts destructive code in Amazon Q tool as update goes live [ * ]</title>
+      <link>https://www.csoonline.com/article/4027963/hacker-inserts-destructive-code-in-amazon-q-as-update-goes-live.html</link>
+      <description>This CSO report covers a prompt‑injection attack in Amazon Q’s that attempted to delete local files and AWS resources when the update (version 1.84) was published. Although the malicious code never executed, AWS pulled the update, released a patched version (1.85), and revised contribution guidelines within days to mitigate further risk. Our analysts flagged this as a wake‑up call on AI safety and pipeline security—highlighting an urgent need for traceability and observability in developer workflows.</description>
+      <guid isPermaLink="false">71c3c984a97c8b2c279eb7b652c10421</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>It’s Qwen’s summer: new open source Qwen3‑235B‑A22B‑Thinking‑2507 tops OpenAI, Gemini reasoning models on key benchmarks [ ! ]</title>
+      <link>https://venturebeat.com/ai/its-qwens-summer-new-open-source-qwen3-235b-a22b-thinking-2507-tops-openai-gemini-reasoning-models-on-key-benchmarks/</link>
+      <description>This article introduces Alibaba’s Qwen3‑235B‑A22B‑Thinking‑2507, an open‑source language model that outperforms proprietary models from OpenAI o4-mini and Google Gemini 2.5 Pro on key reasoning benchmarks. Our analysts emphasized its strategic significance: it positions Qwen as a serious open‑source competitor in large‑language‑model landscape for enterprise applications.</description>
+      <guid isPermaLink="false">64383b5750eaf147f3fe164d2a8f431a</guid>
+      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
