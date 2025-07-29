@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 29 Jul 2025 08:18:51 +0000</lastBuildDate>
-    <item>
-      <title>AI Adoption Survey – H1 2025 [ ! ]</title>
-      <link>https://artificialanalysis.ai/downloads/ai-adoption-survey/2025/Artificial-Analysis-AI-Adoption-Survey-H1-2025.pdf</link>
-      <description>This survey aggregates responses from over 1,000 enterprises, offering key AI‑driven adoption trends in engineering, support, and sales that help AI leaders make strategic decisions. Our analysts noted its strong visuals, directional insights, and surprising data—such as 32% in favor of building their own systems and significant Chinese model uptake—even if one must “take it with a grain of salt.”</description>
-      <guid isPermaLink="false">897feb028e5df2b7e920ab7fddbbbdbe</guid>
-      <pubDate>Wed, 16 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chain of Thought Monitorability: A New and Fragile Opportunity for AI Safety [ ~ ]</title>
-      <link>https://arxiv.org/abs/2507.11473</link>
-      <description>This position paper argues for greater transparency in large language models via chain-of-thought outputs to enhance AI safety and monitorability. Despite being authored by major AI labs, our analysts felt it was a research-centric discussion with limited immediate applicability for enterprise AI leaders and lacked actionable takeaways.</description>
-      <guid isPermaLink="false">55a6d30445013735385912faa2927c4c</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lloyds Bank Rolls Out Generative AI Tool Athena [ ~ ]</title>
-      <link>https://www.pymnts.com/news/banking/2025/lloyds-bank-rolls-out-generative-ai-tool-athena/</link>
-      <description>Lloyds Bank launched Athena, a generative AI assistant that enables employees to quickly retrieve customer-facing content from over 13,000 internal documents. While adoption figures were strong, our analysts found the article lacking in implementation details and concrete impact, framing it as a typical but under-documented enterprise use case of AI in finance.</description>
-      <guid isPermaLink="false">ddd1b04b3e0156b13c28a792b9a59a78</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How PayU built a secure enterprise AI assistant using Amazon Bedrock [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-payu-built-a-secure-enterprise-ai-assistant-using-amazon-bedrock/</link>
-      <description>PayU's case study describes how it leveraged Amazon Bedrock to deploy a secure AI assistant using private cloud connections and rigorous access control. Our analysts praised the technical clarity and architectural transparency, especially around AI security, though noted that measured business outcomes were still early and lightly quantified.</description>
-      <guid isPermaLink="false">5fbc8ed215791d6531d9cb24f22c4057</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google rolls out AI-powered business calling feature, brings Gemini 2.5 Pro to AI Mode [ * ]</title>
-      <link>https://techcrunch.com/2025/07/16/google-rolls-out-ai-powered-business-calling-feature-brings-gemini-2-5-pro-to-ai-mode/</link>
-      <description>Google introduced a business-calling AI that can autonomously contact local businesses to gather information on pricing and availability, aiming to remove the friction of live calls for consumers and small businesses. In parallel, Google enhanced its AI Mode in Search by upgrading it to Gemini 2.5 Pro for premium users. Our analyst highlighted this as an important step toward more powerful, multi-part AI-driven queries that signal evolving monetization strategies and the growing role of conversational interfaces in search and commerce.</description>
-      <guid isPermaLink="false">d860b2be340e71001b158bb1e72262b8</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AWS announces new innovations for building AI agents at AWS Summit New York 2025 [ * ]</title>
-      <link>https://www.aboutamazon.com/news/aws/aws-summit-agentic-ai-innovations-2025?s=09</link>
-      <description>AWS revealed a suite of tools—including Agent Core with Interpreter, and observability features—designed to simplify the creation and deployment of AI agents. Though the updates were seen as iterative rather than groundbreaking, our analysts agreed this continues AWS’s momentum in agentic AI development and warrants attention from AI leaders.</description>
-      <guid isPermaLink="false">784deae11441f5205fd94c5b6f087df3</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 29 Jul 2025 16:15:53 +0000</lastBuildDate>
     <item>
       <title>CollabLLM: Teaching LLMs to collaborate with users [ ! ]</title>
       <link>https://www.microsoft.com/en-us/research/blog/collabllm-teaching-llms-to-collaborate-with-users/</link>
@@ -357,6 +315,48 @@
       <description>This article introduces Alibaba’s Qwen3‑235B‑A22B‑Thinking‑2507, an open‑source language model that outperforms proprietary models from OpenAI o4-mini and Google Gemini 2.5 Pro on key reasoning benchmarks. Our analysts emphasized its strategic significance: it positions Qwen as a serious open‑source competitor in large‑language‑model landscape for enterprise applications.</description>
       <guid isPermaLink="false">64383b5750eaf147f3fe164d2a8f431a</guid>
       <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Bitter Lesson versus The Garbage Can [ ~ ]</title>
+      <link>https://www.oneusefulthing.org/p/the-bitter-lesson-versus-the-garbage</link>
+      <description>This article compares the AI “bitter lesson”—that brute‑force computation outperforms crafted heuristics—with organizational models of chaos (the “garbage can”), arguing for outcome‑focused design over process mapping. Our analysts found the framing superficial and too theoretical for AI practitioners, making it a thought‑provoking but non‑essential read.</description>
+      <guid isPermaLink="false">077484381546c81eece4e173bd0c3626</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>FastVLM: Efficient Vision Encoding for Vision Language Models [ ~ ]</title>
+      <link>https://machinelearning.apple.com/research/fast-vision-language-models</link>
+      <description>Apple’s FastVLM research proposes architecture optimizations for vision‑language models to run efficiently on mobile and edge devices, reducing latency and energy use. While respected for its technical merit, our analysts noted it's early and device‑focused research, offering vision reasoning promise but limited immediate applicability.</description>
+      <guid isPermaLink="false">7c2af78f83f41e9b96e59e84386b7f7c</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How PerformLine uses prompt engineering on Amazon Bedrock to detect compliance violations [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-performline-uses-prompt-engineering-on-amazon-bedrock-to-detect-compliance-violations/</link>
+      <description>This AWS case study details how PerformLine built a compliance validation system using prompt engineering on Amazon Bedrock to parse millions of marketing pages, flag violations, version prompts centrally, and enhance throughput while reducing labor effort. Our analysts agreed it offers tangible design‑pattern lessons on prompt versioning, auditability, and latency trade‑offs—valuable for teams building regulated enterprise AI systems.</description>
+      <guid isPermaLink="false">018b56519b5edf4ba4a00951233a78d8</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Anthropic teams use Claude Code [ * ]</title>
+      <link>https://www.anthropic.com/news/how-anthropic-teams-use-claude-code</link>
+      <description>An inside look at how Anthropic’s teams leverage Claude Code across functions—from legal to marketing—via prompt engineering to streamline workflows and unlock AI‑driven productivity. Our analysts valued the breadth of use cases and corporate reflection, though considered it not critical priority, recommending it remain on radar for AI leaders designing workflows and prompt‑driven systems.</description>
+      <guid isPermaLink="false">b6dc3555c790320632e8fc08228ca045</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GLM‑4.5: Reasoning, Coding, and Agentic Abilities [ * ]</title>
+      <link>https://z.ai/blog/glm-4.5</link>
+      <description>Z.ai's release of GLM‑4.5, an open‑source LLM optimized for reasoning, coding, and agentic tasks, achieves third‑place ranking across 12 benchmarks, matching or exceeding competitors in some tests while significantly improving efficiency and token cost over DeepSeek. Our analysts emphasized its significance as part of the growing wave of Chinese open‑source AI, noting that enterprises and policymakers should watch the rapid competitive intensity and openness of this development.</description>
+      <guid isPermaLink="false">abf99ef49f571d1b417cbc67c600f0ef</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Copilot Mode in Edge: A new way to browse the web [ * ]</title>
+      <link>https://blogs.windows.com/msedgedev/2025/07/28/introducing-copilot-mode-in-edge-a-new-way-to-browse-the-web/</link>
+      <description>Microsoft has rolled out Copilot Mode in Edge—a new AI‑powered feature in Edge that unifies chat, search, and navigation in a clean interface, enabling users to compare tabs, summarize content, and execute tasks like bookings via voice or text with optional access to history and credentials. Our analysts flagged it as strategic for the “browser wars,” noting Microsoft's market penetration and ambition to turn Edge into a more agentic interface, though they remain cautious about execution quality.</description>
+      <guid isPermaLink="false">38c4a6ec49793a779192a4c3828d7d35</guid>
+      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
