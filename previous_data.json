@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Writer launches a ‘super agent’ that actually gets sh*t done, outperforms OpenAI on key benchmarks",
+        "links": [
+          "https://venturebeat.com/ai/writer-launches-a-super-agent-that-actually-gets-sht-done-outperforms-openai-on-key-benchmarks/"
+        ]
+      },
+      "Rationale": {
+        "text": "Writer’s new Action Agent autonomously executes complex, multi-step enterprise tasks leveraging 600+ tools, with top scores on GAIA Level 3 and the CUB benchmark—surpassing OpenAI’s comparable systems. Our analysts praised its enterprise-grade governance, auditability, and security, viewing it as a watershed moment in AI automation and agentic systems especially for regulated industries.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Video Overviews and an upgraded Studio in Notebook LM",
+        "links": [
+          "https://blog.google/technology/google-labs/notebooklm-video-overviews-studio-upgrades"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s NotebookLM now generates narrated slideshows—called Video Overviews—that combine visuals, quotes, diagrams, and data from uploaded documents, offering a richer learning format beyond existing Audio Overviews. Our analysts highlighted its significance for enterprise learning programs and education use cases, noting the feature’s slide-based delivery and the revamped Studio panel make it transformational for organizations adopting AI-driven content creation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing study mode",
+        "links": [
+          "https://openai.com/index/chatgpt-study-mode/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI’s ChatGPT Study Mode introduces structured, Socratic-style guidance designed to support actual learning rather than simply providing answers. Our analysts underscored its broad availability across customer plans and its potential to reposition ChatGPT as an educational tutor—not just a shortcut tool—impacting both students and enterprise learning strategies.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Optimizing enterprise AI assistants: How Crypto.com uses LLM reasoning and feedback for enhanced efficiency",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/optimizing-enterprise-ai-assistants-how-crypto-com-uses-llm-reasoning-and-feedback-for-enhanced-efficiency/"
+        ]
+      },
+      "Rationale": {
+        "text": "Crypto.com’s case study demonstrates an effective prompt‑optimization workflow using reasoning LLMs to iteratively refine prompts, delivering a 34-percentage point lift in classification accuracy over just ten iterations. Our analysts saw this as a broadly applicable prompt‑engineering methodology for enterprise AI assistants.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Routine: A Structural Planning Framework for LLM Agent System in Enterprise",
+        "links": [
+          "https://arxiv.org/abs/2507.14447"
+        ]
+      },
+      "Rationale": {
+        "text": "This academic paper proposes a structured planning framework for enterprise LLM agents—advancing tool‑calling and context engineering ideas—but remains theoretical. Our analysts viewed it as conceptually important yet not immediately actionable for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/30/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Outtake’s agents resolve cybersecurity attacks in hours with OpenAI",
+        "links": [
+          "https://openai.com/index/outtake/"
+        ]
+      },
+      "Rationale": {
+        "text": "Outtake’s agents leveraging OpenAI models claim rapid cybersecurity resolution across large threat surfaces—impressive in scope but lacking published metrics or detailed methodology. Our analysts felt the article offered limited concrete insights despite being in an important domain.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/29/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Bank of America reported reducing headcount from 300K to 212K while expanding deposits from $400B to $900B over 15 years, underscoring AI-driven productivity gains across major financial institutions. Our analysts noted that BofA dedicates ~25% of its $13B tech budget to AI and ML—sending a strong message to enterprise leaders to invest boldly in AI over the long term.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI launches a general purpose agent in ChatGPT",
-        "links": [
-          "https://techcrunch.com/2025/07/17/openai-launches-a-general-purpose-agent-in-chatgpt/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI has introduced the new “ChatGPT Agent,” a model combining browsing, research, and code tools into a unified, autonomous assistant capable of handling complex tasks like booking plans and creating presentations on its own. Our analysts highlighted its significance as an incremental leap—scoring ~42% on Humanity’s Last Exam and demonstrating serious agent-level capability under the hood (PowerPoint editing, terminal use), making it essential for AI leaders to follow closely.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Accenture scales video analysis with Amazon Nova and Amazon Bedrock Agents",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/accenture-scales-video-analysis-with-amazon-nova-and-amazon-bedrock-agents/"
-        ]
-      },
-      "Rationale": {
-        "text": "Accenture’s AI system uses multiple agents to process and extract highlights from large video footage, reflecting a broader shift toward short‑form video as a \"post‑text\" language for knowledge workers. Our analysts emphasized its importance in democratizing video content creation, meeting professional demand for automated editing and curation—raising it from interesting demo to essential trend for enterprises.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Stanford’s Marin foundation model: The first fully open model developed using JAX",
-        "links": [
-          "https://developers.googleblog.com/en/stanfords-marin-foundation-model-first-fully-open-model-developed-using-jax/"
-        ]
-      },
-      "Rationale": {
-        "text": "The Marin model is fully open—from code to weights to data—complemented by a clear taxonomy (open development, open weights, etc.), setting a new benchmark in open‑source AI. Our analysts described its transparency as a “Ben Franklin moment,” enabling AI leaders to differentiate true openness from marketing and encouraging scrutiny of vendor claims.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Agentic‑R1: Distilled Dual‑Strategy Reasoning",
-        "links": [
-          "https://arxiv.org/abs/2507.05707"
-        ]
-      },
-      "Rationale": {
-        "text": "CMU’s research introduces a dual‑teacher distilled model that dynamically chooses between tool‑use and reasoning—pushing frontier research on model “test‑time intelligence.” It’s fascinating from a technical standpoint, but our analysts agreed it’s more of academic interest and not yet directly actionable for enterprise deployment.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Claude Code revenue jumps 5.5x as Anthropic launches analytics dashboard",
-        "links": [
-          "https://venturebeat.com/ai/anthropic-adds-usage-tracking-to-claude-code-as-enterprise-ai-spending-surges/"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s Claude Code now offers an analytics dashboard, enabling developers and managers to monitor code usage, costs, and ROI—a significant step in mainstreaming AI through measurable impact. Our analysts agreed that while 5× revenue growth isn’t surprising for code AI and embedding usage analytics is becoming a norm in enterprise accountability and investment justification.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "CollabLLM: Teaching LLMs to collaborate with users",
-        "links": [
-          "https://www.microsoft.com/en-us/research/blog/collabllm-teaching-llms-to-collaborate-with-users/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft Research introduces CollabLLM, a method for teaching large language models to engage in cooperative dialogue with users through reinforcement learning. Our analysts highlighted this as a critical evolution in human-AI interaction, signaling a shift from passive compliance to active collaboration, essential for future AI productivity and augmentation use cases.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-30T08:19:01.960185+00:00"
+  "timestamp": "2025-07-30T16:17:04.782708+00:00"
 }

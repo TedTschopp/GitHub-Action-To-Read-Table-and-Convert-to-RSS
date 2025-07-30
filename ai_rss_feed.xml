@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 30 Jul 2025 08:19:01 +0000</lastBuildDate>
-    <item>
-      <title>CollabLLM: Teaching LLMs to collaborate with users [ ! ]</title>
-      <link>https://www.microsoft.com/en-us/research/blog/collabllm-teaching-llms-to-collaborate-with-users/</link>
-      <description>Microsoft Research introduces CollabLLM, a method for teaching large language models to engage in cooperative dialogue with users through reinforcement learning. Our analysts highlighted this as a critical evolution in human-AI interaction, signaling a shift from passive compliance to active collaboration, essential for future AI productivity and augmentation use cases.</description>
-      <guid isPermaLink="false">78699a0a209ceda85c8e5cb504a14eec</guid>
-      <pubDate>Thu, 17 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Code revenue jumps 5.5x as Anthropic launches analytics dashboard [ ~ ]</title>
-      <link>https://venturebeat.com/ai/anthropic-adds-usage-tracking-to-claude-code-as-enterprise-ai-spending-surges/</link>
-      <description>Anthropic’s Claude Code now offers an analytics dashboard, enabling developers and managers to monitor code usage, costs, and ROI—a significant step in mainstreaming AI through measurable impact. Our analysts agreed that while 5× revenue growth isn’t surprising for code AI and embedding usage analytics is becoming a norm in enterprise accountability and investment justification.</description>
-      <guid isPermaLink="false">e0bb62d6e7627a0e29b0bdb48e3c0195</guid>
-      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentic‑R1: Distilled Dual‑Strategy Reasoning [ ~ ]</title>
-      <link>https://arxiv.org/abs/2507.05707</link>
-      <description>CMU’s research introduces a dual‑teacher distilled model that dynamically chooses between tool‑use and reasoning—pushing frontier research on model “test‑time intelligence.” It’s fascinating from a technical standpoint, but our analysts agreed it’s more of academic interest and not yet directly actionable for enterprise deployment.</description>
-      <guid isPermaLink="false">1ade3b71fc90ef3b9870476fe965a96e</guid>
-      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stanford’s Marin foundation model: The first fully open model developed using JAX [ * ]</title>
-      <link>https://developers.googleblog.com/en/stanfords-marin-foundation-model-first-fully-open-model-developed-using-jax/</link>
-      <description>The Marin model is fully open—from code to weights to data—complemented by a clear taxonomy (open development, open weights, etc.), setting a new benchmark in open‑source AI. Our analysts described its transparency as a “Ben Franklin moment,” enabling AI leaders to differentiate true openness from marketing and encouraging scrutiny of vendor claims.</description>
-      <guid isPermaLink="false">1bd8d7fe405d4fcefbc6c43167046131</guid>
-      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Accenture scales video analysis with Amazon Nova and Amazon Bedrock Agents [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/accenture-scales-video-analysis-with-amazon-nova-and-amazon-bedrock-agents/</link>
-      <description>Accenture’s AI system uses multiple agents to process and extract highlights from large video footage, reflecting a broader shift toward short‑form video as a "post‑text" language for knowledge workers. Our analysts emphasized its importance in democratizing video content creation, meeting professional demand for automated editing and curation—raising it from interesting demo to essential trend for enterprises.</description>
-      <guid isPermaLink="false">14649c94dcab35c927f3e7ffd864e7ca</guid>
-      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI launches a general purpose agent in ChatGPT [ ! ]</title>
-      <link>https://techcrunch.com/2025/07/17/openai-launches-a-general-purpose-agent-in-chatgpt/</link>
-      <description>OpenAI has introduced the new “ChatGPT Agent,” a model combining browsing, research, and code tools into a unified, autonomous assistant capable of handling complex tasks like booking plans and creating presentations on its own. Our analysts highlighted its significance as an incremental leap—scoring ~42% on Humanity’s Last Exam and demonstrating serious agent-level capability under the hood (PowerPoint editing, terminal use), making it essential for AI leaders to follow closely.</description>
-      <guid isPermaLink="false">661a3e645b7be943dbc42e13a9ece665</guid>
-      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 30 Jul 2025 16:17:04 +0000</lastBuildDate>
     <item>
       <title>Bank of America touts AI gains amid industrywide adoption push [ ! ]</title>
       <link>https://www.ciodive.com/news/bank-of-america-ai-gains-bny-goldman-sachs-wells-fargo/753264/</link>
@@ -357,6 +315,48 @@
       <description>Microsoft has rolled out Copilot Mode in Edge—a new AI‑powered feature in Edge that unifies chat, search, and navigation in a clean interface, enabling users to compare tabs, summarize content, and execute tasks like bookings via voice or text with optional access to history and credentials. Our analysts flagged it as strategic for the “browser wars,” noting Microsoft's market penetration and ambition to turn Edge into a more agentic interface, though they remain cautious about execution quality.</description>
       <guid isPermaLink="false">38c4a6ec49793a779192a4c3828d7d35</guid>
       <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Outtake’s agents resolve cybersecurity attacks in hours with OpenAI [ ~ ]</title>
+      <link>https://openai.com/index/outtake/</link>
+      <description>Outtake’s agents leveraging OpenAI models claim rapid cybersecurity resolution across large threat surfaces—impressive in scope but lacking published metrics or detailed methodology. Our analysts felt the article offered limited concrete insights despite being in an important domain.</description>
+      <guid isPermaLink="false">6bc01ea597ec9d2eb321cadabc897f00</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Routine: A Structural Planning Framework for LLM Agent System in Enterprise [ ~ ]</title>
+      <link>https://arxiv.org/abs/2507.14447</link>
+      <description>This academic paper proposes a structured planning framework for enterprise LLM agents—advancing tool‑calling and context engineering ideas—but remains theoretical. Our analysts viewed it as conceptually important yet not immediately actionable for AI leaders.</description>
+      <guid isPermaLink="false">4f2d417af303c2f70b22283f959b559a</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Optimizing enterprise AI assistants: How Crypto.com uses LLM reasoning and feedback for enhanced efficiency [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/optimizing-enterprise-ai-assistants-how-crypto-com-uses-llm-reasoning-and-feedback-for-enhanced-efficiency/</link>
+      <description>Crypto.com’s case study demonstrates an effective prompt‑optimization workflow using reasoning LLMs to iteratively refine prompts, delivering a 34-percentage point lift in classification accuracy over just ten iterations. Our analysts saw this as a broadly applicable prompt‑engineering methodology for enterprise AI assistants.</description>
+      <guid isPermaLink="false">9ff8c8d7b50a164abe7a76dd2a2e92e6</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing study mode [ ! ]</title>
+      <link>https://openai.com/index/chatgpt-study-mode/</link>
+      <description>OpenAI’s ChatGPT Study Mode introduces structured, Socratic-style guidance designed to support actual learning rather than simply providing answers. Our analysts underscored its broad availability across customer plans and its potential to reposition ChatGPT as an educational tutor—not just a shortcut tool—impacting both students and enterprise learning strategies.</description>
+      <guid isPermaLink="false">65ccec7ddefab85eacfebace6a58b01a</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Video Overviews and an upgraded Studio in Notebook LM [ ! ]</title>
+      <link>https://blog.google/technology/google-labs/notebooklm-video-overviews-studio-upgrades</link>
+      <description>Google’s NotebookLM now generates narrated slideshows—called Video Overviews—that combine visuals, quotes, diagrams, and data from uploaded documents, offering a richer learning format beyond existing Audio Overviews. Our analysts highlighted its significance for enterprise learning programs and education use cases, noting the feature’s slide-based delivery and the revamped Studio panel make it transformational for organizations adopting AI-driven content creation.</description>
+      <guid isPermaLink="false">c68d2575cc3ed6fec7648e54e4ec1c10</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writer launches a ‘super agent’ that actually gets sh*t done, outperforms OpenAI on key benchmarks [ ! ]</title>
+      <link>https://venturebeat.com/ai/writer-launches-a-super-agent-that-actually-gets-sht-done-outperforms-openai-on-key-benchmarks/</link>
+      <description>Writer’s new Action Agent autonomously executes complex, multi-step enterprise tasks leveraging 600+ tools, with top scores on GAIA Level 3 and the CUB benchmark—surpassing OpenAI’s comparable systems. Our analysts praised its enterprise-grade governance, auditability, and security, viewing it as a watershed moment in AI automation and agentic systems especially for regulated industries.</description>
+      <guid isPermaLink="false">3bfde463676bec21fa515db996bb71b0</guid>
+      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
