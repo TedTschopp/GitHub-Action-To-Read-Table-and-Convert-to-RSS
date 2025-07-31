@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 31 Jul 2025 08:19:13 +0000</lastBuildDate>
-    <item>
-      <title>Bank of America touts AI gains amid industrywide adoption push [ ! ]</title>
-      <link>https://www.ciodive.com/news/bank-of-america-ai-gains-bny-goldman-sachs-wells-fargo/753264/</link>
-      <description>Bank of America reported reducing headcount from 300K to 212K while expanding deposits from $400B to $900B over 15 years, underscoring AI-driven productivity gains across major financial institutions. Our analysts noted that BofA dedicates ~25% of its $13B tech budget to AI and ML—sending a strong message to enterprise leaders to invest boldly in AI over the long term.</description>
-      <guid isPermaLink="false">f62fb07042942e3a85aab4c2722c6878</guid>
-      <pubDate>Fri, 18 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Language Models Improve When Pretraining Data Matches Target Tasks [ ~ ]</title>
-      <link>https://arxiv.org/pdf/2507.12466</link>
-      <description>This research paper provides empirical evidence that aligning pretraining data more closely with downstream target tasks can significantly boost model performance. While the insight reinforces a long-standing hypothesis in the AI community, the analysts viewed it as incremental rather than groundbreaking, affirming a best practice rather than introducing a new concept.</description>
-      <guid isPermaLink="false">3e7f352d26fcdad7c6fa9fa6e46e7d10</guid>
-      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MirageLSD: The First Live-Stream Diffusion AI Video Model [ ~ ]</title>
-      <link>https://about.decart.ai/publications/mirage</link>
-      <description>Decart AI unveils a model for continuous, real-time diffusion-based video generation, claiming infinite streaming capabilities. Analysts found it fascinating for gaming and creative industries but noted it’s primarily a product announcement with few details on performance tradeoffs, making it less relevant for general AI leadership.</description>
-      <guid isPermaLink="false">53696fb6f65c1738a08402b721f870ce</guid>
-      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>This “smart coach” helps LLMs switch between text and code [ ~ ]</title>
-      <link>https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717</link>
-      <description>This article highlights MIT’s development of a “smart coach” LLM that acts as an intermediary to help large language models dynamically switch between handling text and code depending on the task. Analysts noted this is an early but notable step toward model orchestration—potentially foreshadowing architectures like GPT-5 that could use coach-like agents to route queries across multiple specialized models.</description>
-      <guid isPermaLink="false">6abaa8b0fcc9cc11d54e78c7b56238c9</guid>
-      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Context Rot: How Increasing Input Tokens Impacts LLM Performance [ * ]</title>
-      <link>https://research.trychroma.com/context-rot</link>
-      <description>The article explores how long context windows in LLMs often degrade performance, challenging assumptions that bigger context is always better. The discussion highlighted its value in contrasting the current hype around “context engineering,” serving as a caution for AI leaders to balance retrieval-augmented generation (RAG) with architectural limitations.</description>
-      <guid isPermaLink="false">0806c5a862d5f32fcca0f81c209c3256</guid>
-      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using Gen AI for Early-Stage Market Research [ * ]</title>
-      <link>https://hbr.org/2025/07/using-gen-ai-for-early-stage-market-research</link>
-      <description>This HBR article explores how generative AI can simulate synthetic markets to inform early-stage product development and reduce risk. Analysts praised its practical implications for both startups and large firms and appreciated its nuanced discussion on using general-purpose vs. fine-tuned models, highlighting both opportunities and caveats.</description>
-      <guid isPermaLink="false">cfe73d694037256720c0f59f3d4f9b62</guid>
-      <pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 31 Jul 2025 14:44:41 +0000</lastBuildDate>
     <item>
       <title>The Big LLM Architecture Comparison [ * ]</title>
       <link>https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison</link>
@@ -357,6 +315,48 @@
       <description>Writer’s new Action Agent autonomously executes complex, multi-step enterprise tasks leveraging 600+ tools, with top scores on GAIA Level 3 and the CUB benchmark—surpassing OpenAI’s comparable systems. Our analysts praised its enterprise-grade governance, auditability, and security, viewing it as a watershed moment in AI automation and agentic systems especially for regulated industries.</description>
       <guid isPermaLink="false">3bfde463676bec21fa515db996bb71b0</guid>
       <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ideogram Character [ ~ ]</title>
+      <link>https://about.ideogram.ai/character</link>
+      <description>Ideogram’s new “Character” model offers a novel capability: generating multiple consistent image variations from a single input. Our analysts agreed that while the visual output is compelling, it lacks clear differentiation from other competitors in a crowded market.</description>
+      <guid isPermaLink="false">21197872771e2442f0b3082ebc3c9cd1</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Bertelsmann Built a Multi‑Agent System to Empower Creatives [ ~ ]</title>
+      <link>https://blog.langchain.com/customer-bertelsmann/</link>
+      <description>This LangChain case study describes how Bertelsmann implemented a multi‑agent system to streamline creative workflows and reduce turnaround from hours to seconds. However, our analysts pointed out it’s light on technical details, ROI data, or process diagrams—making it an interesting use case, but not insightful enough for broader enterprise relevance.</description>
+      <guid isPermaLink="false">90d91603af0c90b75d36548edd46aa0d</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Personal Superintelligence [ ~ ]</title>
+      <link>https://www.meta.com/superintelligence/</link>
+      <description>Mark Zuckerberg’s letter pitches a vision of personal superintelligence powered by open source models, but our analysts regarded it as AI positioning and marketing rhetoric rather than substantive innovation. While entertaining and reflective of OpenAI‑competitive narrative, they felt it lacked technical or strategic depth that merits high priority.</description>
+      <guid isPermaLink="false">1bd4e6909b25c8c60b861ce92c666657</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Codestral 25.08 and the Complete Mistral Coding Stack for Enterprise [ * ]</title>
+      <link>https://mistral.ai/news/codestral-25-08</link>
+      <description>Mistral’s announcement introduces an integrated enterprise coding stack—Codestral, DevStrill orchestration, repository embeddings—for on‑prem or VPC deployment, positioning them differently than SaaS‑only players. Our analysts flagged it as important because it is a valuable enterprise AI automation innovation, particularly in regulated sectors such as finance or European markets.</description>
+      <guid isPermaLink="false">df30d1df4f76186810095b6830206901</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Forget What You Know About Search. Optimize Your Brand for LLMs. [ ! ]</title>
+      <link>https://hbr.org/2025/06/forget-what-you-know-about-seo-heres-how-to-optimize-your-brand-for-llms</link>
+      <description>This HBR article goes beyond standard SEO, outlining a framework—including share of concept, share of model, share of voice—to help brands optimize for LLM and answer‑engine visibility. Our analysts emphasized that this is practical, well‑researched generative AI guidance that every AI leader should read, given how customers and talent now rely on these new AI answer engines rather than traditional search engines.</description>
+      <guid isPermaLink="false">7d380c131782b391d12488b8020c43a6</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Security for Agents and Agents for Security [ ! ]</title>
+      <link>https://menlovc.com/perspective/security-for-agents-and-agents-for-security-the-next-cybersecurity-frontier/</link>
+      <description>The Menlo Ventures piece provides a clear primer on the rising cybersecurity threats posed by autonomous AI agents and the corresponding opportunity for AI startups building protective tools. Our analysts flagged this as essential because most AI leaders still underestimate how agentic systems escalate security risks and complicate governance, demanding immediate attention and rigorous AI security thinking.</description>
+      <guid isPermaLink="false">f4e772aed5247d72ac84698caa36caa9</guid>
+      <pubDate>Thu, 31 Jul 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

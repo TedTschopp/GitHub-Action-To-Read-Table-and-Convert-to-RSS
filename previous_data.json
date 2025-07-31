@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "07/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Security for Agents and Agents for Security",
+        "links": [
+          "https://menlovc.com/perspective/security-for-agents-and-agents-for-security-the-next-cybersecurity-frontier/"
+        ]
+      },
+      "Rationale": {
+        "text": "The Menlo Ventures piece provides a clear primer on the rising cybersecurity threats posed by autonomous AI agents and the corresponding opportunity for AI startups building protective tools. Our analysts flagged this as essential because most AI leaders still underestimate how agentic systems escalate security risks and complicate governance, demanding immediate attention and rigorous AI security thinking.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Forget What You Know About Search. Optimize Your Brand for LLMs.",
+        "links": [
+          "https://hbr.org/2025/06/forget-what-you-know-about-seo-heres-how-to-optimize-your-brand-for-llms"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR article goes beyond standard SEO, outlining a framework—including share of concept, share of model, share of voice—to help brands optimize for LLM and answer‑engine visibility. Our analysts emphasized that this is practical, well‑researched generative AI guidance that every AI leader should read, given how customers and talent now rely on these new AI answer engines rather than traditional search engines.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Codestral 25.08 and the Complete Mistral Coding Stack for Enterprise",
+        "links": [
+          "https://mistral.ai/news/codestral-25-08"
+        ]
+      },
+      "Rationale": {
+        "text": "Mistral’s announcement introduces an integrated enterprise coding stack—Codestral, DevStrill orchestration, repository embeddings—for on‑prem or VPC deployment, positioning them differently than SaaS‑only players. Our analysts flagged it as important because it is a valuable enterprise AI automation innovation, particularly in regulated sectors such as finance or European markets.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Personal Superintelligence",
+        "links": [
+          "https://www.meta.com/superintelligence/"
+        ]
+      },
+      "Rationale": {
+        "text": "Mark Zuckerberg’s letter pitches a vision of personal superintelligence powered by open source models, but our analysts regarded it as AI positioning and marketing rhetoric rather than substantive innovation. While entertaining and reflective of OpenAI‑competitive narrative, they felt it lacked technical or strategic depth that merits high priority.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Bertelsmann Built a Multi‑Agent System to Empower Creatives",
+        "links": [
+          "https://blog.langchain.com/customer-bertelsmann/"
+        ]
+      },
+      "Rationale": {
+        "text": "This LangChain case study describes how Bertelsmann implemented a multi‑agent system to streamline creative workflows and reduce turnaround from hours to seconds. However, our analysts pointed out it’s light on technical details, ROI data, or process diagrams—making it an interesting use case, but not insightful enough for broader enterprise relevance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "07/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Ideogram Character",
+        "links": [
+          "https://about.ideogram.ai/character"
+        ]
+      },
+      "Rationale": {
+        "text": "Ideogram’s new “Character” model offers a novel capability: generating multiple consistent image variations from a single input. Our analysts agreed that while the visual output is compelling, it lacks clear differentiation from other competitors in a crowded market.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/30/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article provides a detailed overview of how leading LLMs like DeepSeek are evolving and what their architectural differences mean for enterprise deployment. Analysts emphasized its technical depth and strategic relevance for IT and enterprise architecture leaders needing to stay updated on open-source LLM progress, particularly the growing competition from Chinese models.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Using Gen AI for Early-Stage Market Research",
-        "links": [
-          "https://hbr.org/2025/07/using-gen-ai-for-early-stage-market-research"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR article explores how generative AI can simulate synthetic markets to inform early-stage product development and reduce risk. Analysts praised its practical implications for both startups and large firms and appreciated its nuanced discussion on using general-purpose vs. fine-tuned models, highlighting both opportunities and caveats.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Context Rot: How Increasing Input Tokens Impacts LLM Performance",
-        "links": [
-          "https://research.trychroma.com/context-rot"
-        ]
-      },
-      "Rationale": {
-        "text": "The article explores how long context windows in LLMs often degrade performance, challenging assumptions that bigger context is always better. The discussion highlighted its value in contrasting the current hype around “context engineering,” serving as a caution for AI leaders to balance retrieval-augmented generation (RAG) with architectural limitations.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "This “smart coach” helps LLMs switch between text and code",
-        "links": [
-          "https://news.mit.edu/2025/smart-coach-helps-llms-switch-between-text-and-code-0717"
-        ]
-      },
-      "Rationale": {
-        "text": "This article highlights MIT’s development of a “smart coach” LLM that acts as an intermediary to help large language models dynamically switch between handling text and code depending on the task. Analysts noted this is an early but notable step toward model orchestration—potentially foreshadowing architectures like GPT-5 that could use coach-like agents to route queries across multiple specialized models.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "MirageLSD: The First Live-Stream Diffusion AI Video Model",
-        "links": [
-          "https://about.decart.ai/publications/mirage"
-        ]
-      },
-      "Rationale": {
-        "text": "Decart AI unveils a model for continuous, real-time diffusion-based video generation, claiming infinite streaming capabilities. Analysts found it fascinating for gaming and creative industries but noted it’s primarily a product announcement with few details on performance tradeoffs, making it less relevant for general AI leadership.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Language Models Improve When Pretraining Data Matches Target Tasks",
-        "links": [
-          "https://arxiv.org/pdf/2507.12466"
-        ]
-      },
-      "Rationale": {
-        "text": "This research paper provides empirical evidence that aligning pretraining data more closely with downstream target tasks can significantly boost model performance. While the insight reinforces a long-standing hypothesis in the AI community, the analysts viewed it as incremental rather than groundbreaking, affirming a best practice rather than introducing a new concept.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Bank of America touts AI gains amid industrywide adoption push",
-        "links": [
-          "https://www.ciodive.com/news/bank-of-america-ai-gains-bny-goldman-sachs-wells-fargo/753264/"
-        ]
-      },
-      "Rationale": {
-        "text": "Bank of America reported reducing headcount from 300K to 212K while expanding deposits from $400B to $900B over 15 years, underscoring AI-driven productivity gains across major financial institutions. Our analysts noted that BofA dedicates ~25% of its $13B tech budget to AI and ML—sending a strong message to enterprise leaders to invest boldly in AI over the long term.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-07-31T08:19:13.104934+00:00"
+  "timestamp": "2025-07-31T14:44:41.518771+00:00"
 }
