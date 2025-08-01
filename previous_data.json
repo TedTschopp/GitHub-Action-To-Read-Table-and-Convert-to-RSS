@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Nippon India Mutual Fund improved the accuracy of AI assistant responses using advanced RAG methods on Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-nippon-india-mutual-fund-improved-the-accuracy-of-ai-assistant-responses-using-advanced-rag-methods-on-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study describes how Nippon India Mutual Fund adopted advanced Retrieval Augmented Generation (RAG) techniques on Amazon Bedrock to significantly reduce hallucinations and improve assistant accuracy by leveraging semantic chunking and dynamic prompt reordering, providing a real-world results-focused AI application. Our analysts highlighted that this clear articulation of improved accuracy and adoption among businesses makes it a must-read and a reproducible template for enterprise AI efforts.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Robotics Levels of Autonomy",
+        "links": [
+          "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/"
+        ]
+      },
+      "Rationale": {
+        "text": "Semi‑Analysis lays out a structured five‑level framework categorizing robot autonomy by agency (decision‑making) and dexterity, offering a thoughtful overview of current and future robotics trends across verticals. Our analysts noted its value for leaders tracking robotics adoption, even if the report provides more of a historical view versus future predictions.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Intercom’s three lessons for creating a sustainable AI advantage (OpenAI case study)",
+        "links": [
+          "https://openai.com/index/intercom/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article offers three practical lessons from Intercom's AI-driven transformation, emphasizing the importance of evolving human‑AI symbiosis, capability-building over mere tech procurement, and a structured AI-first organizational mindset. Our analysts underlined its value for enterprise AI leaders, particularly in changing support org culture, albeit noting the absence of deep economic or operational metrics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing LangExtract: a Gemini‑powered information extraction library (Google)",
+        "links": [
+          "https://developers.googleblog.com/en/introducing-langextract-a-gemini-powered-information-extraction-library/"
+        ]
+      },
+      "Rationale": {
+        "text": "LangExtract is a Gemini‑powered, open-source Python library designed to scan long documents, chunk them intelligently, and output structured data—advancing RAG-like methodology with multi-pass extraction and scalability. Our analysts saw it as valuable tooling for AI engineers, especially those working on knowledge mining workflows and aligning with RAG pipelines.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Command A Vision: Multimodal AI Built for Business (Cohere)",
+        "links": [
+          "https://cohere.com/blog/command-a-vision?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Cohere’s new Command A Vision is a vision‑language model with strong performance on enterprise OCR and diagram‑reading benchmarks, and deployment-ready for private inference. Our analysts judged it noteworthy in a crowded multimodal field—but largely a marginal incremental release rather than a disruptive differentiator.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Wan 2.2",
+        "links": [
+          "https://wan.video/welcome"
+        ]
+      },
+      "Rationale": {
+        "text": "While WAN 2.2 is a novel multimodal video/image generation platform, our analysts agreed it remains a niche tool and doesn’t yet stand out enough for broad executive audiences—making it interesting but non‑essential at this stage.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "07/31/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Textron, a major industrial conglomerate, is deploying GenAI at scale to assist over 1,500 maintenance workers in field operations. Analysts noted the strategic value in targeting high-impact, structured use cases like maintenance, and praised the company's rapid move from POC to deployment without getting bogged down in ROI concerns, making this a noteworthy example for other industrial enterprises.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "TransEvalnia: Reasoning-based Evaluation and Ranking of Translations",
-        "links": [
-          "https://arxiv.org/abs/2507.12724"
-        ]
-      },
-      "Rationale": {
-        "text": "This research introduces a reasoning-based approach to translation evaluation using judge models, addressing a key gap in assessing translation quality. The discussion highlighted its practical implications for sectors like healthcare content localization and the broader importance of trustworthy evaluation frameworks, making it valuable reading for those focused on multilingual GenAI applications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Le Chat dives deep",
-        "links": [
-          "https://mistral.ai/news/le-chat-dives-deep"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral has introduced deep research capabilities for its chatbot, similar to agentic search tools offered by competitors. While the capability is useful, analysts emphasized that it’s a \"me too\" offering in an increasingly commoditized space, with Mistral playing catch-up rather than leading.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How CodeRabbit brings AI to code reviews",
-        "links": [
-          "https://www.infoworld.com/article/4025088/how-coderabbit-brings-ai-to-code-reviews.html"
-        ]
-      },
-      "Rationale": {
-        "text": "CodeRabbit is leveraging AI to automate code reviews, targeting a traditionally manual and time-consuming step in the software development lifecycle. Analysts noted that while code generation is a top AI use case, AI-assisted code review is less saturated, making this an interesting play, especially as the rise of “AI co-pilots” leads to more low-quality code from non-experts, increasing the need for automated quality control.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Solar Pro 2",
-        "links": [
-          "https://www.upstage.ai/blog/en/solar-pro-2-launch"
-        ]
-      },
-      "Rationale": {
-        "text": "Upstage has released Solar Pro 2, a 32B-parameter multilingual LLM focused on Korean and English, marketed as a lightweight, efficient alternative to models like GPT-4. Analysts saw this as part of the sovereign AI trend, emphasizing local language nuance and cultural specificity, but noted that smaller niche models may struggle to compete with foundation models on versatility and longevity.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenReasoning-Nemotron: A Family of State-of-the-Art Distilled Reasoning Models",
-        "links": [
-          "https://huggingface.co/blog/nvidia/openreasoning-nemotron"
-        ]
-      },
-      "Rationale": {
-        "text": "NVIDIA’s Nemotron models highlight advancements in distilled reasoning by producing compact LLMs that perform competitively on reasoning tasks. While the group appreciated the focus on evaluation and efficiency, especially for edge deployments and use in constrained environments, they viewed it as part of a broader, incremental trend and not yet game-changing without clear differentiation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Big LLM Architecture Comparison",
-        "links": [
-          "https://magazine.sebastianraschka.com/p/the-big-llm-architecture-comparison"
-        ]
-      },
-      "Rationale": {
-        "text": "This article provides a detailed overview of how leading LLMs like DeepSeek are evolving and what their architectural differences mean for enterprise deployment. Analysts emphasized its technical depth and strategic relevance for IT and enterprise architecture leaders needing to stay updated on open-source LLM progress, particularly the growing competition from Chinese models.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-01T08:19:07.184233+00:00"
+  "timestamp": "2025-08-01T16:17:05.794436+00:00"
 }
