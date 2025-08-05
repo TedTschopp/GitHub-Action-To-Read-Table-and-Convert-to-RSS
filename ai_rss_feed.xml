@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 05 Aug 2025 08:19:32 +0000</lastBuildDate>
-    <item>
-      <title>Kyruus builds a generative AI provider matching solution on AWS [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/kyruus-builds-a-generative-ai-provider-matching-solution-on-aws/</link>
-      <description>Kyruus has built a hybrid generative AI solution on AWS that helps match patients to appropriate healthcare providers, incorporating natural language input, medical taxonomy, and symptom interpretation. Analysts found this use case significant because it exemplifies LLMs acting as mediators across asymmetrical knowledge domains, bridging patient language and clinical terminology, and shows how AI can meaningfully enhance healthcare navigation without aiming for diagnostic precision.</description>
-      <guid isPermaLink="false">2dacf22c2d8b0c3152fa63c6a12b0f7e</guid>
-      <pubDate>Wed, 23 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepMind’s Quest for Self-Improving Table Tennis Agents [ ~ ]</title>
-      <link>https://spectrum.ieee.org/deepmind-table-tennis-robots</link>
-      <description>DeepMind’s table tennis project applies reinforcement learning to robotic agents capable of improving their performance through gameplay. Although this represents progress in physical AI and robotic learning, analysts noted it's largely relevant to those in robotics, making it a niche interest rather than a general priority for most AI leaders.</description>
-      <guid isPermaLink="false">a093a8bb92a9b5cf6388ce5223a43ac5</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Market Clarity [ ~ ]</title>
-      <link>https://blog.eladgil.com/p/ai-market-clarity</link>
-      <description>Elad Gil outlines his framework for understanding AI startup segments and market potential in infrastructure, applications, and models. While the post brings together well-known ideas in a concise format, the group found it largely derivative and not particularly novel; useful mainly as a basic primer for newcomers.</description>
-      <guid isPermaLink="false">f361cb5febd46dc72cfdd9d9c111d7c3</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LSM-2: Learning from incomplete wearable sensor data [ ~ ]</title>
-      <link>https://research.google/blog/lsm-2-learning-from-incomplete-wearable-sensor-data/</link>
-      <description>Google’s LSM-2 project explores how models can handle missing or incomplete data from wearable sensors, offering promising results across millions of data points. Analysts agreed the work is algorithmically compelling, particularly for IoT and healthcare use cases, but viewed it as too early-stage or domain-specific to be broadly applicable to AI leaders today.</description>
-      <guid isPermaLink="false">006b303050e3d0cb067f6dda47b9c133</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Carta’s internal AI agents save thousands of hours of back-and-forth work [ * ]</title>
-      <link>https://www.firstround.com/ai/carta?s=09</link>
-      <description>Carta’s implementation of internal AI agents streamlined repetitive processes by deeply integrating structured data, like Lucidchart diagrams, into prompts, saving thousands of hours of manual work. The discussion highlighted the article’s lessons on “context engineering,” stressing how domain-specific workflow integration and structured context (beyond RAG) can significantly enhance the effectiveness of enterprise LLM deployments.</description>
-      <guid isPermaLink="false">40e7bcd291e069620986b5380da7e8cf</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Subliminal Learning: Language Models Transmit Behavioral Traits via Hidden Signals in Data [ * ]</title>
-      <link>https://alignment.anthropic.com/2025/subliminal-learning</link>
-      <description>Anthropic’s research reveals that behavioral traits, such as preferences, can be unintentionally transferred from teacher to student models during distillation, even if those traits are not explicitly encoded. Analysts found this phenomenon of "hidden signal transmission" both fascinating and concerning, likening it to genetic inheritance in AI and warning that such implicit bias could propagate undetected through generations of models, especially from opaque sources.</description>
-      <guid isPermaLink="false">c86f19a5ef7bdc488f29668f18698aea</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 05 Aug 2025 16:15:06 +0000</lastBuildDate>
     <item>
       <title>Bay Area tech CEO apologizes after product goes 'rogue' [ ! ]</title>
       <link>https://www.sfgate.com/tech/article/bay-area-tech-product-rogue-ceo-apology-20780833.php</link>
@@ -357,6 +315,48 @@
       <description>Anthropic’s research defines and extracts internal activation patterns—"persona vectors"—that correspond to traits like evil, sycophancy, or hallucination, and demonstrates monitoring and steering of these traits at inference or training time. Our analysts underscored its importance for AI ethics and alignment, noting how this insight into model behavior enables preventive steering, transparency, and greater control over personality drift.</description>
       <guid isPermaLink="false">623bb5156130796cf4683b781c421a48</guid>
       <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Handmade.com modernizes product image and description handling with Amazon Bedrock and Amazon OpenSearch Service [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-handmade-com-modernizes-product-image-and-description-handling-with-amazon-bedrock-and-amazon-opensearch-service/</link>
+      <description>A description of how Handmade.com used AWS infrastructure (Bedrock + OpenSearch) to streamline SEO-driven image and text generation. Our analysts noted the lack of impact data and limited novelty, calling it technically useful but ultimately a low-significance case study for most AI leaders.</description>
+      <guid isPermaLink="false">7aa1dedf2553f7d5ff4cf9aa74b63573</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ReaGAN: Node‑as‑Agent‑Reasoning Graph Agentic Network [ ~ ]</title>
+      <link>https://arxiv.org/abs/2508.00429</link>
+      <description>This research proposes an innovative integration of graph neural networks with agentic reasoning, embedding semantics into network nodes to improve retrieval and context. While intellectually compelling and connected to RAG and GraphRAG architectures, our analysts agreed it remains theoretical with limited immediate enterprise applicability.</description>
+      <guid isPermaLink="false">dfa3137bc89097accf372237679e7c2e</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Wide Research [ ~ ]</title>
+      <link>https://manus.im/blog/introducing-wide-research</link>
+      <description>This expansion of Manus’ agent architecture into fully autonomous, parallel-processing agents signals ongoing productivity enhancements in generative AI agent systems. Our analysts found it intriguing but viewed it as early-stage and limited in rollout, placing it firmly in the watchful "optional" category.</description>
+      <guid isPermaLink="false">6a28bfaa1cb0235a7dd68b22987ebf5c</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Lindy 3.0: Meet Your First AI Employee [ ~ ]</title>
+      <link>https://www.lindy.ai/blog/lindy-3-0</link>
+      <description>Lindy 3.0 presents a prompt‑to‑agent builder (“Agent Builder”) and a cloud‑based virtual machine environment (“Autopilot”), enabling agents to act autonomously across any interface. Our analysts characterized it as interesting and intuitive yet part of an increasingly crowded market of “AI employee” tools, raising concerns over differentiation and security.</description>
+      <guid isPermaLink="false">e1c215720264577ebeff3fd741744aae</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Amazon Bedrock AgentCore Browser Tool [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-agentcore-browser-tool/</link>
+      <description>This AWS announcement introduces a cloud‑hosted virtual browser environment that gives generative AI agents autonomous browsing and interaction capabilities—pioneering a new paradigm in agent orchestration. Our analysts noted that while not entirely novel, AWS's scale and enterprise positioning make it a significant milestone toward verticalized AI stacks and safer agent deployment at scale.</description>
+      <guid isPermaLink="false">23e97946fa0eeccca5cc06e2d13b0be1</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>China to surpass the U.S. in AI [ ! ]</title>
+      <link>https://x.com/AndrewYNg/status/1950941108000964654</link>
+      <description>This commentary from Andrew Ng highlights a realistic pathway by which China could surpass the U.S. in AI leadership, citing its momentum in open‑weights models, chip development, and industrial policy. Our analysts emphasized that many AI leaders still underestimate China's strategic push and rising capabilities—making this a strategic signal that should not be ignored.</description>
+      <guid isPermaLink="false">2e8e441b812eea3ab57edfd10fd54d59</guid>
+      <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
