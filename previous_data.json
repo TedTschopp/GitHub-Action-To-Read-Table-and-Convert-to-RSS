@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Persona vectors: Monitoring and controlling character traits in language models",
+        "links": [
+          "https://www.anthropic.com/research/persona-vectors"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s research defines and extracts internal activation patterns—\"persona vectors\"—that correspond to traits like evil, sycophancy, or hallucination, and demonstrates monitoring and steering of these traits at inference or training time. Our analysts underscored its importance for AI ethics and alignment, noting how this insight into model behavior enables preventive steering, transparency, and greater control over personality drift.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Google rolls out Gemini Deep Think AI",
+        "links": [
+          "https://techcrunch.com/2025/08/01/google-rolls-out-gemini-deep-think-ai-a-reasoning-model-that-tests-multiple-ideas-in-parallel"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces Google DeepMind's Gemini 2.5 Deep Think—an advanced reasoning model that explores multiple ideas in parallel, achieving top-tier scores on benchmarks like LiveCodeBench 6 and Humanity’s Last Exam without external tool calls, significantly advancing AI reasoning capabilities. Our analysts highlighted the shift from singular reasoning to collaborative, compute-intensive “deep thinking” and noted its potential to unlock new use cases in coding, scientific reasoning, and enterprise applications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "A SURVEY OF SELF‑EVOLVING AGENTS: ON PATH TO ARTIFICIAL SUPER INTELLIGENCE",
+        "links": [
+          "https://arxiv.org/pdf/2507.21046"
+        ]
+      },
+      "Rationale": {
+        "text": "This survey paper presents the first systematic review of self-evolving agents, organizing the taxonomy around what, when, and how agents adapt over time and laying a roadmap toward ASI through autonomous adaptation across models, memory, architecture, and tools. Our analysts described it as a “Bible” of the future of agentic systems, providing crucial structure and insight into evolving agent architectures and safety considerations for enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How OpenAI uses Codex",
+        "links": [
+          "https://media.licdn.com/dms/document/media/v2/D561FAQFGP6kx_fZbJw/feedshare-document-pdf-analyzed/B56Zhmv49THUAY-/0/1754070505694?e=1755129600&v=beta&t=VtvAu6Lit_tGfWP0M0mD90tZqorozYU8PnsbcCIYwi0"
+        ]
+      },
+      "Rationale": {
+        "text": "This article provides an in-depth walkthrough of how OpenAI’s Codex operates as a multi-task software engineering agent—handling code synthesis, bug fixes, migrations, pull requests, and test completion across diverse languages. Our analysts emphasized its significance for accelerating development workflows and noted that Codex is increasingly accessible within ChatGPT and subscription tiers, earning it broader applicability.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Deep Cogito goes big, releasing 4 new open source hybrid reasoning models with self‑improving ‘intuition’",
+        "links": [
+          "https://venturebeat.com/ai/deep-cogito-goes-big-releasing-4-new-open-source-hybrid-reasoning-models-with-self-improving-intuition/"
+        ]
+      },
+      "Rationale": {
+        "text": "Startup Deep Cogito released four open-weight Cogito v2 models (70B–671B parameters) that integrate hybrid reasoning—distilling reflective reasoning into model weights to yield self-improving “intuition.” Our analysts found this a significant step toward efficiency and alignment of reasoning behavior in open-source LLMs, though performance edge requires deeper evaluation, hence “Important.”",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "FLUX.1 Krea [dev]: An ‘Opinionated’ Text‑to‑Image Model",
+        "links": [
+          "https://bfl.ai/announcements/flux-1-krea-dev"
+        ]
+      },
+      "Rationale": {
+        "text": "Black Forest Labs’ Flux.1 Krea introduces a text‑to‑image model with an aesthetic “opinionated” style—eschewing generic AI visual tropes in favor of more artistic outputs with photorealism. Our analysts noted it as a fine aesthetic innovation and open-weight release, but given the crowded text‑to‑image space and its incremental nature, it ranks as optional everyday news.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/01/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Kyruus has built a hybrid generative AI solution on AWS that helps match patients to appropriate healthcare providers, incorporating natural language input, medical taxonomy, and symptom interpretation. Analysts found this use case significant because it exemplifies LLMs acting as mediators across asymmetrical knowledge domains, bridging patient language and clinical terminology, and shows how AI can meaningfully enhance healthcare navigation without aiming for diagnostic precision.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Build AI in America",
-        "links": [
-          "https://www-cdn.anthropic.com/0dc382a2086f6a054eeb17e8a531bd9625b8e6e5.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic outlines a national strategy for U.S. AI infrastructure development, calling for 50 gigawatts of AI-specific power capacity by 2028 and 90 by 2050, leveraging federal lands and invoking defence legislation to streamline permitting. While the article is deeply detailed and offers valuable macro-context for AI growth, analysts agreed it's optional for practitioners since it's more policy-driven and lacks actionable insights for enterprise AI leaders; moreover, it reflects the interests of large model companies advocating for infrastructure favourable to their operations.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Stargate advances with 4.5 GW partnership with Oracle",
-        "links": [
-          "https://openai.com/index/stargate-advances-with-partnership-with-oracle/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI and Oracle announce a partnership to build 4.5 GW of infrastructure capacity as part of the Stargate initiative. However, analysts unanimously regarded this as low-substance PR amid recent conflicting reports questioning the deal’s stability, describing it as a distraction for AI leaders and reflective more of tech hype cycles than tangible execution.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Latent-X: An Atom-level Frontier Model for De Novo Protein Binder Design",
-        "links": [
-          "https://www.latentlabs.com/latent-x/"
-        ]
-      },
-      "Rationale": {
-        "text": "Latent Labs introduces Latent-X, a generative AI model capable of atom-level precision in protein binder design, claiming it can identify candidates with only 30–100 wet-lab samples instead of millions. Although the team highlighted its revolutionary potential, particularly for drug discovery and digital twins, analysts emphasized it remains a product announcement with domain-specific relevance, making it optional for most AI professionals outside life sciences.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Udemy Introduces New MCP Server to Bring AI-Powered Learning Directly Into the Flow of Work",
-        "links": [
-          "https://about.udemy.com/press-releases/udemy-introduces-new-mcp-server-to-bring-ai-powered-learning-directly-into-the-flow-of-work/"
-        ]
-      },
-      "Rationale": {
-        "text": "Udemy’s new Model Connectivity Platform (MCP) server aims to embed AI-discoverable learning content within enterprise tools and chatbots. Despite aligning with the broader vision of just-in-time, workflow-integrated learning, analysts considered it a marginal release due to lack of detail on adoption or value creation, and also pointed to Udemy’s ongoing struggle with negative returns and shrinking assets as limiting its immediate impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Conversational image segmentation with Gemini 2.5",
-        "links": [
-          "https://developers.googleblog.com/en/conversational-image-segmentation-gemini-2-5/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s Gemini 2.5 introduces advanced conversational segmentation that allows users to refer to image elements abstractly (e.g., “the person not wearing a hard hat”) for real-time annotation and editing. Analysts acknowledged the technical progress and future potential in areas like robotics and military vision systems, but ultimately viewed it as another “everyday miracle” with no immediate application for most AI leaders, placing it in the optional category until more use cases and integrations emerge.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Textron takes flight with gen AI",
-        "links": [
-          "https://www.cio.com/article/4025048/textron-takes-flight-with-gen-ai.html"
-        ]
-      },
-      "Rationale": {
-        "text": "Textron, a major industrial conglomerate, is deploying GenAI at scale to assist over 1,500 maintenance workers in field operations. Analysts noted the strategic value in targeting high-impact, structured use cases like maintenance, and praised the company's rapid move from POC to deployment without getting bogged down in ROI concerns, making this a noteworthy example for other industrial enterprises.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-04T16:18:36.923347+00:00"
+  "timestamp": "2025-08-05T01:05:11.138441+00:00"
 }
