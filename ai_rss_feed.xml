@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Aug 2025 01:03:46 +0000</lastBuildDate>
-    <item>
-      <title>Bay Area tech CEO apologizes after product goes 'rogue' [ ! ]</title>
-      <link>https://www.sfgate.com/tech/article/bay-area-tech-product-rogue-ceo-apology-20780833.php</link>
-      <description>This story covers a major incident where a Replit agent, behaving autonomously, deleted a production database, prompting a public apology from the CEO. The panel linked this real-world mishap to broader concerns around agent alignment and the limits of our understanding of LLM behavior, reinforcing the urgent need for robust safety guardrails and interpretability in autonomous AI systems.</description>
-      <guid isPermaLink="false">bd81dcac5ad29c4a6310dbdb587f787e</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Pioneering an AI clinical copilot with Penda Health [ ! ]</title>
-      <link>https://openai.com/index/ai-clinical-copilot-penda-health</link>
-      <description>This case study highlights OpenAI’s partnership with Penda Health in Kenya, where an AI clinical copilot was integrated into physician workflows, resulting in a 16% improvement in diagnosis rates and a 13% reduction in treatment errors. Analysts emphasized that workflow integration was critical to adoption and effectiveness, demonstrating how enterprise-grade GenAI can drive measurable impact in healthcare, especially in resource-constrained environments, a blueprint for similar deployments globally.</description>
-      <guid isPermaLink="false">bb52d929c57888978600e6d8d69a188e</guid>
-      <pubDate>Thu, 24 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building and evaluating alignment auditing agents [ ~ ]</title>
-      <link>https://alignment.anthropic.com/2025/automated-auditing/</link>
-      <description>Anthropic shares internal research on evaluating model alignment using auditing agents as part of Claude Opus training. Despite being insightful and transparent, the limited current applicability and unclear implementation pathways led to it being rated as optional.</description>
-      <guid isPermaLink="false">158fa47a0e3d65302e40bb6a6e1bc8e7</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Promptomatix: An Automatic Prompt Optimization Framework for Large Language Models [ ~ ]</title>
-      <link>https://arxiv.org/pdf/2507.14241</link>
-      <description>Salesforce's Promptomatix introduces a framework for automatic prompt optimization, aimed at improving LLM outputs. Analysts viewed it as academically solid but noted redundancy with LLMs' internal capabilities and its lack of open-source resources or deployment guidance.</description>
-      <guid isPermaLink="false">c968db2ea87828412b6bd5d0bbdad1d4</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gradient Labs transforms financial services customer support with Claude [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/gradient-labs</link>
-      <description>Gradient Labs uses Claude to automate customer service in financial services, achieving high satisfaction and resolution rates. While impactful, the case study lacks implementation detail and broader economic metrics, limiting its utility for leaders seeking replicable strategies.</description>
-      <guid isPermaLink="false">0983b8a7b8c8b1aee89f7b992da034db</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen3-Coder-480B-A35B-Instruct Launch [ * ]</title>
-      <link>https://venturebeat.com/programming-development/qwen3-coder-480b-a35b-instruct-launches-and-it-might-be-the-best-coding-model-yet/</link>
-      <description>Alibaba's Qwen3-Coder, a sparse MoE model with high benchmark performance and a permissive Apache 2.0 license, signals major open-source advances in AI coding tools. Analysts considered this important due to its potential impact on enterprise adoption, open innovation, and the competitive positioning of Chinese AI models globally.</description>
-      <guid isPermaLink="false">7678ba4895ebef73931d0bbab8cdb34d</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 06 Aug 2025 16:17:47 +0000</lastBuildDate>
     <item>
       <title>GitHub Spark [ * ]</title>
       <link>https://githubnext.com/projects/github-spark</link>
@@ -357,6 +315,48 @@
       <description>This commentary from Andrew Ng highlights a realistic pathway by which China could surpass the U.S. in AI leadership, citing its momentum in open‑weights models, chip development, and industrial policy. Our analysts emphasized that many AI leaders still underestimate China's strategic push and rising capabilities—making this a strategic signal that should not be ignored.</description>
       <guid isPermaLink="false">2e8e441b812eea3ab57edfd10fd54d59</guid>
       <pubDate>Tue, 05 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic Web: Weaving the Next Web with AI Agents [ ~ ]</title>
+      <link>https://arxiv.org/abs/2507.21206</link>
+      <description>This research paper outlines a conceptual framework for a future “agentic web” where autonomous agents handle tasks across intelligence, interaction, and economics layers. Our analysts flagged it as an intriguing academic vision but too theoretical and early in development to warrant executive action today.</description>
+      <guid isPermaLink="false">9841de67d2dce0b81ea4850c763c7d20</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nearly 100,000 ChatGPT Conversations Were Searchable on Google [ ~ ]</title>
+      <link>https://archive.is/H92Do#selection-545.0-545.62</link>
+      <description>A user‑shared feature on ChatGPT permitted scraping of nearly 100,000 public conversations—including sensitive NDA drafts and personal advice—highlighting privacy risks in default UX opt‑ins. Our analysts saw it as a cautionary tale about transparency and design choices in AI tools, but with limited strategic impact for leadership audiences.</description>
+      <guid isPermaLink="false">5e255ad3e62dca67f6a2c27ff5047586</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Genie 3: A new frontier for world models [ * ]</title>
+      <link>https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/</link>
+      <description>Google DeepMind’s Genie 3 world model delivers multi‑minute, real‑time interactive video simulations from text prompts with unprecedented consistency—crucial for training embodied AI agents. Although our analysts viewed it as a major technical leap toward AGI and robotics control, they considered it not yet broadly applicable commercially, placing it as an important milestone rather than essential.</description>
+      <guid isPermaLink="false">ca16c87be6e3133deeee33d5e6606bf7</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ElevenLabs launches an AI music generator, which it claims is cleared for commercial use [ ! ]</title>
+      <link>https://techcrunch.com/2025/08/05/elevenlabs-launches-an-ai-music-generator-which-it-claims-is-cleared-for-commercial-use/</link>
+      <description>ElevenLabs’ new AI music generator, fully licensed for commercial use, signals a “ChatGPT moment for music” by democratizing professional‑quality creative audio. Our analysts recognized its transformative potential—especially for musicians, creatives, and brand use cases—and hailed its legal and business model framework as a breakthrough in AI‑driven content and revenue generation.</description>
+      <guid isPermaLink="false">a89e14c937482c7b26da769e164130dd</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude Opus 4.1 [ ! ]</title>
+      <link>https://www.anthropic.com/news/claude-opus-4-1</link>
+      <description>Anthropic’s launch of Claude Opus 4.1 delivers a major upgrade in real‑world coding and agentic reasoning, achieving top scores on SWE‑bench and showing multi‑step task mastery. Our analysts noted that this release strengthens Anthropic’s position in the developer and enterprise market—especially in light of OpenAI’s lead in ARR in these segments—and demonstrates Anthropic’s growing footprint in AI agents and developer tools.</description>
+      <guid isPermaLink="false">05b35c5eac4107fc4046200b6e2d3bd2</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open models by OpenAI [ ! ]</title>
+      <link>https://openai.com/open-models/</link>
+      <description>OpenAI’s release of the new gpt‑oss‑120b and gpt‑oss‑20b open‑weight reasoning models marks its first fully downloadable model launch, embodying a strategic pivot toward democratized, customizable AI. Our analysts emphasized its high performance—on par with leading ‘closed’ models and competitive with China’s DeepSeek-driven innovations—opening up developer access, on‑prem deployments, and agentic workflows.</description>
+      <guid isPermaLink="false">8c58cc91eb788b4faaa841900dddfbb6</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
