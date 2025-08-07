@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Aug 2025 08:19:11 +0000</lastBuildDate>
-    <item>
-      <title>GitHub Spark [ * ]</title>
-      <link>https://githubnext.com/projects/github-spark</link>
-      <description>GitHub Spark is a new tool aimed at rapid prototyping and MVP development using natural language, integrating closely with GitHub’s developer ecosystem. While promising for accelerating GenAI app development, its limited access (ProPlus only) and competition in a crowded space (e.g., Replit, Cursor) made analysts view this as important, not yet essential, for AI teams.</description>
-      <guid isPermaLink="false">3b33705d62c873bb00a2a61015f5dc42</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump Administration Pledges to Stimulate AI Use and Exports [ ! ]</title>
-      <link>https://archive.md/AfqbK</link>
-      <description>The Trump administration has unveiled a sweeping AI policy agenda promoting deregulation, exports, and infrastructure development, including nuclear energy and open-source model support. Analysts flagged this as essential due to its significant implications for AI infrastructure and the consolidation of a national AI policy amidst fragmented state-level efforts, making it highly relevant for AI leaders monitoring geopolitical and regulatory trends.</description>
-      <guid isPermaLink="false">48896cd2e55d6f22d354546c716e7991</guid>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Personalized learning support at scale: How UT Austin built a generative AI tutor platform on AWS [ ~ ]</title>
-      <link>https://aws.amazon.com/blogs/publicsector/personalized-learning-support-at-scale-how-ut-austin-built-a-generative-ai-tutor-platform-on-aws/</link>
-      <description>This AWS blog describes UT Sage, a generative AI tutor platform co‑developed by UT Austin and AWS that offers faculty‑guided chatbots for students using responsible AI frameworks. Our analysts appreciated the education focus and platform architecture, but found details minimal—leaving questions about actual impact and adoption metrics, so they rated it optional.</description>
-      <guid isPermaLink="false">9472ebebdf1262c092ae2e0ca3111f35</guid>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deep Researcher with Test-Time Diffusion [ * ]</title>
-      <link>https://arxiv.org/abs/2507.16075</link>
-      <description>The TTD‑DR (Test‑Time Diffusion Deep Researcher) framework applies iterative refinement and external retrieval at inference time—mirroring human research cycles to produce rigorously fact‑checked, high‑quality reports. While some of our analysts viewed it as more academic than actionable, others regarded it as a pivotal evolution for LLM‑powered research agents, emphasizing growing demand in proof‑based enterprise workflows over speed alone.</description>
-      <guid isPermaLink="false">42fb405c190b193fb30c8a3e88e07398</guid>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Runway Aleph [ * ]</title>
-      <link>https://x.com/runwayml/status/1949398599894257748</link>
-      <description>Runway launches Aleph, a state‑of‑the‑art video model that lets users edit and generate video content in context—such as changing camera angles, replacing objects, adjusting lighting, or re‑texturing scenes via text prompts or image references. Our analysts noted its significance for synthetic media and post‑production workflows, particularly for enterprise use cases like scenario modeling, training, or interactive demos.</description>
-      <guid isPermaLink="false">c5fc73a943d04dd211cf4e587cc42ec9</guid>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Opal: describe, create, and share your AI mini‑apps [ * ]</title>
-      <link>https://developers.googleblog.com/en/introducing-opal/</link>
-      <description>Google has launched Opal, a no‑code AI mini‑app builder in beta (currently U.S.‑only) that allows users to assemble workflows with natural language prompts and a visual logic editor—enabling prototype deployment without coding. Our analysts highlighted it as a marker of the broader “vibe‑coding” trend underscoring its relevance for democratizing development even though the market is already crowded with similar tools.</description>
-      <guid isPermaLink="false">e6eef66482f195876837af9f2be1d610</guid>
-      <pubDate>Mon, 28 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 07 Aug 2025 16:17:40 +0000</lastBuildDate>
     <item>
       <title>Hacker inserts destructive code in Amazon Q tool as update goes live [ * ]</title>
       <link>https://www.csoonline.com/article/4027963/hacker-inserts-destructive-code-in-amazon-q-as-update-goes-live.html</link>
@@ -357,6 +315,48 @@
       <description>OpenAI’s release of the new gpt‑oss‑120b and gpt‑oss‑20b open‑weight reasoning models marks its first fully downloadable model launch, embodying a strategic pivot toward democratized, customizable AI. Our analysts emphasized its high performance—on par with leading ‘closed’ models and competitive with China’s DeepSeek-driven innovations—opening up developer access, on‑prem deployments, and agentic workflows.</description>
       <guid isPermaLink="false">8c58cc91eb788b4faaa841900dddfbb6</guid>
       <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Estimating Worst-Case Frontier Risks Of Open-Weight LLMs [ ~ ]</title>
+      <link>https://cdn.openai.com/pdf/231bf018-659a-494d-976c-2efdfc72b652/oai_gpt-oss_Model_Safety.pdf</link>
+      <description>OpenAI assesses the security risks of releasing open-weight LLMs through controlled fine-tuning experiments but finds their safety measures minimally effective. Our analysts viewed this as a red herring designed to justify model releases, lacking actionable value and raising concerns about transparency and responsible AI release practices.</description>
+      <guid isPermaLink="false">e16bbad4e780fe7707b5bc9cbe0f1e54</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trellix uses AWS GenAI for Cybersecurity Integration [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/apn/trellix-uses-aws-genai-for-cybersecurity-integration/</link>
+      <description>This case study details how Trellix uses AWS generative AI services to reduce manual cybersecurity tasks, claiming significant productivity gains. However, our analysts agreed the piece felt more like a promotional spotlight, lacking broader insights or transferable takeaways beyond the vendor’s specific implementation.</description>
+      <guid isPermaLink="false">f1dcdb0992d312ddec2907c3eb34b3a2</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen‑Image: Crafting with Native Text Rendering [ * ]</title>
+      <link>https://qwenlm.github.io/blog/qwen-image</link>
+      <description>Qwen‑Image introduces a new capability for high-quality native text rendering within images, setting it apart from other image-generating models that struggle with accurate textual representation. Our analysts were impressed by the demonstrated performance across languages, seeing this as a major advance even though independent evaluation and accessibility are still limited.</description>
+      <guid isPermaLink="false">a9cd7b4ffc9d2d2830c87f231c33496b</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VeriTrail: Detecting Hallucination And Tracing Provenance In Multi-Step AI Workflows [ * ]</title>
+      <link>https://www.microsoft.com/en-us/research/blog/veritrail-detecting-hallucination-and-tracing-provenance-in-multi-step-ai-workflows/</link>
+      <description>VeriTrail is a new Microsoft tool designed to improve explainability and accuracy in AI systems by tracing claims through knowledge graphs and detecting hallucinations. Our analysts highlighted its significance in tackling two critical issues—AI hallucination and model transparency—suggesting this could meaningfully advance AI reliability across enterprise use cases.</description>
+      <guid isPermaLink="false">4f9856b3a23dd7d37bcd2944c96c5f10</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developers, Reinvented [ * ]</title>
+      <link>https://ashtom.github.io/developers-reinvented</link>
+      <description>This reflective piece explores how the role of software developers is evolving in the age of AI, shifting from coding executors to system orchestrators and verifiers. Our analysts appreciated the focus on AI as an enabler of domain expansion and transformation rather than mere productivity, noting it provides relevant insight for both developers and AI leaders planning future teams.</description>
+      <guid isPermaLink="false">e225f82105b63e1bdeaf6b44adb76b6a</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Cybersecurity Leaders Are Securing AI Infrastructures [ * ]</title>
+      <link>https://www.csoonline.com/article/4033338/how-cybersecurity-leaders-are-securing-ai-infrastructures.html</link>
+      <description>As organizations rush to deploy generative AI, cybersecurity leaders are grappling with new vulnerabilities created by expanded AI infrastructures. This article provides a solid overview of emerging threat surfaces and emphasizes the urgency of embedding AI security measures early in deployment—a point our analysts highlighted as often overlooked by both vendors and executives alike.</description>
+      <guid isPermaLink="false">e381dfc0530bd55df9d626dbdafd4624</guid>
+      <pubDate>Thu, 07 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
