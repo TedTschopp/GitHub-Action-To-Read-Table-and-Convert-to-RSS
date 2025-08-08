@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "GPT-5 is here",
+        "links": [
+          "https://openai.com/gpt-5/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has released GPT-5 along with Mini and Nano versions, all supporting text and vision with a 400K context window, tiered pricing, and adaptive switching between faster and more reasoning-heavy modes. Our analysts emphasized its role as a new baseline foundation model from the market leader, with strategic implications for enterprises, rapid innovation pace, and operational impacts when upgrading production AI systems.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "GPT-5: It Just Does Stuff",
+        "links": [
+          "https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff"
+        ]
+      },
+      "Rationale": {
+        "text": "Ethan Mollick provides an in-depth, early look at GPT-5’s proactive, agentic capabilities, including automatic model switching and initiative-driven task execution that can produce MBA-level outputs in seconds. Our analysts highlighted this as the clearest, most practical explainer of how to use the new model effectively, while also stressing the growing need for human governance and skill to manage its autonomy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The DIVA logistics agent, powered by Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/the-diva-logistics-agent-powered-by-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study details how an Indian logistics company replaced an outdated support tool with an AI-powered DIVA agent, halving the volume of queries escalated to human customer service. Our analysts noted its well-structured front- and back-end implementation as a model for similar enterprise automation, while also cautioning that true success depends on tracking customer satisfaction alongside efficiency gains.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "When model providers eat everything",
+        "links": [
+          "https://foundationcapital.com/when-model-providers-eat-everything-a-survival-guide-for-service-as-software-startups/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article warns that LLM providers like OpenAI and Anthropic are moving up the stack, increasingly competing with the startups built on their models, and offers strategies such as custom evaluation pipelines, execution control, and deep domain expertise. Our analysts valued it as guidance for both startups and enterprises to identify defensible AI product opportunities that won’t be commoditized by the model creators.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Agentic commerce has arrived",
+        "links": [
+          "https://shopify.dev/docs/agents#how-it-works"
+        ]
+      },
+      "Rationale": {
+        "text": "Shopify outlines the technical setup for enabling agentic commerce, where AI agents can shop and transact autonomously on behalf of users. While the guide is useful for developers working within the Shopify ecosystem, our analysts saw it as a niche, tactical read with limited immediate impact for enterprise AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Project Ire autonomously identifies malware at scale",
+        "links": [
+          "https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/"
+        ]
+      },
+      "Rationale": {
+        "text": "Microsoft Research describes an AI system aimed at detecting novel, in-memory malware in real time by reverse-engineering software as it streams over networks. Our analysts found the concept powerful but noted it remains internal research without clear integration into production workflows, making it more of a behind-the-scenes update than actionable AI news for leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/07/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Z.ai's release of GLM‑4.5, an open‑source LLM optimized for reasoning, coding, and agentic tasks, achieves third‑place ranking across 12 benchmarks, matching or exceeding competitors in some tests while significantly improving efficiency and token cost over DeepSeek. Our analysts emphasized its significance as part of the growing wave of Chinese open‑source AI, noting that enterprises and policymakers should watch the rapid competitive intensity and openness of this development.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Anthropic teams use Claude Code",
-        "links": [
-          "https://www.anthropic.com/news/how-anthropic-teams-use-claude-code"
-        ]
-      },
-      "Rationale": {
-        "text": "An inside look at how Anthropic’s teams leverage Claude Code across functions—from legal to marketing—via prompt engineering to streamline workflows and unlock AI‑driven productivity. Our analysts valued the breadth of use cases and corporate reflection, though considered it not critical priority, recommending it remain on radar for AI leaders designing workflows and prompt‑driven systems.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How PerformLine uses prompt engineering on Amazon Bedrock to detect compliance violations",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-performline-uses-prompt-engineering-on-amazon-bedrock-to-detect-compliance-violations/"
-        ]
-      },
-      "Rationale": {
-        "text": "This AWS case study details how PerformLine built a compliance validation system using prompt engineering on Amazon Bedrock to parse millions of marketing pages, flag violations, version prompts centrally, and enhance throughput while reducing labor effort. Our analysts agreed it offers tangible design‑pattern lessons on prompt versioning, auditability, and latency trade‑offs—valuable for teams building regulated enterprise AI systems.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "FastVLM: Efficient Vision Encoding for Vision Language Models",
-        "links": [
-          "https://machinelearning.apple.com/research/fast-vision-language-models"
-        ]
-      },
-      "Rationale": {
-        "text": "Apple’s FastVLM research proposes architecture optimizations for vision‑language models to run efficiently on mobile and edge devices, reducing latency and energy use. While respected for its technical merit, our analysts noted it's early and device‑focused research, offering vision reasoning promise but limited immediate applicability.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Bitter Lesson versus The Garbage Can",
-        "links": [
-          "https://www.oneusefulthing.org/p/the-bitter-lesson-versus-the-garbage"
-        ]
-      },
-      "Rationale": {
-        "text": "This article compares the AI “bitter lesson”—that brute‑force computation outperforms crafted heuristics—with organizational models of chaos (the “garbage can”), arguing for outcome‑focused design over process mapping. Our analysts found the framing superficial and too theoretical for AI practitioners, making it a thought‑provoking but non‑essential read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "It’s Qwen’s summer: new open source Qwen3‑235B‑A22B‑Thinking‑2507 tops OpenAI, Gemini reasoning models on key benchmarks",
-        "links": [
-          "https://venturebeat.com/ai/its-qwens-summer-new-open-source-qwen3-235b-a22b-thinking-2507-tops-openai-gemini-reasoning-models-on-key-benchmarks/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article introduces Alibaba’s Qwen3‑235B‑A22B‑Thinking‑2507, an open‑source language model that outperforms proprietary models from OpenAI o4-mini and Google Gemini 2.5 Pro on key reasoning benchmarks. Our analysts emphasized its strategic significance: it positions Qwen as a serious open‑source competitor in large‑language‑model landscape for enterprise applications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Hacker inserts destructive code in Amazon Q tool as update goes live",
-        "links": [
-          "https://www.csoonline.com/article/4027963/hacker-inserts-destructive-code-in-amazon-q-as-update-goes-live.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This CSO report covers a prompt‑injection attack in Amazon Q’s that attempted to delete local files and AWS resources when the update (version 1.84) was published. Although the malicious code never executed, AWS pulled the update, released a patched version (1.85), and revised contribution guidelines within days to mitigate further risk. Our analysts flagged this as a wake‑up call on AI safety and pipeline security—highlighting an urgent need for traceability and observability in developer workflows.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-08T08:19:12.029611+00:00"
+  "timestamp": "2025-08-08T16:15:23.967259+00:00"
 }
