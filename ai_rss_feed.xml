@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 11 Aug 2025 08:20:00 +0000</lastBuildDate>
-    <item>
-      <title>GLM‑4.5: Reasoning, Coding, and Agentic Abilities [ * ]</title>
-      <link>https://z.ai/blog/glm-4.5</link>
-      <description>Z.ai's release of GLM‑4.5, an open‑source LLM optimized for reasoning, coding, and agentic tasks, achieves third‑place ranking across 12 benchmarks, matching or exceeding competitors in some tests while significantly improving efficiency and token cost over DeepSeek. Our analysts emphasized its significance as part of the growing wave of Chinese open‑source AI, noting that enterprises and policymakers should watch the rapid competitive intensity and openness of this development.</description>
-      <guid isPermaLink="false">abf99ef49f571d1b417cbc67c600f0ef</guid>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Copilot Mode in Edge: A new way to browse the web [ * ]</title>
-      <link>https://blogs.windows.com/msedgedev/2025/07/28/introducing-copilot-mode-in-edge-a-new-way-to-browse-the-web/</link>
-      <description>Microsoft has rolled out Copilot Mode in Edge—a new AI‑powered feature in Edge that unifies chat, search, and navigation in a clean interface, enabling users to compare tabs, summarize content, and execute tasks like bookings via voice or text with optional access to history and credentials. Our analysts flagged it as strategic for the “browser wars,” noting Microsoft's market penetration and ambition to turn Edge into a more agentic interface, though they remain cautious about execution quality.</description>
-      <guid isPermaLink="false">38c4a6ec49793a779192a4c3828d7d35</guid>
-      <pubDate>Tue, 29 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Outtake’s agents resolve cybersecurity attacks in hours with OpenAI [ ~ ]</title>
-      <link>https://openai.com/index/outtake/</link>
-      <description>Outtake’s agents leveraging OpenAI models claim rapid cybersecurity resolution across large threat surfaces—impressive in scope but lacking published metrics or detailed methodology. Our analysts felt the article offered limited concrete insights despite being in an important domain.</description>
-      <guid isPermaLink="false">6bc01ea597ec9d2eb321cadabc897f00</guid>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Routine: A Structural Planning Framework for LLM Agent System in Enterprise [ ~ ]</title>
-      <link>https://arxiv.org/abs/2507.14447</link>
-      <description>This academic paper proposes a structured planning framework for enterprise LLM agents—advancing tool‑calling and context engineering ideas—but remains theoretical. Our analysts viewed it as conceptually important yet not immediately actionable for AI leaders.</description>
-      <guid isPermaLink="false">4f2d417af303c2f70b22283f959b559a</guid>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Optimizing enterprise AI assistants: How Crypto.com uses LLM reasoning and feedback for enhanced efficiency [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/optimizing-enterprise-ai-assistants-how-crypto-com-uses-llm-reasoning-and-feedback-for-enhanced-efficiency/</link>
-      <description>Crypto.com’s case study demonstrates an effective prompt‑optimization workflow using reasoning LLMs to iteratively refine prompts, delivering a 34-percentage point lift in classification accuracy over just ten iterations. Our analysts saw this as a broadly applicable prompt‑engineering methodology for enterprise AI assistants.</description>
-      <guid isPermaLink="false">9ff8c8d7b50a164abe7a76dd2a2e92e6</guid>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing study mode [ ! ]</title>
-      <link>https://openai.com/index/chatgpt-study-mode/</link>
-      <description>OpenAI’s ChatGPT Study Mode introduces structured, Socratic-style guidance designed to support actual learning rather than simply providing answers. Our analysts underscored its broad availability across customer plans and its potential to reposition ChatGPT as an educational tutor—not just a shortcut tool—impacting both students and enterprise learning strategies.</description>
-      <guid isPermaLink="false">65ccec7ddefab85eacfebace6a58b01a</guid>
-      <pubDate>Wed, 30 Jul 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 11 Aug 2025 16:16:39 +0000</lastBuildDate>
     <item>
       <title>Video Overviews and an upgraded Studio in Notebook LM [ ! ]</title>
       <link>https://blog.google/technology/google-labs/notebooklm-video-overviews-studio-upgrades</link>
@@ -319,8 +277,8 @@
     <item>
       <title>Project Ire autonomously identifies malware at scale [ ~ ]</title>
       <link>https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/</link>
-      <description>Microsoft Research describes an AI system aimed at detecting novel, in-memory malware in real time by reverse-engineering software as it streams over networks. Our analysts found the concept powerful but noted it remains internal research without clear integration into production workflows, making it more of a behind-the-scenes update than actionable AI news for leaders.</description>
-      <guid isPermaLink="false">15f41d9992614b268b1a73f358a96812</guid>
+      <description>Microsoft Research’s AI system for detecting novel, in-memory malware via autonomous reverse engineering; promising, but still research-stage.</description>
+      <guid isPermaLink="false">f40a0f329cccbb33cfdb49eefa3732b3</guid>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -357,6 +315,48 @@
       <description>OpenAI has released GPT-5 along with Mini and Nano versions, all supporting text and vision with a 400K context window, tiered pricing, and adaptive switching between faster and more reasoning-heavy modes. Our analysts emphasized its role as a new baseline foundation model from the market leader, with strategic implications for enterprises, rapid innovation pace, and operational impacts when upgrading production AI systems.</description>
       <guid isPermaLink="false">f3a07ec7125f5baff5ffb5e2d021f2d4</guid>
       <pubDate>Fri, 08 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study [ ~ ]</title>
+      <link>https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study</link>
+      <description>Databricks offers an internal look at how their assistant evolves through human feedback—demonstrating small‑scale gains in agent adaptation. While promising, the analysts noted the case study reads more like a product announcement than a generalizable innovation, and lacks wider applicability.</description>
+      <guid isPermaLink="false">86fd51b80eda9562fb87b7400d6d67f1</guid>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Achieving 10,000× training data reduction with high‑fidelity labels [ ~ ]</title>
+      <link>https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/?s=09</link>
+      <description>In a niche yet fascinating research effort, Google describes how curated high‑fidelity labeling combined with LLMs reduced data requirements from 100,000 to just 500 samples for unsafe ad content classification. Our analysts appreciated the clever methodology—but judged it too esoteric for broad application among most of our audience.</description>
+      <guid isPermaLink="false">3024527d0f8045b6919686091cee50df</guid>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Aditya Birla Capital brings down generative AI operating costs by 40% with Azure [ ~ ]</title>
+      <link>https://www.microsoft.com/en/customers/story/20596-aditya-birla-financial-shared-services-azure-open-ai-service</link>
+      <description>This Microsoft‑sponsored case study showcases a 40% cost reduction achieved through Azure‑based generative AI, but offers few fresh technical insights beyond typical cloud benefits. Our analysts felt it was a light read—interesting implementation, but not particularly novel or deep.</description>
+      <guid isPermaLink="false">1caf36cee80b169976e349b1d21e6b44</guid>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Amazon Bedrock powers next-generation account planning at AWS [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-powers-next-generation-account-planning-at-aws/</link>
+      <description>AWS presents a compelling case study showing how Amazon Bedrock improves the speed and quality of B2B account planning—reporting up to 52% faster planning and 37% higher quality outputs through AI‑driven insights. Our analysts highlighted the high‑leverage, business‑to‑business utility and saw it as a strong real‑world example of AI automation delivering tangible commercial value.</description>
+      <guid isPermaLink="false">78c38c0b250da83915781867f77a394a</guid>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Hidden Penalty of Using AI at Work [ * ]</title>
+      <link>https://hbr.org/2025/08/research-the-hidden-penalty-of-using-ai-at-work?ab=HP-latest-text-5</link>
+      <description>This HBR study uncovers a troubling bias: employees who admit to using AI receive lower performance ratings—by 6% for male engineers and 13% for females—revealing a subtle gendered penalty affecting workplace AI adoption. Our analysts noted that this is a thought‑provoking article touching on AI ethics, bias, and adoption dynamics that could influence how companies measure AI‑leveraged contributions.</description>
+      <guid isPermaLink="false">cde43d399f34574262d64fe86204fb8d</guid>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI returns old models to ChatGPT as Sam Altman admits ‘bumpy’ GPT-5 rollout [ ! ]</title>
+      <link>https://venturebeat.com/ai/openai-returns-old-models-to-chatgpt-as-sam-altman-admits-bumpy-gpt-5-rollout/</link>
+      <description>OpenAI acknowledged major issues in the August 7, 2025 rollout of GPT-5 and temporarily reinstated legacy models like GPT-4o after user backlash, highlighting critical challenges in AI deployment. Our analysts stressed how disruptive auto-model switching can be and emphasized the need for AI leaders to anticipate shifts in logic when core models change—making this a must-read for anyone overseeing AI implementations.</description>
+      <guid isPermaLink="false">69eea6be3c9d4b6500b7e772ee724f7e</guid>
+      <pubDate>Mon, 11 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-08-11T08:20:00.921494+00:00",
+  "timestamp": "2025-08-11T16:16:39.279990+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Mon, 11 Aug 2025 08:20:00 +0000",
-      "size_bytes": 37993,
+      "last_updated": "Mon, 11 Aug 2025 16:16:39 +0000",
+      "size_bytes": 37929,
       "errors": []
     },
     "eei_ai_rss_feed.xml": {
