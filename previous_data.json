@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Agoda's GenAI Journey Thus Far",
+        "links": [
+          "https://medium.com/agoda-engineering/a-retrospective-agodas-genai-journey-thus-far-b0739683d53e"
+        ]
+      },
+      "Rationale": {
+        "text": "Agoda, under Booking Holdings, adopts AI-first culture with company-wide GenAI strategy spanning governance, infrastructure, and internal tooling; standout cultural transformation case with practices like a 'GenAI proxy' for observability and internal ChatGPT-style bot.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Savvy Companies Are Using Chinese AI",
+        "links": [
+          "https://hbr.org/2025/09/how-savvy-companies-are-using-chinese-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "Explores integration of Chinese AI models in global firms for cost, customization, and geopolitical implications; highlights Chinaâ€™s growing AI influence across industries from automotive to defense, shaping competitive landscapes.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "A comprehensive taxonomy of hallucinations in Large Language Models",
+        "links": [
+          "https://arxiv.org/abs/2508.01781"
+        ]
+      },
+      "Rationale": {
+        "text": "50-page research categorizing LLM hallucinations with framework for assessment and mitigation; valuable for technical and non-technical leaders, reinforcing the need for external guardrails and governance in enterprise AI deployments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Luna-2: Real-time guardrails without the big-time bill",
+        "links": [
+          "https://galileo.ai/luna-2"
+        ]
+      },
+      "Rationale": {
+        "text": "Galileo's Luna-2 offers cost-efficient, real-time LLM guardrails by decoupling evaluation from inference; notable AI safety infrastructure product with potential to reduce costs and improve oversight, but ultimately a product announcement.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Maximize Robotics Performance by Post-Training NVIDIA Cosmos Reason",
+        "links": [
+          "https://developer.nvidia.com/blog/maximize-robotics-performance-by-post-training-nvidia-cosmos-reason/"
+        ]
+      },
+      "Rationale": {
+        "text": "NVIDIA showcases fine-tuning and reinforcement learning improvements to its Cosmos Reason model for robotics; incremental update with limited immediate relevance for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The data center balance: How US states can navigate the opportunities and challenges",
+        "links": [
+          "https://www.mckinsey.com/industries/public-sector/our-insights/the-data-center-balance-how-us-states-can-navigate-the-opportunities-and-challenges"
+        ]
+      },
+      "Rationale": {
+        "text": "McKinsey analyzes trade-offs in attracting data centers, balancing energy constraints with economic benefits; conservative outlook aimed at promoting consulting services over urgent action for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/11/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This HBR article goes beyond standard SEO, outlining a framework—including share of concept, share of model, share of voice—to help brands optimize for LLM and answer‑engine visibility. Our analysts emphasized that this is practical, well‑researched generative AI guidance that every AI leader should read, given how customers and talent now rely on these new AI answer engines rather than traditional search engines.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "07/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Codestral 25.08 and the Complete Mistral Coding Stack for Enterprise",
-        "links": [
-          "https://mistral.ai/news/codestral-25-08"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral’s announcement introduces an integrated enterprise coding stack—Codestral, DevStrill orchestration, repository embeddings—for on‑prem or VPC deployment, positioning them differently than SaaS‑only players. Our analysts flagged it as important because it is a valuable enterprise AI automation innovation, particularly in regulated sectors such as finance or European markets.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Personal Superintelligence",
-        "links": [
-          "https://www.meta.com/superintelligence/"
-        ]
-      },
-      "Rationale": {
-        "text": "Mark Zuckerberg’s letter pitches a vision of personal superintelligence powered by open source models, but our analysts regarded it as AI positioning and marketing rhetoric rather than substantive innovation. While entertaining and reflective of OpenAI‑competitive narrative, they felt it lacked technical or strategic depth that merits high priority.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Bertelsmann Built a Multi‑Agent System to Empower Creatives",
-        "links": [
-          "https://blog.langchain.com/customer-bertelsmann/"
-        ]
-      },
-      "Rationale": {
-        "text": "This LangChain case study describes how Bertelsmann implemented a multi‑agent system to streamline creative workflows and reduce turnaround from hours to seconds. However, our analysts pointed out it’s light on technical details, ROI data, or process diagrams—making it an interesting use case, but not insightful enough for broader enterprise relevance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Ideogram Character",
-        "links": [
-          "https://about.ideogram.ai/character"
-        ]
-      },
-      "Rationale": {
-        "text": "Ideogram’s new “Character” model offers a novel capability: generating multiple consistent image variations from a single input. Our analysts agreed that while the visual output is compelling, it lacks clear differentiation from other competitors in a crowded market.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Writer launches a ‘super agent’ that actually gets sh*t done, outperforms OpenAI on key benchmarks",
-        "links": [
-          "https://venturebeat.com/ai/writer-launches-a-super-agent-that-actually-gets-sht-done-outperforms-openai-on-key-benchmarks/"
-        ]
-      },
-      "Rationale": {
-        "text": "Writer’s new Action Agent autonomously executes complex, multi-step enterprise tasks leveraging 600+ tools, with top scores on GAIA Level 3 and the CUB benchmark—surpassing OpenAI’s comparable systems. Our analysts praised its enterprise-grade governance, auditability, and security, viewing it as a watershed moment in AI automation and agentic systems especially for regulated industries.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "07/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Video Overviews and an upgraded Studio in Notebook LM",
-        "links": [
-          "https://blog.google/technology/google-labs/notebooklm-video-overviews-studio-upgrades"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s NotebookLM now generates narrated slideshows—called Video Overviews—that combine visuals, quotes, diagrams, and data from uploaded documents, offering a richer learning format beyond existing Audio Overviews. Our analysts highlighted its significance for enterprise learning programs and education use cases, noting the feature’s slide-based delivery and the revamped Studio panel make it transformational for organizations adopting AI-driven content creation.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-12T08:17:34.434287+00:00"
+  "timestamp": "2025-08-12T16:16:36.811623+00:00"
 }
