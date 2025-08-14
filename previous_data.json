@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "GPT-5 Set the Stage for Ad Monetization and the SuperApp",
+        "links": [
+          "https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6InNlbWlhbmFseXNpcy5wYXNzcG9ydC5vbmxpbmUiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lIiwiYXpwIjoiS1NncVhBaGFmZmtwVjQzbmt0UU1INSIsImVudCI6eyJhdWQiOlsiNThZNVhua2U4U1ZnTkFRRm5GZUVIQiJdLCJ1cmkiOlsiaHR0cHM6Ly9zZW1pYW5hbHlzaXMuY29tLzIwMjUvMDgvMTMvZ3B0LTUtYWQtbW9uZXRpemF0aW9uLWFuZC10aGUtc3VwZXJhcHAvIl19LCJleHAiOjE3NTc2MzkyNzMsImlhdCI6MTc1NTA0NzI3MywiaXNzIjoiaHR0cHM6Ly9zZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiIxMGZiMjU5ZC1kMGE4LTRlYzUtOTBkYS05MzE0YWQ2NGFmNzciLCJ1c2UiOiJhY2Nlc3MifQ.-g5KefHpvGLvEfJ5UGcy1xk-H64Kr-q3lnXCXFBqYGiHVS0owACsYvzgoiqVYOLPzTKZrpPcjesE_WvpRJDvmw#"
+        ]
+      },
+      "Rationale": {
+        "text": "GPT‑5 marks OpenAI’s shift to monetizing its free user base via a router system that distinguishes mundane vs. high-value queries, laying the groundwork for agentic behavior and transactional revenue—positioning ChatGPT as a potential consumer SuperApp.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Indegene’s AI-powered social intelligence for life sciences turns social media conversations into insights",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-indegenes-ai-powered-social-intelligence-for-life-sciences-turns-social-media-conversations-into-insights/"
+        ]
+      },
+      "Rationale": {
+        "text": "AWS case study on Indegene’s AI tools for converting social media chatter into actionable insights in life sciences, optimizing costs and accelerating time-to-insight; architecture insights valuable for pharma and healthcare AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The State of AI 2025",
+        "links": [
+          "https://www.bvp.com/atlas/the-state-of-ai-2025"
+        ]
+      },
+      "Rationale": {
+        "text": "Bessemer’s report maps AI market trajectories, classifies startups as 'supernovas' or 'shooting stars', and offers frameworks for growth and sustainability; valuable as a market compass despite speculative elements.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Basis scales accounting by turning OpenAI model progress into trusted agents",
+        "links": [
+          "https://openai.com/index/basis/"
+        ]
+      },
+      "Rationale": {
+        "text": "Case study of AI agents transforming accounting workflows with up to 30% time savings by routing to the most capable model (like GPT‑5) and providing transparent reasoning; strong blueprint for AI-human collaboration in structured domains.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "MolmoAct: An Action Reasoning Model that reasons in 3D space",
+        "links": [
+          "https://allenai.org/blog/molmoact"
+        ]
+      },
+      "Rationale": {
+        "text": "AI2’s open-source MolmoAct model can reason in 3D and translate spatial instructions into robotic actions—essential for robotics specialists, but optional for a general AI audience.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Building Safeguards for Claude",
+        "links": [
+          "https://www.anthropic.com/news/building-safeguards-for-claude"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic outlines Claude’s multi-layer safeguards from policy to real‑time enforcement; transparency appreciated, but broader education and systemic understanding remain key for real safety.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/13/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article introduces Google DeepMind's Gemini 2.5 Deep Think—an advanced reasoning model that explores multiple ideas in parallel, achieving top-tier scores on benchmarks like LiveCodeBench 6 and Humanity’s Last Exam without external tool calls, significantly advancing AI reasoning capabilities. Our analysts highlighted the shift from singular reasoning to collaborative, compute-intensive “deep thinking” and noted its potential to unlock new use cases in coding, scientific reasoning, and enterprise applications.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "A SURVEY OF SELF‑EVOLVING AGENTS: ON PATH TO ARTIFICIAL SUPER INTELLIGENCE",
-        "links": [
-          "https://arxiv.org/pdf/2507.21046"
-        ]
-      },
-      "Rationale": {
-        "text": "This survey paper presents the first systematic review of self-evolving agents, organizing the taxonomy around what, when, and how agents adapt over time and laying a roadmap toward ASI through autonomous adaptation across models, memory, architecture, and tools. Our analysts described it as a “Bible” of the future of agentic systems, providing crucial structure and insight into evolving agent architectures and safety considerations for enterprise AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How OpenAI uses Codex",
-        "links": [
-          "https://media.licdn.com/dms/document/media/v2/D561FAQFGP6kx_fZbJw/feedshare-document-pdf-analyzed/B56Zhmv49THUAY-/0/1754070505694?e=1755129600&v=beta&t=VtvAu6Lit_tGfWP0M0mD90tZqorozYU8PnsbcCIYwi0"
-        ]
-      },
-      "Rationale": {
-        "text": "This article provides an in-depth walkthrough of how OpenAI’s Codex operates as a multi-task software engineering agent—handling code synthesis, bug fixes, migrations, pull requests, and test completion across diverse languages. Our analysts emphasized its significance for accelerating development workflows and noted that Codex is increasingly accessible within ChatGPT and subscription tiers, earning it broader applicability.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Deep Cogito goes big, releasing 4 new open source hybrid reasoning models with self‑improving ‘intuition’",
-        "links": [
-          "https://venturebeat.com/ai/deep-cogito-goes-big-releasing-4-new-open-source-hybrid-reasoning-models-with-self-improving-intuition/"
-        ]
-      },
-      "Rationale": {
-        "text": "Startup Deep Cogito released four open-weight Cogito v2 models (70B–671B parameters) that integrate hybrid reasoning—distilling reflective reasoning into model weights to yield self-improving “intuition.” Our analysts found this a significant step toward efficiency and alignment of reasoning behavior in open-source LLMs, though performance edge requires deeper evaluation, hence “Important.”",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "FLUX.1 Krea [dev]: An ‘Opinionated’ Text‑to‑Image Model",
-        "links": [
-          "https://bfl.ai/announcements/flux-1-krea-dev"
-        ]
-      },
-      "Rationale": {
-        "text": "Black Forest Labs’ Flux.1 Krea introduces a text‑to‑image model with an aesthetic “opinionated” style—eschewing generic AI visual tropes in favor of more artistic outputs with photorealism. Our analysts noted it as a fine aesthetic innovation and open-weight release, but given the crowded text‑to‑image space and its incremental nature, it ranks as optional everyday news.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Nippon India Mutual Fund improved the accuracy of AI assistant responses using advanced RAG methods on Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-nippon-india-mutual-fund-improved-the-accuracy-of-ai-assistant-responses-using-advanced-rag-methods-on-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study describes how Nippon India Mutual Fund adopted advanced Retrieval Augmented Generation (RAG) techniques on Amazon Bedrock to significantly reduce hallucinations and improve assistant accuracy by leveraging semantic chunking and dynamic prompt reordering, providing a real-world results-focused AI application. Our analysts highlighted that this clear articulation of improved accuracy and adoption among businesses makes it a must-read and a reproducible template for enterprise AI efforts.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Robotics Levels of Autonomy",
-        "links": [
-          "https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/"
-        ]
-      },
-      "Rationale": {
-        "text": "Semi‑Analysis lays out a structured five‑level framework categorizing robot autonomy by agency (decision‑making) and dexterity, offering a thoughtful overview of current and future robotics trends across verticals. Our analysts noted its value for leaders tracking robotics adoption, even if the report provides more of a historical view versus future predictions.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-14T08:18:48.666197+00:00"
+  "timestamp": "2025-08-14T16:17:04.948535+00:00"
 }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.0</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 14 Aug 2025 08:18:48 +0000</lastBuildDate>
-    <item>
-      <title>Robotics Levels of Autonomy [ * ]</title>
-      <link>https://semianalysis.com/2025/07/30/robotics-levels-of-autonomy/</link>
-      <description>Semi‑Analysis lays out a structured five‑level framework categorizing robot autonomy by agency (decision‑making) and dexterity, offering a thoughtful overview of current and future robotics trends across verticals. Our analysts noted its value for leaders tracking robotics adoption, even if the report provides more of a historical view versus future predictions.</description>
-      <guid isPermaLink="false">0ed3b6ed6e4e0129f5e1d8d0bd31b2a1</guid>
-      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Nippon India Mutual Fund improved the accuracy of AI assistant responses using advanced RAG methods on Amazon Bedrock [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-nippon-india-mutual-fund-improved-the-accuracy-of-ai-assistant-responses-using-advanced-rag-methods-on-amazon-bedrock/</link>
-      <description>This case study describes how Nippon India Mutual Fund adopted advanced Retrieval Augmented Generation (RAG) techniques on Amazon Bedrock to significantly reduce hallucinations and improve assistant accuracy by leveraging semantic chunking and dynamic prompt reordering, providing a real-world results-focused AI application. Our analysts highlighted that this clear articulation of improved accuracy and adoption among businesses makes it a must-read and a reproducible template for enterprise AI efforts.</description>
-      <guid isPermaLink="false">1927979d2f759d201b3fdb58d45dd71c</guid>
-      <pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>FLUX.1 Krea [dev]: An ‘Opinionated’ Text‑to‑Image Model [ ~ ]</title>
-      <link>https://bfl.ai/announcements/flux-1-krea-dev</link>
-      <description>Black Forest Labs’ Flux.1 Krea introduces a text‑to‑image model with an aesthetic “opinionated” style—eschewing generic AI visual tropes in favor of more artistic outputs with photorealism. Our analysts noted it as a fine aesthetic innovation and open-weight release, but given the crowded text‑to‑image space and its incremental nature, it ranks as optional everyday news.</description>
-      <guid isPermaLink="false">997fd8e4c5627592655394eee8ddea0b</guid>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deep Cogito goes big, releasing 4 new open source hybrid reasoning models with self‑improving ‘intuition’ [ * ]</title>
-      <link>https://venturebeat.com/ai/deep-cogito-goes-big-releasing-4-new-open-source-hybrid-reasoning-models-with-self-improving-intuition/</link>
-      <description>Startup Deep Cogito released four open-weight Cogito v2 models (70B–671B parameters) that integrate hybrid reasoning—distilling reflective reasoning into model weights to yield self-improving “intuition.” Our analysts found this a significant step toward efficiency and alignment of reasoning behavior in open-source LLMs, though performance edge requires deeper evaluation, hence “Important.”</description>
-      <guid isPermaLink="false">365be4e8518d0881cdba55adb31e0518</guid>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How OpenAI uses Codex [ * ]</title>
-      <link>https://media.licdn.com/dms/document/media/v2/D561FAQFGP6kx_fZbJw/feedshare-document-pdf-analyzed/B56Zhmv49THUAY-/0/1754070505694?e=1755129600&amp;v=beta&amp;t=VtvAu6Lit_tGfWP0M0mD90tZqorozYU8PnsbcCIYwi0</link>
-      <description>This article provides an in-depth walkthrough of how OpenAI’s Codex operates as a multi-task software engineering agent—handling code synthesis, bug fixes, migrations, pull requests, and test completion across diverse languages. Our analysts emphasized its significance for accelerating development workflows and noted that Codex is increasingly accessible within ChatGPT and subscription tiers, earning it broader applicability.</description>
-      <guid isPermaLink="false">becf70e325eacd6110811cd137aa4ee5</guid>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A SURVEY OF SELF‑EVOLVING AGENTS: ON PATH TO ARTIFICIAL SUPER INTELLIGENCE [ ! ]</title>
-      <link>https://arxiv.org/pdf/2507.21046</link>
-      <description>This survey paper presents the first systematic review of self-evolving agents, organizing the taxonomy around what, when, and how agents adapt over time and laying a roadmap toward ASI through autonomous adaptation across models, memory, architecture, and tools. Our analysts described it as a “Bible” of the future of agentic systems, providing crucial structure and insight into evolving agent architectures and safety considerations for enterprise AI leaders.</description>
-      <guid isPermaLink="false">a86440c54150139fa3a2557fdfeaf33e</guid>
-      <pubDate>Mon, 04 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 14 Aug 2025 16:17:04 +0000</lastBuildDate>
     <item>
       <title>Google rolls out Gemini Deep Think AI [ ! ]</title>
       <link>https://techcrunch.com/2025/08/01/google-rolls-out-gemini-deep-think-ai-a-reasoning-model-that-tests-multiple-ideas-in-parallel</link>
@@ -357,6 +315,48 @@
       <description>This a16z explores online consumer purchasing behaviors, categorizing from impulse buys to lifetime purchases, and discusses how GenAI could disrupt Google, Shopify, Amazon; shifts focus from SEO to answer engine optimization.</description>
       <guid isPermaLink="false">56fe49f73096d6e48319ad24916cd095</guid>
       <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building Safeguards for Claude [ ~ ]</title>
+      <link>https://www.anthropic.com/news/building-safeguards-for-claude</link>
+      <description>Anthropic outlines Claude’s multi-layer safeguards from policy to real‑time enforcement; transparency appreciated, but broader education and systemic understanding remain key for real safety.</description>
+      <guid isPermaLink="false">a83a50669758fde67391e781a32ae616</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MolmoAct: An Action Reasoning Model that reasons in 3D space [ ~ ]</title>
+      <link>https://allenai.org/blog/molmoact</link>
+      <description>AI2’s open-source MolmoAct model can reason in 3D and translate spatial instructions into robotic actions—essential for robotics specialists, but optional for a general AI audience.</description>
+      <guid isPermaLink="false">52e4ffc3a6d9d351b94fd5f0a5991e1a</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Basis scales accounting by turning OpenAI model progress into trusted agents [ * ]</title>
+      <link>https://openai.com/index/basis/</link>
+      <description>Case study of AI agents transforming accounting workflows with up to 30% time savings by routing to the most capable model (like GPT‑5) and providing transparent reasoning; strong blueprint for AI-human collaboration in structured domains.</description>
+      <guid isPermaLink="false">4ca3a3b5e10f0bc5b92d3e5414a9c3e5</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The State of AI 2025 [ * ]</title>
+      <link>https://www.bvp.com/atlas/the-state-of-ai-2025</link>
+      <description>Bessemer’s report maps AI market trajectories, classifies startups as 'supernovas' or 'shooting stars', and offers frameworks for growth and sustainability; valuable as a market compass despite speculative elements.</description>
+      <guid isPermaLink="false">c5320f9c750fd861d82a866095786009</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Indegene’s AI-powered social intelligence for life sciences turns social media conversations into insights [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-indegenes-ai-powered-social-intelligence-for-life-sciences-turns-social-media-conversations-into-insights/</link>
+      <description>AWS case study on Indegene’s AI tools for converting social media chatter into actionable insights in life sciences, optimizing costs and accelerating time-to-insight; architecture insights valuable for pharma and healthcare AI strategy.</description>
+      <guid isPermaLink="false">dc75c936029e80df8fe61470dd3681a1</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-5 Set the Stage for Ad Monetization and the SuperApp [ ! ]</title>
+      <link>https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6InNlbWlhbmFseXNpcy5wYXNzcG9ydC5vbmxpbmUiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lIiwiYXpwIjoiS1NncVhBaGFmZmtwVjQzbmt0UU1INSIsImVudCI6eyJhdWQiOlsiNThZNVhua2U4U1ZnTkFRRm5GZUVIQiJdLCJ1cmkiOlsiaHR0cHM6Ly9zZW1pYW5hbHlzaXMuY29tLzIwMjUvMDgvMTMvZ3B0LTUtYWQtbW9uZXRpemF0aW9uLWFuZC10aGUtc3VwZXJhcHAvIl19LCJleHAiOjE3NTc2MzkyNzMsImlhdCI6MTc1NTA0NzI3MywiaXNzIjoiaHR0cHM6Ly9zZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiIxMGZiMjU5ZC1kMGE4LTRlYzUtOTBkYS05MzE0YWQ2NGFmNzciLCJ1c2UiOiJhY2Nlc3MifQ.-g5KefHpvGLvEfJ5UGcy1xk-H64Kr-q3lnXCXFBqYGiHVS0owACsYvzgoiqVYOLPzTKZrpPcjesE_WvpRJDvmw#</link>
+      <description>GPT‑5 marks OpenAI’s shift to monetizing its free user base via a router system that distinguishes mundane vs. high-value queries, laying the groundwork for agentic behavior and transactional revenue—positioning ChatGPT as a potential consumer SuperApp.</description>
+      <guid isPermaLink="false">7abea24bf12d5ad3df5f71939cb16ce9</guid>
+      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
