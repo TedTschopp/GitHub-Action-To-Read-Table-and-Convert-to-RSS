@@ -14,13 +14,7 @@ from feedgen.feed import FeedGenerator
 import time
 import re
 from dateutil import parser as date_parser
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
 # Import configuration
 from config import *
@@ -36,44 +30,38 @@ class RSSScraperError(Exception):
     """Custom exception for RSS scraper errors."""
     pass
 
-class WebDriverManager:
-    """Context manager for WebDriver instances."""
-    
+class BrowserManager:
+    """Context manager for a Playwright browser page (replaces Selenium WebDriver)."""
+
     def __init__(self, config=BROWSER_CONFIG):
         self.config = config
-        self.driver = None
-    
+        self._play = None
+        self._browser = None
+        self._context = None
+        self._page = None
+
     def __enter__(self):
-        self.driver = self._setup_driver()
-        return self.driver
-    
+        self._play = sync_playwright().start()
+        # Use chromium; Playwright bundles compatible browsers (install via 'playwright install --with-deps chromium')
+        self._browser = self._play.chromium.launch(headless=self.config.get("headless", True))
+        width, height = (int(x) for x in self.config.get("window_size", "1920,1080").split(','))
+        self._context = self._browser.new_context(
+            user_agent=self.config.get("user_agent"),
+            viewport={"width": width, "height": height},
+            java_script_enabled=True,
+        )
+        self._page = self._context.new_page()
+        return self._page
+
     def __exit__(self, exc_type, exc_val, exc_tb):
-        if self.driver:
-            self.driver.quit()
-    
-    def _setup_driver(self):
-        """Setup Chrome driver with configuration."""
-        options = Options()
-        
-        if self.config["headless"]:
-            options.add_argument('--headless')
-        
-        options.add_argument('--no-sandbox')
-        options.add_argument('--disable-dev-shm-usage')
-        options.add_argument('--disable-gpu')
-        options.add_argument('--remote-debugging-port=9222')
-        options.add_argument(f'--window-size={self.config["window_size"]}')
-        options.add_argument(f'--user-agent={self.config["user_agent"]}')
-        
-        # Use system Chrome in GitHub Actions
-        if os.environ.get('CHROME_BIN'):
-            options.binary_location = os.environ.get('CHROME_BIN')
-            driver = webdriver.Chrome(options=options)
-        else:
-            service = Service(ChromeDriverManager().install())
-            driver = webdriver.Chrome(service=service, options=options)
-        
-        return driver
+        try:
+            if self._context:
+                self._context.close()
+            if self._browser:
+                self._browser.close()
+        finally:
+            if self._play:
+                self._play.stop()
 
 class DataPersistence:
     """Handle data persistence and change detection."""
@@ -115,35 +103,28 @@ class GAIInsightsScraper:
         """Scrape table data from GAI Insights."""
         logger.info(f"Starting GAI Insights scraping from {self.url}")
         
-        with WebDriverManager() as driver:
-            return self._scrape_with_driver(driver)
+        with BrowserManager() as page:
+            return self._scrape_with_page(page)
     
-    def _scrape_with_driver(self, driver):
-        """Internal method to scrape with provided driver."""
+    def _scrape_with_page(self, page):
+        """Internal method to scrape with a Playwright page."""
         try:
-            driver.get(self.url)
-            
-            # Wait for page load
-            WebDriverWait(driver, self.config["page_load_timeout"]).until(
-                EC.presence_of_element_located((By.TAG_NAME, "body"))
-            )
-            
-            # Wait for dynamic content
+            logger.info("Navigating to page via Playwright")
+            page.goto(self.url, timeout=self.config["page_load_timeout"] * 1000, wait_until="domcontentloaded")
+
+            # Allow additional JS-driven population
             time.sleep(self.config["dynamic_content_wait"])
-            
-            # Wait for table
+
+            # Try waiting specifically for table rows
             try:
-                WebDriverWait(driver, 45).until(
-                    EC.presence_of_element_located((By.CSS_SELECTOR, f"#{self.table_id} tbody tr"))
-                )
-                time.sleep(5)
-            except:
-                logger.warning("Table rows not immediately found, proceeding...")
-            
-            # Parse content
-            soup = BeautifulSoup(driver.page_source, 'html.parser')
+                page.wait_for_selector(f"#{self.table_id} tbody tr", timeout=45_000)
+                time.sleep(2)
+            except PlaywrightTimeoutError:
+                logger.warning("Table rows not immediately found, proceeding with current DOM...")
+
+            html = page.content()
+            soup = BeautifulSoup(html, 'html.parser')
             return self._extract_table_data(soup)
-            
         except Exception as e:
             logger.error(f"Error during GAI scraping: {e}")
             raise RSSScraperError(f"GAI scraping failed: {e}")

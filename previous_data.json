@@ -1,5 +1,725 @@
 {
-  "gai_data": [
+  "data": [
+    {
+      "Date": {
+        "text": "08/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "MIXI reimagines communication with ChatGPT",
+        "links": [
+          "https://openai.com/index/mixi/"
+        ]
+      },
+      "Rationale": {
+        "text": "MIXI deployed ChatGPT Enterprise across its workforce in 45 days, showcasing rapid, secure adoption of GenAI at scale; analysts call it a strong blueprint for enterprise-wide AI rollout with organizational buy-in and clear results.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Command R+ Reasoning: Enterprise-grade control for AI agents",
+        "links": [
+          "https://cohere.com/blog/command-a-reasoning"
+        ]
+      },
+      "Rationale": {
+        "text": "Cohere launched Command R+ Reasoning, an enterprise upgrade optimized for multi-step reasoning with open weights and reproducibility; strategically notable given Cohereâ€™s status as a top private vendor and $500M raise.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Tyson Foods elevates customer search experience with an AI-powered conversational assistant",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/tyson-foods-elevates-customer-search-experience-with-an-ai-powered-conversational-assistant/"
+        ]
+      },
+      "Rationale": {
+        "text": "Tyson Foodsâ€™ AI assistant uses semantic search to improve customer experience, capturing high-value interactions with feedback loops; analysts note the strong technical depth but absence of financial metrics keeps it from essential.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Mode in Search gets new agentic features and expands globally",
+        "links": [
+          "https://blog.google/products/search/ai-mode-agentic-personalized/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google expands AI Mode with agentic features to 180 countries, integrating with partners like OpenTable and Ticketmaster; notable rollout but lacks differentiation or immediate impact.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Questioning Margins is a Boring Cliche",
+        "links": [
+          "https://a16z.com/questioning-margins-is-a-boring-cliche/"
+        ]
+      },
+      "Rationale": {
+        "text": "a16z defends low-margin AI apps as still investable, countering criticism of portfolio strategy; analysts view it as defensive with limited actionable insights.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Alibaba launches Qoder",
+        "links": [
+          "https://qoder.com/blog/qoder-introduction"
+        ]
+      },
+      "Rationale": {
+        "text": "Alibabaâ€™s Qoder is a no-code AI development platform aimed at simplifying coding tasks; seen as incremental and lacking clear differentiation in a crowded space.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "DeepSeek V3.1 just dropped - and it might be the most powerful open AI yet",
+        "links": [
+          "https://venturebeat.com/ai/deepseek-v3-1-just-dropped-and-it-might-be-the-most-powerful-open-ai-yet/"
+        ]
+      },
+      "Rationale": {
+        "text": "DeepSeek V3.1 is a hybrid model supporting 'thinking' and 'non-thinking' modes, performing on par with closed models like Claude at lower cost; analysts emphasize its disruptive geopolitical and enterprise implications for model selection, adoption, and competition.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Infosys built a generative AI solution to process oil and gas drilling data with Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-infosys-built-a-generative-ai-solution-to-process-oil-and-gas-drilling-data-with-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "Infosys deployed a RAG pipeline on Amazon Bedrock to process oil and gas drilling logs/diagrams; analysts called it a blueprint for industrial GenAI implementations, highlighting multimodal handling, strong financial impact, and enterprise-ready architecture.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "TELUS boosts workplace innovation with Claude",
+        "links": [
+          "https://www.anthropic.com/customers/telus"
+        ]
+      },
+      "Rationale": {
+        "text": "TELUS scaled Claude to 57,000 employees, building 13,000+ AI solutions and generating $90M from 47 implementations; strong case of GenAI-driven productivity, though most relevant to firms focusing on internal tooling.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Rethinking B2B Software Pricing in the Agentic AI Era",
+        "links": [
+          "https://www.bcg.com/publications/2025/rethinking-b2b-software-pricing-in-the-era-of-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "Article explores how AI agents reshape B2B software pricing models toward usage-based and agent-centric value; timely strategic implications for leaders reconsidering monetization amid automation and agent proliferation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Hidden Costs of Coding With Generative AI",
+        "links": [
+          "https://drive.google.com/file/d/1snY3rtlGIO_VWwfOZeh52dwRcH53k1St/view?usp=sharing"
+        ]
+      },
+      "Rationale": {
+        "text": "Warns of risks in uncritical GenAI code generation, particularly by juniors in complex infrastructure; analysts consider it common sense for experienced teams, but a useful reminder about tech debt risks.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents",
+        "links": [
+          "https://arxiv.org/abs/2508.14040"
+        ]
+      },
+      "Rationale": {
+        "text": "Research introduces ComputerRL for training agents on general-purpose computer usage skills; promising for long-term embodied agents, but not actionable or immediately relevant for enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Addressing Gen AI’s Quality-Control Problem",
+        "links": [
+          "https://hbr.org/2025/09/addressing-gen-ais-quality-control-problem"
+        ]
+      },
+      "Rationale": {
+        "text": "Amazon developed a GenAI system for its product catalog, updating millions of descriptions with layered evaluation including LLM-as-a-judge; case study on scaling high-agency AI systems with quality controls, vital for enterprise leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Why your AI product needs a different development lifecycle",
+        "links": [
+          "https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different?r=2x7oew&utm_campaign=post&utm_medium=web"
+        ]
+      },
+      "Rationale": {
+        "text": "Article proposes six-step AI-specific development lifecycle emphasizing continuous calibration due to non-determinism; valuable 101-style guide for AI execs highlighting intentional deployment and evaluation frameworks.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "NVIDIA Nemotron Nano 2 and the Nemotron Pretraining Dataset v1",
+        "links": [
+          "https://research.nvidia.com/labs/adlr/NVIDIA-Nemotron-Nano-2/"
+        ]
+      },
+      "Rationale": {
+        "text": "NVIDIA launches Nemotron Nano 2, a 9B parameter model rivaling top small models, with full training data and benchmarks shared; strategically important for edge AI and transparency in open-source datasets.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "5 ways enterprises can slash AI costs without sacrificing performance",
+        "links": [
+          "https://venturebeat.com/ai/hugging-face-5-ways-enterprises-can-slash-ai-costs-without-sacrificing-performance/"
+        ]
+      },
+      "Rationale": {
+        "text": "Hugging Face shares pragmatic cost-saving strategies for AI deployment—e.g., using smaller models where possible; important for enterprise leaders scaling AI, underscoring AI Ops and cost-aware model selection.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Emplify Health leverages LLMs to elevate the human experience",
+        "links": [
+          "https://www.cio.com/article/4037477/how-emplify-health-leverages-llms-to-elevate-the-human-experience.html"
+        ]
+      },
+      "Rationale": {
+        "text": "Case study of Emplify Health’s AI adoption with internal playgrounds and productivity gains; educational but lacks rigor and actionable depth, reducing strategic importance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "We must build AI for people; not to be a person",
+        "links": [
+          "https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming"
+        ]
+      },
+      "Rationale": {
+        "text": "Mustafa Suleyman argues against creating seemingly conscious AI to avoid debates on robot rights; important topic but opinion-driven and lacking research grounding, limiting actionable value.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "C.E.O.s Want Their Companies to Adopt A.I. But Do They Get It Themselves?",
+        "links": [
+          "https://archive.md/fBAhU"
+        ]
+      },
+      "Rationale": {
+        "text": "NYT highlights gap between C-suite AI enthusiasm and personal engagement; executives push adoption without firsthand use, limiting strategic alignment and effectiveness.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
+        "links": [
+          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709"
+        ]
+      },
+      "Rationale": {
+        "text": "Academic study of 70,000 applicants randomized to AI vs. human-led interviews; higher job offer rates and 78% candidate preference for AI interviewer; important behavioral signal for recruitment strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "That 'cheap' open-source AI model is actually burning through your compute budget",
+        "links": [
+          "https://venturebeat.com/ai/that-cheap-open-source-ai-model-is-actually-burning-through-your-compute-budget/"
+        ]
+      },
+      "Rationale": {
+        "text": "Article warns open-source LLMs may lead to higher overall inference costs despite cheaper per-token rates, due to inefficient token usage; analysts highlight total cost of ownership considerations for hybrid stacks.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Claude Opus 4 and 4.1 can now end a rare subset of conversations",
+        "links": [
+          "https://www.anthropic.com/research/end-subset-conversations"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic introduces feature for Claude to terminate interactions in rare cases of harmful prompts or by request; incremental safety update with limited alignment discussion.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How agentic AI can change the way banks fight financial crime",
+        "links": [
+          "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/how-agentic-ai-can-change-the-way-banks-fight-financial-crime"
+        ]
+      },
+      "Rationale": {
+        "text": "McKinsey discusses deploying agentic LLM teams for financial crime detection/prevention; structured thinking appreciated, but article leans on generic frameworks and lacks data.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "He Sold His Likeness. Now His Avatar Is Shilling Supplements on TikTok.",
+        "links": [
+          "https://archive.md/p7MAd"
+        ]
+      },
+      "Rationale": {
+        "text": "Story of a man whose AI avatar was used for supplement marketing after selling his likeness; raises ethical issues but offers limited insights beyond the headline.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Using generative AI, researchers design compounds that can kill drug‑resistant bacteria",
+        "links": [
+          "https://news.mit.edu/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814"
+        ]
+      },
+      "Rationale": {
+        "text": "Study shows generative AI designed novel antibiotic compounds targeting MRSA and gonorrhea; lab and mice tests successful. Analysts note this is new knowledge discovery, not just automation—potentially transforming science-driven industries.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Ranking the Chinese Open Model Builders",
+        "links": [
+          "https://www.interconnects.ai/p/chinas-top-19-open-model-labs"
+        ]
+      },
+      "Rationale": {
+        "text": "Comprehensive ranking of 19 Chinese labs leading the open AI ecosystem; critical for business and AI leaders to track innovation pace and scale in China to stay competitive in U.S.–China AI dynamics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Doomprompting Is the New Doomscrolling",
+        "links": [
+          "https://www.workingtheorys.com/p/doomprompting"
+        ]
+      },
+      "Rationale": {
+        "text": "Essay introduces 'doomprompting'—non-productive AI dialogue loops; prompts reflection on human-AI interface design. Analysts see value in encouraging mindful AI interaction design for leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "UI‑Venus Technical Report: Building High‑performance UI Agents with RFT",
+        "links": [
+          "https://arxiv.org/abs/2508.10833"
+        ]
+      },
+      "Rationale": {
+        "text": "Ant Group research outlines self-evolving framework for improving UI agent navigation and grounding; strong technical advancement but too niche and research-focused for most readers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Charm Industrial accelerates carbon removal operations with Claude",
+        "links": [
+          "https://www.anthropic.com/customers/charm-industrial"
+        ]
+      },
+      "Rationale": {
+        "text": "Case study shows Anthropic’s Claude AI used for carbon removal optimization; intriguing climate-tech use case but light on depth and real-world details, making it optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/18/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Ramp applies its engineering mindset to customer experience",
+        "links": [
+          "https://sierra.ai/customers/ramp?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Article highlights Ramp using Sierra to enhance CX with engineering-driven approach; potentially interesting for fintech/service AI leaders, but analysts found it promotional and superficial.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Parallel: Web Search Infrastructure for AIs",
+        "links": [
+          "https://parallel.ai/blog/introducing-parallel?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Parallel's unveils a new Deep Research API, architected specifically to serve AIs rather than humans, and demonstrates superior performance—achieving up to 58% accuracy on multi-hop research benchmarks compared to GPT‑5’s 41%—highlighting a foundational shift in AI search infrastructure. Our analysts emphasized this pivot to AI-native web tooling as critical for high-value research use cases—essential for AI leaders to understand and act on.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "2025 Mid-Year LLM Market Update: Foundation Model Landscape + Economics",
+        "links": [
+          "https://menlovc.com/perspective/2025-mid-year-llm-market-update/"
+        ]
+      },
+      "Rationale": {
+        "text": "Menlo Ventures reports that enterprise spending on LLM APIs has skyrocketed—from $3.5 billion to $8.4 billion in the first half of 2025—with Anthropic now leading the enterprise LLM usage at 32%, ahead of OpenAI at 25%, signaling a major market shift. Our analysts underscored this trend as vital context for AI strategy—capturing new leadership dynamics and inference-driven economics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Reconfiguring Work: Change Management in the Age of Gen AI",
+        "links": [
+          "https://www.mckinsey.com/capabilities/quantumblack/our-insights/reconfiguring-work-change-management-in-the-age-of-gen-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "This McKinsey article outlines a five‑step change‑management framework—covering North‑Star goals, trust, workflow redesign, organizational structure, and employee empowerment—that’s critical for turning Gen AI from experimental to productive within organizations. Our analysts noted that while the topic is crucial, the content felt familiar and process-heavy—making it important but not yet indispensable.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Unlocking Enhanced Legal Document Review with Lexbe and Amazon Bedrock",
+        "links": [
+          "https://www.mckinsey.com/capabilities/quantumblack/our-insights/reconfiguring-work-change-management-in-the-age-of-gen-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "This article illustrates how Lexbe, a small e-discovery firm, leveraged Amazon Bedrock to boost document recall from 5% to 90%, delivering high-value, domain-specific legal AI applications. Our analysts highlighted its practical relevance and cost-effectiveness in regulated, privacy-conscious environments, making it a compelling important-read case study.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Gemma 3 270M: The compact model for hyper‑efficient AI",
+        "links": [
+          "https://menlovc.com/perspective/2025-mid-year-llm-market-update/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces Gemma 3, a tiny 270‑million‑parameter model optimized for efficiency and on-device deployment—appealing for edge applications like IoT or mobile devices. Our analysts deemed it relevant mostly for hardware integrators or those exploring small‑model use cases, but not broadly impactful yet.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Buzzy AI Startup Multiverse Creates Two of the Smallest High‑Performing Models Ever",
+        "links": [
+          "https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/"
+        ]
+      },
+      "Rationale": {
+        "text": "This TechCrunch article spotlights Multiverse’s ultra‑compact models (like “ChickBrain”) leveraging quantum‑inspired compression methods, which maintain performance despite dramatic size reduction. Our analysts appreciated the innovation and namedropping fun, but marked it optional due to early stage and niche applicability.",
+        "links": []
+      }
+    },
     {
       "Date": {
         "text": "08/14/2025",
@@ -279,727 +999,7 @@
         "text": "Explores integration of Chinese AI models in global firms for cost, customization, and geopolitical implications; highlights Chinaâ€™s growing AI influence across industries from automotive to defense, shaping competitive landscapes.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "A comprehensive taxonomy of hallucinations in Large Language Models",
-        "links": [
-          "https://arxiv.org/abs/2508.01781"
-        ]
-      },
-      "Rationale": {
-        "text": "50-page research categorizing LLM hallucinations with framework for assessment and mitigation; valuable for technical and non-technical leaders, reinforcing the need for external guardrails and governance in enterprise AI deployments.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Luna-2: Real-time guardrails without the big-time bill",
-        "links": [
-          "https://galileo.ai/luna-2"
-        ]
-      },
-      "Rationale": {
-        "text": "Galileo's Luna-2 offers cost-efficient, real-time LLM guardrails by decoupling evaluation from inference; notable AI safety infrastructure product with potential to reduce costs and improve oversight, but ultimately a product announcement.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Maximize Robotics Performance by Post-Training NVIDIA Cosmos Reason",
-        "links": [
-          "https://developer.nvidia.com/blog/maximize-robotics-performance-by-post-training-nvidia-cosmos-reason/"
-        ]
-      },
-      "Rationale": {
-        "text": "NVIDIA showcases fine-tuning and reinforcement learning improvements to its Cosmos Reason model for robotics; incremental update with limited immediate relevance for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The data center balance: How US states can navigate the opportunities and challenges",
-        "links": [
-          "https://www.mckinsey.com/industries/public-sector/our-insights/the-data-center-balance-how-us-states-can-navigate-the-opportunities-and-challenges"
-        ]
-      },
-      "Rationale": {
-        "text": "McKinsey analyzes trade-offs in attracting data centers, balancing energy constraints with economic benefits; conservative outlook aimed at promoting consulting services over urgent action for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI returns old models to ChatGPT as Sam Altman admits ‘bumpy’ GPT-5 rollout",
-        "links": [
-          "https://venturebeat.com/ai/openai-returns-old-models-to-chatgpt-as-sam-altman-admits-bumpy-gpt-5-rollout/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI acknowledged major issues in the August 7, 2025 rollout of GPT-5 and temporarily reinstated legacy models like GPT-4o after user backlash, highlighting critical challenges in AI deployment. Our analysts stressed how disruptive auto-model switching can be and emphasized the need for AI leaders to anticipate shifts in logic when core models change—making this a must-read for anyone overseeing AI implementations.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Hidden Penalty of Using AI at Work",
-        "links": [
-          "https://hbr.org/2025/08/research-the-hidden-penalty-of-using-ai-at-work?ab=HP-latest-text-5"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR study uncovers a troubling bias: employees who admit to using AI receive lower performance ratings—by 6% for male engineers and 13% for females—revealing a subtle gendered penalty affecting workplace AI adoption. Our analysts noted that this is a thought‑provoking article touching on AI ethics, bias, and adoption dynamics that could influence how companies measure AI‑leveraged contributions.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Amazon Bedrock powers next-generation account planning at AWS",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-amazon-bedrock-powers-next-generation-account-planning-at-aws/"
-        ]
-      },
-      "Rationale": {
-        "text": "AWS presents a compelling case study showing how Amazon Bedrock improves the speed and quality of B2B account planning—reporting up to 52% faster planning and 37% higher quality outputs through AI‑driven insights. Our analysts highlighted the high‑leverage, business‑to‑business utility and saw it as a strong real‑world example of AI automation delivering tangible commercial value.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Aditya Birla Capital brings down generative AI operating costs by 40% with Azure",
-        "links": [
-          "https://www.microsoft.com/en/customers/story/20596-aditya-birla-financial-shared-services-azure-open-ai-service"
-        ]
-      },
-      "Rationale": {
-        "text": "This Microsoft‑sponsored case study showcases a 40% cost reduction achieved through Azure‑based generative AI, but offers few fresh technical insights beyond typical cloud benefits. Our analysts felt it was a light read—interesting implementation, but not particularly novel or deep.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Achieving 10,000× training data reduction with high‑fidelity labels",
-        "links": [
-          "https://research.google/blog/achieving-10000x-training-data-reduction-with-high-fidelity-labels/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "In a niche yet fascinating research effort, Google describes how curated high‑fidelity labeling combined with LLMs reduced data requirements from 100,000 to just 500 samples for unsafe ad content classification. Our analysts appreciated the clever methodology—but judged it too esoteric for broad application among most of our audience.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Agent Learning from Human Feedback (ALHF): A Databricks Knowledge Assistant Case Study",
-        "links": [
-          "https://www.databricks.com/blog/agent-learning-human-feedback-alhf-databricks-knowledge-assistant-case-study"
-        ]
-      },
-      "Rationale": {
-        "text": "Databricks offers an internal look at how their assistant evolves through human feedback—demonstrating small‑scale gains in agent adaptation. While promising, the analysts noted the case study reads more like a product announcement than a generalizable innovation, and lacks wider applicability.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "GPT-5 is here",
-        "links": [
-          "https://openai.com/gpt-5/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI has released GPT-5 along with Mini and Nano versions, all supporting text and vision with a 400K context window, tiered pricing, and adaptive switching between faster and more reasoning-heavy modes. Our analysts emphasized its role as a new baseline foundation model from the market leader, with strategic implications for enterprises, rapid innovation pace, and operational impacts when upgrading production AI systems.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "GPT-5: It Just Does Stuff",
-        "links": [
-          "https://www.oneusefulthing.org/p/gpt-5-it-just-does-stuff"
-        ]
-      },
-      "Rationale": {
-        "text": "Ethan Mollick provides an in-depth, early look at GPT-5’s proactive, agentic capabilities, including automatic model switching and initiative-driven task execution that can produce MBA-level outputs in seconds. Our analysts highlighted this as the clearest, most practical explainer of how to use the new model effectively, while also stressing the growing need for human governance and skill to manage its autonomy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The DIVA logistics agent, powered by Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/the-diva-logistics-agent-powered-by-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study details how an Indian logistics company replaced an outdated support tool with an AI-powered DIVA agent, halving the volume of queries escalated to human customer service. Our analysts noted its well-structured front- and back-end implementation as a model for similar enterprise automation, while also cautioning that true success depends on tracking customer satisfaction alongside efficiency gains.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "When model providers eat everything",
-        "links": [
-          "https://foundationcapital.com/when-model-providers-eat-everything-a-survival-guide-for-service-as-software-startups/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article warns that LLM providers like OpenAI and Anthropic are moving up the stack, increasingly competing with the startups built on their models, and offers strategies such as custom evaluation pipelines, execution control, and deep domain expertise. Our analysts valued it as guidance for both startups and enterprises to identify defensible AI product opportunities that won’t be commoditized by the model creators.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Agentic commerce has arrived",
-        "links": [
-          "https://shopify.dev/docs/agents#how-it-works"
-        ]
-      },
-      "Rationale": {
-        "text": "Shopify outlines the technical setup for enabling agentic commerce, where AI agents can shop and transact autonomously on behalf of users. While the guide is useful for developers working within the Shopify ecosystem, our analysts saw it as a niche, tactical read with limited immediate impact for enterprise AI strategy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Project Ire autonomously identifies malware at scale",
-        "links": [
-          "https://www.microsoft.com/en-us/research/blog/project-ire-autonomously-identifies-malware-at-scale/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft Research’s AI system for detecting novel, in-memory malware via autonomous reverse engineering; promising, but still research-stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How Cybersecurity Leaders Are Securing AI Infrastructures",
-        "links": [
-          "https://www.csoonline.com/article/4033338/how-cybersecurity-leaders-are-securing-ai-infrastructures.html"
-        ]
-      },
-      "Rationale": {
-        "text": "As organizations rush to deploy generative AI, cybersecurity leaders are grappling with new vulnerabilities created by expanded AI infrastructures. This article provides a solid overview of emerging threat surfaces and emphasizes the urgency of embedding AI security measures early in deployment—a point our analysts highlighted as often overlooked by both vendors and executives alike.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Developers, Reinvented",
-        "links": [
-          "https://ashtom.github.io/developers-reinvented"
-        ]
-      },
-      "Rationale": {
-        "text": "This reflective piece explores how the role of software developers is evolving in the age of AI, shifting from coding executors to system orchestrators and verifiers. Our analysts appreciated the focus on AI as an enabler of domain expansion and transformation rather than mere productivity, noting it provides relevant insight for both developers and AI leaders planning future teams.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "VeriTrail: Detecting Hallucination And Tracing Provenance In Multi-Step AI Workflows",
-        "links": [
-          "https://www.microsoft.com/en-us/research/blog/veritrail-detecting-hallucination-and-tracing-provenance-in-multi-step-ai-workflows/"
-        ]
-      },
-      "Rationale": {
-        "text": "VeriTrail is a new Microsoft tool designed to improve explainability and accuracy in AI systems by tracing claims through knowledge graphs and detecting hallucinations. Our analysts highlighted its significance in tackling two critical issues—AI hallucination and model transparency—suggesting this could meaningfully advance AI reliability across enterprise use cases.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Qwen‑Image: Crafting with Native Text Rendering",
-        "links": [
-          "https://qwenlm.github.io/blog/qwen-image"
-        ]
-      },
-      "Rationale": {
-        "text": "Qwen‑Image introduces a new capability for high-quality native text rendering within images, setting it apart from other image-generating models that struggle with accurate textual representation. Our analysts were impressed by the demonstrated performance across languages, seeing this as a major advance even though independent evaluation and accessibility are still limited.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Trellix uses AWS GenAI for Cybersecurity Integration",
-        "links": [
-          "https://aws.amazon.com/blogs/apn/trellix-uses-aws-genai-for-cybersecurity-integration/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study details how Trellix uses AWS generative AI services to reduce manual cybersecurity tasks, claiming significant productivity gains. However, our analysts agreed the piece felt more like a promotional spotlight, lacking broader insights or transferable takeaways beyond the vendor’s specific implementation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Estimating Worst-Case Frontier Risks Of Open-Weight LLMs",
-        "links": [
-          "https://cdn.openai.com/pdf/231bf018-659a-494d-976c-2efdfc72b652/oai_gpt-oss_Model_Safety.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI assesses the security risks of releasing open-weight LLMs through controlled fine-tuning experiments but finds their safety measures minimally effective. Our analysts viewed this as a red herring designed to justify model releases, lacking actionable value and raising concerns about transparency and responsible AI release practices.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Open models by OpenAI",
-        "links": [
-          "https://openai.com/open-models/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI’s release of the new gpt‑oss‑120b and gpt‑oss‑20b open‑weight reasoning models marks its first fully downloadable model launch, embodying a strategic pivot toward democratized, customizable AI. Our analysts emphasized its high performance—on par with leading ‘closed’ models and competitive with China’s DeepSeek-driven innovations—opening up developer access, on‑prem deployments, and agentic workflows.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Claude Opus 4.1",
-        "links": [
-          "https://www.anthropic.com/news/claude-opus-4-1"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s launch of Claude Opus 4.1 delivers a major upgrade in real‑world coding and agentic reasoning, achieving top scores on SWE‑bench and showing multi‑step task mastery. Our analysts noted that this release strengthens Anthropic’s position in the developer and enterprise market—especially in light of OpenAI’s lead in ARR in these segments—and demonstrates Anthropic’s growing footprint in AI agents and developer tools.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "ElevenLabs launches an AI music generator, which it claims is cleared for commercial use",
-        "links": [
-          "https://techcrunch.com/2025/08/05/elevenlabs-launches-an-ai-music-generator-which-it-claims-is-cleared-for-commercial-use/"
-        ]
-      },
-      "Rationale": {
-        "text": "ElevenLabs’ new AI music generator, fully licensed for commercial use, signals a “ChatGPT moment for music” by democratizing professional‑quality creative audio. Our analysts recognized its transformative potential—especially for musicians, creatives, and brand use cases—and hailed its legal and business model framework as a breakthrough in AI‑driven content and revenue generation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Genie 3: A new frontier for world models",
-        "links": [
-          "https://deepmind.google/discover/blog/genie-3-a-new-frontier-for-world-models/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google DeepMind’s Genie 3 world model delivers multi‑minute, real‑time interactive video simulations from text prompts with unprecedented consistency—crucial for training embodied AI agents. Although our analysts viewed it as a major technical leap toward AGI and robotics control, they considered it not yet broadly applicable commercially, placing it as an important milestone rather than essential.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Nearly 100,000 ChatGPT Conversations Were Searchable on Google",
-        "links": [
-          "https://archive.is/H92Do#selection-545.0-545.62"
-        ]
-      },
-      "Rationale": {
-        "text": "A user‑shared feature on ChatGPT permitted scraping of nearly 100,000 public conversations—including sensitive NDA drafts and personal advice—highlighting privacy risks in default UX opt‑ins. Our analysts saw it as a cautionary tale about transparency and design choices in AI tools, but with limited strategic impact for leadership audiences.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Agentic Web: Weaving the Next Web with AI Agents",
-        "links": [
-          "https://arxiv.org/abs/2507.21206"
-        ]
-      },
-      "Rationale": {
-        "text": "This research paper outlines a conceptual framework for a future “agentic web” where autonomous agents handle tasks across intelligence, interaction, and economics layers. Our analysts flagged it as an intriguing academic vision but too theoretical and early in development to warrant executive action today.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/05/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "China to surpass the U.S. in AI",
-        "links": [
-          "https://x.com/AndrewYNg/status/1950941108000964654"
-        ]
-      },
-      "Rationale": {
-        "text": "This commentary from Andrew Ng highlights a realistic pathway by which China could surpass the U.S. in AI leadership, citing its momentum in open‑weights models, chip development, and industrial policy. Our analysts emphasized that many AI leaders still underestimate China's strategic push and rising capabilities—making this a strategic signal that should not be ignored.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/05/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Amazon Bedrock AgentCore Browser Tool",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/introducing-amazon-bedrock-agentcore-browser-tool/"
-        ]
-      },
-      "Rationale": {
-        "text": "This AWS announcement introduces a cloud‑hosted virtual browser environment that gives generative AI agents autonomous browsing and interaction capabilities—pioneering a new paradigm in agent orchestration. Our analysts noted that while not entirely novel, AWS's scale and enterprise positioning make it a significant milestone toward verticalized AI stacks and safer agent deployment at scale.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/05/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Lindy 3.0: Meet Your First AI Employee",
-        "links": [
-          "https://www.lindy.ai/blog/lindy-3-0"
-        ]
-      },
-      "Rationale": {
-        "text": "Lindy 3.0 presents a prompt‑to‑agent builder (“Agent Builder”) and a cloud‑based virtual machine environment (“Autopilot”), enabling agents to act autonomously across any interface. Our analysts characterized it as interesting and intuitive yet part of an increasingly crowded market of “AI employee” tools, raising concerns over differentiation and security.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/05/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Wide Research",
-        "links": [
-          "https://manus.im/blog/introducing-wide-research"
-        ]
-      },
-      "Rationale": {
-        "text": "This expansion of Manus’ agent architecture into fully autonomous, parallel-processing agents signals ongoing productivity enhancements in generative AI agent systems. Our analysts found it intriguing but viewed it as early-stage and limited in rollout, placing it firmly in the watchful \"optional\" category.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/05/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "ReaGAN: Node‑as‑Agent‑Reasoning Graph Agentic Network",
-        "links": [
-          "https://arxiv.org/abs/2508.00429"
-        ]
-      },
-      "Rationale": {
-        "text": "This research proposes an innovative integration of graph neural networks with agentic reasoning, embedding semantics into network nodes to improve retrieval and context. While intellectually compelling and connected to RAG and GraphRAG architectures, our analysts agreed it remains theoretical with limited immediate enterprise applicability.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/05/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Handmade.com modernizes product image and description handling with Amazon Bedrock and Amazon OpenSearch Service",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-handmade-com-modernizes-product-image-and-description-handling-with-amazon-bedrock-and-amazon-opensearch-service/"
-        ]
-      },
-      "Rationale": {
-        "text": "A description of how Handmade.com used AWS infrastructure (Bedrock + OpenSearch) to streamline SEO-driven image and text generation. Our analysts noted the lack of impact data and limited novelty, calling it technically useful but ultimately a low-significance case study for most AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Persona vectors: Monitoring and controlling character traits in language models",
-        "links": [
-          "https://www.anthropic.com/research/persona-vectors"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s research defines and extracts internal activation patterns—\"persona vectors\"—that correspond to traits like evil, sycophancy, or hallucination, and demonstrates monitoring and steering of these traits at inference or training time. Our analysts underscored its importance for AI ethics and alignment, noting how this insight into model behavior enables preventive steering, transparency, and greater control over personality drift.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Google rolls out Gemini Deep Think AI",
-        "links": [
-          "https://techcrunch.com/2025/08/01/google-rolls-out-gemini-deep-think-ai-a-reasoning-model-that-tests-multiple-ideas-in-parallel"
-        ]
-      },
-      "Rationale": {
-        "text": "This article introduces Google DeepMind's Gemini 2.5 Deep Think—an advanced reasoning model that explores multiple ideas in parallel, achieving top-tier scores on benchmarks like LiveCodeBench 6 and Humanity’s Last Exam without external tool calls, significantly advancing AI reasoning capabilities. Our analysts highlighted the shift from singular reasoning to collaborative, compute-intensive “deep thinking” and noted its potential to unlock new use cases in coding, scientific reasoning, and enterprise applications.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-15T01:00:19.696442+00:00"
+  "timestamp": "2025-08-23T12:05:59.462658+00:00"
 }

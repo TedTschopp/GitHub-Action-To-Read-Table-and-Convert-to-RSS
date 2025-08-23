@@ -15,42 +15,40 @@ import time
 import re
 import urllib.parse
 from dateutil import parser as date_parser
-from selenium import webdriver
-from selenium.webdriver.chrome.options import Options
-from selenium.webdriver.chrome.service import Service
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from webdriver_manager.chrome import ChromeDriverManager
+from playwright.sync_api import sync_playwright, TimeoutError as PlaywrightTimeoutError
 
-def setup_driver():
-    """
-    Setup Chrome driver with Safari user agent for JavaScript rendering.
-    
-    Returns:
-        webdriver.Chrome: Configured Chrome driver instance
-    """
-    options = Options()
-    options.add_argument('--headless')
-    options.add_argument('--no-sandbox')
-    options.add_argument('--disable-dev-shm-usage')
-    options.add_argument('--disable-gpu')
-    options.add_argument('--remote-debugging-port=9222')
-    options.add_argument('--window-size=1920,1080')
-    
-    # Latest Safari user agent (macOS Sonoma)
-    safari_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
-    options.add_argument(f'--user-agent={safari_user_agent}')
-    
-    # Use system Chrome in GitHub Actions
-    if os.environ.get('CHROME_BIN'):
-        options.binary_location = os.environ.get('CHROME_BIN')
-        driver = webdriver.Chrome(options=options)
-    else:
-        # Use webdriver-manager to automatically download ChromeDriver
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
-    return driver
+class PlaywrightBrowser:
+    """Context manager encapsulating a Playwright page for scraping."""
+    def __init__(self, headless=True, user_agent=None, window_size="1920,1080"):
+        self.headless = headless
+        self.user_agent = user_agent
+        self.window_size = window_size
+        self._play = None
+        self._browser = None
+        self._context = None
+        self._page = None
+
+    def __enter__(self):
+        self._play = sync_playwright().start()
+        self._browser = self._play.chromium.launch(headless=self.headless)
+        width, height = (int(x) for x in self.window_size.split(','))
+        self._context = self._browser.new_context(
+            user_agent=self.user_agent,
+            viewport={"width": width, "height": height},
+            java_script_enabled=True
+        )
+        self._page = self._context.new_page()
+        return self._page
+
+    def __exit__(self, exc_type, exc_val, exc_tb):
+        try:
+            if self._context:
+                self._context.close()
+            if self._browser:
+                self._browser.close()
+        finally:
+            if self._play:
+                self._play.stop()
 
 def scrape_table_data(url, table_id):
     """
@@ -63,37 +61,22 @@ def scrape_table_data(url, table_id):
     Returns:
         list: List of dictionaries containing table row data
     """
-    driver = None
+    page = None
     try:
-        print(f"Setting up browser with Safari user agent...")
-        driver = setup_driver()
-        
-        print(f"Fetching data from: {url}")
-        driver.get(url)
-        
-        # Wait for page to load and JavaScript to execute
-        print("Waiting for page to load...")
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.TAG_NAME, "body"))
-        )
-        
-        # Extended wait for dynamic content to load
-        print("Waiting for dynamic content...")
-        time.sleep(10)  # Increased from 5 to 10 seconds
-        
-        # Try to wait for table rows to be populated
-        try:
-            print(f"Waiting for table with ID: {table_id}")
-            WebDriverWait(driver, 45).until(  # Increased timeout
-                EC.presence_of_element_located((By.CSS_SELECTOR, f"#{table_id} tbody tr"))
-            )
-            print("Table rows detected, waiting for full content load...")
-            time.sleep(5)  # Additional wait for content
-        except:
-            print(f"Table rows not immediately found, proceeding with page source...")
-        
-        # Get the fully rendered HTML after JavaScript execution
-        html_content = driver.page_source
+        print("Launching Playwright browser (chromium)...")
+        safari_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        with PlaywrightBrowser(headless=True, user_agent=safari_user_agent) as page:
+            print(f"Fetching data from: {url}")
+            page.goto(url, timeout=30_000, wait_until="domcontentloaded")
+            print("Waiting for dynamic content (JS)...")
+            time.sleep(10)
+            try:
+                page.wait_for_selector(f"#{table_id} tbody tr", timeout=45_000)
+                print("Table rows detected, allowing extra settling time...")
+                time.sleep(5)
+            except PlaywrightTimeoutError:
+                print("Timeout waiting for table rows; proceeding with current DOM.")
+            html_content = page.content()
         soup = BeautifulSoup(html_content, 'html.parser')
         
         # Debug: Save HTML content for inspection
@@ -191,8 +174,7 @@ def scrape_table_data(url, table_id):
         traceback.print_exc()
         return []
     finally:
-        if driver:
-            driver.quit()
+        pass
 
 def load_previous_data():
     """
@@ -374,28 +356,16 @@ def find_latest_ai_news_post(profile_url):
     Returns:
         str: URL of the latest AI news post, or None if not found
     """
-    driver = None
+    # Simplified: Use Playwright for dynamic LinkedIn load (if accessible) otherwise fallback to requests
+    page = None
     try:
         print(f"Searching for latest AI news post on LinkedIn profile: {profile_url}")
-        driver = setup_driver()
-        
-        # Add additional headers to appear more like a real browser
-        driver.execute_cdp_cmd('Network.setUserAgentOverride', {
-            "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
-        })
-        
-        driver.get(profile_url)
-        
-        # Wait for page to load
-        print("LinkedIn page loaded, searching for AI news posts...")
-        WebDriverWait(driver, 30).until(
-            EC.presence_of_element_located((By.TAG_NAME, "body"))
-        )
-        
-        # Extended wait for dynamic content
-        time.sleep(15)  # Increased wait time
-        
-        html_content = driver.page_source
+        # NOTE: LinkedIn aggressively blocks automated scraping; this may fail without auth.
+        safari_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        with PlaywrightBrowser(headless=True, user_agent=safari_user_agent) as page:
+            page.goto(profile_url, timeout=30_000, wait_until="domcontentloaded")
+            time.sleep(10)
+            html_content = page.content()
         soup = BeautifulSoup(html_content, 'html.parser')
         
         # Debug: Save LinkedIn page for inspection
@@ -417,7 +387,7 @@ def find_latest_ai_news_post(profile_url):
         # Look for posts with these patterns
         for pattern in search_patterns:
             print(f"Searching with pattern: {pattern}")
-            matches = soup.find_all(text=re.compile(pattern, re.IGNORECASE))
+            matches = soup.find_all(string=re.compile(pattern, re.IGNORECASE))
             print(f"Found {len(matches)} text matches for pattern: {pattern}")
             
             for match in matches:
@@ -464,8 +434,7 @@ def find_latest_ai_news_post(profile_url):
         traceback.print_exc()
         return None
     finally:
-        if driver:
-            driver.quit()
+        pass
 
 def scrape_article_links_improved(article_url):
     """
@@ -477,39 +446,27 @@ def scrape_article_links_improved(article_url):
     Returns:
         list: List of dictionaries containing title and link
     """
-    driver = None
+    page = None
     try:
         print(f"Scraping article links from: {article_url}")
-        driver = setup_driver()
-        
-        # Try multiple times if LinkedIn blocks initial request
-        for attempt in range(3):
-            try:
-                driver.get(article_url)
-                
-                # Wait for page to load
-                WebDriverWait(driver, 30).until(
-                    EC.presence_of_element_located((By.TAG_NAME, "body"))
-                )
-                
-                time.sleep(10)  # Wait for dynamic content
-                
-                html_content = driver.page_source
-                soup = BeautifulSoup(html_content, 'html.parser')
-                
-                # Check if we got blocked
-                if "sign in" in html_content.lower() or "join linkedin" in html_content.lower():
-                    print(f"Attempt {attempt + 1}: LinkedIn blocking access, retrying...")
-                    time.sleep(5)
-                    continue
-                else:
+        safari_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        with PlaywrightBrowser(headless=True, user_agent=safari_user_agent) as page:
+            for attempt in range(3):
+                try:
+                    page.goto(article_url, timeout=30_000, wait_until="domcontentloaded")
+                    time.sleep(10)
+                    html_content = page.content()
+                    soup = BeautifulSoup(html_content, 'html.parser')
+                    if "sign in" in html_content.lower() or "join linkedin" in html_content.lower():
+                        print(f"Attempt {attempt + 1}: LinkedIn blocking access, retrying...")
+                        time.sleep(5)
+                        continue
                     break
-                    
-            except Exception as e:
-                print(f"Attempt {attempt + 1} failed: {e}")
-                if attempt == 2:
-                    raise
-                time.sleep(5)
+                except Exception as e:
+                    print(f"Attempt {attempt + 1} failed: {e}")
+                    if attempt == 2:
+                        raise
+                    time.sleep(5)
         
         article_links = []
         
@@ -587,8 +544,7 @@ def scrape_article_links_improved(article_url):
         traceback.print_exc()
         return []
     finally:
-        if driver:
-            driver.quit()
+        pass
 
 def extract_article_metadata(url):
     """
@@ -600,21 +556,14 @@ def extract_article_metadata(url):
     Returns:
         dict: Article metadata including title, description, date, guid
     """
-    driver = None
+    page = None
     try:
         print(f"Extracting metadata from: {url}")
-        driver = setup_driver()
-        
-        driver.get(url)
-        
-        # Wait for page to load
-        WebDriverWait(driver, 15).until(
-            EC.presence_of_element_located((By.TAG_NAME, "body"))
-        )
-        
-        time.sleep(3)
-        
-        html_content = driver.page_source
+        safari_user_agent = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.4 Safari/605.1.15"
+        with PlaywrightBrowser(headless=True, user_agent=safari_user_agent) as page:
+            page.goto(url, timeout=15_000, wait_until="domcontentloaded")
+            time.sleep(3)
+            html_content = page.content()
         soup = BeautifulSoup(html_content, 'html.parser')
         
         # Extract title
@@ -707,8 +656,7 @@ def extract_article_metadata(url):
             'guid': hashlib.md5(url.encode()).hexdigest()
         }
     finally:
-        if driver:
-            driver.quit()
+        pass
 
 def generate_eei_rss_feed(articles, feed_title="EEI AI News", feed_description="AI News from External Sources"):
     """
