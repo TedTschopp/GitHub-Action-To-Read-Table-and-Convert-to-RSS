@@ -8,14 +8,15 @@ LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/davidbatz/"
 # RSS Feed Settings
 RSS_FEED_FILES = {
     "gai": "ai_rss_feed.xml",
-    "eei": "eei_ai_rss_feed.xml"
+    "eei": "eei_ai_rss_feed.xml",
+    "gai_archive": "ai_rss_feed_archive.xml"
 }
 
 RSS_METADATA = {
     "gai": {
-        "title": "GAI Insights AI Ratings",
-        "description": "Latest AI news and ratings from GAI Insights",
-        "link": "https://gaiinsights.com/ratings"
+    "title": "Ted Tschopp's AI News",
+    "description": "Latest AI News and Ratings from Ted Tschopp",
+    "link": "https://rss.tedt.org/"
     },
     "eei": {
         "title": "EEI AI News Digest",

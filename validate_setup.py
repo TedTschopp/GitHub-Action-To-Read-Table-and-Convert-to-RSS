@@ -40,7 +40,8 @@ def validate_jekyll_setup():
     
     # Check RSS feeds
     print("\n📡 Checking RSS feeds:")
-    rss_files = ['ai_rss_feed.xml', 'eei_ai_rss_feed.xml']
+    # Only validate active feeds; EEI (LinkedIn) feed disabled.
+    rss_files = ['ai_rss_feed.xml']
     for rss_file in rss_files:
         if os.path.exists(rss_file):
             try:

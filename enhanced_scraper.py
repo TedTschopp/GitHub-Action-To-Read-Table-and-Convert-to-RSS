@@ -176,10 +176,37 @@ class RSSGenerator:
     
     @staticmethod
     def generate_gai_feed(table_data):
-        """Generate RSS feed for GAI Insights data."""
+        """Generate RSS feed for GAI Insights data with 60-day retention and archiving.
+
+        Behaviour:
+        - Keep all rows that are within last 60 days inside primary feed.
+        - Move older rows into an archive feed file (appended, de-duplicated by GUID).
+        - If dates are unparsable, treat as current run (remain in main feed).
+        """
         metadata = RSS_METADATA["gai"]
-        filename = RSS_FEED_FILES["gai"]
-        
+        main_filename = RSS_FEED_FILES["gai"]
+        archive_filename = RSS_FEED_FILES.get("gai_archive", "ai_rss_feed_archive.xml")
+
+        cutoff = datetime.now(timezone.utc).date().toordinal() - 60  # ordinal comparison for speed
+        recent_rows = []
+        archive_rows = []
+
+        # First pass: classify rows by date (if parseable)
+        for row in table_data:
+            date_val, rating_val, title_val, title_url, desc_val = RSSGenerator._extract_row_data(row)
+            parsed_dt = RSSGenerator._parse_date(date_val)
+            if parsed_dt:
+                if parsed_dt.date().toordinal() >= cutoff:
+                    recent_rows.append(row)
+                else:
+                    archive_rows.append(row)
+            else:
+                # Keep in recent if date unknown
+                recent_rows.append(row)
+
+        logger.info(f"Retention split: {len(recent_rows)} recent rows, {len(archive_rows)} to archive (from {len(table_data)} total)")
+
+        # Generate main feed
         try:
             fg = FeedGenerator()
             fg.title(metadata["title"])
@@ -187,49 +214,110 @@ class RSSGenerator:
             fg.description(metadata["description"])
             fg.language('en')
             fg.lastBuildDate(datetime.now(timezone.utc))
-            fg.generator('GitHub Action RSS Scraper v2.0')
-            
-            for i, row_data in enumerate(table_data):
+            fg.generator('GitHub Action RSS Scraper v2.1 (retention)')
+
+            for i, row_data in enumerate(recent_rows):
                 try:
                     fe = fg.add_entry()
-                    
-                    # Extract data intelligently
                     date_val, rating_val, title_val, title_url, desc_val = RSSGenerator._extract_row_data(row_data)
-                    
-                    # Create RSS title with rating tag
                     rss_title = title_val or f"Entry {i+1}"
-                    if rating_val:
-                        rating_lower = rating_val.lower()
-                        if rating_lower in RATING_TAGS:
-                            rss_title += RATING_TAGS[rating_lower]
-                    
-                    # Set entry properties
+                    if rating_val and rating_val.lower() in RATING_TAGS:
+                        rss_title += RATING_TAGS[rating_val.lower()]
                     content_for_id = f"{date_val}|{rating_val}|{title_val}|{desc_val}"
                     entry_id = hashlib.md5(content_for_id.encode()).hexdigest()
-                    
                     fe.id(entry_id)
                     fe.title(rss_title)
                     fe.description(desc_val or title_val)
                     fe.link(href=title_url or metadata["link"])
-                    
-                    # Set publication date
                     pub_date = RSSGenerator._parse_date(date_val) or datetime.now(timezone.utc)
                     fe.pubDate(pub_date)
-                    
                 except Exception as e:
-                    logger.error(f"Error processing GAI entry {i+1}: {e}")
-                    continue
-            
-            # Save RSS feed
-            rss_str = fg.rss_str(pretty=True)
-            with open(filename, 'wb') as f:
-                f.write(rss_str)
-            
-            logger.info(f"GAI RSS feed generated with {len(table_data)} entries")
-            
+                    logger.error(f"Error processing recent GAI entry {i+1}: {e}")
+            with open(main_filename, 'wb') as f:
+                f.write(fg.rss_str(pretty=True))
+            logger.info(f"GAI RSS feed written: {main_filename} ({len(recent_rows)} entries)")
         except Exception as e:
-            logger.error(f"Error generating GAI RSS feed: {e}")
+            logger.error(f"Error generating main GAI RSS feed: {e}")
             raise RSSScraperError(f"GAI RSS generation failed: {e}")
+
+        # Archive handling: load existing archive entries (if file exists) then append new ones and write out
+        if archive_rows:
+            try:
+                existing_archive = []
+                if Path(archive_filename).exists():
+                    try:
+                        # Lightweight parse: collect existing GUIDs to prevent duplication
+                        from xml.etree import ElementTree as ET
+                        tree = ET.parse(archive_filename)
+                        root = tree.getroot()
+                        for item in root.findall('.//item'):
+                            guid_el = item.find('guid')
+                            title_el = item.find('title')
+                            link_el = item.find('link')
+                            desc_el = item.find('description')
+                            pub_el = item.find('pubDate')
+                            existing_archive.append({
+                                'guid': guid_el.text if guid_el is not None else '',
+                                'title': title_el.text if title_el is not None else '',
+                                'link': link_el.text if link_el is not None else metadata['link'],
+                                'description': desc_el.text if desc_el is not None else '',
+                                'pubDate': pub_el.text if pub_el is not None else ''
+                            })
+                    except Exception as parse_err:
+                        logger.warning(f"Could not parse existing archive (will recreate): {parse_err}")
+
+                existing_guids = {a['guid'] for a in existing_archive if a.get('guid')}
+
+                archive_fg = FeedGenerator()
+                archive_fg.title(metadata["title"] + " (Archive)")
+                archive_fg.link(href=metadata["link"], rel='alternate')
+                archive_fg.description("Archived items older than 60 days from GAI Insights feed")
+                archive_fg.language('en')
+                archive_fg.lastBuildDate(datetime.now(timezone.utc))
+                archive_fg.generator('GitHub Action RSS Scraper v2.1 (archive)')
+
+                # Re-add existing archive entries first (preserve history)
+                for a in existing_archive:
+                    try:
+                        fe = archive_fg.add_entry()
+                        fe.id(a['guid'])
+                        fe.title(a['title'])
+                        fe.description(a['description'])
+                        fe.link(href=a['link'])
+                        if a['pubDate']:
+                            fe.pubDate(a['pubDate'])
+                    except Exception:
+                        continue
+
+                # Append new archive rows
+                for row_data in archive_rows:
+                    try:
+                        date_val, rating_val, title_val, title_url, desc_val = RSSGenerator._extract_row_data(row_data)
+                        content_for_id = f"{date_val}|{rating_val}|{title_val}|{desc_val}"
+                        entry_id = hashlib.md5(content_for_id.encode()).hexdigest()
+                        if entry_id in existing_guids:
+                            continue
+                        fe = archive_fg.add_entry()
+                        rss_title = title_val or "Archived Entry"
+                        if rating_val and rating_val.lower() in RATING_TAGS:
+                            rss_title += RATING_TAGS[rating_val.lower()]
+                        fe.id(entry_id)
+                        fe.title(rss_title)
+                        fe.description(desc_val or title_val)
+                        fe.link(href=title_url or metadata['link'])
+                        pub_date = RSSGenerator._parse_date(date_val) or datetime.now(timezone.utc)
+                        fe.pubDate(pub_date)
+                    except Exception as e:
+                        logger.error(f"Error archiving row: {e}")
+                        continue
+
+                with open(archive_filename, 'wb') as f:
+                    f.write(archive_fg.rss_str(pretty=True))
+                logger.info(f"Archive RSS updated: {archive_filename} (total entries: {len(existing_archive) + len(archive_rows)})")
+            except Exception as e:
+                logger.error(f"Error updating archive feed: {e}")
+        else:
+            logger.info("No rows exceeded 60-day retention; archive unchanged.")
     
     @staticmethod
     def _extract_row_data(row_data):

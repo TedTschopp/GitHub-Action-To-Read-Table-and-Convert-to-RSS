@@ -22,7 +22,8 @@ def check_rss_health():
         'overall_status': 'healthy'
     }
     
-    rss_files = ['ai_rss_feed.xml', 'eei_ai_rss_feed.xml']
+    # EEI feed disabled (LinkedIn source discontinued). Retain code but skip monitoring.
+    rss_files = ['ai_rss_feed.xml']
     
     for rss_file in rss_files:
         feed_status = {
