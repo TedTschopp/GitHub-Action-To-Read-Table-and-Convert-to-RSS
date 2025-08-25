@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Mind the gap: How operations leaders are pulling ahead using AI",
+        "links": [
+          "https://www.mckinsey.com/capabilities/operations/our-insights/mind-the-gap-how-operations-leaders-are-pulling-ahead-using-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "McKinsey study of 100 companies shows AI leaders rapidly outpacing laggards via stronger executive sponsorship and strategic investment; underscores enterprise AI success depends on C-level engagement and organizational commitment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Blue J's approach for scaling fast in complex, regulated domains",
+        "links": [
+          "https://openai.com/index/blue-j/"
+        ]
+      },
+      "Rationale": {
+        "text": "Blue J uses OpenAI GPT-4.1 to streamline tax research in regulated environments, cutting research time and improving accuracy; analysts highlight combining domain expertise with generative AI as a powerful applied AI case with measurable productivity gains.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Infosys Topaz leverages Amazon Bedrock to transform technical help desk operations",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-infosys-topaz-leverages-amazon-bedrock-to-transform-technical-help-desk-operations/"
+        ]
+      },
+      "Rationale": {
+        "text": "Infosys demonstrates AI in tech support using Amazon Bedrock, automating 70% of support queries and reducing call times by 60%; compelling enterprise case showing measurable ROI and broad industry relevance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Intern-S1: A Scientific Multimodal Foundation Model",
+        "links": [
+          "https://arxiv.org/abs/2508.15763"
+        ]
+      },
+      "Rationale": {
+        "text": "Intern-S1 is an open-source multimodal model trained on scientific data, outperforming state-of-the-art systems; analysts note its mixture-of-expert design and reward functions as a preview of next-gen LLMs, especially important for scientific R&D.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Meta partners with Midjourney on AI image and video models",
+        "links": [
+          "https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta collaborates with Midjourney on AI for image and video synthesis; major branding move but limited near-term enterprise relevance, mainly impacting consumer-facing creative platforms.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Why future AI agents will be trained to work together",
+        "links": [
+          "https://epoch.ai/gradient-updates/why-future-ai-agents-will-be-trained-to-work-together"
+        ]
+      },
+      "Rationale": {
+        "text": "Primer on multi-agent AI architectures and coordination; educational overview without actionable insights, making it more informative than strategic for enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/22/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "TD Securities deploys AI for real-time equity research insights in regulated financial services; proof point for probabilistic AI in production in a regulated industry despite sparse implementation details.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "LFM2-VL: Efficient Vision-Language Models",
-        "links": [
-          "https://www.liquid.ai/blog/lfm2-vl-efficient-vision-language-models"
-        ]
-      },
-      "Rationale": {
-        "text": "Liquid AI’s LFM2-VL offers faster, efficient vision-language inference via non-transformer architecture with short-term convolution and long-term context retention; promising for edge computing in sectors like manufacturing and oil rigs.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Tricks or Traps? A Deep Dive into RL for LLM Reasoning",
-        "links": [
-          "https://arxiv.org/abs/2508.08221"
-        ]
-      },
-      "Rationale": {
-        "text": "Research benchmarks RL techniques for LLM reasoning, finding simple normalization and token-level rewards often outperform complex strategies; serves as both a primer and a reality check for AI training methods.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Anthropic’s Claude AI model can now handle longer prompts",
-        "links": [
-          "https://techcrunch.com/2025/08/12/anthropics-claude-ai-model-can-now-handle-longer-prompts/"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic expands Claude’s context window to 1M tokens, surpassing GPT-5’s; routine update in competitive LLM context-length race.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Much Power will Frontier AI Training Demand in 2030?",
-        "links": [
-          "https://epoch.ai/blog/power-demands-of-frontier-ai-training"
-        ]
-      },
-      "Rationale": {
-        "text": "Epoch AI forecasts frontier model training may consume ~5% of U.S. electricity by 2030; speculative due to efficiency gains, scaling uncertainty, and evolving multi-model architectures—more thought exercise than action plan.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Agoda's GenAI Journey Thus Far",
-        "links": [
-          "https://medium.com/agoda-engineering/a-retrospective-agodas-genai-journey-thus-far-b0739683d53e"
-        ]
-      },
-      "Rationale": {
-        "text": "Agoda, under Booking Holdings, adopts AI-first culture with company-wide GenAI strategy spanning governance, infrastructure, and internal tooling; standout cultural transformation case with practices like a 'GenAI proxy' for observability and internal ChatGPT-style bot.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Savvy Companies Are Using Chinese AI",
-        "links": [
-          "https://hbr.org/2025/09/how-savvy-companies-are-using-chinese-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "Explores integration of Chinese AI models in global firms for cost, customization, and geopolitical implications; highlights Chinaâ€™s growing AI influence across industries from automotive to defense, shaping competitive landscapes.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-25T08:17:58.672474+00:00"
+  "timestamp": "2025-08-25T14:01:38.985739+00:00"
 }

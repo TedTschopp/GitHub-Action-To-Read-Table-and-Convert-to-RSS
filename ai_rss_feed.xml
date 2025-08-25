@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 25 Aug 2025 08:17:58 +0000</lastBuildDate>
-    <item>
-      <title>How Savvy Companies Are Using Chinese AI [ ! ]</title>
-      <link>https://hbr.org/2025/09/how-savvy-companies-are-using-chinese-ai</link>
-      <description>Explores integration of Chinese AI models in global firms for cost, customization, and geopolitical implications; highlights Chinaâ€™s growing AI influence across industries from automotive to defense, shaping competitive landscapes.</description>
-      <guid isPermaLink="false">c75a3d266ac0ab76c80201182d23355c</guid>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agoda's GenAI Journey Thus Far [ ! ]</title>
-      <link>https://medium.com/agoda-engineering/a-retrospective-agodas-genai-journey-thus-far-b0739683d53e</link>
-      <description>Agoda, under Booking Holdings, adopts AI-first culture with company-wide GenAI strategy spanning governance, infrastructure, and internal tooling; standout cultural transformation case with practices like a 'GenAI proxy' for observability and internal ChatGPT-style bot.</description>
-      <guid isPermaLink="false">48e2715cbb1f985c1be3d0bd2eb87b8f</guid>
-      <pubDate>Tue, 12 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Much Power will Frontier AI Training Demand in 2030? [ ~ ]</title>
-      <link>https://epoch.ai/blog/power-demands-of-frontier-ai-training</link>
-      <description>Epoch AI forecasts frontier model training may consume ~5% of U.S. electricity by 2030; speculative due to efficiency gains, scaling uncertainty, and evolving multi-model architectures—more thought exercise than action plan.</description>
-      <guid isPermaLink="false">11536e2e9eda6ad27d2715bb3aa31b2c</guid>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic’s Claude AI model can now handle longer prompts [ ~ ]</title>
-      <link>https://techcrunch.com/2025/08/12/anthropics-claude-ai-model-can-now-handle-longer-prompts/</link>
-      <description>Anthropic expands Claude’s context window to 1M tokens, surpassing GPT-5’s; routine update in competitive LLM context-length race.</description>
-      <guid isPermaLink="false">7748110afcdfecea34f2d166f9c006af</guid>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tricks or Traps? A Deep Dive into RL for LLM Reasoning [ * ]</title>
-      <link>https://arxiv.org/abs/2508.08221</link>
-      <description>Research benchmarks RL techniques for LLM reasoning, finding simple normalization and token-level rewards often outperform complex strategies; serves as both a primer and a reality check for AI training methods.</description>
-      <guid isPermaLink="false">0dec8aec4314f6a3a3d7eb0666947ae0</guid>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LFM2-VL: Efficient Vision-Language Models [ * ]</title>
-      <link>https://www.liquid.ai/blog/lfm2-vl-efficient-vision-language-models</link>
-      <description>Liquid AI’s LFM2-VL offers faster, efficient vision-language inference via non-transformer architecture with short-term convolution and long-term context retention; promising for edge computing in sectors like manufacturing and oil rigs.</description>
-      <guid isPermaLink="false">c840453bee4b6af1f29c80b18efd3e53</guid>
-      <pubDate>Wed, 13 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 25 Aug 2025 14:01:38 +0000</lastBuildDate>
     <item>
       <title>TD Securities taps Layer 6 and OpenAI to deliver real-time equity insights to sales and trading teams [ * ]</title>
       <link>https://venturebeat.com/ai/td-securities-taps-layer-6-and-openai-to-deliver-real-time-equity-insights-to-sales-and-trading-teams/</link>
@@ -357,6 +315,48 @@
       <description>MIXI deployed ChatGPT Enterprise across its workforce in 45 days, showcasing rapid, secure adoption of GenAI at scale; analysts call it a strong blueprint for enterprise-wide AI rollout with organizational buy-in and clear results.</description>
       <guid isPermaLink="false">eb9b22b14d64e658e4275033db7b2d4f</guid>
       <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why future AI agents will be trained to work together [ ~ ]</title>
+      <link>https://epoch.ai/gradient-updates/why-future-ai-agents-will-be-trained-to-work-together</link>
+      <description>Primer on multi-agent AI architectures and coordination; educational overview without actionable insights, making it more informative than strategic for enterprises.</description>
+      <guid isPermaLink="false">cbbae746ee7b8ae572dd845d9e2dbda0</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meta partners with Midjourney on AI image and video models [ ~ ]</title>
+      <link>https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/</link>
+      <description>Meta collaborates with Midjourney on AI for image and video synthesis; major branding move but limited near-term enterprise relevance, mainly impacting consumer-facing creative platforms.</description>
+      <guid isPermaLink="false">ac2651e4ab60528276f8f7f95b0c0637</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intern-S1: A Scientific Multimodal Foundation Model [ * ]</title>
+      <link>https://arxiv.org/abs/2508.15763</link>
+      <description>Intern-S1 is an open-source multimodal model trained on scientific data, outperforming state-of-the-art systems; analysts note its mixture-of-expert design and reward functions as a preview of next-gen LLMs, especially important for scientific R&amp;D.</description>
+      <guid isPermaLink="false">aac3287e7dece156fb11ed8a0e585aec</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Infosys Topaz leverages Amazon Bedrock to transform technical help desk operations [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-infosys-topaz-leverages-amazon-bedrock-to-transform-technical-help-desk-operations/</link>
+      <description>Infosys demonstrates AI in tech support using Amazon Bedrock, automating 70% of support queries and reducing call times by 60%; compelling enterprise case showing measurable ROI and broad industry relevance.</description>
+      <guid isPermaLink="false">c1a4688886ac71a75415f9d43a1fe59f</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Blue J's approach for scaling fast in complex, regulated domains [ ! ]</title>
+      <link>https://openai.com/index/blue-j/</link>
+      <description>Blue J uses OpenAI GPT-4.1 to streamline tax research in regulated environments, cutting research time and improving accuracy; analysts highlight combining domain expertise with generative AI as a powerful applied AI case with measurable productivity gains.</description>
+      <guid isPermaLink="false">5f24c3db534701559e4c6598ee985052</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mind the gap: How operations leaders are pulling ahead using AI [ ! ]</title>
+      <link>https://www.mckinsey.com/capabilities/operations/our-insights/mind-the-gap-how-operations-leaders-are-pulling-ahead-using-ai</link>
+      <description>McKinsey study of 100 companies shows AI leaders rapidly outpacing laggards via stronger executive sponsorship and strategic investment; underscores enterprise AI success depends on C-level engagement and organizational commitment.</description>
+      <guid isPermaLink="false">f5311928ddcb27a0d80231f6945d71ba</guid>
+      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
