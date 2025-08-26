@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The GenAI Divide: State of AI in Business 2025",
+        "links": [
+          "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "MIT NANDA study claims 95% of enterprise GenAI efforts fail to generate ROI, citing a 'learning gap'; despite flawed methodology, it influences AI investment discourse, making it important for leaders to note.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Accelerating Life Sciences Research (OpenAI + Retro Biosciences)",
+        "links": [
+          "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI and Retro Biosciences created a GPT‑4 model for protein design, improving stem cell reprogramming; powerful proof of domain-specific models driving biotech breakthroughs with long-term strategic implications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "You can now download and tweak Grok 2.5 for yourself as it goes open source",
+        "links": [
+          "https://www.engadget.com/ai/you-can-now-download-and-tweak-grok-25-for-yourself-as-it-goes-open-source-164734471.html"
+        ]
+      },
+      "Rationale": {
+        "text": "Elon Musk’s Grok 2.5 is open-sourced with usage restrictions; modest update with limited enterprise relevance given lagging adoption and performance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Inside DHL’s AI upgrade: “Love it or hate it, you have to work with it”",
+        "links": [
+          "https://archive.md/zJNnk"
+        ]
+      },
+      "Rationale": {
+        "text": "DHL automates warehouses and reskills workers amid layoffs, reflecting AI-labor tensions; surfaces European regulatory issues but lacks actionable insight for decision-makers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Deep Think with Confidence",
+        "links": [
+          "https://jiaweizzhao.github.io/deepconf"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta researchers propose pruning low-confidence reasoning paths to reduce tokens and boost efficiency; early-stage research with limited immediate enterprise impact.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Agentic Browser Security: Indirect Prompt Injection in Perplexity Comet",
+        "links": [
+          "https://simonwillison.net/2025/Aug/25/agentic-browser-security/"
+        ]
+      },
+      "Rationale": {
+        "text": "Post uncovers prompt injection vulnerability in Perplexity Comet browser; raises security concerns but is an edge case with limited adoption and urgency for enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/25/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "AWS case study on Indegene’s AI tools for converting social media chatter into actionable insights in life sciences, optimizing costs and accelerating time-to-insight; architecture insights valuable for pharma and healthcare AI strategy.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The State of AI 2025",
-        "links": [
-          "https://www.bvp.com/atlas/the-state-of-ai-2025"
-        ]
-      },
-      "Rationale": {
-        "text": "Bessemer’s report maps AI market trajectories, classifies startups as 'supernovas' or 'shooting stars', and offers frameworks for growth and sustainability; valuable as a market compass despite speculative elements.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Basis scales accounting by turning OpenAI model progress into trusted agents",
-        "links": [
-          "https://openai.com/index/basis/"
-        ]
-      },
-      "Rationale": {
-        "text": "Case study of AI agents transforming accounting workflows with up to 30% time savings by routing to the most capable model (like GPT‑5) and providing transparent reasoning; strong blueprint for AI-human collaboration in structured domains.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "MolmoAct: An Action Reasoning Model that reasons in 3D space",
-        "links": [
-          "https://allenai.org/blog/molmoact"
-        ]
-      },
-      "Rationale": {
-        "text": "AI2’s open-source MolmoAct model can reason in 3D and translate spatial instructions into robotic actions—essential for robotics specialists, but optional for a general AI audience.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Building Safeguards for Claude",
-        "links": [
-          "https://www.anthropic.com/news/building-safeguards-for-claude"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic outlines Claude’s multi-layer safeguards from policy to real‑time enforcement; transparency appreciated, but broader education and systemic understanding remain key for real safety.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "AI x Commerce",
-        "links": [
-          "https://a16z.com/ai-x-commerce/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This a16z explores online consumer purchasing behaviors, categorizing from impulse buys to lifetime purchases, and discusses how GenAI could disrupt Google, Shopify, Amazon; shifts focus from SEO to answer engine optimization.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "TD Securities taps Layer 6 and OpenAI to deliver real-time equity insights to sales and trading teams",
-        "links": [
-          "https://venturebeat.com/ai/td-securities-taps-layer-6-and-openai-to-deliver-real-time-equity-insights-to-sales-and-trading-teams/"
-        ]
-      },
-      "Rationale": {
-        "text": "TD Securities deploys AI for real-time equity research insights in regulated financial services; proof point for probabilistic AI in production in a regulated industry despite sparse implementation details.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-26T08:18:18.865590+00:00"
+  "timestamp": "2025-08-26T16:15:26.458651+00:00"
 }
