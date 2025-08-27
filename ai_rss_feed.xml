@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 27 Aug 2025 08:16:43 +0000</lastBuildDate>
-    <item>
-      <title>How Indegene’s AI-powered social intelligence for life sciences turns social media conversations into insights [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-indegenes-ai-powered-social-intelligence-for-life-sciences-turns-social-media-conversations-into-insights/</link>
-      <description>AWS case study on Indegene’s AI tools for converting social media chatter into actionable insights in life sciences, optimizing costs and accelerating time-to-insight; architecture insights valuable for pharma and healthcare AI strategy.</description>
-      <guid isPermaLink="false">dc75c936029e80df8fe61470dd3681a1</guid>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GPT-5 Set the Stage for Ad Monetization and the SuperApp [ ! ]</title>
-      <link>https://semianalysis.com/2025/08/13/gpt-5-ad-monetization-and-the-superapp/?access_token=eyJhbGciOiJFUzI1NiIsImtpZCI6InNlbWlhbmFseXNpcy5wYXNzcG9ydC5vbmxpbmUiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJzZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lIiwiYXpwIjoiS1NncVhBaGFmZmtwVjQzbmt0UU1INSIsImVudCI6eyJhdWQiOlsiNThZNVhua2U4U1ZnTkFRRm5GZUVIQiJdLCJ1cmkiOlsiaHR0cHM6Ly9zZW1pYW5hbHlzaXMuY29tLzIwMjUvMDgvMTMvZ3B0LTUtYWQtbW9uZXRpemF0aW9uLWFuZC10aGUtc3VwZXJhcHAvIl19LCJleHAiOjE3NTc2MzkyNzMsImlhdCI6MTc1NTA0NzI3MywiaXNzIjoiaHR0cHM6Ly9zZW1pYW5hbHlzaXMucGFzc3BvcnQub25saW5lL29hdXRoIiwic2NvcGUiOiJmZWVkOnJlYWQgYXJ0aWNsZTpyZWFkIGFzc2V0OnJlYWQgY2F0ZWdvcnk6cmVhZCBlbnRpdGxlbWVudHMiLCJzdWIiOiIxMGZiMjU5ZC1kMGE4LTRlYzUtOTBkYS05MzE0YWQ2NGFmNzciLCJ1c2UiOiJhY2Nlc3MifQ.-g5KefHpvGLvEfJ5UGcy1xk-H64Kr-q3lnXCXFBqYGiHVS0owACsYvzgoiqVYOLPzTKZrpPcjesE_WvpRJDvmw#</link>
-      <description>GPT‑5 marks OpenAI’s shift to monetizing its free user base via a router system that distinguishes mundane vs. high-value queries, laying the groundwork for agentic behavior and transactional revenue—positioning ChatGPT as a potential consumer SuperApp.</description>
-      <guid isPermaLink="false">7abea24bf12d5ad3df5f71939cb16ce9</guid>
-      <pubDate>Thu, 14 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Buzzy AI Startup Multiverse Creates Two of the Smallest High‑Performing Models Ever [ ~ ]</title>
-      <link>https://techcrunch.com/2025/08/14/buzzy-ai-startup-multiverse-creates-two-of-the-smallest-high-performing-models-ever/</link>
-      <description>This TechCrunch article spotlights Multiverse’s ultra‑compact models (like “ChickBrain”) leveraging quantum‑inspired compression methods, which maintain performance despite dramatic size reduction. Our analysts appreciated the innovation and namedropping fun, but marked it optional due to early stage and niche applicability.</description>
-      <guid isPermaLink="false">be29ed281b22ae02f6cf0ef125722576</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Gemma 3 270M: The compact model for hyper‑efficient AI [ ~ ]</title>
-      <link>https://menlovc.com/perspective/2025-mid-year-llm-market-update/</link>
-      <description>This article introduces Gemma 3, a tiny 270‑million‑parameter model optimized for efficiency and on-device deployment—appealing for edge applications like IoT or mobile devices. Our analysts deemed it relevant mostly for hardware integrators or those exploring small‑model use cases, but not broadly impactful yet.</description>
-      <guid isPermaLink="false">dc4420a9c96a1369754904743e011d00</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unlocking Enhanced Legal Document Review with Lexbe and Amazon Bedrock [ * ]</title>
-      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/reconfiguring-work-change-management-in-the-age-of-gen-ai</link>
-      <description>This article illustrates how Lexbe, a small e-discovery firm, leveraged Amazon Bedrock to boost document recall from 5% to 90%, delivering high-value, domain-specific legal AI applications. Our analysts highlighted its practical relevance and cost-effectiveness in regulated, privacy-conscious environments, making it a compelling important-read case study.</description>
-      <guid isPermaLink="false">80df8660b94d95338fa2d51e35e1a849</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Reconfiguring Work: Change Management in the Age of Gen AI [ * ]</title>
-      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/reconfiguring-work-change-management-in-the-age-of-gen-ai</link>
-      <description>This McKinsey article outlines a five‑step change‑management framework—covering North‑Star goals, trust, workflow redesign, organizational structure, and employee empowerment—that’s critical for turning Gen AI from experimental to productive within organizations. Our analysts noted that while the topic is crucial, the content felt familiar and process-heavy—making it important but not yet indispensable.</description>
-      <guid isPermaLink="false">820aead478c74564a82778c27b5e2ae7</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 27 Aug 2025 16:15:23 +0000</lastBuildDate>
     <item>
       <title>2025 Mid-Year LLM Market Update: Foundation Model Landscape + Economics [ ! ]</title>
       <link>https://menlovc.com/perspective/2025-mid-year-llm-market-update/</link>
@@ -357,6 +315,48 @@
       <description>MIT NANDA study claims 95% of enterprise GenAI efforts fail to generate ROI, citing a 'learning gap'; despite flawed methodology, it influences AI investment discourse, making it important for leaders to note.</description>
       <guid isPermaLink="false">6481049f1214e090d15b612f5ab21269</guid>
       <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VibeVoice: A Frontier Open‑Source Text‑to‑Speech Model [ ~ ]</title>
+      <link>https://huggingface.co/microsoft/VibeVoice-1.5B</link>
+      <description>VibeVoice from Microsoft Research brings open-source enhancements in text-to-speech realism, including nuanced prosody, tone, and breathing cues—demonstrating the potential for expressive audio synthesis, akin to “the llama moment for audio generation.” Our analysts highlighted its value for audio creators and educational use cases (e.g., voiceovers, podcasts), but with limited enterprise-grade readiness, making it noteworthy yet non-essential for broader audiences.</description>
+      <guid isPermaLink="false">4c6793ebdca1a774f6ce2fcef91f7679</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Wan 2.2 video model [ ~ ]</title>
+      <link>https://huggingface.co/Wan-AI/Wan2.2-S2V-14B</link>
+      <description>Wan 2.2 is an open-source large-scale video generation model offering enhanced efficiency, novel denoising techniques, and photorealistic results. While technically impressive, it’s more of a product announcement announcing incremental improvements. Our analysts regarded it as interesting for the ecosystem—especially open-source video—but not a breakthrough with immediate enterprise-level implications.</description>
+      <guid isPermaLink="false">b4fdb948af0ac6447b2890c0f1a568f2</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AlphaAgents: Large Language Model based Multi‑Agents for Equity Portfolio Constructions [ * ]</title>
+      <link>https://arxiv.org/html/2508.11152v1</link>
+      <description>This research introduces AlphaAgents—a modular, role-based multi-agent LLM system where different agents (e.g., fundamental, sentiment, valuation) collaborate, leveraging structured debate and explicit risk tolerance to outperform traditional single-agent systems in stock selection and portfolio management benchmarks. Our analysts appreciated that this framework can create a “market in opinion,” enabling more transparent, systematic investment strategies—pointing toward the future of AI in asset management.</description>
+      <guid isPermaLink="false">5bdd8ce6aafc5864429e47a7c0d59d13</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Education Report: How educators use Claude [ ! ]</title>
+      <link>https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude</link>
+      <description>Anthropic’s analysis of 74,000 educator interactions with Claude reveals that faculty are using AI primarily for curriculum design (57%), academic research (13%), and student performance assessment (7%), with use cases extending into simulation, interactive materials, and administrative tools—often augmenting rather than simply automating tasks. Our analysts highlighted that this report reflects a broader shift in education—from one-way broadcasting to interactive dialogue and personalization—underscoring the urgent need for organizations to educate themselves in AI to guide learning and deployment responsibly.</description>
+      <guid isPermaLink="false">b41a14fa520d0fd5b92ebba5ec9e2c49</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building next‑gen visuals with Gemini 2.5 Flash Image on Vertex AI [ ! ]</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/gemini-2-5-flash-image-on-vertex-ai</link>
+      <description>Gemini 2.5 Flash Image offers state-of-the-art capabilities in image generation and editing, including multi-image fusion, character and style consistency, and precise natural-language-driven edits—all accessible on Vertex AI for enterprise use. Our analysts noted that Gemini handles targeted image modifications—like editing just one part while preserving others—with greater precision than competing tools, illustrating a practical step forward in multimodal content creation.</description>
+      <guid isPermaLink="false">bd6716a9a67c219107a5c285fa19c701</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A digital colleague: How Chemist Warehouse and Insurgence AI are rewriting the HR playbook [ ! ]</title>
+      <link>https://news.microsoft.com/source/asia/features/a-digital-colleague-how-chemist-warehouse-and-insurgence-ai-are-rewriting-the-hr-playbook/</link>
+      <description>Chemist Warehouse’s deployment of AIHRA—a digital “AI HR Assistant” built with Microsoft Azure and Insurgence AI—transforms how routine HR inquiries are handled, drafting email responses to thousands of employees and saving nearly 2,000 hours annually. Our analysts see this as a hallmark case study, signaling a future where HR teams are supported by AI “coworkers”—highlighting productivity, scalability, and the shift toward agentic assistants.</description>
+      <guid isPermaLink="false">fe08cc226328dfafeadb22ef55708764</guid>
+      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
