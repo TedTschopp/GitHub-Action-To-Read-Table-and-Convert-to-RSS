@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 28 Aug 2025 08:15:50 +0000</lastBuildDate>
-    <item>
-      <title>2025 Mid-Year LLM Market Update: Foundation Model Landscape + Economics [ ! ]</title>
-      <link>https://menlovc.com/perspective/2025-mid-year-llm-market-update/</link>
-      <description>Menlo Ventures reports that enterprise spending on LLM APIs has skyrocketed—from $3.5 billion to $8.4 billion in the first half of 2025—with Anthropic now leading the enterprise LLM usage at 32%, ahead of OpenAI at 25%, signaling a major market shift. Our analysts underscored this trend as vital context for AI strategy—capturing new leadership dynamics and inference-driven economics.</description>
-      <guid isPermaLink="false">2715722259699168af4309b360c6d431</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Parallel: Web Search Infrastructure for AIs [ ! ]</title>
-      <link>https://parallel.ai/blog/introducing-parallel?s=09</link>
-      <description>Parallel's unveils a new Deep Research API, architected specifically to serve AIs rather than humans, and demonstrates superior performance—achieving up to 58% accuracy on multi-hop research benchmarks compared to GPT‑5’s 41%—highlighting a foundational shift in AI search infrastructure. Our analysts emphasized this pivot to AI-native web tooling as critical for high-value research use cases—essential for AI leaders to understand and act on.</description>
-      <guid isPermaLink="false">bc6ddc298f42f5c9b50884a341fad4a2</guid>
-      <pubDate>Fri, 15 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Ramp applies its engineering mindset to customer experience [ ~ ]</title>
-      <link>https://sierra.ai/customers/ramp?s=09</link>
-      <description>Article highlights Ramp using Sierra to enhance CX with engineering-driven approach; potentially interesting for fintech/service AI leaders, but analysts found it promotional and superficial.</description>
-      <guid isPermaLink="false">1d7b71e180b9902dc6991f3a7711a109</guid>
-      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Charm Industrial accelerates carbon removal operations with Claude [ ~ ]</title>
-      <link>https://www.anthropic.com/customers/charm-industrial</link>
-      <description>Case study shows Anthropic’s Claude AI used for carbon removal optimization; intriguing climate-tech use case but light on depth and real-world details, making it optional.</description>
-      <guid isPermaLink="false">a823bbb8985e8850dca1b9d9be8d2b53</guid>
-      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>UI‑Venus Technical Report: Building High‑performance UI Agents with RFT [ ~ ]</title>
-      <link>https://arxiv.org/abs/2508.10833</link>
-      <description>Ant Group research outlines self-evolving framework for improving UI agent navigation and grounding; strong technical advancement but too niche and research-focused for most readers.</description>
-      <guid isPermaLink="false">1e70ec9a2c7e7b612cf0ce287fdd8401</guid>
-      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Doomprompting Is the New Doomscrolling [ * ]</title>
-      <link>https://www.workingtheorys.com/p/doomprompting</link>
-      <description>Essay introduces 'doomprompting'—non-productive AI dialogue loops; prompts reflection on human-AI interface design. Analysts see value in encouraging mindful AI interaction design for leaders.</description>
-      <guid isPermaLink="false">ff57a47835e7ec2dd2db753aeee23cad</guid>
-      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 28 Aug 2025 16:17:27 +0000</lastBuildDate>
     <item>
       <title>Ranking the Chinese Open Model Builders [ * ]</title>
       <link>https://www.interconnects.ai/p/chinas-top-19-open-model-labs</link>
@@ -357,6 +315,48 @@
       <description>Chemist Warehouse’s deployment of AIHRA—a digital “AI HR Assistant” built with Microsoft Azure and Insurgence AI—transforms how routine HR inquiries are handled, drafting email responses to thousands of employees and saving nearly 2,000 hours annually. Our analysts see this as a hallmark case study, signaling a future where HR teams are supported by AI “coworkers”—highlighting productivity, scalability, and the shift toward agentic assistants.</description>
       <guid isPermaLink="false">fe08cc226328dfafeadb22ef55708764</guid>
       <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Piloting Claude for Chrome [ ~ ]</title>
+      <link>https://www.anthropic.com/news/claude-for-chrome</link>
+      <description>Anthropic’s experimental Chrome extension lets Claude observe and interact with web pages on behalf of users—a compelling idea but still in early beta with limited safety precautions. Our analysts deemed it a neat showcase of browser-based AI agents, but too narrow and preliminary to rank higher.</description>
+      <guid isPermaLink="false">18a2788b6d21522060825f2a65a86cd6</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Era of AI‑Generated Ransomware Has Arrived [ * ]</title>
+      <link>https://archive.is/sQurW#selection-703.0-703.46</link>
+      <description>New research from Anthropic and ESET reveals cybercriminals using generative AI—like Claude and Claude Code—to craft and distribute sophisticated ransomware, including the first AI‑powered ransom malware (PromptLock). Our analysts urged AI leaders and CISOs to urgently internalize the security implications.</description>
+      <guid isPermaLink="false">0c9e992865d00dfcd4b72c58845503b3</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Asta: Accelerating science through trustworthy agentic AI [ * ]</title>
+      <link>https://allenai.org/blog/asta</link>
+      <description>The Allen Institute’s Asta ecosystem introduces agentic research assistants, a benchmarking framework (AstaBench), and developer tools designed to accelerate scientific discovery with transparency and rigor. Our analysts called it a well‑thought‑through framework that could enable research teams and R&amp;D departments to scale up AI-assisted inquiry effectively.</description>
+      <guid isPermaLink="false">e33b787c7d943dd86aca6fa047b7fc98</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Context Engineering in the Big Picture of LLM Applications [ * ]</title>
+      <link>https://www.oreilly.com/radar/context-engineering-bringing-engineering-discipline-to-prompts-part-3/</link>
+      <description>This O’Reilly article reframes prompt design as part of a broader “context engineering” discipline—situated within robust system architecture involving orchestration, tool integration, guardrails, and control flow. Our analysts noted it’s a timely framing shift—important for building production-grade LLM systems.</description>
+      <guid isPermaLink="false">4ac4842f17fba9314f6482262c3fa9af</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence [ ! ]</title>
+      <link>https://digitaleconomy.stanford.edu/wp-content/uploads/2025/08/Canaries_BrynjolfssonChandarChen.pdf</link>
+      <description>This rigorous Stanford study combines millions of payroll records with AI exposure metrics to reveal that early-career workers (ages 22–25) in AI‑exposed roles—like software development and customer service—have seen a sharp 13% drop in employment relative to peers. Our analysts praised its empirical rigor and policy relevance as a must-read for understanding AI’s real labor-market impact.</description>
+      <guid isPermaLink="false">a02356cdfbda58d7ace2591a8868a5ad</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Top 100 Gen AI Consumer Apps [ ! ]</title>
+      <link>https://a16z.com/100-gen-ai-apps-5/?s=09</link>
+      <description>Andreessen Horowitz’s fifth edition ranking of the top Gen AI consumer apps offers an up-to-the-minute snapshot—based on traffic and downloads—of which apps are resonating with real users. Our analysts emphasized its strategic value for AI leaders understanding the fast-moving B2C landscape: who’s gaining traction, and where new behavioral trends are emerging.</description>
+      <guid isPermaLink="false">1b0b4d17d143d712ed1ae7e9924745d2</guid>
+      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

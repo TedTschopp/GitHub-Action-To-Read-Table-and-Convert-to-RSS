@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "The Top 100 Gen AI Consumer Apps",
+        "links": [
+          "https://a16z.com/100-gen-ai-apps-5/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Andreessen Horowitz’s fifth edition ranking of the top Gen AI consumer apps offers an up-to-the-minute snapshot—based on traffic and downloads—of which apps are resonating with real users. Our analysts emphasized its strategic value for AI leaders understanding the fast-moving B2C landscape: who’s gaining traction, and where new behavioral trends are emerging.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence",
+        "links": [
+          "https://digitaleconomy.stanford.edu/wp-content/uploads/2025/08/Canaries_BrynjolfssonChandarChen.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "This rigorous Stanford study combines millions of payroll records with AI exposure metrics to reveal that early-career workers (ages 22–25) in AI‑exposed roles—like software development and customer service—have seen a sharp 13% drop in employment relative to peers. Our analysts praised its empirical rigor and policy relevance as a must-read for understanding AI’s real labor-market impact.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Context Engineering in the Big Picture of LLM Applications",
+        "links": [
+          "https://www.oreilly.com/radar/context-engineering-bringing-engineering-discipline-to-prompts-part-3/"
+        ]
+      },
+      "Rationale": {
+        "text": "This O’Reilly article reframes prompt design as part of a broader “context engineering” discipline—situated within robust system architecture involving orchestration, tool integration, guardrails, and control flow. Our analysts noted it’s a timely framing shift—important for building production-grade LLM systems.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Asta: Accelerating science through trustworthy agentic AI",
+        "links": [
+          "https://allenai.org/blog/asta"
+        ]
+      },
+      "Rationale": {
+        "text": "The Allen Institute’s Asta ecosystem introduces agentic research assistants, a benchmarking framework (AstaBench), and developer tools designed to accelerate scientific discovery with transparency and rigor. Our analysts called it a well‑thought‑through framework that could enable research teams and R&D departments to scale up AI-assisted inquiry effectively.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Era of AI‑Generated Ransomware Has Arrived",
+        "links": [
+          "https://archive.is/sQurW#selection-703.0-703.46"
+        ]
+      },
+      "Rationale": {
+        "text": "New research from Anthropic and ESET reveals cybercriminals using generative AI—like Claude and Claude Code—to craft and distribute sophisticated ransomware, including the first AI‑powered ransom malware (PromptLock). Our analysts urged AI leaders and CISOs to urgently internalize the security implications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Piloting Claude for Chrome",
+        "links": [
+          "https://www.anthropic.com/news/claude-for-chrome"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s experimental Chrome extension lets Claude observe and interact with web pages on behalf of users—a compelling idea but still in early beta with limited safety precautions. Our analysts deemed it a neat showcase of browser-based AI agents, but too narrow and preliminary to rank higher.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/27/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Comprehensive ranking of 19 Chinese labs leading the open AI ecosystem; critical for business and AI leaders to track innovation pace and scale in China to stay competitive in U.S.–China AI dynamics.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Doomprompting Is the New Doomscrolling",
-        "links": [
-          "https://www.workingtheorys.com/p/doomprompting"
-        ]
-      },
-      "Rationale": {
-        "text": "Essay introduces 'doomprompting'—non-productive AI dialogue loops; prompts reflection on human-AI interface design. Analysts see value in encouraging mindful AI interaction design for leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "UI‑Venus Technical Report: Building High‑performance UI Agents with RFT",
-        "links": [
-          "https://arxiv.org/abs/2508.10833"
-        ]
-      },
-      "Rationale": {
-        "text": "Ant Group research outlines self-evolving framework for improving UI agent navigation and grounding; strong technical advancement but too niche and research-focused for most readers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Charm Industrial accelerates carbon removal operations with Claude",
-        "links": [
-          "https://www.anthropic.com/customers/charm-industrial"
-        ]
-      },
-      "Rationale": {
-        "text": "Case study shows Anthropic’s Claude AI used for carbon removal optimization; intriguing climate-tech use case but light on depth and real-world details, making it optional.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Ramp applies its engineering mindset to customer experience",
-        "links": [
-          "https://sierra.ai/customers/ramp?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Article highlights Ramp using Sierra to enhance CX with engineering-driven approach; potentially interesting for fintech/service AI leaders, but analysts found it promotional and superficial.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Parallel: Web Search Infrastructure for AIs",
-        "links": [
-          "https://parallel.ai/blog/introducing-parallel?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Parallel's unveils a new Deep Research API, architected specifically to serve AIs rather than humans, and demonstrates superior performance—achieving up to 58% accuracy on multi-hop research benchmarks compared to GPT‑5’s 41%—highlighting a foundational shift in AI search infrastructure. Our analysts emphasized this pivot to AI-native web tooling as critical for high-value research use cases—essential for AI leaders to understand and act on.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "2025 Mid-Year LLM Market Update: Foundation Model Landscape + Economics",
-        "links": [
-          "https://menlovc.com/perspective/2025-mid-year-llm-market-update/"
-        ]
-      },
-      "Rationale": {
-        "text": "Menlo Ventures reports that enterprise spending on LLM APIs has skyrocketed—from $3.5 billion to $8.4 billion in the first half of 2025—with Anthropic now leading the enterprise LLM usage at 32%, ahead of OpenAI at 25%, signaling a major market shift. Our analysts underscored this trend as vital context for AI strategy—capturing new leadership dynamics and inference-driven economics.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-28T08:15:50.970646+00:00"
+  "timestamp": "2025-08-28T16:17:27.669111+00:00"
 }
