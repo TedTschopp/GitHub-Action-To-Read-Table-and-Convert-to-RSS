@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 29 Aug 2025 08:16:15 +0000</lastBuildDate>
-    <item>
-      <title>Ranking the Chinese Open Model Builders [ * ]</title>
-      <link>https://www.interconnects.ai/p/chinas-top-19-open-model-labs</link>
-      <description>Comprehensive ranking of 19 Chinese labs leading the open AI ecosystem; critical for business and AI leaders to track innovation pace and scale in China to stay competitive in U.S.–China AI dynamics.</description>
-      <guid isPermaLink="false">973c7f3d2e71adf942d732042c411e59</guid>
-      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Using generative AI, researchers design compounds that can kill drug‑resistant bacteria [ ! ]</title>
-      <link>https://news.mit.edu/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814</link>
-      <description>Study shows generative AI designed novel antibiotic compounds targeting MRSA and gonorrhea; lab and mice tests successful. Analysts note this is new knowledge discovery, not just automation—potentially transforming science-driven industries.</description>
-      <guid isPermaLink="false">5ab2fe0c19f81052b0f06031da80604d</guid>
-      <pubDate>Mon, 18 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>He Sold His Likeness. Now His Avatar Is Shilling Supplements on TikTok. [ ~ ]</title>
-      <link>https://archive.md/p7MAd</link>
-      <description>Story of a man whose AI avatar was used for supplement marketing after selling his likeness; raises ethical issues but offers limited insights beyond the headline.</description>
-      <guid isPermaLink="false">149419972b0a1cdd90f9a875699147a8</guid>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How agentic AI can change the way banks fight financial crime [ ~ ]</title>
-      <link>https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/how-agentic-ai-can-change-the-way-banks-fight-financial-crime</link>
-      <description>McKinsey discusses deploying agentic LLM teams for financial crime detection/prevention; structured thinking appreciated, but article leans on generic frameworks and lacks data.</description>
-      <guid isPermaLink="false">67df6603101b3c1ce07e7570f98c98ba</guid>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude Opus 4 and 4.1 can now end a rare subset of conversations [ ~ ]</title>
-      <link>https://www.anthropic.com/research/end-subset-conversations</link>
-      <description>Anthropic introduces feature for Claude to terminate interactions in rare cases of harmful prompts or by request; incremental safety update with limited alignment discussion.</description>
-      <guid isPermaLink="false">948b6b4bebdbff97dc48faaeeae37258</guid>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>That 'cheap' open-source AI model is actually burning through your compute budget [ * ]</title>
-      <link>https://venturebeat.com/ai/that-cheap-open-source-ai-model-is-actually-burning-through-your-compute-budget/</link>
-      <description>Article warns open-source LLMs may lead to higher overall inference costs despite cheaper per-token rates, due to inefficient token usage; analysts highlight total cost of ownership considerations for hybrid stacks.</description>
-      <guid isPermaLink="false">386e532ab0548ae7b5b99c54c9cbc665</guid>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 29 Aug 2025 16:14:03 +0000</lastBuildDate>
     <item>
       <title>Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews [ * ]</title>
       <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709</link>
@@ -357,6 +315,48 @@
       <description>Andreessen Horowitz’s fifth edition ranking of the top Gen AI consumer apps offers an up-to-the-minute snapshot—based on traffic and downloads—of which apps are resonating with real users. Our analysts emphasized its strategic value for AI leaders understanding the fast-moving B2C landscape: who’s gaining traction, and where new behavioral trends are emerging.</description>
       <guid isPermaLink="false">1b0b4d17d143d712ed1ae7e9924745d2</guid>
       <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI–Anthropic cross‑tests expose jailbreak and misuse risks — what enterprises must add to GPT‑5 evaluations [ ~ ]</title>
+      <link>https://venturebeat.com/ai/openai-anthropic-cross-tests-expose-jailbreak-and-misuse-risks-what-enterprises-must-add-to-gpt-5-evaluations/</link>
+      <description>Article highlights collaboration between OpenAI and Anthropic on jailbreak/misuse testing; while commendable, analysts note lack of granular insights or actionable mitigations, limiting its strategic value.</description>
+      <guid isPermaLink="false">dcfa36abe67b0265e361eba0167e7cee</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Two in‑house models in support of our mission [ ~ ]</title>
+      <link>https://microsoft.ai/news/two-new-in-house-models/</link>
+      <description>Microsoft announces two new voice models (MAI-Voice-1, MAI-1-Preview) with little detail; analysts deem it PR-driven and mainly relevant to Microsoft ecosystem developers.</description>
+      <guid isPermaLink="false">c2bd3e7a3ee0a15ae97df6aff198f945</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Command A Translate: Secure translation for global enterprises [ ~ ]</title>
+      <link>https://cohere.com/blog/command-a-translate</link>
+      <description>Cohere’s Command A Translate offers secure, enterprise-ready translation with local deployment; analysts see it as incremental positioning rather than breakthrough, making it optional.</description>
+      <guid isPermaLink="false">e4be0e3e3a29b5cb4d8811b368ca5cad</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grok Code Fast 1 [ * ]</title>
+      <link>https://x.ai/news/grok-code-fast-1</link>
+      <description>xAI introduces Grok Code Fast 1, an agentic coding model emphasizing speed and affordability; analysts note dual benefits of performance and cost-efficiency could reshape expectations for developer AI tools at scale.</description>
+      <guid isPermaLink="false">638ea4c170c6609bed43bef00154d411</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing gpt‑realtime and Realtime API updates for production voice agents [ * ]</title>
+      <link>https://openai.com/index/introducing-gpt-realtime/</link>
+      <description>OpenAI launches GPT‑Realtime and updates Realtime API for production-grade voice agents with SIP support, image inputs, and remote tool access; analysts stress this marks a pivotal shift as voice becomes a cornerstone of enterprise AI services.</description>
+      <guid isPermaLink="false">23b0a4d7918c76b126ec52c1d8b34d19</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop “Vibe Testing” Your LLMs. It's Time for Real Evals [ ! ]</title>
+      <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
+      <description>Article argues for rigorous evaluation instead of 'vibe testing,' introducing Stax for structured eval pipelines; analysts highlight evaluation tooling as foundational for dependable AI apps.</description>
+      <guid isPermaLink="false">5947774d6ae28edd3a90bf5cab092d4c</guid>
+      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

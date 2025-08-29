@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "08/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Stop “Vibe Testing” Your LLMs. It's Time for Real Evals",
+        "links": [
+          "https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/"
+        ]
+      },
+      "Rationale": {
+        "text": "Article argues for rigorous evaluation instead of 'vibe testing,' introducing Stax for structured eval pipelines; analysts highlight evaluation tooling as foundational for dependable AI apps.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing gpt‑realtime and Realtime API updates for production voice agents",
+        "links": [
+          "https://openai.com/index/introducing-gpt-realtime/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI launches GPT‑Realtime and updates Realtime API for production-grade voice agents with SIP support, image inputs, and remote tool access; analysts stress this marks a pivotal shift as voice becomes a cornerstone of enterprise AI services.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Grok Code Fast 1",
+        "links": [
+          "https://x.ai/news/grok-code-fast-1"
+        ]
+      },
+      "Rationale": {
+        "text": "xAI introduces Grok Code Fast 1, an agentic coding model emphasizing speed and affordability; analysts note dual benefits of performance and cost-efficiency could reshape expectations for developer AI tools at scale.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Command A Translate: Secure translation for global enterprises",
+        "links": [
+          "https://cohere.com/blog/command-a-translate"
+        ]
+      },
+      "Rationale": {
+        "text": "Cohere’s Command A Translate offers secure, enterprise-ready translation with local deployment; analysts see it as incremental positioning rather than breakthrough, making it optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Two in‑house models in support of our mission",
+        "links": [
+          "https://microsoft.ai/news/two-new-in-house-models/"
+        ]
+      },
+      "Rationale": {
+        "text": "Microsoft announces two new voice models (MAI-Voice-1, MAI-1-Preview) with little detail; analysts deem it PR-driven and mainly relevant to Microsoft ecosystem developers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "08/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI–Anthropic cross‑tests expose jailbreak and misuse risks — what enterprises must add to GPT‑5 evaluations",
+        "links": [
+          "https://venturebeat.com/ai/openai-anthropic-cross-tests-expose-jailbreak-and-misuse-risks-what-enterprises-must-add-to-gpt-5-evaluations/"
+        ]
+      },
+      "Rationale": {
+        "text": "Article highlights collaboration between OpenAI and Anthropic on jailbreak/misuse testing; while commendable, analysts note lack of granular insights or actionable mitigations, limiting its strategic value.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/28/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Academic study of 70,000 applicants randomized to AI vs. human-led interviews; higher job offer rates and 78% candidate preference for AI interviewer; important behavioral signal for recruitment strategy.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "That 'cheap' open-source AI model is actually burning through your compute budget",
-        "links": [
-          "https://venturebeat.com/ai/that-cheap-open-source-ai-model-is-actually-burning-through-your-compute-budget/"
-        ]
-      },
-      "Rationale": {
-        "text": "Article warns open-source LLMs may lead to higher overall inference costs despite cheaper per-token rates, due to inefficient token usage; analysts highlight total cost of ownership considerations for hybrid stacks.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Claude Opus 4 and 4.1 can now end a rare subset of conversations",
-        "links": [
-          "https://www.anthropic.com/research/end-subset-conversations"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic introduces feature for Claude to terminate interactions in rare cases of harmful prompts or by request; incremental safety update with limited alignment discussion.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How agentic AI can change the way banks fight financial crime",
-        "links": [
-          "https://www.mckinsey.com/capabilities/risk-and-resilience/our-insights/how-agentic-ai-can-change-the-way-banks-fight-financial-crime"
-        ]
-      },
-      "Rationale": {
-        "text": "McKinsey discusses deploying agentic LLM teams for financial crime detection/prevention; structured thinking appreciated, but article leans on generic frameworks and lacks data.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "He Sold His Likeness. Now His Avatar Is Shilling Supplements on TikTok.",
-        "links": [
-          "https://archive.md/p7MAd"
-        ]
-      },
-      "Rationale": {
-        "text": "Story of a man whose AI avatar was used for supplement marketing after selling his likeness; raises ethical issues but offers limited insights beyond the headline.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Using generative AI, researchers design compounds that can kill drug‑resistant bacteria",
-        "links": [
-          "https://news.mit.edu/2025/using-generative-ai-researchers-design-compounds-kill-drug-resistant-bacteria-0814"
-        ]
-      },
-      "Rationale": {
-        "text": "Study shows generative AI designed novel antibiotic compounds targeting MRSA and gonorrhea; lab and mice tests successful. Analysts note this is new knowledge discovery, not just automation—potentially transforming science-driven industries.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Ranking the Chinese Open Model Builders",
-        "links": [
-          "https://www.interconnects.ai/p/chinas-top-19-open-model-labs"
-        ]
-      },
-      "Rationale": {
-        "text": "Comprehensive ranking of 19 Chinese labs leading the open AI ecosystem; critical for business and AI leaders to track innovation pace and scale in China to stay competitive in U.S.–China AI dynamics.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-08-29T08:16:15.205971+00:00"
+  "timestamp": "2025-08-29T16:14:03.906206+00:00"
 }
