@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Vendor pricing experiments leave CIOs’ AI costs in flux",
+        "links": [
+          "https://www.cio.com/article/4046457/vendor-pricing-experiments-leave-cios-ai-costs-in-flux.html"
+        ]
+      },
+      "Rationale": {
+        "text": "CIO Magazine reports on how AI vendors rapidly shift pricing models—combining subscription, usage-based, and outcome-based strategies—creating significant cost uncertainty for enterprises. Our analysts emphasized that unpredictable pricing is a critical operational risk; cost controls and monitoring are becoming essential tools as pricing shifts faster than ever before.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Rise of Computer Use and Agentic Coworkers",
+        "links": [
+          "https://a16z.com/the-rise-of-computer-use-and-agentic-coworkers/"
+        ]
+      },
+      "Rationale": {
+        "text": "This piece from a16z explores how autonomous, task-oriented AI agents—long a vision for future productivity—still fall short in real-world use cases, but lays out a structural agentic stack from document orchestration to browser-level integration. Our analysts noted that while the framework is helpful—especially for enterprise or startup experimentation—readers should treat it as a primer rather than a complete roadmap, distinguishing between human-in-the-loop versus autonomous models.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The AI research experimentation problem",
+        "links": [
+          "https://www.amplifypartners.com/blog-posts/the-ai-research-experimentation-problem?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This Amplify Partners article argues that the true bottleneck in AI progress isn't ideation but rigorous experimentation, which is often overlooked despite its centrality to scientific advancement. Our analysts felt the essay digs into core issues around experiment design, software architecture, and evaluation—but also called out its length and academic tone as barriers that may limit its practical impact on developers or practitioners.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Meet Boti: The AI assistant transforming how the citizens of Buenos Aires access government information with Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/meet-boti-the-ai-assistant-transforming-how-the-citizens-of-buenos-aires-access-government-information-with-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "AWS highlights Boti, a deployed RAG‑based AI assistant leveraging Amazon Bedrock to streamline access to government information in Buenos Aires—showcasing AI in public sector workflows. Our analysts acknowledged its simplicity, but appreciated that it's a real-world, at‑scale deployment with solid accuracy and usage metrics—important to highlight even if it’s not cutting-edge.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Beware the AI Experimentation Trap",
+        "links": [
+          "https://archive.md/ub45B"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR‑style cautionary essay critiques flawed AI experimentation and warns of the AI skepticism wave. While it raises valid concerns, our analysts characterized it as repetitive, methodologically shaky, and emblematic of clickbait rather than rigorous guidance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/02/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Long Cat (Longcat‑Flash‑Chat)",
+        "links": [
+          "https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"
+        ]
+      },
+      "Rationale": {
+        "text": "This emerging research model—a mixture-of‑experts architecture—offers ultra-fast, one‑pass generation rather than complex reasoning, positioning it as a niche capability in the LLM landscape.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "08/29/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Article proposes six-step AI-specific development lifecycle emphasizing continuous calibration due to non-determinism; valuable 101-style guide for AI execs highlighting intentional deployment and evaluation frameworks.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "NVIDIA Nemotron Nano 2 and the Nemotron Pretraining Dataset v1",
-        "links": [
-          "https://research.nvidia.com/labs/adlr/NVIDIA-Nemotron-Nano-2/"
-        ]
-      },
-      "Rationale": {
-        "text": "NVIDIA launches Nemotron Nano 2, a 9B parameter model rivaling top small models, with full training data and benchmarks shared; strategically important for edge AI and transparency in open-source datasets.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "5 ways enterprises can slash AI costs without sacrificing performance",
-        "links": [
-          "https://venturebeat.com/ai/hugging-face-5-ways-enterprises-can-slash-ai-costs-without-sacrificing-performance/"
-        ]
-      },
-      "Rationale": {
-        "text": "Hugging Face shares pragmatic cost-saving strategies for AI deployment—e.g., using smaller models where possible; important for enterprise leaders scaling AI, underscoring AI Ops and cost-aware model selection.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Emplify Health leverages LLMs to elevate the human experience",
-        "links": [
-          "https://www.cio.com/article/4037477/how-emplify-health-leverages-llms-to-elevate-the-human-experience.html"
-        ]
-      },
-      "Rationale": {
-        "text": "Case study of Emplify Health’s AI adoption with internal playgrounds and productivity gains; educational but lacks rigor and actionable depth, reducing strategic importance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "We must build AI for people; not to be a person",
-        "links": [
-          "https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming"
-        ]
-      },
-      "Rationale": {
-        "text": "Mustafa Suleyman argues against creating seemingly conscious AI to avoid debates on robot rights; important topic but opinion-driven and lacking research grounding, limiting actionable value.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "C.E.O.s Want Their Companies to Adopt A.I. But Do They Get It Themselves?",
-        "links": [
-          "https://archive.md/fBAhU"
-        ]
-      },
-      "Rationale": {
-        "text": "NYT highlights gap between C-suite AI enthusiasm and personal engagement; executives push adoption without firsthand use, limiting strategic alignment and effectiveness.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews",
-        "links": [
-          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709"
-        ]
-      },
-      "Rationale": {
-        "text": "Academic study of 70,000 applicants randomized to AI vs. human-led interviews; higher job offer rates and 78% candidate preference for AI interviewer; important behavioral signal for recruitment strategy.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-02T08:21:50.925412+00:00"
+  "timestamp": "2025-09-02T16:14:14.625222+00:00"
 }

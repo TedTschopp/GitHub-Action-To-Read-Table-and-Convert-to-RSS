@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 02 Sep 2025 08:21:50 +0000</lastBuildDate>
-    <item>
-      <title>Voice AI in Firms: A Natural Field Experiment on Automated Job Interviews [ * ]</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5395709</link>
-      <description>Academic study of 70,000 applicants randomized to AI vs. human-led interviews; higher job offer rates and 78% candidate preference for AI interviewer; important behavioral signal for recruitment strategy.</description>
-      <guid isPermaLink="false">3ee7300132d0f40b2dd136a95db9486e</guid>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>C.E.O.s Want Their Companies to Adopt A.I. But Do They Get It Themselves? [ ! ]</title>
-      <link>https://archive.md/fBAhU</link>
-      <description>NYT highlights gap between C-suite AI enthusiasm and personal engagement; executives push adoption without firsthand use, limiting strategic alignment and effectiveness.</description>
-      <guid isPermaLink="false">d990fd9f2d9cfe63c1f8a10caaac6e0b</guid>
-      <pubDate>Tue, 19 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We must build AI for people; not to be a person [ ~ ]</title>
-      <link>https://mustafa-suleyman.ai/seemingly-conscious-ai-is-coming</link>
-      <description>Mustafa Suleyman argues against creating seemingly conscious AI to avoid debates on robot rights; important topic but opinion-driven and lacking research grounding, limiting actionable value.</description>
-      <guid isPermaLink="false">da11d66043283330f5d3f0e01827f525</guid>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Emplify Health leverages LLMs to elevate the human experience [ ~ ]</title>
-      <link>https://www.cio.com/article/4037477/how-emplify-health-leverages-llms-to-elevate-the-human-experience.html</link>
-      <description>Case study of Emplify Health’s AI adoption with internal playgrounds and productivity gains; educational but lacks rigor and actionable depth, reducing strategic importance.</description>
-      <guid isPermaLink="false">1ff1b23e729f88f072f3d583ca678b65</guid>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>5 ways enterprises can slash AI costs without sacrificing performance [ * ]</title>
-      <link>https://venturebeat.com/ai/hugging-face-5-ways-enterprises-can-slash-ai-costs-without-sacrificing-performance/</link>
-      <description>Hugging Face shares pragmatic cost-saving strategies for AI deployment—e.g., using smaller models where possible; important for enterprise leaders scaling AI, underscoring AI Ops and cost-aware model selection.</description>
-      <guid isPermaLink="false">c1684bd55c66f54863c80b870b3b394b</guid>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>NVIDIA Nemotron Nano 2 and the Nemotron Pretraining Dataset v1 [ * ]</title>
-      <link>https://research.nvidia.com/labs/adlr/NVIDIA-Nemotron-Nano-2/</link>
-      <description>NVIDIA launches Nemotron Nano 2, a 9B parameter model rivaling top small models, with full training data and benchmarks shared; strategically important for edge AI and transparency in open-source datasets.</description>
-      <guid isPermaLink="false">ccc1dda9b2fae78e53cedc424882e9ac</guid>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 02 Sep 2025 16:14:14 +0000</lastBuildDate>
     <item>
       <title>Why your AI product needs a different development lifecycle [ * ]</title>
       <link>https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different?r=2x7oew&amp;utm_campaign=post&amp;utm_medium=web</link>
@@ -357,6 +315,48 @@
       <description>This article champions the shift from superficial “vibe testing” to rigorous evaluation for LLMs—introducing Stax, a developer tool enabling structured evaluation pipelines with human labeling and auto-raters, making debugging and quality metrics more reliable. Our analysts stressed how critical evaluation tooling has become: “before you own your intelligence, own your evals,” noting that this tooling is no longer discretionary but foundational for dependable AI-driven applications.</description>
       <guid isPermaLink="false">59e76b5cbf3a55173669c403577ba3bc</guid>
       <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Long Cat (Longcat‑Flash‑Chat) [ ~ ]</title>
+      <link>https://huggingface.co/meituan-longcat/LongCat-Flash-Chat</link>
+      <description>This emerging research model—a mixture-of‑experts architecture—offers ultra-fast, one‑pass generation rather than complex reasoning, positioning it as a niche capability in the LLM landscape.</description>
+      <guid isPermaLink="false">4bc130fad84ddd0465ac1a9c1244b392</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Beware the AI Experimentation Trap [ ~ ]</title>
+      <link>https://archive.md/ub45B</link>
+      <description>This HBR‑style cautionary essay critiques flawed AI experimentation and warns of the AI skepticism wave. While it raises valid concerns, our analysts characterized it as repetitive, methodologically shaky, and emblematic of clickbait rather than rigorous guidance.</description>
+      <guid isPermaLink="false">d6f2de6c10f040d619d0ddf3c878410d</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet Boti: The AI assistant transforming how the citizens of Buenos Aires access government information with Amazon Bedrock [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/meet-boti-the-ai-assistant-transforming-how-the-citizens-of-buenos-aires-access-government-information-with-amazon-bedrock/</link>
+      <description>AWS highlights Boti, a deployed RAG‑based AI assistant leveraging Amazon Bedrock to streamline access to government information in Buenos Aires—showcasing AI in public sector workflows. Our analysts acknowledged its simplicity, but appreciated that it's a real-world, at‑scale deployment with solid accuracy and usage metrics—important to highlight even if it’s not cutting-edge.</description>
+      <guid isPermaLink="false">b1f3e96dfafca556609b2643184ce08d</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI research experimentation problem [ * ]</title>
+      <link>https://www.amplifypartners.com/blog-posts/the-ai-research-experimentation-problem?s=09</link>
+      <description>This Amplify Partners article argues that the true bottleneck in AI progress isn't ideation but rigorous experimentation, which is often overlooked despite its centrality to scientific advancement. Our analysts felt the essay digs into core issues around experiment design, software architecture, and evaluation—but also called out its length and academic tone as barriers that may limit its practical impact on developers or practitioners.</description>
+      <guid isPermaLink="false">09355a9ae24d2e4230948d90fd7ddcba</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rise of Computer Use and Agentic Coworkers [ * ]</title>
+      <link>https://a16z.com/the-rise-of-computer-use-and-agentic-coworkers/</link>
+      <description>This piece from a16z explores how autonomous, task-oriented AI agents—long a vision for future productivity—still fall short in real-world use cases, but lays out a structural agentic stack from document orchestration to browser-level integration. Our analysts noted that while the framework is helpful—especially for enterprise or startup experimentation—readers should treat it as a primer rather than a complete roadmap, distinguishing between human-in-the-loop versus autonomous models.</description>
+      <guid isPermaLink="false">94ae10ea67a71c0279583a3b743e33ed</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vendor pricing experiments leave CIOs’ AI costs in flux [ * ]</title>
+      <link>https://www.cio.com/article/4046457/vendor-pricing-experiments-leave-cios-ai-costs-in-flux.html</link>
+      <description>CIO Magazine reports on how AI vendors rapidly shift pricing models—combining subscription, usage-based, and outcome-based strategies—creating significant cost uncertainty for enterprises. Our analysts emphasized that unpredictable pricing is a critical operational risk; cost controls and monitoring are becoming essential tools as pricing shifts faster than ever before.</description>
+      <guid isPermaLink="false">b1869dafbfa7bfacd6cc9758e8ff7669</guid>
+      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
