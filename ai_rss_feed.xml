@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 03 Sep 2025 08:16:03 +0000</lastBuildDate>
-    <item>
-      <title>Why your AI product needs a different development lifecycle [ * ]</title>
-      <link>https://www.lennysnewsletter.com/p/why-your-ai-product-needs-a-different?r=2x7oew&amp;utm_campaign=post&amp;utm_medium=web</link>
-      <description>Article proposes six-step AI-specific development lifecycle emphasizing continuous calibration due to non-determinism; valuable 101-style guide for AI execs highlighting intentional deployment and evaluation frameworks.</description>
-      <guid isPermaLink="false">aa4d3bcfa8d8cce2f0fc9014d3391868</guid>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Addressing Gen AI’s Quality-Control Problem [ ! ]</title>
-      <link>https://hbr.org/2025/09/addressing-gen-ais-quality-control-problem</link>
-      <description>Amazon developed a GenAI system for its product catalog, updating millions of descriptions with layered evaluation including LLM-as-a-judge; case study on scaling high-agency AI systems with quality controls, vital for enterprise leaders.</description>
-      <guid isPermaLink="false">2ec7434ba3d540e8718b2600ec5d5c48</guid>
-      <pubDate>Wed, 20 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ComputerRL: Scaling End-to-End Online Reinforcement Learning for Computer Use Agents [ ~ ]</title>
-      <link>https://arxiv.org/abs/2508.14040</link>
-      <description>Research introduces ComputerRL for training agents on general-purpose computer usage skills; promising for long-term embodied agents, but not actionable or immediately relevant for enterprises.</description>
-      <guid isPermaLink="false">209fe5b8656ea5d1a2f6ec4d6ec9dd9d</guid>
-      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Hidden Costs of Coding With Generative AI [ ~ ]</title>
-      <link>https://drive.google.com/file/d/1snY3rtlGIO_VWwfOZeh52dwRcH53k1St/view?usp=sharing</link>
-      <description>Warns of risks in uncritical GenAI code generation, particularly by juniors in complex infrastructure; analysts consider it common sense for experienced teams, but a useful reminder about tech debt risks.</description>
-      <guid isPermaLink="false">7a6b453e57a11e9053130f6a7f493113</guid>
-      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking B2B Software Pricing in the Agentic AI Era [ * ]</title>
-      <link>https://www.bcg.com/publications/2025/rethinking-b2b-software-pricing-in-the-era-of-ai</link>
-      <description>Article explores how AI agents reshape B2B software pricing models toward usage-based and agent-centric value; timely strategic implications for leaders reconsidering monetization amid automation and agent proliferation.</description>
-      <guid isPermaLink="false">312d9a0f7a7e2e3ad8c62c27623d519a</guid>
-      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>TELUS boosts workplace innovation with Claude [ * ]</title>
-      <link>https://www.anthropic.com/customers/telus</link>
-      <description>TELUS scaled Claude to 57,000 employees, building 13,000+ AI solutions and generating $90M from 47 implementations; strong case of GenAI-driven productivity, though most relevant to firms focusing on internal tooling.</description>
-      <guid isPermaLink="false">bfb36fab9c134c3696a9b475ff91f180</guid>
-      <pubDate>Thu, 21 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 03 Sep 2025 16:14:18 +0000</lastBuildDate>
     <item>
       <title>How Infosys built a generative AI solution to process oil and gas drilling data with Amazon Bedrock [ ! ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-infosys-built-a-generative-ai-solution-to-process-oil-and-gas-drilling-data-with-amazon-bedrock/</link>
@@ -357,6 +315,48 @@
       <description>CIO Magazine reports on how AI vendors rapidly shift pricing models—combining subscription, usage-based, and outcome-based strategies—creating significant cost uncertainty for enterprises. Our analysts emphasized that unpredictable pricing is a critical operational risk; cost controls and monitoring are becoming essential tools as pricing shifts faster than ever before.</description>
       <guid isPermaLink="false">b1869dafbfa7bfacd6cc9758e8ff7669</guid>
       <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can an AI doppelgänger help me do my job? [ ~ ]</title>
+      <link>https://www.technologyreview.com/2025/09/02/1122856/can-an-ai-doppelganger-help-me-do-my-job/</link>
+      <description>This exploratory piece from MIT Technology Review evaluates the idea of AI avatars or digital twins performing knowledge work but largely confirms their limitations in replicating human nuance. Our analysts criticized the article as surface-level, highlighting a missed opportunity to explore the real value and pace of advancement in AI-driven content creation.</description>
+      <guid isPermaLink="false">41b505de3420d1fb93ef4f89085fce4c</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rethinking the IT organization for the agentic AI era [ ~ ]</title>
+      <link>https://www.cio.com/article/4046473/rethinking-the-it-organization-for-the-agentic-ai-era.html</link>
+      <description>This article discusses the aspirational shift of IT departments toward becoming central AI integration hubs within the enterprise. Our analysts found the topic relevant but the execution lacking, noting that the argument lacked substance and failed to provide actionable insights for real-world transformation.</description>
+      <guid isPermaLink="false">b3050728a6af3d791a675941a6c330cd</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI to route sensitive conversations to GPT-5, introduce parental controls [ * ]</title>
+      <link>https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/</link>
+      <description>OpenAI is now routing emotionally sensitive or high-risk conversations to GPT-5 and launching parental controls, representing a step forward in AI safety and governance. Our analysts noted its societal importance though they viewed it as less urgent for AI leaders compared to operational or product-focused news.</description>
+      <guid isPermaLink="false">f571e23308d5e937fdd24c6fc3af17b8</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Le Chat. Custom MCP connectors. Memories. [ * ]</title>
+      <link>https://mistral.ai/news/le-chat-mcp-connectors-memories</link>
+      <description>Mistral's Le Chat introduces an expansive set of MCP connectors and memory capabilities, signaling its readiness for enterprise AI integration and potential to compete with ChatGPT Enterprise and Copilot Studio. Our analysts considered this an important update, especially for organizations seeking non-U.S. LLM vendors, though they acknowledged its largely catch-up functionality.</description>
+      <guid isPermaLink="false">0a7a9928ef504e8e003611c4f8b5d36f</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Intuit killed the chatbot crutch – and built an agentic AI playbook you can copy [ ! ]</title>
+      <link>https://venturebeat.com/ai/how-intuit-killed-the-chatbot-crutch-and-built-an-agentic-ai-playbook-you-can-copy</link>
+      <description>Intuit transformed its failed chatbot implementation into a company-wide shift toward agentic AI by focusing on eliminating manual toil and embedding AI into existing workflows. Our analysts found this a must-read case study in organizational AI adoption, highlighting customer-led development, modular design, and rapid experimentation as blueprints for success.</description>
+      <guid isPermaLink="false">2f6a694717aacd3e67a1c7d4afc53145</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cutting-Edge AI Was Supposed to Get Cheaper. It’s More Expensive Than Ever. [ ! ]</title>
+      <link>https://archive.is/GLwqi#selection-539.0-539.75</link>
+      <description>As businesses integrate generative AI into real workflows, they are facing rising costs due to “token explosion” in large language models (LLMs), where complex tasks require exponentially more tokens. Our analysts rated this article as essential because it challenges misconceptions about AI cost deflation and underscores the critical need for leaders to understand total cost of ownership—not just per-token pricing—as they scale AI solutions.</description>
+      <guid isPermaLink="false">49d4adbabfc54175c4d980fad7541a30</guid>
+      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
