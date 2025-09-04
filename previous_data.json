@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Unlocking the future of professional services: How Proofpoint uses Amazon Q Business",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/unlocking-the-future-of-professional-services-how-proofpoint-uses-amazon-q-business/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study details how Proofpoint integrated Amazon Q Business—a fully managed generative AI assistant—into their cybersecurity services, achieving a 40% productivity boost and saving thousands of administrative hours for tasks like email drafting, report generation, and meeting summarizations. Our analysts emphasized its completeness as a use case: “It says, here’s a problem. Here’s how we solve it... and here’s the impact,” and called attention to its strategic lessons on data strategy, embedding expertise, and deploying AI at scale—making it a must-read for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Generative AI as Seniority‑Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data",
+        "links": [
+          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555"
+        ]
+      },
+      "Rationale": {
+        "text": "Drawing on résumé and job‑posting data across 62 million U.S. workers, this study finds that generative AI adoption since Q1 2023 has led to declining junior-level employment—particularly in hiring—not separations—while senior hiring continues to rise. Our analysts flagged this as a crucial early trend underscoring the need to monitor career ladder disruptions.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Lawyers in the Loop: How Midpage Uses PromptLayer to Evaluate and Fine‑Tune Legal AI Models",
+        "links": [
+          "https://blog.promptlayer.com/lawyers-in-the-loop-how-midpage-uses-promptlayer-to-evaluate-and-fine-tune-legal-ai-models/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article explores how Legal AI provider Midpage uses PromptLayer to version, monitor, and refine prompts—treating them as software artifacts managed by domain experts rather than engineers. Our analysts agreed that the concept of domain-driven prompt engineering and governance is gaining critical importance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Human + AI in Accounting: Early Evidence from the Field",
+        "links": [
+          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5240924"
+        ]
+      },
+      "Rationale": {
+        "text": "Based on surveys of 277 accountants across 79 firms, this study shows that adoption of GenAI led to a 55% productivity boost in client support and accelerated month-end close by 7.5 days—with human oversight remaining essential where tool confidence is low. Our analysts saw this as indicative of practical workforce augmentation making it relevant for enterprises evaluating AI improvements in accounting workflows.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "LangChain 1.0 alpha consolidates agent design, reducing adoption risk for enterprises",
+        "links": [
+          "https://venturebeat.com/ai/langchain-1-0-alpha-consolidates-agent-design-reducing-adoption-risk-for"
+        ]
+      },
+      "Rationale": {
+        "text": "The product announcement introduces LangChain 1.0 alpha as a more stable, orchestrated framework for building agentic workflows. Our analysts viewed it as promising for enterprises but largely promotional and not essential for broader AI leadership, though useful for those directly using such tools.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Implicit Reasoning in Large Language Models: A Comprehensive Survey",
+        "links": [
+          "https://arxiv.org/abs/2509.02350"
+        ]
+      },
+      "Rationale": {
+        "text": "This academic survey explores shifting from explicit chain-of-thought outputs to hidden-state (implicit) reasoning to improve runtime efficiency and enable novel reasoning frameworks. While intellectually rich, out analysts agreed that it’s too early for practical application.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/03/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Cohere launched Command R+ Reasoning, an enterprise upgrade optimized for multi-step reasoning with open weights and reproducibility; strategically notable given Cohereâ€™s status as a top private vendor and $500M raise.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Tyson Foods elevates customer search experience with an AI-powered conversational assistant",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/tyson-foods-elevates-customer-search-experience-with-an-ai-powered-conversational-assistant/"
-        ]
-      },
-      "Rationale": {
-        "text": "Tyson Foodsâ€™ AI assistant uses semantic search to improve customer experience, capturing high-value interactions with feedback loops; analysts note the strong technical depth but absence of financial metrics keeps it from essential.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Mode in Search gets new agentic features and expands globally",
-        "links": [
-          "https://blog.google/products/search/ai-mode-agentic-personalized/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google expands AI Mode with agentic features to 180 countries, integrating with partners like OpenTable and Ticketmaster; notable rollout but lacks differentiation or immediate impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Questioning Margins is a Boring Cliche",
-        "links": [
-          "https://a16z.com/questioning-margins-is-a-boring-cliche/"
-        ]
-      },
-      "Rationale": {
-        "text": "a16z defends low-margin AI apps as still investable, countering criticism of portfolio strategy; analysts view it as defensive with limited actionable insights.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Alibaba launches Qoder",
-        "links": [
-          "https://qoder.com/blog/qoder-introduction"
-        ]
-      },
-      "Rationale": {
-        "text": "Alibabaâ€™s Qoder is a no-code AI development platform aimed at simplifying coding tasks; seen as incremental and lacking clear differentiation in a crowded space.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "DeepSeek V3.1 just dropped - and it might be the most powerful open AI yet",
-        "links": [
-          "https://venturebeat.com/ai/deepseek-v3-1-just-dropped-and-it-might-be-the-most-powerful-open-ai-yet/"
-        ]
-      },
-      "Rationale": {
-        "text": "DeepSeek V3.1 is a hybrid model supporting 'thinking' and 'non-thinking' modes, performing on par with closed models like Claude at lower cost; analysts emphasize its disruptive geopolitical and enterprise implications for model selection, adoption, and competition.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Infosys built a generative AI solution to process oil and gas drilling data with Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-infosys-built-a-generative-ai-solution-to-process-oil-and-gas-drilling-data-with-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "Infosys deployed a RAG pipeline on Amazon Bedrock to process oil and gas drilling logs/diagrams; analysts called it a blueprint for industrial GenAI implementations, highlighting multimodal handling, strong financial impact, and enterprise-ready architecture.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-04T08:15:55.486365+00:00"
+  "timestamp": "2025-09-04T16:15:16.220671+00:00"
 }
