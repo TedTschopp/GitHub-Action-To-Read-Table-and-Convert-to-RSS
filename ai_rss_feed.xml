@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 05 Sep 2025 08:16:29 +0000</lastBuildDate>
-    <item>
-      <title>Command R+ Reasoning: Enterprise-grade control for AI agents [ * ]</title>
-      <link>https://cohere.com/blog/command-a-reasoning</link>
-      <description>Cohere launched Command R+ Reasoning, an enterprise upgrade optimized for multi-step reasoning with open weights and reproducibility; strategically notable given Cohereâ€™s status as a top private vendor and $500M raise.</description>
-      <guid isPermaLink="false">7f99bfa25805cdb63e615ca941400784</guid>
-      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MIXI reimagines communication with ChatGPT [ * ]</title>
-      <link>https://openai.com/index/mixi/</link>
-      <description>MIXI deployed ChatGPT Enterprise across its workforce in 45 days, showcasing rapid, secure adoption of GenAI at scale; analysts call it a strong blueprint for enterprise-wide AI rollout with organizational buy-in and clear results.</description>
-      <guid isPermaLink="false">eb9b22b14d64e658e4275033db7b2d4f</guid>
-      <pubDate>Fri, 22 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why future AI agents will be trained to work together [ ~ ]</title>
-      <link>https://epoch.ai/gradient-updates/why-future-ai-agents-will-be-trained-to-work-together</link>
-      <description>Primer on multi-agent AI architectures and coordination; educational overview without actionable insights, making it more informative than strategic for enterprises.</description>
-      <guid isPermaLink="false">cbbae746ee7b8ae572dd845d9e2dbda0</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meta partners with Midjourney on AI image and video models [ ~ ]</title>
-      <link>https://techcrunch.com/2025/08/22/meta-partners-with-midjourney-on-ai-image-and-video-models/</link>
-      <description>Meta collaborates with Midjourney on AI for image and video synthesis; major branding move but limited near-term enterprise relevance, mainly impacting consumer-facing creative platforms.</description>
-      <guid isPermaLink="false">ac2651e4ab60528276f8f7f95b0c0637</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intern-S1: A Scientific Multimodal Foundation Model [ * ]</title>
-      <link>https://arxiv.org/abs/2508.15763</link>
-      <description>Intern-S1 is an open-source multimodal model trained on scientific data, outperforming state-of-the-art systems; analysts note its mixture-of-expert design and reward functions as a preview of next-gen LLMs, especially important for scientific R&amp;D.</description>
-      <guid isPermaLink="false">aac3287e7dece156fb11ed8a0e585aec</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Infosys Topaz leverages Amazon Bedrock to transform technical help desk operations [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-infosys-topaz-leverages-amazon-bedrock-to-transform-technical-help-desk-operations/</link>
-      <description>Infosys demonstrates AI in tech support using Amazon Bedrock, automating 70% of support queries and reducing call times by 60%; compelling enterprise case showing measurable ROI and broad industry relevance.</description>
-      <guid isPermaLink="false">c1a4688886ac71a75415f9d43a1fe59f</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 05 Sep 2025 16:16:08 +0000</lastBuildDate>
     <item>
       <title>Blue J's approach for scaling fast in complex, regulated domains [ ! ]</title>
       <link>https://openai.com/index/blue-j/</link>
@@ -357,6 +315,48 @@
       <description>This case study details how Proofpoint integrated Amazon Q Business—a fully managed generative AI assistant—into their cybersecurity services, achieving a 40% productivity boost and saving thousands of administrative hours for tasks like email drafting, report generation, and meeting summarizations. Our analysts emphasized its completeness as a use case: “It says, here’s a problem. Here’s how we solve it... and here’s the impact,” and called attention to its strategic lessons on data strategy, embedding expertise, and deploying AI at scale—making it a must-read for AI leaders.</description>
       <guid isPermaLink="false">837106ae9bc78d126577e392b60872cc</guid>
       <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Insurance Leads in AI Adoption. Now It’s Time to Scale. [ ~ ]</title>
+      <link>https://www.bcg.com/publications/2025/insurance-leads-ai-adoption-now-time-to-scale</link>
+      <description>BCG’s piece examines how insurance is primed for GenAI but not high in AI adoption emphasizing cultural over technical barriers. Our analysts found it filled with common-sense insights but too high-level and generic to merit deeper attention, with only a few useful nuggets buried in otherwise hand-wavy advice.</description>
+      <guid isPermaLink="false">84613895c88e95288e5568060609e424</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems? [ ~ ]</title>
+      <link>https://arxiv.org/abs/2509.03312?s=09</link>
+      <description>This research paper delves into tracing failure sources in agentic LLM systems using curated fault-determination datasets and counterfactual evaluations, noting up to 14% performance improvements in self-evaluation workflows. Our analysts noted its important foundational value in agent debugging, but agreed it's still academic—relevant to evals researchers, not yet enterprise-ready.</description>
+      <guid isPermaLink="false">24d7b034dbee72b9ba87bc9d1217c4ac</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing EmbeddingGemma: The Best‑in‑Class Open Model for On‑Device Embeddings [ ~ ]</title>
+      <link>https://developers.googleblog.com/en/introducing-embeddinggemma/</link>
+      <description>EmbeddingGemma presents a highly efficient, on-device embedding model that punches above its weight in performance for edge AI implementations. While our analysts acknowledged its technical merit—especially for future chatbot and mobile AI scenarios—it remains early-stage and likely not immediately critical for most AI leaders.</description>
+      <guid isPermaLink="false">48cda9533de765c4ed11fcd2e1ca1246</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Amazon Finance built an AI assistant using Amazon Bedrock and Amazon Kendra to support analysts for data discovery and business insights [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-built-an-ai-assistant-using-amazon-bedrock-and-amazon-kendra-to-support-analysts-for-data-discovery-and-business-insights/</link>
+      <description>This AWS case study demonstrates a tangible RAG (Retrieval-Augmented Generation) workflow: Amazon Finance built an AI assistant using Amazon Kendra for retrieval and Bedrock for generation, helping analysts retrieve documents faster and more accurately. Our analysts considered it a smart, practical implementation—though not groundbreaking, it nudges enterprises forward in reducing data navigation pain and sets a useful example for maturity-stage companies.</description>
+      <guid isPermaLink="false">b0aaef454c1c9a4a3d04f8b2b989637e</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why memory chips are the new frontier of the AI revolution [ * ]</title>
+      <link>https://archive.is/lr02M#selection-1889.0-1889.58</link>
+      <description>Highlighting how high-bandwidth memory (HBM) chips are stepping into the spotlight as a critical enabler of large-scale AI performance, this article notes SK Hynix’s meteoric rise past Samsung by supplying GPUs with HBM, boosting AI infrastructure efficiency amid growing U.S.–China tech tensions. Our analysts viewed this as forward-looking—memory is becoming a potential bottleneck behind compute—and stressed that AI leaders should start factoring memory availability and vendor diversity into infrastructure planning, especially as hyperscalers’ pricing and resilience strategies evolve.</description>
+      <guid isPermaLink="false">90277c43317546154147fcbad4c73ae1</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From query to cart: Inside Target’s search bar overhaul with AlloyDB AI [ ! ]</title>
+      <link>https://cloud.google.com/blog/topics/retail/from-query-to-cart-inside-targets-search-bar-overhaul-with-alloydb-ai</link>
+      <description>This article reveals how Target rebuilt its digital shopping experience using a hybrid search architecture—combining traditional keyword search with semantic vector embeddings—powered by AlloyDB AI, achieving 10× faster response times, 20% improved product discovery relevance, and halving “no result” queries. Our analysts emphasized that this demonstrates how probabilistic and deterministic search methods working together can create smarter, more scalable AI-infused systems—a clear showcase of AI-driven content creation enhancing user experience.</description>
+      <guid isPermaLink="false">d82bf60f705715db904cafa1f898b1d0</guid>
+      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
