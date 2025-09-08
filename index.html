@@ -9,7 +9,7 @@ class: home-template
         <h2><span>RSS Feeds</span></h2>
     </div>
     <div class="row">
-        {% for feed in site.rss_feeds %}
+    {% for feed in site.rss_feeds %}
         <div class="col-md-12">
             <div class="card border-0 mb-4 box-shadow">
                 <div class="card-header">
@@ -26,7 +26,7 @@ class: home-template
                     </div>
                 </div>
                 <div class="card-body">
-                    <div id="{{ feed.name | slugify }}-preview" class="rss-preview">
+                    <div id="feed-preview-{{ forloop.index0 }}" class="rss-preview" data-feed-name="{{ feed.name }}" data-feed-slug="{{ feed.name | slugify }}">
                         Loading latest entries...
                     </div>
                 </div>
@@ -56,7 +56,32 @@ class: home-template
 
 <!-- JavaScript for RSS preview -->
 <script>
-document.addEventListener('DOMContentLoaded', function() {
+(function initRss() {
+    if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initRss, { once: true });
+        return;
+    }
+    // Global error handler to surface silent script errors into each preview box
+    if (!window.__rssGlobalErrorHandlerInstalled) {
+        window.__rssGlobalErrorHandlerInstalled = true;
+        window.addEventListener('error', function(e) {
+            console.error('Global script error:', e.message, e.error);
+            document.querySelectorAll('.rss-preview').forEach(el => {
+                if (el.innerText.includes('Loading')) {
+                    el.innerHTML = '<div class="alert alert-danger"><small>Feed preview script error: ' + (e.message || 'Unknown error') + '</small></div>';
+                }
+            });
+        });
+        window.addEventListener('unhandledrejection', function(e) {
+            console.error('Unhandled promise rejection:', e.reason);
+            document.querySelectorAll('.rss-preview').forEach(el => {
+                if (el.innerText.includes('Loading')) {
+                    el.innerHTML = '<div class="alert alert-danger"><small>Feed preview promise error: ' + (e.reason && e.reason.message ? e.reason.message : 'Unknown') + '</small></div>';
+                }
+            });
+        });
+    }
+
     // Load RSS status
     fetch('/rss_status.json')
         .then(response => response.json())
@@ -110,35 +135,67 @@ document.addEventListener('DOMContentLoaded', function() {
     }
 
     const siteBase = '{{ site.url }}{{ site.baseurl }}'.replace(/\/$/, '');
+    console.log('Site Base (from config):', siteBase);
+    console.log('Location Origin:', window.location.origin);
 
-    rssFeeds.forEach(feed => {
+    // Collect existing preview diagnostics
+    console.log('Existing preview elements at init:', [...document.querySelectorAll('.rss-preview')].map(el=>({id:el.id, name:el.dataset.feedName, slug:el.dataset.feedSlug})));
+
+    rssFeeds.forEach((feed, idx) => {
         console.log('=== Processing Feed ===');
         console.log('Feed Name:', feed.name);
         console.log('Feed URL:', feed.url);
         console.log('Feed Description:', feed.description);
 
-        const computedId = jekyllSlugify(feed.name) + '-preview';
-        const previewElement = document.getElementById(computedId);
-        console.log('Preview Element ID (computed):', computedId);
-        console.log('Preview Element Found:', !!previewElement);
+        // Robust element resolution (order, data-name, slug variants)
+        let previewElement = document.querySelector(`.rss-preview[data-feed-name="${feed.name.replace(/"/g,'\\"')}"]`);
+        let method = 'data-feed-name';
+        if (!previewElement) {
+            // index-based id
+            previewElement = document.getElementById('feed-preview-' + idx);
+            method = 'index-id';
+        }
+        if (!previewElement) {
+            // slug stored in data-feed-slug
+            const slug = jekyllSlugify(feed.name);
+            previewElement = document.querySelector(`.rss-preview[data-feed-slug="${slug}"]`);
+            method = 'computed-slug-data';
+        }
+        if (!previewElement) {
+            // Alternative apostrophe handling variant (apostrophe -> hyphen)
+            const altSlug = feed.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
+            previewElement = document.querySelector(`.rss-preview[data-feed-slug="${altSlug}"]`);
+            method = 'alt-slug';
+        }
+        console.log('Preview Element Resolution Method:', method, 'Found:', !!previewElement, 'Index:', idx);
+        if (!previewElement) {
+            console.warn('Preview element not found; available IDs:', [...document.querySelectorAll('.rss-preview')].map(e=>e.id));
+        }
 
         if (!previewElement) {
             console.warn('Preview element not found for feed; skipping render:', feed.name);
             return; // Prevent downstream null dereferences
         }
         
-        const fetchUrl = /^https?:\/\//i.test(feed.url) ? feed.url : siteBase + feed.url;
+        // Use relative URL if starts with '/' to stay same-origin even if site.url differs
+        let fetchUrl = feed.url;
+        if (!/^https?:\/\//i.test(fetchUrl)) {
+            // leave as relative
+        }
+        // Fallback: if first attempt fails and siteBase origin differs, we'll retry with siteBase concatenated
+        const altUrl = /^https?:\/\//i.test(fetchUrl) ? null : siteBase + fetchUrl;
         const controller = new AbortController();
         const timeoutMs = 15000; // 15s safety timeout
         const timeoutHandle = setTimeout(() => controller.abort(), timeoutMs);
 
-        const maxAttempts = 2;
+    const maxAttempts = 2 + (altUrl ? 1 : 0);
         let attempt = 0;
 
         function doFetch() {
             attempt++;
-            console.log(`Fetching (${attempt}/${maxAttempts}):`, fetchUrl);
-            return fetch(fetchUrl, { signal: controller.signal })
+            const currentUrl = attempt === 1 ? fetchUrl : (altUrl && attempt === 2 ? altUrl : fetchUrl);
+            console.log(`Fetching (${attempt}/${maxAttempts}):`, currentUrl);
+            return fetch(currentUrl, { signal: controller.signal })
                 .catch(err => {
                     if (attempt < maxAttempts) {
                         console.warn('Fetch attempt failed, retrying...', err.message);
@@ -199,7 +256,8 @@ document.addEventListener('DOMContentLoaded', function() {
                     throw new Error('XML parsing failed: ' + parseError.textContent);
                 }
                 
-                console.log('XML Root Element:', xmlDoc.documentElement?.tagName);
+                var rootTagName = xmlDoc && xmlDoc.documentElement ? xmlDoc.documentElement.tagName : 'UNKNOWN';
+                console.log('XML Root Element:', rootTagName);
                 
                 // Detect feed type and get items accordingly
                 let items;
@@ -433,6 +491,5 @@ document.addEventListener('DOMContentLoaded', function() {
                     </div>
                 `;
             });
-    });
-});
+})();
 </script>
