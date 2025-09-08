@@ -121,87 +121,103 @@ function copyFeedUrl(url, feedIndex = null) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Load feed status and entries
     const rssFeeds = {{ site.rss_feeds | jsonify }};
-    
-    // Load RSS status
+
+    function jekyllSlugify(str) {
+        if (!str) return '';
+        return str
+            .toString()
+            .trim().toLowerCase()
+            // remove apostrophes
+            .replace(/['’`]/g, '')
+            // replace non alphanumeric (excluding space & hyphen) with space
+            .replace(/[^a-z0-9\s-]/g, ' ')
+            // collapse whitespace/hyphens to single space
+            .replace(/[\s_-]+/g, ' ')
+            // convert spaces to hyphens
+            .replace(/\s+/g, '-')
+            // trim hyphens
+            .replace(/^-+|-+$/g, '');
+    }
+
+    // Helper to safely set innerHTML
+    function setHTML(el, html) { if (el) el.innerHTML = html; }
+
+    // Load RSS status using feed.url key mapping found in rss_status.json
     fetch('/rss_status.json')
-        .then(response => response.json())
+        .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP '+r.status)))
         .then(data => {
-            rssFeeds.forEach((feed, index) => {
-                const feedKey = feed.name.toLowerCase().replace(/\s+/g, '_');
-                const statusElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-status');
-                
-                if (data.feeds && data.feeds[feedKey]) {
-                    const feedData = data.feeds[feedKey];
-                    const statusClass = feedData.status === 'healthy' ? 'success' : 'danger';
-                    const statusIcon = feedData.status === 'healthy' ? 'check-circle' : 'exclamation-triangle';
-                    
-                    statusElement.innerHTML = `
+            rssFeeds.forEach(feed => {
+                const slug = jekyllSlugify(feed.name);
+                const statusElement = document.getElementById(slug + '-status');
+                if (!statusElement) {
+                    console.warn('Status element not found for feed', feed.name, 'expected id:', slug+'-status');
+                }
+
+                const statusKey = (feed.url || '').replace(/^\//,''); // e.g. ai_rss_feed.xml
+                const feedData = data.feeds ? data.feeds[statusKey] : null;
+                if (feedData) {
+                    // Derive status (healthy if exists && valid_xml && entry_count >0)
+                    const health = (feedData.exists && feedData.valid_xml) ? 'healthy' : 'warning';
+                    const statusClass = health === 'healthy' ? 'success' : 'warning';
+                    const statusIcon = health === 'healthy' ? 'check-circle' : 'exclamation-triangle';
+                    setHTML(statusElement, `
                         <span class="badge bg-${statusClass}">
-                            <i class="fas fa-${statusIcon}"></i> ${feedData.status}
+                            <i class="fas fa-${statusIcon}"></i> ${health}
                         </span>
                         <small class="text-muted ms-2">
-                            ${feedData.entry_count || 0} entries | 
+                            ${(feedData.entry_count || 0)} entries |
                             Updated: ${feedData.last_updated ? new Date(feedData.last_updated).toLocaleDateString() : 'Unknown'}
                         </small>
-                    `;
+                    `);
                 } else {
-                    statusElement.innerHTML = '<span class="badge bg-secondary">Unknown</span>';
+                    setHTML(statusElement, '<span class="badge bg-secondary">Unknown</span>');
                 }
             });
         })
-        .catch(error => {
-            console.error('Error loading RSS status:', error);
-        });
-    
+        .catch(err => console.error('Error loading RSS status:', err));
+
     // Load feed entries
     rssFeeds.forEach(feed => {
-        const entriesElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-entries');
-        
+        const slug = jekyllSlugify(feed.name);
+        const entriesElement = document.getElementById(slug + '-entries');
+        if (!entriesElement) {
+            console.warn('Entries element not found for feed', feed.name, 'expected id:', slug+'-entries');
+            return;
+        }
+
         fetch(feed.url)
-            .then(response => response.text())
+            .then(r => r.ok ? r.text() : Promise.reject(new Error('HTTP '+r.status)))
             .then(xmlText => {
                 const parser = new DOMParser();
                 const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-                const items = xmlDoc.querySelectorAll('item');
-                
-                if (items.length === 0) {
-                    entriesElement.innerHTML = '<small class="text-muted">No entries found</small>';
+                const items = Array.from(xmlDoc.querySelectorAll('item'));
+                if (!items.length) {
+                    setHTML(entriesElement, '<small class="text-muted">No entries found</small>');
                     return;
                 }
-                
-                let entriesHtml = '<ul class="list-unstyled">';
-                
-                // Show first 3 items
-                for (let i = 0; i < Math.min(3, items.length); i++) {
-                    const item = items[i];
-                    const title = item.querySelector('title')?.textContent || 'No title';
-                    const link = item.querySelector('link')?.textContent || '#';
+                let html = '<ul class="list-unstyled">';
+                items.slice(0,3).forEach(item => {
+                    const title = (item.querySelector('title')?.textContent || 'No title').trim();
+                    const link = (item.querySelector('link')?.textContent || '#').trim();
                     const pubDate = item.querySelector('pubDate')?.textContent;
-                    
                     let formattedDate = '';
                     if (pubDate) {
-                        const date = new Date(pubDate);
-                        formattedDate = date.toLocaleDateString();
+                        const d = new Date(pubDate);
+                        if (!isNaN(d)) formattedDate = d.toLocaleDateString();
                     }
-                    
-                    entriesHtml += `
+                    html += `
                         <li class="mb-2">
-                            <a href="${link}" target="_blank" class="text-decoration-none">
-                                ${title}
-                            </a>
-                            ${formattedDate ? `<br><small class="text-muted">${formattedDate}</small>` : ''}
-                        </li>
-                    `;
-                }
-                
-                entriesHtml += '</ul>';
-                entriesElement.innerHTML = entriesHtml;
+                            <a href="${link}" target="_blank" rel="noopener" class="text-decoration-none">${title}</a>
+                            ${formattedDate ? `<br><small class='text-muted'>${formattedDate}</small>` : ''}
+                        </li>`;
+                });
+                html += '</ul>';
+                setHTML(entriesElement, html);
             })
-            .catch(error => {
-                console.error('Error loading RSS feed:', error);
-                entriesElement.innerHTML = '<small class="text-danger">Unable to load entries</small>';
+            .catch(err => {
+                console.error('Error loading RSS feed', feed.url, err);
+                setHTML(entriesElement, '<small class="text-danger">Unable to load entries</small>');
             });
     });
 });
