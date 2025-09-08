@@ -80,6 +80,5 @@ Gemfile.lock
 
 # Keep RSS feeds (override global ignores)
 !ai_rss_feed.xml
-!eei_ai_rss_feed.xml
 !rss_status.json
 

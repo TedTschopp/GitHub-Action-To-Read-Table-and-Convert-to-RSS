@@ -3,25 +3,18 @@
 # URLs and Targets
 GAI_INSIGHTS_URL = "https://gaiinsights.com/ratings"
 GAI_TABLE_ID = "newsTable"
-LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/davidbatz/"
 
 # RSS Feed Settings
 RSS_FEED_FILES = {
     "gai": "ai_rss_feed.xml",
-    "eei": "eei_ai_rss_feed.xml",
     "gai_archive": "ai_rss_feed_archive.xml"
 }
 
 RSS_METADATA = {
     "gai": {
-    "title": "Ted Tschopp's AI News",
-    "description": "Latest AI News and Ratings from Ted Tschopp",
-    "link": "https://rss.tedt.org/"
-    },
-    "eei": {
-        "title": "EEI AI News Digest",
-        "description": "Weekly AI news digest from industry expert David Batz",
-        "link": "https://www.linkedin.com/in/davidbatz/"
+        "title": "Ted Tschopp's AI News",
+        "description": "Latest AI News and Ratings from Ted Tschopp",
+        "link": "https://rss.tedt.org/"
     }
 }
 
@@ -29,7 +22,6 @@ RSS_METADATA = {
 SCRAPING_CONFIG = {
     "page_load_timeout": 30,
     "dynamic_content_wait": 10,
-    "linkedin_wait": 15,
     "max_articles_per_feed": 512,
     "retry_attempts": 3,
     "retry_delay": 5
@@ -49,19 +41,12 @@ RATING_TAGS = {
     "optional": " [ ~ ]"
 }
 
-# LinkedIn Search Patterns
-LINKEDIN_AI_PATTERNS = [
-    r"Artificial Intelligence in the news, Week Ending",
-    r"AI News.*Week Ending",
-    r"Artificial Intelligence.*news",
-    r"AI in the news",
-    r"Weekly AI update"
-]
+# (Former LinkedIn patterns removed)
 
 # Content Filtering
 CONTENT_FILTERS = {
     "excluded_domains": [
-        "linkedin.com", "facebook.com", "twitter.com", "instagram.com"
+        "facebook.com", "twitter.com", "instagram.com"
     ],
     "required_domains": [
         ".com", ".org", ".net", ".ai", ".co", ".io", ".tech"

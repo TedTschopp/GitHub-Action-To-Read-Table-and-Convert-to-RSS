@@ -53,7 +53,7 @@ git push origin main
 ### 3. Verify Deployment
 Once deployed, check:
 - [ ] Site loads at your GitHub Pages URL
-- [ ] RSS feeds are accessible (`/ai_rss_feed.xml`, `/eei_ai_rss_feed.xml`)
+- [ ] RSS feed is accessible (`/ai_rss_feed.xml`)
 - [ ] Status monitoring works (`/rss_status.json`)
 - [ ] All pages render correctly (Home, Feeds, About)
 - [ ] Mobile responsiveness works

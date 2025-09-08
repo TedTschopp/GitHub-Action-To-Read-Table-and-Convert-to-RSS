@@ -346,8 +346,7 @@ def generate_rss_feed(table_data, feed_title="AI News", feed_description="The La
 
 def main():
     """
-    Main function now only performs GAI Insights scraping. LinkedIn logic has
-    been moved to linkedin_scraper.py.
+    Script now only performs GAI Insights scraping. Former LinkedIn logic removed.
     """
     # Part 1: Original GAI Insights scraping
     print("=" * 60)
@@ -384,7 +383,7 @@ def main():
         
         print("GAI Insights process completed successfully!")
     
-    print("\nProcess complete. For LinkedIn scraping run linkedin_scraper.py separately.")
+    print("\nProcess complete.")
 
 if __name__ == "__main__":
     main()

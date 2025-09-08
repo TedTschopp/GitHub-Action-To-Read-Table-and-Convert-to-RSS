@@ -13,20 +13,19 @@ production_url: https://rss.tedt.org
 source_url: https://github.com/yourusername/GitHub-Action-To-Read-Table-and-Convert-to-RSS
 
 # Social URLs
-facebook_url: 
-twitter_url: 
-instagram_url: 
-linkedin_url: 
+facebook_url:
+twitter_url:
+instagram_url:
 github_url: https://github.com/yourusername/GitHub-Action-To-Read-Table-and-Convert-to-RSS
 
 # Mailchimp newsletter
-mailchimp_url: 
+mailchimp_url:
 
 # Disqus
-disqus_identifier: 
+disqus_identifier:
 
 # Google Analytics
-google_analytics: 
+google_analytics:
 
 # Authors
 authors:
@@ -39,10 +38,10 @@ authors:
 
 # Plugins
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
 
 # Pagination
 paginate: 6
@@ -50,20 +49,20 @@ paginate_path: /page:num/
 
 # Exclude from processing
 exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-  - enhanced_scraper.py
-  - scrape_to_rss.py
-  - monitor.py
-  - config.py
-  - requirements.txt
-  - previous_data.json
-  - debug_*.html
+- Gemfile
+- Gemfile.lock
+- node_modules
+- vendor/bundle/
+- vendor/cache/
+- vendor/gems/
+- vendor/ruby/
+- enhanced_scraper.py
+- scrape_to_rss.py
+- monitor.py
+- config.py
+- requirements.txt
+- previous_data.json
+- debug_*.html
 
 # Markdown settings
 markdown: kramdown
@@ -79,27 +78,24 @@ sass:
 
 # Gems
 gems:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-feed
-  - jekyll-seo-tag
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
 
 # RSS feeds
 rss_feeds:
-  - name: "Latest News in AI"
-    url: "/ai_rss_feed.xml"
-    description: "Latest AI and technology insights"
-  - name: "LinkedIn AI News"
-    url: "/eei_ai_rss_feed.xml"
-    description: "AI news from LinkedIn"
-  - name: "Enterprise Architecture Insights"
-    url: "https://api.allorigins.win/get?url=https%3A%2F%2Ffeedmix.novaclic.com%2Fmashup.php%3Fs0%3Dhttps%253A%252F%252Fbizzdesign.com%252Fblog%252Ffeed%26n0%3D%26s1%3Dhttps%253A%252F%252Fblog.opengroup.org%252Ffeed%26n1%3D%26s2%3Dhttps%253A%252F%252Feapj.org%252Ffeed%26n2%3D%26s3%3Dhttps%253A%252F%252Ffeed.infoq.com%252Fenterprise-architecture%26n3%3D%26s4%3Dhttps%253A%252F%252Fwww.architectureandgovernance.com%252Felevating-ea%252Ffeed%252F%26n4%3D%26s5%3Dhttps%253A%252F%252Fwww.forrester.com%252Fblogs%252Fcategory%252Fenterprise-architecture%252Ffeed%252F%26n5%3D%26s6%3Dhttps%253A%252F%252Fwww.leanix.net%252Fen%252Fblog%252Frss.xml%26n6%3D%26k%3D%26t%3D1%26m%3Da%26v%3D1"
-    description: "Latest insights on Enterprise Architecture"
-    proxy: true
+- name: "Ted Tschopp's AI News"
+  url: "/ai_rss_feed.xml"
+  description: "Latest AI News and Ratings from Ted Tschopp"
+  # Single active AI news feed
 
-
-
+- name: "Enterprise Architecture Insights"
+  url: "https://api.allorigins.win/get?url=https%3A%2F%2Ffeedmix.novaclic.com%2Fmashup.php%3Fs0%3Dhttps%253A%252F%252Fbizzdesign.com%252Fblog%252Ffeed%26n0%3D%26s1%3Dhttps%253A%252F%252Fblog.opengroup.org%252Ffeed%26n1%3D%26s2%3Dhttps%253A%252F%252Feapj.org%252Ffeed%26n2%3D%26s3%3Dhttps%253A%252F%252Ffeed.infoq.com%252Fenterprise-architecture%26n3%3D%26s4%3Dhttps%253A%252F%252Fwww.architectureandgovernance.com%252Felevating-ea%252Ffeed%252F%26n4%3D%26s5%3Dhttps%253A%252F%252Fwww.forrester.com%252Fblogs%252Fcategory%252Fenterprise-architecture%252Ffeed%252F%26n5%3D%26s6%3Dhttps%253A%252F%252Fwww.leanix.net%252Fen%252Fblog%252Frss.xml%26n6%3D%26k%3D%26t%3D1%26m%3Da%26v%3D1"
+  description: "Latest insights on Enterprise Architecture"
+  proxy: true
 
 # RSS display settings
-rss_preview_limit: 5  # Number of RSS items to show in homepage previews (minimum limit - will show more if last 7 days has more items) (default: 5)
-                      # Change this value to display more or fewer items on the homepage
+rss_preview_limit: 5
+  # Number of RSS items to show in homepage previews (minimum limit - will show more if last 7 days has more items) (default: 5)
+  # Change this value to display more or fewer items on the homepage

@@ -1,16 +1,16 @@
 # GitHub Action: Table Scraper to RSS Feed - Enhanced
 
-A sophisticated GitHub Action that scrapes table data from websites and LinkedIn posts to generate RSS feeds automatically.
+A sophisticated GitHub Action that scrapes table data from websites to generate an AI news RSS feed automatically.
 
 ## 🚀 New Features (v2.0)
 
-- **🔄 Dual RSS Feeds**: GAI Insights table scraping + LinkedIn AI news aggregation
+- **🔄 Automated RSS Feed**: GAI Insights table scraping
 - **📊 Health Monitoring**: Automated RSS feed health checks and status reports
 - **⚙️ Configuration Management**: Centralized configuration for easy customization
 - **🛡️ Enhanced Error Handling**: Robust error handling with retry mechanisms
 - **📈 Better Change Detection**: Intelligent change detection to avoid unnecessary updates
 - **📝 Structured Logging**: Comprehensive logging for debugging and monitoring
-- **🎯 Smart Content Filtering**: AI-focused content filtering for LinkedIn posts
+- **🎯 Smart Content Filtering**: AI-focused content filtering and normalization
 
 ## 📁 Project Structure
 
@@ -23,7 +23,6 @@ A sophisticated GitHub Action that scrapes table data from websites and LinkedIn
 ├── .github/workflows/        # GitHub Actions workflows
 │   └── scrape-and-generate-rss.yml
 ├── ai_rss_feed.xml          # GAI Insights RSS feed
-├── eei_ai_rss_feed.xml      # LinkedIn AI news RSS feed
 └── rss_status.json          # Health monitoring report
 ```
 
@@ -34,19 +33,15 @@ A sophisticated GitHub Action that scrapes table data from websites and LinkedIn
 - Updates every 8 hours
 - Includes rating tags: Essential [!], Important [*], Optional [~]
 
-### 2. EEI LinkedIn RSS Feed (`eei_ai_rss_feed.xml`)
-- Scrapes AI news posts from David Batz's LinkedIn profile
-- Extracts article links and metadata
-- Generates comprehensive RSS entries with full article descriptions
+<!-- Former secondary feed removed to simplify scope -->
 
 ## 🔧 Configuration
 
 All settings are centralized in `config.py`:
 
 ```python
-# URLs and targets
+# URL target
 GAI_INSIGHTS_URL = "https://gaiinsights.com/ratings"
-LINKEDIN_PROFILE_URL = "https://www.linkedin.com/in/davidbatz/"
 
 # Scraping settings
 SCRAPING_CONFIG = {
@@ -75,7 +70,6 @@ The project includes comprehensive health monitoring:
 
 ### Smart Content Detection
 - Intelligent column identification for flexible table structures
-- AI-focused content filtering for LinkedIn posts
 - Duplicate detection and removal
 
 ### Robust Error Handling
@@ -135,8 +129,7 @@ The monitoring system generates detailed reports including:
 
 1. **Scraping Phase**:
    - Scrape GAI Insights table data
-   - Search for latest LinkedIn AI news post
-   - Extract article links and metadata
+   - Extract table rows and transform into RSS entries
 
 2. **Processing Phase**:
    - Generate RSS feeds with proper formatting
@@ -191,23 +184,17 @@ SCRAPING_CONFIG = {
 Your RSS feeds will be available at:
 
 - **GAI Insights**: `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/ai_rss_feed.xml`
-- **EEI LinkedIn**: `https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/eei_ai_rss_feed.xml`
 
 ## 🐛 Troubleshooting
 
 ### Common Issues
 
-1. **LinkedIn Access Blocked**: LinkedIn has anti-bot protections
-   - Check debug files (`debug_linkedin_page.html`)
-   - Adjust wait times in configuration
-   - Consider alternative data sources
-
-2. **Empty RSS Feeds**: No content found
+1. **Empty RSS Feed**: No content found
    - Check status report in `rss_status.json`
    - Verify source website structure hasn't changed
    - Review error logs in GitHub Actions
 
-3. **Timeout Errors**: Slow page loading
+2. **Timeout Errors**: Slow page loading
    - Increase timeout values in `config.py`
    - Check GitHub Actions runner performance
    - Consider reducing content processing

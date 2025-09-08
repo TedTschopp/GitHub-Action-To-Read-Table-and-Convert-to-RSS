@@ -61,9 +61,7 @@ rss_feeds:
   - name: "GAI Insights"
     url: "/ai_rss_feed.xml"
     description: "Latest AI and technology insights"
-  - name: "LinkedIn AI News"  
-    url: "/eei_ai_rss_feed.xml"
-    description: "AI news from LinkedIn"
+  # LinkedIn AI News feed removed (deprecated)
 ```
 
 ### GitHub Actions Workflow
@@ -85,12 +83,7 @@ Get real-time feed status: `GET /rss_status.json`
       "status": "healthy",
       "entry_count": 50,
       "last_updated": "2024-01-01T11:30:00Z"
-    },
-    "LinkedIn AI News": {
-      "status": "error", 
-      "entry_count": 0,
-      "error": "No entries found"
-    }
+  }
   }
 }
 ```

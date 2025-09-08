@@ -10,7 +10,7 @@ Your Jekyll RSS Feed Hub is now **fully configured and ready for deployment** to
 |-----------|--------|---------|
 | 🏗️ Jekyll Structure | ✅ Complete | _config.yml, Gemfile, layouts, pages |
 | 📄 Core Pages | ✅ Ready | index.html, feeds.html, about.md, 404.html |
-| 📡 RSS Feeds | ✅ Active | ai_rss_feed.xml (50 entries), eei_ai_rss_feed.xml |
+| 📡 RSS Feeds | ✅ Active | ai_rss_feed.xml (rolling 60 days + archive) |
 | 📊 Monitoring | ✅ Working | rss_status.json with health tracking |
 | 🚀 GitHub Actions | ✅ Configured | Dual workflow for scraping + Jekyll deployment |
 | 🎨 UI/UX | ✅ Modern | Bootstrap 5, responsive, mobile-first |
@@ -69,9 +69,7 @@ Your RSS Feed Hub includes:
 | Feed | Status | Entries | Last Updated |
 |------|--------|---------|--------------|
 | GAI Insights | ✅ Healthy | 50 | Jun 5, 2025 |
-| LinkedIn AI News | ⚠️ Limited | 0 | Jun 5, 2025 |
-
-*Note: LinkedIn feed needs anti-bot protection improvements (planned enhancement)*
+<!-- LinkedIn AI News feed removed -->
 
 ### 🛠️ TECHNICAL ARCHITECTURE
 
