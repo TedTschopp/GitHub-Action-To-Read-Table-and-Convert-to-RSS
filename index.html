@@ -141,6 +141,10 @@ class: home-template
     // Collect existing preview diagnostics
     console.log('Existing preview elements at init:', [...document.querySelectorAll('.rss-preview')].map(el=>({id:el.id, name:el.dataset.feedName, slug:el.dataset.feedSlug})));
 
+    const slugAlias = {
+        "Ted Tschopp's AI News": 'ted-tschopp-s-ai-news-preview'
+    };
+
     rssFeeds.forEach((feed, idx) => {
         console.log('=== Processing Feed ===');
         console.log('Feed Name:', feed.name);
@@ -166,6 +170,10 @@ class: home-template
             const altSlug = feed.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
             previewElement = document.querySelector(`.rss-preview[data-feed-slug="${altSlug}"]`);
             method = 'alt-slug';
+        }
+        if (!previewElement && slugAlias[feed.name]) {
+            previewElement = document.getElementById(slugAlias[feed.name]);
+            method = 'slug-alias';
         }
         console.log('Preview Element Resolution Method:', method, 'Found:', !!previewElement, 'Index:', idx);
         if (!previewElement) {
