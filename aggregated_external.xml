@@ -7,21 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Aggregator v2 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 18:11:20 +0000</lastBuildDate>
-    <item>
-      <title>Why it’s a mistake to ask chatbots about their mistakes (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/ai/2025/08/why-its-a-mistake-to-ask-chatbots-about-their-mistakes/</link>
-      <description>The tendency to ask AI bots to explain themselves reveals widespread misconceptions about how they work.</description>
-      <guid isPermaLink="false">1da4fae8bba34ec7b2b3779787fdcca9</guid>
-      <pubDate>Tue, 12 Aug 2025 19:52:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI brings back GPT-4o after user revolt (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/openai-brings-back-gpt-4o-after-user-revolt/</link>
-      <description>After unpopular GPT-5 launch, OpenAI begins restoring optional access to previous AI models.</description>
-      <guid isPermaLink="false">579d9044975a3f51f5be9f6539200eb2</guid>
-      <pubDate>Wed, 13 Aug 2025 14:08:47 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 08 Sep 2025 22:38:08 +0000</lastBuildDate>
     <item>
       <title>Is AI really trying to escape human control and blackmail people? (Source: feeds.arstechnica.com)</title>
       <link>https://arstechnica.com/information-technology/2025/08/is-ai-really-trying-to-escape-human-control-and-blackmail-people/</link>
@@ -126,27 +112,6 @@
       <description>Openly available AI tool creates steerable 3D-like video, but requires serious GPU muscle.</description>
       <guid isPermaLink="false">3eb079f09df8283e2809ba5d9af81053</guid>
       <pubDate>Wed, 03 Sep 2025 21:56:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>‘Unprecedented Growth’ by Anthropic: This AI Startup is Now Valued at $183B (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-anthropic-series-f-funding-round/</link>
-      <description>Claude AI creator Anthropic plans to use the money from its latest funding round for enterprise products, safety research and expanding internationally.</description>
-      <guid isPermaLink="false">bca9aad7e4c0cc46aefd533254acb89e</guid>
-      <pubDate>Wed, 03 Sep 2025 22:14:32 +0000</pubDate>
-    </item>
-    <item>
-      <title>Price Drop: Code Faster and More Accurately, Even in Collaboration, for Just $15 (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/microsoft-visual-studio-professional/</link>
-      <description>Microsoft Visual Studio Professional 2022 for Windows allows you to code with teams across platforms and languages and offers advanced tools to ensure accuracy.</description>
-      <guid isPermaLink="false">7e8e4c3c6694e98e7bb77dcd3bd84224</guid>
-      <pubDate>Thu, 04 Sep 2025 07:00:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Is a Recent Windows Update Responsible for SSD Failures? Microsoft Has an Answer (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-microsoft-windows-update-ssd-failures/</link>
-      <description>A rash of SSD failures have prompted some users to blame a recent Windows Update. Microsoft insist the problem is not its fault.</description>
-      <guid isPermaLink="false">8f2c8c93d1835cba053018339e4337c7</guid>
-      <pubDate>Thu, 04 Sep 2025 09:16:11 +0000</pubDate>
     </item>
     <item>
       <title>Build Practical Cyber Defense Skills with This 5-Course Bundle (Source: www.techrepublic.com)</title>
@@ -282,76 +247,6 @@
       <pubDate>Mon, 08 Sep 2025 09:51:47 +0000</pubDate>
     </item>
     <item>
-      <title>How you're charging your tablet is slowly killing it - 3 methods to avoid (and the right way) (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/how-youre-charging-your-tablet-is-slowly-killing-it-3-methods-to-avoid-and-the-right-way/</link>
-      <description>Your tablet's reliability starts with its battery, and treating it right to keep it running strong.</description>
-      <guid isPermaLink="false">4bd6e8d7034fe86dd0d86b56786166bf</guid>
-      <pubDate>Mon, 08 Sep 2025 10:58:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The tablet that successfully replaced my Kindle and iPad now has a worthy follow-up (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/the-tablet-that-successfully-replaced-my-kindle-and-ipad-now-has-a-worthy-follow-up/</link>
-      <description>The TCL Nxtpaper 11 Plus is a well-rounded Android tablet that offers a reliable everyday experience at a wallet-friendly price.</description>
-      <guid isPermaLink="false">2f009f7be063233c27d8b1c3ee316bda</guid>
-      <pubDate>Mon, 08 Sep 2025 11:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Your Roku has hidden settings and menu screens - here's how to unlock them (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/your-roku-has-hidden-settings-and-menu-screens-heres-how-to-unlock-them/</link>
-      <description>A little-known button combo on your Roku remote unlocks a hidden menu packed with advanced features most users never stumble upon.</description>
-      <guid isPermaLink="false">fc808e55686042a30342ea267103dd6f</guid>
-      <pubDate>Mon, 08 Sep 2025 11:00:17 +0000</pubDate>
-    </item>
-    <item>
-      <title>I tried Lenovo's rotating display laptop at IFA 2025, and it was a mind-boggling experience (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/i-tried-lenovos-rotating-display-laptop-at-ifa-2025-and-it-was-a-mind-boggling-experience/</link>
-      <description>The ThinkBook VertiFlex proof of concept has a rotating screen that swaps from portrait to landscape.</description>
-      <guid isPermaLink="false">c3dd845c2c7e481522824c7dccec0813</guid>
-      <pubDate>Mon, 08 Sep 2025 11:01:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>This Lenovo ThinkPad in white has been on my mind since I tried it at IFA 2025 (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/this-lenovo-thinkpad-in-white-has-been-on-my-mind-since-i-tried-it-at-ifa-2025/</link>
-      <description>We were already fans of the ThinkPad X9 Aura Edition, but the new Glacial White color makes a bold, lasting impression.</description>
-      <guid isPermaLink="false">7fc67991f983ab2720d5e1002900cf83</guid>
-      <pubDate>Mon, 08 Sep 2025 11:02:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Changing these 10 settings on my Pixel phone gave it a nice performance boost (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/changing-these-10-settings-on-my-pixel-phone-gave-it-a-welcome-performance-boost/</link>
-      <description>Pixel phones are packed with smart features by default - but adjusting a few key settings can elevate your experience even further.</description>
-      <guid isPermaLink="false">a01c4edf805bb82a45c0a9df35693307</guid>
-      <pubDate>Mon, 08 Sep 2025 13:49:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Is OneDrive sending your Windows files to the cloud? Here's why - and what you can do (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/is-onedrive-sending-all-your-windows-files-to-the-cloud-heres-why-and-what-you-can-do/</link>
-      <description>If you're not careful, your local files can be hoovered into Microsoft's OneDrive cloud storage without your knowledge. Here's how it works.</description>
-      <guid isPermaLink="false">45069fa2cd7ecd3df977c78150ad319f</guid>
-      <pubDate>Mon, 08 Sep 2025 13:49:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>This oddball screwdriver is one of the most ergonomic tools I own (and it's only $15) (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/this-oddball-screwdriver-is-one-of-the-most-ergonomic-tools-i-own-and-its-only-15/</link>
-      <description>It may look different than competitors, but this cordless screwdriver is surprisingly powerful and ergonomic.</description>
-      <guid isPermaLink="false">c2e9e84b7ee8346ae884b46f5cd420df</guid>
-      <pubDate>Mon, 08 Sep 2025 14:01:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>You should clean your AirPods ASAP, especially before you consider an upgrade this week (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/you-should-clean-your-airpods-asap-especially-before-you-consider-an-upgrade-this-week/</link>
-      <description>Hearing health doesn't only pertain to volume levels; it's equally important to keep headphones and earbuds clean.</description>
-      <guid isPermaLink="false">3cf0bf7e128b8e401b4648e6dab710d9</guid>
-      <pubDate>Mon, 08 Sep 2025 14:22:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Copilot's new File Explorer tricks are serious OneDrive time-savers - how to try them (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/copilots-new-file-explorer-tricks-are-serious-onedrive-time-savers-how-to-try-them/</link>
-      <description>With Copilot and Microsoft 365, you can summarize, ask questions, create an FAQ, and even compare certain files stored in OneDrive.</description>
-      <guid isPermaLink="false">e292eff48fb2b1189ec55c685afc2527</guid>
-      <pubDate>Mon, 08 Sep 2025 14:23:29 +0000</pubDate>
-    </item>
-    <item>
       <title>Apple's iPhone 17 event invite has secret clues - my 3 biggest theories for what to expect (Source: www.zdnet.com)</title>
       <link>https://www.zdnet.com/article/apples-iphone-17-event-invite-has-secret-clues-my-3-biggest-theories-for-what-to-expect/</link>
       <description>All eyes are on Apple for its next iPhone, Apple Watch, and AirPods lineup - here's what could happen this week.</description>
@@ -371,13 +266,6 @@
       <description>Loose AirPods? Before you give up on them, try these three accessories without breaking the bank.</description>
       <guid isPermaLink="false">6a365bff7b568bc07be9cc3b51548cdd</guid>
       <pubDate>Mon, 08 Sep 2025 14:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple iPhone 17 event live updates: The biggest rumors on AirPods, Apple Watch Series 11, more (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/apple-iphone-17-event-live-updates-the-biggest-rumors-on-airpods-apple-watch-series-11-more/</link>
-      <description>The clock is ticking, and ZDNET is reporting on all the latest news surrounding Apple's September iPhone event this week.</description>
-      <guid isPermaLink="false">64067d69046369c9bc8d83315c66bf6a</guid>
-      <pubDate>Mon, 08 Sep 2025 15:18:00 +0000</pubDate>
     </item>
     <item>
       <title>How to watch Apple's iPhone 17 September event this week (and what to expect) (Source: www.zdnet.com)</title>
@@ -415,6 +303,13 @@
       <pubDate>Mon, 08 Sep 2025 17:06:12 +0000</pubDate>
     </item>
     <item>
+      <title>AI will consume all of IT by 2030—but not all IT jobs, Gartner says (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/</link>
+      <description>AI still threatens entry-level IT jobs.</description>
+      <guid isPermaLink="false">2e634e5f29a81a71132b493078554806</guid>
+      <pubDate>Mon, 08 Sep 2025 17:17:49 +0000</pubDate>
+    </item>
+    <item>
       <title>The best smart rings of 2025: I tested and found an obvious winner (Source: www.zdnet.com)</title>
       <link>https://www.zdnet.com/article/best-smart-ring/</link>
       <description>I tested several top smart rings, and these are the ones I recommend most.</description>
@@ -427,6 +322,111 @@
       <description>Having tested every major smartwatch release in 2025, here's what's on my Apple Watch wish list ahead of this week's event.</description>
       <guid isPermaLink="false">56c1cfe7e4c87116e9090636118c7fbb</guid>
       <pubDate>Mon, 08 Sep 2025 17:50:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Linus Torvalds is sick and tired of your 'pointless links' - and AI is no excuse (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/linus-torvalds-is-sick-and-tired-of-your-pointless-links-and-ai-is-no-excuse/</link>
+      <description>Pointless links in proposed code changes are wasting the Linux creator's time - and he's not happy about it. Can you blame him?</description>
+      <guid isPermaLink="false">75a5c35bb09f94aed366881477048542</guid>
+      <pubDate>Mon, 08 Sep 2025 18:22:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘Job Hugging’ Trend Emerges as Workers Confront AI Uncertainty (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-job-hugging-trend/</link>
+      <description>AI anxiety fuels “job hugging” as workers stay put despite wanting higher pay, career growth, and remote options when conditions improve.</description>
+      <guid isPermaLink="false">2a64a5f48c4739c5da78b4530f5283f9</guid>
+      <pubDate>Mon, 08 Sep 2025 18:31:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Looking for the fastest iPhone 17 model? These iPhone 16 speed test results can help (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/looking-for-the-fastest-iphone-17-model-these-iphone-16-speed-test-results-can-help/</link>
+      <description>Pit the iPhone 16's Qualcomm modem against Apple's C1 modem in the iPhone 16e, and the winner largely depends on your carrier and location.</description>
+      <guid isPermaLink="false">926bfb4a5fa981092b572d666d52c079</guid>
+      <pubDate>Mon, 08 Sep 2025 19:16:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>You can buy Samsung's Galaxy S25 FE for only $6 a month - how the deal works (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/you-can-buy-samsungs-galaxy-s25-fe-for-only-6-a-month-how-the-deal-works/</link>
+      <description>AT&amp;T's promotion for new and current customers amounts to a whopping 66% discount on Samsung's latest midrange handset.</description>
+      <guid isPermaLink="false">56a7797b5a3a86c524036855026a08b8</guid>
+      <pubDate>Mon, 08 Sep 2025 19:34:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Report: OpenAI will launch its own AI chip next year (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/openai-will-launch-its-own-ai-chip-next-year-report/</link>
+      <description>The company behind ChatGPT is working with Broadcom to create its own custom GPUs, which it will reportedly use exclusively for internal purposes.</description>
+      <guid isPermaLink="false">018359c1773463d32870395113961a9f</guid>
+      <pubDate>Mon, 08 Sep 2025 19:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>7 useful iOS 26 AI features launching alongside iPhone 17 (and these older models) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/7-helpful-ai-features-in-ios-26-you-can-try-now-and-how-to-access-them/</link>
+      <description>While the iPhone 17 might be the star of the show, these iOS 26 features are also worth getting excited about.</description>
+      <guid isPermaLink="false">d37f67a190b3cd852807acc41681606e</guid>
+      <pubDate>Mon, 08 Sep 2025 19:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why I recommend these OnePlus earbuds over pricier models (including AirPods) - and they're on sale (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/why-i-recommend-these-oneplus-earbuds-over-pricier-models-including-airpods-and-theyre-on-sale/</link>
+      <description>In addition to their flagship-level noise cancellation, the OnePlus Buds 4 provide bass-heavy audio and in-depth customization.</description>
+      <guid isPermaLink="false">88086267a0c6cb494e1f13ee958171a9</guid>
+      <pubDate>Mon, 08 Sep 2025 20:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Europe’s Most Valuable AI Startup Now, Thanks to €1.3 Billion Investment (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-mistral-ai-asml-series-c-funding/</link>
+      <description>ASML invested €1.3B in Mistral AI’s Series C, becoming top shareholder and lifting the startup’s value to €10B, Europe’s largest AI firm.</description>
+      <guid isPermaLink="false">0293aac31a80b0c423ae6186bec67e41</guid>
+      <pubDate>Mon, 08 Sep 2025 20:14:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why the new Apple Watch Series 11 may be the most ambitious model we've seen yet (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/why-the-new-apple-watch-series-11-may-be-the-most-ambitious-model-weve-seen-yet/</link>
+      <description>Apple's annual hardware launch is tomorrow, and if the rumors are true, I've got my eye on these new Apple Watch specs and features.</description>
+      <guid isPermaLink="false">2b23dde9fd184f5aac4174dad3ca7979</guid>
+      <pubDate>Mon, 08 Sep 2025 20:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Former WhatsApp security boss in lawsuit likens Meta’s culture to a “cult” (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/</link>
+      <description>Meta allegedly prioritized user growth over security, lawsuit said.</description>
+      <guid isPermaLink="false">e80de108102e5cd9df619898a0b0421f</guid>
+      <pubDate>Mon, 08 Sep 2025 20:26:02 +0000</pubDate>
+    </item>
+    <item>
+      <title>Every iPhone model that supports Apple's new iOS 26 AI features (and no, its not just the iPhone 17) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/every-iphone-model-that-will-support-apples-upcoming-ai-features-including-the-new-siri/</link>
+      <description>Want to experience all that Apple Intelligence has to offer with iOS 26? Here's the full list of compatible devices.</description>
+      <guid isPermaLink="false">98de082b659fbd837bdcfcb1c5bb5713</guid>
+      <pubDate>Mon, 08 Sep 2025 20:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Did Meta Cover Up Child Safety Risks in VR? (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-meta-child-vr-risks/</link>
+      <description>Two current and two former Meta employees will bring internal documents before a committee. Meta said allegations were ‘stitched together.’</description>
+      <guid isPermaLink="false">747da4bb04735927ae992119a60ffbcc</guid>
+      <pubDate>Mon, 08 Sep 2025 20:35:52 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Event live updates 2025: Last minute leaks on iPhone 17, AirPods 3, Apple Watch Series 11, more (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/apple-event-live-updates-2025-last-minute-leaks-on-iphone-17-airpods-3-apple-watch-series-11-more/</link>
+      <description>The clock is ticking, and ZDNET is reporting on all the latest news surrounding Apple's September iPhone event this week.</description>
+      <guid isPermaLink="false">e9e1ba6a3f036005a0c86551c6217f6e</guid>
+      <pubDate>Mon, 08 Sep 2025 21:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google Meet is back after an outage. Here are a few workarounds for next time (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/google-meet-is-back-after-an-outage-here-are-a-few-workarounds-for-next-time/</link>
+      <description>The popular video conferencing service experienced a major outage. Here's what happened.</description>
+      <guid isPermaLink="false">a0678277325ad7f05d503bfb05ece39d</guid>
+      <pubDate>Mon, 08 Sep 2025 21:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>7 most exciting tech accessories from IFA 2025 (and that you can actually buy) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/7-most-exciting-tech-accessories-from-ifa-2025-and-that-you-can-actually-buy/</link>
+      <description>IFA 2025 had some really cool charging accessories and audio products. Here are my favorite picks from the show.</description>
+      <guid isPermaLink="false">c5f0fd89cb385f4aac53946feab3261d</guid>
+      <pubDate>Mon, 08 Sep 2025 21:25:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

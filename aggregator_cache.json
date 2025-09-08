@@ -2,19 +2,19 @@
   "sources": {
     "https://www.infoworld.com/index.rss": {},
     "https://www.techrepublic.com/rssfeeds/articles/": {
-      "etag": "W/\"eb961201fe0880976cccb9ea43ac36b6\"",
-      "last_modified": "Mon, 08 Sep 2025 16:40:06 GMT"
+      "etag": "W/\"00029440bd08550390f32d2e40530519\"",
+      "last_modified": "Mon, 08 Sep 2025 22:26:27 GMT"
     },
     "https://www.zdnet.com/news/rss.xml": {},
     "https://feeds.arstechnica.com/arstechnica/technology-lab": {
-      "last_modified": "Mon, 8 Sep 2025 16:47:49 GMT"
+      "last_modified": "Mon, 8 Sep 2025 21:54:04 GMT"
     },
     "https://bizzdesign.com/blog/feed": {
       "etag": "W/\"c2516f6f30181f591babcc426417f47c\"",
       "last_modified": "Tue, 02 Sep 2025 15:21:15 GMT"
     },
     "https://www.forrester.com/blogs/category/enterprise-architecture/feed/": {
-      "last_modified": "Mon, 08 Sep 2025 17:43:14 GMT"
+      "last_modified": "Mon, 08 Sep 2025 22:28:30 GMT"
     },
     "https://blog.opengroup.org/feed": {
       "etag": "W/\"f086902998551068c7ac2c16fb08c6cb\"",
@@ -25,8 +25,8 @@
       "last_modified": "Tue, 02 Sep 2025 19:17:13 GMT"
     },
     "https://feed.infoq.com/enterprise-architecture": {
-      "etag": "\"1757340343277\"",
-      "last_modified": "Mon, 08 Sep 2025 14:05:43 GMT"
+      "etag": "\"1757361610516\"",
+      "last_modified": "Mon, 08 Sep 2025 20:00:10 GMT"
     },
     "https://eapj.org/feed": {
       "etag": "W/\"2b823bcb63e5896c8fdd85f0bd50fc27\"",
@@ -35,19 +35,1603 @@
     "https://www.architectureandgovernance.com/elevating-ea/feed/": {
       "etag": "W/\"adc753d2e84815e58556b84cf940a4c5-gzip\"",
       "last_modified": "Mon, 08 Sep 2025 10:29:21 GMT"
+    },
+    "http://www.trollishdelver.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"04d68cd61291eb9c9863c273866d4a3b97e73b28ae48d533786cc806d7eac183\"",
+      "last_modified": "Mon, 08 Sep 2025 07:43:24 GMT"
+    },
+    "https://www.indygaming.com/feed/": {},
+    "https://engineoforacles.wordpress.com/feed/": {
+      "last_modified": "Mon, 19 May 2025 13:48:18 GMT"
+    },
+    "https://scrtgm.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"bdc9738e511464cbfd957a30aee036e1c1c9109ee9c9fadc0a97dddbf10750dd\"",
+      "last_modified": "Wed, 25 Jun 2025 16:15:01 GMT"
+    },
+    "https://wyrdspeak.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"ad86451d543890c2183a73822f9b4b0ec4fc896e141b52225d76dbe0d3586aec\"",
+      "last_modified": "Sun, 20 Apr 2025 15:45:37 GMT"
+    },
+    "https://www.aelf.work/feed/": {
+      "etag": "\"8cc68c8d78503654b7b450feeea61060-gzip\""
+    },
+    "http://zho.berka.com/feed/": {
+      "last_modified": "Mon, 08 Sep 2025 19:24:31 GMT"
+    },
+    "https://diyanddragons.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"33e76f62771b24d5bb31d92586db03b9a9f0cb1e7578f2711765db1a013696ef\"",
+      "last_modified": "Mon, 08 Sep 2025 13:43:43 GMT"
+    },
+    "https://psionicblastfromthepast.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e08b7b8c2c34f90e46c5dd896d6e1c12e741f125088da06a331dd6e6bf73dcc4\"",
+      "last_modified": "Sat, 24 May 2025 23:37:49 GMT"
+    },
+    "http://www.bastionland.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7d520768196a84b83a225adb0fbdb814f52ac35b12fdd503a87aed4c13a5d1cb\"",
+      "last_modified": "Sun, 07 Sep 2025 18:38:00 GMT"
+    },
+    "https://goodberrymonthly.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"65046442d13d1045b7a58be41ee98b4051b31cce4c9293eeee1899cbaee49200\"",
+      "last_modified": "Fri, 29 Aug 2025 08:32:37 GMT"
+    },
+    "https://axianspice.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"39b549e31ad68fbfc70638da4117e5a7aba4623f553fb7883e3ce4f85e0a7bac\"",
+      "last_modified": "Wed, 03 Sep 2025 05:51:26 GMT"
+    },
+    "http://vanishingtower.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Thu, 4 Sep 2025 16:53:03 GMT"
+    },
+    "https://basicredrpg.blogspot.com/feeds/posts/default?alt=rss": {},
+    "https://wizzzargh.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"ec48922bfe0aa374d9897e616db20bae9d495166da171bf74447e5a87b364c4f\"",
+      "last_modified": "Fri, 05 Sep 2025 22:04:15 GMT"
+    },
+    "https://dicegoblin.blog/feed/": {
+      "etag": "W/\"9e791f9b88c0c6395a23d7efcbd29f9e\"",
+      "last_modified": "Wed, 30 Jul 2025 21:17:32 GMT"
+    },
+    "https://ablogfullofdemons.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d2c9b3969399fa86a2b780dd862aeb9094c39542197cf07a438e1e39c191841d\"",
+      "last_modified": "Wed, 25 Sep 2024 19:03:22 GMT"
+    },
+    "http://www.dragonlessdungeons.com/feeds/posts/default?alt=rss": {},
+    "http://mutantsmagic.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c516db61b891437777ac290b3d4d43a782764c5d304ebeb653f8c2d7ce916d88\"",
+      "last_modified": "Sat, 04 Jan 2025 10:20:36 GMT"
+    },
+    "https://deathanddismemberment.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e38865b367629b5c3439c5f4a16440ba29ab8eb9835c5007d8c40bfb1ad28c90\"",
+      "last_modified": "Mon, 01 Sep 2025 14:41:51 GMT"
+    },
+    "http://planetalgol.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Mon, 8 Sep 2025 18:52:09 GMT"
+    },
+    "https://dungeonliar.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"a20f9c6b4a378e47ac483d2da55698acb633e160af6eaa6ab9755a5c45442d4e\"",
+      "last_modified": "Tue, 04 Mar 2025 03:19:12 GMT"
+    },
+    "https://swordsandstitchery.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b948f4a77a1949abf6d394a51fc8c64f0376840e56c3a173b561d8122ec993c4\"",
+      "last_modified": "Mon, 08 Sep 2025 22:36:33 GMT"
+    },
+    "http://www.crossplanes.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"a1dcd2160180fe1e3fabd039b9549247c9a94ecac336e24d4886d465cb17ab1d\"",
+      "last_modified": "Mon, 08 Sep 2025 20:53:32 GMT"
+    },
+    "https://joebanner.co.uk/feed/": {
+      "etag": "\"40b0a256bc93c423266b6a62837bf560-gzip\"",
+      "last_modified": "Mon, 21 Jul 2025 23:39:48 GMT"
+    },
+    "https://goblinshenchman.wordpress.com/feed/": {
+      "last_modified": "Sat, 06 Sep 2025 10:37:05 GMT"
+    },
+    "https://justabyssbiz.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"74eaf2ab95fe3630d4ede56dd59d01d5907e2517191e61edbba3a789ae75f7ab\"",
+      "last_modified": "Wed, 27 Nov 2024 07:48:57 GMT"
+    },
+    "http://blog.d4caltrops.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"895debadbd777c72c6282421df16c6fac8a0e19f8611f69a400280fc4c580a72\"",
+      "last_modified": "Mon, 08 Sep 2025 20:49:52 GMT"
+    },
+    "https://dndborderlands.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c08f467845e72cf06c8e3380c1d9785ebfc78104906235c37eb51d3097d0f503\"",
+      "last_modified": "Sun, 09 Feb 2025 04:46:43 GMT"
+    },
+    "https://wrathofzombie.wordpress.com/feed/": {
+      "last_modified": "Mon, 08 Sep 2025 12:14:36 GMT"
+    },
+    "http://chaudronchromatique.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"37d7f4975179cfe3b39376bea14d889c65ecc57c5cd3c1be668655b2dab6ad5f\"",
+      "last_modified": "Fri, 29 Aug 2025 14:08:16 GMT"
+    },
+    "http://www.strangestones.com/feed/": {
+      "last_modified": "Thu, 4 Sep 2025 20:39:57 GMT"
+    },
+    "https://crabdungeon.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9567d841830ffb90508750543b94c696ecf696ce71e271dbc5c561c56c466f43\"",
+      "last_modified": "Mon, 18 Aug 2025 08:01:44 GMT"
+    },
+    "http://rolesrules.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"39b6043e71ac011d3d822b14aaf318b76fb0bf692e2b3668d88f50caf6c01400\"",
+      "last_modified": "Fri, 05 Sep 2025 11:35:25 GMT"
+    },
+    "https://violentmediarpg.blogspot.com/feeds/posts/default?alt=rss": {},
+    "https://forgeduniverse.com/f.rss": {},
+    "http://ruinsofarduin.blogspot.com/feeds/posts/default?alt=rss": {},
+    "https://musingofamavericreferee.wordpress.com/feed/": {},
+    "https://stockingthedungeon.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1fb96701af4fcdeab557dfdc0859ef9eb0524524951f7f9f6971b0f9c71633e8\"",
+      "last_modified": "Mon, 08 Sep 2025 07:44:24 GMT"
+    },
+    "https://melancholiesandmirth.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4ccd5198ab41dd19576b0d94f94740d0d0606a6141023589c320abf708f35a10\"",
+      "last_modified": "Fri, 27 Jun 2025 22:10:04 GMT"
+    },
+    "https://hamsterhoard.home.blog/feed/": {
+      "last_modified": "Mon, 30 Jun 2025 09:08:52 GMT"
+    },
+    "http://wizardshaw.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d9141b20dc6bc59916bffb9134220392e06690d03a0c3c3c18399f75f739d42b\"",
+      "last_modified": "Fri, 08 Nov 2024 15:40:37 GMT"
+    },
+    "http://noisesanssignal.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"90a8cbb61645be0c91e1821a41870e5c30407619f1e40316a52833a8c65d8c28\"",
+      "last_modified": "Mon, 01 Sep 2025 23:54:49 GMT"
+    },
+    "http://methodsetmadness.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"0b5372f51c84a0f47616ce4a78b32e2e602287834039bdf55d9a10b2b6622971\"",
+      "last_modified": "Mon, 08 Sep 2025 01:58:31 GMT"
+    },
+    "https://initiativeone.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c6cf656827cd5e12908a02258925f84940aea3bf09262565307e5d01b08045cf\"",
+      "last_modified": "Thu, 31 Jul 2025 09:22:53 GMT"
+    },
+    "http://lizardmandiaries.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c5ebfd9863af8479f7f9474495a24bc76474916dc941b680c5ef4f7d5f70e4f0\"",
+      "last_modified": "Mon, 08 Sep 2025 01:36:04 GMT"
+    },
+    "http://riseupcomus.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d20646348ffc714ceeee30658e1fbdcb0438816ef05e9ec01b37a28f94e2ac04\"",
+      "last_modified": "Mon, 08 Sep 2025 15:14:56 GMT"
+    },
+    "http://neuralarchive.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"8edf8a2ba875a9a159a54543c59e7eeaddd98c230f6c70b7c585a2ac08d8bd6d\"",
+      "last_modified": "Wed, 20 Aug 2025 15:28:07 GMT"
+    },
+    "http://furtivegoblingaming.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"086b148ad3db8fa6eebb8f546f5b9ee2f983915479d4625524d54ed0787dbc33\"",
+      "last_modified": "Sat, 06 Sep 2025 02:16:26 GMT"
+    },
+    "https://ominosity.wordpress.com/feed/": {
+      "last_modified": "Sun, 31 Aug 2025 05:38:28 GMT"
+    },
+    "https://boggswood.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"040fb72dd44b96f1d766a0bb47c5ba5bf93c58207812d37331ba3ab55d65f023\"",
+      "last_modified": "Fri, 05 Sep 2025 07:04:55 GMT"
+    },
+    "https://tamerthya.blog/feed/": {},
+    "http://deadcyclops.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"96b7c1f754e3754b277142a5592b261fc3eb2ab7179b2e7303280c68ade0501e\"",
+      "last_modified": "Fri, 01 Nov 2024 09:41:58 GMT"
+    },
+    "https://lairofmegagorgon.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9297497f3efb9dc88d2ff974d3386e6fc07e2eb07854624a635f2ddf253107ea\"",
+      "last_modified": "Wed, 28 Aug 2024 19:31:39 GMT"
+    },
+    "https://thewyrdandwild.wordpress.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:55:25 GMT"
+    },
+    "http://hamsterhoard.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"abaa6a01b04d29ca659b97e733a87b38465a3d281eff0f7ad0766f8e6439a606\"",
+      "last_modified": "Wed, 30 Jul 2025 07:15:40 GMT"
+    },
+    "http://advancedgaming-theory.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c335c9f6124d74bf48dcf7ed987547521eb077614bd83c388b806d281844f7fe\"",
+      "last_modified": "Thu, 06 Feb 2025 06:52:46 GMT"
+    },
+    "https://rememberdismove.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"16e2d4ee045e77010387139de55e56a48090b23cd43e57cc1dd9ca46731aaf6a\"",
+      "last_modified": "Fri, 29 Aug 2025 08:32:43 GMT"
+    },
+    "https://dismastersden.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"076f9f22a5c5fd4b5feb2e468d058ba1c007f25e363bf72dc29193863964e340\"",
+      "last_modified": "Thu, 12 Jun 2025 17:38:03 GMT"
+    },
+    "http://www.goatmansgoblet.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"ac167021119817e7f01630d3b22f765fb829e24c348c975fac466f5392add803\"",
+      "last_modified": "Fri, 13 Sep 2024 04:25:34 GMT"
+    },
+    "https://spellsandsteel.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Tue, 2 Sep 2025 22:47:15 GMT"
+    },
+    "http://glaucushauriant.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"025ae2e74061d00316753ee31094bbe9a2e853b4347e85ee15b2c15938434af5\"",
+      "last_modified": "Fri, 01 Nov 2024 07:13:32 GMT"
+    },
+    "http://wayspell.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"cb77137aa1d0a4faa15a570daa5ff21a7b4f13ecb5484e49e7026964e6295f0e\"",
+      "last_modified": "Mon, 08 Sep 2025 13:30:00 GMT"
+    },
+    "https://crateredland.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1cd991b59706a9493b3d1842f6f3b012f0eca3f789f9e82329c4e217c2ae8474\"",
+      "last_modified": "Fri, 29 Aug 2025 08:32:35 GMT"
+    },
+    "https://monstromanualis.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e16d48c67fe4edf05f928bdada7277c38a45db77d051a8317f8f6ee7135d5726\"",
+      "last_modified": "Thu, 29 Aug 2024 09:31:18 GMT"
+    },
+    "https://leicestersramble.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1ff01c5d3feb947ba45562f1a3d0e7ac676077a3f9a0240c0c67676ff1c68d2b\"",
+      "last_modified": "Wed, 03 Sep 2025 17:38:08 GMT"
+    },
+    "https://acornafloat.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d56291d9cefb7dbdc45ffd4726053296a4d232c190cc1e60a4f0b6e5b0eb417e\"",
+      "last_modified": "Fri, 29 Aug 2025 17:18:07 GMT"
+    },
+    "http://deltasdnd.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9e7aea7ccd27b765ae9b9fb6efbc78a2d81508e9fcffb0d2a52dbde1a463d6ba\"",
+      "last_modified": "Fri, 05 Sep 2025 02:31:50 GMT"
+    },
+    "https://kellri.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c34f875aa661439fc5379db952f79ef1d0d0024e2665dfc182541a86ef9746cd\"",
+      "last_modified": "Wed, 03 Sep 2025 05:07:39 GMT"
+    },
+    "https://reactionrolls.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"5555b296e9595df2e599af217df7afeab8239a1417c2fe21dcbd5abdb3ad551a\"",
+      "last_modified": "Fri, 13 Sep 2024 22:40:35 GMT"
+    },
+    "https://dreamingdragonslayer.wordpress.com/feed/": {
+      "last_modified": "Sat, 30 Aug 2025 23:14:19 GMT"
+    },
+    "https://selfportraitasagiant.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"17030aa50e5a67f4c10102abaaadfbe15fdb523aabe825634cd0f68727f8b206\"",
+      "last_modified": "Tue, 10 Sep 2024 02:43:44 GMT"
+    },
+    "http://falsemachine.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"792f3f271e30c4f37f35e6c92dfecf799f92c9b135a971e5407d1c27729a8b88\"",
+      "last_modified": "Mon, 08 Sep 2025 01:59:19 GMT"
+    },
+    "http://homebrewhomunculus.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d3300404c9bbbda229a9e1a51516681446fb2436ea00311f222485421d2b83a7\"",
+      "last_modified": "Fri, 29 Aug 2025 14:46:39 GMT"
+    },
+    "https://ynasmidgard.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"cb6e9ee8481055ab9489a75dcd1f8fffe95d0985051d9de7ee014e295349dcd1\"",
+      "last_modified": "Wed, 03 Sep 2025 06:00:44 GMT"
+    },
+    "http://oldskulling.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c65dd6f319647e3a20bb566b20d37f3c22a1387bf28a70ab4b69593d67f701a6\"",
+      "last_modified": "Wed, 11 Sep 2024 17:27:51 GMT"
+    },
+    "https://chthonic-halls.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"f2d8356a7c9cf16ab3d0dab91aef9edf240166daeea271c7b91a7058c4ce6822\"",
+      "last_modified": "Fri, 06 Sep 2024 02:48:41 GMT"
+    },
+    "http://antlerrr.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"6e1e96711eaf1c3c5090de19d47c415c9e2f4a52576ba0f76f1e58e9fba7615d\"",
+      "last_modified": "Thu, 19 Dec 2024 03:25:59 GMT"
+    },
+    "https://www.demogorgon.org/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9b2b4af92a4a1e9b3e48d671ae39061d3c38f30a1824ae62b96dbae8dd674260\"",
+      "last_modified": "Fri, 11 Apr 2025 07:06:01 GMT"
+    },
+    "http://redbeardsravings.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"29c3ea4b0a6238eec99a473d3418394da895f80d617a86647a7cc57639cada3f\"",
+      "last_modified": "Thu, 19 Dec 2024 03:28:43 GMT"
+    },
+    "https://gamethedungeon.com/feed/": {},
+    "https://talaraska.com/feed/": {
+      "last_modified": "Sat, 23 Nov 2024 18:00:06 GMT"
+    },
+    "http://hillcantons.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"67f879c7786477829d895c8e366bae525982a29007096b23f6e89b0ae5227225\"",
+      "last_modified": "Mon, 08 Sep 2025 14:03:46 GMT"
+    },
+    "http://www.wizardthieffighter.com/feed/": {
+      "etag": "\"973e5e818bf25c38256afe2352518c28\"",
+      "last_modified": "Fri, 05 Sep 2025 01:19:54 GMT"
+    },
+    "https://theamateurdungeoneers.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"726ecdfcc469db33279905262e30b221b1447119fbf872a9cdcbd173b2996afe\"",
+      "last_modified": "Sat, 19 Apr 2025 09:57:11 GMT"
+    },
+    "https://signsofthelocust.com/feed/": {},
+    "http://animatekratocracy.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"6408596adcd4ed0e66b94dd74744c90754b7391f20a4a9570a6e52ead6aa027d\"",
+      "last_modified": "Tue, 17 Sep 2024 01:23:16 GMT"
+    },
+    "https://damnelfpress.wordpress.com/feed/": {
+      "last_modified": "Tue, 13 May 2025 02:45:20 GMT"
+    },
+    "http://nosaveforyou.blogspot.com/feeds/posts/default?alt=rss": {},
+    "https://staggeredamusements.wordpress.com/feed/": {
+      "last_modified": "Tue, 26 Aug 2025 18:29:09 GMT"
+    },
+    "https://forhinhexes.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"bfc675b17a8d355e6705921929abed600d6626521d763d2d871db73483b91107\"",
+      "last_modified": "Mon, 18 Aug 2025 06:50:26 GMT"
+    },
+    "http://abominablefancy.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7b894c73e3705ffaf10ab4a62a5c045f8d2c9707ae0ab06e4ab65ffd9f115672\"",
+      "last_modified": "Mon, 01 Sep 2025 15:08:43 GMT"
+    },
+    "https://rthorm.wordpress.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 01:38:16 GMT"
+    },
+    "https://floodedrealms.com/index.xml": {},
+    "http://benignbrownbeast.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"90774c37059fcbe5ddf604e98631f9ec29b949ce2dd2ffb1e55c3c2e24add5f2\"",
+      "last_modified": "Tue, 10 Sep 2024 18:05:08 GMT"
+    },
+    "https://nerdomancerofdork.wordpress.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:45:13 GMT"
+    },
+    "https://swampofmonsters.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4a60cac66658389b07482f7a1bb7ec2ef442422e70520a316425045b4aa2ab65\"",
+      "last_modified": "Mon, 14 Jul 2025 02:11:48 GMT"
+    },
+    "https://axesnorcs.blogspot.com/feeds/posts/default?alt=rss": {},
+    "http://blog.trilemma.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"2ca7edf5e8ed28887d39b65c2338d476d6d5d30abfc5c7fed305a082d3e75f3c\"",
+      "last_modified": "Mon, 01 Sep 2025 23:28:11 GMT"
+    },
+    "http://goblinstomper.blogspot.com/feeds/posts/default?alt=rss": {},
+    "http://eltomocarmesi.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b2bfe185dcbf469d2e9374084a25dfbe0290ba4536e2aa37769aaa9caa1103d3\"",
+      "last_modified": "Thu, 04 Sep 2025 12:15:34 GMT"
+    },
+    "http://trollsmyth.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Mon, 8 Sep 2025 21:55:02 GMT"
+    },
+    "http://www.vetustosdelrol.com/feeds/posts/default?alt=rss": {},
+    "https://whimsicalmountain.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"eae64f0646de6f05ed2e9e7ccfcf7e789bccee3258e689eb842853d2d0a8efc3\"",
+      "last_modified": "Thu, 04 Sep 2025 21:38:44 GMT"
+    },
+    "http://grognardia.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"86e39bd41998aef2438951e91bf8e15dd2d3199662871f4e540de5fb6da6aab8\"",
+      "last_modified": "Mon, 08 Sep 2025 21:34:22 GMT"
+    },
+    "https://dice-universe.blogspot.com/feeds/posts/default?alt=rss": {},
+    "http://www.jedmc.com/ixdd?format=RSS": {
+      "etag": "W/\"f3b5c2b0fa6c7ff4490b7087903f4e5e\""
+    },
+    "https://shutteredroom.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1f232f3e6e35b22316dd53b2a50f1d5ccc0a2b630b79276bc0b55adcdcf627a7\"",
+      "last_modified": "Mon, 08 Sep 2025 15:21:56 GMT"
+    },
+    "http://darkwormcolt.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Wed, 14 Dec 2022 16:32:18 GMT"
+    },
+    "https://traipse.hexarcana.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"70721af7d068d8bd8d697d250f2d9d0defb99ef9274fd0e36a7f2fc604b1cbf2\"",
+      "last_modified": "Thu, 28 Aug 2025 14:47:39 GMT"
+    },
+    "http://jeremyhartillos.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"248df3bafc4bc7b0c97571d30a754a546b81ffe00ef5e091c9d7cd989f26a59a\"",
+      "last_modified": "Sat, 05 Oct 2024 02:08:55 GMT"
+    },
+    "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "\"08f0f155ca12a94c8b40e5f915d07914\"",
+      "last_modified": "Mon, 08 Sep 2025 13:49:35 GMT"
+    },
+    "https://weirdwonderfulworlds.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"8181ac3402edd3a0d094b990c11db1745a7c4a16b452398cdda88a6b879a0703\"",
+      "last_modified": "Sat, 06 Sep 2025 10:47:35 GMT"
+    },
+    "https://coinsandscrolls.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c13771dc66c141108e1925f89eda5f0149a4aa29c5c61cf36b01bcfdb73389fe\"",
+      "last_modified": "Sun, 07 Sep 2025 15:44:10 GMT"
+    },
+    "https://graphiteprime.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9071e9c86ea3e92ceb0ad9b4fe07b90b5e1b3650f964c52c06457d3511f64d58\"",
+      "last_modified": "Mon, 08 Sep 2025 16:05:18 GMT"
+    },
+    "https://anarchydice.wordpress.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:53:26 GMT"
+    },
+    "https://paperelemental.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"fc4fac77051024e83a0afaa218f45de8d602ab610c2d6beab965174f5f6aeccc\"",
+      "last_modified": "Fri, 04 Jul 2025 04:32:44 GMT"
+    },
+    "http://valleyofbluesnails.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"830629e5fae512f6783fb6c653468031763aa8e04e36380400dff521a3c03485\"",
+      "last_modified": "Wed, 13 Aug 2025 12:06:31 GMT"
+    },
+    "https://the-disoriented-ranger.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9bad35574477e0cd703d3a072ec121cecc358434541042a1e95f8429cf637c63\"",
+      "last_modified": "Sun, 20 Jul 2025 12:27:33 GMT"
+    },
+    "http://failuretolerated.com/feed.rss": {
+      "etag": "W/\"326d9-JsqFj0hShBD3GvvQV78I+Yx+iKI\"",
+      "last_modified": "Sat, 12 Jul 2025 14:03:09 GMT"
+    },
+    "https://mockorangecairn.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"f32547ce1b1eb79a233190e88a3d9ab33c3deff98ed590e1af392cef75f45cdc\"",
+      "last_modified": "Mon, 08 Sep 2025 18:11:00 GMT"
+    },
+    "https://xizallian-s-dungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"5d491a5ddcef71395e51442d291c85e2d1f5dc06fb9e0efe0882fe36055daa82\"",
+      "last_modified": "Wed, 06 Nov 2024 02:52:46 GMT"
+    },
+    "https://papierundspiele.com/feed/": {
+      "last_modified": "Sun, 07 Sep 2025 11:41:27 GMT"
+    },
+    "https://journeyintotheweird.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"48404d1b3fdeb43ff1fb6d80d3cf7214980f53e88cdf98709eacfb7516ad6154\"",
+      "last_modified": "Sun, 20 Apr 2025 15:28:53 GMT"
+    },
+    "https://originaleditionadventures.wordpress.com/feed/": {
+      "last_modified": "Fri, 15 Nov 2024 02:44:30 GMT"
+    },
+    "https://graverobbersguide.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"59255987899d871c2937703332b5bc0809b6984c7421317af1e80e83a4faf8c9\"",
+      "last_modified": "Mon, 08 Sep 2025 15:22:51 GMT"
+    },
+    "http://jonwake.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1b9de4c6057e85e0f316cd7d3a6b210d2c74ba5114a25e74ce09837a84744bef\"",
+      "last_modified": "Tue, 05 Mar 2024 11:18:26 GMT"
+    },
+    "https://grumpywizard.home.blog/feed/": {
+      "last_modified": "Thu, 28 Aug 2025 16:22:30 GMT"
+    },
+    "https://dungeons-and-dragons-rpgs.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1010cee8ddd20b1ea3d994cdbdd551742f7159988c1c4c4f81706baefd8948a3\"",
+      "last_modified": "Sat, 31 Aug 2024 15:25:51 GMT"
+    },
+    "https://oldscouserroleplaying.com/feed/": {},
+    "https://www.traaa.sh/feed.rss": {
+      "etag": "W/\"3fc4-yOU7q9t1SON89u6v/FxLciyxaj4\"",
+      "last_modified": "Mon, 18 Aug 2025 20:14:00 GMT"
+    },
+    "https://wanderinggamist.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"5330545e936faafbf0dca821db8309616322f0d243784a2c98ca63d6b25c85df\"",
+      "last_modified": "Thu, 04 Sep 2025 12:15:59 GMT"
+    },
+    "https://ravengodgames.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"6cfbab6533a5e3ee1155b185b6d5f3040207ac50f8d2669cf0cd5d55341fd9bb\"",
+      "last_modified": "Sat, 08 Mar 2025 01:05:24 GMT"
+    },
+    "https://dieuncast.wordpress.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:56:22 GMT"
+    },
+    "https://homicidallyinclinedpersonsofnofixedaddress.com/feed/": {
+      "last_modified": "Sat, 06 Sep 2025 10:57:04 GMT"
+    },
+    "https://wulfwaldrpg.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"dd277d038fde273fcb1ea621a4d5b20bd69d9a12a0d3e704b256ee6be02469bb\"",
+      "last_modified": "Sat, 02 Aug 2025 15:50:31 GMT"
+    },
+    "https://dunions.blogspot.com/feeds/posts/default?alt=rss": {},
+    "https://lurkerablog.wordpress.com/feed/": {
+      "last_modified": "Sat, 06 Sep 2025 18:46:18 GMT"
+    },
+    "http://hackslashmaster.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"591ed1f10de5e88f81877514e0e54e6426d621fccc7af6635c0c9f39fa7ee207\"",
+      "last_modified": "Sun, 07 Sep 2025 11:32:45 GMT"
+    },
+    "https://arsmagisterii.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b8d9f8139f03a528e19c10b3434ea4da2ff21de700976673b6188db658d6aab9\"",
+      "last_modified": "Mon, 18 Aug 2025 10:17:31 GMT"
+    },
+    "http://www.justcrunch.com/feed/": {},
+    "https://www.welshpiper.com/feed/": {
+      "last_modified": "Mon, 08 Sep 2025 20:33:57 GMT"
+    },
+    "https://tarsostheorem.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"25d05ce70c8c19bffaff4f73570663d82a68777b1c45620b2026d7b8ffd76f4c\"",
+      "last_modified": "Sun, 20 Apr 2025 16:06:13 GMT"
+    },
+    "http://killyourdungeonmaster.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d643235fd0f034b0a4d3fdae1af0c9e04e7016d43f12517de73b96a9fb391ccb\"",
+      "last_modified": "Fri, 30 Aug 2024 18:26:54 GMT"
+    },
+    "https://lordgwydion.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b46ef70dbb1d25078e304d8b646648bf2af4295ad7a21426e321ca454eec8ba8\"",
+      "last_modified": "Mon, 08 Sep 2025 03:05:40 GMT"
+    },
+    "https://boxfullofboxes.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"32783275a937e043e70d960dc6115dc6ec2d003f8e153a7eb2a6d8a4a96700f4\"",
+      "last_modified": "Fri, 22 Aug 2025 12:01:21 GMT"
+    },
+    "http://www.dwarvenautomata.com/feed/": {
+      "etag": "\"ef03ef69a275dbd60c8425e342a7ecb8-gzip\""
+    },
+    "http://throneofsalt.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c2ef2cfc2688ce5079003740fae678629a119a1cffafa3048626578da39bff4d\"",
+      "last_modified": "Sat, 06 Sep 2025 17:48:55 GMT"
+    },
+    "https://luminescentlich.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"2c35eaa684a28efde3f295b349fef43fb262582092e404580f674fdc1bce937b\"",
+      "last_modified": "Sun, 07 Sep 2025 10:09:33 GMT"
+    },
+    "http://zzarchov.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7252328c12538105bc208835be0949da4e1f41236fd0dd2e2afd4aac643ea13f\"",
+      "last_modified": "Wed, 09 Jul 2025 18:03:58 GMT"
+    },
+    "https://therecouldhavebeensnakes.wordpress.com/feed/": {
+      "last_modified": "Thu, 04 Sep 2025 13:23:09 GMT"
+    },
+    "http://towerofthearchmage.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9b135f26b6d266f55f1452789be67c99111817d71a3862a409a86cb1643b1c6e\"",
+      "last_modified": "Mon, 08 Sep 2025 13:39:40 GMT"
+    },
+    "https://bogeymanscave.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"ff7bb9b1df3fb9bb83f520e0fb4c13ade56586e193a19a591f39e7bd69e00161\"",
+      "last_modified": "Fri, 30 Aug 2024 12:34:23 GMT"
+    },
+    "https://signsinthewilderness.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"5d5ca3df2966ac8154c47c47f9dc545b730e7b33322b8c15995164a209e8102d\"",
+      "last_modified": "Fri, 29 Aug 2025 13:16:22 GMT"
+    },
+    "http://lotbieth.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9e91e1487db560534de650ba89e6c49bd91b6b11460fdae71a0c08fa3d8f84e5\"",
+      "last_modified": "Sat, 05 Jul 2025 01:54:48 GMT"
+    },
+    "https://thegrandtapestry.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b7c2aa6575de4119f3f5df5eb23c92f20f797cb20de67c82600a43b542ac7fde\"",
+      "last_modified": "Mon, 08 Sep 2025 21:52:33 GMT"
+    },
+    "http://killitwithfirerpg.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"f2ea7fa6a17d7871bb09b4069294e7a07b69588170b5e1b100be1ec1df20a3ee\"",
+      "last_modified": "Tue, 02 Sep 2025 04:59:55 GMT"
+    },
+    "http://www.paperspencils.com/feed/": {
+      "last_modified": "Mon, 21 Apr 2025 12:00:00 GMT"
+    },
+    "https://gwythaintny.wordpress.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:34:12 GMT"
+    },
+    "http://necrotic-gnome-productions.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"97442e6f3d9efcae2b41747d64a865a20bc36491c1666335836b1a14c891c6a4\"",
+      "last_modified": "Fri, 13 Jun 2025 08:55:31 GMT"
+    },
+    "https://1d30.wordpress.com/feed/": {
+      "last_modified": "Mon, 28 Jul 2025 00:01:01 GMT"
+    },
+    "http://sunderedera.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"19cb862ba3d9b408506933b5585c35108be9c34bc9e6b8bf6b44802d65db0e20\"",
+      "last_modified": "Thu, 30 Jan 2025 06:58:02 GMT"
+    },
+    "https://aswampinspace.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c45d24907f168b4ac820a01d420af608b65be29fe1d315cf6e13321d930ad24c\"",
+      "last_modified": "Wed, 13 Aug 2025 12:08:30 GMT"
+    },
+    "https://peoplethemwithmonsters.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e8fa08483740b514e86e8d65fca6da75ce84269e2d19eb201007e6317381ce5e\"",
+      "last_modified": "Mon, 01 Sep 2025 20:39:17 GMT"
+    },
+    "http://tenfootpole.org/ironspike/?feed=rss2": {
+      "etag": "\"df3f4b847609b179508f56434ee4b4fb\"",
+      "last_modified": "Sat, 06 Sep 2025 11:11:00 GMT"
+    },
+    "https://then-what-happens.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1882d8dc5d8a0336f997a8df161c2cbacda460255038f477c959bda16b4902f7\"",
+      "last_modified": "Tue, 10 Sep 2024 01:51:14 GMT"
+    },
+    "https://owlbearhugs.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"a356ff76da6805b6c0c391ea6d0328fe29621264429b92b54cb6742e4fc97646\"",
+      "last_modified": "Sat, 09 Aug 2025 02:04:52 GMT"
+    },
+    "https://icastlight.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"f103ae2bc4de40711b7b15718049229781297dbf9d3d7d2a246d32f589cef931\"",
+      "last_modified": "Mon, 08 Sep 2025 18:36:57 GMT"
+    },
+    "https://licheslibram.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"eb340741f1bb0b35fc1487940c96261fcbdff40451c347516ddfe8807a234a54\"",
+      "last_modified": "Fri, 05 Sep 2025 11:36:19 GMT"
+    },
+    "https://dungeonsddx.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"8f71f77cdb532858aa8ce1654dc33fe7a3190d9c25875660fb78104a2724d019\"",
+      "last_modified": "Fri, 03 Jan 2025 23:13:56 GMT"
+    },
+    "http://abovetheflatline.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e38195f0f1ad24f499ba181f882cd7efcbf2086964db29a17e7afbae058dae3f\"",
+      "last_modified": "Mon, 08 Sep 2025 07:03:55 GMT"
+    },
+    "https://mottokrosh.com/index.xml": {},
+    "https://hmmmarquis.blogspot.com/feeds/posts/default?alt=rss": {},
+    "http://elderskull.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d6ae92e1a8c14f40f67ab8a221fa6b33c8240c8eeb2910f948f59a93f9132616\"",
+      "last_modified": "Sun, 06 Jul 2025 00:44:42 GMT"
+    },
+    "https://ruinsoffallenempires.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b490d786811d2d815abfca5f5f2ad94992ca0d041c0018862bc4aaa73a2130fd\"",
+      "last_modified": "Thu, 24 Oct 2024 17:43:55 GMT"
+    },
+    "http://wondrousimaginings.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1b1192ebe138f38d5e335f08ee4a493dfdc650479f34e6ccfd92178c07782bc9\"",
+      "last_modified": "Fri, 01 Nov 2024 06:30:36 GMT"
+    },
+    "https://rottenpulp.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7eaa936196057ba8c12b2ae526413339013ae486512d9d428d7ecefb9eb0f2ad\"",
+      "last_modified": "Tue, 02 Sep 2025 22:28:38 GMT"
+    },
+    "https://olobosk.com/feed/": {},
+    "https://wondrousadventure.com/feed": {},
+    "https://slightadjustments.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"857927d1d181d0d28499da937eab3511ca4e9c5de2d10abf306dd5dc2251eb02\"",
+      "last_modified": "Sat, 30 Aug 2025 13:35:46 GMT"
+    },
+    "http://www.remixesandrevelations.com/feeds/posts/default?alt=rss": {},
+    "https://www.orkpiraten.de/blog/feed": {
+      "etag": "W/\"98d174eba8a1b73d86440bfb8cfcd7d5\"",
+      "last_modified": "Tue, 02 Sep 2025 06:49:53 GMT"
+    },
+    "https://perilandplunder.wordpress.com/feed/": {
+      "last_modified": "Fri, 22 Aug 2025 15:31:18 GMT"
+    },
+    "https://maziriansgarden.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"21c34a9a9602ab52f2f30bc1a07b0170f35210c771dccf817272c715713d75e3\"",
+      "last_modified": "Thu, 04 Sep 2025 09:13:46 GMT"
+    },
+    "http://www.greyhawkgrognard.com/feed/": {
+      "etag": "\"ac855b29700bfa835c2725baef6a9aa4-gzip\""
+    },
+    "https://reddicediaries.com/feed/": {
+      "etag": "W/\"27bb9-NVaQfmoyDvhlW09+glYqB6iIWEE\""
+    },
+    "https://tsojcanth.wordpress.com/feed/": {
+      "last_modified": "Tue, 24 Jun 2025 14:37:36 GMT"
+    },
+    "https://akraticwizardry.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"dced29f94a0d2530250e5b9e4551048a6fd1123e011b2b167a7167f8991a7064\"",
+      "last_modified": "Sat, 06 Sep 2025 01:08:43 GMT"
+    },
+    "https://thealexandrian.net/feed": {
+      "etag": "\"900ae132b78d2d458f36a91120065b1c\"",
+      "last_modified": "Mon, 08 Sep 2025 18:17:58 GMT"
+    },
+    "https://www.deepsheep.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"274967a35dd388506a765467768535a87ff185981f060cce5a5f4487f600886d\"",
+      "last_modified": "Fri, 18 Apr 2025 15:03:14 GMT"
+    },
+    "http://save.vs.totalpartykill.ca/rss.xml": {
+      "etag": "\"149647-63b768af8ba00-gzip\"",
+      "last_modified": "Sun, 03 Aug 2025 14:09:44 GMT"
+    },
+    "https://mirrorsquid.czepeku.com/feeds/posts/default?alt=rss": {},
+    "http://breakrpg.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"ba1ed2a9a561f9a58139b963290c58634cd5fc5bcade04cae4c5d15f9b63f476\"",
+      "last_modified": "Mon, 08 Sep 2025 11:08:48 GMT"
+    },
+    "https://reverancepavane.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"22d1612fb778558e6c6be9ed75a29037b30b14fc4d9bda06fc7e67ff8949c2ff\"",
+      "last_modified": "Sat, 05 Oct 2024 02:47:48 GMT"
+    },
+    "https://yenemvelt.blogspot.com/feeds/posts/default?alt=rss": {},
+    "https://cavegirlgames.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"2a3a5f6d8c5ea9241318103895981519562a8a4179050440ff232acaf42228ac\"",
+      "last_modified": "Sat, 30 Aug 2025 13:04:09 GMT"
+    },
+    "http://9and30kingdoms.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"260f8907681c6c3df87b88a5f85ba78bb017024d14c0b0b0be994e541d8c1b4c\"",
+      "last_modified": "Mon, 08 Sep 2025 13:30:00 GMT"
+    },
+    "https://oblidisideryptch.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d6a3c4004fd93d530b1a2253455a47606a9259fd8dad3314b74183b0e3121368\"",
+      "last_modified": "Sat, 26 Apr 2025 23:48:28 GMT"
+    },
+    "http://elfmaidsandoctopi.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e96c2c5befad1f5e169d4063479802797dd821ee86a0934cc00ccb341d7f8d4b\"",
+      "last_modified": "Mon, 08 Sep 2025 04:38:54 GMT"
+    },
+    "https://neradia.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"a1259f7a966df4ecbea9cd52ad6a6fe82e78c8ff3b7fdd1653aaf124370c3932\"",
+      "last_modified": "Fri, 25 Jul 2025 00:56:55 GMT"
+    },
+    "https://themansegaming.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e8237356aa461a3dd68ec37ccb142c619cacb3920ac0fbce33da9ead7d8f032c\"",
+      "last_modified": "Sun, 07 Sep 2025 02:04:10 GMT"
+    },
+    "https://lapidaryossuary.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"87734645ca5d8ece0b25828ee3c66bd55fccd10ec9067b1181640d14ab55526b\"",
+      "last_modified": "Sun, 13 Jul 2025 02:49:40 GMT"
+    },
+    "https://detectmagic.wordpress.com/feed/": {
+      "last_modified": "Wed, 16 Jul 2025 12:12:19 GMT"
+    },
+    "https://gloomtrain.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"50f175c2fea0abb57f6ac5c88017f27ce3179cad5074c5618c5b7b62d4716d4c\"",
+      "last_modified": "Thu, 19 Dec 2024 05:25:50 GMT"
+    },
+    "http://www.furthestlands.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"5b820714f1c9b05589246e1569664f5cfc46c03e682d5f0a6950417fffd0142e\"",
+      "last_modified": "Fri, 06 Sep 2024 22:25:50 GMT"
+    },
+    "http://geekechoes.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d51d6901d1394db0c7a49e2e53e05566913120c3ea4b145fa410e4dfd7fc56d0\"",
+      "last_modified": "Mon, 01 Sep 2025 14:32:40 GMT"
+    },
+    "https://undeadwaffle.com/feed/": {},
+    "http://twogoblinsinatrenchcoat.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"873ee23ab84b3a2173ab28595d06eaa7bbc917428bd3a740794c5909b052e2e4\"",
+      "last_modified": "Thu, 19 Dec 2024 03:24:41 GMT"
+    },
+    "https://worldofortix.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"a464666fbe35008dc87d8c900d0d44ac92e611a1f64d50015c91763789279617\"",
+      "last_modified": "Sun, 07 Sep 2025 18:52:54 GMT"
+    },
+    "https://thebonehoard.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"75d60ee89291a8277fd58e362f4918562894063c6fd552141b8c5a973dbe20d2\"",
+      "last_modified": "Tue, 22 Jul 2025 09:18:21 GMT"
+    },
+    "http://goblinpunch.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e91ae5cebda60d26ff23a06f85d239d19e95544c87e7bf04b7b062c6a2c9994b\"",
+      "last_modified": "Sun, 07 Sep 2025 18:47:33 GMT"
+    },
+    "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4a1139995a718a551bacfc3e8c5257df1638b13d3213400c9ecf1b73ff630b92\"",
+      "last_modified": "Fri, 29 Aug 2025 08:32:24 GMT"
+    },
+    "https://lithyscaphe.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"fa6f6a32ac209eceaf92e4476d70b7384c2b20a3dd1bb987dc47a3b878d79e9e\"",
+      "last_modified": "Fri, 05 Sep 2025 02:33:22 GMT"
+    },
+    "https://archons-court.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"042b180116050c67699c630a185200eddd7f22fd25f467882554c585a73fdfb2\"",
+      "last_modified": "Sun, 07 Sep 2025 16:32:34 GMT"
+    },
+    "http://dwelleroftheforbiddencity.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"ce51cfa78b6d44f2a3064a255907f44449fc8046832b690f618fcbd26ae2e674\"",
+      "last_modified": "Tue, 02 Sep 2025 17:37:22 GMT"
+    },
+    "https://www.revenant-quill.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"514ea53eb39fe3c6a1dd6afdf0ff3c23fdb9ff923ffe8f2a960042f7c25a1530\"",
+      "last_modified": "Sun, 10 Aug 2025 00:44:32 GMT"
+    },
+    "https://experimentalplayground.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Mon, 1 Sep 2025 18:33:04 GMT"
+    },
+    "https://undergroundadv.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"44e5f6c9114a3c7b8d5fc1bad8a371ce5502c3d6cc33f6945e1d76025f0dbdc4\"",
+      "last_modified": "Mon, 01 Sep 2025 20:39:21 GMT"
+    },
+    "https://lichesgetstitches.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"002e5ef4d64a69b63fcb41cd716001b424cf41b0804b35cef863035f5715b81f\"",
+      "last_modified": "Wed, 30 Jul 2025 14:40:51 GMT"
+    },
+    "http://pitsperilous.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"345dba357f2f239798617e8756a02d3bb9b94309d9857ab9eb1b7fc2e2839788\"",
+      "last_modified": "Sun, 07 Sep 2025 12:00:17 GMT"
+    },
+    "http://murderhobo-rehab.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c1aa57f8da3e415cbed7e3f5373a1a0af702ee9871d8cf61b53e49ffe1fb9e2a\"",
+      "last_modified": "Wed, 28 Aug 2024 06:05:00 GMT"
+    },
+    "https://landofnod.blog/feed/": {
+      "last_modified": "Mon, 25 Aug 2025 15:31:17 GMT"
+    },
+    "https://eightheye.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"148d168457938875a7c21bf25cc75b63c65aaed1b0ff615cb620bb27ab4f9a9c\"",
+      "last_modified": "Mon, 19 May 2025 13:55:16 GMT"
+    },
+    "http://swordplusone.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"85899e5e1cca1e5f5ace641a0306ec3c5884b6fa81ff3cb8f7c1997271089e86\"",
+      "last_modified": "Tue, 03 Jun 2025 12:07:57 GMT"
+    },
+    "http://dragonbones.net/feed/": {},
+    "http://savevsdragon.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"63123a3e8e24dcf6d22c197060bb2df458061559108d3caeb39fffeca953d378\"",
+      "last_modified": "Mon, 08 Sep 2025 03:05:21 GMT"
+    },
+    "https://dreamsofmythicfantasy.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"db772376976e19b7be80b244d498003b235480714a0a7881489ef6380617ee38\"",
+      "last_modified": "Wed, 25 Jun 2025 09:05:49 GMT"
+    },
+    "https://roll1d12.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"f32b9024eaabcd7b610a802121b83ee991c9c4ff39032e3f389341f99f811831\"",
+      "last_modified": "Mon, 08 Sep 2025 15:30:26 GMT"
+    },
+    "https://slimegrapple.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e00abbb875a0436b40d2cb7b0b4cce63361f6359d1cd31db34d1af828d9db52b\"",
+      "last_modified": "Wed, 28 Aug 2024 16:22:36 GMT"
+    },
+    "https://meeplefish.blogspot.com/feeds/posts/default?alt=rss": {},
+    "http://mythlands-erce.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"a5647cb2d49857239aaa488195b67170a8d29f1cbc30f5c5b5b5343506f1f67e\"",
+      "last_modified": "Sat, 06 Sep 2025 02:17:02 GMT"
+    },
+    "http://whiteboxgame.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"05b94e1d85db8c7ede53085c2cc16acba0a00d15fec5bab8dca86115b4acba2e\"",
+      "last_modified": "Fri, 25 Jul 2025 00:57:22 GMT"
+    },
+    "https://worldoferadu.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7239a94c146a4d63a7187294166723e1623d965aa6edd0a5fdf6554a648294ce\"",
+      "last_modified": "Sat, 05 Oct 2024 03:30:51 GMT"
+    },
+    "https://ancientvaults.wordpress.com/feed/": {
+      "last_modified": "Sun, 07 Sep 2025 15:17:37 GMT"
+    },
+    "https://originaldungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9314c5e0d7c8807dfa4203ee608c45bd0ecd2617f1072ddb24b9995c1ceea5e1\"",
+      "last_modified": "Sat, 06 Sep 2025 10:14:31 GMT"
+    },
+    "https://blog.thesconesalone.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b72564294dd8cc974f1fadcb2aa6e445bb641b93f4b426e0221cf657746a06ba\"",
+      "last_modified": "Fri, 01 Nov 2024 10:33:09 GMT"
+    },
+    "https://anxietywizard.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b33713c4338db65f0ef49776e2a902ed5b91e5ae8305acc63deadd12b4bc9366\"",
+      "last_modified": "Thu, 19 Dec 2024 11:44:48 GMT"
+    },
+    "https://whosemeasure.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"80393b1c6bf560e2cd85794f09de842b6e124145b26051c96d37455fe90a1082\"",
+      "last_modified": "Sun, 07 Sep 2025 19:09:39 GMT"
+    },
+    "https://faerietalesandfolklore.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:55:25 GMT"
+    },
+    "http://blessingsofthedicegods.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1b23f687656244fb980ade06ab5eba7e79af79e8bcf5fb5a8eee74950f3367c3\"",
+      "last_modified": "Fri, 29 Aug 2025 08:32:52 GMT"
+    },
+    "https://spearfangraygun.wordpress.com/feed/": {
+      "last_modified": "Sat, 01 Feb 2025 02:37:16 GMT"
+    },
+    "https://3toadstools.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7a91a93a4515ae8498346325e96af873f277c2c535edf1d0d3b47b44da5962b0\"",
+      "last_modified": "Wed, 23 Jul 2025 14:14:06 GMT"
+    },
+    "https://nthdecree.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e93af231df7d959a6a13b6420e4182065d6e1482d2df4444a78b14a88f29c1f5\"",
+      "last_modified": "Fri, 01 Nov 2024 10:38:22 GMT"
+    },
+    "https://migellito.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"46f2872057a7328eb99d5982876fee2344c839b666351916b7145db901bb1cf6\"",
+      "last_modified": "Sun, 20 Apr 2025 14:04:09 GMT"
+    },
+    "http://herror.es/rss": {
+      "etag": "W/\"7501281d11732a2e2f9779fa365b5bb9\""
+    },
+    "https://whatwouldconando.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7e13dac6fe118ccff07a9623c89a5d814a5565d1cbf46c051c261a5a47ac75a8\"",
+      "last_modified": "Mon, 01 Sep 2025 15:07:00 GMT"
+    },
+    "https://sevendeadlydungeons.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4abfe9f6b014ab9950f32a64981962f62920308260d3720ce3dc8f6af359bf16\"",
+      "last_modified": "Sat, 28 Jun 2025 14:02:38 GMT"
+    },
+    "https://appliedphantasticality.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"c6cc313d0262b027f14ac73dffba24a9af37b6d66e6ab17b0cb18f7d667cf38c\"",
+      "last_modified": "Wed, 03 Sep 2025 17:21:42 GMT"
+    },
+    "https://rendedpress.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"100b60e4c2e84a93fdb7cf275ddcbdcd52493661debd162174f3c7310338cda4\"",
+      "last_modified": "Sat, 28 Jun 2025 20:47:12 GMT"
+    },
+    "http://www.sycarion.com/feed/": {},
+    "http://www.kjd-imc.org/feed/": {
+      "etag": "\"134456ff976782968e15a95be69a6ac7\"",
+      "last_modified": "Sun, 24 Aug 2025 21:28:26 GMT"
+    },
+    "https://daimon-games.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"0308c709385108193c778e01b127b53ea0a8d41b74e64cc2d0f860ba4a8d9253\"",
+      "last_modified": "Fri, 01 Nov 2024 08:28:06 GMT"
+    },
+    "https://www.occultesque.com/feeds/posts/default?alt=rss": {},
+    "http://noahms456.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"006775ed49974bbf02d095b245d9f8bbfdef5c2de0fa56fc88a5362adbee4488\"",
+      "last_modified": "Tue, 02 Sep 2025 17:36:11 GMT"
+    },
+    "https://talesoftheramblingbumblers.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:39:37 GMT"
+    },
+    "https://mindstorm.blot.im/feed.rss": {
+      "etag": "W/\"1b5dd-6yGoETzPQu3B64bodnxvGZEDKjo\"",
+      "last_modified": "Tue, 26 Aug 2025 17:10:16 GMT"
+    },
+    "https://beyondfomalhaut.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"f06131ba39de8b3bbb7bbc400b8799a8343b2174aacacf295e49a6f4812a5291\"",
+      "last_modified": "Mon, 08 Sep 2025 01:59:17 GMT"
+    },
+    "http://www.theevildm.com/feeds/posts/default?alt=rss": {},
+    "https://triplesuns.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"cbaba4ff68955596d4f5d54cbef303a1bff661a8544938bd07a172ae1c0b765c\"",
+      "last_modified": "Sun, 27 Apr 2025 20:44:18 GMT"
+    },
+    "http://questingblog.com/feed/": {
+      "etag": "\"114f73b03a484be99a483ece8780cf0f\"",
+      "last_modified": "Tue, 17 Jun 2025 21:23:40 GMT"
+    },
+    "http://bernietheflumph.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4856e16af3204a0696cbb95b66d0517050fd44a822e36049ccc8e6c78a0a5c37\"",
+      "last_modified": "Fri, 15 Aug 2025 01:34:36 GMT"
+    },
+    "http://the-one-true-game-odnd.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1c32b8ce048994ad10109dd26eff314c38d994cf2a7846ccb54adf94af2fbf4b\"",
+      "last_modified": "Tue, 17 Sep 2024 02:36:56 GMT"
+    },
+    "http://jerryboucher.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"fbc6aec27b8f747c078781146e4c16c8db5a208a8a1b7dc5c60f711eab94356b\"",
+      "last_modified": "Mon, 01 Sep 2025 06:56:52 GMT"
+    },
+    "https://macchiatomaster.blot.im/feed.rss": {
+      "etag": "W/\"2567e-XCc5fEjRuhfoFYQyuZDQB+TMkFM\"",
+      "last_modified": "Sun, 24 Aug 2025 19:05:35 GMT"
+    },
+    "https://www.theseoldgames.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"11c8a21e8a8e3449cd581da951046abcf01ee0bb190ac4bb2f241b38e9dd3867\"",
+      "last_modified": "Sun, 07 Sep 2025 20:31:35 GMT"
+    },
+    "http://terriblesorcery.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"12de6570b209cddc7adab32eb275d314687f85e9d1da0382d4b8a36044cc1299\"",
+      "last_modified": "Tue, 02 Sep 2025 08:14:48 GMT"
+    },
+    "https://eldritchfields.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"879b0fd651d6528fb559403306aef59c285b60d2ed5bcf9f942f1070c6e0afd2\"",
+      "last_modified": "Wed, 06 Aug 2025 00:57:16 GMT"
+    },
+    "https://titancorpse.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9bf1628384da66ff607199978eafca6fabcf70808322b11aa04349570758a69b\"",
+      "last_modified": "Wed, 30 Jul 2025 14:41:04 GMT"
+    },
+    "http://themetalearth.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"6f279ade37aaccde47378049e3a10106574d5331b2c43d26f6b52a52103b2a1e\"",
+      "last_modified": "Thu, 21 Aug 2025 15:20:02 GMT"
+    },
+    "https://spacecrawl.blog/feed/": {
+      "last_modified": "Thu, 30 Jan 2025 15:16:10 GMT"
+    },
+    "https://dungeonsofklang.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"da2dfdeb7589cff944c9713907dccb22a157783a9988adeff756c78227baec94\"",
+      "last_modified": "Wed, 05 Mar 2025 12:13:44 GMT"
+    },
+    "https://archadestower.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d467a8e8490db2c85e049fcc770806572ed6157224e1158fbacf3fafe8a80072\"",
+      "last_modified": "Mon, 08 Sep 2025 22:36:40 GMT"
+    },
+    "http://zenopusarchives.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"96836b80c6df46c6701dc6f89c75b305d77b82d3774a0133f70549ed47c7ff39\"",
+      "last_modified": "Sat, 06 Sep 2025 02:16:51 GMT"
+    },
+    "http://dreamsandfevers.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1bbfadc2ccf1a7c718eccecfb93d1b1ce7dca7ef36702a07bd72bd0e1a3dc2d5\"",
+      "last_modified": "Sun, 20 Apr 2025 15:59:42 GMT"
+    },
+    "http://udan-adan.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"f4893c8fbdbc059d243f47002ca630b5298e401540a7abfa405c08c6e935785f\"",
+      "last_modified": "Tue, 02 Sep 2025 15:30:14 GMT"
+    },
+    "https://bottomlesssarcophagus.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4e92f5c17ba39265883b821702a07411f7361faca23d7f0795bf75079fff90c3\"",
+      "last_modified": "Sat, 28 Jun 2025 20:31:14 GMT"
+    },
+    "https://wasitlikely.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"02f8aaafd720e4a16a536fae4f83fc2dfd647e16b88e8f0b03ab55b6c2223d92\"",
+      "last_modified": "Mon, 08 Sep 2025 17:22:32 GMT"
+    },
+    "https://originaleditionfantasy.blogspot.com/feeds/posts/default?alt=rss": {},
+    "https://unlawfulgames.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"fcf6f31baef15d87b828de28e67c84b63ce14b4d3388b44fb1ad4428de190214\"",
+      "last_modified": "Fri, 29 Aug 2025 08:32:29 GMT"
+    },
+    "http://sorcerersskull.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1a8572507ef62e7eb66332aceb1fb62a2e92478685882f40ba3faa14c05a5f6e\"",
+      "last_modified": "Mon, 08 Sep 2025 16:10:20 GMT"
+    },
+    "https://brinehouse.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"eaee11319a751f9205a17410ecfcd81bcd23beffbdd9d2608d1abe981d03fc79\"",
+      "last_modified": "Sun, 24 Nov 2024 10:12:03 GMT"
+    },
+    "https://osr.colinlesueur.com/feed/": {},
+    "https://ongoingcampaign.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"0dc98a52b1418bf66fa0846e6e41154c0a5c1977e7390c97c14b695ac58f08b7\"",
+      "last_modified": "Sun, 07 Sep 2025 09:06:46 GMT"
+    },
+    "https://www.incunabuli.com/feeds/posts/default?alt=rss": {},
+    "http://batintheattic.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"06a65f1075389fb9c488fe0aaebf13a871780cd796e2ebdda546b5cad217b073\"",
+      "last_modified": "Sat, 06 Sep 2025 09:11:08 GMT"
+    },
+    "https://textgolem.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9ee1016b1150edcd683d136771956bfd99e63ed501c384fbb61847daacbe88b4\"",
+      "last_modified": "Sun, 07 Sep 2025 20:12:23 GMT"
+    },
+    "https://tenfootprecis.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4e62aaebd27e607098bac320fe31788e5ddccc428fd4b4c1e18a86d2e885995e\"",
+      "last_modified": "Wed, 03 Sep 2025 17:20:16 GMT"
+    },
+    "http://kaijuville.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"6ff98cd70708c3d034f8a21dd6926f54bee23e990bb806c5f87d76c2014801c3\"",
+      "last_modified": "Mon, 08 Sep 2025 07:04:50 GMT"
+    },
+    "https://shoalmontgames.com/feed/": {
+      "last_modified": "Fri, 18 Jul 2025 00:56:56 GMT"
+    },
+    "https://tenfootpolemic.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"16169973b3475976b74dcd136affdc4ecc728f1836ff0369d6cee3677e20f987\"",
+      "last_modified": "Mon, 01 Sep 2025 16:21:24 GMT"
+    },
+    "http://www.slackernerds.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"184761fdfece262ff88a16610e777503f29759cd748d42703182197cde28bd48\"",
+      "last_modified": "Wed, 11 Dec 2024 23:09:58 GMT"
+    },
+    "https://totmv2.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"6bd002e03b25403c8b4e37346b072de4067705fd88f42ef0db913c3523680e59\"",
+      "last_modified": "Sun, 20 Apr 2025 15:36:05 GMT"
+    },
+    "https://stefanpoag.com/feed/": {
+      "etag": "W/\"57c2d3e7f373aeb88e1d4ae71a86547d\"",
+      "last_modified": "Fri, 28 Mar 2025 19:25:01 GMT"
+    },
+    "http://tomboftedankhamen.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"82d224ade3ec4354b57bea9a09646268c3b456adb1a1b52e9b72cb06899ba18e\"",
+      "last_modified": "Thu, 04 Sep 2025 06:40:53 GMT"
+    },
+    "http://tao-dnd.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"fbdc46779489f1f56f5607dda8e18a12b1154f0c9a49c50a2592e958afee856e\"",
+      "last_modified": "Fri, 05 Sep 2025 12:54:12 GMT"
+    },
+    "http://gravenutterance.com/feed.xml": {
+      "etag": "\"17d22-5c74954456998\"",
+      "last_modified": "Sat, 17 Jul 2021 03:30:43 GMT"
+    },
+    "https://knightsinthenorth.blog/feed/": {},
+    "http://monstermanualsewnfrompants.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9df516292a5c0c3f9234e5c04b6bca8cf9c8f1311483ccb0ebcc4a9566bf4e84\"",
+      "last_modified": "Mon, 01 Sep 2025 20:39:26 GMT"
+    },
+    "https://retiredadventurer.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Thu, 4 Sep 2025 16:52:58 GMT"
+    },
+    "https://d6.beardedbaby.net/rss/": {
+      "last_modified": "Sat, 26 Jul 2025 21:33:23 GMT"
+    },
+    "https://www.prismaticwasteland.com/blog?format=rss": {
+      "etag": "W/\"4ac800aa9f90d8514c23eef095ac7aca\""
+    },
+    "http://www.necropraxis.com/feed/": {
+      "etag": "\"b840412c2528ef777c242f4d817ab1f2-gzip\"",
+      "last_modified": "Thu, 27 Feb 2025 17:18:19 GMT"
+    },
+    "https://ravenousambience.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"bd8ad32743ab6a41de2382293364b67da2ba88112e926d13a6f932c4d80cc1a1\"",
+      "last_modified": "Thu, 19 Jun 2025 17:05:32 GMT"
+    },
+    "https://strongholdpress.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"74372483ec6fc6f47ca7fa3ca687741011cf91d2ee5452178d9624fda794b960\"",
+      "last_modified": "Sat, 01 Mar 2025 07:54:56 GMT"
+    },
+    "https://verbum-ex-nihilo.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"9c1e552e59272c72d9e9b95d234704e8b239699c9dcd736ad20681c30c2fda0a\"",
+      "last_modified": "Tue, 28 Jan 2025 23:13:59 GMT"
+    },
+    "https://grodog.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"94cd7bd405952e1dca40503e9e583628e7c0c87636c3a03f02274617bedaca0d\"",
+      "last_modified": "Mon, 08 Sep 2025 12:59:33 GMT"
+    },
+    "http://rigourandreverie.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"08a7219f28dfad9b799de33036a180f1dfe049b11e92abcb4a25355bc58a0936\"",
+      "last_modified": "Mon, 09 Sep 2024 06:37:46 GMT"
+    },
+    "http://zedecksiew.tumblr.com/rss": {},
+    "https://thethingswedoforxp.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"027245d3a38a12d5228cadc7d40311f8da239da4e3aa2c9dc283dedbc3bb62ff\"",
+      "last_modified": "Tue, 26 Aug 2025 23:28:31 GMT"
+    },
+    "http://santicore.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"23ce430c937cc40a9dbf3653d0f557b0a04f50a711c91f62a401c630454c3922\"",
+      "last_modified": "Thu, 10 Jul 2025 07:24:29 GMT"
+    },
+    "http://bardichesandbathhouses.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b843fa50bc3851846510214c772324f37037c445b290c6c1bc2a3cd22a21e791\"",
+      "last_modified": "Mon, 08 Sep 2025 04:11:05 GMT"
+    },
+    "https://trueheartblackraven.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"a4a8dfeb86bbe5e2dd93426675c1e4ec9f7e63ee29951cafb4a836953e54feac\"",
+      "last_modified": "Fri, 08 Nov 2024 15:07:22 GMT"
+    },
+    "https://monstersandmanuals.blogspot.com/feeds/posts/default?alt=rss": {
+      "last_modified": "Mon, 8 Sep 2025 18:16:18 GMT"
+    },
+    "https://technicalgrimoire.com/feed.xml": {
+      "etag": "\"03f526b6f50bb6fab813834d3ef9f648-ssl-df\""
+    },
+    "https://www.theskyfullofdust.co.uk/feed/": {
+      "etag": "\"15e341b66788e9b6c6cd5320958c3a2a\"",
+      "last_modified": "Fri, 28 Feb 2025 17:24:56 GMT"
+    },
+    "https://searching-for-magic-blog.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"85076b621f4a30434966239f840833dbe5c922ef94b06bfe8513ad9ba155249e\"",
+      "last_modified": "Thu, 14 Aug 2025 08:39:47 GMT"
+    },
+    "https://hdvrpg.tumblr.com/rss": {},
+    "https://saturdaynightsandbox.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"26c6bb97e8ee2f6ee6efbca71ec7b3e8d4692e33ee23a2b6ee18a2a646c2ad02\"",
+      "last_modified": "Tue, 25 Feb 2025 12:35:38 GMT"
+    },
+    "http://aloneinthelabyrinth.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"5c4e9825e0a9ec4222bb35a71c68a1725e3bbbdae26233e5bc612357326ff73d\"",
+      "last_modified": "Tue, 02 Sep 2025 12:03:08 GMT"
+    },
+    "https://halflingsluck.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"218fe1238f57af30a00573afbf4d4020fe16e71561c5e50588e51765818252de\"",
+      "last_modified": "Fri, 29 Aug 2025 12:02:34 GMT"
+    },
+    "https://sameissharkinjapanese.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"7ebaac9cfb0e5e62b18865f6ece01528416d1029bb8f2353f410155a31f24c85\"",
+      "last_modified": "Sun, 07 Sep 2025 10:36:56 GMT"
+    },
+    "https://save.vs.totalpartykill.ca/rss.xml": {
+      "etag": "\"149647-63b768af8ba00-gzip\"",
+      "last_modified": "Sun, 03 Aug 2025 14:09:44 GMT"
+    },
+    "https://rpgcharacters.wordpress.com/feed/": {
+      "last_modified": "Mon, 08 Sep 2025 21:07:50 GMT"
+    },
+    "https://profaneape.wordpress.com/feed/": {
+      "last_modified": "Tue, 06 May 2025 02:46:03 GMT"
+    },
+    "http://todistantlands.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"cb7d63ef3ab06c4579208f40fad2a4e8f8b77defde8a89f5b406ccfe2ea5758f\"",
+      "last_modified": "Thu, 19 Dec 2024 03:32:08 GMT"
+    },
+    "https://old-huron-archive.netlify.com/index.xml": {},
+    "https://savevshollowing.wordpress.com/feed/": {
+      "last_modified": "Sat, 30 Aug 2025 16:23:24 GMT"
+    },
+    "https://thetotalityofygg.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"ca20e72445d033a35c77505c184c698a827c264c22accd6cb4349b56310476f7\"",
+      "last_modified": "Wed, 28 Aug 2024 08:46:49 GMT"
+    },
+    "https://backtothekeep.blogspot.com/feeds/posts/default?alt=rss": {},
+    "http://cosmicheroes.space/blog/index.php/feed/": {
+      "etag": "\"44c76c45f9ab8a386279d5ba1d8867aa\"",
+      "last_modified": "Sun, 27 Jul 2025 11:02:50 GMT"
+    },
+    "http://theotherside.timsbrannan.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"954d660f797386283a4588585031109a7b0fce267f8eebb5048dc6d35ace02d4\"",
+      "last_modified": "Mon, 08 Sep 2025 21:13:27 GMT"
+    },
+    "https://nerdwerds.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"3a10a9284df151cbd031e7901bdbb139fea261735fb3dd8e5e1438d8e6ab18df\"",
+      "last_modified": "Sun, 24 Aug 2025 03:10:25 GMT"
+    },
+    "https://www.lastgaspgrimoire.com/feed/": {
+      "etag": "W/\"1c04e6c80d746e3bfe3fa02391da2473\"",
+      "last_modified": "Fri, 02 Jun 2023 00:35:19 GMT"
+    },
+    "https://roseandkingfisher.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"5d1c08bb7b215f8771cceb44619a111e313bf342e8268c3cc43695e44a70c9a7\"",
+      "last_modified": "Fri, 21 Feb 2025 18:42:10 GMT"
+    },
+    "https://talesfromgurgula.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"d6c27884af534993f238a6383964ea772edc3cce7b3386991fcb7be16fbfa753\"",
+      "last_modified": "Thu, 19 Dec 2024 03:18:25 GMT"
+    },
+    "https://ggmlk.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"78e687f2b5cecd2f67425d5cdb2d99c550cef17a762b871972fd0be6c30bc20b\"",
+      "last_modified": "Thu, 24 Oct 2024 18:11:16 GMT"
+    },
+    "https://attnam.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"27e27c68873d5e2b7994d5e48488ecb525d3f8ca2dc2adef8d691b8f800c58a3\"",
+      "last_modified": "Sun, 07 Sep 2025 00:44:09 GMT"
+    },
+    "http://sorcererundermountain.d101games.com/feed/": {
+      "etag": "\"eac7e8d833c042a9d83c03577093f1f6\"",
+      "last_modified": "Sat, 16 Aug 2025 07:57:23 GMT"
+    },
+    "https://superheronecromancer.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"b0e07d6e19347dd2dbbb0d18917194d6673121037b3c248ce95cb1ba60256247\"",
+      "last_modified": "Thu, 02 Jan 2025 10:59:40 GMT"
+    },
+    "https://followmeanddie.com/feed/": {
+      "etag": "\"2f22dd18b81a029ddd6ea667e552a356\"",
+      "last_modified": "Sat, 06 Sep 2025 03:49:49 GMT"
+    },
+    "https://buildingsarepeople.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"586cfdd538398372bda35ec2d0c02827050036fd23e9281730b864caf9017d9e\"",
+      "last_modified": "Fri, 29 Aug 2025 08:32:20 GMT"
+    },
+    "https://darksunadventures.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"415893b8dd77e792b7fce193f4e5b27551e13e83a1f7d9a61d6680aa8cd66bd7\"",
+      "last_modified": "Fri, 05 Sep 2025 10:38:14 GMT"
+    },
+    "http://thecircularuins.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"8066e22e5dcc863ff030fcd3e6925e811941c9d8de372ac64ecbc773e308d152\"",
+      "last_modified": "Sat, 14 Jun 2025 14:38:36 GMT"
+    },
+    "http://bearded-devil.com/?feed=rss2": {
+      "last_modified": "Sat, 15 Mar 2025 00:25:08 GMT"
+    },
+    "http://inplacesdeep.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"e37114bbdb56ce7b315f8c492e3b6397a4ecee934f548d330669ee5d422b3e8b\"",
+      "last_modified": "Tue, 02 Sep 2025 22:38:40 GMT"
+    },
+    "https://www.adderentertainment.com/feeds/posts/default?alt=rss": {},
+    "http://vorpalmace.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"1a3917cb167acec0ad11febaf6c08a9843fcf85e08426468df6daff5e823b7a2\"",
+      "last_modified": "Wed, 03 Sep 2025 12:14:27 GMT"
+    },
+    "http://failedmysave.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4437878cf2d6ffa5faa260558126d42462b2f2e1b8a3a5be46aaedfe148ffd5f\"",
+      "last_modified": "Fri, 08 Nov 2024 15:42:09 GMT"
+    },
+    "https://slantiopink.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"bca0defc7b94878ce75f68691c7d1692324fb1ed0aa6d7112ffdce2647d03b64\"",
+      "last_modified": "Thu, 19 Dec 2024 03:33:05 GMT"
+    },
+    "https://diomedes-descent.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"3a1eddfd2fa6039c6513a1490a058966c77e81b7bef672d969b82f0505671397\"",
+      "last_modified": "Fri, 30 Aug 2024 09:50:03 GMT"
+    },
+    "https://osrgrimoire.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"2794235973ab70aca508a923333b856c99b158c43fe25de1f9014192289823ee\"",
+      "last_modified": "Sat, 06 Sep 2025 21:56:30 GMT"
+    },
+    "https://alifefullofadventure.blogspot.com/feeds/posts/default?alt=rss": {
+      "etag": "W/\"4aa3c99759f859d52e24cf1e8a96fedb6d64a5dbc00531e78ca5c79d42bbb0f8\"",
+      "last_modified": "Thu, 03 Jul 2025 05:19:19 GMT"
+    },
+    "https://takeonrules.com/feed.xml": {
+      "etag": "\"405a1-63e37ee1d9209\"",
+      "last_modified": "Sun, 07 Sep 2025 15:43:19 GMT"
     }
   },
   "domain_last_fetch": {
-    "www.infoworld.com": 1757355061.7466712,
-    "www.techrepublic.com": 1757355070.842741,
-    "www.zdnet.com": 1757355074.292553,
-    "feeds.arstechnica.com": 1757355079.630115,
-    "bizzdesign.com": 1757355082.9177752,
-    "www.forrester.com": 1757355087.608626,
-    "blog.opengroup.org": 1757355092.50245,
-    "www.leanix.net": 1757355095.739829,
-    "feed.infoq.com": 1757355100.63772,
-    "eapj.org": 1757355103.588772,
-    "www.architectureandgovernance.com": 1757355107.4964201
+    "www.infoworld.com": 1757371083.233431,
+    "www.techrepublic.com": 1757371076.4076009,
+    "www.zdnet.com": 1757371080.426293,
+    "feeds.arstechnica.com": 1757371071.651982,
+    "bizzdesign.com": 1757371091.884246,
+    "www.forrester.com": 1757371097.457621,
+    "blog.opengroup.org": 1757371109.710144,
+    "www.leanix.net": 1757371101.804862,
+    "feed.infoq.com": 1757371117.448575,
+    "eapj.org": 1757371113.333293,
+    "www.architectureandgovernance.com": 1757371105.28401,
+    "www.trollishdelver.com": 1757371121.370753,
+    "www.indygaming.com": 1757371124.207062,
+    "engineoforacles.wordpress.com": 1757371132.5605981,
+    "scrtgm.blogspot.com": 1757371137.6691468,
+    "wyrdspeak.blogspot.com": 1757371140.692232,
+    "www.aelf.work": 1757371144.335784,
+    "zho.berka.com": 1757371148.7052228,
+    "diyanddragons.blogspot.com": 1757371156.062944,
+    "psionicblastfromthepast.blogspot.com": 1757371160.784708,
+    "www.bastionland.com": 1757371164.730345,
+    "goodberrymonthly.blogspot.com": 1757371168.833004,
+    "axianspice.blogspot.com": 1757371171.749395,
+    "vanishingtower.blogspot.com": 1757371176.566016,
+    "basicredrpg.blogspot.com": 1757371179.8266299,
+    "wizzzargh.blogspot.com": 1757371188.129063,
+    "dicegoblin.blog": 1757371193.11656,
+    "ablogfullofdemons.blogspot.com": 1757371196.362317,
+    "www.dragonlessdungeons.com": 1757371199.39962,
+    "mutantsmagic.blogspot.com": 1757371205.8364968,
+    "deathanddismemberment.blogspot.com": 1757371211.031756,
+    "planetalgol.blogspot.com": 1757371215.916672,
+    "dungeonliar.blogspot.com": 1757371220.9323258,
+    "swordsandstitchery.blogspot.com": 1757371226.0364978,
+    "www.crossplanes.com": 1757371229.406865,
+    "joebanner.co.uk": 1757371233.371267,
+    "goblinshenchman.wordpress.com": 1757371239.9725409,
+    "justabyssbiz.blogspot.com": 1757371245.025718,
+    "blog.d4caltrops.com": 1757371249.639102,
+    "dndborderlands.blogspot.com": 1757371254.897923,
+    "wrathofzombie.wordpress.com": 1757371258.728678,
+    "chaudronchromatique.blogspot.com": 1757371263.255083,
+    "www.strangestones.com": 1757371268.427402,
+    "crabdungeon.blogspot.com": 1757371272.59428,
+    "rolesrules.blogspot.com": 1757371277.283633,
+    "violentmediarpg.blogspot.com": 1757371282.040242,
+    "forgeduniverse.com": 1757371289.402189,
+    "ruinsofarduin.blogspot.com": 1757371297.9407518,
+    "musingofamavericreferee.wordpress.com": 1757371305.946225,
+    "stockingthedungeon.blogspot.com": 1757371313.126625,
+    "melancholiesandmirth.blogspot.com": 1757371316.54213,
+    "hamsterhoard.home.blog": 1757371321.2068,
+    "wizardshaw.blogspot.com": 1757371326.098026,
+    "noisesanssignal.blogspot.com": 1757371329.285328,
+    "methodsetmadness.blogspot.com": 1757371334.653964,
+    "initiativeone.blogspot.com": 1757371339.6008582,
+    "lizardmandiaries.blogspot.com": 1757371343.3912761,
+    "riseupcomus.blogspot.com": 1757371348.629459,
+    "neuralarchive.blogspot.com": 1757371352.0100422,
+    "furtivegoblingaming.blogspot.com": 1757371355.74442,
+    "ominosity.wordpress.com": 1757371359.7419388,
+    "boggswood.blogspot.com": 1757371363.8842702,
+    "tamerthya.blog": 1757371366.894305,
+    "deadcyclops.blogspot.com": 1757371376.97992,
+    "lairofmegagorgon.blogspot.com": 1757371382.3687239,
+    "thewyrdandwild.wordpress.com": 1757371387.0865211,
+    "hamsterhoard.blogspot.com": 1757371390.452478,
+    "advancedgaming-theory.blogspot.com": 1757371395.161309,
+    "rememberdismove.blogspot.com": 1757371399.167535,
+    "dismastersden.blogspot.com": 1757371404.17414,
+    "www.goatmansgoblet.com": 1757371407.634198,
+    "spellsandsteel.blogspot.com": 1757371410.765909,
+    "glaucushauriant.blogspot.com": 1757371416.475057,
+    "wayspell.blogspot.com": 1757371420.7584288,
+    "crateredland.blogspot.com": 1757371424.923358,
+    "monstromanualis.blogspot.com": 1757371428.089503,
+    "leicestersramble.blogspot.com": 1757371431.905761,
+    "acornafloat.blogspot.com": 1757371435.550223,
+    "deltasdnd.blogspot.com": 1757371438.8480399,
+    "kellri.blogspot.com": 1757371443.340074,
+    "reactionrolls.blogspot.com": 1757371447.42979,
+    "dreamingdragonslayer.wordpress.com": 1757371450.9082081,
+    "selfportraitasagiant.blogspot.com": 1757371455.6929111,
+    "falsemachine.blogspot.com": 1757371458.681963,
+    "homebrewhomunculus.blogspot.com": 1757371462.4946828,
+    "ynasmidgard.blogspot.com": 1757371466.126981,
+    "oldskulling.blogspot.com": 1757371470.71225,
+    "chthonic-halls.blogspot.com": 1757371475.865473,
+    "antlerrr.blogspot.com": 1757371479.9409049,
+    "www.demogorgon.org": 1757371483.2377758,
+    "redbeardsravings.blogspot.com": 1757371487.04687,
+    "gamethedungeon.com": 1757371492.2141922,
+    "talaraska.com": 1757371499.318847,
+    "hillcantons.blogspot.com": 1757371503.917322,
+    "www.wizardthieffighter.com": 1757371509.05458,
+    "theamateurdungeoneers.blogspot.com": 1757371513.395366,
+    "signsofthelocust.com": 1757371518.277896,
+    "animatekratocracy.blogspot.com": 1757371531.1349928,
+    "damnelfpress.wordpress.com": 1757371534.7791412,
+    "nosaveforyou.blogspot.com": 1757371539.693177,
+    "staggeredamusements.wordpress.com": 1757371546.9868412,
+    "forhinhexes.blogspot.com": 1757371551.572201,
+    "abominablefancy.blogspot.com": 1757371555.154624,
+    "rthorm.wordpress.com": 1757371558.3202188,
+    "floodedrealms.com": 1757371563.028844,
+    "benignbrownbeast.blogspot.com": 1757371572.207988,
+    "nerdomancerofdork.wordpress.com": 1757371575.866814,
+    "swampofmonsters.blogspot.com": 1757371578.98404,
+    "axesnorcs.blogspot.com": 1757371582.9236338,
+    "blog.trilemma.com": 1757371590.6446102,
+    "goblinstomper.blogspot.com": 1757371594.651256,
+    "eltomocarmesi.blogspot.com": 1757371603.1754,
+    "trollsmyth.blogspot.com": 1757371607.173621,
+    "www.vetustosdelrol.com": 1757371611.8400068,
+    "whimsicalmountain.blogspot.com": 1757371620.7946088,
+    "grognardia.blogspot.com": 1757371625.1455019,
+    "dice-universe.blogspot.com": 1757371628.454665,
+    "www.jedmc.com": 1757371638.595665,
+    "shutteredroom.blogspot.com": 1757371642.9542458,
+    "darkwormcolt.blogspot.com": 1757371647.465398,
+    "traipse.hexarcana.com": 1757371652.448444,
+    "jeremyhartillos.blogspot.com": 1757371655.712756,
+    "dungeonspossums.blogspot.com": 1757372637.90458,
+    "weirdwonderfulworlds.blogspot.com": 1757371664.897713,
+    "coinsandscrolls.blogspot.com": 1757371668.534344,
+    "graphiteprime.blogspot.com": 1757371671.891275,
+    "anarchydice.wordpress.com": 1757371676.7361789,
+    "paperelemental.blogspot.com": 1757371679.503489,
+    "valleyofbluesnails.blogspot.com": 1757371684.510311,
+    "the-disoriented-ranger.blogspot.com": 1757371687.743045,
+    "failuretolerated.com": 1757371692.082198,
+    "mockorangecairn.blogspot.com": 1757371696.675446,
+    "xizallian-s-dungeons-and-dragons.blogspot.com": 1757371700.2237818,
+    "papierundspiele.com": 1757371703.747312,
+    "journeyintotheweird.blogspot.com": 1757371707.024524,
+    "originaleditionadventures.wordpress.com": 1757371710.11467,
+    "graverobbersguide.blogspot.com": 1757371714.895554,
+    "jonwake.blogspot.com": 1757371719.0720892,
+    "grumpywizard.home.blog": 1757371724.344502,
+    "dungeons-and-dragons-rpgs.blogspot.com": 1757371727.662986,
+    "oldscouserroleplaying.com": 1757371732.391577,
+    "www.traaa.sh": 1757371739.065064,
+    "wanderinggamist.blogspot.com": 1757371743.043402,
+    "ravengodgames.blogspot.com": 1757371747.199496,
+    "dieuncast.wordpress.com": 1757371752.509245,
+    "homicidallyinclinedpersonsofnofixedaddress.com": 1757371755.4079528,
+    "wulfwaldrpg.blogspot.com": 1757371759.257256,
+    "dunions.blogspot.com": 1757371762.5544949,
+    "lurkerablog.wordpress.com": 1757371771.569723,
+    "hackslashmaster.blogspot.com": 1757371774.516243,
+    "arsmagisterii.blogspot.com": 1757371779.018292,
+    "www.justcrunch.com": 1757371783.254627,
+    "www.welshpiper.com": 1757371795.415416,
+    "tarsostheorem.blogspot.com": 1757371799.818201,
+    "killyourdungeonmaster.blogspot.com": 1757371802.8381429,
+    "lordgwydion.blogspot.com": 1757371808.051789,
+    "boxfullofboxes.blogspot.com": 1757371812.3862,
+    "www.dwarvenautomata.com": 1757371816.049717,
+    "throneofsalt.blogspot.com": 1757371819.5267708,
+    "luminescentlich.blogspot.com": 1757371823.051244,
+    "zzarchov.blogspot.com": 1757371827.5922492,
+    "therecouldhavebeensnakes.wordpress.com": 1757371831.543179,
+    "towerofthearchmage.blogspot.com": 1757371836.380979,
+    "bogeymanscave.blogspot.com": 1757371841.638384,
+    "signsinthewilderness.blogspot.com": 1757371846.128392,
+    "lotbieth.blogspot.com": 1757371849.6738088,
+    "thegrandtapestry.blogspot.com": 1757371854.647391,
+    "killitwithfirerpg.blogspot.com": 1757371858.787437,
+    "www.paperspencils.com": 1757371862.334684,
+    "gwythaintny.wordpress.com": 1757371865.9812632,
+    "necrotic-gnome-productions.blogspot.com": 1757371871.049332,
+    "1d30.wordpress.com": 1757371876.220317,
+    "sunderedera.blogspot.com": 1757371879.131095,
+    "aswampinspace.blogspot.com": 1757371884.162444,
+    "peoplethemwithmonsters.blogspot.com": 1757371888.938856,
+    "tenfootpole.org": 1757371893.376263,
+    "then-what-happens.blogspot.com": 1757371900.120565,
+    "owlbearhugs.blogspot.com": 1757371903.425088,
+    "icastlight.blogspot.com": 1757371907.024417,
+    "licheslibram.blogspot.com": 1757371912.2356858,
+    "dungeonsddx.blogspot.com": 1757371916.952894,
+    "abovetheflatline.blogspot.com": 1757371920.8158169,
+    "mottokrosh.com": 1757371924.814838,
+    "hmmmarquis.blogspot.com": 1757371933.044755,
+    "elderskull.blogspot.com": 1757371939.794593,
+    "ruinsoffallenempires.blogspot.com": 1757371944.186878,
+    "wondrousimaginings.blogspot.com": 1757371948.176595,
+    "rottenpulp.blogspot.com": 1757371952.5645142,
+    "olobosk.com": 1757371956.053853,
+    "wondrousadventure.com": 1757371965.146927,
+    "slightadjustments.blogspot.com": 1757371973.394099,
+    "www.remixesandrevelations.com": 1757371977.820508,
+    "www.orkpiraten.de": 1757371984.6578848,
+    "perilandplunder.wordpress.com": 1757371990.327987,
+    "maziriansgarden.blogspot.com": 1757371993.4297879,
+    "www.greyhawkgrognard.com": 1757371998.286444,
+    "reddicediaries.com": 1757372001.620472,
+    "tsojcanth.wordpress.com": 1757372005.381871,
+    "akraticwizardry.blogspot.com": 1757372010.1439612,
+    "thealexandrian.net": 1757372013.7452748,
+    "www.deepsheep.com": 1757372019.709444,
+    "save.vs.totalpartykill.ca": 1757372634.3269918,
+    "mirrorsquid.czepeku.com": 1757372029.055259,
+    "breakrpg.blogspot.com": 1757372036.530656,
+    "reverancepavane.blogspot.com": 1757372041.04845,
+    "yenemvelt.blogspot.com": 1757372044.4624379,
+    "cavegirlgames.blogspot.com": 1757372053.600505,
+    "9and30kingdoms.blogspot.com": 1757372057.7966368,
+    "oblidisideryptch.blogspot.com": 1757372060.5413408,
+    "elfmaidsandoctopi.blogspot.com": 1757372063.5432441,
+    "neradia.blogspot.com": 1757372067.997791,
+    "themansegaming.blogspot.com": 1757372072.749527,
+    "lapidaryossuary.blogspot.com": 1757372076.498685,
+    "detectmagic.wordpress.com": 1757372080.781085,
+    "gloomtrain.blogspot.com": 1757372083.612455,
+    "www.furthestlands.com": 1757372088.002194,
+    "geekechoes.blogspot.com": 1757372092.886318,
+    "undeadwaffle.com": 1757372096.3686771,
+    "twogoblinsinatrenchcoat.blogspot.com": 1757372103.478962,
+    "worldofortix.blogspot.com": 1757372107.075731,
+    "thebonehoard.blogspot.com": 1757372110.7952142,
+    "goblinpunch.blogspot.com": 1757372115.263813,
+    "sheepandsorcery.blogspot.com": 1757372119.60671,
+    "lithyscaphe.blogspot.com": 1757372124.76597,
+    "archons-court.blogspot.com": 1757372128.506512,
+    "dwelleroftheforbiddencity.blogspot.com": 1757372131.8674219,
+    "www.revenant-quill.com": 1757372136.122934,
+    "experimentalplayground.blogspot.com": 1757372139.587573,
+    "undergroundadv.blogspot.com": 1757372145.008953,
+    "lichesgetstitches.blogspot.com": 1757372148.7970629,
+    "pitsperilous.blogspot.com": 1757372154.191962,
+    "murderhobo-rehab.blogspot.com": 1757372158.852067,
+    "landofnod.blog": 1757372161.9799218,
+    "eightheye.blogspot.com": 1757372165.17661,
+    "swordplusone.blogspot.com": 1757372170.220324,
+    "dragonbones.net": 1757372174.863759,
+    "savevsdragon.blogspot.com": 1757372182.745635,
+    "dreamsofmythicfantasy.blogspot.com": 1757372187.2372742,
+    "roll1d12.blogspot.com": 1757372190.6860192,
+    "slimegrapple.blogspot.com": 1757372194.793293,
+    "meeplefish.blogspot.com": 1757372197.718973,
+    "mythlands-erce.blogspot.com": 1757372205.428978,
+    "whiteboxgame.blogspot.com": 1757372208.743496,
+    "worldoferadu.blogspot.com": 1757372212.3888361,
+    "ancientvaults.wordpress.com": 1757372217.8735669,
+    "originaldungeons-and-dragons.blogspot.com": 1757372220.938901,
+    "blog.thesconesalone.com": 1757372225.8001988,
+    "anxietywizard.blogspot.com": 1757372228.8162649,
+    "whosemeasure.blogspot.com": 1757372233.300171,
+    "faerietalesandfolklore.com": 1757372236.417498,
+    "blessingsofthedicegods.blogspot.com": 1757372240.4592671,
+    "spearfangraygun.wordpress.com": 1757372244.5733519,
+    "3toadstools.blogspot.com": 1757372249.639727,
+    "nthdecree.blogspot.com": 1757372252.676447,
+    "migellito.blogspot.com": 1757372257.025845,
+    "herror.es": 1757372261.375982,
+    "whatwouldconando.blogspot.com": 1757372267.2798789,
+    "sevendeadlydungeons.blogspot.com": 1757372271.2657971,
+    "appliedphantasticality.blogspot.com": 1757372274.1132941,
+    "rendedpress.blogspot.com": 1757372279.457921,
+    "www.sycarion.com": 1757372283.986179,
+    "www.kjd-imc.org": 1757372291.709793,
+    "daimon-games.blogspot.com": 1757372297.6642292,
+    "www.occultesque.com": 1757372301.2665322,
+    "noahms456.blogspot.com": 1757372311.091597,
+    "talesoftheramblingbumblers.com": 1757372315.596381,
+    "mindstorm.blot.im": 1757372320.621836,
+    "beyondfomalhaut.blogspot.com": 1757372324.845974,
+    "www.theevildm.com": 1757372330.115454,
+    "triplesuns.blogspot.com": 1757372339.5065842,
+    "questingblog.com": 1757372342.4308438,
+    "bernietheflumph.blogspot.com": 1757372346.7624419,
+    "the-one-true-game-odnd.blogspot.com": 1757372351.296851,
+    "jerryboucher.blogspot.com": 1757372355.1107259,
+    "macchiatomaster.blot.im": 1757372359.087081,
+    "www.theseoldgames.com": 1757372362.199656,
+    "terriblesorcery.blogspot.com": 1757372367.214776,
+    "eldritchfields.blogspot.com": 1757372372.292066,
+    "titancorpse.blogspot.com": 1757372377.1802409,
+    "themetalearth.blogspot.com": 1757372381.821339,
+    "spacecrawl.blog": 1757372385.431245,
+    "dungeonsofklang.blogspot.com": 1757372388.354403,
+    "archadestower.blogspot.com": 1757372394.0356212,
+    "zenopusarchives.blogspot.com": 1757372398.77713,
+    "dreamsandfevers.blogspot.com": 1757372403.171125,
+    "udan-adan.blogspot.com": 1757372407.768779,
+    "bottomlesssarcophagus.blogspot.com": 1757372412.33102,
+    "wasitlikely.blogspot.com": 1757372416.343308,
+    "originaleditionfantasy.blogspot.com": 1757372419.6217868,
+    "unlawfulgames.blogspot.com": 1757372427.4158,
+    "sorcerersskull.blogspot.com": 1757372432.2114718,
+    "brinehouse.blogspot.com": 1757372435.7504058,
+    "osr.colinlesueur.com": 1757372441.006536,
+    "ongoingcampaign.blogspot.com": 1757372449.1493812,
+    "www.incunabuli.com": 1757372453.458598,
+    "batintheattic.blogspot.com": 1757372462.910497,
+    "textgolem.blogspot.com": 1757372468.384245,
+    "tenfootprecis.blogspot.com": 1757372472.895864,
+    "kaijuville.blogspot.com": 1757372475.9734342,
+    "shoalmontgames.com": 1757372480.4166698,
+    "tenfootpolemic.blogspot.com": 1757372484.942679,
+    "www.slackernerds.com": 1757372489.0324821,
+    "totmv2.blogspot.com": 1757372493.9381208,
+    "stefanpoag.com": 1757372497.265831,
+    "tomboftedankhamen.blogspot.com": 1757372501.297975,
+    "tao-dnd.blogspot.com": 1757372505.3616571,
+    "gravenutterance.com": 1757372509.054945,
+    "knightsinthenorth.blog": 1757372513.514803,
+    "monstermanualsewnfrompants.blogspot.com": 1757372520.21716,
+    "retiredadventurer.blogspot.com": 1757372523.449014,
+    "d6.beardedbaby.net": 1757372527.0185611,
+    "www.prismaticwasteland.com": 1757372530.731564,
+    "www.necropraxis.com": 1757372536.1924999,
+    "ravenousambience.blogspot.com": 1757372542.443317,
+    "strongholdpress.blogspot.com": 1757372547.544488,
+    "verbum-ex-nihilo.blogspot.com": 1757372550.897999,
+    "grodog.blogspot.com": 1757372555.2127821,
+    "rigourandreverie.blogspot.com": 1757372559.254581,
+    "zedecksiew.tumblr.com": 1757372562.538631,
+    "thethingswedoforxp.blogspot.com": 1757372567.0194519,
+    "santicore.blogspot.com": 1757372570.643884,
+    "bardichesandbathhouses.blogspot.com": 1757372575.2529159,
+    "trueheartblackraven.blogspot.com": 1757372580.193789,
+    "monstersandmanuals.blogspot.com": 1757372583.492321,
+    "technicalgrimoire.com": 1757372588.469037,
+    "www.theskyfullofdust.co.uk": 1757372593.922703,
+    "searching-for-magic-blog.blogspot.com": 1757372607.872115,
+    "hdvrpg.tumblr.com": 1757372613.1492631,
+    "saturdaynightsandbox.blogspot.com": 1757372617.99185,
+    "aloneinthelabyrinth.blogspot.com": 1757372621.87567,
+    "halflingsluck.blogspot.com": 1757372625.764451,
+    "sameissharkinjapanese.blogspot.com": 1757372629.309806,
+    "rpgcharacters.wordpress.com": 1757372643.5670989,
+    "profaneape.wordpress.com": 1757372646.7036622,
+    "todistantlands.blogspot.com": 1757372650.996463,
+    "old-huron-archive.netlify.com": 1757372654.3583,
+    "savevshollowing.wordpress.com": 1757372663.363235,
+    "thetotalityofygg.blogspot.com": 1757372668.274637,
+    "backtothekeep.blogspot.com": 1757372673.211523,
+    "cosmicheroes.space": 1757372681.1854029,
+    "theotherside.timsbrannan.com": 1757372685.693672,
+    "nerdwerds.blogspot.com": 1757372688.586176,
+    "www.lastgaspgrimoire.com": 1757372693.0463989,
+    "roseandkingfisher.blogspot.com": 1757372697.0143528,
+    "talesfromgurgula.blogspot.com": 1757372701.632859,
+    "ggmlk.blogspot.com": 1757372706.505811,
+    "attnam.blogspot.com": 1757372711.2375522,
+    "sorcererundermountain.d101games.com": 1757372714.5069492,
+    "superheronecromancer.blogspot.com": 1757372720.373999,
+    "followmeanddie.com": 1757372724.5572329,
+    "buildingsarepeople.blogspot.com": 1757372729.776416,
+    "darksunadventures.blogspot.com": 1757372734.662665,
+    "thecircularuins.blogspot.com": 1757372739.8882098,
+    "bearded-devil.com": 1757372743.8792489,
+    "inplacesdeep.blogspot.com": 1757372749.333768,
+    "www.adderentertainment.com": 1757372753.733012,
+    "vorpalmace.blogspot.com": 1757372760.5424829,
+    "failedmysave.blogspot.com": 1757372764.64203,
+    "slantiopink.blogspot.com": 1757372770.0616279,
+    "diomedes-descent.blogspot.com": 1757372775.25992,
+    "osrgrimoire.blogspot.com": 1757372779.11678,
+    "alifefullofadventure.blogspot.com": 1757372783.123998,
+    "takeonrules.com": 1757372787.85919
   }
 }

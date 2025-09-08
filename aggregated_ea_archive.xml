@@ -7,427 +7,51 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Aggregator v2 (archive)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 18:11:48 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 22:38:38 +0000</lastBuildDate>
     <item>
-      <title>Mind the Gap: Is Business Acumen the Missing Link in Enterprise Architecture Talent? (Source: eapj.org)</title>
-      <link>https://eapj.org/mind-the-gap-is-business-acumen-the-missing-link-in-enterprise-architecture-talent/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=mind-the-gap-is-business-acumen-the-missing-link-in-enterprise-architecture-talent</link>
-      <description>Introduction If you’ve been following the ongoing debates on LinkedIn...</description>
-      <guid isPermaLink="false">246dd51003806adc9c86ef6865224a79</guid>
-      <pubDate>Tue, 22 Apr 2025 01:33:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>Artificial Intelligence: How Agentic AI is reshaping Enterprise Architecture (Source: eapj.org)</title>
-      <link>https://eapj.org/artificial-intelligence-how-agentic-ai-is-reshaping-enterprise-architecture/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=artificial-intelligence-how-agentic-ai-is-reshaping-enterprise-architecture</link>
-      <description>by Eva Jaidan &amp;#8211;  Head of Artificial Intelligence – MEGA,...</description>
-      <guid isPermaLink="false">5c6109ba1538eba1ed4c49c75675bdfa</guid>
-      <pubDate>Thu, 08 May 2025 07:06:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Architecting for Reuse: Why Platform Thinking is the New EA Imperative (Source: eapj.org)</title>
-      <link>https://eapj.org/architecting-for-reuse-why-platform-thinking-is-the-new-ea-imperative/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=architecting-for-reuse-why-platform-thinking-is-the-new-ea-imperative</link>
-      <description>Why agility, reuse, and cross-domain strategy are reshaping how we...</description>
-      <guid isPermaLink="false">0429ed73473652c72c27572a3249ac43</guid>
-      <pubDate>Mon, 23 Jun 2025 00:30:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Fragmentation to Flow: How Enterprise Architecture Anchors ERP Execution (Source: eapj.org)</title>
-      <link>https://eapj.org/from-fragmentation-to-flow-how-enterprise-architecture-anchors-erp-execution/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=from-fragmentation-to-flow-how-enterprise-architecture-anchors-erp-execution</link>
-      <description>Bridging Strategic Ambition with Operational Coherence through Architecture-Driven ERP Transformation...</description>
-      <guid isPermaLink="false">c5e278800667bfce10229c2c82e78cd1</guid>
-      <pubDate>Mon, 30 Jun 2025 02:16:42 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Enterprise Architects Really Do and Why More Women Should Be Doing It (Source: eapj.org)</title>
-      <link>https://eapj.org/what-enterprise-architects-really-do-and-why-more-women-should-be-doing-it/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=what-enterprise-architects-really-do-and-why-more-women-should-be-doing-it</link>
-      <description>by Nadzeya Stalbouskaya Introduction: The Role No One Talks About...</description>
-      <guid isPermaLink="false">abbcab99e892c114d074519dfc30089a</guid>
-      <pubDate>Mon, 07 Jul 2025 03:37:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft Office vs enterprise architecture tools: Consider this (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/microsoft-office-vs-enterprise-architecture-tools-consider-this/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2023/11/blog-content-marc-lankhorst-06-11-2023-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="Bizzdesign Enterprise architecture tools vs microsoft office" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/microsoft-office-vs-enterprise-architecture-tools-consider-this/"&gt;Microsoft Office vs enterprise architecture tools: Consider this&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;At Bizzdesign, we’ve had many engagements throughout the years where we were brought in to breathe new life into failing enterprise architecture initiatives. A common denominator across many projects was replacing Microsoft Office with enterprise architecture tools — specifically, a trinity comprising Visio, Excel, and PowerPoint. In our experience, many organizations find it appropriate to...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/microsoft-office-vs-enterprise-architecture-tools-consider-this/"&gt;Microsoft Office vs enterprise architecture tools: Consider this&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">835741c916644c7bbfa603d0ed377b48</guid>
-      <pubDate>Mon, 06 Nov 2023 13:46:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>Bizzdesign positioned highest for Completeness of Vision in 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/bizzdesign-positioned-highest-for-completeness-of-vision-in-2023-gartner-magic-quadrant-for-enterprise-architecture-tools/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2023/11/blog-content-nick-reed-22-11-2023-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/bizzdesign-positioned-highest-for-completeness-of-vision-in-2023-gartner-magic-quadrant-for-enterprise-architecture-tools/"&gt;Bizzdesign positioned highest for Completeness of Vision in 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools has been published, with Bizzdesign positioned as a Leader for the eight consecutive year. We are also proud to be positioned highest for Completeness of Vision, which we see as an acknowledgement of our unwavering commitment to understanding the needs of our customers in an evolving...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/bizzdesign-positioned-highest-for-completeness-of-vision-in-2023-gartner-magic-quadrant-for-enterprise-architecture-tools/"&gt;Bizzdesign positioned highest for Completeness of Vision in 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">cfbfe390dd5f9c55585cf9254a69baea</guid>
-      <pubDate>Wed, 22 Nov 2023 16:05:28 +0000</pubDate>
-    </item>
-    <item>
-      <title>Charting new courses: Bizzdesign’s bold year redefining Enterprise Architecture boundaries (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/charting-new-courses-bizzdesigns-bold-year-redefining-enterprise-architecture-boundaries/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2023/12/blog-content-bert-van-der-zwan-20-12-2023-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/charting-new-courses-bizzdesigns-bold-year-redefining-enterprise-architecture-boundaries/"&gt;Charting new courses: Bizzdesign&amp;#8217;s bold year redefining Enterprise Architecture boundaries&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;We’ve had a big year at Bizzdesign where we’ve significantly impacted the Enterprise Architecture industry. Together with our customers, we’ve facilitated transformation journeys that have propelled significant growth and innovation – not only for our customers but also for us. Our customers have repeatedly demonstrated that you can facilitate significant transformational change and measurable outcomes...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/charting-new-courses-bizzdesigns-bold-year-redefining-enterprise-architecture-boundaries/"&gt;Charting new courses: Bizzdesign&amp;#8217;s bold year redefining Enterprise Architecture boundaries&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">55bc78d19367bf7caec5e7503f884edf</guid>
-      <pubDate>Thu, 21 Dec 2023 08:05:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>How AtkinsRéalis creates shared value between solution and enterprise architecture (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/how-atkinsrealis-creates-shared-value-between-solution-and-enterprise-architecture/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/02/blog-content-james-goodwin-01-03-2024-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/how-atkinsrealis-creates-shared-value-between-solution-and-enterprise-architecture/"&gt;How AtkinsRéalis creates shared value between solution and enterprise architecture&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;To effectively navigate changes, Enterprise and Solution Architecture teams need to collaborate to enhance an organization’s architectural agility and ensure a competitive edge. Ensuring that these teams coexist and complement each other to drive business value is often easier said than done. Successful collaboration can be achieved by carefully managing touchpoints or points of interaction...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/how-atkinsrealis-creates-shared-value-between-solution-and-enterprise-architecture/"&gt;How AtkinsRéalis creates shared value between solution and enterprise architecture&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">788866f54aaf85608fa6fb55afd819e7</guid>
-      <pubDate>Thu, 29 Feb 2024 22:45:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Step-by-step: How to develop Enterprise Architecture Services (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/step-by-step-how-to-develop-enterprise-architecture-services/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/04/blog-content-dan-belville-09-04-2024-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/step-by-step-how-to-develop-enterprise-architecture-services/"&gt;Step-by-step: How to develop Enterprise Architecture Services&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Agile enterprise architecture management practices may want to consider developing repeatable Enterprise Architecture Services. This would allow consumers of those services (e.g., internal customers of enterprise architecture) to concentrate on their top priorities – running and improving their business – while being able to call on well-defined, expert services with clear value propositions and rules...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/step-by-step-how-to-develop-enterprise-architecture-services/"&gt;Step-by-step: How to develop Enterprise Architecture Services&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">fdb216f5cec1f8a4a5c07019c2ee7667</guid>
-      <pubDate>Fri, 19 Apr 2024 14:00:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unveiling the Enterprise Architecture trends report! (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/2024-enterprise-architecture-insights/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/05/blog-content-marc-lankhorst-16-05-2024-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/2024-enterprise-architecture-insights/"&gt;Unveiling the Enterprise Architecture trends report!&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;In the last few years, we’ve seen extraordinary changes in technology with the rise of generative AI. As a result of health emergencies, conflict, and extreme weather, supply chains have been interrupted. Costs have been rising across the economy. It’s clear that now, more than ever, organizations must be able to adapt and innovate. Each...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/2024-enterprise-architecture-insights/"&gt;Unveiling the Enterprise Architecture trends report!&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">630e060d2c1d1b1771c5c31a9951936d</guid>
-      <pubDate>Wed, 15 May 2024 15:15:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Game-changing Enterprise Architecture Generative AI features you can’t miss! (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/bizzdesign-horizzon-generative-ai-features/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/09/blog-content-mark-peters-09-09-2024-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="new ai features bizzdesign horizzon" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/bizzdesign-horizzon-generative-ai-features/"&gt;Game-changing Enterprise Architecture Generative AI features you can&amp;#8217;t miss!&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Bizzdesign&amp;#8217;s Generative AI features are designed to maximize business value and drive greater efficiency. Available as part of the Bizzdesign AI SmartPack in Horizzon: the How-to Coach and the Diagram Describer enhance productivity by streamlining onboarding and automating documentation processes. They allow users to take advantage of our platform&amp;#8217;s full potential and generate enterprise architecture...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/bizzdesign-horizzon-generative-ai-features/"&gt;Game-changing Enterprise Architecture Generative AI features you can&amp;#8217;t miss!&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">db5d6a4a62a6cc3e0860fa73988b6e7a</guid>
-      <pubDate>Mon, 09 Sep 2024 16:23:21 +0000</pubDate>
-    </item>
-    <item>
-      <title>What drives the success of top Enterprise Architecture teams? (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/what-drives-the-success-of-top-enterprise-architecture-teams/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/09/blog-content-marc-lankhorst-09-09-2024-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/what-drives-the-success-of-top-enterprise-architecture-teams/"&gt;What drives the success of top Enterprise Architecture teams?&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Earlier this year, Bizzdesign released the State of Enterprise Architecture 2024 report, quickly becoming a definitive source for industry insights. This comprehensive research, based on a survey of over 500 Enterprise and Solution Architects worldwide, provides an in-depth look into our field&amp;#8217;s current trends and practices. Our enterprise architecture research report aimed to assess the...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/what-drives-the-success-of-top-enterprise-architecture-teams/"&gt;What drives the success of top Enterprise Architecture teams?&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">ca8e8e587480c800032b5255c5199199</guid>
-      <pubDate>Tue, 10 Sep 2024 11:00:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>The evolution of Enterprise Architecture in business transformation (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/enterprise-architecture-in-business-transformation/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/10/nickreed2-adjust-jm-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/enterprise-architecture-in-business-transformation/"&gt;The evolution of Enterprise Architecture in business transformation&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Quick Links: Introduction Drivers of business change The complexity challenge The power of a model-driven approach The evolution of Enterprise Architecture Core value streams in business transformation The future of business transformation 1.  Introduction Organizations of all sizes and industries face an increasingly complex and rapidly changing business environment that may hinder successful business transformation....&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/enterprise-architecture-in-business-transformation/"&gt;The evolution of Enterprise Architecture in business transformation&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">70ffe6f07956a259af98ce92a47c085e</guid>
-      <pubDate>Wed, 02 Oct 2024 06:11:58 +0000</pubDate>
-    </item>
-    <item>
-      <title>Digitalization and the Need for Speed (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/digitalization-and-the-need-for-speed/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/03/26-03-2025-blog-content-Nick-Reed-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/digitalization-and-the-need-for-speed/"&gt;Digitalization and the Need for Speed&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Many organizations are prioritizing a robust digital strategy that emphasizes agility and technological acceleration. The speed of digital innovation enables businesses to streamline operations and adopt digital solutions that enhance efficiency. As companies move toward digital maturity, they are challenged to achieve digital transformation while scaling their initiatives effectively. As companies progress toward digital maturity,...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/digitalization-and-the-need-for-speed/"&gt;Digitalization and the Need for Speed&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">e9f5217700bf656d17c0fe227a588675</guid>
-      <pubDate>Thu, 27 Mar 2025 10:00:53 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building the Future: Strategy, Growth, and Vision for 2025 (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/building-the-future-strategy-growth-and-vision-for-2025/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/04/Blog-visual-illustration-Strategy-Growth-Vision-Bert_webp-390x390.webp" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/building-the-future-strategy-growth-and-vision-for-2025/"&gt;Building the Future: Strategy, Growth, and Vision for 2025&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;It’s been a great first quarter, and I’d like to take a moment to reflect on all that we’ve achieved since bringing together three market leaders in Enterprise Architecture. The merger of Bizzdesign, MEGA, and Alfabet has created a powerful force in the industry &amp;#8211; one that’s already delivering results. Together, we’re building something new:...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/building-the-future-strategy-growth-and-vision-for-2025/"&gt;Building the Future: Strategy, Growth, and Vision for 2025&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">bc4679fafdc7c39e4fab77da031e9f9d</guid>
-      <pubDate>Thu, 10 Apr 2025 14:28:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>2025 State of Enterprise Architecture report – New findings (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/2025-state-of-enterprise-architecture-report-new-findings/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/04/featured-image-state-of-EA-2025-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/2025-state-of-enterprise-architecture-report-new-findings/"&gt;2025 State of Enterprise Architecture report &amp;#8211; New findings&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Putting strategy into practice It’s no good having a strategy if you can’t execute on it. This year, for our fifth annual State of Enterprise Architecture report, we quizzed organizations on their ability to bring about change. In particular, we focused on how well they understand their capabilities and their insight into IT sustainability. We...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/2025-state-of-enterprise-architecture-report-new-findings/"&gt;2025 State of Enterprise Architecture report &amp;#8211; New findings&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">b664af777ca631ba8480c560aa1d518f</guid>
-      <pubDate>Thu, 17 Apr 2025 09:00:40 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Digital Complexity Is Outpacing Strategic Planning (Source: bizzdesign.com)</title>
-      <link>https://bizzdesign.com/blog/how-digital-complexity-is-outpacing-strategic-planning/</link>
-      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/04/how-digital-complexity-is-outpacing-strategic-planning-390x390.jpeg" class="webfeedsFeaturedVisual wp-post-image" alt="How Digital Complexity Is Outpacing Strategic Planning" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/how-digital-complexity-is-outpacing-strategic-planning/"&gt;How Digital Complexity Is Outpacing Strategic Planning&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;Digital transformation has become synonymous with progress. Every new platform promises agility, every integration the potential to scale, and every cloud migration a faster path to innovation. But beneath the surface of this rapid evolution lies a growing problem: Digital complexity is compounding—faster than most organizations can strategically manage What started as a push to...&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/how-digital-complexity-is-outpacing-strategic-planning/"&gt;How Digital Complexity Is Outpacing Strategic Planning&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">9e41ea779cba86500ec3fd7e8b31e2e1</guid>
-      <pubDate>Wed, 30 Apr 2025 14:36:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sitting Down with Dr. Darren Pulsipher from Intel Corporation, Chair of the Government EA Work Group (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/07/08/sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group</link>
-      <description>&lt;p&gt;By Ash Patel - CDMP - Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;Recently we reached out to Dr. Darren Pulsipher from Intel Corporation, to discuss his role as the Chair of the Government EA Work Group.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/07/08/sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/07/08/sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group/"&gt;Sitting Down with Dr. Darren Pulsipher from Intel Corporation, Chair of the Government EA Work Group&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">feb4e2adb385f8671574d263448e8b8e</guid>
-      <pubDate>Tue, 08 Jul 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Navigating the TOGAF® Standard, 10th Edition: Updates and Insights (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/07/01/navigating-the-togaf-standard-10th-edition-updates-and-insights/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=navigating-the-togaf-standard-10th-edition-updates-and-insights</link>
-      <description>&lt;p&gt;By Andrew Josey, VP, Standards &amp;#038; Certification, The Open Group&lt;/p&gt;
-&lt;p&gt;The TOGAF® Standard,10th Edition was introduced in April 2022, and expanded the material available to architecture practitioners making adoption of best practices easier. This article gives a roundup of the latest changes to the standard since its introduction, and the ecosystem around it.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/07/01/navigating-the-togaf-standard-10th-edition-updates-and-insights/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/07/01/navigating-the-togaf-standard-10th-edition-updates-and-insights/"&gt;Navigating the TOGAF® Standard, 10th Edition: Updates and Insights&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">e45718f4bca2ca3a8cdbe824527ddda8</guid>
-      <pubDate>Tue, 01 Jul 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open Comments Rewind: Collaborative Evolution Shaping Industry Standards with Roberto Severo (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/06/17/open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;In this enlightening episode, we dive into the world of leadership, resilience, and cultural nuances with Roberto Severo, Country Manager for The Open Group in Brazil, Colombia, and Peru. Roberto's journey in the IT industry is a testament to the power of adaptation and the importance of understanding cultural dynamics.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/06/17/open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/06/17/open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo/"&gt;Open Comments Rewind: Collaborative Evolution Shaping Industry Standards with Roberto Severo&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">f2d12227f3f22074f2eed0da90366768</guid>
-      <pubDate>Tue, 17 Jun 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sitting Down with Pierrick Gaudin from TotalEnergies, New Chair of the PMC for the OSDU® Forum (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/06/12/sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum</link>
-      <description>&lt;p&gt;By Ash Patel - CDMP - Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;br /&gt;
-Recently we reached out to Pierrick Gaudin from TotalEnergies, to discuss his role as the New Chair of the PMC for The Open Group OSDU® Forum.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/06/12/sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/06/12/sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum/"&gt;Sitting Down with Pierrick Gaudin from TotalEnergies, New Chair of the PMC for the OSDU® Forum&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">97de315737a1f989ae72ef9f9c96d5c5</guid>
-      <pubDate>Thu, 12 Jun 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Outstanding Contribution Award Winners for The Open Group OSDU® Forum May 2025 (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/06/10/outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) – CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;During The Open Group Amsterdam Summit in May 2025, we were thrilled to announce the winners of the Spring 2025 OSDU® Forum Outstanding Contribution Awards.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/06/10/outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/06/10/outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025/"&gt;Outstanding Contribution Award Winners for The Open Group OSDU® Forum May 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">6412a589abc4329e35ae9f7ebf367c37</guid>
-      <pubDate>Tue, 10 Jun 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Open Group Summit Highlights – Amsterdam, – May 19 – 22, 2025 (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/05/27/the-open-group-summit-highlights-amsterdam-may-19-22-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-summit-highlights-amsterdam-may-19-22-2025</link>
-      <description>&lt;p&gt;By Ash Patel - CDMP - Certified Copywriter (CMP) – CDMA, Marketing Specialist,  The Open Group&lt;/p&gt;
-&lt;p&gt;The Open Group Summit took place at the Amsterdam Congress Center, bringing together over 470 attendees including distinguished experts, visionary industry leaders, and seasoned practitioners from diverse fields including AI, Sustainability, Digital Transformation, and Ecosystems Architecture. As next-generation AI technologies redefine the boundaries of possibility, R&amp;#038;D-driven organizations are channelling significant resources into developing advanced foundation models while technology providers focus on embedding AI into transformative end-user applications.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/27/the-open-group-summit-highlights-amsterdam-may-19-22-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/27/the-open-group-summit-highlights-amsterdam-may-19-22-2025/"&gt;The Open Group Summit Highlights – Amsterdam, – May 19 – 22, 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">0b32cd7bccd33602c4fd0f98e3475d07</guid>
-      <pubDate>Tue, 27 May 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Exciting Updates for the Open FAIR™ Body of Knowledge and Certification Program (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/05/22/exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program</link>
-      <description>&lt;p&gt;By John Linford, Security Portfolio Director, The Open Group, and Corinne Brouch, Director Learning and Certifications, The Open Group.&lt;br /&gt;
-Since the publication of the NIST Cybersecurity Framework (CSF), Version 2.0, the Security Forum has been working to understand the implications of changes to the CSF and making changes to The Open Group Open FAIR™ Body of Knowledge to ensure consistency with the changes.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/22/exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/22/exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program/"&gt;Exciting Updates for the Open FAIR™ Body of Knowledge and Certification Program&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">26f4399b8a31235880a31a6afaa16ea8</guid>
-      <pubDate>Thu, 22 May 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Celebrating Milestones: The Open Group FACE® Consortium at 15 and The Open Group SOSA® Consortium at 10 (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/05/20/celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;Innovation and collaboration have long driven progress in the aerospace and defense sectors, shaping the technologies and practices that ensure safety, efficiency, and interoperability. This year marks two significant anniversaries that exemplify these principles: the 15th anniversary of The Open Group FACE® Consortium and the 10th anniversary of The Open Group SOSA® Consortium. These milestones offer an opportunity to reflect on their journeys, achievements, and the collective future they promise.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/20/celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/20/celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10/"&gt;Celebrating Milestones: The Open Group FACE® Consortium at 15 and The Open Group SOSA® Consortium at 10&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">aab2395e87b3ed4a7421a59328467010</guid>
-      <pubDate>Tue, 20 May 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open Comments Rewind: Charting a Course from Music to Cybersecurity Mastery with John Feezell (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/05/13/open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;Navigating a career change from the arts to the analytical world of IT and cybersecurity can seem daunting. Yet, John Feezell’s journey exemplifies that with the right mix of passion and continuous learning, such transitions can lead to mastery and leadership in the new field.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/13/open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/13/open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell/"&gt;Open Comments Rewind: Charting a Course from Music to Cybersecurity Mastery with John Feezell&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">779e530819df163ead30f32015e52c27</guid>
-      <pubDate>Tue, 13 May 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Achieving Business Goals While Safeguarding Your Data (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/04/29/achieving-business-goals-while-safeguarding-your-data/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=achieving-business-goals-while-safeguarding-your-data</link>
-      <description>&lt;p&gt;Modern organizations today rely heavily on data to keep their businesses running. Many times, they may not even realize just how much information flows internally and through third parties to maintain ongoing efficiency. From finance departments and product development teams to sales and marketing, access to data is fundamental for making critical decisions and driving operations.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/29/achieving-business-goals-while-safeguarding-your-data/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/29/achieving-business-goals-while-safeguarding-your-data/"&gt;Achieving Business Goals While Safeguarding Your Data&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">1b7b1f9579e56c727f8e1e10db950e59</guid>
-      <pubDate>Tue, 29 Apr 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Earth Day and Enabling the Shift to Clean Energy through Standards (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/04/22/earth-day-and-enabling-the-shift-to-clean-energy-through-standards/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=earth-day-and-enabling-the-shift-to-clean-energy-through-standards</link>
-      <description>&lt;p&gt;By Jim Hietala, VP, Sustainability and Market Development&lt;/p&gt;
-&lt;p&gt;This year's Earth Day theme is "Our Power, Our Planet". The goal is to help accelerate the global generation and availability of clean energy, including renewable energy sources such as solar, wind, hydroelectric, geothermal, and tidal.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/22/earth-day-and-enabling-the-shift-to-clean-energy-through-standards/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/22/earth-day-and-enabling-the-shift-to-clean-energy-through-standards/"&gt;Earth Day and Enabling the Shift to Clean Energy through Standards&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">f19ad2db898d7248e9560f385d04c874</guid>
-      <pubDate>Tue, 22 Apr 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Open Comments Rewind: Navigating the Oil and Gas Industry With AI and Real-Time Data (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/04/17/open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;The oil and gas industry stands on the brink of a transformation, and data standards are the linchpins in this evolutionary phase. Pablo Perez of the Energistics® Consortium, an affiliate of The Open Group, provides a riveting conversation on our podcast, taking listeners from his early days in Venezuela to the pivotal role he plays in shaping data communication and transfer within the sector.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/17/open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/17/open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data/"&gt;Open Comments Rewind: Navigating the Oil and Gas Industry With AI and Real-Time Data&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">b5fbe60a1e582d38e7e0973016376573</guid>
-      <pubDate>Thu, 17 Apr 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Lifelong Learning Program (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/04/15/introducing-the-lifelong-learning-program/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=introducing-the-lifelong-learning-program</link>
-      <description>&lt;p&gt;By Corinne Brouch, Director Learning and Certifications&lt;/p&gt;
-&lt;p&gt;The Open Group is glad to announce the launch of our Lifelong Learning program, which will enable professionals and individuals to upskill and reskill on topics supported by official publications.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/15/introducing-the-lifelong-learning-program/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/15/introducing-the-lifelong-learning-program/"&gt;Introducing the Lifelong Learning Program&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">77f74303e9e05420563e059dcea5a150</guid>
-      <pubDate>Tue, 15 Apr 2025 13:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sitting Down with Kadri Umay, Elected CSP Representative, The Open Group OSDU® Management Committee (OMC) (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/04/08/sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;Recently we reached out to Kadri Umay (Microsoft), to discuss his role as an elected CSP Representative to The Open Group OSDU® Management Committee.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/08/sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/08/sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc/"&gt;Sitting Down with Kadri Umay, Elected CSP Representative, The Open Group OSDU® Management Committee (OMC)&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">e2a406c5058d7e0566cdb2408e497eff</guid>
-      <pubDate>Tue, 08 Apr 2025 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Innovation at The Open Group: A Legacy of Leadership (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/04/03/innovation-at-the-open-group-a-legacy-of-leadership/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=innovation-at-the-open-group-a-legacy-of-leadership</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;For decades, The Open Group has been an innovation leader, providing globally recognized standards, tools, and frameworks that help organizations turn ideas into actionable strategies. Milestones like the TOGAF® Standard, a Standard of The Open Group and the ArchiMate® Modeling Language have redefined Enterprise Architecture, enabling organizations to design and implement transformative systems effectively.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/03/innovation-at-the-open-group-a-legacy-of-leadership/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/03/innovation-at-the-open-group-a-legacy-of-leadership/"&gt;Innovation at The Open Group: A Legacy of Leadership&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">18fb04242d22a9a806b2c30278fd7ac2</guid>
-      <pubDate>Thu, 03 Apr 2025 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Open Group at the Reading Museum DIGITAL Revolution Exhibition (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/03/18/the-open-group-at-the-reading-museum-digital-revolution-exhibition/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-at-the-reading-museum-digital-revolution-exhibition</link>
-      <description>&lt;p&gt;By Oliver David, Marketing Manager, The Open Group.&lt;/p&gt;
-&lt;p&gt;The Open Group participated in the DIGITAL Revolution exhibition at the Reading Museum, celebrating the 60th anniversary of Reading's transformation into a digital hub.&lt;/p&gt;
-&lt;p&gt;The exhibition opened to the public Tuesday, March 18 and runs until December 24, 2025. It honors the town's incredible tech journey, starting with the arrival of Digital Equipment Corporation (DEC) in the town in 1964, and highlights its lasting impact on the region’s ICT industry.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/03/18/the-open-group-at-the-reading-museum-digital-revolution-exhibition/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/03/18/the-open-group-at-the-reading-museum-digital-revolution-exhibition/"&gt;The Open Group at the Reading Museum DIGITAL Revolution Exhibition&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">7ccc3dd075c159506e7b297eec3a25df</guid>
-      <pubDate>Tue, 18 Mar 2025 15:30:03 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sitting Down With Huub Streng, Chair of The Open Group OSDU® Management Committee (OMC) (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/02/25/sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;Recently, we reached out to Huub Streng of TotalEnergies to discuss his role as the newly appointed chair to The Open Group OSDU® Management Committee. Huub Strengserves as the OSDU Data Platform Advisor at TotalEnergies. His responsibilities include representing the company at the OSDU Forum, where he is engaging as both co-chair and active contributor across multiple Working Groups.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/02/25/sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/02/25/sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc/"&gt;Sitting Down With Huub Streng, Chair of The Open Group OSDU® Management Committee (OMC)&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">7cab12f2712a64cd2d88dda688dd38be</guid>
-      <pubDate>Tue, 25 Feb 2025 15:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Open Group Virtual Event Highlights – February 3-4, 2025 (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/02/06/the-open-group-virtual-event-highlights-february-3-4-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-virtual-event-highlights-february-3-4-2025</link>
-      <description>&lt;p&gt;By Ash Patel CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;The Open Group hosted its recent virtual event, From Ideation, Through Innovation, Into Implementation on February 3-4, 2025, uniting global thought leaders and innovators for two days of transformative discussions. The event spotlighted key advancements in Open Standards Initiatives and showcased the pioneering efforts of The Open Group SOSA® Consortium.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/02/06/the-open-group-virtual-event-highlights-february-3-4-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/02/06/the-open-group-virtual-event-highlights-february-3-4-2025/"&gt;The Open Group Virtual Event Highlights – February 3-4, 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">95fb3c6d29ac0ccffb4cbcbc5f9428c2</guid>
-      <pubDate>Thu, 06 Feb 2025 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chris Frost, Fujitsu, is the New Chair of The Open Group Governing Board (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/01/14/chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;We are thrilled to announce that Chris Frost of Fujitsu is now Chair of The Open Group Governing Board. We spoke with him about what it means to be a part of this, his career journey, and much more.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/01/14/chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/01/14/chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board/"&gt;Chris Frost, Fujitsu, is the New Chair of The Open Group Governing Board&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">9cb63e048daeaf69fe604ccbdb635ff4</guid>
-      <pubDate>Tue, 14 Jan 2025 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Open Group – 2024 and Looking Forward to 2025 (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2025/01/07/the-open-group-2024-and-looking-forward-to-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-2024-and-looking-forward-to-2025</link>
-      <description>&lt;p&gt;By Steve Nunn, President &amp;#038; CEO of The Open Group&lt;/p&gt;
-&lt;p&gt;As we step into 2025, it is a good time to reflect on the achievements and progress made during what has been a truly productive year for The Open Group. A key priority of the organization is to bring people together—whether physically or virtually—and this year has been a great example of the positive impact of collaboration.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/01/07/the-open-group-2024-and-looking-forward-to-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/01/07/the-open-group-2024-and-looking-forward-to-2025/"&gt;The Open Group – 2024 and Looking Forward to 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">20dc7974f182bcd752a3cc7867ba2846</guid>
-      <pubDate>Tue, 07 Jan 2025 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sitting Down With Jamie Cruise, Vendor Representative, The Open Group OSDU® Management Committee (OMC) (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2024/12/24/sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc</link>
-      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
-&lt;p&gt;Recently, we reached out to Jamie Cruise of SLB, to discuss his role as a vendor representative to The Open Group OSDU® Management Committee.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2024/12/24/sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2024/12/24/sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc/"&gt;Sitting Down With Jamie Cruise, Vendor Representative, The Open Group OSDU® Management Committee (OMC)&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">0fac29db980562ba3b2440fc8d02fd9b</guid>
-      <pubDate>Tue, 24 Dec 2024 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Leads the Digital Future: The Open Group Beijing Conference Highlights (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2024/12/19/ai-leads-the-digital-future-the-open-group-beijing-conference-highlights/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai-leads-the-digital-future-the-open-group-beijing-conference-highlights</link>
-      <description>&lt;p&gt;On November 22, 2024, the highly anticipated annual conference of The Open Group 2024 Ecosystem Architecture Sustainability Annual Conference was unveiled at the China World Summit Wing in Beijing. As a premier event in the field of digital transformation, this conference brings together the world's most influential experts, scholars, technology leaders, and industry pioneers. &lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2024/12/19/ai-leads-the-digital-future-the-open-group-beijing-conference-highlights/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2024/12/19/ai-leads-the-digital-future-the-open-group-beijing-conference-highlights/"&gt;AI Leads the Digital Future: The Open Group Beijing Conference Highlights&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">441ff1bb74100eb5a01f7b794adebdd2</guid>
-      <pubDate>Thu, 19 Dec 2024 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AWARD WINNERS ANNOUNCED | The Open Group Asia Pacific Awards 2024 (Source: blog.opengroup.org)</title>
-      <link>https://blog.opengroup.org/2024/12/17/award-winners-announced-the-open-group-asia-pacific-awards-2024/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=award-winners-announced-the-open-group-asia-pacific-awards-2024</link>
-      <description>&lt;p&gt;On November 22, 2024, The Open Group Asia Pacific Awards 2024 China was held at the China World Summit Wing Hotel in Beijing, which aims to recognize organizations that have achieved excellence in the field of open architecture standards and open source software applications.&lt;/p&gt;&lt;/div&gt;
-&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2024/12/17/award-winners-announced-the-open-group-asia-pacific-awards-2024/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2024/12/17/award-winners-announced-the-open-group-asia-pacific-awards-2024/"&gt;AWARD WINNERS ANNOUNCED | The Open Group Asia Pacific Awards 2024&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
-      <guid isPermaLink="false">8de156af8d41a3907aedaf880eebf055</guid>
-      <pubDate>Tue, 17 Dec 2024 14:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Training Architects Has Never Been So Important — Here’s Why (Source: www.forrester.com)</title>
-      <link>https://www.forrester.com/blogs/training-architects-has-never-been-so-important-heres-why/</link>
-      <description>Many enterprise architecture teams are unable to scale their impact or evolve their practices due to a growing skills gap. Learn the three distinct but interconnected dimensions of training that high-performing EA teams invest in.</description>
-      <guid isPermaLink="false">1a83bcac888852470e2c9d8348239041</guid>
-      <pubDate>Tue, 01 Jul 2025 12:27:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>M-Files Embeds Itself More Deeply Into The Microsoft Ecosystem (Source: www.forrester.com)</title>
-      <link>https://www.forrester.com/blogs/m-files-embeds-itself-more-deeply-into-the-microsoft-ecosystem/</link>
-      <description>Find out how M-Files’ deepening of its partnership with Microsoft will impact customers and the overall enterprise content management market.</description>
-      <guid isPermaLink="false">5d6bebb80c57c44b2b51d57bff40c88a</guid>
-      <pubDate>Tue, 01 Jul 2025 12:24:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>Factories, Foundries, Or Refineries? Seeking The Right Metaphor For Agentic AI (Source: www.forrester.com)</title>
-      <link>https://www.forrester.com/blogs/factories-foundries-or-refineries-seeking-the-right-metaphor-for-agentic-ai/</link>
-      <description>The critical question facing enterprise architects: How will you evolve your practice to manage AI’s inherent ambiguity, address human concerns around AI adoption, and architect systems that capture and leverage tacit knowledge?</description>
-      <guid isPermaLink="false">c0f6eb469031e9a993abf5f2bb86c6fc</guid>
-      <pubDate>Thu, 12 Jun 2025 02:04:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Architecture Executive Dashboard: Aligning Business Leaders With EA (Source: www.leanix.net)</title>
-      <link>https://www.leanix.net/en/blog/architecture-executive-dashboard</link>
+      <title>Diagram To Data: Leveraging AI’s Greatest Capability (Source: www.leanix.net)</title>
+      <link>https://www.leanix.net/en/blog/diagram-to-data</link>
       <description>&lt;div class="hs-featured-image-wrapper"&gt; 
- &lt;a href="https://www.leanix.net/en/blog/architecture-executive-dashboard" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/SAP%20LeanIX%20Architecture%20Executive%20Dashboard%20Aligning%20Business%20Leaders%20With%20EA.png" alt="SAP LeanIX Architecture Executive Dashboard: Aligning Business Leaders With EA" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+ &lt;a href="https://www.leanix.net/en/blog/diagram-to-data" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/Diagram%20To%20Data-%20Leveraging%20AI%E2%80%99s%20Greatest%20Capability.png" alt="Diagram To Data: Leveraging AI’s Greatest Capability" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
 &lt;/div&gt; 
-&lt;p&gt;&lt;em&gt;A key challenge for enterprise architects has always been achieving&amp;nbsp;alignment between&amp;nbsp;their business&amp;nbsp;leaders and&amp;nbsp;the aims, priorities, and progress of their work. To support you with this, we're introducing Architecture Executive Dashboards directly within SAP LeanIX.&lt;/em&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">3e28faea5a7b11c2a2fc6e0e3947bb82</guid>
-      <pubDate>Tue, 01 Jul 2025 09:15:00 +0000</pubDate>
+&lt;p&gt;&lt;em&gt;SAP LeanIX with AI can analyze your enterprise architecture diagrams and enable you to populate your information repository with extracted architectural elements. Discover this powerful new EA feature.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">a6a3529af2247a67d3fd480262ba2670</guid>
+      <pubDate>Tue, 18 Mar 2025 13:34:59 +0000</pubDate>
     </item>
     <item>
-      <title>Enterprise Architecture Today: Perception, Reality, and Opportunity [SURVEY] (Source: www.leanix.net)</title>
-      <link>https://www.leanix.net/en/blog/enterprise-architecture-today-perception-reality-and-opportunity-survey</link>
+      <title>Enterprise Architecture Data Quality With Calculations (Source: www.leanix.net)</title>
+      <link>https://www.leanix.net/en/blog/enterprise-architecture-data-calculations</link>
       <description>&lt;div class="hs-featured-image-wrapper"&gt; 
- &lt;a href="https://www.leanix.net/en/blog/enterprise-architecture-today-perception-reality-and-opportunity-survey" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/AI-Generated%20Media/Images/an%20enterprise%20architect%20and%20a%20business%20leader%20discussing%20strategy.jpeg" alt="Enterprise Architecture Today: Perception, Reality, and Opportunity [SURVEY]" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+ &lt;a href="https://www.leanix.net/en/blog/enterprise-architecture-data-calculations" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/SAP%20LeanIX%20Enterprise%20Architecture%20Data%20Quality%20With%20Calculations.png" alt="SAP LeanIX Enterprise Architecture Data Quality With Calculations" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
 &lt;/div&gt; 
-&lt;p&gt;Investment in enterprise architecture (EA) has increased over the last two years. That’s what 64% of respondents to a recently published survey by SAP LeanIX–&lt;a href="https://www.leanix.net/en/download/sap-leanix-ea-insights-2025"&gt;&lt;em&gt;EA Insights 2025&lt;/em&gt;&lt;/a&gt;–found. That’s good news and suggests that more and more companies have begun to recognize the of value effective enterprise architecture management.&lt;/p&gt;</description>
-      <guid isPermaLink="false">fe64a2abbaa0e4be6013b45e236213bb</guid>
-      <pubDate>Thu, 26 Jun 2025 13:00:00 +0000</pubDate>
+&lt;p&gt;&lt;em&gt;Enterprise architecture data quality is key for achieving data-driven insight into your IT landscape. Leverage the new calculations feature in SAP LeanIX to spare manual effort and improve data consistency.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">ce22c98718873199be439b3d5f57c42c</guid>
+      <pubDate>Tue, 15 Apr 2025 15:00:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>SAP LeanIX In A Nutshell With André Christ And Sam Masri (Source: www.leanix.net)</title>
+      <link>https://www.leanix.net/en/blog/sap-leanix-in-a-nutshell</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://www.leanix.net/en/blog/sap-leanix-in-a-nutshell" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/SAP%20LeanIX%20In%20A%20Nutshell%20with%20Andre%20Christ%20and%20Sam%20Masri.png" alt="SAP LeanIX In A Nutshell with Andre Christ and Sam Masri" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;div class="hs-video-widget"&gt; 
+ &lt;div class="hs-video-container" style="max-width: 1920px; margin: 0 auto;"&gt; 
+  &lt;div class="hs-video-wrapper" style="position: relative; height: 0; padding-bottom: 56.25%"&gt;  
+  &lt;/div&gt; 
+ &lt;/div&gt; 
+&lt;/div&gt; 
+&lt;p&gt;&lt;em&gt;What is SAP LeanIX? Watch Sam Masri sit down with LeanIX co-founder, André Christ, to go back to basics on what LeanIX is and what the future holds now it's part of SAP.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">d9cc973bb2379409b8417b492750b088</guid>
+      <pubDate>Tue, 13 May 2025 10:55:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Agents and Omnipresent AI: How SAP LeanIX and WalkMe Unleash Business AI (Source: www.leanix.net)</title>
+      <link>https://www.leanix.net/en/blog/ai-agents-and-omnipresent-ai-how-sap-leanix-and-walkme-unleash-business-ai</link>
+      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
+ &lt;a href="https://www.leanix.net/en/blog/ai-agents-and-omnipresent-ai-how-sap-leanix-and-walkme-unleash-business-ai" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/AI%20hub%20image.jpeg" alt="AI Agents and Omnipresent AI: How SAP LeanIX and WalkMe Unleash Business AI" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt;</description>
+      <guid isPermaLink="false">634705914ca1db875a23096277c9571c</guid>
+      <pubDate>Wed, 28 May 2025 06:00:00 +0000</pubDate>
     </item>
     <item>
       <title>SAP LeanIX GitHub Integration: Visibility On Self-Built Software (Source: www.leanix.net)</title>
@@ -447,49 +71,425 @@ Since the publication of the NIST Cybersecurity Framework (CSF), Version 2.0, th
       <pubDate>Wed, 28 May 2025 09:30:00 +0000</pubDate>
     </item>
     <item>
-      <title>AI Agents and Omnipresent AI: How SAP LeanIX and WalkMe Unleash Business AI (Source: www.leanix.net)</title>
-      <link>https://www.leanix.net/en/blog/ai-agents-and-omnipresent-ai-how-sap-leanix-and-walkme-unleash-business-ai</link>
+      <title>Enterprise Architecture Today: Perception, Reality, and Opportunity [SURVEY] (Source: www.leanix.net)</title>
+      <link>https://www.leanix.net/en/blog/enterprise-architecture-today-perception-reality-and-opportunity-survey</link>
       <description>&lt;div class="hs-featured-image-wrapper"&gt; 
- &lt;a href="https://www.leanix.net/en/blog/ai-agents-and-omnipresent-ai-how-sap-leanix-and-walkme-unleash-business-ai" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/AI%20hub%20image.jpeg" alt="AI Agents and Omnipresent AI: How SAP LeanIX and WalkMe Unleash Business AI" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
-&lt;/div&gt;</description>
-      <guid isPermaLink="false">634705914ca1db875a23096277c9571c</guid>
-      <pubDate>Wed, 28 May 2025 06:00:00 +0000</pubDate>
+ &lt;a href="https://www.leanix.net/en/blog/enterprise-architecture-today-perception-reality-and-opportunity-survey" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/AI-Generated%20Media/Images/an%20enterprise%20architect%20and%20a%20business%20leader%20discussing%20strategy.jpeg" alt="Enterprise Architecture Today: Perception, Reality, and Opportunity [SURVEY]" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+&lt;/div&gt; 
+&lt;p&gt;Investment in enterprise architecture (EA) has increased over the last two years. That’s what 64% of respondents to a recently published survey by SAP LeanIX–&lt;a href="https://www.leanix.net/en/download/sap-leanix-ea-insights-2025"&gt;&lt;em&gt;EA Insights 2025&lt;/em&gt;&lt;/a&gt;–found. That’s good news and suggests that more and more companies have begun to recognize the of value effective enterprise architecture management.&lt;/p&gt;</description>
+      <guid isPermaLink="false">fe64a2abbaa0e4be6013b45e236213bb</guid>
+      <pubDate>Thu, 26 Jun 2025 13:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>SAP LeanIX In A Nutshell With André Christ And Sam Masri (Source: www.leanix.net)</title>
-      <link>https://www.leanix.net/en/blog/sap-leanix-in-a-nutshell</link>
+      <title>Architecture Executive Dashboard: Aligning Business Leaders With EA (Source: www.leanix.net)</title>
+      <link>https://www.leanix.net/en/blog/architecture-executive-dashboard</link>
       <description>&lt;div class="hs-featured-image-wrapper"&gt; 
- &lt;a href="https://www.leanix.net/en/blog/sap-leanix-in-a-nutshell" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/SAP%20LeanIX%20In%20A%20Nutshell%20with%20Andre%20Christ%20and%20Sam%20Masri.png" alt="SAP LeanIX In A Nutshell with Andre Christ and Sam Masri" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
+ &lt;a href="https://www.leanix.net/en/blog/architecture-executive-dashboard" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/SAP%20LeanIX%20Architecture%20Executive%20Dashboard%20Aligning%20Business%20Leaders%20With%20EA.png" alt="SAP LeanIX Architecture Executive Dashboard: Aligning Business Leaders With EA" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
 &lt;/div&gt; 
-&lt;div class="hs-video-widget"&gt; 
- &lt;div class="hs-video-container" style="max-width: 1920px; margin: 0 auto;"&gt; 
-  &lt;div class="hs-video-wrapper" style="position: relative; height: 0; padding-bottom: 56.25%"&gt;  
-  &lt;/div&gt; 
- &lt;/div&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&lt;em&gt;What is SAP LeanIX? Watch Sam Masri sit down with LeanIX co-founder, André Christ, to go back to basics on what LeanIX is and what the future holds now it's part of SAP.&lt;/em&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">d9cc973bb2379409b8417b492750b088</guid>
-      <pubDate>Tue, 13 May 2025 10:55:31 +0000</pubDate>
+&lt;p&gt;&lt;em&gt;A key challenge for enterprise architects has always been achieving&amp;nbsp;alignment between&amp;nbsp;their business&amp;nbsp;leaders and&amp;nbsp;the aims, priorities, and progress of their work. To support you with this, we're introducing Architecture Executive Dashboards directly within SAP LeanIX.&lt;/em&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">3e28faea5a7b11c2a2fc6e0e3947bb82</guid>
+      <pubDate>Tue, 01 Jul 2025 09:15:00 +0000</pubDate>
     </item>
     <item>
-      <title>Enterprise Architecture Data Quality With Calculations (Source: www.leanix.net)</title>
-      <link>https://www.leanix.net/en/blog/enterprise-architecture-data-calculations</link>
-      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
- &lt;a href="https://www.leanix.net/en/blog/enterprise-architecture-data-calculations" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/SAP%20LeanIX%20Enterprise%20Architecture%20Data%20Quality%20With%20Calculations.png" alt="SAP LeanIX Enterprise Architecture Data Quality With Calculations" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&lt;em&gt;Enterprise architecture data quality is key for achieving data-driven insight into your IT landscape. Leverage the new calculations feature in SAP LeanIX to spare manual effort and improve data consistency.&lt;/em&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">ce22c98718873199be439b3d5f57c42c</guid>
-      <pubDate>Tue, 15 Apr 2025 15:00:31 +0000</pubDate>
+      <title>Factories, Foundries, Or Refineries? Seeking The Right Metaphor For Agentic AI (Source: www.forrester.com)</title>
+      <link>https://www.forrester.com/blogs/factories-foundries-or-refineries-seeking-the-right-metaphor-for-agentic-ai/</link>
+      <description>The critical question facing enterprise architects: How will you evolve your practice to manage AI’s inherent ambiguity, address human concerns around AI adoption, and architect systems that capture and leverage tacit knowledge?</description>
+      <guid isPermaLink="false">c0f6eb469031e9a993abf5f2bb86c6fc</guid>
+      <pubDate>Thu, 12 Jun 2025 02:04:05 +0000</pubDate>
     </item>
     <item>
-      <title>Diagram To Data: Leveraging AI’s Greatest Capability (Source: www.leanix.net)</title>
-      <link>https://www.leanix.net/en/blog/diagram-to-data</link>
-      <description>&lt;div class="hs-featured-image-wrapper"&gt; 
- &lt;a href="https://www.leanix.net/en/blog/diagram-to-data" title="" class="hs-featured-image-link"&gt; &lt;img src="https://www.leanix.net/hubfs/Diagram%20To%20Data-%20Leveraging%20AI%E2%80%99s%20Greatest%20Capability.png" alt="Diagram To Data: Leveraging AI’s Greatest Capability" class="hs-featured-image" style="width:auto !important; max-width:50%; float:left; margin:0 15px 15px 0;"&gt; &lt;/a&gt; 
-&lt;/div&gt; 
-&lt;p&gt;&lt;em&gt;SAP LeanIX with AI can analyze your enterprise architecture diagrams and enable you to populate your information repository with extracted architectural elements. Discover this powerful new EA feature.&lt;/em&gt;&lt;/p&gt;</description>
-      <guid isPermaLink="false">a6a3529af2247a67d3fd480262ba2670</guid>
-      <pubDate>Tue, 18 Mar 2025 13:34:59 +0000</pubDate>
+      <title>M-Files Embeds Itself More Deeply Into The Microsoft Ecosystem (Source: www.forrester.com)</title>
+      <link>https://www.forrester.com/blogs/m-files-embeds-itself-more-deeply-into-the-microsoft-ecosystem/</link>
+      <description>Find out how M-Files’ deepening of its partnership with Microsoft will impact customers and the overall enterprise content management market.</description>
+      <guid isPermaLink="false">5d6bebb80c57c44b2b51d57bff40c88a</guid>
+      <pubDate>Tue, 01 Jul 2025 12:24:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>Training Architects Has Never Been So Important — Here’s Why (Source: www.forrester.com)</title>
+      <link>https://www.forrester.com/blogs/training-architects-has-never-been-so-important-heres-why/</link>
+      <description>Many enterprise architecture teams are unable to scale their impact or evolve their practices due to a growing skills gap. Learn the three distinct but interconnected dimensions of training that high-performing EA teams invest in.</description>
+      <guid isPermaLink="false">1a83bcac888852470e2c9d8348239041</guid>
+      <pubDate>Tue, 01 Jul 2025 12:27:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>AWARD WINNERS ANNOUNCED | The Open Group Asia Pacific Awards 2024 (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2024/12/17/award-winners-announced-the-open-group-asia-pacific-awards-2024/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=award-winners-announced-the-open-group-asia-pacific-awards-2024</link>
+      <description>&lt;p&gt;On November 22, 2024, The Open Group Asia Pacific Awards 2024 China was held at the China World Summit Wing Hotel in Beijing, which aims to recognize organizations that have achieved excellence in the field of open architecture standards and open source software applications.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2024/12/17/award-winners-announced-the-open-group-asia-pacific-awards-2024/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2024/12/17/award-winners-announced-the-open-group-asia-pacific-awards-2024/"&gt;AWARD WINNERS ANNOUNCED | The Open Group Asia Pacific Awards 2024&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">8de156af8d41a3907aedaf880eebf055</guid>
+      <pubDate>Tue, 17 Dec 2024 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Leads the Digital Future: The Open Group Beijing Conference Highlights (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2024/12/19/ai-leads-the-digital-future-the-open-group-beijing-conference-highlights/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=ai-leads-the-digital-future-the-open-group-beijing-conference-highlights</link>
+      <description>&lt;p&gt;On November 22, 2024, the highly anticipated annual conference of The Open Group 2024 Ecosystem Architecture Sustainability Annual Conference was unveiled at the China World Summit Wing in Beijing. As a premier event in the field of digital transformation, this conference brings together the world's most influential experts, scholars, technology leaders, and industry pioneers. &lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2024/12/19/ai-leads-the-digital-future-the-open-group-beijing-conference-highlights/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2024/12/19/ai-leads-the-digital-future-the-open-group-beijing-conference-highlights/"&gt;AI Leads the Digital Future: The Open Group Beijing Conference Highlights&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">441ff1bb74100eb5a01f7b794adebdd2</guid>
+      <pubDate>Thu, 19 Dec 2024 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sitting Down With Jamie Cruise, Vendor Representative, The Open Group OSDU® Management Committee (OMC) (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2024/12/24/sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;Recently, we reached out to Jamie Cruise of SLB, to discuss his role as a vendor representative to The Open Group OSDU® Management Committee.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2024/12/24/sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2024/12/24/sitting-down-with-jamie-cruise-vendor-representative-the-open-group-osdu-management-committee-omc/"&gt;Sitting Down With Jamie Cruise, Vendor Representative, The Open Group OSDU® Management Committee (OMC)&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">0fac29db980562ba3b2440fc8d02fd9b</guid>
+      <pubDate>Tue, 24 Dec 2024 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Open Group – 2024 and Looking Forward to 2025 (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/01/07/the-open-group-2024-and-looking-forward-to-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-2024-and-looking-forward-to-2025</link>
+      <description>&lt;p&gt;By Steve Nunn, President &amp;#038; CEO of The Open Group&lt;/p&gt;
+&lt;p&gt;As we step into 2025, it is a good time to reflect on the achievements and progress made during what has been a truly productive year for The Open Group. A key priority of the organization is to bring people together—whether physically or virtually—and this year has been a great example of the positive impact of collaboration.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/01/07/the-open-group-2024-and-looking-forward-to-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/01/07/the-open-group-2024-and-looking-forward-to-2025/"&gt;The Open Group – 2024 and Looking Forward to 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">20dc7974f182bcd752a3cc7867ba2846</guid>
+      <pubDate>Tue, 07 Jan 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chris Frost, Fujitsu, is the New Chair of The Open Group Governing Board (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/01/14/chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;We are thrilled to announce that Chris Frost of Fujitsu is now Chair of The Open Group Governing Board. We spoke with him about what it means to be a part of this, his career journey, and much more.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/01/14/chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/01/14/chris-frost-fujitsu-is-the-new-chair-the-open-group-governing-board/"&gt;Chris Frost, Fujitsu, is the New Chair of The Open Group Governing Board&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">9cb63e048daeaf69fe604ccbdb635ff4</guid>
+      <pubDate>Tue, 14 Jan 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Open Group Virtual Event Highlights – February 3-4, 2025 (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/02/06/the-open-group-virtual-event-highlights-february-3-4-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-virtual-event-highlights-february-3-4-2025</link>
+      <description>&lt;p&gt;By Ash Patel CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;The Open Group hosted its recent virtual event, From Ideation, Through Innovation, Into Implementation on February 3-4, 2025, uniting global thought leaders and innovators for two days of transformative discussions. The event spotlighted key advancements in Open Standards Initiatives and showcased the pioneering efforts of The Open Group SOSA® Consortium.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/02/06/the-open-group-virtual-event-highlights-february-3-4-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/02/06/the-open-group-virtual-event-highlights-february-3-4-2025/"&gt;The Open Group Virtual Event Highlights – February 3-4, 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">95fb3c6d29ac0ccffb4cbcbc5f9428c2</guid>
+      <pubDate>Thu, 06 Feb 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sitting Down With Huub Streng, Chair of The Open Group OSDU® Management Committee (OMC) (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/02/25/sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;Recently, we reached out to Huub Streng of TotalEnergies to discuss his role as the newly appointed chair to The Open Group OSDU® Management Committee. Huub Strengserves as the OSDU Data Platform Advisor at TotalEnergies. His responsibilities include representing the company at the OSDU Forum, where he is engaging as both co-chair and active contributor across multiple Working Groups.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/02/25/sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/02/25/sitting-down-with-huub-streng-chair-of-the-open-group-osdu-management-committee-omc/"&gt;Sitting Down With Huub Streng, Chair of The Open Group OSDU® Management Committee (OMC)&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">7cab12f2712a64cd2d88dda688dd38be</guid>
+      <pubDate>Tue, 25 Feb 2025 15:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Open Group at the Reading Museum DIGITAL Revolution Exhibition (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/03/18/the-open-group-at-the-reading-museum-digital-revolution-exhibition/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-at-the-reading-museum-digital-revolution-exhibition</link>
+      <description>&lt;p&gt;By Oliver David, Marketing Manager, The Open Group.&lt;/p&gt;
+&lt;p&gt;The Open Group participated in the DIGITAL Revolution exhibition at the Reading Museum, celebrating the 60th anniversary of Reading's transformation into a digital hub.&lt;/p&gt;
+&lt;p&gt;The exhibition opened to the public Tuesday, March 18 and runs until December 24, 2025. It honors the town's incredible tech journey, starting with the arrival of Digital Equipment Corporation (DEC) in the town in 1964, and highlights its lasting impact on the region’s ICT industry.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/03/18/the-open-group-at-the-reading-museum-digital-revolution-exhibition/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/03/18/the-open-group-at-the-reading-museum-digital-revolution-exhibition/"&gt;The Open Group at the Reading Museum DIGITAL Revolution Exhibition&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">7ccc3dd075c159506e7b297eec3a25df</guid>
+      <pubDate>Tue, 18 Mar 2025 15:30:03 +0000</pubDate>
+    </item>
+    <item>
+      <title>Innovation at The Open Group: A Legacy of Leadership (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/04/03/innovation-at-the-open-group-a-legacy-of-leadership/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=innovation-at-the-open-group-a-legacy-of-leadership</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;For decades, The Open Group has been an innovation leader, providing globally recognized standards, tools, and frameworks that help organizations turn ideas into actionable strategies. Milestones like the TOGAF® Standard, a Standard of The Open Group and the ArchiMate® Modeling Language have redefined Enterprise Architecture, enabling organizations to design and implement transformative systems effectively.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/03/innovation-at-the-open-group-a-legacy-of-leadership/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/03/innovation-at-the-open-group-a-legacy-of-leadership/"&gt;Innovation at The Open Group: A Legacy of Leadership&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">18fb04242d22a9a806b2c30278fd7ac2</guid>
+      <pubDate>Thu, 03 Apr 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sitting Down with Kadri Umay, Elected CSP Representative, The Open Group OSDU® Management Committee (OMC) (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/04/08/sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;Recently we reached out to Kadri Umay (Microsoft), to discuss his role as an elected CSP Representative to The Open Group OSDU® Management Committee.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/08/sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/08/sitting-down-with-kadri-umay-elected-csp-representative-the-open-group-osdu-management-committee-omc/"&gt;Sitting Down with Kadri Umay, Elected CSP Representative, The Open Group OSDU® Management Committee (OMC)&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">e2a406c5058d7e0566cdb2408e497eff</guid>
+      <pubDate>Tue, 08 Apr 2025 14:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Lifelong Learning Program (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/04/15/introducing-the-lifelong-learning-program/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=introducing-the-lifelong-learning-program</link>
+      <description>&lt;p&gt;By Corinne Brouch, Director Learning and Certifications&lt;/p&gt;
+&lt;p&gt;The Open Group is glad to announce the launch of our Lifelong Learning program, which will enable professionals and individuals to upskill and reskill on topics supported by official publications.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/15/introducing-the-lifelong-learning-program/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/15/introducing-the-lifelong-learning-program/"&gt;Introducing the Lifelong Learning Program&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">77f74303e9e05420563e059dcea5a150</guid>
+      <pubDate>Tue, 15 Apr 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Comments Rewind: Navigating the Oil and Gas Industry With AI and Real-Time Data (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/04/17/open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP), Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;The oil and gas industry stands on the brink of a transformation, and data standards are the linchpins in this evolutionary phase. Pablo Perez of the Energistics® Consortium, an affiliate of The Open Group, provides a riveting conversation on our podcast, taking listeners from his early days in Venezuela to the pivotal role he plays in shaping data communication and transfer within the sector.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/17/open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/17/open-comments-rewind-navigating-the-oil-and-gas-industry-with-ai-and-real-time-data/"&gt;Open Comments Rewind: Navigating the Oil and Gas Industry With AI and Real-Time Data&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">b5fbe60a1e582d38e7e0973016376573</guid>
+      <pubDate>Thu, 17 Apr 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Earth Day and Enabling the Shift to Clean Energy through Standards (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/04/22/earth-day-and-enabling-the-shift-to-clean-energy-through-standards/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=earth-day-and-enabling-the-shift-to-clean-energy-through-standards</link>
+      <description>&lt;p&gt;By Jim Hietala, VP, Sustainability and Market Development&lt;/p&gt;
+&lt;p&gt;This year's Earth Day theme is "Our Power, Our Planet". The goal is to help accelerate the global generation and availability of clean energy, including renewable energy sources such as solar, wind, hydroelectric, geothermal, and tidal.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/22/earth-day-and-enabling-the-shift-to-clean-energy-through-standards/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/22/earth-day-and-enabling-the-shift-to-clean-energy-through-standards/"&gt;Earth Day and Enabling the Shift to Clean Energy through Standards&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">f19ad2db898d7248e9560f385d04c874</guid>
+      <pubDate>Tue, 22 Apr 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Achieving Business Goals While Safeguarding Your Data (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/04/29/achieving-business-goals-while-safeguarding-your-data/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=achieving-business-goals-while-safeguarding-your-data</link>
+      <description>&lt;p&gt;Modern organizations today rely heavily on data to keep their businesses running. Many times, they may not even realize just how much information flows internally and through third parties to maintain ongoing efficiency. From finance departments and product development teams to sales and marketing, access to data is fundamental for making critical decisions and driving operations.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/04/29/achieving-business-goals-while-safeguarding-your-data/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/04/29/achieving-business-goals-while-safeguarding-your-data/"&gt;Achieving Business Goals While Safeguarding Your Data&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">1b7b1f9579e56c727f8e1e10db950e59</guid>
+      <pubDate>Tue, 29 Apr 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Comments Rewind: Charting a Course from Music to Cybersecurity Mastery with John Feezell (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/05/13/open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;Navigating a career change from the arts to the analytical world of IT and cybersecurity can seem daunting. Yet, John Feezell’s journey exemplifies that with the right mix of passion and continuous learning, such transitions can lead to mastery and leadership in the new field.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/13/open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/13/open-comments-rewind-charting-a-course-from-music-to-cybersecurity-mastery-with-john-feezell/"&gt;Open Comments Rewind: Charting a Course from Music to Cybersecurity Mastery with John Feezell&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">779e530819df163ead30f32015e52c27</guid>
+      <pubDate>Tue, 13 May 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Celebrating Milestones: The Open Group FACE® Consortium at 15 and The Open Group SOSA® Consortium at 10 (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/05/20/celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;Innovation and collaboration have long driven progress in the aerospace and defense sectors, shaping the technologies and practices that ensure safety, efficiency, and interoperability. This year marks two significant anniversaries that exemplify these principles: the 15th anniversary of The Open Group FACE® Consortium and the 10th anniversary of The Open Group SOSA® Consortium. These milestones offer an opportunity to reflect on their journeys, achievements, and the collective future they promise.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/20/celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/20/celebrating-milestones-the-open-group-face-consortium-at-15-and-the-open-group-sosa-consortium-at-10/"&gt;Celebrating Milestones: The Open Group FACE® Consortium at 15 and The Open Group SOSA® Consortium at 10&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">aab2395e87b3ed4a7421a59328467010</guid>
+      <pubDate>Tue, 20 May 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Exciting Updates for the Open FAIR™ Body of Knowledge and Certification Program (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/05/22/exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program</link>
+      <description>&lt;p&gt;By John Linford, Security Portfolio Director, The Open Group, and Corinne Brouch, Director Learning and Certifications, The Open Group.&lt;br /&gt;
+Since the publication of the NIST Cybersecurity Framework (CSF), Version 2.0, the Security Forum has been working to understand the implications of changes to the CSF and making changes to The Open Group Open FAIR™ Body of Knowledge to ensure consistency with the changes.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/22/exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/22/exciting-updates-for-the-open-fair-body-of-knowledge-and-certification-program/"&gt;Exciting Updates for the Open FAIR™ Body of Knowledge and Certification Program&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">26f4399b8a31235880a31a6afaa16ea8</guid>
+      <pubDate>Thu, 22 May 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Open Group Summit Highlights – Amsterdam, – May 19 – 22, 2025 (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/05/27/the-open-group-summit-highlights-amsterdam-may-19-22-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=the-open-group-summit-highlights-amsterdam-may-19-22-2025</link>
+      <description>&lt;p&gt;By Ash Patel - CDMP - Certified Copywriter (CMP) – CDMA, Marketing Specialist,  The Open Group&lt;/p&gt;
+&lt;p&gt;The Open Group Summit took place at the Amsterdam Congress Center, bringing together over 470 attendees including distinguished experts, visionary industry leaders, and seasoned practitioners from diverse fields including AI, Sustainability, Digital Transformation, and Ecosystems Architecture. As next-generation AI technologies redefine the boundaries of possibility, R&amp;#038;D-driven organizations are channelling significant resources into developing advanced foundation models while technology providers focus on embedding AI into transformative end-user applications.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/05/27/the-open-group-summit-highlights-amsterdam-may-19-22-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/05/27/the-open-group-summit-highlights-amsterdam-may-19-22-2025/"&gt;The Open Group Summit Highlights – Amsterdam, – May 19 – 22, 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">0b32cd7bccd33602c4fd0f98e3475d07</guid>
+      <pubDate>Tue, 27 May 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Outstanding Contribution Award Winners for The Open Group OSDU® Forum May 2025 (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/06/10/outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) – CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;During The Open Group Amsterdam Summit in May 2025, we were thrilled to announce the winners of the Spring 2025 OSDU® Forum Outstanding Contribution Awards.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/06/10/outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/06/10/outstanding-contribution-award-winners-for-the-open-group-osdu-forum-may-2025/"&gt;Outstanding Contribution Award Winners for The Open Group OSDU® Forum May 2025&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">6412a589abc4329e35ae9f7ebf367c37</guid>
+      <pubDate>Tue, 10 Jun 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sitting Down with Pierrick Gaudin from TotalEnergies, New Chair of the PMC for the OSDU® Forum (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/06/12/sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum</link>
+      <description>&lt;p&gt;By Ash Patel - CDMP - Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;br /&gt;
+Recently we reached out to Pierrick Gaudin from TotalEnergies, to discuss his role as the New Chair of the PMC for The Open Group OSDU® Forum.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/06/12/sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/06/12/sitting-down-with-pierrick-gaudin-from-totalenergies-new-chair-of-the-pmc-for-the-osdu-forum/"&gt;Sitting Down with Pierrick Gaudin from TotalEnergies, New Chair of the PMC for the OSDU® Forum&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">97de315737a1f989ae72ef9f9c96d5c5</guid>
+      <pubDate>Thu, 12 Jun 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Comments Rewind: Collaborative Evolution Shaping Industry Standards with Roberto Severo (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/06/17/open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo</link>
+      <description>&lt;p&gt;By Ash Patel – CDMP – Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;In this enlightening episode, we dive into the world of leadership, resilience, and cultural nuances with Roberto Severo, Country Manager for The Open Group in Brazil, Colombia, and Peru. Roberto's journey in the IT industry is a testament to the power of adaptation and the importance of understanding cultural dynamics.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/06/17/open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/06/17/open-comments-rewind-collaborative-evolution-shaping-industry-standards-with-roberto-severo/"&gt;Open Comments Rewind: Collaborative Evolution Shaping Industry Standards with Roberto Severo&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">f2d12227f3f22074f2eed0da90366768</guid>
+      <pubDate>Tue, 17 Jun 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Navigating the TOGAF® Standard, 10th Edition: Updates and Insights (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/07/01/navigating-the-togaf-standard-10th-edition-updates-and-insights/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=navigating-the-togaf-standard-10th-edition-updates-and-insights</link>
+      <description>&lt;p&gt;By Andrew Josey, VP, Standards &amp;#038; Certification, The Open Group&lt;/p&gt;
+&lt;p&gt;The TOGAF® Standard,10th Edition was introduced in April 2022, and expanded the material available to architecture practitioners making adoption of best practices easier. This article gives a roundup of the latest changes to the standard since its introduction, and the ecosystem around it.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/07/01/navigating-the-togaf-standard-10th-edition-updates-and-insights/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/07/01/navigating-the-togaf-standard-10th-edition-updates-and-insights/"&gt;Navigating the TOGAF® Standard, 10th Edition: Updates and Insights&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">e45718f4bca2ca3a8cdbe824527ddda8</guid>
+      <pubDate>Tue, 01 Jul 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sitting Down with Dr. Darren Pulsipher from Intel Corporation, Chair of the Government EA Work Group (Source: blog.opengroup.org)</title>
+      <link>https://blog.opengroup.org/2025/07/08/sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group</link>
+      <description>&lt;p&gt;By Ash Patel - CDMP - Certified Copywriter (CMP) - CDMA, Marketing Specialist, The Open Group&lt;/p&gt;
+&lt;p&gt;Recently we reached out to Dr. Darren Pulsipher from Intel Corporation, to discuss his role as the Chair of the Government EA Work Group.&lt;/p&gt;&lt;/div&gt;
+&lt;div class="read-more"&gt;&lt;a href="https://blog.opengroup.org/2025/07/08/sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group/" class="more-link"&gt;Continue reading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://blog.opengroup.org/2025/07/08/sitting-down-with-dr-darren-pulsipher-from-intel-corporation-chair-of-the-government-ea-working-group/"&gt;Sitting Down with Dr. Darren Pulsipher from Intel Corporation, Chair of the Government EA Work Group&lt;/a&gt; first appeared on &lt;a href="https://blog.opengroup.org"&gt;The Open Group Blog&lt;/a&gt;.&lt;/p&gt;</description>
+      <guid isPermaLink="false">feb4e2adb385f8671574d263448e8b8e</guid>
+      <pubDate>Tue, 08 Jul 2025 13:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Digital Complexity Is Outpacing Strategic Planning (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/how-digital-complexity-is-outpacing-strategic-planning/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/04/how-digital-complexity-is-outpacing-strategic-planning-390x390.jpeg" class="webfeedsFeaturedVisual wp-post-image" alt="How Digital Complexity Is Outpacing Strategic Planning" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/how-digital-complexity-is-outpacing-strategic-planning/"&gt;How Digital Complexity Is Outpacing Strategic Planning&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Digital transformation has become synonymous with progress. Every new platform promises agility, every integration the potential to scale, and every cloud migration a faster path to innovation. But beneath the surface of this rapid evolution lies a growing problem: Digital complexity is compounding—faster than most organizations can strategically manage What started as a push to...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/how-digital-complexity-is-outpacing-strategic-planning/"&gt;How Digital Complexity Is Outpacing Strategic Planning&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">9e41ea779cba86500ec3fd7e8b31e2e1</guid>
+      <pubDate>Wed, 30 Apr 2025 14:36:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>2025 State of Enterprise Architecture report – New findings (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/2025-state-of-enterprise-architecture-report-new-findings/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/04/featured-image-state-of-EA-2025-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/2025-state-of-enterprise-architecture-report-new-findings/"&gt;2025 State of Enterprise Architecture report &amp;#8211; New findings&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Putting strategy into practice It’s no good having a strategy if you can’t execute on it. This year, for our fifth annual State of Enterprise Architecture report, we quizzed organizations on their ability to bring about change. In particular, we focused on how well they understand their capabilities and their insight into IT sustainability. We...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/2025-state-of-enterprise-architecture-report-new-findings/"&gt;2025 State of Enterprise Architecture report &amp;#8211; New findings&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">b664af777ca631ba8480c560aa1d518f</guid>
+      <pubDate>Thu, 17 Apr 2025 09:00:40 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building the Future: Strategy, Growth, and Vision for 2025 (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/building-the-future-strategy-growth-and-vision-for-2025/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/04/Blog-visual-illustration-Strategy-Growth-Vision-Bert_webp-390x390.webp" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/building-the-future-strategy-growth-and-vision-for-2025/"&gt;Building the Future: Strategy, Growth, and Vision for 2025&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;It’s been a great first quarter, and I’d like to take a moment to reflect on all that we’ve achieved since bringing together three market leaders in Enterprise Architecture. The merger of Bizzdesign, MEGA, and Alfabet has created a powerful force in the industry &amp;#8211; one that’s already delivering results. Together, we’re building something new:...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/building-the-future-strategy-growth-and-vision-for-2025/"&gt;Building the Future: Strategy, Growth, and Vision for 2025&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">bc4679fafdc7c39e4fab77da031e9f9d</guid>
+      <pubDate>Thu, 10 Apr 2025 14:28:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Digitalization and the Need for Speed (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/digitalization-and-the-need-for-speed/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2025/03/26-03-2025-blog-content-Nick-Reed-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/digitalization-and-the-need-for-speed/"&gt;Digitalization and the Need for Speed&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Many organizations are prioritizing a robust digital strategy that emphasizes agility and technological acceleration. The speed of digital innovation enables businesses to streamline operations and adopt digital solutions that enhance efficiency. As companies move toward digital maturity, they are challenged to achieve digital transformation while scaling their initiatives effectively. As companies progress toward digital maturity,...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/digitalization-and-the-need-for-speed/"&gt;Digitalization and the Need for Speed&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">e9f5217700bf656d17c0fe227a588675</guid>
+      <pubDate>Thu, 27 Mar 2025 10:00:53 +0000</pubDate>
+    </item>
+    <item>
+      <title>The evolution of Enterprise Architecture in business transformation (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/enterprise-architecture-in-business-transformation/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/10/nickreed2-adjust-jm-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/enterprise-architecture-in-business-transformation/"&gt;The evolution of Enterprise Architecture in business transformation&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Quick Links: Introduction Drivers of business change The complexity challenge The power of a model-driven approach The evolution of Enterprise Architecture Core value streams in business transformation The future of business transformation 1.  Introduction Organizations of all sizes and industries face an increasingly complex and rapidly changing business environment that may hinder successful business transformation....&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/enterprise-architecture-in-business-transformation/"&gt;The evolution of Enterprise Architecture in business transformation&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">70ffe6f07956a259af98ce92a47c085e</guid>
+      <pubDate>Wed, 02 Oct 2024 06:11:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>What drives the success of top Enterprise Architecture teams? (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/what-drives-the-success-of-top-enterprise-architecture-teams/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/09/blog-content-marc-lankhorst-09-09-2024-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/what-drives-the-success-of-top-enterprise-architecture-teams/"&gt;What drives the success of top Enterprise Architecture teams?&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Earlier this year, Bizzdesign released the State of Enterprise Architecture 2024 report, quickly becoming a definitive source for industry insights. This comprehensive research, based on a survey of over 500 Enterprise and Solution Architects worldwide, provides an in-depth look into our field&amp;#8217;s current trends and practices. Our enterprise architecture research report aimed to assess the...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/what-drives-the-success-of-top-enterprise-architecture-teams/"&gt;What drives the success of top Enterprise Architecture teams?&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">ca8e8e587480c800032b5255c5199199</guid>
+      <pubDate>Tue, 10 Sep 2024 11:00:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>Game-changing Enterprise Architecture Generative AI features you can’t miss! (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/bizzdesign-horizzon-generative-ai-features/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/09/blog-content-mark-peters-09-09-2024-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="new ai features bizzdesign horizzon" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/bizzdesign-horizzon-generative-ai-features/"&gt;Game-changing Enterprise Architecture Generative AI features you can&amp;#8217;t miss!&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Bizzdesign&amp;#8217;s Generative AI features are designed to maximize business value and drive greater efficiency. Available as part of the Bizzdesign AI SmartPack in Horizzon: the How-to Coach and the Diagram Describer enhance productivity by streamlining onboarding and automating documentation processes. They allow users to take advantage of our platform&amp;#8217;s full potential and generate enterprise architecture...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/bizzdesign-horizzon-generative-ai-features/"&gt;Game-changing Enterprise Architecture Generative AI features you can&amp;#8217;t miss!&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">db5d6a4a62a6cc3e0860fa73988b6e7a</guid>
+      <pubDate>Mon, 09 Sep 2024 16:23:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unveiling the Enterprise Architecture trends report! (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/2024-enterprise-architecture-insights/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/05/blog-content-marc-lankhorst-16-05-2024-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/2024-enterprise-architecture-insights/"&gt;Unveiling the Enterprise Architecture trends report!&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;In the last few years, we’ve seen extraordinary changes in technology with the rise of generative AI. As a result of health emergencies, conflict, and extreme weather, supply chains have been interrupted. Costs have been rising across the economy. It’s clear that now, more than ever, organizations must be able to adapt and innovate. Each...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/2024-enterprise-architecture-insights/"&gt;Unveiling the Enterprise Architecture trends report!&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">630e060d2c1d1b1771c5c31a9951936d</guid>
+      <pubDate>Wed, 15 May 2024 15:15:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Step-by-step: How to develop Enterprise Architecture Services (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/step-by-step-how-to-develop-enterprise-architecture-services/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/04/blog-content-dan-belville-09-04-2024-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/step-by-step-how-to-develop-enterprise-architecture-services/"&gt;Step-by-step: How to develop Enterprise Architecture Services&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Agile enterprise architecture management practices may want to consider developing repeatable Enterprise Architecture Services. This would allow consumers of those services (e.g., internal customers of enterprise architecture) to concentrate on their top priorities – running and improving their business – while being able to call on well-defined, expert services with clear value propositions and rules...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/step-by-step-how-to-develop-enterprise-architecture-services/"&gt;Step-by-step: How to develop Enterprise Architecture Services&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">fdb216f5cec1f8a4a5c07019c2ee7667</guid>
+      <pubDate>Fri, 19 Apr 2024 14:00:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AtkinsRéalis creates shared value between solution and enterprise architecture (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/how-atkinsrealis-creates-shared-value-between-solution-and-enterprise-architecture/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2024/02/blog-content-james-goodwin-01-03-2024-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/how-atkinsrealis-creates-shared-value-between-solution-and-enterprise-architecture/"&gt;How AtkinsRéalis creates shared value between solution and enterprise architecture&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To effectively navigate changes, Enterprise and Solution Architecture teams need to collaborate to enhance an organization’s architectural agility and ensure a competitive edge. Ensuring that these teams coexist and complement each other to drive business value is often easier said than done. Successful collaboration can be achieved by carefully managing touchpoints or points of interaction...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/how-atkinsrealis-creates-shared-value-between-solution-and-enterprise-architecture/"&gt;How AtkinsRéalis creates shared value between solution and enterprise architecture&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">788866f54aaf85608fa6fb55afd819e7</guid>
+      <pubDate>Thu, 29 Feb 2024 22:45:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Charting new courses: Bizzdesign’s bold year redefining Enterprise Architecture boundaries (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/charting-new-courses-bizzdesigns-bold-year-redefining-enterprise-architecture-boundaries/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2023/12/blog-content-bert-van-der-zwan-20-12-2023-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/charting-new-courses-bizzdesigns-bold-year-redefining-enterprise-architecture-boundaries/"&gt;Charting new courses: Bizzdesign&amp;#8217;s bold year redefining Enterprise Architecture boundaries&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;We’ve had a big year at Bizzdesign where we’ve significantly impacted the Enterprise Architecture industry. Together with our customers, we’ve facilitated transformation journeys that have propelled significant growth and innovation – not only for our customers but also for us. Our customers have repeatedly demonstrated that you can facilitate significant transformational change and measurable outcomes...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/charting-new-courses-bizzdesigns-bold-year-redefining-enterprise-architecture-boundaries/"&gt;Charting new courses: Bizzdesign&amp;#8217;s bold year redefining Enterprise Architecture boundaries&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">55bc78d19367bf7caec5e7503f884edf</guid>
+      <pubDate>Thu, 21 Dec 2023 08:05:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bizzdesign positioned highest for Completeness of Vision in 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/bizzdesign-positioned-highest-for-completeness-of-vision-in-2023-gartner-magic-quadrant-for-enterprise-architecture-tools/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2023/11/blog-content-nick-reed-22-11-2023-01-390x390.png" class="webfeedsFeaturedVisual wp-post-image" alt="" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/bizzdesign-positioned-highest-for-completeness-of-vision-in-2023-gartner-magic-quadrant-for-enterprise-architecture-tools/"&gt;Bizzdesign positioned highest for Completeness of Vision in 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools has been published, with Bizzdesign positioned as a Leader for the eight consecutive year. We are also proud to be positioned highest for Completeness of Vision, which we see as an acknowledgement of our unwavering commitment to understanding the needs of our customers in an evolving...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/bizzdesign-positioned-highest-for-completeness-of-vision-in-2023-gartner-magic-quadrant-for-enterprise-architecture-tools/"&gt;Bizzdesign positioned highest for Completeness of Vision in 2023 Gartner® Magic Quadrant™ for Enterprise Architecture Tools&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">cfbfe390dd5f9c55585cf9254a69baea</guid>
+      <pubDate>Wed, 22 Nov 2023 16:05:28 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Office vs enterprise architecture tools: Consider this (Source: bizzdesign.com)</title>
+      <link>https://bizzdesign.com/blog/microsoft-office-vs-enterprise-architecture-tools-consider-this/</link>
+      <description>&lt;img width="390" height="390" src="https://bizzdesign.com/wp-content/uploads/2023/11/blog-content-marc-lankhorst-06-11-2023-01-390x390.jpg" class="webfeedsFeaturedVisual wp-post-image" alt="Bizzdesign Enterprise architecture tools vs microsoft office" style="float: left; margin-right: 5px;" link_thumbnail="" decoding="async" loading="lazy" /&gt;&lt;p&gt;&lt;a href="https://bizzdesign.com/blog/microsoft-office-vs-enterprise-architecture-tools-consider-this/"&gt;Microsoft Office vs enterprise architecture tools: Consider this&lt;/a&gt; Latest news from (my website): &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;At Bizzdesign, we’ve had many engagements throughout the years where we were brought in to breathe new life into failing enterprise architecture initiatives. A common denominator across many projects was replacing Microsoft Office with enterprise architecture tools — specifically, a trinity comprising Visio, Excel, and PowerPoint. In our experience, many organizations find it appropriate to...&lt;/p&gt;
+&lt;p&gt;The post &lt;a href="https://bizzdesign.com/blog/microsoft-office-vs-enterprise-architecture-tools-consider-this/"&gt;Microsoft Office vs enterprise architecture tools: Consider this&lt;/a&gt; appeared first on &lt;a href="https://bizzdesign.com"&gt;Bizzdesign&lt;/a&gt;&lt;/p&gt;</description>
+      <guid isPermaLink="false">835741c916644c7bbfa603d0ed377b48</guid>
+      <pubDate>Mon, 06 Nov 2023 13:46:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Enterprise Architects Really Do and Why More Women Should Be Doing It (Source: eapj.org)</title>
+      <link>https://eapj.org/what-enterprise-architects-really-do-and-why-more-women-should-be-doing-it/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=what-enterprise-architects-really-do-and-why-more-women-should-be-doing-it</link>
+      <description>by Nadzeya Stalbouskaya Introduction: The Role No One Talks About...</description>
+      <guid isPermaLink="false">abbcab99e892c114d074519dfc30089a</guid>
+      <pubDate>Mon, 07 Jul 2025 03:37:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Fragmentation to Flow: How Enterprise Architecture Anchors ERP Execution (Source: eapj.org)</title>
+      <link>https://eapj.org/from-fragmentation-to-flow-how-enterprise-architecture-anchors-erp-execution/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=from-fragmentation-to-flow-how-enterprise-architecture-anchors-erp-execution</link>
+      <description>Bridging Strategic Ambition with Operational Coherence through Architecture-Driven ERP Transformation...</description>
+      <guid isPermaLink="false">c5e278800667bfce10229c2c82e78cd1</guid>
+      <pubDate>Mon, 30 Jun 2025 02:16:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Architecting for Reuse: Why Platform Thinking is the New EA Imperative (Source: eapj.org)</title>
+      <link>https://eapj.org/architecting-for-reuse-why-platform-thinking-is-the-new-ea-imperative/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=architecting-for-reuse-why-platform-thinking-is-the-new-ea-imperative</link>
+      <description>Why agility, reuse, and cross-domain strategy are reshaping how we...</description>
+      <guid isPermaLink="false">0429ed73473652c72c27572a3249ac43</guid>
+      <pubDate>Mon, 23 Jun 2025 00:30:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Artificial Intelligence: How Agentic AI is reshaping Enterprise Architecture (Source: eapj.org)</title>
+      <link>https://eapj.org/artificial-intelligence-how-agentic-ai-is-reshaping-enterprise-architecture/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=artificial-intelligence-how-agentic-ai-is-reshaping-enterprise-architecture</link>
+      <description>by Eva Jaidan &amp;#8211;  Head of Artificial Intelligence – MEGA,...</description>
+      <guid isPermaLink="false">5c6109ba1538eba1ed4c49c75675bdfa</guid>
+      <pubDate>Thu, 08 May 2025 07:06:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mind the Gap: Is Business Acumen the Missing Link in Enterprise Architecture Talent? (Source: eapj.org)</title>
+      <link>https://eapj.org/mind-the-gap-is-business-acumen-the-missing-link-in-enterprise-architecture-talent/?utm_source=rss&amp;utm_medium=rss&amp;utm_campaign=mind-the-gap-is-business-acumen-the-missing-link-in-enterprise-architecture-talent</link>
+      <description>Introduction If you’ve been following the ongoing debates on LinkedIn...</description>
+      <guid isPermaLink="false">246dd51003806adc9c86ef6865224a79</guid>
+      <pubDate>Tue, 22 Apr 2025 01:33:10 +0000</pubDate>
     </item>
   </channel>
 </rss>
