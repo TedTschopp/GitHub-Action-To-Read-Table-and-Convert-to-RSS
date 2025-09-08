@@ -99,13 +99,18 @@ rss_feeds:
   url: "/aggregated_external.xml"
   description: "Merged headlines from configured external sources"
 
+- name: "Enterprise Architecture Aggregated News"
+  url: "/aggregated_ea.xml"
+  description: "Enterprise Architecture multi-source aggregated feed"
+
 # RSS display settings
 rss_preview_limit: 5
   # Number of RSS items to show in homepage previews (minimum limit - will show more if last 7 days has more items) (default: 5)
   # Change this value to display more or fewer items on the homepage
 
-# Aggregated external RSS sources (merged locally into aggregated_external.xml)
+# Aggregated external RSS sources (now supports multi-feed list)
 aggregated_feeds:
+- key: aggregated_external
   enabled: true
   output: "/aggregated_external.xml" # Local output file (served by GitHub Pages)
   title: "Aggregated External AI & Tech News"
@@ -119,3 +124,20 @@ aggregated_feeds:
   - "https://www.infoworld.com/index.rss"
   - "https://www.techrepublic.com/rssfeeds/articles/"
   - "https://www.zdnet.com/news/rss.xml"
+- key: aggregated_ea
+  enabled: true
+  output: "/aggregated_ea.xml"
+  title: "Enterprise Architecture Aggregated News"
+  link: "https://rss.tedt.org/aggregated_ea.xml"
+  description: "Merged Enterprise Architecture sources"
+  max_items: 150
+  retention_days: 60
+  source_attribution: title
+  sources:
+  - "https://bizzdesign.com/blog/feed"
+  - "https://blog.opengroup.org/feed"
+  - "https://eapj.org/feed"
+  - "https://feed.infoq.com/enterprise-architecture"
+  - "https://www.architectureandgovernance.com/elevating-ea/feed/"
+  - "https://www.forrester.com/blogs/category/enterprise-architecture/feed/"
+  - "https://www.leanix.net/en/blog/rss.xml"

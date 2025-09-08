@@ -37,13 +37,13 @@ A sophisticated GitHub Action that scrapes table data from websites to generate 
 
 Archive: `ai_rss_feed_archive.xml` retains items older than 60 days.
 
-### 2. Aggregated External Feed (`aggregated_external.xml`)
-- Merges configurable external sources defined in `_config.yml` under `aggregated_feeds.sources`
-- Retains last 60 days (configurable via `retention_days`)
-- Older items moved to `aggregated_external_archive.xml`
-- Per-source attribution appended to title (configurable)
+### 2. Aggregated External Feeds (Multi-Feed Capable)
+- Define one OR many aggregated feeds in `_config.yml` under `aggregated_feeds`
+- Supports legacy single-mapping OR list-of-mappings schemas
+- Each feed: retention, attribution, archive, max items, independent sources
+- Archive file auto-generated: `<output>_archive.xml`
 
-Example YAML block:
+Single feed (legacy style):
 
 ```yaml
 aggregated_feeds:
@@ -61,6 +61,34 @@ aggregated_feeds:
       - "https://www.techrepublic.com/rssfeeds/articles/"
       - "https://www.zdnet.com/news/rss.xml"
 ```
+
+   Multiple feeds (new style):
+
+   ```yaml
+   aggregated_feeds:
+      - key: external_ai
+         enabled: true
+         output: "/aggregated_external.xml"
+         title: "Aggregated External AI & Tech News"
+         max_items: 150
+         retention_days: 60
+         source_attribution: title
+         sources:
+            - "https://feeds.arstechnica.com/arstechnica/technology-lab"
+            - "https://www.zdnet.com/news/rss.xml"
+      - key: security
+         enabled: true
+         output: "/aggregated_security.xml"
+         title: "Security & Privacy Tech News"
+         max_items: 120
+         retention_days: 45
+         source_attribution: description
+         sources:
+            - "https://krebsonsecurity.com/feed/"
+            - "https://feeds.feedburner.com/TheHackersNews"
+   ```
+
+   Resulting local files: `aggregated_external.xml`, `aggregated_external_archive.xml`, `aggregated_security.xml`, `aggregated_security_archive.xml`
 
 ## 🔧 Configuration
 

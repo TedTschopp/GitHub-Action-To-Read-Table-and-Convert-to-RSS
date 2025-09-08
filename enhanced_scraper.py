@@ -15,6 +15,8 @@ import xml.etree.ElementTree as ET
 import urllib.request
 from urllib.error import URLError, HTTPError
 from urllib.parse import urlparse
+import requests
+import random
 import time
 import re
 from dateutil import parser as date_parser
@@ -374,39 +376,149 @@ class RSSGenerator:
 
 # ---------------- Aggregator Utilities ---------------- #
 
-def load_aggregator_config():
-    """Load aggregation settings from _config.yml (Jekyll) if present.
-    Falls back to AGGREGATED_DEFAULT in config.py.
+def load_aggregator_configs():
+    """Load one or more aggregation settings from _config.yml.
+
+    Supports two schema styles for backward compatibility:
+    1. Single mapping (original):
+       aggregated_feeds: { enabled: true, output: "/aggregated_external.xml", sources: [...] }
+    2. List of mappings (new multi-feed):
+       aggregated_feeds:
+         - key: external_ai
+           output: /aggregated_external.xml
+           sources: [...]
+         - key: security
+           output: /aggregated_security.xml
+           sources: [...]
+    Returns list of normalized config dicts (may be empty if none configured).
     """
-    cfg = dict(AGGREGATED_DEFAULT)
+    results = []
     try:
         site_yaml = Path('_config.yml')
-        if site_yaml.exists():
-            try:
-                import yaml  # PyYAML
-            except ImportError:
-                yaml = None
-            if yaml:
-                with open(site_yaml, 'r', encoding='utf-8') as f:
-                    data = yaml.safe_load(f) or {}
-                agg = data.get('aggregated_feeds') or {}
-                for k, v in agg.items():
-                    cfg[k] = v
-        # Normalize output path (strip leading slash for local file write)
-        output = cfg.get('output', 'aggregated_external.xml').lstrip('/')
-        cfg['output'] = output
+        if not site_yaml.exists():
+            return results
+        try:
+            import yaml
+        except ImportError:
+            logger.warning("PyYAML not installed; skipping aggregation config load")
+            return results
+        with open(site_yaml, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f) or {}
+        agg_block = data.get('aggregated_feeds')
+        if not agg_block:
+            return results
+        # If it's a dict treat as single
+        if isinstance(agg_block, dict):
+            agg_list = [agg_block]
+        elif isinstance(agg_block, list):
+            agg_list = agg_block
+        else:
+            logger.warning("aggregated_feeds has unexpected type; expected mapping or list")
+            return results
+        for raw in agg_list:
+            if not isinstance(raw, dict):
+                continue
+            cfg = dict(AGGREGATED_DEFAULT)
+            for k, v in raw.items():
+                cfg[k] = v
+            # Normalize
+            cfg['output'] = (cfg.get('output') or 'aggregated_external.xml').lstrip('/')
+            cfg['key'] = raw.get('key') or Path(cfg['output']).stem
+            results.append(cfg)
     except Exception as e:
-        logger.warning(f"Could not load aggregator config from _config.yml: {e}")
-    return cfg
+        logger.warning(f"Error loading aggregated feed configs: {e}")
+    return results
 
-def fetch_rss(url, timeout=25, attempts=3, backoff=2):
-    """Fetch RSS XML content and return parsed items (title, link, pubDate, description) with retry/backoff."""
+# Backward compatibility helper (returns first config or default)
+def load_aggregator_config():
+    configs = load_aggregator_configs()
+    return configs[0] if configs else dict(AGGREGATED_DEFAULT)
+
+AGG_CACHE_FILE = 'aggregator_cache.json'
+_USER_AGENTS = [
+    # A small rotating pool of realistic desktop browser UA strings
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_3) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.4 Safari/605.1.15',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/123.0.0.0 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0'
+]
+
+def _load_agg_cache():
+    try:
+        if Path(AGG_CACHE_FILE).exists():
+            with open(AGG_CACHE_FILE, 'r', encoding='utf-8') as f:
+                return json.load(f)
+    except Exception as e:
+        logger.warning(f"Failed to load aggregator cache: {e}")
+    return { 'sources': {}, 'domain_last_fetch': {} }
+
+def _save_agg_cache(cache):
+    try:
+        with open(AGG_CACHE_FILE, 'w', encoding='utf-8') as f:
+            json.dump(cache, f, indent=2)
+    except Exception as e:
+        logger.warning(f"Failed to save aggregator cache: {e}")
+
+def polite_delay(policy, domain, cache):
+    now = time.time()
+    domain_times = cache.setdefault('domain_last_fetch', {})
+    last = domain_times.get(domain, 0)
+    min_interval = policy.get('per_domain_min_interval', 10)
+    wait_needed = last + min_interval - now
+    if wait_needed > 0:
+        sleep_time = min(wait_needed, min_interval)
+        logger.info(f"Respecting per-domain interval for {domain}: sleeping {sleep_time:.2f}s")
+        time.sleep(sleep_time)
+    # Random base inter-request delay
+    base_delay = random.uniform(policy.get('min_delay', 1.0), policy.get('max_delay', 3.0))
+    time.sleep(base_delay)
+    domain_times[domain] = time.time()
+
+def fetch_rss(url, policy, cache):
+    """Fetch RSS politely with rotating UA, conditional requests, retries, backoff, and pacing.
+
+    Returns list of items (dict) or empty list on failure/304.
+    """
+    src_meta = cache.setdefault('sources', {}).setdefault(url, {})
+    headers = {
+        'User-Agent': random.choice(_USER_AGENTS),
+        'Accept': 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Connection': 'close',
+        'Cache-Control': 'no-cache'
+    }
+    # Conditional headers
+    if 'etag' in src_meta:
+        headers['If-None-Match'] = src_meta['etag']
+    if 'last_modified' in src_meta:
+        headers['If-Modified-Since'] = src_meta['last_modified']
+
+    attempts = policy.get('retry_attempts', 3)
+    back_base = policy.get('retry_backoff_base', 2)
+    jitter = policy.get('retry_jitter', 0.5)
+    timeout = policy.get('timeout', 25)
+    domain = urlparse(url).hostname or 'unknown'
+
+    polite_delay(policy, domain, cache)
+
     last_err = None
+    session = requests.Session()
     for attempt in range(1, attempts + 1):
         try:
-            with urllib.request.urlopen(url, timeout=timeout) as resp:
-                data = resp.read()
-            root = ET.fromstring(data)
+            resp = session.get(url, headers=headers, timeout=timeout)
+            status = resp.status_code
+            if status == 304:
+                logger.info(f"Not modified (304): {url}")
+                return []
+            if status >= 400:
+                raise RuntimeError(f"HTTP {status}")
+            # Update caching headers
+            if 'ETag' in resp.headers:
+                src_meta['etag'] = resp.headers['ETag']
+            if 'Last-Modified' in resp.headers:
+                src_meta['last_modified'] = resp.headers['Last-Modified']
+            content = resp.content
+            root = ET.fromstring(content)
             channel = root.find('channel') or root
             items = []
             for item in channel.findall('.//item'):
@@ -420,11 +532,13 @@ def fetch_rss(url, timeout=25, attempts=3, backoff=2):
                     'pubDate': _text('pubDate')
                 })
             return items
-        except (URLError, HTTPError, ET.ParseError, Exception) as e:
+        except Exception as e:
             last_err = e
-            logger.warning(f"Attempt {attempt}/{attempts} failed for {url}: {e}")
+            logger.warning(f"Fetch attempt {attempt}/{attempts} failed for {url}: {e}")
             if attempt < attempts:
-                time.sleep(backoff * attempt)
+                delay = (back_base ** (attempt - 1)) + random.uniform(0, jitter)
+                logger.info(f"Backing off {delay:.2f}s before retry")
+                time.sleep(delay)
     logger.error(f"All attempts failed for {url}: {last_err}")
     return []
 
@@ -446,11 +560,16 @@ def aggregate_external_feeds(cfg):
     if not sources:
         logger.info("No sources configured for aggregation")
         return
-    logger.info(f"Aggregating {len(sources)} sources -> {output_file} (retention {retention_days} days)")
+    logger.info(f"Aggregating {len(sources)} sources -> {output_file} (retention {retention_days} days) [polite mode]")
     collected = []
-    for src in sources:
+    # Shuffle sources to avoid same ordering every run
+    shuffled = list(sources)
+    random.shuffle(shuffled)
+    cache = _load_agg_cache()
+    policy = AGGREGATED_FETCH_POLICY
+    for src in shuffled:
         logger.info(f"Fetching source: {src}")
-        items = fetch_rss(src)
+        items = fetch_rss(src, policy, cache)
         logger.info(f"  Retrieved {len(items)} items")
         src_host = urlparse(src).hostname or 'source'
         for it in items:
@@ -566,6 +685,8 @@ def aggregate_external_feeds(cfg):
             logger.info(f"Aggregated archive updated: {archive_file} (added {added}, total {len(existing) + added})")
         except Exception as e:
             logger.error(f"Error updating aggregated archive: {e}")
+    # Persist cache updates
+    _save_agg_cache(cache)
 
 def main():
     """Main execution function."""
@@ -595,18 +716,22 @@ def main():
         # Generate primary GAI feed
         RSSGenerator.generate_gai_feed(current_gai_data)
 
-        # Aggregated external feeds
+        # Aggregated external feeds (multi-feed support)
         try:
-            aggregator_cfg = load_aggregator_config()
-            if aggregator_cfg.get("enabled"):
-                logger.info("=" * 60)
-                logger.info("AGGREGATING EXTERNAL RSS SOURCES")
-                logger.info("=" * 60)
-                aggregate_external_feeds(aggregator_cfg)
+            aggregator_cfgs = load_aggregator_configs()
+            if not aggregator_cfgs:
+                logger.info("No aggregated feeds configured")
             else:
-                logger.info("Aggregator disabled via config")
+                for cfg in aggregator_cfgs:
+                    if not cfg.get('enabled', True):
+                        logger.info(f"Aggregator '{cfg.get('key')}' disabled")
+                        continue
+                    logger.info("=" * 60)
+                    logger.info(f"AGGREGATING SOURCES FOR FEED: {cfg.get('key')} -> {cfg.get('output')}")
+                    logger.info("=" * 60)
+                    aggregate_external_feeds(cfg)
         except Exception as agg_err:
-            logger.error(f"Aggregator failed: {agg_err}")
+            logger.error(f"Aggregator(s) failed: {agg_err}")
         
         # Save current data
         current_data = {

@@ -1,0 +1,53 @@
+{
+  "sources": {
+    "https://www.infoworld.com/index.rss": {},
+    "https://www.techrepublic.com/rssfeeds/articles/": {
+      "etag": "W/\"eb961201fe0880976cccb9ea43ac36b6\"",
+      "last_modified": "Mon, 08 Sep 2025 16:40:06 GMT"
+    },
+    "https://www.zdnet.com/news/rss.xml": {},
+    "https://feeds.arstechnica.com/arstechnica/technology-lab": {
+      "last_modified": "Mon, 8 Sep 2025 16:47:49 GMT"
+    },
+    "https://bizzdesign.com/blog/feed": {
+      "etag": "W/\"c2516f6f30181f591babcc426417f47c\"",
+      "last_modified": "Tue, 02 Sep 2025 15:21:15 GMT"
+    },
+    "https://www.forrester.com/blogs/category/enterprise-architecture/feed/": {
+      "last_modified": "Mon, 08 Sep 2025 17:43:14 GMT"
+    },
+    "https://blog.opengroup.org/feed": {
+      "etag": "W/\"f086902998551068c7ac2c16fb08c6cb\"",
+      "last_modified": "Fri, 29 Aug 2025 12:52:12 GMT"
+    },
+    "https://www.leanix.net/en/blog/rss.xml": {
+      "etag": "W/\"60f5d42d48141d4221f53a1ba50f144a\"",
+      "last_modified": "Tue, 02 Sep 2025 19:17:13 GMT"
+    },
+    "https://feed.infoq.com/enterprise-architecture": {
+      "etag": "\"1757340343277\"",
+      "last_modified": "Mon, 08 Sep 2025 14:05:43 GMT"
+    },
+    "https://eapj.org/feed": {
+      "etag": "W/\"2b823bcb63e5896c8fdd85f0bd50fc27\"",
+      "last_modified": "Tue, 26 Aug 2025 03:37:04 GMT"
+    },
+    "https://www.architectureandgovernance.com/elevating-ea/feed/": {
+      "etag": "W/\"adc753d2e84815e58556b84cf940a4c5-gzip\"",
+      "last_modified": "Mon, 08 Sep 2025 10:29:21 GMT"
+    }
+  },
+  "domain_last_fetch": {
+    "www.infoworld.com": 1757355061.7466712,
+    "www.techrepublic.com": 1757355070.842741,
+    "www.zdnet.com": 1757355074.292553,
+    "feeds.arstechnica.com": 1757355079.630115,
+    "bizzdesign.com": 1757355082.9177752,
+    "www.forrester.com": 1757355087.608626,
+    "blog.opengroup.org": 1757355092.50245,
+    "www.leanix.net": 1757355095.739829,
+    "feed.infoq.com": 1757355100.63772,
+    "eapj.org": 1757355103.588772,
+    "www.architectureandgovernance.com": 1757355107.4964201
+  }
+}

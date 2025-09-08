@@ -54,6 +54,17 @@ AGGREGATED_DEFAULT = {
     "sources": []
 }
 
+# Polite fetch defaults for aggregation (can be extended later to parse from YAML if desired)
+AGGREGATED_FETCH_POLICY = {
+    "min_delay": 1.5,             # minimum delay between any two fetches
+    "max_delay": 4.0,             # maximum random delay after a fetch
+    "retry_attempts": 3,
+    "retry_backoff_base": 2,      # exponential base
+    "retry_jitter": 0.7,          # additional random seconds
+    "per_domain_min_interval": 10,# minimum seconds between requests to same domain
+    "timeout": 25
+}
+
 # (Former LinkedIn patterns removed)
 
 # Content Filtering

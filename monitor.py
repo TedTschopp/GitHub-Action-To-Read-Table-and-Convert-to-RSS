@@ -9,6 +9,34 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 from pathlib import Path
 
+# Attempt dynamic discovery of aggregated feeds
+def _discover_aggregated_outputs():
+    outputs = []
+    try:
+        import yaml
+        cfg_path = Path('_config.yml')
+        if not cfg_path.exists():
+            return outputs
+        with open(cfg_path, 'r', encoding='utf-8') as f:
+            data = yaml.safe_load(f) or {}
+        agg = data.get('aggregated_feeds')
+        if not agg:
+            return outputs
+        if isinstance(agg, dict):
+            out = agg.get('output') or '/aggregated_external.xml'
+            outputs.append(out.lstrip('/'))
+        elif isinstance(agg, list):
+            for item in agg:
+                if isinstance(item, dict):
+                    out = item.get('output')
+                    if out:
+                        outputs.append(out.lstrip('/'))
+        # Deduplicate
+        outputs = list(dict.fromkeys(outputs))
+    except Exception:
+        pass
+    return outputs
+
 def check_rss_health():
     """
     Check the health of generated RSS feeds and return status report.
@@ -23,7 +51,14 @@ def check_rss_health():
     }
     
     # EEI feed disabled (LinkedIn source discontinued). Retain code but skip monitoring.
-    rss_files = ['ai_rss_feed.xml', 'ai_rss_feed_archive.xml', 'aggregated_external.xml', 'aggregated_external_archive.xml']
+    rss_files = ['ai_rss_feed.xml', 'ai_rss_feed_archive.xml']
+    # Add dynamically discovered aggregated outputs and their archives
+    for out in _discover_aggregated_outputs():
+        if out not in rss_files:
+            rss_files.append(out)
+        archive_variant = out.replace('.xml', '_archive.xml')
+        if archive_variant not in rss_files:
+            rss_files.append(archive_variant)
     
     for rss_file in rss_files:
         feed_status = {

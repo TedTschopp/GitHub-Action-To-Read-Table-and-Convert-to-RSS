@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Aggregator v2 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 17:38:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Sep 2025 18:11:20 +0000</lastBuildDate>
     <item>
       <title>Why it’s a mistake to ask chatbots about their mistakes (Source: feeds.arstechnica.com)</title>
       <link>https://arstechnica.com/ai/2025/08/why-its-a-mistake-to-ask-chatbots-about-their-mistakes/</link>
@@ -128,11 +128,81 @@
       <pubDate>Wed, 03 Sep 2025 21:56:07 +0000</pubDate>
     </item>
     <item>
+      <title>‘Unprecedented Growth’ by Anthropic: This AI Startup is Now Valued at $183B (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-anthropic-series-f-funding-round/</link>
+      <description>Claude AI creator Anthropic plans to use the money from its latest funding round for enterprise products, safety research and expanding internationally.</description>
+      <guid isPermaLink="false">bca9aad7e4c0cc46aefd533254acb89e</guid>
+      <pubDate>Wed, 03 Sep 2025 22:14:32 +0000</pubDate>
+    </item>
+    <item>
+      <title>Price Drop: Code Faster and More Accurately, Even in Collaboration, for Just $15 (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/microsoft-visual-studio-professional/</link>
+      <description>Microsoft Visual Studio Professional 2022 for Windows allows you to code with teams across platforms and languages and offers advanced tools to ensure accuracy.</description>
+      <guid isPermaLink="false">7e8e4c3c6694e98e7bb77dcd3bd84224</guid>
+      <pubDate>Thu, 04 Sep 2025 07:00:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is a Recent Windows Update Responsible for SSD Failures? Microsoft Has an Answer (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-microsoft-windows-update-ssd-failures/</link>
+      <description>A rash of SSD failures have prompted some users to blame a recent Windows Update. Microsoft insist the problem is not its fault.</description>
+      <guid isPermaLink="false">8f2c8c93d1835cba053018339e4337c7</guid>
+      <pubDate>Thu, 04 Sep 2025 09:16:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build Practical Cyber Defense Skills with This 5-Course Bundle (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/advanced-cybersecurity-master-class/</link>
+      <description>Train in AI threat detection, OSINT tools, and Zero Trust security models with lifetime access for just $19.99.</description>
+      <guid isPermaLink="false">799221b7bb34d5b30bc24754c06bec4a</guid>
+      <pubDate>Thu, 04 Sep 2025 10:03:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Budgeting Tools for Tech Companies: A Strategic Guide to Growth &amp; Sustainability (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/best-budgeting-tools-for-tech-companies/</link>
+      <description>What to measure, how to model, and which tools to use to manage cash, forecast runway, and fund growth responsibly.</description>
+      <guid isPermaLink="false">81a6ff070ee625b6bdba6ade7e2452cc</guid>
+      <pubDate>Thu, 04 Sep 2025 10:08:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>US Tightens Chip Controls, Revokes TSMC’s China Export Privileges (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-tsmc-export-hurdles-us-pulls-china-waiver/</link>
+      <description>The US has removed TSMC’s Nanjing waiver, requiring new export licenses. Delays may hit output as Washington tightens controls on China’s chip supply.</description>
+      <guid isPermaLink="false">59d64c9693242c69ff96e4b3c5e8ba2b</guid>
+      <pubDate>Thu, 04 Sep 2025 10:36:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>How AI in Retail Is Driving Growth and Efficiency (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/ai-in-retail/</link>
+      <description>AI is redefining retail far beyond supply chains, with adoption rates now outpacing smartphones and tablets.</description>
+      <guid isPermaLink="false">afdd7c397da77677bec9ee8ccf0376ca</guid>
+      <pubDate>Thu, 04 Sep 2025 11:09:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Samsung Unveils Galaxy S25 FE and Tab S11 Series at September Galaxy Event (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-samsung-galaxy-event-september-2025/</link>
+      <description>South Korean multinational launches its latest devices with advanced Galaxy AI, new S Pen, and flagship features.</description>
+      <guid isPermaLink="false">9c9656ca9f15cb0e346874deca3db104</guid>
+      <pubDate>Thu, 04 Sep 2025 12:21:35 +0000</pubDate>
+    </item>
+    <item>
       <title>Microsoft open-sources Bill Gates’ 6502 BASIC from 1978 (Source: feeds.arstechnica.com)</title>
       <link>https://arstechnica.com/gadgets/2025/09/microsoft-open-sources-bill-gates-6502-basic-from-1978/</link>
       <description>Historic interpreter taught millions to program on Commodore and Apple computers.</description>
       <guid isPermaLink="false">9cdce2a9fe9948abfa59285f541474ee</guid>
       <pubDate>Thu, 04 Sep 2025 16:56:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Prepares AI-Powered Siri Upgrade With Google Search Integration (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-apple-google-ai-web-search/</link>
+      <description>The new, more succinct Siri search function could pull from both the web and on-device context, according to Bloomberg.</description>
+      <guid isPermaLink="false">639225703a8357c6f4e28d7b864037fe</guid>
+      <pubDate>Thu, 04 Sep 2025 18:59:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Atlassian to Buy The Browser Company for $610M: What’s Next for AI-Powered Dia (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-atlassian-to-acquire-the-browser-company/</link>
+      <description>"Teaming up means we can move faster, dream bigger, and focus on building an AI browser for work that people genuinely love to use," noted Josh Miller, The Browser Company’s chief executive officer and co-founder.</description>
+      <guid isPermaLink="false">3717751c6ef8de4b46ca5a56f0d822ab</guid>
+      <pubDate>Thu, 04 Sep 2025 20:42:48 +0000</pubDate>
     </item>
     <item>
       <title>The number of mis-issued 1.1.1.1 certificates grows. Here’s the latest. (Source: feeds.arstechnica.com)</title>
@@ -142,6 +212,27 @@
       <pubDate>Thu, 04 Sep 2025 22:29:34 +0000</pubDate>
     </item>
     <item>
+      <title>This $30 Subscription Will Bring AI Into Your Business (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/1minai-pro-plan-lifetime-subscription/</link>
+      <description>Tap into the power of OpenAI, Meta, Midjourney, and additional powerful AI models with 1min.AI.</description>
+      <guid isPermaLink="false">ab7c442b46b77dd00417ae24e3897f27</guid>
+      <pubDate>Fri, 05 Sep 2025 07:30:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop Juggling AI Tools — This Lifetime Deal Puts GPT‑4o and More in One Place (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/chatplayground-ai/</link>
+      <description>Harness multiple top-tier models like GPT‑4o, Claude, Gemini, and more in one unified platform, now $90.</description>
+      <guid isPermaLink="false">518c8859b8431f666cf5cdc9d7a3496a</guid>
+      <pubDate>Fri, 05 Sep 2025 13:16:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cybercriminals ‘Grok’ Their Way Past X’s Defenses to Spread Malware (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-grok-ai-malware-grokking/</link>
+      <description>Hackers exploit X’s Grok AI to spread malware via promoted ads, exposing millions to malicious links in a scheme researchers call “Grokking.”</description>
+      <guid isPermaLink="false">f4b993de79f0cedb59061b49a4dafc3b</guid>
+      <pubDate>Fri, 05 Sep 2025 13:56:11 +0000</pubDate>
+    </item>
+    <item>
       <title>ChatGPT’s new branching feature is a good reminder that AI chatbots aren’t people (Source: feeds.arstechnica.com)</title>
       <link>https://arstechnica.com/ai/2025/09/chatgpts-new-branching-feature-is-a-good-reminder-that-ai-chatbots-arent-people/</link>
       <description>Users can explore multiple paths without losing their original chat thread.</description>
@@ -149,11 +240,46 @@
       <pubDate>Fri, 05 Sep 2025 16:06:55 +0000</pubDate>
     </item>
     <item>
-      <title>I left my robot vacuum running for 10 days while I was away - here's what I came home to (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/i-left-my-robot-vacuum-running-for-10-days-while-i-was-away-heres-what-i-came-home-to/</link>
-      <description>The Narwal Freo Pro is easily one of the best bang-for-your-buck robot vacuums on the market today.</description>
-      <guid isPermaLink="false">f61ec02e561c4f2a688721baf8557d40</guid>
-      <pubDate>Mon, 08 Sep 2025 10:56:00 +0000</pubDate>
+      <title>Hitachi Energy Pledges $1B to Strengthen US Grid, Build Largest Transformer Plant in Virginia (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-hitachi-energy-virginia-transformer-plant-1b/</link>
+      <description>Rising AI, EV, and industrial power demands strain the US grid. Hitachi Energy boosts transformer output to secure reliable energy for America’s future.</description>
+      <guid isPermaLink="false">99d174ede23e511eaaafbb0c0111a4bc</guid>
+      <pubDate>Fri, 05 Sep 2025 20:47:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft’s Experimental Optical Computer Could Run AI Workloads With Less Energy (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-microsoft-analog-optical-computer-research/</link>
+      <description>Research conducted by the Microsoft Research lab in Cambridge could contribute to the development of AI accelerators.</description>
+      <guid isPermaLink="false">e11e8d7f1d29b9aea15bc5d78e749640</guid>
+      <pubDate>Fri, 05 Sep 2025 21:16:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump Hosts Zuckerberg, Cook, Altman, More at White House Dinner – Musk Was Absent (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-trump-white-house-dinner-tech-execs/</link>
+      <description>The prestigious group are the minds and money behind Trump’s vision of US dominance in AI.</description>
+      <guid isPermaLink="false">5b2c7bf54c19974276479d9d9104d95c</guid>
+      <pubDate>Fri, 05 Sep 2025 22:59:46 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grab Microsoft Office Pro 2021 and Windows 11 Pro Bundled for $45 (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/all-in-one-microsoft-office-pro-plus-2021-for-windows-lifetime-license-windows-11-pro-bundle/</link>
+      <description>Whether you’re building a startup or trying to manage a distributed team, Office 2021 and Windows 11 Pro provide the tools you need.</description>
+      <guid isPermaLink="false">91ff76bb9e1f39628ce68e1a8c5a27d2</guid>
+      <pubDate>Mon, 08 Sep 2025 07:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Go-to Resources for Secure Cloud Storage (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/resources-for-secure-cloud-storage/</link>
+      <description>The cloud is becoming the norm when it comes to data storage, but it's not without its challenges. The right policies and procedures can go a long way toward safely storing data in the cloud.</description>
+      <guid isPermaLink="false">113de1ff0ed9b148a6c572b67ee1753d</guid>
+      <pubDate>Mon, 08 Sep 2025 09:00:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Open Finance is &amp; How it’s Reshaping Small Business Growth (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/open-finance/</link>
+      <description>Embrace open finance to unlock growth opportunities for your business.</description>
+      <guid isPermaLink="false">ace6f80beb8c49f0f82bd7e8251bf0f6</guid>
+      <pubDate>Mon, 08 Sep 2025 09:51:47 +0000</pubDate>
     </item>
     <item>
       <title>How you're charging your tablet is slowly killing it - 3 methods to avoid (and the right way) (Source: www.zdnet.com)</title>
@@ -191,17 +317,17 @@
       <pubDate>Mon, 08 Sep 2025 11:02:00 +0000</pubDate>
     </item>
     <item>
-      <title>Is OneDrive sending your Windows files to the cloud? Here's why - and what you can do (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/is-onedrive-sending-all-your-windows-files-to-the-cloud-heres-why-and-what-you-can-do/</link>
-      <description>If you're not careful, your local files can be hoovered into Microsoft's OneDrive cloud storage without your knowledge. Here's how it works.</description>
-      <guid isPermaLink="false">45069fa2cd7ecd3df977c78150ad319f</guid>
-      <pubDate>Mon, 08 Sep 2025 13:49:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Changing these 10 settings on my Pixel phone gave it a nice performance boost (Source: www.zdnet.com)</title>
       <link>https://www.zdnet.com/article/changing-these-10-settings-on-my-pixel-phone-gave-it-a-welcome-performance-boost/</link>
       <description>Pixel phones are packed with smart features by default - but adjusting a few key settings can elevate your experience even further.</description>
       <guid isPermaLink="false">a01c4edf805bb82a45c0a9df35693307</guid>
+      <pubDate>Mon, 08 Sep 2025 13:49:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is OneDrive sending your Windows files to the cloud? Here's why - and what you can do (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/is-onedrive-sending-all-your-windows-files-to-the-cloud-heres-why-and-what-you-can-do/</link>
+      <description>If you're not careful, your local files can be hoovered into Microsoft's OneDrive cloud storage without your knowledge. Here's how it works.</description>
+      <guid isPermaLink="false">45069fa2cd7ecd3df977c78150ad319f</guid>
       <pubDate>Mon, 08 Sep 2025 13:49:00 +0000</pubDate>
     </item>
     <item>
@@ -247,13 +373,6 @@
       <pubDate>Mon, 08 Sep 2025 14:45:00 +0000</pubDate>
     </item>
     <item>
-      <title>6 features I'd like to see on the Apple Watch Series 11 - including a big one for health (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/6-features-id-like-to-see-on-the-apple-watch-series-11-including-a-big-one-for-health/</link>
-      <description>Having tested every major smartwatch release in 2025, here's what's on my Apple Watch wish list ahead of this week's event.</description>
-      <guid isPermaLink="false">25405321b6395dd4b50caed60ba233cf</guid>
-      <pubDate>Mon, 08 Sep 2025 15:02:00 +0000</pubDate>
-    </item>
-    <item>
       <title>Apple iPhone 17 event live updates: The biggest rumors on AirPods, Apple Watch Series 11, more (Source: www.zdnet.com)</title>
       <link>https://www.zdnet.com/article/apple-iphone-17-event-live-updates-the-biggest-rumors-on-airpods-apple-watch-series-11-more/</link>
       <description>The clock is ticking, and ZDNET is reporting on all the latest news surrounding Apple's September iPhone event this week.</description>
@@ -275,6 +394,13 @@
       <pubDate>Mon, 08 Sep 2025 16:24:00 +0000</pubDate>
     </item>
     <item>
+      <title>The Top 5 Nextiva Alternatives for 2025 (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/nextiva-alternatives/</link>
+      <description>Discover the best Nextiva alternatives. We break down leading VoIP solutions to help you choose the ideal platform for communication and growth.</description>
+      <guid isPermaLink="false">f33ef525d6d1e356ae3716c05889f318</guid>
+      <pubDate>Mon, 08 Sep 2025 16:40:06 +0000</pubDate>
+    </item>
+    <item>
       <title>Yes, you can run Windows apps on Linux  - here are my top 5 ways (Source: www.zdnet.com)</title>
       <link>https://www.zdnet.com/article/yes-you-can-run-windows-apps-on-linux-here-are-my-top-5-ways/</link>
       <description>If you're looking to jump from Windows 10 to Linux, and you have specific apps you need to use that aren't available on the open-source platform, here's how to get around that.</description>
@@ -287,6 +413,20 @@
       <description>Live translation and temperature sensing in the AirPods Pro 3 sound exciting, but these improvements for everyday use sound even better to me.</description>
       <guid isPermaLink="false">96d7b67ea4d25100a85c5c22a27d41de</guid>
       <pubDate>Mon, 08 Sep 2025 17:06:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>The best smart rings of 2025: I tested and found an obvious winner (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/best-smart-ring/</link>
+      <description>I tested several top smart rings, and these are the ones I recommend most.</description>
+      <guid isPermaLink="false">3630f218f4c453dea6fb75f04fedd5e6</guid>
+      <pubDate>Mon, 08 Sep 2025 17:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>These potential Apple Watch Series 11 features would make me upgrade immediately (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/these-potential-apple-watch-series-11-features-would-make-me-upgrade-immediately/</link>
+      <description>Having tested every major smartwatch release in 2025, here's what's on my Apple Watch wish list ahead of this week's event.</description>
+      <guid isPermaLink="false">56c1cfe7e4c87116e9090636118c7fbb</guid>
+      <pubDate>Mon, 08 Sep 2025 17:50:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
