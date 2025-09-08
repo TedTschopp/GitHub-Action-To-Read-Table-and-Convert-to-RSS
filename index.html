@@ -109,6 +109,8 @@ document.addEventListener('DOMContentLoaded', function() {
             .replace(/^-+|-+$/g, '');    // trim leading/trailing hyphens
     }
 
+    const siteBase = '{{ site.url }}{{ site.baseurl }}'.replace(/\/$/, '');
+
     rssFeeds.forEach(feed => {
         console.log('=== Processing Feed ===');
         console.log('Feed Name:', feed.name);
@@ -125,7 +127,28 @@ document.addEventListener('DOMContentLoaded', function() {
             return; // Prevent downstream null dereferences
         }
         
-        fetch(feed.url)
+        const fetchUrl = /^https?:\/\//i.test(feed.url) ? feed.url : siteBase + feed.url;
+        const controller = new AbortController();
+        const timeoutMs = 15000; // 15s safety timeout
+        const timeoutHandle = setTimeout(() => controller.abort(), timeoutMs);
+
+        const maxAttempts = 2;
+        let attempt = 0;
+
+        function doFetch() {
+            attempt++;
+            console.log(`Fetching (${attempt}/${maxAttempts}):`, fetchUrl);
+            return fetch(fetchUrl, { signal: controller.signal })
+                .catch(err => {
+                    if (attempt < maxAttempts) {
+                        console.warn('Fetch attempt failed, retrying...', err.message);
+                        return new Promise(res => setTimeout(res, 750)).then(doFetch);
+                    }
+                    throw err;
+                });
+        }
+
+        doFetch()
             .then(response => {
                 console.log('=== Fetch Response ===');
                 console.log('Feed:', feed.name);
@@ -147,6 +170,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 }
             })
             .then(data => {
+                clearTimeout(timeoutHandle);
                 console.log('=== Data Processing ===');
                 console.log('Feed:', feed.name);
                 
@@ -360,6 +384,7 @@ document.addEventListener('DOMContentLoaded', function() {
                 console.log('=======================');
             })
             .catch(error => {
+                clearTimeout(timeoutHandle);
                 console.error('=== RSS Feed Error Details ===');
                 console.error('Feed Name:', feed.name);
                 console.error('Feed URL:', feed.url);
