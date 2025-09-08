@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 00:56:56 +0000</lastBuildDate>
-    <item>
-      <title>Blue J's approach for scaling fast in complex, regulated domains [ ! ]</title>
-      <link>https://openai.com/index/blue-j/</link>
-      <description>Blue J uses OpenAI GPT-4.1 to streamline tax research in regulated environments, cutting research time and improving accuracy; analysts highlight combining domain expertise with generative AI as a powerful applied AI case with measurable productivity gains.</description>
-      <guid isPermaLink="false">5f24c3db534701559e4c6598ee985052</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mind the gap: How operations leaders are pulling ahead using AI [ ! ]</title>
-      <link>https://www.mckinsey.com/capabilities/operations/our-insights/mind-the-gap-how-operations-leaders-are-pulling-ahead-using-ai</link>
-      <description>McKinsey study of 100 companies shows AI leaders rapidly outpacing laggards via stronger executive sponsorship and strategic investment; underscores enterprise AI success depends on C-level engagement and organizational commitment.</description>
-      <guid isPermaLink="false">f5311928ddcb27a0d80231f6945d71ba</guid>
-      <pubDate>Mon, 25 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agentic Browser Security: Indirect Prompt Injection in Perplexity Comet [ ~ ]</title>
-      <link>https://simonwillison.net/2025/Aug/25/agentic-browser-security/</link>
-      <description>Post uncovers prompt injection vulnerability in Perplexity Comet browser; raises security concerns but is an edge case with limited adoption and urgency for enterprises.</description>
-      <guid isPermaLink="false">b40e67a545c542a22c721b6cbee5151c</guid>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deep Think with Confidence [ ~ ]</title>
-      <link>https://jiaweizzhao.github.io/deepconf</link>
-      <description>Meta researchers propose pruning low-confidence reasoning paths to reduce tokens and boost efficiency; early-stage research with limited immediate enterprise impact.</description>
-      <guid isPermaLink="false">a23662026b1287c8b8889edb13fdc23d</guid>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inside DHL’s AI upgrade: “Love it or hate it, you have to work with it” [ ~ ]</title>
-      <link>https://archive.md/zJNnk</link>
-      <description>DHL automates warehouses and reskills workers amid layoffs, reflecting AI-labor tensions; surfaces European regulatory issues but lacks actionable insight for decision-makers.</description>
-      <guid isPermaLink="false">33fcae2e17e336c115fcf14606732539</guid>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>You can now download and tweak Grok 2.5 for yourself as it goes open source [ ~ ]</title>
-      <link>https://www.engadget.com/ai/you-can-now-download-and-tweak-grok-25-for-yourself-as-it-goes-open-source-164734471.html</link>
-      <description>Elon Musk’s Grok 2.5 is open-sourced with usage restrictions; modest update with limited enterprise relevance given lagging adoption and performance.</description>
-      <guid isPermaLink="false">8471b9b8494fbb4b97163938c8f72364</guid>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 08 Sep 2025 16:13:29 +0000</lastBuildDate>
     <item>
       <title>Accelerating Life Sciences Research (OpenAI + Retro Biosciences) [ * ]</title>
       <link>https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/</link>
@@ -357,6 +315,48 @@
       <description>This article reveals how Target rebuilt its digital shopping experience using a hybrid search architecture—combining traditional keyword search with semantic vector embeddings—powered by AlloyDB AI, achieving 10× faster response times, 20% improved product discovery relevance, and halving “no result” queries. Our analysts emphasized that this demonstrates how probabilistic and deterministic search methods working together can create smarter, more scalable AI-infused systems—a clear showcase of AI-driven content creation enhancing user experience.</description>
       <guid isPermaLink="false">d82bf60f705715db904cafa1f898b1d0</guid>
       <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From potential to performance: Using gen AI to conduct outside‑in diligence [ ~ ]</title>
+      <link>https://www.mckinsey.com/capabilities/transformation/our-insights/from-potential-to-performance-using-gen-ai-to-conduct-outside-in-diligence</link>
+      <description>McKinsey presents a strategic checklist (e.g., keep humans in the loop, structured prompts, fine-tune on private data) for using GenAI in diligence processes. While framing is strong, analysts found the guidance too familiar and lightly scoped, offering minimal new insight into operational complexity.</description>
+      <guid isPermaLink="false">b4d7c04f1d2e71ef4dab231103333a11</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Will AI Choke Off the Supply of Knowledge? [ ~ ]</title>
+      <link>https://archive.md/SACAK</link>
+      <description>This provocative Wall Street Journal reflection raises concerns about AI-generated content reducing the diversity or novelty of human-produced knowledge. Our analysts largely rejected the premise, considering it more a speculative talking point than an imminent reality—market incentives, they argue, will continue to reward originality.</description>
+      <guid isPermaLink="false">5a4d5d0875faf1afab225e7aff7aa2c3</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Search to Sale: How AI Is Redefining Customer Engagement and Loyalty in Retail [ * ]</title>
+      <link>https://www.databricks.com/blog/search-sale-how-ai-redefining-customer-engagement-and-loyalty-retail</link>
+      <description>Though a vendor-authored overview, the article maps AI’s impact on customer personalization across the retail sales funnel, highlighting use cases from discovery and consideration to purchase and loyalty. Our analysts noted it’s a solid compendium with a useful case table, especially for those within or exploring the retail ecosystem, even if the insights aren’t novel.</description>
+      <guid isPermaLink="false">d7a168bd19c97d2b1c45f66053190af7</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen3‑Max arrives in preview with 1 trillion parameters, blazing fast response speed, and API availability [ * ]</title>
+      <link>https://venturebeat.com/ai/qwen3-max-arrives-in-preview-with-1-trillion-parameters-blazing-fast</link>
+      <description>Alibaba unveiled Qwen3‑Max‑Preview, its largest-ever LLM exceeding 1 trillion parameters, offering an a 262K-token context window, strong benchmark performance against models like Claude Opus 4 and Kimi K2, and broad access via API. Our analysts stressed that while model size doesn't guarantee capability, this launch reflects Alibaba’s positioning in the global AI race, meriting close attention for comparisons and enterprise testing.</description>
+      <guid isPermaLink="false">2d4161f1b7d26756eb6894f1994161e7</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why language models hallucinate [ ! ]</title>
+      <link>https://openai.com/index/why-language-models-hallucinate/</link>
+      <description>This article digs deeper into the mechanics of unavoidable hallucinations in language models. Our analysts agreed that understanding these mechanics and what can be done about them is crucial for building reliable systems, especially in critical applications like finance, healthcare, and compliance.</description>
+      <guid isPermaLink="false">8cbd23140cc2e1012ab5cbf0fb3789e3</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic to pay $1.5 billion to authors in landmark AI settlement [ ! ]</title>
+      <link>https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement</link>
+      <description>This settlement represents the first major class-action resolution in the AI era, awarding roughly $3,000 per book for approximately 500,000 works, and marks the largest copyright recovery in U.S. history. Our analysts agreed that this signals that data provenance and transparency are now mandatory considerations for AI leaders, especially as the terms of licensing and content usage are under legal scrutiny.</description>
+      <guid isPermaLink="false">b89c0f388eea8f7474fb7c7247ca3365</guid>
+      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

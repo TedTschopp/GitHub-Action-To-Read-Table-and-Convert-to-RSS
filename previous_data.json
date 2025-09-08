@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Anthropic to pay $1.5 billion to authors in landmark AI settlement",
+        "links": [
+          "https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement"
+        ]
+      },
+      "Rationale": {
+        "text": "This settlement represents the first major class-action resolution in the AI era, awarding roughly $3,000 per book for approximately 500,000 works, and marks the largest copyright recovery in U.S. history. Our analysts agreed that this signals that data provenance and transparency are now mandatory considerations for AI leaders, especially as the terms of licensing and content usage are under legal scrutiny.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Why language models hallucinate",
+        "links": [
+          "https://openai.com/index/why-language-models-hallucinate/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article digs deeper into the mechanics of unavoidable hallucinations in language models. Our analysts agreed that understanding these mechanics and what can be done about them is crucial for building reliable systems, especially in critical applications like finance, healthcare, and compliance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Qwen3‑Max arrives in preview with 1 trillion parameters, blazing fast response speed, and API availability",
+        "links": [
+          "https://venturebeat.com/ai/qwen3-max-arrives-in-preview-with-1-trillion-parameters-blazing-fast"
+        ]
+      },
+      "Rationale": {
+        "text": "Alibaba unveiled Qwen3‑Max‑Preview, its largest-ever LLM exceeding 1 trillion parameters, offering an a 262K-token context window, strong benchmark performance against models like Claude Opus 4 and Kimi K2, and broad access via API. Our analysts stressed that while model size doesn't guarantee capability, this launch reflects Alibaba’s positioning in the global AI race, meriting close attention for comparisons and enterprise testing.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "From Search to Sale: How AI Is Redefining Customer Engagement and Loyalty in Retail",
+        "links": [
+          "https://www.databricks.com/blog/search-sale-how-ai-redefining-customer-engagement-and-loyalty-retail"
+        ]
+      },
+      "Rationale": {
+        "text": "Though a vendor-authored overview, the article maps AI’s impact on customer personalization across the retail sales funnel, highlighting use cases from discovery and consideration to purchase and loyalty. Our analysts noted it’s a solid compendium with a useful case table, especially for those within or exploring the retail ecosystem, even if the insights aren’t novel.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Will AI Choke Off the Supply of Knowledge?",
+        "links": [
+          "https://archive.md/SACAK"
+        ]
+      },
+      "Rationale": {
+        "text": "This provocative Wall Street Journal reflection raises concerns about AI-generated content reducing the diversity or novelty of human-produced knowledge. Our analysts largely rejected the premise, considering it more a speculative talking point than an imminent reality—market incentives, they argue, will continue to reward originality.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "From potential to performance: Using gen AI to conduct outside‑in diligence",
+        "links": [
+          "https://www.mckinsey.com/capabilities/transformation/our-insights/from-potential-to-performance-using-gen-ai-to-conduct-outside-in-diligence"
+        ]
+      },
+      "Rationale": {
+        "text": "McKinsey presents a strategic checklist (e.g., keep humans in the loop, structured prompts, fine-tune on private data) for using GenAI in diligence processes. While framing is strong, analysts found the guidance too familiar and lightly scoped, offering minimal new insight into operational complexity.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/05/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "OpenAI and Retro Biosciences created a GPT‑4 model for protein design, improving stem cell reprogramming; powerful proof of domain-specific models driving biotech breakthroughs with long-term strategic implications.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "You can now download and tweak Grok 2.5 for yourself as it goes open source",
-        "links": [
-          "https://www.engadget.com/ai/you-can-now-download-and-tweak-grok-25-for-yourself-as-it-goes-open-source-164734471.html"
-        ]
-      },
-      "Rationale": {
-        "text": "Elon Musk’s Grok 2.5 is open-sourced with usage restrictions; modest update with limited enterprise relevance given lagging adoption and performance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Inside DHL’s AI upgrade: “Love it or hate it, you have to work with it”",
-        "links": [
-          "https://archive.md/zJNnk"
-        ]
-      },
-      "Rationale": {
-        "text": "DHL automates warehouses and reskills workers amid layoffs, reflecting AI-labor tensions; surfaces European regulatory issues but lacks actionable insight for decision-makers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Deep Think with Confidence",
-        "links": [
-          "https://jiaweizzhao.github.io/deepconf"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta researchers propose pruning low-confidence reasoning paths to reduce tokens and boost efficiency; early-stage research with limited immediate enterprise impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Agentic Browser Security: Indirect Prompt Injection in Perplexity Comet",
-        "links": [
-          "https://simonwillison.net/2025/Aug/25/agentic-browser-security/"
-        ]
-      },
-      "Rationale": {
-        "text": "Post uncovers prompt injection vulnerability in Perplexity Comet browser; raises security concerns but is an edge case with limited adoption and urgency for enterprises.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Mind the gap: How operations leaders are pulling ahead using AI",
-        "links": [
-          "https://www.mckinsey.com/capabilities/operations/our-insights/mind-the-gap-how-operations-leaders-are-pulling-ahead-using-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "McKinsey study of 100 companies shows AI leaders rapidly outpacing laggards via stronger executive sponsorship and strategic investment; underscores enterprise AI success depends on C-level engagement and organizational commitment.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Blue J's approach for scaling fast in complex, regulated domains",
-        "links": [
-          "https://openai.com/index/blue-j/"
-        ]
-      },
-      "Rationale": {
-        "text": "Blue J uses OpenAI GPT-4.1 to streamline tax research in regulated environments, cutting research time and improving accuracy; analysts highlight combining domain expertise with generative AI as a powerful applied AI case with measurable productivity gains.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-08T00:56:56.564782+00:00"
+  "timestamp": "2025-09-08T16:13:29.282838+00:00"
 }
