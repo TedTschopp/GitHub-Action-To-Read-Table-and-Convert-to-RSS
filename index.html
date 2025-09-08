@@ -100,15 +100,30 @@ document.addEventListener('DOMContentLoaded', function() {
     const rssFeeds = {{ site.rss_feeds | jsonify }};
     const rssPreviewLimit = {{ site.rss_preview_limit | default: 5 }};
     
+    // Local slugify helper to mirror Jekyll's slugify filter so IDs match
+    function jekyllSlugify(str) {
+        return str
+            .toLowerCase()              // lower case
+            .replace(/['"]/g, '')       // remove quotes/apostrophes
+            .replace(/[^a-z0-9]+/g, '-') // collapse non-alphanumerics to hyphen
+            .replace(/^-+|-+$/g, '');    // trim leading/trailing hyphens
+    }
+
     rssFeeds.forEach(feed => {
         console.log('=== Processing Feed ===');
         console.log('Feed Name:', feed.name);
         console.log('Feed URL:', feed.url);
         console.log('Feed Description:', feed.description);
-        
-        const previewElement = document.getElementById(feed.name.toLowerCase().replace(/\s+/g, '-') + '-preview');
-        console.log('Preview Element ID:', feed.name.toLowerCase().replace(/\s+/g, '-') + '-preview');
+
+        const computedId = jekyllSlugify(feed.name) + '-preview';
+        const previewElement = document.getElementById(computedId);
+        console.log('Preview Element ID (computed):', computedId);
         console.log('Preview Element Found:', !!previewElement);
+
+        if (!previewElement) {
+            console.warn('Preview element not found for feed; skipping render:', feed.name);
+            return; // Prevent downstream null dereferences
+        }
         
         fetch(feed.url)
             .then(response => {
