@@ -88,7 +88,6 @@ rss_feeds:
 - name: "Ted Tschopp's AI News"
   url: "/ai_rss_feed.xml"
   description: "Latest AI News and Ratings from Ted Tschopp"
-  # Single active AI news feed
 
 - name: "Aggregated External Tech News"
   url: "/aggregated_external.xml"
