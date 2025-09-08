@@ -23,7 +23,7 @@ def check_rss_health():
     }
     
     # EEI feed disabled (LinkedIn source discontinued). Retain code but skip monitoring.
-    rss_files = ['ai_rss_feed.xml']
+    rss_files = ['ai_rss_feed.xml', 'ai_rss_feed_archive.xml', 'aggregated_external.xml', 'aggregated_external_archive.xml']
     
     for rss_file in rss_files:
         feed_status = {
@@ -68,8 +68,14 @@ def check_rss_health():
                     status['overall_status'] = 'error'
                     
             else:
-                feed_status['errors'].append('RSS file does not exist')
-                status['overall_status'] = 'error'
+                # Treat missing archives as warning, primary feeds as error
+                if rss_file.endswith('_archive.xml'):
+                    feed_status['errors'].append('Archive not yet created')
+                    if status['overall_status'] != 'error':
+                        status['overall_status'] = 'warning'
+                else:
+                    feed_status['errors'].append('RSS file does not exist')
+                    status['overall_status'] = 'error'
                 
         except Exception as e:
             feed_status['errors'].append(f'Unexpected error: {str(e)}')

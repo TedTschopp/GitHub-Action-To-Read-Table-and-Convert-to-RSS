@@ -1,0 +1,292 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>Aggregated External AI &amp; Tech News</title>
+    <link>https://rss.tedt.org/aggregated_external.xml</link>
+    <description>Merged headlines from configured external sources</description>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>GitHub Action RSS Aggregator v2 (retention)</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Sep 2025 17:38:23 +0000</lastBuildDate>
+    <item>
+      <title>Why it’s a mistake to ask chatbots about their mistakes (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/ai/2025/08/why-its-a-mistake-to-ask-chatbots-about-their-mistakes/</link>
+      <description>The tendency to ask AI bots to explain themselves reveals widespread misconceptions about how they work.</description>
+      <guid isPermaLink="false">1da4fae8bba34ec7b2b3779787fdcca9</guid>
+      <pubDate>Tue, 12 Aug 2025 19:52:39 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI brings back GPT-4o after user revolt (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/openai-brings-back-gpt-4o-after-user-revolt/</link>
+      <description>After unpopular GPT-5 launch, OpenAI begins restoring optional access to previous AI models.</description>
+      <guid isPermaLink="false">579d9044975a3f51f5be9f6539200eb2</guid>
+      <pubDate>Wed, 13 Aug 2025 14:08:47 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is AI really trying to escape human control and blackmail people? (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/is-ai-really-trying-to-escape-human-control-and-blackmail-people/</link>
+      <description>Opinion: Theatrical testing scenarios explain why AI models produce alarming outputs—and why we fall for it.</description>
+      <guid isPermaLink="false">629b2600f16de5ce9d15926ef0ef3046</guid>
+      <pubDate>Wed, 13 Aug 2025 20:28:20 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is the AI bubble about to pop? Sam Altman is prepared either way. (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/sam-altman-calls-ai-a-bubble-while-seeking-500b-valuation-for-openai/</link>
+      <description>"Someone will lose a phenomenal amount of money," says CEO while fundraising at record prices.</description>
+      <guid isPermaLink="false">e2e4c036743478b4bd4b405398470720</guid>
+      <pubDate>Thu, 21 Aug 2025 22:06:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>College student’s “time travel” AI experiment accidentally outputs real 1834 history (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/ai-built-from-1800s-texts-surprises-creator-by-mentioning-real-1834-london-protests/</link>
+      <description>Hobbyist training AI on Victorian texts gets an unexpected history lesson from his own creation.</description>
+      <guid isPermaLink="false">a635b1f4acac518f35f208d71cf30164</guid>
+      <pubDate>Fri, 22 Aug 2025 22:13:56 +0000</pubDate>
+    </item>
+    <item>
+      <title>With AI chatbots, Big Tech is moving fast and breaking people (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/with-ai-chatbots-big-tech-is-moving-fast-and-breaking-people/</link>
+      <description>Why AI chatbots validate grandiose fantasies about revolutionary discoveries that don't exist.</description>
+      <guid isPermaLink="false">d73db056404ab91316da7e02064ce90d</guid>
+      <pubDate>Mon, 25 Aug 2025 11:00:24 +0000</pubDate>
+    </item>
+    <item>
+      <title>Senator castigates federal judiciary for ignoring “basic cybersecurity” (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/security/2025/08/senator-to-supreme-court-justice-federal-court-hacks-threaten-us-security/</link>
+      <description>Breaches in 2020 and 2025, reportedly by foreign adversaries, exposed confidential files.</description>
+      <guid isPermaLink="false">9992ed14a5e1bb4dc0513254b0e6aef6</guid>
+      <pubDate>Mon, 25 Aug 2025 19:58:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI admits ChatGPT safeguards fail during extended conversations (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/after-teen-suicide-openai-claims-it-is-helping-people-when-they-need-it-most/</link>
+      <description>ChatGPT allegedly provided suicide encouragement to teen after moderation safeguards failed.</description>
+      <guid isPermaLink="false">8157005c414243a8ac219340abef8c84</guid>
+      <pubDate>Tue, 26 Aug 2025 22:08:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic’s auto-clicking AI Chrome extension raises browser-hijacking concerns (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/new-ai-browser-agents-create-risks-if-sites-hijack-them-with-hidden-instructions/</link>
+      <description>Malicious websites can embed invisible commands that AI agents will follow blindly.</description>
+      <guid isPermaLink="false">104720cba4580a1069c6fa5edbbd5c2d</guid>
+      <pubDate>Wed, 27 Aug 2025 16:17:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>The personhood trap: How AI fakes human personality (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/08/the-personhood-trap-how-ai-fakes-human-personality/</link>
+      <description>AI assistants don't have fixed personalities—just patterns of output guided by humans.</description>
+      <guid isPermaLink="false">d180150685a67d7bbb7520944ff22430</guid>
+      <pubDate>Thu, 28 Aug 2025 11:00:57 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unpacking Passkeys Pwned: Possibly the most specious research in decades (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/</link>
+      <description>Researchers take note: When the endpoint is compromised, all bets are off.</description>
+      <guid isPermaLink="false">68f15860a6dbd45d4e0f16861bf8f337</guid>
+      <pubDate>Thu, 28 Aug 2025 13:00:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>High-severity vulnerability in Passwordstate credential manager. Patch now. (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/security/2025/08/high-severity-vulnerability-in-passwordstate-credential-manager-patch-now/</link>
+      <description>Vulnerability can be exploited to gain access to customers' crown jewels.</description>
+      <guid isPermaLink="false">0494dc38c8802ec582ea1b9ad5b6cf3b</guid>
+      <pubDate>Thu, 28 Aug 2025 18:46:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google warns that mass data theft hitting Salesloft AI agent has grown bigger (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/security/2025/08/google-warns-that-mass-data-theft-hitting-salesloft-ai-agent-has-grown-bigger/</link>
+      <description>Assume all Drift credentials are compromised after Workspace breach, Google says.</description>
+      <guid isPermaLink="false">ffdb5ee0f4fa4c6c8acbcef192fc1257</guid>
+      <pubDate>Fri, 29 Aug 2025 12:15:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Zuckerberg’s AI hires disrupt Meta with swift exits and threats to leave (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/ai/2025/08/zuckerbergs-ai-hires-disrupt-meta-with-swift-exits-and-threats-to-leave/</link>
+      <description>Longtime acolytes are sidelined as CEO directs biggest leadership reorganization in two decades.</description>
+      <guid isPermaLink="false">f7dee2d9ced825bf4523c4a9373dc291</guid>
+      <pubDate>Fri, 29 Aug 2025 18:02:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI announces parental controls for ChatGPT after teen suicide lawsuit (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/ai/2025/09/openai-announces-parental-controls-for-chatgpt-after-teen-suicide-lawsuit/</link>
+      <description>Promised protections follow reports of vulnerable users misled in extended chats.</description>
+      <guid isPermaLink="false">8b69a913f71d7584abd0dc2a9745af01</guid>
+      <pubDate>Tue, 02 Sep 2025 15:10:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mis-issued certificates for 1.1.1.1 DNS service pose a threat to the Internet (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/security/2025/09/mis-issued-certificates-for-1-1-1-1-dns-service-pose-a-threat-to-the-internet/</link>
+      <description>The three certificates were issued in May but only came to light Wednesday.</description>
+      <guid isPermaLink="false">106517d43f02368d6bdced3f65096a79</guid>
+      <pubDate>Wed, 03 Sep 2025 18:40:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AI model turns photos into explorable 3D worlds, with caveats (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/ai/2025/09/new-ai-model-turns-photos-into-explorable-3d-worlds-with-caveats/</link>
+      <description>Openly available AI tool creates steerable 3D-like video, but requires serious GPU muscle.</description>
+      <guid isPermaLink="false">3eb079f09df8283e2809ba5d9af81053</guid>
+      <pubDate>Wed, 03 Sep 2025 21:56:07 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft open-sources Bill Gates’ 6502 BASIC from 1978 (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/gadgets/2025/09/microsoft-open-sources-bill-gates-6502-basic-from-1978/</link>
+      <description>Historic interpreter taught millions to program on Commodore and Apple computers.</description>
+      <guid isPermaLink="false">9cdce2a9fe9948abfa59285f541474ee</guid>
+      <pubDate>Thu, 04 Sep 2025 16:56:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>The number of mis-issued 1.1.1.1 certificates grows. Here’s the latest. (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/information-technology/2025/09/the-number-of-mis-issued-1-1-1-1-certificates-grows-heres-the-latest/</link>
+      <description>Everything to know about the mishap that threatened to expose millions of users' queries.</description>
+      <guid isPermaLink="false">98e0cc71f04d7ce077ef5eded287cdbd</guid>
+      <pubDate>Thu, 04 Sep 2025 22:29:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>ChatGPT’s new branching feature is a good reminder that AI chatbots aren’t people (Source: feeds.arstechnica.com)</title>
+      <link>https://arstechnica.com/ai/2025/09/chatgpts-new-branching-feature-is-a-good-reminder-that-ai-chatbots-arent-people/</link>
+      <description>Users can explore multiple paths without losing their original chat thread.</description>
+      <guid isPermaLink="false">bae245b62d80026e3879b07034b7e72e</guid>
+      <pubDate>Fri, 05 Sep 2025 16:06:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>I left my robot vacuum running for 10 days while I was away - here's what I came home to (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/i-left-my-robot-vacuum-running-for-10-days-while-i-was-away-heres-what-i-came-home-to/</link>
+      <description>The Narwal Freo Pro is easily one of the best bang-for-your-buck robot vacuums on the market today.</description>
+      <guid isPermaLink="false">f61ec02e561c4f2a688721baf8557d40</guid>
+      <pubDate>Mon, 08 Sep 2025 10:56:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How you're charging your tablet is slowly killing it - 3 methods to avoid (and the right way) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/how-youre-charging-your-tablet-is-slowly-killing-it-3-methods-to-avoid-and-the-right-way/</link>
+      <description>Your tablet's reliability starts with its battery, and treating it right to keep it running strong.</description>
+      <guid isPermaLink="false">4bd6e8d7034fe86dd0d86b56786166bf</guid>
+      <pubDate>Mon, 08 Sep 2025 10:58:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The tablet that successfully replaced my Kindle and iPad now has a worthy follow-up (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/the-tablet-that-successfully-replaced-my-kindle-and-ipad-now-has-a-worthy-follow-up/</link>
+      <description>The TCL Nxtpaper 11 Plus is a well-rounded Android tablet that offers a reliable everyday experience at a wallet-friendly price.</description>
+      <guid isPermaLink="false">2f009f7be063233c27d8b1c3ee316bda</guid>
+      <pubDate>Mon, 08 Sep 2025 11:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Your Roku has hidden settings and menu screens - here's how to unlock them (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/your-roku-has-hidden-settings-and-menu-screens-heres-how-to-unlock-them/</link>
+      <description>A little-known button combo on your Roku remote unlocks a hidden menu packed with advanced features most users never stumble upon.</description>
+      <guid isPermaLink="false">fc808e55686042a30342ea267103dd6f</guid>
+      <pubDate>Mon, 08 Sep 2025 11:00:17 +0000</pubDate>
+    </item>
+    <item>
+      <title>I tried Lenovo's rotating display laptop at IFA 2025, and it was a mind-boggling experience (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/i-tried-lenovos-rotating-display-laptop-at-ifa-2025-and-it-was-a-mind-boggling-experience/</link>
+      <description>The ThinkBook VertiFlex proof of concept has a rotating screen that swaps from portrait to landscape.</description>
+      <guid isPermaLink="false">c3dd845c2c7e481522824c7dccec0813</guid>
+      <pubDate>Mon, 08 Sep 2025 11:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>This Lenovo ThinkPad in white has been on my mind since I tried it at IFA 2025 (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/this-lenovo-thinkpad-in-white-has-been-on-my-mind-since-i-tried-it-at-ifa-2025/</link>
+      <description>We were already fans of the ThinkPad X9 Aura Edition, but the new Glacial White color makes a bold, lasting impression.</description>
+      <guid isPermaLink="false">7fc67991f983ab2720d5e1002900cf83</guid>
+      <pubDate>Mon, 08 Sep 2025 11:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Is OneDrive sending your Windows files to the cloud? Here's why - and what you can do (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/is-onedrive-sending-all-your-windows-files-to-the-cloud-heres-why-and-what-you-can-do/</link>
+      <description>If you're not careful, your local files can be hoovered into Microsoft's OneDrive cloud storage without your knowledge. Here's how it works.</description>
+      <guid isPermaLink="false">45069fa2cd7ecd3df977c78150ad319f</guid>
+      <pubDate>Mon, 08 Sep 2025 13:49:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Changing these 10 settings on my Pixel phone gave it a nice performance boost (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/changing-these-10-settings-on-my-pixel-phone-gave-it-a-welcome-performance-boost/</link>
+      <description>Pixel phones are packed with smart features by default - but adjusting a few key settings can elevate your experience even further.</description>
+      <guid isPermaLink="false">a01c4edf805bb82a45c0a9df35693307</guid>
+      <pubDate>Mon, 08 Sep 2025 13:49:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>This oddball screwdriver is one of the most ergonomic tools I own (and it's only $15) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/this-oddball-screwdriver-is-one-of-the-most-ergonomic-tools-i-own-and-its-only-15/</link>
+      <description>It may look different than competitors, but this cordless screwdriver is surprisingly powerful and ergonomic.</description>
+      <guid isPermaLink="false">c2e9e84b7ee8346ae884b46f5cd420df</guid>
+      <pubDate>Mon, 08 Sep 2025 14:01:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>You should clean your AirPods ASAP, especially before you consider an upgrade this week (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/you-should-clean-your-airpods-asap-especially-before-you-consider-an-upgrade-this-week/</link>
+      <description>Hearing health doesn't only pertain to volume levels; it's equally important to keep headphones and earbuds clean.</description>
+      <guid isPermaLink="false">3cf0bf7e128b8e401b4648e6dab710d9</guid>
+      <pubDate>Mon, 08 Sep 2025 14:22:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copilot's new File Explorer tricks are serious OneDrive time-savers - how to try them (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/copilots-new-file-explorer-tricks-are-serious-onedrive-time-savers-how-to-try-them/</link>
+      <description>With Copilot and Microsoft 365, you can summarize, ask questions, create an FAQ, and even compare certain files stored in OneDrive.</description>
+      <guid isPermaLink="false">e292eff48fb2b1189ec55c685afc2527</guid>
+      <pubDate>Mon, 08 Sep 2025 14:23:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple's iPhone 17 event invite has secret clues - my 3 biggest theories for what to expect (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/apples-iphone-17-event-invite-has-secret-clues-my-3-biggest-theories-for-what-to-expect/</link>
+      <description>All eyes are on Apple for its next iPhone, Apple Watch, and AirPods lineup - here's what could happen this week.</description>
+      <guid isPermaLink="false">defab1c7b0eb3499a201949d20979f05</guid>
+      <pubDate>Mon, 08 Sep 2025 14:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Every iPhone model compatible with iOS 26 (and which ones don't support the update) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/every-iphone-model-compatible-with-ios-26-and-which-ones-dont-support-the-update/</link>
+      <description>Here's a list of iPhones that support the next iOS update - and when you can use it yourself.</description>
+      <guid isPermaLink="false">a5a83f9e60dbeb3c6ad54712416c69d2</guid>
+      <pubDate>Mon, 08 Sep 2025 14:32:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>These $15 accessories turned my AirPods into my ideal workout headphones (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/these-15-accessories-turned-my-airpods-into-my-ideal-workout-headphones/</link>
+      <description>Loose AirPods? Before you give up on them, try these three accessories without breaking the bank.</description>
+      <guid isPermaLink="false">6a365bff7b568bc07be9cc3b51548cdd</guid>
+      <pubDate>Mon, 08 Sep 2025 14:45:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>6 features I'd like to see on the Apple Watch Series 11 - including a big one for health (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/6-features-id-like-to-see-on-the-apple-watch-series-11-including-a-big-one-for-health/</link>
+      <description>Having tested every major smartwatch release in 2025, here's what's on my Apple Watch wish list ahead of this week's event.</description>
+      <guid isPermaLink="false">25405321b6395dd4b50caed60ba233cf</guid>
+      <pubDate>Mon, 08 Sep 2025 15:02:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple iPhone 17 event live updates: The biggest rumors on AirPods, Apple Watch Series 11, more (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/apple-iphone-17-event-live-updates-the-biggest-rumors-on-airpods-apple-watch-series-11-more/</link>
+      <description>The clock is ticking, and ZDNET is reporting on all the latest news surrounding Apple's September iPhone event this week.</description>
+      <guid isPermaLink="false">64067d69046369c9bc8d83315c66bf6a</guid>
+      <pubDate>Mon, 08 Sep 2025 15:18:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to watch Apple's iPhone 17 September event this week (and what to expect) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/how-to-watch-apples-iphone-17-september-event-this-week-and-what-to-expect/</link>
+      <description>The big iPhone 17 launch event is here, and you'll want to tune in for these reasons.</description>
+      <guid isPermaLink="false">917ac913b1d78b7f47663fd454982a96</guid>
+      <pubDate>Mon, 08 Sep 2025 16:13:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>40+ Windows keyboard shortcuts that effectively improved my work productivity (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/40-windows-keyboard-shortcuts-that-effectively-improved-my-work-productivity/</link>
+      <description>Keyboard shortcuts can supercharge your productivity - if you know which ones to use. Here are 48 essential shortcuts every Windows user should know.</description>
+      <guid isPermaLink="false">50c14b9d9d88632f378cee8617b94e6e</guid>
+      <pubDate>Mon, 08 Sep 2025 16:24:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Yes, you can run Windows apps on Linux  - here are my top 5 ways (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/yes-you-can-run-windows-apps-on-linux-here-are-my-top-5-ways/</link>
+      <description>If you're looking to jump from Windows 10 to Linux, and you have specific apps you need to use that aren't available on the open-source platform, here's how to get around that.</description>
+      <guid isPermaLink="false">9315509f0f77fd81ac492e9bb7052ce5</guid>
+      <pubDate>Mon, 08 Sep 2025 16:50:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AirPods Pro tomorrow? These 3 features would be so worth upgrading for (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/new-airpods-pro-tomorrow-these-3-features-would-be-so-worth-upgrading-for/</link>
+      <description>Live translation and temperature sensing in the AirPods Pro 3 sound exciting, but these improvements for everyday use sound even better to me.</description>
+      <guid isPermaLink="false">96d7b67ea4d25100a85c5c22a27d41de</guid>
+      <pubDate>Mon, 08 Sep 2025 17:06:12 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

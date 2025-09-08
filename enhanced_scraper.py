@@ -11,6 +11,10 @@ from datetime import datetime, timezone
 from pathlib import Path
 from bs4 import BeautifulSoup
 from feedgen.feed import FeedGenerator
+import xml.etree.ElementTree as ET
+import urllib.request
+from urllib.error import URLError, HTTPError
+from urllib.parse import urlparse
 import time
 import re
 from dateutil import parser as date_parser
@@ -368,6 +372,201 @@ class RSSGenerator:
         
         return None
 
+# ---------------- Aggregator Utilities ---------------- #
+
+def load_aggregator_config():
+    """Load aggregation settings from _config.yml (Jekyll) if present.
+    Falls back to AGGREGATED_DEFAULT in config.py.
+    """
+    cfg = dict(AGGREGATED_DEFAULT)
+    try:
+        site_yaml = Path('_config.yml')
+        if site_yaml.exists():
+            try:
+                import yaml  # PyYAML
+            except ImportError:
+                yaml = None
+            if yaml:
+                with open(site_yaml, 'r', encoding='utf-8') as f:
+                    data = yaml.safe_load(f) or {}
+                agg = data.get('aggregated_feeds') or {}
+                for k, v in agg.items():
+                    cfg[k] = v
+        # Normalize output path (strip leading slash for local file write)
+        output = cfg.get('output', 'aggregated_external.xml').lstrip('/')
+        cfg['output'] = output
+    except Exception as e:
+        logger.warning(f"Could not load aggregator config from _config.yml: {e}")
+    return cfg
+
+def fetch_rss(url, timeout=25, attempts=3, backoff=2):
+    """Fetch RSS XML content and return parsed items (title, link, pubDate, description) with retry/backoff."""
+    last_err = None
+    for attempt in range(1, attempts + 1):
+        try:
+            with urllib.request.urlopen(url, timeout=timeout) as resp:
+                data = resp.read()
+            root = ET.fromstring(data)
+            channel = root.find('channel') or root
+            items = []
+            for item in channel.findall('.//item'):
+                def _text(tag):
+                    el = item.find(tag)
+                    return el.text.strip() if el is not None and el.text else ''
+                items.append({
+                    'title': _text('title'),
+                    'link': _text('link'),
+                    'description': _text('description') or _text('summary'),
+                    'pubDate': _text('pubDate')
+                })
+            return items
+        except (URLError, HTTPError, ET.ParseError, Exception) as e:
+            last_err = e
+            logger.warning(f"Attempt {attempt}/{attempts} failed for {url}: {e}")
+            if attempt < attempts:
+                time.sleep(backoff * attempt)
+    logger.error(f"All attempts failed for {url}: {last_err}")
+    return []
+
+def parse_pub_date(date_str):
+    if not date_str:
+        return None
+    try:
+        return date_parser.parse(date_str)
+    except Exception:
+        return None
+
+def aggregate_external_feeds(cfg):
+    sources = cfg.get('sources', [])
+    max_items = int(cfg.get('max_items', 150))
+    retention_days = int(cfg.get('retention_days', 60))
+    source_attr = (cfg.get('source_attribution') or 'title').lower()
+    output_file = cfg.get('output', 'aggregated_external.xml')
+    archive_file = cfg.get('archive_output') or output_file.replace('.xml', '_archive.xml')
+    if not sources:
+        logger.info("No sources configured for aggregation")
+        return
+    logger.info(f"Aggregating {len(sources)} sources -> {output_file} (retention {retention_days} days)")
+    collected = []
+    for src in sources:
+        logger.info(f"Fetching source: {src}")
+        items = fetch_rss(src)
+        logger.info(f"  Retrieved {len(items)} items")
+        src_host = urlparse(src).hostname or 'source'
+        for it in items:
+            dt = parse_pub_date(it.get('pubDate')) or datetime.now(timezone.utc)
+            guid_basis = f"{it.get('title')}|{it.get('link')}|{dt.isoformat()}"
+            guid = hashlib.md5(guid_basis.encode()).hexdigest()
+            title_text = it.get('title') or 'Untitled'
+            description_text = it.get('description') or ''
+            if source_attr == 'title':
+                title_text += f" (Source: {src_host})"
+            elif source_attr == 'description':
+                description_text = f"[Source: {src_host}]\n\n{description_text}" if description_text else f"[Source: {src_host}]"
+            collected.append({
+                'title': title_text,
+                'link': it.get('link') or cfg.get('link'),
+                'description': description_text,
+                'pubDate': dt,
+                'guid': guid
+            })
+        time.sleep(1)  # polite throttle
+
+    # Deduplicate by GUID
+    unique = {c['guid']: c for c in collected}.values()
+    # Split by retention
+    cutoff_ord = (datetime.now(timezone.utc).date().toordinal() - retention_days)
+    recent = []
+    archive_additions = []
+    for entry in unique:
+        if entry['pubDate'].date().toordinal() >= cutoff_ord:
+            recent.append(entry)
+        else:
+            archive_additions.append(entry)
+
+    # Sort & trim recent
+    recent_sorted = sorted(recent, key=lambda x: x['pubDate'], reverse=True)[:max_items]
+    logger.info(f"Writing {len(recent_sorted)} recent aggregated items; {len(archive_additions)} to archive")
+    fg = FeedGenerator()
+    fg.title(cfg.get('title'))
+    fg.link(href=cfg.get('link'), rel='alternate')
+    fg.description(cfg.get('description'))
+    fg.language('en')
+    fg.lastBuildDate(datetime.now(timezone.utc))
+    fg.generator('GitHub Action RSS Aggregator v2 (retention)')
+    for entry in recent_sorted:
+        fe = fg.add_entry()
+        fe.id(entry['guid'])
+        fe.title(entry['title'])
+        fe.description(entry['description'])
+        fe.link(href=entry['link'])
+        fe.pubDate(entry['pubDate'])
+    with open(output_file, 'wb') as f:
+        f.write(fg.rss_str(pretty=True))
+    logger.info(f"Aggregated feed written: {output_file}")
+
+    # Archive update
+    if archive_additions:
+        try:
+            existing = []
+            existing_guids = set()
+            if Path(archive_file).exists():
+                try:
+                    tree = ET.parse(archive_file)
+                    root = tree.getroot()
+                    for item in root.findall('.//item'):
+                        guid_el = item.find('guid')
+                        title_el = item.find('title')
+                        link_el = item.find('link')
+                        desc_el = item.find('description')
+                        pub_el = item.find('pubDate')
+                        guid_val = guid_el.text if guid_el is not None else ''
+                        existing_guids.add(guid_val)
+                        existing.append({
+                            'guid': guid_val,
+                            'title': title_el.text if title_el is not None else '',
+                            'link': link_el.text if link_el is not None else cfg.get('link'),
+                            'description': desc_el.text if desc_el is not None else '',
+                            'pubDate': pub_el.text if pub_el is not None else ''
+                        })
+                except Exception as parse_err:
+                    logger.warning(f"Could not parse existing aggregated archive; recreating: {parse_err}")
+            archive_fg = FeedGenerator()
+            archive_fg.title(cfg.get('title') + ' (Archive)')
+            archive_fg.link(href=cfg.get('link'), rel='alternate')
+            archive_fg.description('Archived aggregated items older than retention window')
+            archive_fg.language('en')
+            archive_fg.lastBuildDate(datetime.now(timezone.utc))
+            archive_fg.generator('GitHub Action RSS Aggregator v2 (archive)')
+            # Re-add existing
+            for e in existing:
+                if not e.get('guid'):
+                    continue
+                fe = archive_fg.add_entry()
+                fe.id(e['guid'])
+                fe.title(e['title'])
+                fe.description(e['description'])
+                fe.link(href=e['link'])
+                if e['pubDate']:
+                    fe.pubDate(e['pubDate'])
+            # Add new
+            added = 0
+            for entry in archive_additions:
+                if entry['guid'] in existing_guids:
+                    continue
+                fe = archive_fg.add_entry()
+                fe.id(entry['guid'])
+                fe.title(entry['title'])
+                fe.description(entry['description'])
+                fe.link(href=entry['link'])
+                fe.pubDate(entry['pubDate'])
+                added += 1
+            with open(archive_file, 'wb') as f:
+                f.write(archive_fg.rss_str(pretty=True))
+            logger.info(f"Aggregated archive updated: {archive_file} (added {added}, total {len(existing) + added})")
+        except Exception as e:
+            logger.error(f"Error updating aggregated archive: {e}")
+
 def main():
     """Main execution function."""
     logger.info("Starting enhanced RSS scraper")
@@ -393,8 +592,21 @@ def main():
         else:
             logger.info("No changes detected in GAI data")
         
-        # Generate RSS feed
+        # Generate primary GAI feed
         RSSGenerator.generate_gai_feed(current_gai_data)
+
+        # Aggregated external feeds
+        try:
+            aggregator_cfg = load_aggregator_config()
+            if aggregator_cfg.get("enabled"):
+                logger.info("=" * 60)
+                logger.info("AGGREGATING EXTERNAL RSS SOURCES")
+                logger.info("=" * 60)
+                aggregate_external_feeds(aggregator_cfg)
+            else:
+                logger.info("Aggregator disabled via config")
+        except Exception as agg_err:
+            logger.error(f"Aggregator failed: {agg_err}")
         
         # Save current data
         current_data = {

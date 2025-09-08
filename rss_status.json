@@ -1,14 +1,42 @@
 {
-  "timestamp": "2025-09-08T16:13:29.394991+00:00",
+  "timestamp": "2025-09-08T17:38:44.094969+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Mon, 08 Sep 2025 16:13:29 +0000",
+      "last_updated": "Mon, 08 Sep 2025 17:38:06 +0000",
       "size_bytes": 38668,
       "errors": []
+    },
+    "ai_rss_feed_archive.xml": {
+      "exists": false,
+      "valid_xml": false,
+      "entry_count": 0,
+      "last_updated": null,
+      "size_bytes": 0,
+      "errors": [
+        "Archive not yet created"
+      ]
+    },
+    "aggregated_external.xml": {
+      "exists": true,
+      "valid_xml": true,
+      "entry_count": 40,
+      "last_updated": "Mon, 08 Sep 2025 17:38:23 +0000",
+      "size_bytes": 22547,
+      "errors": []
+    },
+    "aggregated_external_archive.xml": {
+      "exists": false,
+      "valid_xml": false,
+      "entry_count": 0,
+      "last_updated": null,
+      "size_bytes": 0,
+      "errors": [
+        "Archive not yet created"
+      ]
     }
   },
-  "overall_status": "healthy"
+  "overall_status": "warning"
 }

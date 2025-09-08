@@ -41,6 +41,19 @@ RATING_TAGS = {
     "optional": " [ ~ ]"
 }
 
+# Aggregated feed default settings; overridden by _config.yml aggregated_feeds block if present
+AGGREGATED_DEFAULT = {
+    "enabled": True,
+    "output": "aggregated_external.xml",
+    "title": "Aggregated External AI & Tech News",
+    "link": "https://rss.tedt.org/aggregated_external.xml",
+    "description": "Merged headlines from configured external sources",
+    "max_items": 150,
+    "retention_days": 60,
+    "source_attribution": "title",  # 'title', 'description', or 'none'
+    "sources": []
+}
+
 # (Former LinkedIn patterns removed)
 
 # Content Filtering

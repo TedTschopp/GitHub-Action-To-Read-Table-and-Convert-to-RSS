@@ -2,15 +2,17 @@
 
 A sophisticated GitHub Action that scrapes table data from websites to generate an AI news RSS feed automatically.
 
-## 🚀 New Features (v2.0)
+## 🚀 New Features (v2.1)
 
-- **🔄 Automated RSS Feed**: GAI Insights table scraping
+- **🔄 Automated RSS Feed**: GAI Insights table scraping (60‑day retention + archive)
 - **📊 Health Monitoring**: Automated RSS feed health checks and status reports
 - **⚙️ Configuration Management**: Centralized configuration for easy customization
 - **🛡️ Enhanced Error Handling**: Robust error handling with retry mechanisms
 - **📈 Better Change Detection**: Intelligent change detection to avoid unnecessary updates
 - **📝 Structured Logging**: Comprehensive logging for debugging and monitoring
 - **🎯 Smart Content Filtering**: AI-focused content filtering and normalization
+- **🌐 Multi-Source Aggregation**: Merge external RSS feeds into a single local feed with retention & archive
+- **🗂️ Dual Archives**: Separate archive for both GAI feed and aggregated external feed
 
 ## 📁 Project Structure
 
@@ -33,7 +35,32 @@ A sophisticated GitHub Action that scrapes table data from websites to generate 
 - Updates every 8 hours
 - Includes rating tags: Essential [!], Important [*], Optional [~]
 
-<!-- Former secondary feed removed to simplify scope -->
+Archive: `ai_rss_feed_archive.xml` retains items older than 60 days.
+
+### 2. Aggregated External Feed (`aggregated_external.xml`)
+- Merges configurable external sources defined in `_config.yml` under `aggregated_feeds.sources`
+- Retains last 60 days (configurable via `retention_days`)
+- Older items moved to `aggregated_external_archive.xml`
+- Per-source attribution appended to title (configurable)
+
+Example YAML block:
+
+```yaml
+aggregated_feeds:
+   enabled: true
+   output: "/aggregated_external.xml"
+   title: "Aggregated External AI & Tech News"
+   link: "https://rss.tedt.org/aggregated_external.xml"
+   description: "Merged headlines from configured external sources"
+   max_items: 150
+   retention_days: 60
+   source_attribution: title   # title|description|none
+   sources:
+      - "https://feeds.arstechnica.com/arstechnica/technology-lab"
+      - "https://www.infoworld.com/index.rss"
+      - "https://www.techrepublic.com/rssfeeds/articles/"
+      - "https://www.zdnet.com/news/rss.xml"
+```
 
 ## 🔧 Configuration
 
@@ -220,7 +247,7 @@ The system tracks various performance metrics:
 
 ## 🔮 Future Enhancements
 
-- [ ] Multi-source RSS aggregation
+- [x] Multi-source RSS aggregation
 - [ ] Advanced content analysis and tagging
 - [ ] Real-time notifications for high-priority content
 - [ ] Machine learning-based content recommendation

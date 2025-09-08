@@ -95,7 +95,27 @@ rss_feeds:
   description: "Latest insights on Enterprise Architecture"
   proxy: true
 
+- name: "Aggregated External AI & Tech News"
+  url: "/aggregated_external.xml"
+  description: "Merged headlines from configured external sources"
+
 # RSS display settings
 rss_preview_limit: 5
   # Number of RSS items to show in homepage previews (minimum limit - will show more if last 7 days has more items) (default: 5)
   # Change this value to display more or fewer items on the homepage
+
+# Aggregated external RSS sources (merged locally into aggregated_external.xml)
+aggregated_feeds:
+  enabled: true
+  output: "/aggregated_external.xml" # Local output file (served by GitHub Pages)
+  title: "Aggregated External AI & Tech News"
+  link: "https://rss.tedt.org/aggregated_external.xml"
+  description: "Merged headlines from configured external sources"
+  max_items: 150
+  retention_days: 60 # Days to keep in primary aggregated feed before moving to archive
+  source_attribution: title # title|description|none - where to place source domain label
+  sources:
+  - "https://feeds.arstechnica.com/arstechnica/technology-lab"
+  - "https://www.infoworld.com/index.rss"
+  - "https://www.techrepublic.com/rssfeeds/articles/"
+  - "https://www.zdnet.com/news/rss.xml"
