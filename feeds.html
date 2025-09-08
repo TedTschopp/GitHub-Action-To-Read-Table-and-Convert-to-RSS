@@ -140,6 +140,59 @@ document.addEventListener('DOMContentLoaded', function() {
             .replace(/^-+|-+$/g, '');
     }
 
+    // Generate alternate slug variants to match potential Jekyll behavior with apostrophes
+    function slugVariants(name) {
+        const lower = (name || '').toString().trim().toLowerCase();
+        const variants = new Set();
+        // Our current algorithm
+        variants.add(jekyllSlugify(lower));
+        // Variant: replace apostrophes with hyphen BEFORE cleanup (yields tschopp-s)
+        variants.add(lower
+            .replace(/['’`]/g, '-')
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/-{2,}/g, '-')
+            .replace(/^-+|-+$/g, '')
+        );
+        // Variant: simply drop apostrophes without extra collapsing
+        variants.add(lower
+            .replace(/['’`]/g, '')
+            .replace(/[^a-z0-9]+/g, '-')
+            .replace(/-{2,}/g, '-')
+            .replace(/^-+|-+$/g, '')
+        );
+        // Variant: replace spaces first then strip apostrophes
+        variants.add(lower
+            .replace(/\s+/g, '-')
+            .replace(/['’`]/g, '')
+            .replace(/[^a-z0-9-]/g, '-')
+            .replace(/-{2,}/g, '-')
+            .replace(/^-+|-+$/g, '')
+        );
+        // Remove empty
+        return Array.from(variants).filter(v => v);
+    }
+
+    const resolvedSlugCache = new Map();
+    function resolveElementForFeed(feedName, suffix) {
+        if (resolvedSlugCache.has(feedName)) {
+            const cached = resolvedSlugCache.get(feedName);
+            const el = document.getElementById(cached + '-' + suffix);
+            if (el) return { element: el, slug: cached };
+        }
+        const candidates = slugVariants(feedName);
+        for (const cand of candidates) {
+            const id = cand + '-' + suffix;
+            const el = document.getElementById(id);
+            if (el) {
+                resolvedSlugCache.set(feedName, cand);
+                if (window && window.console) console.debug('Resolved slug for', feedName, '=>', cand);
+                return { element: el, slug: cand };
+            }
+        }
+        console.warn('Unable to resolve element for feed', feedName, 'suffix', suffix, 'tried', candidates);
+        return { element: null, slug: null };
+    }
+
     // Helper to safely set innerHTML
     function setHTML(el, html) { if (el) el.innerHTML = html; }
 
@@ -148,11 +201,8 @@ document.addEventListener('DOMContentLoaded', function() {
         .then(r => r.ok ? r.json() : Promise.reject(new Error('HTTP '+r.status)))
         .then(data => {
             rssFeeds.forEach(feed => {
-                const slug = jekyllSlugify(feed.name);
-                const statusElement = document.getElementById(slug + '-status');
-                if (!statusElement) {
-                    console.warn('Status element not found for feed', feed.name, 'expected id:', slug+'-status');
-                }
+                const { element: statusElement, slug } = resolveElementForFeed(feed.name, 'status');
+                if (!statusElement) return; // Already warned in resolver
 
                 const statusKey = (feed.url || '').replace(/^\//,''); // e.g. ai_rss_feed.xml
                 const feedData = data.feeds ? data.feeds[statusKey] : null;
@@ -179,12 +229,8 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Load feed entries
     rssFeeds.forEach(feed => {
-        const slug = jekyllSlugify(feed.name);
-        const entriesElement = document.getElementById(slug + '-entries');
-        if (!entriesElement) {
-            console.warn('Entries element not found for feed', feed.name, 'expected id:', slug+'-entries');
-            return;
-        }
+        const { element: entriesElement } = resolveElementForFeed(feed.name, 'entries');
+        if (!entriesElement) return; // warning already issued
 
         fetch(feed.url)
             .then(r => r.ok ? r.text() : Promise.reject(new Error('HTTP '+r.status)))
