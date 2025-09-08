@@ -142,7 +142,7 @@ class: home-template
     console.log('Existing preview elements at init:', [...document.querySelectorAll('.rss-preview')].map(el=>({id:el.id, name:el.dataset.feedName, slug:el.dataset.feedSlug})));
 
     const slugAlias = {
-        "Ted Tschopp's AI News": 'ted-tschopp-s-ai-news-preview'
+        "Ted Tschopp's AI News": 'feed-preview-0' // maps to first feed's index-based id
     };
 
     rssFeeds.forEach((feed, idx) => {
@@ -499,5 +499,6 @@ class: home-template
                     </div>
                 `;
             });
+    }); // end rssFeeds.forEach
 })();
 </script>
