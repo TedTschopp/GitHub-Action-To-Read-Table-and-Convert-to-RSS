@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Case for Using Small Language Models",
+        "links": [
+          "https://hbr.org/2025/09/the-case-for-using-small-language-models"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR piece underscores why small language models that are orders of magnitude smaller yet fine-tuned and edge-capable are poised to redefine AI deployments, offering speed, cost-efficiency, and enhanced data security. Our analysts noted that although the article sometimes oversimplifies model behavior, the emerging focus on operational effectiveness and AI in constrained environments makes it crucial for AI leaders to grasp this shift toward leaner, more sustainable AI architectures.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Power of AI in Driving Personalized Product Discovery at Snoonu",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/the-power-of-ai-in-driving-personalized-product-discovery-at-snoonu/"
+        ]
+      },
+      "Rationale": {
+        "text": "This AWS case study highlights how classic machine learning (not generative AI) dramatically improved business results—reporting astonishing metrics like a 1,600% increase in add-to-cart events and a 47× return on model investment—showcasing the tangible business value of AI automation. Our analysts emphasized that this is a foundational example of AI in e-commerce, where machine learning effectively prepared the base for future GenAI by organizing the data layer and enabling metadata personalization for customer segments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Future of Aftermarket Pricing: Unlocking Value with AI",
+        "links": [
+          "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-future-of-aftermarket-pricing-unlocking-value-with-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "McKinsey presents a solid, data-driven exploration of how AI and micro-segmentation can optimize aftermarket automotive pricing, a high-margin but niche sector. However, our analysts found the insights to be rather straightforward and industry-specific—with little novelty—making it essential primarily for those in that particular vertical.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Qwen3 ASR: Hear Clearly, Transcribe Smartly",
+        "links": [
+          "URL_TO_QWEN3_ASR"
+        ]
+      },
+      "Rationale": {
+        "text": "Alibaba’s Qwen3 ASR pushes forward with noise-robust, multi-language speech-to-text capabilities—including contextual biasing and performance in songs and rap—signaling strong progress in AI-powered speech recognition. Our analysts agreed it’s a noteworthy product announcement with intriguing technical innovations, but since plenty of capable ASR tools already exist, it remains optional for most readers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Clay and Octave Are Quietly Killing Off Traditional Sales Jobs",
+        "links": [
+          "https://venturebeat.com/ai/how-clay-and-octave-are-quietly-killing-off-traditional-sales-jobs"
+        ]
+      },
+      "Rationale": {
+        "text": "VentureBeat explores AI-powered platforms reshaping sales processes, introducing a new hybrid role, “go-to-market engineer”, who blends domain savvy with automation acumen, illustrating how AI transforms job roles rather than merely eliminating them. While the concept is compelling and touches on AI in sales automation, our analysts marked it optional due to its early stage and product‑marketing tone.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Universal Deep Research: Bring Your Own Model and Strategy",
+        "links": [
+          "URL_TO_NVIDIA_UDR"
+        ]
+      },
+      "Rationale": {
+        "text": "NVIDIA's “Universal Deep Research” offers a flexible AI wrapper allowing users to deploy models of their choice within enterprise workflows, aiming to control model usage and keep costs in check. Our analysts found the concept intriguing but too research-heavy and technical—requiring users to craft strategies manually—so it remains optional until it's packaged into a more accessible solution.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/08/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Gemini 2.5 Flash Image offers state-of-the-art capabilities in image generation and editing, including multi-image fusion, character and style consistency, and precise natural-language-driven edits—all accessible on Vertex AI for enterprise use. Our analysts noted that Gemini handles targeted image modifications—like editing just one part while preserving others—with greater precision than competing tools, illustrating a practical step forward in multimodal content creation.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Anthropic Education Report: How educators use Claude",
-        "links": [
-          "https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s analysis of 74,000 educator interactions with Claude reveals that faculty are using AI primarily for curriculum design (57%), academic research (13%), and student performance assessment (7%), with use cases extending into simulation, interactive materials, and administrative tools—often augmenting rather than simply automating tasks. Our analysts highlighted that this report reflects a broader shift in education—from one-way broadcasting to interactive dialogue and personalization—underscoring the urgent need for organizations to educate themselves in AI to guide learning and deployment responsibly.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "AlphaAgents: Large Language Model based Multi‑Agents for Equity Portfolio Constructions",
-        "links": [
-          "https://arxiv.org/html/2508.11152v1"
-        ]
-      },
-      "Rationale": {
-        "text": "This research introduces AlphaAgents—a modular, role-based multi-agent LLM system where different agents (e.g., fundamental, sentiment, valuation) collaborate, leveraging structured debate and explicit risk tolerance to outperform traditional single-agent systems in stock selection and portfolio management benchmarks. Our analysts appreciated that this framework can create a “market in opinion,” enabling more transparent, systematic investment strategies—pointing toward the future of AI in asset management.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Wan 2.2 video model",
-        "links": [
-          "https://huggingface.co/Wan-AI/Wan2.2-S2V-14B"
-        ]
-      },
-      "Rationale": {
-        "text": "Wan 2.2 is an open-source large-scale video generation model offering enhanced efficiency, novel denoising techniques, and photorealistic results. While technically impressive, it’s more of a product announcement announcing incremental improvements. Our analysts regarded it as interesting for the ecosystem—especially open-source video—but not a breakthrough with immediate enterprise-level implications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "VibeVoice: A Frontier Open‑Source Text‑to‑Speech Model",
-        "links": [
-          "https://huggingface.co/microsoft/VibeVoice-1.5B"
-        ]
-      },
-      "Rationale": {
-        "text": "VibeVoice from Microsoft Research brings open-source enhancements in text-to-speech realism, including nuanced prosody, tone, and breathing cues—demonstrating the potential for expressive audio synthesis, akin to “the llama moment for audio generation.” Our analysts highlighted its value for audio creators and educational use cases (e.g., voiceovers, podcasts), but with limited enterprise-grade readiness, making it noteworthy yet non-essential for broader audiences.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The GenAI Divide: State of AI in Business 2025",
-        "links": [
-          "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "MIT NANDA study claims 95% of enterprise GenAI efforts fail to generate ROI, citing a 'learning gap'; despite flawed methodology, it influences AI investment discourse, making it important for leaders to note.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Accelerating Life Sciences Research (OpenAI + Retro Biosciences)",
-        "links": [
-          "https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI and Retro Biosciences created a GPT‑4 model for protein design, improving stem cell reprogramming; powerful proof of domain-specific models driving biotech breakthroughs with long-term strategic implications.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-09T08:46:32.215523+00:00"
+  "timestamp": "2025-09-09T16:44:21.548146+00:00"
 }

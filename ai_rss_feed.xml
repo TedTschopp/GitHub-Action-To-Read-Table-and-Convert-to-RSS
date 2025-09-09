@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Sep 2025 08:17:34 +0000</lastBuildDate>
-    <item>
-      <title>Accelerating Life Sciences Research (OpenAI + Retro Biosciences) [ * ]</title>
-      <link>https://openai.com/index/accelerating-life-sciences-research-with-retro-biosciences/</link>
-      <description>OpenAI and Retro Biosciences created a GPT‑4 model for protein design, improving stem cell reprogramming; powerful proof of domain-specific models driving biotech breakthroughs with long-term strategic implications.</description>
-      <guid isPermaLink="false">c669eb9fa49b01e64ec3230a209072ea</guid>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The GenAI Divide: State of AI in Business 2025 [ * ]</title>
-      <link>https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf</link>
-      <description>MIT NANDA study claims 95% of enterprise GenAI efforts fail to generate ROI, citing a 'learning gap'; despite flawed methodology, it influences AI investment discourse, making it important for leaders to note.</description>
-      <guid isPermaLink="false">6481049f1214e090d15b612f5ab21269</guid>
-      <pubDate>Tue, 26 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VibeVoice: A Frontier Open‑Source Text‑to‑Speech Model [ ~ ]</title>
-      <link>https://huggingface.co/microsoft/VibeVoice-1.5B</link>
-      <description>VibeVoice from Microsoft Research brings open-source enhancements in text-to-speech realism, including nuanced prosody, tone, and breathing cues—demonstrating the potential for expressive audio synthesis, akin to “the llama moment for audio generation.” Our analysts highlighted its value for audio creators and educational use cases (e.g., voiceovers, podcasts), but with limited enterprise-grade readiness, making it noteworthy yet non-essential for broader audiences.</description>
-      <guid isPermaLink="false">4c6793ebdca1a774f6ce2fcef91f7679</guid>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Wan 2.2 video model [ ~ ]</title>
-      <link>https://huggingface.co/Wan-AI/Wan2.2-S2V-14B</link>
-      <description>Wan 2.2 is an open-source large-scale video generation model offering enhanced efficiency, novel denoising techniques, and photorealistic results. While technically impressive, it’s more of a product announcement announcing incremental improvements. Our analysts regarded it as interesting for the ecosystem—especially open-source video—but not a breakthrough with immediate enterprise-level implications.</description>
-      <guid isPermaLink="false">b4fdb948af0ac6447b2890c0f1a568f2</guid>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AlphaAgents: Large Language Model based Multi‑Agents for Equity Portfolio Constructions [ * ]</title>
-      <link>https://arxiv.org/html/2508.11152v1</link>
-      <description>This research introduces AlphaAgents—a modular, role-based multi-agent LLM system where different agents (e.g., fundamental, sentiment, valuation) collaborate, leveraging structured debate and explicit risk tolerance to outperform traditional single-agent systems in stock selection and portfolio management benchmarks. Our analysts appreciated that this framework can create a “market in opinion,” enabling more transparent, systematic investment strategies—pointing toward the future of AI in asset management.</description>
-      <guid isPermaLink="false">5bdd8ce6aafc5864429e47a7c0d59d13</guid>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Education Report: How educators use Claude [ ! ]</title>
-      <link>https://www.anthropic.com/news/anthropic-education-report-how-educators-use-claude</link>
-      <description>Anthropic’s analysis of 74,000 educator interactions with Claude reveals that faculty are using AI primarily for curriculum design (57%), academic research (13%), and student performance assessment (7%), with use cases extending into simulation, interactive materials, and administrative tools—often augmenting rather than simply automating tasks. Our analysts highlighted that this report reflects a broader shift in education—from one-way broadcasting to interactive dialogue and personalization—underscoring the urgent need for organizations to educate themselves in AI to guide learning and deployment responsibly.</description>
-      <guid isPermaLink="false">b41a14fa520d0fd5b92ebba5ec9e2c49</guid>
-      <pubDate>Wed, 27 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 09 Sep 2025 16:14:41 +0000</lastBuildDate>
     <item>
       <title>Building next‑gen visuals with Gemini 2.5 Flash Image on Vertex AI [ ! ]</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/gemini-2-5-flash-image-on-vertex-ai</link>
@@ -357,6 +315,48 @@
       <description>This settlement represents the first major class-action resolution in the AI era, awarding roughly $3,000 per book for approximately 500,000 works, and marks the largest copyright recovery in U.S. history. Our analysts agreed that this signals that data provenance and transparency are now mandatory considerations for AI leaders, especially as the terms of licensing and content usage are under legal scrutiny.</description>
       <guid isPermaLink="false">b89c0f388eea8f7474fb7c7247ca3365</guid>
       <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Universal Deep Research: Bring Your Own Model and Strategy [ ~ ]</title>
+      <link>URL_TO_NVIDIA_UDR</link>
+      <description>NVIDIA's “Universal Deep Research” offers a flexible AI wrapper allowing users to deploy models of their choice within enterprise workflows, aiming to control model usage and keep costs in check. Our analysts found the concept intriguing but too research-heavy and technical—requiring users to craft strategies manually—so it remains optional until it's packaged into a more accessible solution.</description>
+      <guid isPermaLink="false">665e2de071d025b333539689be65805b</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Clay and Octave Are Quietly Killing Off Traditional Sales Jobs [ ~ ]</title>
+      <link>https://venturebeat.com/ai/how-clay-and-octave-are-quietly-killing-off-traditional-sales-jobs</link>
+      <description>VentureBeat explores AI-powered platforms reshaping sales processes, introducing a new hybrid role, “go-to-market engineer”, who blends domain savvy with automation acumen, illustrating how AI transforms job roles rather than merely eliminating them. While the concept is compelling and touches on AI in sales automation, our analysts marked it optional due to its early stage and product‑marketing tone.</description>
+      <guid isPermaLink="false">f33e17982132526dd251f504f97c37ba</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen3 ASR: Hear Clearly, Transcribe Smartly [ ~ ]</title>
+      <link>URL_TO_QWEN3_ASR</link>
+      <description>Alibaba’s Qwen3 ASR pushes forward with noise-robust, multi-language speech-to-text capabilities—including contextual biasing and performance in songs and rap—signaling strong progress in AI-powered speech recognition. Our analysts agreed it’s a noteworthy product announcement with intriguing technical innovations, but since plenty of capable ASR tools already exist, it remains optional for most readers.</description>
+      <guid isPermaLink="false">708a40d3e2d270e790d2104694e9c188</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Future of Aftermarket Pricing: Unlocking Value with AI [ ~ ]</title>
+      <link>https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-future-of-aftermarket-pricing-unlocking-value-with-ai</link>
+      <description>McKinsey presents a solid, data-driven exploration of how AI and micro-segmentation can optimize aftermarket automotive pricing, a high-margin but niche sector. However, our analysts found the insights to be rather straightforward and industry-specific—with little novelty—making it essential primarily for those in that particular vertical.</description>
+      <guid isPermaLink="false">954343f86b5b86f6d4fada7f2fe805c1</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Power of AI in Driving Personalized Product Discovery at Snoonu [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/the-power-of-ai-in-driving-personalized-product-discovery-at-snoonu/</link>
+      <description>This AWS case study highlights how classic machine learning (not generative AI) dramatically improved business results—reporting astonishing metrics like a 1,600% increase in add-to-cart events and a 47× return on model investment—showcasing the tangible business value of AI automation. Our analysts emphasized that this is a foundational example of AI in e-commerce, where machine learning effectively prepared the base for future GenAI by organizing the data layer and enabling metadata personalization for customer segments.</description>
+      <guid isPermaLink="false">044f1a9682fb568d6db25ab0290dfdb7</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Case for Using Small Language Models [ * ]</title>
+      <link>https://hbr.org/2025/09/the-case-for-using-small-language-models</link>
+      <description>This HBR piece underscores why small language models that are orders of magnitude smaller yet fine-tuned and edge-capable are poised to redefine AI deployments, offering speed, cost-efficiency, and enhanced data security. Our analysts noted that although the article sometimes oversimplifies model behavior, the emerging focus on operational effectiveness and AI in constrained environments makes it crucial for AI leaders to grasp this shift toward leaner, more sustainable AI architectures.</description>
+      <guid isPermaLink="false">df5c3bc9032aaf8d79912b4263440921</guid>
+      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

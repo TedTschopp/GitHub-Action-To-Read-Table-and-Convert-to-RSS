@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-09-09T08:46:32.312423+00:00",
+  "timestamp": "2025-09-09T16:44:21.635069+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Tue, 09 Sep 2025 08:17:34 +0000",
-      "size_bytes": 38668,
+      "last_updated": "Tue, 09 Sep 2025 16:14:41 +0000",
+      "size_bytes": 38862,
       "errors": []
     },
     "ai_rss_feed_archive.xml": {
@@ -23,8 +23,8 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 60,
-      "last_updated": "Tue, 09 Sep 2025 08:17:55 +0000",
-      "size_bytes": 33345,
+      "last_updated": "Tue, 09 Sep 2025 16:15:01 +0000",
+      "size_bytes": 32682,
       "errors": []
     },
     "aggregated_external_archive.xml": {
@@ -40,33 +40,33 @@
     "aggregated_ea.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 9,
-      "last_updated": "Tue, 09 Sep 2025 08:18:22 +0000",
-      "size_bytes": 7735,
+      "entry_count": 27,
+      "last_updated": "Tue, 09 Sep 2025 16:15:30 +0000",
+      "size_bytes": 31236,
       "errors": []
     },
     "aggregated_ea_archive.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 51,
-      "last_updated": "Tue, 09 Sep 2025 08:18:22 +0000",
-      "size_bytes": 72118,
+      "entry_count": 52,
+      "last_updated": "Tue, 09 Sep 2025 16:15:30 +0000",
+      "size_bytes": 73760,
       "errors": []
     },
     "aggregated_osr_ttrpg.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 200,
-      "last_updated": "Tue, 09 Sep 2025 08:46:30 +0000",
-      "size_bytes": 1311024,
+      "last_updated": "Tue, 09 Sep 2025 16:44:19 +0000",
+      "size_bytes": 1745842,
       "errors": []
     },
     "aggregated_osr_ttrpg_archive.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 6016,
-      "last_updated": "Tue, 09 Sep 2025 08:46:31 +0000",
-      "size_bytes": 77401142,
+      "last_updated": "Tue, 09 Sep 2025 16:44:20 +0000",
+      "size_bytes": 77404052,
       "errors": []
     }
   },
