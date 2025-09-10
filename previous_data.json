@@ -72,7 +72,7 @@
       "Title": {
         "text": "Qwen3 ASR: Hear Clearly, Transcribe Smartly",
         "links": [
-          "URL_TO_QWEN3_ASR"
+          "https://qwen.ai/blog?id=41e4c0f6175f9b004a03a07e42343eaaf48329e7&from=research.latest-advancements-list"
         ]
       },
       "Rationale": {
@@ -112,7 +112,7 @@
       "Title": {
         "text": "Universal Deep Research: Bring Your Own Model and Strategy",
         "links": [
-          "URL_TO_NVIDIA_UDR"
+          "https://research.nvidia.com/labs/lpr/udr/"
         ]
       },
       "Rationale": {
@@ -1001,5 +1001,5 @@
       }
     }
   ],
-  "timestamp": "2025-09-09T16:44:21.548146+00:00"
+  "timestamp": "2025-09-10T01:23:49.002403+00:00"
 }

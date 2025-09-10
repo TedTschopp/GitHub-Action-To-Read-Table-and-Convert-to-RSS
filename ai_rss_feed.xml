@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 09 Sep 2025 16:14:41 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 10 Sep 2025 00:53:22 +0000</lastBuildDate>
     <item>
       <title>Building next‑gen visuals with Gemini 2.5 Flash Image on Vertex AI [ ! ]</title>
       <link>https://cloud.google.com/blog/products/ai-machine-learning/gemini-2-5-flash-image-on-vertex-ai</link>
@@ -318,7 +318,7 @@
     </item>
     <item>
       <title>Universal Deep Research: Bring Your Own Model and Strategy [ ~ ]</title>
-      <link>URL_TO_NVIDIA_UDR</link>
+      <link>https://research.nvidia.com/labs/lpr/udr/</link>
       <description>NVIDIA's “Universal Deep Research” offers a flexible AI wrapper allowing users to deploy models of their choice within enterprise workflows, aiming to control model usage and keep costs in check. Our analysts found the concept intriguing but too research-heavy and technical—requiring users to craft strategies manually—so it remains optional until it's packaged into a more accessible solution.</description>
       <guid isPermaLink="false">665e2de071d025b333539689be65805b</guid>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
@@ -332,7 +332,7 @@
     </item>
     <item>
       <title>Qwen3 ASR: Hear Clearly, Transcribe Smartly [ ~ ]</title>
-      <link>URL_TO_QWEN3_ASR</link>
+      <link>https://qwen.ai/blog?id=41e4c0f6175f9b004a03a07e42343eaaf48329e7&amp;from=research.latest-advancements-list</link>
       <description>Alibaba’s Qwen3 ASR pushes forward with noise-robust, multi-language speech-to-text capabilities—including contextual biasing and performance in songs and rap—signaling strong progress in AI-powered speech recognition. Our analysts agreed it’s a noteworthy product announcement with intriguing technical innovations, but since plenty of capable ASR tools already exist, it remains optional for most readers.</description>
       <guid isPermaLink="false">708a40d3e2d270e790d2104694e9c188</guid>
       <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
