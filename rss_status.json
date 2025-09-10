@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-09-10T08:49:49.494743+00:00",
+  "timestamp": "2025-09-10T16:42:43.202828+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Wed, 10 Sep 2025 08:19:17 +0000",
-      "size_bytes": 38977,
+      "last_updated": "Wed, 10 Sep 2025 16:14:30 +0000",
+      "size_bytes": 39441,
       "errors": []
     },
     "ai_rss_feed_archive.xml": {
@@ -23,8 +23,8 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 60,
-      "last_updated": "Wed, 10 Sep 2025 08:19:40 +0000",
-      "size_bytes": 32940,
+      "last_updated": "Wed, 10 Sep 2025 16:14:54 +0000",
+      "size_bytes": 32989,
       "errors": []
     },
     "aggregated_external_archive.xml": {
@@ -41,15 +41,15 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 27,
-      "last_updated": "Wed, 10 Sep 2025 08:20:10 +0000",
-      "size_bytes": 31236,
+      "last_updated": "Wed, 10 Sep 2025 16:15:23 +0000",
+      "size_bytes": 31273,
       "errors": []
     },
     "aggregated_ea_archive.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 52,
-      "last_updated": "Wed, 10 Sep 2025 08:20:10 +0000",
+      "last_updated": "Wed, 10 Sep 2025 16:15:23 +0000",
       "size_bytes": 73760,
       "errors": []
     },
@@ -57,15 +57,15 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 200,
-      "last_updated": "Wed, 10 Sep 2025 08:49:47 +0000",
-      "size_bytes": 1622557,
+      "last_updated": "Wed, 10 Sep 2025 16:42:41 +0000",
+      "size_bytes": 1629962,
       "errors": []
     },
     "aggregated_osr_ttrpg_archive.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 6022,
-      "last_updated": "Wed, 10 Sep 2025 08:49:48 +0000",
+      "last_updated": "Wed, 10 Sep 2025 16:42:41 +0000",
       "size_bytes": 77586422,
       "errors": []
     }
