@@ -2,6 +2,146 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Microsoft to lessen reliance on OpenAI by buying AI from rival Anthropic",
+        "links": [
+          "https://techcrunch.com/2025/09/09/microsoft-to-lessen-reliance-on-openai-by-buying-ai-from-rival-anthropic/"
+        ]
+      },
+      "Rationale": {
+        "text": "Microsoft is integrating Anthropic’s AI models into Microsoft 365, signaling a major shift away from exclusive reliance on OpenAI and positioning Claude as a formidable competitor in the enterprise AI market. Our analysts noted this is a pivotal moment in the maturing AI ecosystem, marking the emergence of vendor diversification and greater choice in foundational model providers for enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "LLM Evaluation: Practical Tips at Booking.com",
+        "links": [
+          "https://booking.ai/llm-evaluation-practical-tips-at-booking-com-1b038a0d6662"
+        ]
+      },
+      "Rationale": {
+        "text": "Booking.com provides a detailed look at how to operationalize LLM evaluation using judge models, metrics, and pipelines for measuring hallucinations and relevance. Our analysts emphasized this article fills a critical gap in AI evaluation literacy, offering a rare and practical case study that enterprise AI leaders can adopt immediately.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Agent 3 by Replit",
+        "links": [
+          "https://x.com/amasad/status/1965800350071590966"
+        ]
+      },
+      "Rationale": {
+        "text": "Replit's Agent 3 is an autonomous coding agent capable of multi-hour runs, automated testing, and spawning agents for use in messaging apps, signaling significant progress in AI-driven software development. Our analysts agreed the leap in agent autonomy is meaningful, even if Replit is not yet enterprise-focused, as it highlights how fast capabilities in AI automation are scaling.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How London Stock Exchange Group is detecting market abuse with their AI-powered Surveillance Guide on Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-london-stock-exchange-group-is-detecting-market-abuse-with-their-ai-powered-surveillance-guide-on-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "LSEG’s adoption of generative AI on AWS Bedrock to detect market abuse is a real-world example of AI in finance addressing compliance and risk. Though early-stage, our analysts noted this is a meaningful implementation in a regulated industry and represents a maturing use case for AI surveillance tools.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Claude can now create and edit files",
+        "links": [
+          "https://www.anthropic.com/news/create-files?utm_source=alphasignal&utm_campaign=2025-09-10&asuniq=de56c5c7"
+        ]
+      },
+      "Rationale": {
+        "text": "Claude 3.5 now includes the ability to create and edit common file types like spreadsheets and presentations directly via prompts, bringing document interactivity to its browser UI. While our analysts saw this as catch-up to ChatGPT’s existing tools, it’s still considered an important move in enhancing generative AI’s usability for non-technical users.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Great Expansion: A New Era of Consumer Software",
+        "links": [
+          "https://a16z.com/the-great-expansion-a-new-era-of-consumer-software/"
+        ]
+      },
+      "Rationale": {
+        "text": "Andreessen Horowitz explores trends in consumer AI apps, focusing on freemium + usage-based pricing models and their bridge into enterprise. Our analysts found it an insightful summary but primarily relevant to startup ecosystems rather than enterprise leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Seedream 4.0",
+        "links": [
+          "https://seed.bytedance.com/en/seedream4_0"
+        ]
+      },
+      "Rationale": {
+        "text": "ByteDance’s Seedream 4.0 merges image generation and editing into one model with support for high-resolution output and batch processing. Our analysts noted the capabilities are strong but largely a catch-up to existing leaders, offering few implications for enterprise use at this stage.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/10/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "This article champions the shift from superficial “vibe testing” to rigorous evaluation for LLMs—introducing Stax, a developer tool enabling structured evaluation pipelines with human labeling and auto-raters, making debugging and quality metrics more reliable. Our analysts stressed how critical evaluation tooling has become: “before you own your intelligence, own your evals,” noting that this tooling is no longer discretionary but foundational for dependable AI-driven applications.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "08/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing gpt‑realtime and Realtime API updates for production voice agents",
-        "links": [
-          "https://openai.com/index/introducing-gpt-realtime/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI’s launch of GPT‑Realtime and enhanced Realtime API brings production-grade voice agents to life with support for remote tool access, image inputs, and SIP-enabled phone interactions. Our analysts highlighted the leap from preview to general availability as a pivotal moment: “voice is material,” especially for enterprises building at scale, and solidifying voice as a cornerstone of AI-powered services.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Grok Code Fast 1",
-        "links": [
-          "https://x.ai/news/grok-code-fast-1"
-        ]
-      },
-      "Rationale": {
-        "text": "xAI’s newest agentic coding model, Grok Code Fast 1, promises blazing-fast performance and cost-efficiency—making coding tools both speedy and budget-friendly. Our analysts pointed out that while it's a product launch, the dual value of speed and affordability addresses two under-discussed yet essential developer needs, potentially reshaping expectations for coding AI at scale.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Command A Translate: Secure translation for global enterprises",
-        "links": [
-          "https://cohere.com/blog/command-a-translate"
-        ]
-      },
-      "Rationale": {
-        "text": "Cohere’s Command A Translate reinforces its enterprise-focused stance by offering secure, on-premise-ready translation tools. While tailored for sensitive corporate environments—with claims of local deployment and security baked in—our analysts flagged it as a familiar positioning move rather than a breakthrough, hence optional.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Two in‑house models in support of our mission",
-        "links": [
-          "https://microsoft.ai/news/two-new-in-house-models/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft unveiled two new voice models—MAI-Voice-1 and MAI-1-Preview—but provided scant technical detail. Our analysts saw it largely as a PR-forward statement amid intense competition, noting its relevance mostly for Microsoft-aligned developers, rather than the broader AI community.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI–Anthropic cross‑tests expose jailbreak and misuse risks — what enterprises must add to GPT‑5 evaluations",
-        "links": [
-          "https://venturebeat.com/ai/openai-anthropic-cross-tests-expose-jailbreak-and-misuse-risks-what-enterprises-must-add-to-gpt-5-evaluations/"
-        ]
-      },
-      "Rationale": {
-        "text": "The article spotlights a positive precedent of OpenAI and Anthropic collaborating to uncover jailbreak vulnerabilities—but lacks granular insights on findings or mitigation strategies. While the partnership is laudable, analysts deemed the content too high level to warrant a higher rating.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The Top 100 Gen AI Consumer Apps",
-        "links": [
-          "https://a16z.com/100-gen-ai-apps-5/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Andreessen Horowitz’s fifth edition ranking of the top Gen AI consumer apps offers an up-to-the-minute snapshot—based on traffic and downloads—of which apps are resonating with real users. Our analysts emphasized its strategic value for AI leaders understanding the fast-moving B2C landscape: who’s gaining traction, and where new behavioral trends are emerging.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence",
-        "links": [
-          "https://digitaleconomy.stanford.edu/wp-content/uploads/2025/08/Canaries_BrynjolfssonChandarChen.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "This rigorous Stanford study combines millions of payroll records with AI exposure metrics to reveal that early-career workers (ages 22–25) in AI‑exposed roles—like software development and customer service—have seen a sharp 13% drop in employment relative to peers. Our analysts praised its empirical rigor and policy relevance as a must-read for understanding AI’s real labor-market impact.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-11T12:30:42.267962+00:00"
+  "timestamp": "2025-09-11T16:15:56.918457+00:00"
 }

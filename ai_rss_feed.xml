@@ -7,56 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 11 Sep 2025 12:29:57 +0000</lastBuildDate>
-    <item>
-      <title>Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence [ ! ]</title>
-      <link>https://digitaleconomy.stanford.edu/wp-content/uploads/2025/08/Canaries_BrynjolfssonChandarChen.pdf</link>
-      <description>This rigorous Stanford study combines millions of payroll records with AI exposure metrics to reveal that early-career workers (ages 22–25) in AI‑exposed roles—like software development and customer service—have seen a sharp 13% drop in employment relative to peers. Our analysts praised its empirical rigor and policy relevance as a must-read for understanding AI’s real labor-market impact.</description>
-      <guid isPermaLink="false">a02356cdfbda58d7ace2591a8868a5ad</guid>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Top 100 Gen AI Consumer Apps [ ! ]</title>
-      <link>https://a16z.com/100-gen-ai-apps-5/?s=09</link>
-      <description>Andreessen Horowitz’s fifth edition ranking of the top Gen AI consumer apps offers an up-to-the-minute snapshot—based on traffic and downloads—of which apps are resonating with real users. Our analysts emphasized its strategic value for AI leaders understanding the fast-moving B2C landscape: who’s gaining traction, and where new behavioral trends are emerging.</description>
-      <guid isPermaLink="false">1b0b4d17d143d712ed1ae7e9924745d2</guid>
-      <pubDate>Thu, 28 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI–Anthropic cross‑tests expose jailbreak and misuse risks — what enterprises must add to GPT‑5 evaluations [ ~ ]</title>
-      <link>https://venturebeat.com/ai/openai-anthropic-cross-tests-expose-jailbreak-and-misuse-risks-what-enterprises-must-add-to-gpt-5-evaluations/</link>
-      <description>The article spotlights a positive precedent of OpenAI and Anthropic collaborating to uncover jailbreak vulnerabilities—but lacks granular insights on findings or mitigation strategies. While the partnership is laudable, analysts deemed the content too high level to warrant a higher rating.</description>
-      <guid isPermaLink="false">e6774adc080fa9fe4670b33d51df4112</guid>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Two in‑house models in support of our mission [ ~ ]</title>
-      <link>https://microsoft.ai/news/two-new-in-house-models/</link>
-      <description>Microsoft unveiled two new voice models—MAI-Voice-1 and MAI-1-Preview—but provided scant technical detail. Our analysts saw it largely as a PR-forward statement amid intense competition, noting its relevance mostly for Microsoft-aligned developers, rather than the broader AI community.</description>
-      <guid isPermaLink="false">069af2a88cad8790e3a4f1339e5704e8</guid>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Command A Translate: Secure translation for global enterprises [ ~ ]</title>
-      <link>https://cohere.com/blog/command-a-translate</link>
-      <description>Cohere’s Command A Translate reinforces its enterprise-focused stance by offering secure, on-premise-ready translation tools. While tailored for sensitive corporate environments—with claims of local deployment and security baked in—our analysts flagged it as a familiar positioning move rather than a breakthrough, hence optional.</description>
-      <guid isPermaLink="false">046b8cf9ab1cffc922f1b7b3781eb9c1</guid>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grok Code Fast 1 [ * ]</title>
-      <link>https://x.ai/news/grok-code-fast-1</link>
-      <description>xAI’s newest agentic coding model, Grok Code Fast 1, promises blazing-fast performance and cost-efficiency—making coding tools both speedy and budget-friendly. Our analysts pointed out that while it's a product launch, the dual value of speed and affordability addresses two under-discussed yet essential developer needs, potentially reshaping expectations for coding AI at scale.</description>
-      <guid isPermaLink="false">80ba03c302336e2ac8390d34d471c039</guid>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing gpt‑realtime and Realtime API updates for production voice agents [ * ]</title>
-      <link>https://openai.com/index/introducing-gpt-realtime/</link>
-      <description>OpenAI’s launch of GPT‑Realtime and enhanced Realtime API brings production-grade voice agents to life with support for remote tool access, image inputs, and SIP-enabled phone interactions. Our analysts highlighted the leap from preview to general availability as a pivotal moment: “voice is material,” especially for enterprises building at scale, and solidifying voice as a cornerstone of AI-powered services.</description>
-      <guid isPermaLink="false">573a4b9af2857fcd37bdc2c4a01948ff</guid>
-      <pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 11 Sep 2025 16:15:16 +0000</lastBuildDate>
     <item>
       <title>Stop “Vibe Testing” Your LLMs. It's Time for Real Evals [ ! ]</title>
       <link>https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/</link>
@@ -357,6 +308,55 @@
       <description>This Harvard Business Review piece explores a provocative experiment where MBA students at NYU Stern, in collaboration with Microsoft, embedded AI as the “first hire” — using conversational prompts instead of traditional business planning to shape everything from market analysis to organizational structure. Our analysts found it “absolutely essential” reading because it reframes AI as a strategic colleague from day one, with insights on supervisory roles, human oversight, and the role of AI in redefining startup formation.</description>
       <guid isPermaLink="false">2f05f3bc9b50475213bf0972190fb574</guid>
       <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Seedream 4.0 [ ~ ]</title>
+      <link>https://seed.bytedance.com/en/seedream4_0</link>
+      <description>ByteDance’s Seedream 4.0 merges image generation and editing into one model with support for high-resolution output and batch processing. Our analysts noted the capabilities are strong but largely a catch-up to existing leaders, offering few implications for enterprise use at this stage.</description>
+      <guid isPermaLink="false">41f1a622a7096a78fe2b6ad355f31465</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Great Expansion: A New Era of Consumer Software [ ~ ]</title>
+      <link>https://a16z.com/the-great-expansion-a-new-era-of-consumer-software/</link>
+      <description>Andreessen Horowitz explores trends in consumer AI apps, focusing on freemium + usage-based pricing models and their bridge into enterprise. Our analysts found it an insightful summary but primarily relevant to startup ecosystems rather than enterprise leaders.</description>
+      <guid isPermaLink="false">1e476f5545f10de0fd4c458ca30fdc1e</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude can now create and edit files [ * ]</title>
+      <link>https://www.anthropic.com/news/create-files?utm_source=alphasignal&amp;utm_campaign=2025-09-10&amp;asuniq=de56c5c7</link>
+      <description>Claude 3.5 now includes the ability to create and edit common file types like spreadsheets and presentations directly via prompts, bringing document interactivity to its browser UI. While our analysts saw this as catch-up to ChatGPT’s existing tools, it’s still considered an important move in enhancing generative AI’s usability for non-technical users.</description>
+      <guid isPermaLink="false">c81ab41c88e55538eedc63e830755302</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How London Stock Exchange Group is detecting market abuse with their AI-powered Surveillance Guide on Amazon Bedrock [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-london-stock-exchange-group-is-detecting-market-abuse-with-their-ai-powered-surveillance-guide-on-amazon-bedrock/</link>
+      <description>LSEG’s adoption of generative AI on AWS Bedrock to detect market abuse is a real-world example of AI in finance addressing compliance and risk. Though early-stage, our analysts noted this is a meaningful implementation in a regulated industry and represents a maturing use case for AI surveillance tools.</description>
+      <guid isPermaLink="false">6edca2244dc2fa9ca2221a20e2e7a1a2</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent 3 by Replit [ * ]</title>
+      <link>https://x.com/amasad/status/1965800350071590966</link>
+      <description>Replit's Agent 3 is an autonomous coding agent capable of multi-hour runs, automated testing, and spawning agents for use in messaging apps, signaling significant progress in AI-driven software development. Our analysts agreed the leap in agent autonomy is meaningful, even if Replit is not yet enterprise-focused, as it highlights how fast capabilities in AI automation are scaling.</description>
+      <guid isPermaLink="false">308b6d99c6ab81a5a3b8670eec0e13aa</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LLM Evaluation: Practical Tips at Booking.com [ ! ]</title>
+      <link>https://booking.ai/llm-evaluation-practical-tips-at-booking-com-1b038a0d6662</link>
+      <description>Booking.com provides a detailed look at how to operationalize LLM evaluation using judge models, metrics, and pipelines for measuring hallucinations and relevance. Our analysts emphasized this article fills a critical gap in AI evaluation literacy, offering a rare and practical case study that enterprise AI leaders can adopt immediately.</description>
+      <guid isPermaLink="false">6886643e028bc6b53073cbf5c23fd84b</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft to lessen reliance on OpenAI by buying AI from rival Anthropic [ ! ]</title>
+      <link>https://techcrunch.com/2025/09/09/microsoft-to-lessen-reliance-on-openai-by-buying-ai-from-rival-anthropic/</link>
+      <description>Microsoft is integrating Anthropic’s AI models into Microsoft 365, signaling a major shift away from exclusive reliance on OpenAI and positioning Claude as a formidable competitor in the enterprise AI market. Our analysts noted this is a pivotal moment in the maturing AI ecosystem, marking the emergence of vendor diversification and greater choice in foundational model providers for enterprise AI leaders.</description>
+      <guid isPermaLink="false">66d0a8445dc5b35a03c7cf5cc5892783</guid>
+      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
