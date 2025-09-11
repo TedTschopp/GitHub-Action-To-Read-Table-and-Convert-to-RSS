@@ -70,12 +70,12 @@ class: home-template
         return;
     }
     const feeds = {{ site.rss_feeds | jsonify }};
-    const limit = {{ site.rss_preview_limit | default: 5 }};
+    // Showing all items (preview limit removed as per request)
     function esc(s){return (s||'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]||c));}
     function parseItems(xml){
         const doc = new DOMParser().parseFromString(xml,'application/xml');
         if(doc.querySelector('parsererror')) return [];
-        return Array.from(doc.querySelectorAll('item')).slice(0,limit).map(it=>{
+    return Array.from(doc.querySelectorAll('item')).map(it=>{
             const rawTitle = it.querySelector('title')?.textContent || 'Untitled';
             const linkNode = it.querySelector('link');
             const linkVal = linkNode ? linkNode.textContent : '#';
