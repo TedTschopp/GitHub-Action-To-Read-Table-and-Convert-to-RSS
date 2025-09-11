@@ -75,20 +75,27 @@ class: home-template
     function parseItems(xml){
         const doc = new DOMParser().parseFromString(xml,'application/xml');
         if(doc.querySelector('parsererror')) return [];
-    return Array.from(doc.querySelectorAll('item')).map(it=>{
+        const items = Array.from(doc.querySelectorAll('item')).map((it,idx)=>{
             const rawTitle = it.querySelector('title')?.textContent || 'Untitled';
             const linkNode = it.querySelector('link');
             const linkVal = linkNode ? linkNode.textContent : '#';
-            const dRaw = it.querySelector('pubDate')?.textContent; let d='';
-            if(dRaw){ const dt=new Date(dRaw); if(!isNaN(dt)) d = dt.toISOString().slice(0,10); }
+            const dRaw = it.querySelector('pubDate')?.textContent; 
+            let pubDateISO=''; let pubTime=0;
+            if(dRaw){
+                const dt = new Date(dRaw);
+                if(!isNaN(dt)) { pubDateISO = dt.toISOString().slice(0,10); pubTime = dt.getTime(); }
+            }
             let priorityClass=''; let badge=''; let cleanedTitle=rawTitle;
             if(/\[\s*!\s*\]$/.test(rawTitle)){ priorityClass='priority-essential'; badge='<span class="pri-badge essential">Essential</span>'; cleanedTitle=rawTitle.replace(/\s*\[\s*!\s*\]\s*$/,'').trim(); }
             else if(/\[\s*\*\s*\]$/.test(rawTitle)){ priorityClass='priority-important'; badge='<span class="pri-badge important">Important</span>'; cleanedTitle=rawTitle.replace(/\s*\[\s*\*\s*\]\s*$/,'').trim(); }
             else if(/\[\s*~\s*\]$/.test(rawTitle)){ priorityClass='priority-optional'; badge='<span class="pri-badge optional">Optional</span>'; cleanedTitle=rawTitle.replace(/\s*\[\s*~\s*\]\s*$/,'').trim(); }
             const t = esc(cleanedTitle);
             const l = esc(linkVal||'#');
-            return `<li class="${priorityClass}"><a href="${l}" rel="noopener noreferrer">${badge}<strong>${t}</strong></a>${d?` <span class=\"pubdate\">(${d})</span>`:''}</li>`;
+            return { html: `<li class="${priorityClass}"><a href="${l}" rel="noopener noreferrer">${badge}<strong>${t}</strong></a>${pubDateISO?` <span class=\"pubdate\">(${pubDateISO})</span>`:''}</li>`, time: pubTime, idx };
         });
+        // Sort newest first; stable by original index for identical timestamps
+        items.sort((a,b)=> b.time - a.time || a.idx - b.idx);
+        return items.map(o=>o.html);
     }
     feeds.forEach((f,i)=>{
         const el = document.getElementById('feed-preview-'+i);
