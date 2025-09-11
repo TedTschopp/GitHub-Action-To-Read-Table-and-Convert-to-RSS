@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-09-11T10:01:49.487774+00:00",
+  "timestamp": "2025-09-11T10:10:19.156825+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Thu, 11 Sep 2025 10:01:02 +0000",
+      "last_updated": "Thu, 11 Sep 2025 10:09:33 +0000",
       "size_bytes": 39441,
       "errors": []
     },
@@ -22,9 +22,9 @@
     "aggregated_external.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 20,
-      "last_updated": "Thu, 11 Sep 2025 10:01:22 +0000",
-      "size_bytes": 11873,
+      "entry_count": 40,
+      "last_updated": "Thu, 11 Sep 2025 10:09:52 +0000",
+      "size_bytes": 22539,
       "errors": []
     },
     "aggregated_external_archive.xml": {
@@ -41,7 +41,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 8,
-      "last_updated": "Thu, 11 Sep 2025 10:01:49 +0000",
+      "last_updated": "Thu, 11 Sep 2025 10:10:19 +0000",
       "size_bytes": 6714,
       "errors": []
     },
@@ -49,7 +49,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 52,
-      "last_updated": "Thu, 11 Sep 2025 10:01:49 +0000",
+      "last_updated": "Thu, 11 Sep 2025 10:10:19 +0000",
       "size_bytes": 73760,
       "errors": []
     },
@@ -76,7 +76,7 @@
       "total_sources": 4,
       "attempted": 4,
       "skipped": 0,
-      "with_items": 1,
+      "with_items": 2,
       "failures": 1,
       "recovered": 0,
       "failure_rate": 25.0
