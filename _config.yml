@@ -141,7 +141,7 @@ aggregated_feeds:
   - "https://www.leanix.net/en/blog/rss.xml"
 
 - key: aggregated_osr_ttrpg
-  enabled: true
+  enabled: false # Disabled per request (was true)
   output: "/aggregated_osr_ttrpg.xml"
   title: "OSR & TTRPG Aggregated News"
   link: "https://rss.tedt.org/aggregated_osr_ttrpg.xml"
@@ -195,7 +195,7 @@ aggregated_feeds:
   - "http://goblinpunch.blogspot.com/feeds/posts/default?alt=rss"
   - "https://landofnod.blog/feed/"
   - "https://initiativeone.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://tamerthya.blog/feed/"
+  # Removed (404): https://tamerthya.blog/feed/
   - "http://sorcerersskull.blogspot.com/feeds/posts/default?alt=rss"
   - "http://lizardmandiaries.blogspot.com/feeds/posts/default?alt=rss"
   - "http://failuretolerated.com/feed.rss"
@@ -241,7 +241,7 @@ aggregated_feeds:
   - "https://lairofmegagorgon.blogspot.com/feeds/posts/default?alt=rss"
   - "https://dunions.blogspot.com/feeds/posts/default?alt=rss"
   - "https://migellito.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://hmmmarquis.blogspot.com/feeds/posts/default?alt=rss"
+  # Removed (404): https://hmmmarquis.blogspot.com/feeds/posts/default?alt=rss
   - "https://whatwouldconando.blogspot.com/feeds/posts/default?alt=rss"
   - "http://www.kjd-imc.org/feed/"
   - "https://dungeonsddx.blogspot.com/feeds/posts/default?alt=rss"
@@ -326,7 +326,7 @@ aggregated_feeds:
   - "http://inplacesdeep.blogspot.com/feeds/posts/default?alt=rss"
   - "https://d6.beardedbaby.net/rss/"
   - "https://themansegaming.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://mottokrosh.com/index.xml"
+  # Removed (404): https://mottokrosh.com/index.xml
   - "https://lurkerablog.wordpress.com/feed/"
   - "https://triplesuns.blogspot.com/feeds/posts/default?alt=rss"
   - "http://throneofsalt.blogspot.com/feeds/posts/default?alt=rss"
@@ -347,15 +347,15 @@ aggregated_feeds:
   - "http://whiteboxgame.blogspot.com/feeds/posts/default?alt=rss"
   - "https://dieuncast.wordpress.com/feed/"
   - "https://wanderinggamist.blogspot.com/feeds/posts/default?alt=rss"
-  - "http://www.theevildm.com/feeds/posts/default?alt=rss"
+  # Removed (404): http://www.theevildm.com/feeds/posts/default?alt=rss
   - "https://osr.colinlesueur.com/feed/"
   - "http://eltomocarmesi.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://violentmediarpg.blogspot.com/feeds/posts/default?alt=rss"
+  # Removed (404): https://violentmediarpg.blogspot.com/feeds/posts/default?alt=rss
   - "https://ablogfullofdemons.blogspot.com/feeds/posts/default?alt=rss"
   - "https://akraticwizardry.blogspot.com/feeds/posts/default?alt=rss"
   - "http://animatekratocracy.blogspot.com/feeds/posts/default?alt=rss"
   - "https://chthonic-halls.blogspot.com/feeds/posts/default?alt=rss"
-  - "http://www.dragonlessdungeons.com/feeds/posts/default?alt=rss"
+  # Removed (dead DNS): http://www.dragonlessdungeons.com/feeds/posts/default?alt=rss
   - "https://graphiteprime.blogspot.com/feeds/posts/default?alt=rss"
   - "http://www.jedmc.com/ixdd?format=RSS"
   - "https://attnam.blogspot.com/feeds/posts/default?alt=rss"
@@ -385,7 +385,7 @@ aggregated_feeds:
   - "https://undergroundadv.blogspot.com/feeds/posts/default?alt=rss"
   - "https://swordsandstitchery.blogspot.com/feeds/posts/default?alt=rss"
   - "https://alifefullofadventure.blogspot.com/feeds/posts/default?alt=rss"
-  - "http://dragonbones.net/feed/"
+  # Removed (404): http://dragonbones.net/feed/
   - "http://bearded-devil.com/?feed=rss2"
   - "https://daimon-games.blogspot.com/feeds/posts/default?alt=rss"
   - "https://mockorangecairn.blogspot.com/feeds/posts/default?alt=rss"
@@ -407,7 +407,7 @@ aggregated_feeds:
   - "https://sameissharkinjapanese.blogspot.com/feeds/posts/default?alt=rss"
   - "https://titancorpse.blogspot.com/feeds/posts/default?alt=rss"
   - "https://owlbearhugs.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://old-huron-archive.netlify.com/index.xml"
+  # Removed (404): https://old-huron-archive.netlify.com/index.xml
   - "https://backtothekeep.blogspot.com/feeds/posts/default?alt=rss"
   - "https://paperelemental.blogspot.com/feeds/posts/default?alt=rss"
   - "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss"
@@ -417,17 +417,17 @@ aggregated_feeds:
   - "https://dreamingdragonslayer.wordpress.com/feed/"
   - "https://trueheartblackraven.blogspot.com/feeds/posts/default?alt=rss"
   - "https://originaleditionadventures.wordpress.com/feed/"
-  - "https://musingofamavericreferee.wordpress.com/feed/"
+  # Removed (410): https://musingofamavericreferee.wordpress.com/feed/
   - "http://mythlands-erce.blogspot.com/feeds/posts/default?alt=rss"
   - "https://ravenousambience.blogspot.com/feeds/posts/default?alt=rss"
-  - "http://ruinsofarduin.blogspot.com/feeds/posts/default?alt=rss"
+  # Removed (404): http://ruinsofarduin.blogspot.com/feeds/posts/default?alt=rss
   - "http://santicore.blogspot.com/feeds/posts/default?alt=rss"
   - "https://dungeons-and-dragons-rpgs.blogspot.com/feeds/posts/default?alt=rss"
   - "https://originaldungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://wondrousadventure.com/feed"
+  # Removed (dead DNS): https://wondrousadventure.com/feed
   - "https://xizallian-s-dungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://yenemvelt.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://mirrorsquid.czepeku.com/feeds/posts/default?alt=rss"
+  # Removed (404): https://yenemvelt.blogspot.com/feeds/posts/default?alt=rss
+  # Removed (dead DNS): https://mirrorsquid.czepeku.com/feeds/posts/default?alt=rss
   - "http://glaucushauriant.blogspot.com/feeds/posts/default?alt=rss"
   - "https://crateredland.blogspot.com/feeds/posts/default?alt=rss"
   - "https://www.aelf.work/feed/"
@@ -444,7 +444,7 @@ aggregated_feeds:
   - "https://psionicblastfromthepast.blogspot.com/feeds/posts/default?alt=rss"
   - "http://rolesrules.blogspot.com/feeds/posts/default?alt=rss"
   - "https://shutteredroom.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://signsofthelocust.com/feed/"
+  - "https://signsofthelocust.com/feed/" # Retained (XML parse errors but may recover)
   - "https://sevendeadlydungeons.blogspot.com/feeds/posts/default?alt=rss"
   - "https://therecouldhavebeensnakes.wordpress.com/feed/"
   - "https://www.theseoldgames.com/feeds/posts/default?alt=rss"
@@ -464,14 +464,14 @@ aggregated_feeds:
   - "https://mindstorm.blot.im/feed.rss"
   - "http://tomboftedankhamen.blogspot.com/feeds/posts/default?alt=rss"
   - "https://staggeredamusements.wordpress.com/feed/"
-  - "https://olobosk.com/feed/"
+  # Removed (SSL chain issue / unreachable): https://olobosk.com/feed/
   - "http://jerryboucher.blogspot.com/feeds/posts/default?alt=rss"
   - "https://osrgrimoire.blogspot.com/feeds/posts/default?alt=rss"
   - "https://crabdungeon.blogspot.com/feeds/posts/default?alt=rss"
   - "https://worldofortix.blogspot.com/feeds/posts/default?alt=rss"
   - "https://axianspice.blogspot.com/feeds/posts/default?alt=rss"
-  - "https://undeadwaffle.com/feed/"
-  - "https://meeplefish.blogspot.com/feeds/posts/default?alt=rss"
+  # Removed (dead DNS): https://undeadwaffle.com/feed/
+  # Removed (404): https://meeplefish.blogspot.com/feeds/posts/default?alt=rss
   - "https://www.deepsheep.com/feeds/posts/default?alt=rss"
   - "https://dreamsofmythicfantasy.blogspot.com/feeds/posts/default?alt=rss"
   - "https://slightadjustments.blogspot.com/feeds/posts/default?alt=rss"

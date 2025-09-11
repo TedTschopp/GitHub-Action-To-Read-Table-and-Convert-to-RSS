@@ -118,6 +118,51 @@ def check_rss_health():
         
         status['feeds'][rss_file] = feed_status
     
+    # Augment with aggregation health summaries if present
+    aggregation_health = {}
+    pruning_suggestions = []
+    try:
+        for feed_name in list(status['feeds'].keys()):
+            if not feed_name.endswith('.xml') or feed_name.endswith('_archive.xml'):
+                continue
+            health_path = Path(feed_name.replace('.xml', '_health.json'))
+            if health_path.exists():
+                try:
+                    with open(health_path, 'r', encoding='utf-8') as hf:
+                        hdata = json.load(hf)
+                    aggregation_health[feed_name] = {
+                        'total_sources': hdata.get('total_sources'),
+                        'attempted': hdata.get('attempted'),
+                        'skipped': hdata.get('skipped'),
+                        'with_items': hdata.get('with_items'),
+                        'failures': hdata.get('failures'),
+                        'recovered': hdata.get('recovered'),
+                        'failure_rate': round((hdata.get('failures',0) / max(1, hdata.get('attempted',1))) * 100, 2)
+                    }
+                    # Generate pruning candidates: high consecutive failures OR SSL/DNS permanent errors
+                    for detail in hdata.get('details', []):
+                        cf = detail.get('consecutive_failures', 0)
+                        err = (detail.get('last_error') or '').lower()
+                        perm_marker = any(m in err for m in ['ssl', 'name or service not known', 'nodename nor servname', 'nxdomain', 'temporary failure in name resolution'])
+                        if detail.get('status') == 'failed' and (cf >= 3 or perm_marker):
+                            pruning_suggestions.append({
+                                'feed': feed_name,
+                                'url': detail.get('url'),
+                                'consecutive_failures': cf,
+                                'last_status': detail.get('last_status'),
+                                'last_error_excerpt': err[:140]
+                            })
+                except Exception:
+                    pass
+        if aggregation_health:
+            status['aggregation_health'] = aggregation_health
+        if pruning_suggestions:
+            status['pruning_suggestions'] = pruning_suggestions
+            if status['overall_status'] == 'healthy':
+                status['overall_status'] = 'warning'
+    except Exception:
+        pass
+
     return status
 
 def save_status_report(status):

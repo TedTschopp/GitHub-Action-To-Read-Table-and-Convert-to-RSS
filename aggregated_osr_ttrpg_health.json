@@ -1,0 +1,2715 @@
+{
+  "total_sources": 338,
+  "attempted": 338,
+  "skipped": 0,
+  "with_items": 89,
+  "failures": 24,
+  "recovered": 0,
+  "timestamp": "2025-09-11T08:20:37.090994+00:00",
+  "details": [
+    {
+      "url": "https://gwythaintny.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://mockorangecairn.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://talaraska.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.aelf.work/feed/",
+      "status": "ok",
+      "items": 2,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://www.goatmansgoblet.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.prismaticwasteland.com/blog?format=rss",
+      "status": "ok",
+      "items": 20,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://psionicblastfromthepast.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://oldscouserroleplaying.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPSConnectionPool(host='oldscouserroleplaying.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1028)')))",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://talesoftheramblingbumblers.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://elderskull.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://thegrandtapestry.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://blog.thesconesalone.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://murderhobo-rehab.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://worldoferadu.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dunions.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 401",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://monstersandmanuals.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://signsofthelocust.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "not well-formed (invalid token): line 1, column 148",
+      "last_status": "exception"
+    },
+    {
+      "url": "http://riseupcomus.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://peoplethemwithmonsters.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://takeonrules.com/feed.xml",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://deathanddismemberment.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://followmeanddie.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://animatekratocracy.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://lotbieth.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://backtothekeep.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 401",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://thealexandrian.net/feed",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://attnam.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://wasitlikely.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://diyanddragons.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://goblinshenchman.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dungeonsofklang.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://wizardshaw.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://wondrousimaginings.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://spacecrawl.blog/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://theamateurdungeoneers.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://valleyofbluesnails.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://blessingsofthedicegods.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://therecouldhavebeensnakes.wordpress.com/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://mythlands-erce.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://nerdwerds.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://hamsterhoard.home.blog/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.incunabuli.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 404",
+      "last_status": "exception"
+    },
+    {
+      "url": "http://jonwake.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://d6.beardedbaby.net/rss/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://rpgcharacters.wordpress.com/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://oldskulling.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dreamsofmythicfantasy.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://whosemeasure.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://bearded-devil.com/?feed=rss2",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://ancientvaults.wordpress.com/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://homicidallyinclinedpersonsofnofixedaddress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.remixesandrevelations.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPConnectionPool(host='www.remixesandrevelations.com', port=80): Max retries exceeded with url: /feeds/posts/default?alt=rss (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x109857f00>: Failed to resolve 'www.remixesandrevelations.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://ongoingcampaign.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://deadcyclops.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://inplacesdeep.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://dreamsandfevers.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://saturdaynightsandbox.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://justabyssbiz.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://planetalgol.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://diomedes-descent.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://boxfullofboxes.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://neradia.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://floodedrealms.com/index.xml",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 403",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://aswampinspace.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://reverancepavane.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://swordsandstitchery.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://originaleditionadventures.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://zedecksiew.tumblr.com/rss",
+      "status": "ok",
+      "items": 20,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://www.trollishdelver.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://vorpalmace.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://www.theseoldgames.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://wayspell.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://failuretolerated.com/feed.rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://nosaveforyou.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 404",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://owlbearhugs.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://crateredland.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://wulfwaldrpg.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 4,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://axianspice.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://geekechoes.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://www.necropraxis.com/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://kaijuville.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://superheronecromancer.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.sycarion.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 500",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://appliedphantasticality.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://engineoforacles.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://rendedpress.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://axesnorcs.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 401",
+      "last_status": "exception"
+    },
+    {
+      "url": "http://dwelleroftheforbiddencity.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://jeremyhartillos.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://leicestersramble.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://experimentalplayground.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://wanderinggamist.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://crabdungeon.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://bernietheflumph.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.wizardthieffighter.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://savevshollowing.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://thetotalityofygg.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://tsojcanth.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://spearfangraygun.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://theotherside.timsbrannan.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://www.bastionland.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://kellri.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://lurkerablog.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://abovetheflatline.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://mindstorm.blot.im/feed.rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://monstromanualis.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://batintheattic.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://rottenpulp.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://talesfromgurgula.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://journeyintotheweird.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.welshpiper.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://furtivegoblingaming.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://ravengodgames.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://bottomlesssarcophagus.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://coinsandscrolls.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://shoalmontgames.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dismastersden.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://tenfootprecis.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://grognardia.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://roseandkingfisher.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://ominosity.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://forgeduniverse.com/f.rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPSConnectionPool(host='forgeduniverse.com', port=443): Max retries exceeded with url: /f.rss (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x109b7ac10>: Failed to resolve 'forgeduniverse.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://www.adderentertainment.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPSConnectionPool(host='www.adderentertainment.com', port=443): Max retries exceeded with url: /feeds/posts/default?alt=rss (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x109d68190>: Failed to resolve 'www.adderentertainment.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_status": "exception"
+    },
+    {
+      "url": "http://darkwormcolt.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 1,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://whatwouldconando.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dndborderlands.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://wrathofzombie.wordpress.com/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://www.orkpiraten.de/blog/feed",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://www.justcrunch.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "not well-formed (invalid token): line 150, column 88",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://worldofortix.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://perilandplunder.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://detectmagic.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://homebrewhomunculus.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://methodsetmadness.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://ravenousambience.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://lichesgetstitches.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.vetustosdelrol.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPConnectionPool(host='www.vetustosdelrol.com', port=80): Max retries exceeded with url: /feeds/posts/default?alt=rss (Caused by NameResolutionError(\"<urllib3.connection.HTTPConnection object at 0x109857680>: Failed to resolve 'www.vetustosdelrol.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://papierundspiele.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://unlawfulgames.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://graverobbersguide.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://twogoblinsinatrenchcoat.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dieuncast.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://brinehouse.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://mutantsmagic.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://arsmagisterii.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://thebonehoard.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://breakrpg.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://weirdwonderfulworlds.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://goblinstomper.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 404",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://profaneape.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://failedmysave.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://textgolem.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://goodberrymonthly.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://titancorpse.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://hdvrpg.tumblr.com/rss",
+      "status": "ok",
+      "items": 4,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://www.indygaming.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPSConnectionPool(host='www.indygaming.com', port=443): Max retries exceeded with url: /feed/ (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.indygaming.com'. (_ssl.c:1028)\")))",
+      "last_status": "exception"
+    },
+    {
+      "url": "http://www.greyhawkgrognard.com/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://lapidaryossuary.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://lithyscaphe.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://thecircularuins.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://gamethedungeon.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPSConnectionPool(host='gamethedungeon.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x109b7b750>: Failed to resolve 'gamethedungeon.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://selfportraitasagiant.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://landofnod.blog/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://whiteboxgame.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://chthonic-halls.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://tenfootpole.org/ironspike/?feed=rss2",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.strangestones.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://benignbrownbeast.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://themetalearth.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://blog.d4caltrops.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://dreamingdragonslayer.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.crossplanes.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://nthdecree.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dicegoblin.blog/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://basicredrpg.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 404",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://slimegrapple.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://grumpywizard.home.blog/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://sorcererundermountain.d101games.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://9and30kingdoms.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://vanishingtower.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://originaldungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://tomboftedankhamen.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.deepsheep.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.revenant-quill.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://technicalgrimoire.com/feed.xml",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://redbeardsravings.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://tenfootpolemic.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://signsinthewilderness.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://zho.berka.com/feed/",
+      "status": "ok",
+      "items": 5,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://joebanner.co.uk/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://www.theskyfullofdust.co.uk/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://slantiopink.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://bogeymanscave.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.kjd-imc.org/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://halflingsluck.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://blog.trilemma.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://melancholiesandmirth.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://antlerrr.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://herror.es/rss",
+      "status": "ok",
+      "items": 31,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://hillcantons.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://aloneinthelabyrinth.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://shutteredroom.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://www.slackernerds.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://ruinsoffallenempires.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://ynasmidgard.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://www.traaa.sh/feed.rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://elfmaidsandoctopi.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://abominablefancy.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://anxietywizard.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://grodog.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://roll1d12.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://zenopusarchives.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://retiredadventurer.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://nerdomancerofdork.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://sameissharkinjapanese.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://sheepandsorcery.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://osrgrimoire.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://thewyrdandwild.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://throneofsalt.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://pitsperilous.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://paperelemental.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://savevsdragon.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://www.occultesque.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "syntax error: line 1, column 0",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://strongholdpress.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://oblidisideryptch.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://rthorm.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://monstermanualsewnfrompants.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dungeons-and-dragons-rpgs.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://osr.colinlesueur.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPSConnectionPool(host='osr.colinlesueur.com', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x109d6b610>: Failed to resolve 'osr.colinlesueur.com' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://anarchydice.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://verbum-ex-nihilo.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dice-universe.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 401",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://licheslibram.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://alifefullofadventure.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://neuralarchive.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.demogorgon.org/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://archons-court.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://tarsostheorem.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://undergroundadv.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://staggeredamusements.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://zzarchov.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://ggmlk.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://eightheye.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://buildingsarepeople.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://rememberdismove.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://beyondfomalhaut.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://hamsterhoard.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://todistantlands.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://bardichesandbathhouses.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://reactionrolls.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://rigourandreverie.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://terriblesorcery.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://spellsandsteel.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://www.furthestlands.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://darksunadventures.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://luminescentlich.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://www.lastgaspgrimoire.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://questingblog.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://originaleditionfantasy.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 401",
+      "last_status": "exception"
+    },
+    {
+      "url": "http://udan-adan.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://noisesanssignal.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://cavegirlgames.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.jedmc.com/ixdd?format=RSS",
+      "status": "ok",
+      "items": 20,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://killitwithfirerpg.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://3toadstools.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://migellito.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://cosmicheroes.space/blog/index.php/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://chaudronchromatique.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dungeonliar.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://reddicediaries.com/feed/",
+      "status": "ok",
+      "items": 20,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://santicore.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://swordplusone.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://scrtgm.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://advancedgaming-theory.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://stefanpoag.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://falsemachine.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://sevendeadlydungeons.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://killyourdungeonmaster.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://rolesrules.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://searching-for-magic-blog.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://noahms456.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://damnelfpress.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://ablogfullofdemons.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://eltomocarmesi.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://the-disoriented-ranger.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://macchiatomaster.blot.im/feed.rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://lordgwydion.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://tao-dnd.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://lairofmegagorgon.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://archadestower.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://glaucushauriant.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://whimsicalmountain.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://maziriansgarden.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dungeonspossums.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://acornafloat.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://stockingthedungeon.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://initiativeone.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://knightsinthenorth.blog/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTPSConnectionPool(host='knightsinthenorth.blog', port=443): Max retries exceeded with url: /feed/ (Caused by NameResolutionError(\"<urllib3.connection.HTTPSConnection object at 0x109d6ad50>: Failed to resolve 'knightsinthenorth.blog' ([Errno 8] nodename nor servname provided, or not known)\"))",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://gloomtrain.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://forhinhexes.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://graphiteprime.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://faerietalesandfolklore.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://xizallian-s-dungeons-and-dragons.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://dungeonsddx.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://boggswood.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://akraticwizardry.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://goblinpunch.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://1d30.wordpress.com/feed/",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://icastlight.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://thethingswedoforxp.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://then-what-happens.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://sunderedera.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://traipse.hexarcana.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://wyrdspeak.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.paperspencils.com/feed/",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 1,
+      "last_error": "HTTP 409",
+      "last_status": "exception"
+    },
+    {
+      "url": "https://swampofmonsters.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://jerryboucher.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://triplesuns.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://www.dwarvenautomata.com/feed/",
+      "status": "ok",
+      "items": 10,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://trueheartblackraven.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://trollsmyth.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://wizzzargh.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://save.vs.totalpartykill.ca/rss.xml",
+      "status": "ok",
+      "items": 310,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://deltasdnd.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://gravenutterance.com/feed.xml",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://lizardmandiaries.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://the-one-true-game-odnd.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "http://towerofthearchmage.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "https://themansegaming.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://sorcerersskull.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "ok",
+      "items": 25,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://hackslashmaster.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://daimon-games.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://save.vs.totalpartykill.ca/rss.xml",
+      "status": "ok",
+      "items": 310,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200
+    },
+    {
+      "url": "http://necrotic-gnome-productions.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://eldritchfields.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://slightadjustments.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    },
+    {
+      "url": "https://totmv2.blogspot.com/feeds/posts/default?alt=rss",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304
+    }
+  ]
+}

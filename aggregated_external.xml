@@ -7,328 +7,13 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Aggregator v2 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 22:38:08 +0000</lastBuildDate>
-    <item>
-      <title>Is AI really trying to escape human control and blackmail people? (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/is-ai-really-trying-to-escape-human-control-and-blackmail-people/</link>
-      <description>Opinion: Theatrical testing scenarios explain why AI models produce alarming outputs—and why we fall for it.</description>
-      <guid isPermaLink="false">629b2600f16de5ce9d15926ef0ef3046</guid>
-      <pubDate>Wed, 13 Aug 2025 20:28:20 +0000</pubDate>
-    </item>
-    <item>
-      <title>Is the AI bubble about to pop? Sam Altman is prepared either way. (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/sam-altman-calls-ai-a-bubble-while-seeking-500b-valuation-for-openai/</link>
-      <description>"Someone will lose a phenomenal amount of money," says CEO while fundraising at record prices.</description>
-      <guid isPermaLink="false">e2e4c036743478b4bd4b405398470720</guid>
-      <pubDate>Thu, 21 Aug 2025 22:06:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>College student’s “time travel” AI experiment accidentally outputs real 1834 history (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/ai-built-from-1800s-texts-surprises-creator-by-mentioning-real-1834-london-protests/</link>
-      <description>Hobbyist training AI on Victorian texts gets an unexpected history lesson from his own creation.</description>
-      <guid isPermaLink="false">a635b1f4acac518f35f208d71cf30164</guid>
-      <pubDate>Fri, 22 Aug 2025 22:13:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>With AI chatbots, Big Tech is moving fast and breaking people (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/with-ai-chatbots-big-tech-is-moving-fast-and-breaking-people/</link>
-      <description>Why AI chatbots validate grandiose fantasies about revolutionary discoveries that don't exist.</description>
-      <guid isPermaLink="false">d73db056404ab91316da7e02064ce90d</guid>
-      <pubDate>Mon, 25 Aug 2025 11:00:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Senator castigates federal judiciary for ignoring “basic cybersecurity” (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/security/2025/08/senator-to-supreme-court-justice-federal-court-hacks-threaten-us-security/</link>
-      <description>Breaches in 2020 and 2025, reportedly by foreign adversaries, exposed confidential files.</description>
-      <guid isPermaLink="false">9992ed14a5e1bb4dc0513254b0e6aef6</guid>
-      <pubDate>Mon, 25 Aug 2025 19:58:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI admits ChatGPT safeguards fail during extended conversations (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/after-teen-suicide-openai-claims-it-is-helping-people-when-they-need-it-most/</link>
-      <description>ChatGPT allegedly provided suicide encouragement to teen after moderation safeguards failed.</description>
-      <guid isPermaLink="false">8157005c414243a8ac219340abef8c84</guid>
-      <pubDate>Tue, 26 Aug 2025 22:08:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic’s auto-clicking AI Chrome extension raises browser-hijacking concerns (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/new-ai-browser-agents-create-risks-if-sites-hijack-them-with-hidden-instructions/</link>
-      <description>Malicious websites can embed invisible commands that AI agents will follow blindly.</description>
-      <guid isPermaLink="false">104720cba4580a1069c6fa5edbbd5c2d</guid>
-      <pubDate>Wed, 27 Aug 2025 16:17:29 +0000</pubDate>
-    </item>
-    <item>
-      <title>The personhood trap: How AI fakes human personality (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/08/the-personhood-trap-how-ai-fakes-human-personality/</link>
-      <description>AI assistants don't have fixed personalities—just patterns of output guided by humans.</description>
-      <guid isPermaLink="false">d180150685a67d7bbb7520944ff22430</guid>
-      <pubDate>Thu, 28 Aug 2025 11:00:57 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unpacking Passkeys Pwned: Possibly the most specious research in decades (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/security/2025/08/new-research-claiming-passkeys-can-be-stolen-is-pure-nonsense/</link>
-      <description>Researchers take note: When the endpoint is compromised, all bets are off.</description>
-      <guid isPermaLink="false">68f15860a6dbd45d4e0f16861bf8f337</guid>
-      <pubDate>Thu, 28 Aug 2025 13:00:10 +0000</pubDate>
-    </item>
-    <item>
-      <title>High-severity vulnerability in Passwordstate credential manager. Patch now. (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/security/2025/08/high-severity-vulnerability-in-passwordstate-credential-manager-patch-now/</link>
-      <description>Vulnerability can be exploited to gain access to customers' crown jewels.</description>
-      <guid isPermaLink="false">0494dc38c8802ec582ea1b9ad5b6cf3b</guid>
-      <pubDate>Thu, 28 Aug 2025 18:46:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google warns that mass data theft hitting Salesloft AI agent has grown bigger (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/security/2025/08/google-warns-that-mass-data-theft-hitting-salesloft-ai-agent-has-grown-bigger/</link>
-      <description>Assume all Drift credentials are compromised after Workspace breach, Google says.</description>
-      <guid isPermaLink="false">ffdb5ee0f4fa4c6c8acbcef192fc1257</guid>
-      <pubDate>Fri, 29 Aug 2025 12:15:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Zuckerberg’s AI hires disrupt Meta with swift exits and threats to leave (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/ai/2025/08/zuckerbergs-ai-hires-disrupt-meta-with-swift-exits-and-threats-to-leave/</link>
-      <description>Longtime acolytes are sidelined as CEO directs biggest leadership reorganization in two decades.</description>
-      <guid isPermaLink="false">f7dee2d9ced825bf4523c4a9373dc291</guid>
-      <pubDate>Fri, 29 Aug 2025 18:02:22 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI announces parental controls for ChatGPT after teen suicide lawsuit (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/ai/2025/09/openai-announces-parental-controls-for-chatgpt-after-teen-suicide-lawsuit/</link>
-      <description>Promised protections follow reports of vulnerable users misled in extended chats.</description>
-      <guid isPermaLink="false">8b69a913f71d7584abd0dc2a9745af01</guid>
-      <pubDate>Tue, 02 Sep 2025 15:10:26 +0000</pubDate>
-    </item>
-    <item>
-      <title>Mis-issued certificates for 1.1.1.1 DNS service pose a threat to the Internet (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/security/2025/09/mis-issued-certificates-for-1-1-1-1-dns-service-pose-a-threat-to-the-internet/</link>
-      <description>The three certificates were issued in May but only came to light Wednesday.</description>
-      <guid isPermaLink="false">106517d43f02368d6bdced3f65096a79</guid>
-      <pubDate>Wed, 03 Sep 2025 18:40:38 +0000</pubDate>
-    </item>
-    <item>
-      <title>New AI model turns photos into explorable 3D worlds, with caveats (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/ai/2025/09/new-ai-model-turns-photos-into-explorable-3d-worlds-with-caveats/</link>
-      <description>Openly available AI tool creates steerable 3D-like video, but requires serious GPU muscle.</description>
-      <guid isPermaLink="false">3eb079f09df8283e2809ba5d9af81053</guid>
-      <pubDate>Wed, 03 Sep 2025 21:56:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build Practical Cyber Defense Skills with This 5-Course Bundle (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/advanced-cybersecurity-master-class/</link>
-      <description>Train in AI threat detection, OSINT tools, and Zero Trust security models with lifetime access for just $19.99.</description>
-      <guid isPermaLink="false">799221b7bb34d5b30bc24754c06bec4a</guid>
-      <pubDate>Thu, 04 Sep 2025 10:03:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Budgeting Tools for Tech Companies: A Strategic Guide to Growth &amp; Sustainability (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/best-budgeting-tools-for-tech-companies/</link>
-      <description>What to measure, how to model, and which tools to use to manage cash, forecast runway, and fund growth responsibly.</description>
-      <guid isPermaLink="false">81a6ff070ee625b6bdba6ade7e2452cc</guid>
-      <pubDate>Thu, 04 Sep 2025 10:08:37 +0000</pubDate>
-    </item>
-    <item>
-      <title>US Tightens Chip Controls, Revokes TSMC’s China Export Privileges (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-tsmc-export-hurdles-us-pulls-china-waiver/</link>
-      <description>The US has removed TSMC’s Nanjing waiver, requiring new export licenses. Delays may hit output as Washington tightens controls on China’s chip supply.</description>
-      <guid isPermaLink="false">59d64c9693242c69ff96e4b3c5e8ba2b</guid>
-      <pubDate>Thu, 04 Sep 2025 10:36:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>How AI in Retail Is Driving Growth and Efficiency (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/ai-in-retail/</link>
-      <description>AI is redefining retail far beyond supply chains, with adoption rates now outpacing smartphones and tablets.</description>
-      <guid isPermaLink="false">afdd7c397da77677bec9ee8ccf0376ca</guid>
-      <pubDate>Thu, 04 Sep 2025 11:09:08 +0000</pubDate>
-    </item>
-    <item>
-      <title>Samsung Unveils Galaxy S25 FE and Tab S11 Series at September Galaxy Event (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-samsung-galaxy-event-september-2025/</link>
-      <description>South Korean multinational launches its latest devices with advanced Galaxy AI, new S Pen, and flagship features.</description>
-      <guid isPermaLink="false">9c9656ca9f15cb0e346874deca3db104</guid>
-      <pubDate>Thu, 04 Sep 2025 12:21:35 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft open-sources Bill Gates’ 6502 BASIC from 1978 (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/gadgets/2025/09/microsoft-open-sources-bill-gates-6502-basic-from-1978/</link>
-      <description>Historic interpreter taught millions to program on Commodore and Apple computers.</description>
-      <guid isPermaLink="false">9cdce2a9fe9948abfa59285f541474ee</guid>
-      <pubDate>Thu, 04 Sep 2025 16:56:13 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple Prepares AI-Powered Siri Upgrade With Google Search Integration (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-apple-google-ai-web-search/</link>
-      <description>The new, more succinct Siri search function could pull from both the web and on-device context, according to Bloomberg.</description>
-      <guid isPermaLink="false">639225703a8357c6f4e28d7b864037fe</guid>
-      <pubDate>Thu, 04 Sep 2025 18:59:43 +0000</pubDate>
-    </item>
-    <item>
-      <title>Atlassian to Buy The Browser Company for $610M: What’s Next for AI-Powered Dia (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-atlassian-to-acquire-the-browser-company/</link>
-      <description>"Teaming up means we can move faster, dream bigger, and focus on building an AI browser for work that people genuinely love to use," noted Josh Miller, The Browser Company’s chief executive officer and co-founder.</description>
-      <guid isPermaLink="false">3717751c6ef8de4b46ca5a56f0d822ab</guid>
-      <pubDate>Thu, 04 Sep 2025 20:42:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>The number of mis-issued 1.1.1.1 certificates grows. Here’s the latest. (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/09/the-number-of-mis-issued-1-1-1-1-certificates-grows-heres-the-latest/</link>
-      <description>Everything to know about the mishap that threatened to expose millions of users' queries.</description>
-      <guid isPermaLink="false">98e0cc71f04d7ce077ef5eded287cdbd</guid>
-      <pubDate>Thu, 04 Sep 2025 22:29:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>This $30 Subscription Will Bring AI Into Your Business (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/1minai-pro-plan-lifetime-subscription/</link>
-      <description>Tap into the power of OpenAI, Meta, Midjourney, and additional powerful AI models with 1min.AI.</description>
-      <guid isPermaLink="false">ab7c442b46b77dd00417ae24e3897f27</guid>
-      <pubDate>Fri, 05 Sep 2025 07:30:36 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stop Juggling AI Tools — This Lifetime Deal Puts GPT‑4o and More in One Place (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/chatplayground-ai/</link>
-      <description>Harness multiple top-tier models like GPT‑4o, Claude, Gemini, and more in one unified platform, now $90.</description>
-      <guid isPermaLink="false">518c8859b8431f666cf5cdc9d7a3496a</guid>
-      <pubDate>Fri, 05 Sep 2025 13:16:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cybercriminals ‘Grok’ Their Way Past X’s Defenses to Spread Malware (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-grok-ai-malware-grokking/</link>
-      <description>Hackers exploit X’s Grok AI to spread malware via promoted ads, exposing millions to malicious links in a scheme researchers call “Grokking.”</description>
-      <guid isPermaLink="false">f4b993de79f0cedb59061b49a4dafc3b</guid>
-      <pubDate>Fri, 05 Sep 2025 13:56:11 +0000</pubDate>
-    </item>
-    <item>
-      <title>ChatGPT’s new branching feature is a good reminder that AI chatbots aren’t people (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/ai/2025/09/chatgpts-new-branching-feature-is-a-good-reminder-that-ai-chatbots-arent-people/</link>
-      <description>Users can explore multiple paths without losing their original chat thread.</description>
-      <guid isPermaLink="false">bae245b62d80026e3879b07034b7e72e</guid>
-      <pubDate>Fri, 05 Sep 2025 16:06:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Hitachi Energy Pledges $1B to Strengthen US Grid, Build Largest Transformer Plant in Virginia (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-hitachi-energy-virginia-transformer-plant-1b/</link>
-      <description>Rising AI, EV, and industrial power demands strain the US grid. Hitachi Energy boosts transformer output to secure reliable energy for America’s future.</description>
-      <guid isPermaLink="false">99d174ede23e511eaaafbb0c0111a4bc</guid>
-      <pubDate>Fri, 05 Sep 2025 20:47:24 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft’s Experimental Optical Computer Could Run AI Workloads With Less Energy (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-microsoft-analog-optical-computer-research/</link>
-      <description>Research conducted by the Microsoft Research lab in Cambridge could contribute to the development of AI accelerators.</description>
-      <guid isPermaLink="false">e11e8d7f1d29b9aea15bc5d78e749640</guid>
-      <pubDate>Fri, 05 Sep 2025 21:16:16 +0000</pubDate>
-    </item>
-    <item>
-      <title>Trump Hosts Zuckerberg, Cook, Altman, More at White House Dinner – Musk Was Absent (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/news-trump-white-house-dinner-tech-execs/</link>
-      <description>The prestigious group are the minds and money behind Trump’s vision of US dominance in AI.</description>
-      <guid isPermaLink="false">5b2c7bf54c19974276479d9d9104d95c</guid>
-      <pubDate>Fri, 05 Sep 2025 22:59:46 +0000</pubDate>
-    </item>
-    <item>
-      <title>Grab Microsoft Office Pro 2021 and Windows 11 Pro Bundled for $45 (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/all-in-one-microsoft-office-pro-plus-2021-for-windows-lifetime-license-windows-11-pro-bundle/</link>
-      <description>Whether you’re building a startup or trying to manage a distributed team, Office 2021 and Windows 11 Pro provide the tools you need.</description>
-      <guid isPermaLink="false">91ff76bb9e1f39628ce68e1a8c5a27d2</guid>
-      <pubDate>Mon, 08 Sep 2025 07:30:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>Go-to Resources for Secure Cloud Storage (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/resources-for-secure-cloud-storage/</link>
-      <description>The cloud is becoming the norm when it comes to data storage, but it's not without its challenges. The right policies and procedures can go a long way toward safely storing data in the cloud.</description>
-      <guid isPermaLink="false">113de1ff0ed9b148a6c572b67ee1753d</guid>
-      <pubDate>Mon, 08 Sep 2025 09:00:48 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Open Finance is &amp; How it’s Reshaping Small Business Growth (Source: www.techrepublic.com)</title>
-      <link>https://www.techrepublic.com/article/open-finance/</link>
-      <description>Embrace open finance to unlock growth opportunities for your business.</description>
-      <guid isPermaLink="false">ace6f80beb8c49f0f82bd7e8251bf0f6</guid>
-      <pubDate>Mon, 08 Sep 2025 09:51:47 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple's iPhone 17 event invite has secret clues - my 3 biggest theories for what to expect (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/apples-iphone-17-event-invite-has-secret-clues-my-3-biggest-theories-for-what-to-expect/</link>
-      <description>All eyes are on Apple for its next iPhone, Apple Watch, and AirPods lineup - here's what could happen this week.</description>
-      <guid isPermaLink="false">defab1c7b0eb3499a201949d20979f05</guid>
-      <pubDate>Mon, 08 Sep 2025 14:30:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Every iPhone model compatible with iOS 26 (and which ones don't support the update) (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/every-iphone-model-compatible-with-ios-26-and-which-ones-dont-support-the-update/</link>
-      <description>Here's a list of iPhones that support the next iOS update - and when you can use it yourself.</description>
-      <guid isPermaLink="false">a5a83f9e60dbeb3c6ad54712416c69d2</guid>
-      <pubDate>Mon, 08 Sep 2025 14:32:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>These $15 accessories turned my AirPods into my ideal workout headphones (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/these-15-accessories-turned-my-airpods-into-my-ideal-workout-headphones/</link>
-      <description>Loose AirPods? Before you give up on them, try these three accessories without breaking the bank.</description>
-      <guid isPermaLink="false">6a365bff7b568bc07be9cc3b51548cdd</guid>
-      <pubDate>Mon, 08 Sep 2025 14:45:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How to watch Apple's iPhone 17 September event this week (and what to expect) (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/how-to-watch-apples-iphone-17-september-event-this-week-and-what-to-expect/</link>
-      <description>The big iPhone 17 launch event is here, and you'll want to tune in for these reasons.</description>
-      <guid isPermaLink="false">917ac913b1d78b7f47663fd454982a96</guid>
-      <pubDate>Mon, 08 Sep 2025 16:13:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>40+ Windows keyboard shortcuts that effectively improved my work productivity (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/40-windows-keyboard-shortcuts-that-effectively-improved-my-work-productivity/</link>
-      <description>Keyboard shortcuts can supercharge your productivity - if you know which ones to use. Here are 48 essential shortcuts every Windows user should know.</description>
-      <guid isPermaLink="false">50c14b9d9d88632f378cee8617b94e6e</guid>
-      <pubDate>Mon, 08 Sep 2025 16:24:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 11 Sep 2025 09:12:47 +0000</lastBuildDate>
     <item>
       <title>The Top 5 Nextiva Alternatives for 2025 (Source: www.techrepublic.com)</title>
       <link>https://www.techrepublic.com/article/nextiva-alternatives/</link>
       <description>Discover the best Nextiva alternatives. We break down leading VoIP solutions to help you choose the ideal platform for communication and growth.</description>
       <guid isPermaLink="false">f33ef525d6d1e356ae3716c05889f318</guid>
       <pubDate>Mon, 08 Sep 2025 16:40:06 +0000</pubDate>
-    </item>
-    <item>
-      <title>Yes, you can run Windows apps on Linux  - here are my top 5 ways (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/yes-you-can-run-windows-apps-on-linux-here-are-my-top-5-ways/</link>
-      <description>If you're looking to jump from Windows 10 to Linux, and you have specific apps you need to use that aren't available on the open-source platform, here's how to get around that.</description>
-      <guid isPermaLink="false">9315509f0f77fd81ac492e9bb7052ce5</guid>
-      <pubDate>Mon, 08 Sep 2025 16:50:34 +0000</pubDate>
-    </item>
-    <item>
-      <title>New AirPods Pro tomorrow? These 3 features would be so worth upgrading for (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/new-airpods-pro-tomorrow-these-3-features-would-be-so-worth-upgrading-for/</link>
-      <description>Live translation and temperature sensing in the AirPods Pro 3 sound exciting, but these improvements for everyday use sound even better to me.</description>
-      <guid isPermaLink="false">96d7b67ea4d25100a85c5c22a27d41de</guid>
-      <pubDate>Mon, 08 Sep 2025 17:06:12 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI will consume all of IT by 2030—but not all IT jobs, Gartner says (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/information-technology/2025/09/no-ai-jobs-bloodbath-as-ai-permeates-all-it-work-over-the-next-5-years/</link>
-      <description>AI still threatens entry-level IT jobs.</description>
-      <guid isPermaLink="false">2e634e5f29a81a71132b493078554806</guid>
-      <pubDate>Mon, 08 Sep 2025 17:17:49 +0000</pubDate>
-    </item>
-    <item>
-      <title>The best smart rings of 2025: I tested and found an obvious winner (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/best-smart-ring/</link>
-      <description>I tested several top smart rings, and these are the ones I recommend most.</description>
-      <guid isPermaLink="false">3630f218f4c453dea6fb75f04fedd5e6</guid>
-      <pubDate>Mon, 08 Sep 2025 17:41:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>These potential Apple Watch Series 11 features would make me upgrade immediately (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/these-potential-apple-watch-series-11-features-would-make-me-upgrade-immediately/</link>
-      <description>Having tested every major smartwatch release in 2025, here's what's on my Apple Watch wish list ahead of this week's event.</description>
-      <guid isPermaLink="false">56c1cfe7e4c87116e9090636118c7fbb</guid>
-      <pubDate>Mon, 08 Sep 2025 17:50:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Linus Torvalds is sick and tired of your 'pointless links' - and AI is no excuse (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/linus-torvalds-is-sick-and-tired-of-your-pointless-links-and-ai-is-no-excuse/</link>
-      <description>Pointless links in proposed code changes are wasting the Linux creator's time - and he's not happy about it. Can you blame him?</description>
-      <guid isPermaLink="false">75a5c35bb09f94aed366881477048542</guid>
-      <pubDate>Mon, 08 Sep 2025 18:22:49 +0000</pubDate>
     </item>
     <item>
       <title>‘Job Hugging’ Trend Emerges as Workers Confront AI Uncertainty (Source: www.techrepublic.com)</title>
@@ -338,95 +23,270 @@
       <pubDate>Mon, 08 Sep 2025 18:31:11 +0000</pubDate>
     </item>
     <item>
-      <title>Looking for the fastest iPhone 17 model? These iPhone 16 speed test results can help (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/looking-for-the-fastest-iphone-17-model-these-iphone-16-speed-test-results-can-help/</link>
-      <description>Pit the iPhone 16's Qualcomm modem against Apple's C1 modem in the iPhone 16e, and the winner largely depends on your carrier and location.</description>
-      <guid isPermaLink="false">926bfb4a5fa981092b572d666d52c079</guid>
-      <pubDate>Mon, 08 Sep 2025 19:16:39 +0000</pubDate>
-    </item>
-    <item>
-      <title>You can buy Samsung's Galaxy S25 FE for only $6 a month - how the deal works (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/you-can-buy-samsungs-galaxy-s25-fe-for-only-6-a-month-how-the-deal-works/</link>
-      <description>AT&amp;T's promotion for new and current customers amounts to a whopping 66% discount on Samsung's latest midrange handset.</description>
-      <guid isPermaLink="false">56a7797b5a3a86c524036855026a08b8</guid>
-      <pubDate>Mon, 08 Sep 2025 19:34:55 +0000</pubDate>
-    </item>
-    <item>
-      <title>Report: OpenAI will launch its own AI chip next year (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/openai-will-launch-its-own-ai-chip-next-year-report/</link>
-      <description>The company behind ChatGPT is working with Broadcom to create its own custom GPUs, which it will reportedly use exclusively for internal purposes.</description>
-      <guid isPermaLink="false">018359c1773463d32870395113961a9f</guid>
-      <pubDate>Mon, 08 Sep 2025 19:41:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>7 useful iOS 26 AI features launching alongside iPhone 17 (and these older models) (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/7-helpful-ai-features-in-ios-26-you-can-try-now-and-how-to-access-them/</link>
-      <description>While the iPhone 17 might be the star of the show, these iOS 26 features are also worth getting excited about.</description>
-      <guid isPermaLink="false">d37f67a190b3cd852807acc41681606e</guid>
-      <pubDate>Mon, 08 Sep 2025 19:51:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why I recommend these OnePlus earbuds over pricier models (including AirPods) - and they're on sale (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/why-i-recommend-these-oneplus-earbuds-over-pricier-models-including-airpods-and-theyre-on-sale/</link>
-      <description>In addition to their flagship-level noise cancellation, the OnePlus Buds 4 provide bass-heavy audio and in-depth customization.</description>
-      <guid isPermaLink="false">88086267a0c6cb494e1f13ee958171a9</guid>
-      <pubDate>Mon, 08 Sep 2025 20:02:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Europe’s Most Valuable AI Startup Now, Thanks to €1.3 Billion Investment (Source: www.techrepublic.com)</title>
+      <title>This is Europe’s Most Valuable AI Startup Now, Thanks to €1.3 Billion Investment (Source: www.techrepublic.com)</title>
       <link>https://www.techrepublic.com/article/news-mistral-ai-asml-series-c-funding/</link>
       <description>ASML invested €1.3B in Mistral AI’s Series C, becoming top shareholder and lifting the startup’s value to €10B, Europe’s largest AI firm.</description>
-      <guid isPermaLink="false">0293aac31a80b0c423ae6186bec67e41</guid>
+      <guid isPermaLink="false">85b2d9c9ca83c6aa3a80351ef977569e</guid>
       <pubDate>Mon, 08 Sep 2025 20:14:14 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why the new Apple Watch Series 11 may be the most ambitious model we've seen yet (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/why-the-new-apple-watch-series-11-may-be-the-most-ambitious-model-weve-seen-yet/</link>
-      <description>Apple's annual hardware launch is tomorrow, and if the rumors are true, I've got my eye on these new Apple Watch specs and features.</description>
-      <guid isPermaLink="false">2b23dde9fd184f5aac4174dad3ca7979</guid>
-      <pubDate>Mon, 08 Sep 2025 20:15:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Former WhatsApp security boss in lawsuit likens Meta’s culture to a “cult” (Source: feeds.arstechnica.com)</title>
-      <link>https://arstechnica.com/security/2025/09/former-whatsapp-security-boss-sues-meta-for-systemic-cybersecurity-failures/</link>
-      <description>Meta allegedly prioritized user growth over security, lawsuit said.</description>
-      <guid isPermaLink="false">e80de108102e5cd9df619898a0b0421f</guid>
-      <pubDate>Mon, 08 Sep 2025 20:26:02 +0000</pubDate>
-    </item>
-    <item>
-      <title>Every iPhone model that supports Apple's new iOS 26 AI features (and no, its not just the iPhone 17) (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/every-iphone-model-that-will-support-apples-upcoming-ai-features-including-the-new-siri/</link>
-      <description>Want to experience all that Apple Intelligence has to offer with iOS 26? Here's the full list of compatible devices.</description>
-      <guid isPermaLink="false">98de082b659fbd837bdcfcb1c5bb5713</guid>
-      <pubDate>Mon, 08 Sep 2025 20:31:00 +0000</pubDate>
     </item>
     <item>
       <title>Did Meta Cover Up Child Safety Risks in VR? (Source: www.techrepublic.com)</title>
       <link>https://www.techrepublic.com/article/news-meta-child-vr-risks/</link>
-      <description>Two current and two former Meta employees will bring internal documents before a committee. Meta said allegations were ‘stitched together.’</description>
+      <description>Two current and two former Meta employees will bring internal documents before a Senate Judiciary subcommittee. Meta said allegations were "stitched together."</description>
       <guid isPermaLink="false">747da4bb04735927ae992119a60ffbcc</guid>
       <pubDate>Mon, 08 Sep 2025 20:35:52 +0000</pubDate>
     </item>
     <item>
-      <title>Apple Event live updates 2025: Last minute leaks on iPhone 17, AirPods 3, Apple Watch Series 11, more (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/apple-event-live-updates-2025-last-minute-leaks-on-iphone-17-airpods-3-apple-watch-series-11-more/</link>
-      <description>The clock is ticking, and ZDNET is reporting on all the latest news surrounding Apple's September iPhone event this week.</description>
-      <guid isPermaLink="false">e9e1ba6a3f036005a0c86551c6217f6e</guid>
-      <pubDate>Mon, 08 Sep 2025 21:01:00 +0000</pubDate>
+      <title>Microsoft Copilot Study: UK Government Finds No Evidence of Productivity Gains (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-microsoft-copilot-uk-government/</link>
+      <description>The UK government’s Microsoft 365 Copilot trial found staff satisfied and tasks eased, but no clear productivity gains, raising doubts about AI’s workplace impact.</description>
+      <guid isPermaLink="false">22b9a8dfbee3a3b3956c4eee0b829d5c</guid>
+      <pubDate>Tue, 09 Sep 2025 02:18:01 +0000</pubDate>
     </item>
     <item>
-      <title>Google Meet is back after an outage. Here are a few workarounds for next time (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/google-meet-is-back-after-an-outage-here-are-a-few-workarounds-for-next-time/</link>
-      <description>The popular video conferencing service experienced a major outage. Here's what happened.</description>
-      <guid isPermaLink="false">a0678277325ad7f05d503bfb05ece39d</guid>
-      <pubDate>Mon, 08 Sep 2025 21:15:00 +0000</pubDate>
+      <title>Get Seven Iconic MS Office Programs for Just $25 (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/microsoft-office-professional-plus-2019-for-windows/</link>
+      <description>This bundle gives you lifetime access to 2019 versions of Excel, Word, Outlook, PowerPoint, Access, Publisher, and OneNote with no subscription or license fees.</description>
+      <guid isPermaLink="false">008c5186df4ee7335c9a43ca51ccb69d</guid>
+      <pubDate>Tue, 09 Sep 2025 08:00:20 +0000</pubDate>
     </item>
     <item>
-      <title>7 most exciting tech accessories from IFA 2025 (and that you can actually buy) (Source: www.zdnet.com)</title>
-      <link>https://www.zdnet.com/article/7-most-exciting-tech-accessories-from-ifa-2025-and-that-you-can-actually-buy/</link>
-      <description>IFA 2025 had some really cool charging accessories and audio products. Here are my favorite picks from the show.</description>
-      <guid isPermaLink="false">c5f0fd89cb385f4aac53946feab3261d</guid>
-      <pubDate>Mon, 08 Sep 2025 21:25:00 +0000</pubDate>
+      <title>Tesla’s Robot Army Could Make Elon Musk the World’s First Trillionaire (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-tesla-robot-army/</link>
+      <description>Elon Musk's idea of a humanoid robot army that outnumbers humans is raising questions about the future of work.</description>
+      <guid isPermaLink="false">b8cb12b060949bddfda8a1fab501ba09</guid>
+      <pubDate>Tue, 09 Sep 2025 09:45:35 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Hits Record $9B in India Sales (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-apple-record-sales-india/</link>
+      <description>With iPhones doing the heavy lifting and MacBook demand also surging, India has become the new growth engine in the world's most populous nation.</description>
+      <guid isPermaLink="false">6064108448b4275718e1b60821b8a436</guid>
+      <pubDate>Tue, 09 Sep 2025 11:21:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Taps Nebius in $19.4B AI Cloud Agreement (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-microsoft-signs-nebius-cloud-deal/</link>
+      <description>Microsoft will gain dedicated capacity from Nebius’ New Jersey facility as AI demand outpaces internal resources.</description>
+      <guid isPermaLink="false">f2bb4884e423ce11a503368c2032ba3c</guid>
+      <pubDate>Tue, 09 Sep 2025 12:28:43 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia Unveils Rubin CPX, First in a New Class of AI GPUs (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-nvidia-vera-rubin-cpx/</link>
+      <description>The Vera Rubin CPX is built for “massive-context” AI to perform complex coding or generate HD video.</description>
+      <guid isPermaLink="false">a9e00c037254294256030b138332ec55</guid>
+      <pubDate>Tue, 09 Sep 2025 15:35:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>‘Catastrophic’ Stakes: OpenAI Restructure Faces Fierce Campaigns and Scrutiny (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-openai-restructure-catastrophic-stakes-backlash/</link>
+      <description>OpenAI’s for-profit shift faces probes, lawsuits, and $19B in investor stakes as regulators and rivals challenge its nonprofit roots and future in AI.</description>
+      <guid isPermaLink="false">753e4d452f112fa636362a1533eff587</guid>
+      <pubDate>Tue, 09 Sep 2025 15:44:48 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic’s Claude AI Can Now Create Spreadsheets, Presentations, and More (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-anthropic-update-transforms-claude/</link>
+      <description>A new update gives Anthropic’s Claude AI the ability to make spreadsheets and presentations in a move that is simillar to a recent update to OpenAI’s ChatGPT.</description>
+      <guid isPermaLink="false">cfbd6451fa385761ff48d97094167edb</guid>
+      <pubDate>Tue, 09 Sep 2025 17:32:51 +0000</pubDate>
+    </item>
+    <item>
+      <title>Xero’s JAX Gets Smarter at Predicting When Customers Will Pay (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/xero-jax-significant-updates/</link>
+      <description>The enhanced AI superagent introduces predictive insights and automation, aiming to position JAX for more success in a crowded market.</description>
+      <guid isPermaLink="false">d0cbc4b52dc072fa169e81fadf2511ba</guid>
+      <pubDate>Tue, 09 Sep 2025 19:11:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>This is Apple’s Thinnest iPhone Ever (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-apple-iphone-air/</link>
+      <description>Apple unveiled on Sept. 9 its much-anticipated iPhone 17 line, as well as the iPhone Air, new smartwatches, and AirPods 3.</description>
+      <guid isPermaLink="false">d0b1feb316670f677a61dd2832873449</guid>
+      <pubDate>Tue, 09 Sep 2025 19:55:36 +0000</pubDate>
+    </item>
+    <item>
+      <title>Working with PDFs Is a Breeze with PDF Converter Pro (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/working-with-pdfs-is-a-breeze-with-pdf-converter-pro/</link>
+      <description>PDF Converter Pro is an all-in-one tool that allows you create or convert PDF documents into a variety of formats or from a variety of formats with ease.</description>
+      <guid isPermaLink="false">5c5927f656389a95abe51aa3c0c51ac1</guid>
+      <pubDate>Wed, 10 Sep 2025 08:00:38 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Leans on Anthropic’s Claude, Raising Questions About Its OpenAI Ties (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-microsoft-to-use-ai-from-anthropic/</link>
+      <description>Microsoft will integrate Anthropic’s Claude into Office 365, citing stronger performance in tasks like Excel and PowerPoint as tensions with OpenAI grow.</description>
+      <guid isPermaLink="false">655fd73aecb5b15abdcf0fcd6b4a011a</guid>
+      <pubDate>Wed, 10 Sep 2025 11:30:27 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple's iPhone 17 has a big anti-spyware upgrade built in - here's what it can do (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/apples-iphone-17-has-a-big-anti-spyware-upgrade-built-in-heres-what-it-can-do/</link>
+      <description>A new memory safety feature on Apple's latest iPhones is designed to fight advanced surveillance.</description>
+      <guid isPermaLink="false">99dd77673936b7f4e041f2268efe5b2f</guid>
+      <pubDate>Wed, 10 Sep 2025 14:07:25 +0000</pubDate>
+    </item>
+    <item>
+      <title>5 business leaders on how to balance innovation with risk - and turn your ideas into action (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/5-business-leaders-on-how-to-balance-innovation-with-risk-and-turn-your-ideas-to-action/</link>
+      <description>Innovation can boost your business and delight your customers, but only if you get your approach right.</description>
+      <guid isPermaLink="false">58143dd54648cc402c5d9e563c686507</guid>
+      <pubDate>Wed, 10 Sep 2025 14:29:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>I swapped my favorite Linux desktop for System76's COSMIC alpha - and I have zero regrets (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/i-swapped-my-favorite-linux-desktop-for-system76s-cosmic-alpha-and-i-have-zero-regrets/</link>
+      <description>I did the unthinkable and installed an alpha release as my Linux daily driver. Here's how it's going.</description>
+      <guid isPermaLink="false">62f5fbe336cf055bd1f4d6c8cd0a7b2e</guid>
+      <pubDate>Wed, 10 Sep 2025 15:17:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Verizon will give you an iPhone 17 Pro free with trade-in - here's what to know (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/verizon-will-give-you-an-iphone-17-pro-free-with-trade-in-heres-what-to-know/</link>
+      <description>The iPhone 17 is here, and Verizon is offering new and current customers up to $1,100 off any of the new phones, and some free Apple Watch and iPad offers, too. We've got all the details.</description>
+      <guid isPermaLink="false">d02da705e1f9d02a3e3e47fd65851f73</guid>
+      <pubDate>Wed, 10 Sep 2025 15:30:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft said these 400 readers couldn't upgrade to Windows 11. They did it anyway (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/microsoft-said-these-400-readers-couldnt-upgrade-to-windows-11-they-did-it-anyway/</link>
+      <description>Microsoft wanted to pull the plug on these old PCs. Our readers upgraded to Windows 11 anyway.</description>
+      <guid isPermaLink="false">b170c64c15b4faa8c6775715cc452416</guid>
+      <pubDate>Wed, 10 Sep 2025 16:25:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft taps Anthropic for AI in Word and Excel, signaling distance from OpenAI (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/microsoft-taps-anthropic-for-ai-in-word-and-excel-signaling-distance-from-openai/</link>
+      <description>Once in a codependent relationship, Microsoft and OpenAI have decided it's probably best if they both start seeing other companies.</description>
+      <guid isPermaLink="false">e0e572583eee02941774978eb46f27f9</guid>
+      <pubDate>Wed, 10 Sep 2025 16:26:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The two tech brands with the most satisfied customers might surprise you (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/the-two-tech-brands-with-the-most-satisfied-customers-might-surprise-you/</link>
+      <description>Looking for a new TV, laptop, or even vacuum cleaner? The American Customer Satisfaction Index can help.</description>
+      <guid isPermaLink="false">4f4428c3c28b27561cdff9363bdc5cea</guid>
+      <pubDate>Wed, 10 Sep 2025 16:30:54 +0000</pubDate>
+    </item>
+    <item>
+      <title>The best iPhone 17 cases of 2025 (including the Air, Pro, and Max models) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/best-iphone-17-cases/</link>
+      <description>ZDNET editors have tested dozens of iPhone cases over the years to help you choose the right one for your new iPhone 17, iPhone Air, iPhone 17 Pro, or iPhone 17 Pro Max.</description>
+      <guid isPermaLink="false">05f256f9836bf2b93eb1875d14cf957c</guid>
+      <pubDate>Wed, 10 Sep 2025 16:54:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iOS 26 update is coming soon - how to download it (and which iPhones support it) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/ios-26-update-is-coming-soon-how-to-download-it-and-which-iphones-support-it/</link>
+      <description>Apple CEO Tim Cook says iOS 26 has been the most popular beta ever, and the general release is only days away. Here's how you can install it.</description>
+      <guid isPermaLink="false">5451ee95e3c0bb0b50d8b7e2d84151ce</guid>
+      <pubDate>Wed, 10 Sep 2025 17:23:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nomad's latest Apple Watch band is bright enough to stop traffic - and it's my new favorite (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/nomads-latest-apple-watch-band-is-bright-enough-to-stop-traffic-and-its-my-new-favorite/</link>
+      <description>The new Tempo Band resembles the older Slim Sport Band - only brighter and better.</description>
+      <guid isPermaLink="false">37282f37886bceb83298b6e770707d91</guid>
+      <pubDate>Wed, 10 Sep 2025 17:55:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trade in your old phone and get up to $1,100 off a new iPhone 17 at AT&amp;T - here's how (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/trade-in-your-old-phone-and-get-up-to-1100-off-a-new-iphone-17-at-at-t-heres-how/</link>
+      <description>AT&amp;T has deals on the new iPhone 17, iPhone 17 Pro, iPhone 17 Pro Max, and iPhone Air. Here are all the details.</description>
+      <guid isPermaLink="false">21b0aae3071f844a42c9ebace8626e94</guid>
+      <pubDate>Wed, 10 Sep 2025 18:02:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>Former WhatsApp Security Chief Sues Meta, Citing Major Privacy Risks (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-whistleblower-sues-meta-privacy-risks/</link>
+      <description>Ex-WhatsApp security chief Attaullah Baig is suing Meta and alleging the company ignored flaws that put billions at risk. Meta denies the claims, noting the employee’s dismissal for poor performance.</description>
+      <guid isPermaLink="false">896625f64dc08e58df8895f461f50a61</guid>
+      <pubDate>Wed, 10 Sep 2025 18:23:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Every iPhone that can be updated to iOS 26 (and when you can install it) (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/every-iphone-that-can-be-updated-to-ios-26-and-when-you-can-install-it/</link>
+      <description>Here's a list of iPhone models that support the next iOS update - and which ones won't run Apple's latest update.</description>
+      <guid isPermaLink="false">2e8d68fa587da410c50af4c22f963925</guid>
+      <pubDate>Wed, 10 Sep 2025 18:41:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iPhone 17 Cheat Sheet: Key Features, Price, and Availability (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-iphone-17-cheat-sheet/</link>
+      <description>Get tips on maximizing your iPhone 17 experience and choose which model of the Apple device is right for you.</description>
+      <guid isPermaLink="false">279fa9754bb6257bf26d2a00ebd1cd26</guid>
+      <pubDate>Wed, 10 Sep 2025 19:07:11 +0000</pubDate>
+    </item>
+    <item>
+      <title>iPhone 17 Pro vs. iPhone 15 Pro: I compared both models, and here's who should upgrade (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/iphone-17-pro-vs-iphone-15-pro-i-compared-both-models-and-heres-who-should-upgrade/</link>
+      <description>Eyeing the new iPhone 17 Pro? Here's how it stacks up against the 15 Pro.</description>
+      <guid isPermaLink="false">e2f58855022aefbeeef7d097fdec3ebb</guid>
+      <pubDate>Wed, 10 Sep 2025 19:10:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Malware Injected Into Code Packages That Get 2 Billion+ Downloads Each Week (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/news-malware-intercepts-crypto-injected-npm-package/</link>
+      <description>An attack targeting the Node.js ecosystem was just identified — but not before it compromised 18 npm packages that account for billions of weekly downloads.</description>
+      <guid isPermaLink="false">0afe6f50ebc33daf5500cba83a2a12f4</guid>
+      <pubDate>Wed, 10 Sep 2025 19:23:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>That new Claude feature 'may put your data at risk,' Anthropic admits (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/that-new-claude-feature-may-put-your-data-at-risk-anthropic-admits/</link>
+      <description>Claude AI can now create and edit documents, spreadsheets, and other files. But Anthropic warns that hackers can also use that feature to snag your sensitive data.</description>
+      <guid isPermaLink="false">0a75dce66a8f9c5f4f38979271780cfb</guid>
+      <pubDate>Wed, 10 Sep 2025 19:26:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Best VPN services 2025: The fastest VPNs with the best networks, ranked (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/best-vpn/</link>
+      <description>My favorite VPNs offer excellent speeds, expand your streaming content libraries, and provide security and peace of mind.</description>
+      <guid isPermaLink="false">552c9ab0d424058fdf608edd90807b21</guid>
+      <pubDate>Wed, 10 Sep 2025 19:51:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Events live updates: iPhone 17, iPhone Air, AirPods Pro 3, and reactions to new wearables (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/apple-events-live-updates-iphone-17-iphone-air-airpods-pro-3-and-new-wearables-just-unveiled/</link>
+      <description>ZDNET is reporting on all the news surrounding this week's Apple event, including the iPhone 17 series, which starts at $799, Apple Watch Ultra 3, AirPods Pro 3, and more.</description>
+      <guid isPermaLink="false">d0222d836768cce2aad091dd2fab753c</guid>
+      <pubDate>Wed, 10 Sep 2025 23:22:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apple Watch Series 11 vs. Samsung Galaxy Watch 8: I've tested both, and here's the winner (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/apple-watch-series-11-vs-samsung-galaxy-watch-8-ive-tested-both-and-heres-the-winner/</link>
+      <description>Which of the two top smartwatches is the most capable? Here's my verdict after trying both wearables.</description>
+      <guid isPermaLink="false">a169667aeb5e2c0887491bfd709de5ac</guid>
+      <pubDate>Thu, 11 Sep 2025 00:20:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iPhone Air vs. iPhone 17 Pro Max: I compared Apple's two best models, and I'd buy this one (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/iphone-air-vs-iphone-17-pro-max-i-compared-apples-two-best-models-and-id-buy-this-one/</link>
+      <description>The iPhone Air and iPhone 17 Pro Max are two extremes that elevate Apple's smartphones to a new level. So which one should you get?</description>
+      <guid isPermaLink="false">f7b0f77711c9bec63e0bd0981206925f</guid>
+      <pubDate>Thu, 11 Sep 2025 00:28:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>T-Mobile will give you a free iPhone 17 Pro right now - how the preorder deal works (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/t-mobile-will-give-you-a-free-iphone-17-pro-right-now-how-the-preorder-deal-works/</link>
+      <description>At T-Mobile, you can get the all-new iPhone 17 Pro for free when you sign up for or switch to the Experience Beyond mobile plan and use a qualifying trade-in.</description>
+      <guid isPermaLink="false">a080c7b761522a49d25b22c5d1dd8c83</guid>
+      <pubDate>Thu, 11 Sep 2025 00:31:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>iPhone 17 Pro Max vs. Google Pixel 10 Pro XL: I compared both phones, and it's a close one (Source: www.zdnet.com)</title>
+      <link>https://www.zdnet.com/article/iphone-17-pro-max-vs-google-pixel-10-pro-xl-i-compared-both-phones-and-its-a-close-one/</link>
+      <description>Which flagship phone deserves a spot in your pocket? Here's my early verdict based on specs and past experience.</description>
+      <guid isPermaLink="false">48642f1a75266665a20ac5fdeae1b1fb</guid>
+      <pubDate>Thu, 11 Sep 2025 00:56:21 +0000</pubDate>
+    </item>
+    <item>
+      <title>Become an Ethical Hacker for Only $20 (Source: www.techrepublic.com)</title>
+      <link>https://www.techrepublic.com/article/ethical-hacking-bundle-for-beginners/</link>
+      <description>Train at your own pace to develop ethical hacking skills, even if you don’t have any previous tech experience.</description>
+      <guid isPermaLink="false">6755dbb8a217d56a2df7db9d14d30d46</guid>
+      <pubDate>Thu, 11 Sep 2025 07:00:07 +0000</pubDate>
     </item>
   </channel>
 </rss>

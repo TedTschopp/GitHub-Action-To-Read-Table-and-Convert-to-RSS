@@ -1,0 +1,47 @@
+{
+  "total_sources": 4,
+  "attempted": 4,
+  "skipped": 0,
+  "with_items": 2,
+  "failures": 1,
+  "recovered": 0,
+  "timestamp": "2025-09-11T09:12:37.820883+00:00",
+  "details": [
+    {
+      "url": "https://www.infoworld.com/index.rss",
+      "status": "failed",
+      "items": 0,
+      "consecutive_failures": 2,
+      "last_error": "HTTP 404",
+      "last_status": "exception",
+      "classification": "other_failure"
+    },
+    {
+      "url": "https://feeds.arstechnica.com/arstechnica/technology-lab",
+      "status": "empty",
+      "items": 0,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 304,
+      "classification": "not_modified"
+    },
+    {
+      "url": "https://www.zdnet.com/news/rss.xml",
+      "status": "ok",
+      "items": 20,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200,
+      "classification": "success"
+    },
+    {
+      "url": "https://www.techrepublic.com/rssfeeds/articles/",
+      "status": "ok",
+      "items": 20,
+      "consecutive_failures": 0,
+      "last_error": null,
+      "last_status": 200,
+      "classification": "success"
+    }
+  ]
+}

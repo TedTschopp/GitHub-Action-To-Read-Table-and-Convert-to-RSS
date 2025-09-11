@@ -480,6 +480,19 @@ def fetch_rss(url, policy, cache):
     Returns list of items (dict) or empty list on failure/304.
     """
     src_meta = cache.setdefault('sources', {}).setdefault(url, {})
+    # Failure tracking (persisted in cache file):
+    #   consecutive_failures: int
+    #   last_status: HTTP status code or 'exception'
+    #   last_error: string summary of last failure
+    #   last_success_ts: epoch seconds of last successful fetch
+    # Allow configurable skip threshold (default 5) to avoid wasting time on dead feeds.
+    skip_threshold = policy.get('skip_after_failures', 5)
+    if src_meta.get('consecutive_failures', 0) >= skip_threshold and not src_meta.get('recent_success_grace'):
+        logger.warning(f"Skipping {url} (consecutive failures >= {skip_threshold})")
+        src_meta['skipped'] = True
+        src_meta['last_classification'] = 'skipped'
+        return []
+    src_meta.pop('skipped', None)
     headers = {
         'User-Agent': random.choice(_USER_AGENTS),
         'Accept': 'application/rss+xml, application/xml;q=0.9, text/xml;q=0.8, */*;q=0.7',
@@ -509,6 +522,9 @@ def fetch_rss(url, policy, cache):
             status = resp.status_code
             if status == 304:
                 logger.info(f"Not modified (304): {url}")
+                src_meta['last_status'] = 304
+                src_meta['last_error'] = None
+                src_meta['last_classification'] = 'not_modified'
                 return []
             if status >= 400:
                 raise RuntimeError(f"HTTP {status}")
@@ -531,6 +547,14 @@ def fetch_rss(url, policy, cache):
                     'description': _text('description') or _text('summary'),
                     'pubDate': _text('pubDate')
                 })
+            # Success bookkeeping
+            src_meta['consecutive_failures'] = 0
+            src_meta['last_status'] = status
+            src_meta['last_error'] = None
+            src_meta['last_success_ts'] = time.time()
+            # Provide a one-run grace after recovery so we don't immediately skip again.
+            src_meta['recent_success_grace'] = True
+            src_meta['last_classification'] = 'success'
             return items
         except Exception as e:
             last_err = e
@@ -539,6 +563,32 @@ def fetch_rss(url, policy, cache):
                 delay = (back_base ** (attempt - 1)) + random.uniform(0, jitter)
                 logger.info(f"Backing off {delay:.2f}s before retry")
                 time.sleep(delay)
+    # Failure after all attempts
+    fail_count = src_meta.get('consecutive_failures', 0) + 1
+    src_meta['consecutive_failures'] = fail_count
+    src_meta['last_status'] = getattr(last_err, 'status', 'exception') if last_err else 'unknown'
+    src_meta['last_error'] = str(last_err) if last_err else 'Unknown failure'
+    # Remove grace once we have a failure
+    src_meta.pop('recent_success_grace', None)
+    # Classification heuristics
+    err_l = (src_meta.get('last_error') or '').lower()
+    classification = 'other_failure'
+    if 'ssl' in err_l:
+        classification = 'ssl_error'
+    elif 'name or service not known' in err_l or 'nxdomain' in err_l or 'temporary failure in name resolution' in err_l or 'nodename nor servname' in err_l:
+        classification = 'dns_error'
+    elif isinstance(src_meta.get('last_status'), int):
+        try:
+            code = int(src_meta['last_status'])
+            if 400 <= code < 500:
+                classification = 'http_4xx'
+            elif 500 <= code < 600:
+                classification = 'http_5xx'
+        except Exception:
+            pass
+    if 'parse' in err_l or 'xml' in err_l:
+        classification = 'xml_error'
+    src_meta['last_classification'] = classification
     logger.error(f"All attempts failed for {url}: {last_err}")
     return []
 
@@ -567,10 +617,59 @@ def aggregate_external_feeds(cfg):
     random.shuffle(shuffled)
     cache = _load_agg_cache()
     policy = AGGREGATED_FETCH_POLICY
+    policy.setdefault('skip_after_failures', 5)
+    # Optional fast mode for testing (reduces delays). Activate with FAST_AGGREGATE=1
+    if os.getenv('FAST_AGGREGATE'):
+        logger.info("FAST_AGGREGATE enabled: using minimal polite delays for test run")
+        policy = dict(policy)
+        policy['min_delay'] = 0.05
+        policy['max_delay'] = 0.15
+        policy['per_domain_min_interval'] = 0.2
+    health = {
+        'total_sources': len(shuffled),
+        'attempted': 0,
+        'skipped': 0,
+        'with_items': 0,
+        'failures': 0,
+        'recovered': 0,
+        'timestamp': datetime.now(timezone.utc).isoformat(),
+        'details': []
+    }
+    prune_threshold = int(os.getenv('PRUNE_CONSECUTIVE_THRESHOLD', '3'))
+    permanent_classes = {'ssl_error','dns_error'}
+    recommended_prune = []
     for src in shuffled:
         logger.info(f"Fetching source: {src}")
+        pre_failures = cache.get('sources', {}).get(src, {}).get('consecutive_failures', 0)
         items = fetch_rss(src, policy, cache)
-        logger.info(f"  Retrieved {len(items)} items")
+        meta = cache.get('sources', {}).get(src, {})
+        if meta.get('skipped'):
+            health['skipped'] += 1
+            health['details'].append({'url': src, 'status': 'skipped', 'consecutive_failures': meta.get('consecutive_failures', 0)})
+            continue
+        health['attempted'] += 1
+        if items:
+            health['with_items'] += 1
+            if pre_failures and meta.get('consecutive_failures', 0) == 0:
+                health['recovered'] += 1
+            logger.info(f"  Retrieved {len(items)} items")
+        else:
+            if meta.get('consecutive_failures', 0) > 0:
+                health['failures'] += 1
+            logger.info("  No items returned")
+        classification = meta.get('last_classification') or ('ok' if items else 'empty')
+        cf = meta.get('consecutive_failures', 0)
+        if (classification in permanent_classes and cf >= 1) or cf >= prune_threshold:
+            recommended_prune.append(src)
+        health['details'].append({
+            'url': src,
+            'status': 'ok' if items else ('failed' if meta.get('consecutive_failures', 0) > 0 else 'empty'),
+            'items': len(items),
+            'consecutive_failures': meta.get('consecutive_failures', 0),
+            'last_error': meta.get('last_error'),
+            'last_status': meta.get('last_status'),
+            'classification': classification
+        })
         src_host = urlparse(src).hostname or 'source'
         for it in items:
             dt = parse_pub_date(it.get('pubDate')) or datetime.now(timezone.utc)
@@ -687,6 +786,40 @@ def aggregate_external_feeds(cfg):
             logger.error(f"Error updating aggregated archive: {e}")
     # Persist cache updates
     _save_agg_cache(cache)
+    # Write health summary adjacent to output feed for quick inspection
+    try:
+        health_file = output_file.replace('.xml', '_health.json')
+        with open(health_file, 'w', encoding='utf-8') as hf:
+            json.dump(health, hf, indent=2)
+        logger.info(f"Health summary written: {health_file} (attempted {health['attempted']}, skipped {health['skipped']}, failures {health['failures']}, recovered {health['recovered']})")
+        # Markdown report
+        report_file = output_file.replace('.xml', '_report.md')
+        with open(report_file, 'w', encoding='utf-8') as rf:
+            rf.write(f"# Aggregated Feed Health Report: {output_file}\n\n")
+            rf.write(f"Generated: {health['timestamp']} UTC\n\n")
+            rf.write(f"- Total sources: {health['total_sources']}\n")
+            rf.write(f"- Attempted: {health['attempted']}  Skipped: {health['skipped']}  Failures: {health['failures']}  With Items: {health['with_items']}  Recovered: {health['recovered']}\n")
+            rf.write(f"- Prune threshold: {prune_threshold} consecutive failures (permanent classes: ssl_error,dns_error)\n\n")
+            if recommended_prune:
+                rf.write("## Recommended Prune Candidates\n\n")
+                for u in recommended_prune:
+                    meta = cache['sources'].get(u, {})
+                    rf.write(f"- {u} (cf={meta.get('consecutive_failures',0)}, class={meta.get('last_classification')}, last_error={ (meta.get('last_error') or '')[:100] })\n")
+                rf.write('\n')
+            rf.write("## Source Details (first 100)\n\n")
+            rf.write("| URL | Status | Class | CF | Items | Last Status | Error Excerpt |\n")
+            rf.write("|-----|--------|-------|----|-------|-------------|---------------|\n")
+            for d in health['details'][:100]:
+                err_excerpt = (d.get('last_error') or '')[:60].replace('\n',' ')
+                rf.write(f"| {d['url']} | {d['status']} | {d.get('classification','')} | {d['consecutive_failures']} | {d['items']} | {d.get('last_status')} | {err_excerpt} |\n")
+        logger.info(f"Markdown report written: {report_file}")
+        # Skipped sources summary
+        skipped_sources = [u for u,m in cache.get('sources',{}).items() if m.get('skipped')]
+        with open('skipped_sources.json','w',encoding='utf-8') as sf:
+            json.dump({ 'generated': health['timestamp'], 'skip_threshold': policy.get('skip_after_failures'), 'sources': skipped_sources }, sf, indent=2)
+        logger.info("Skipped sources summary written: skipped_sources.json")
+    except Exception as he:
+        logger.warning(f"Failed to write health summary: {he}")
 
 def main():
     """Main execution function."""

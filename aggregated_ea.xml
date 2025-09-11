@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Aggregator v2 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Sep 2025 22:38:38 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 11 Sep 2025 09:12:57 +0000</lastBuildDate>
     <item>
       <title>Jekyll And Hyde: The Dual Role Of Disruptive Technologies In Sustainability (Source: www.forrester.com)</title>
       <link>https://www.forrester.com/blogs/jekyll-and-hyde-the-dual-role-of-disruptive-technologies-in-sustainability/</link>
@@ -49,13 +49,6 @@
       <description>The clock is ticking on SAP ECC’s end-of-support date in 2027, and the big question requiring your attention is: What’s your plan to get to SAP S/4HANA cloud? Learn the options in this preview of an upcoming peer discussion for Forrester clients.</description>
       <guid isPermaLink="false">c78c33e6a1ce7dc165b2f9b1a64c99a5</guid>
       <pubDate>Wed, 20 Aug 2025 17:30:07 +0000</pubDate>
-    </item>
-    <item>
-      <title>Google Cloud Unveils New Data Security Posture Management Offering in Preview (Source: feed.infoq.com)</title>
-      <link>https://www.infoq.com/news/2025/08/google-cloud-dspm-preview/?utm_campaign=infoq_content&amp;utm_source=infoq&amp;utm_medium=feed&amp;utm_term=Enterprise+Architecture</link>
-      <description>&lt;img src="https://www.infoq.com/styles/static/images/logo/logo_bigger.jpg"/&gt;&lt;p&gt;Google Cloud unveils its new Data Security Posture Management (DSPM) offering, enhancing data governance, privacy, and compliance. This innovative solution provides visibility into sensitive data, helping organizations identify risks and enforce controls. With advanced features integrated into the Security Command Center, it addresses the evolving challenges of cloud data security.&lt;/p&gt; &lt;i&gt;By Steef-Jan Wiggers&lt;/i&gt;</description>
-      <guid isPermaLink="false">f1b889297bcf9f0d9b690d132a5f4253</guid>
-      <pubDate>Mon, 25 Aug 2025 10:00:00 +0000</pubDate>
     </item>
     <item>
       <title>How Agentic AI Elevates The Enterprise Architect’s Role (Source: www.forrester.com)</title>
