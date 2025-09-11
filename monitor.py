@@ -19,7 +19,14 @@ def _discover_aggregated_outputs():
             return outputs
         with open(cfg_path, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f) or {}
+        # Support unified feeds structure
         agg = data.get('aggregated_feeds')
+        unified = data.get('feeds')
+        if unified and isinstance(unified, list):
+            # derive aggregated entries
+            derived = [f for f in unified if isinstance(f, dict) and f.get('aggregated') and f.get('enabled') is not False]
+            if derived:
+                agg = derived
         if not agg:
             return outputs
         if isinstance(agg, dict):

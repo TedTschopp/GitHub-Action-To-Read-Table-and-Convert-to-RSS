@@ -12,7 +12,7 @@ permalink: /feeds/
 </div>
 
 <div class="row">
-    {% for feed in site.rss_feeds %}
+    {% for feed in site.feeds %}
     <div class="col-md-6 mb-4">
         <div class="card h-100 border-0 box-shadow">
             <div class="card-header bg-transparent">
@@ -121,7 +121,7 @@ function copyFeedUrl(url, feedIndex = null) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    const rssFeeds = {{ site.rss_feeds | jsonify }};
+    const rssFeeds = {{ site.feeds | jsonify }};
 
     function jekyllSlugify(str) {
         if (!str) return '';

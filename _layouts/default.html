@@ -119,7 +119,7 @@
     
     <!-- RSS Feeds -->
     {% feed_meta %}
-    {% for feed in site.rss_feeds %}
+    {% for feed in site.feeds %}
     <link rel="alternate" type="application/rss+xml" title="{{ feed.name }}" href="{{ site.url }}{{ feed.url }}">
     {% endfor %}
 </head>
@@ -177,7 +177,7 @@
                 <div class="col-md-6">
                     <h5>RSS Feeds</h5>
                     <ul class="list-unstyled">
-                        {% for feed in site.rss_feeds %}
+                        {% for feed in site.feeds %}
                         <li><a href="{{ feed.url }}" class="text-white-50">{{ feed.name }}</a></li>
                         {% endfor %}
                     </ul>

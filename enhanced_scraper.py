@@ -377,20 +377,12 @@ class RSSGenerator:
 # ---------------- Aggregator Utilities ---------------- #
 
 def load_aggregator_configs():
-    """Load one or more aggregation settings from _config.yml.
+    """Load aggregation settings from unified 'feeds' list in _config.yml.
 
-    Supports two schema styles for backward compatibility:
-    1. Single mapping (original):
-       aggregated_feeds: { enabled: true, output: "/aggregated_external.xml", sources: [...] }
-    2. List of mappings (new multi-feed):
-       aggregated_feeds:
-         - key: external_ai
-           output: /aggregated_external.xml
-           sources: [...]
-         - key: security
-           output: /aggregated_security.xml
-           sources: [...]
-    Returns list of normalized config dicts (may be empty if none configured).
+    We now treat any entry in feeds with aggregated: true (and enabled != false)
+    as an aggregation config. Backward compatibility: if legacy aggregated_feeds
+    block still exists, include those too (but unified list takes precedence
+    for matching keys).
     """
     results = []
     try:
@@ -404,27 +396,43 @@ def load_aggregator_configs():
             return results
         with open(site_yaml, 'r', encoding='utf-8') as f:
             data = yaml.safe_load(f) or {}
-        agg_block = data.get('aggregated_feeds')
-        if not agg_block:
-            return results
-        # If it's a dict treat as single
-        if isinstance(agg_block, dict):
-            agg_list = [agg_block]
-        elif isinstance(agg_block, list):
-            agg_list = agg_block
-        else:
-            logger.warning("aggregated_feeds has unexpected type; expected mapping or list")
-            return results
-        for raw in agg_list:
-            if not isinstance(raw, dict):
-                continue
-            cfg = dict(AGGREGATED_DEFAULT)
-            for k, v in raw.items():
-                cfg[k] = v
-            # Normalize
-            cfg['output'] = (cfg.get('output') or 'aggregated_external.xml').lstrip('/')
-            cfg['key'] = raw.get('key') or Path(cfg['output']).stem
-            results.append(cfg)
+
+        # Unified list
+        unified = data.get('feeds') or []
+        if isinstance(unified, list):
+            for raw in unified:
+                if not isinstance(raw, dict):
+                    continue
+                if not raw.get('aggregated'):
+                    continue
+                if raw.get('enabled') is False:
+                    continue
+                cfg = dict(AGGREGATED_DEFAULT)
+                for k,v in raw.items():
+                    cfg[k] = v
+                cfg['output'] = (cfg.get('output') or cfg.get('url') or 'aggregated_external.xml').lstrip('/')
+                cfg['key'] = raw.get('key') or Path(cfg['output']).stem
+                results.append(cfg)
+
+        # Legacy block fallback (only add keys not already present)
+        legacy = data.get('aggregated_feeds')
+        legacy_list = []
+        if isinstance(legacy, dict):
+            legacy_list = [legacy]
+        elif isinstance(legacy, list):
+            legacy_list = legacy
+        if legacy_list:
+            existing_keys = {r['key'] for r in results if 'key' in r}
+            for raw in legacy_list:
+                if not isinstance(raw, dict):
+                    continue
+                temp = dict(AGGREGATED_DEFAULT)
+                for k,v in raw.items():
+                    temp[k] = v
+                temp['output'] = (temp.get('output') or 'aggregated_external.xml').lstrip('/')
+                temp['key'] = raw.get('key') or Path(temp['output']).stem
+                if temp['key'] not in existing_keys:
+                    results.append(temp)
     except Exception as e:
         logger.warning(f"Error loading aggregated feed configs: {e}")
     return results

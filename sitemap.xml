@@ -26,7 +26,7 @@ sitemap:
     <priority>0.7</priority>
   </url>
   
-  {% for feed in site.rss_feeds %}
+  {% for feed in site.feeds %}
   <url>
     <loc>{{ site.url }}{{ feed.url }}</loc>
     <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>

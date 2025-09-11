@@ -11,7 +11,7 @@ title: "About RSS Feed Hub"
         
         <h2>Available Feeds</h2>
         
-        {% for feed in site.rss_feeds %}
+    {% for feed in site.feeds %}
         <div class="card mb-3">
             <div class="card-body">
                 <h5 class="card-title">
@@ -110,7 +110,7 @@ title: "About RSS Feed Hub"
                     <li><a href="{{ site.github_url }}" target="_blank"><i class="fab fa-github"></i> Source Code</a></li>
                     {% endif %}
                     <li><a href="{{ site.baseurl }}/rss_status.json"><i class="fas fa-file-code"></i> Status JSON</a></li>
-                    {% for feed in site.rss_feeds %}
+                    {% for feed in site.feeds %}
                     <li><a href="{{ feed.url }}"><i class="fas fa-rss"></i> {{ feed.name }}</a></li>
                     {% endfor %}
                 </ul>
