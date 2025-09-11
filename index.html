@@ -76,11 +76,18 @@ class: home-template
         const doc = new DOMParser().parseFromString(xml,'application/xml');
         if(doc.querySelector('parsererror')) return [];
         return Array.from(doc.querySelectorAll('item')).slice(0,limit).map(it=>{
-            const t = esc(it.querySelector('title')?.textContent||'Untitled');
-            const l = esc(it.querySelector('link')?.textContent||'#');
+            const rawTitle = it.querySelector('title')?.textContent || 'Untitled';
+            const linkNode = it.querySelector('link');
+            const linkVal = linkNode ? linkNode.textContent : '#';
             const dRaw = it.querySelector('pubDate')?.textContent; let d='';
             if(dRaw){ const dt=new Date(dRaw); if(!isNaN(dt)) d = dt.toISOString().slice(0,10); }
-            return `<li><a href="${l}" rel="noopener noreferrer">${t}</a>${d?` <span class="pubdate">(${d})</span>`:''}</li>`;
+            let priorityClass=''; let badge=''; let cleanedTitle=rawTitle;
+            if(/\[\s*!\s*\]$/.test(rawTitle)){ priorityClass='priority-essential'; badge='<span class="pri-badge essential">Essential</span>'; cleanedTitle=rawTitle.replace(/\s*\[\s*!\s*\]\s*$/,'').trim(); }
+            else if(/\[\s*\*\s*\]$/.test(rawTitle)){ priorityClass='priority-important'; badge='<span class="pri-badge important">Important</span>'; cleanedTitle=rawTitle.replace(/\s*\[\s*\*\s*\]\s*$/,'').trim(); }
+            else if(/\[\s*~\s*\]$/.test(rawTitle)){ priorityClass='priority-optional'; badge='<span class="pri-badge optional">Optional</span>'; cleanedTitle=rawTitle.replace(/\s*\[\s*~\s*\]\s*$/,'').trim(); }
+            const t = esc(cleanedTitle);
+            const l = esc(linkVal||'#');
+            return `<li class="${priorityClass}"><a href="${l}" rel="noopener noreferrer">${badge}<strong>${t}</strong></a>${d?` <span class=\"pubdate\">(${d})</span>`:''}</li>`;
         });
     }
     feeds.forEach((f,i)=>{
@@ -93,70 +100,5 @@ class: home-template
             })
             .catch(err=>{ el.innerHTML = '<div class="rss-error"><small>Preview error: '+esc(err.message)+'</small></div>'; });
     });
-})();
-</script>
-                function getItemDate(item, isAtom) {
-                    if (isAtom) {
-                        // Atom feeds use <updated> or <published>
-                        return item.querySelector('updated')?.textContent || 
-                               item.querySelector('published')?.textContent || '';
-                    } else {
-                        // RSS feeds use <pubDate>
-                        return item.querySelector('pubDate')?.textContent || '';
-                    }
-                }
-                
-                // Helper function to get title from either RSS or Atom entry
-                function getItemTitle(item) {
-                    return item.querySelector('title')?.textContent || 'No title';
-                }
-                
-                // Helper function to get link from either RSS or Atom entry
-                function getItemLink(item, isAtom) {
-                    if (isAtom) {
-                        // Atom feeds use <link href="...">
-                        const linkElement = item.querySelector('link[href]');
-                        return linkElement?.getAttribute('href') || '#';
-                    } else {
-                        // RSS feeds use <link>text</link>
-                        return item.querySelector('link')?.textContent || '#';
-                    }
-                }
-                
-                // Helper function to get description from either RSS or Atom entry
-                function getItemDescription(item, isAtom) {
-                    if (isAtom) {
-                        // Atom feeds use <summary> or <content>
-                        const summary = item.querySelector('summary')?.textContent || '';
-                        const content = item.querySelector('content')?.textContent || '';
-                        return summary || content;
-                    } else {
-                } else if (error.message.includes('Failed to fetch')) {
-                    errorType = 'Network Error';
-                    suggestion = 'Check if the feed URL is accessible and the server is responding.';
-                } else if (error.message.includes('Redirect was not allowed')) {
-                    errorType = 'Redirect Error';
-                    suggestion = 'The URL redirects to an insecure location. Try using the direct HTTPS URL.';
-                }
-                
-                console.error('Error Classification:', errorType);
-                console.error('Suggestion:', suggestion);
-                console.error('=============================');
-                
-                previewElement.innerHTML = `
-                    <div class="alert alert-warning">
-                        <strong>Unable to load feed preview</strong><br>
-                        <small class="text-muted">
-                            <strong>Feed:</strong> ${feed.name}<br>
-                            <strong>URL:</strong> <code>${feed.url}</code><br>
-                            <strong>Error Type:</strong> ${errorType}<br>
-                            <strong>Details:</strong> ${error.message || 'Unknown error'}<br>
-                            ${suggestion ? `<strong>Suggestion:</strong> ${suggestion}<br>` : ''}
-                            <em>Check browser console for technical details.</em>
-                        </small>
-                    </div>
-                `;
-            });
-    }); // end rssFeeds.forEach
 })();
 </script>
