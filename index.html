@@ -47,6 +47,20 @@ class: home-template
         </div>
     </div>
 </div>
+        <style>
+        /* Priority styling restored */
+        .rss-items { list-style: none; padding-left: 0; margin: 0; }
+        .rss-items li { margin: 0 0 4px 0; line-height: 1.25; }
+        .rss-items li.priority-essential { background: rgba(220,53,69,.08); border-left: 3px solid rgba(220,53,69,.6); padding:4px 6px; }
+        .rss-items li.priority-important { background: rgba(255,193,7,.12); border-left: 3px solid rgba(255,193,7,.7); padding:4px 6px; }
+        .rss-items li.priority-optional { background: rgba(108,117,125,.10); border-left: 3px solid rgba(108,117,125,.55); padding:4px 6px; }
+        .rss-items li a { text-decoration: none; color: inherit; }
+        .pri-badge { font-size: .60rem; letter-spacing:.5px; text-transform:uppercase; margin-right:6px; padding:2px 5px; border-radius:3px; font-weight:600; background:#555; color:#fff; position:relative; top:-1px; }
+        .pri-badge.essential { background:#dc3545; }
+        .pri-badge.important { background:#ffc107; color:#222; }
+        .pri-badge.optional { background:#6c757d; }
+        .pubdate { font-size:.65rem; color:#666; }
+        </style>
 
 <!-- JavaScript for RSS preview -->
 <script>
