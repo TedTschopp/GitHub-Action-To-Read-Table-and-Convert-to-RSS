@@ -8,32 +8,26 @@ class: home-template
     <div class="section-title">
         <h2><span>RSS Feeds</span></h2>
     </div>
-    <div class="row">
-    {% for feed in site.rss_feeds %}
-        <div class="col-md-12">
-            <div class="card border-0 mb-4 box-shadow">
-                <div class="card-header">
-                    <div class="row align-items-center">
-                        <div class="col">
-                            <h2 class="card-title"><a href="{{ feed.url }}">{{ feed.name }}</a></h2>
-                            <small class="d-block text-muted">{{ feed.description }}</small>
+        <div class="row">
+        {% for feed in site.rss_feeds %}
+            <div class="col-md-12">
+                <div class="card border-0 mb-4 box-shadow">
+                    <div class="card-header d-flex justify-content-between align-items-start flex-wrap">
+                        <div>
+                            <h2 class="card-title mb-1"><a href="{{ feed.url }}">{{ feed.name }}</a></h2>
+                            <small class="text-muted">{{ feed.description }}</small>
                         </div>
-                        <div class="col-auto">
-                            <a href="{{ feed.url }}" class="btn btn-sm btn-outline-success">
-                                <i class="fas fa-rss"></i> RSS
-                            </a>
+                        <div>
+                            <a href="{{ feed.url }}" class="btn btn-sm btn-outline-success"><i class="fas fa-rss"></i> RSS</a>
                         </div>
                     </div>
-                </div>
-                <div class="card-body">
-                    <div id="feed-preview-{{ forloop.index0 }}" class="rss-preview" data-feed-name="{{ feed.name }}" data-feed-slug="{{ feed.name | slugify }}">
-                        Loading latest entries...
+                    <div class="card-body">
+                        <div id="feed-preview-{{ forloop.index0 }}" class="rss-preview" data-feed-index="{{ forloop.index0 }}">Loading latest entries...</div>
                     </div>
                 </div>
             </div>
-        </div>
         {% endfor %}
-    </div>
+        </div>
 </div>
 
 <!-- RSS Status -->
@@ -56,245 +50,37 @@ class: home-template
 
 <!-- JavaScript for RSS preview -->
 <script>
-(function initRss() {
-    if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initRss, { once: true });
+(function(){
+    if(document.readyState==='loading'){
+        document.addEventListener('DOMContentLoaded', arguments.callee, {once:true});
         return;
     }
-    // Global error handler to surface silent script errors into each preview box
-    if (!window.__rssGlobalErrorHandlerInstalled) {
-        window.__rssGlobalErrorHandlerInstalled = true;
-        window.addEventListener('error', function(e) {
-            console.error('Global script error:', e.message, e.error);
-            document.querySelectorAll('.rss-preview').forEach(el => {
-                if (el.innerText.includes('Loading')) {
-                    el.innerHTML = '<div class="alert alert-danger"><small>Feed preview script error: ' + (e.message || 'Unknown error') + '</small></div>';
-                }
-            });
-        });
-        window.addEventListener('unhandledrejection', function(e) {
-            console.error('Unhandled promise rejection:', e.reason);
-            document.querySelectorAll('.rss-preview').forEach(el => {
-                if (el.innerText.includes('Loading')) {
-                    el.innerHTML = '<div class="alert alert-danger"><small>Feed preview promise error: ' + (e.reason && e.reason.message ? e.reason.message : 'Unknown') + '</small></div>';
-                }
-            });
+    const feeds = {{ site.rss_feeds | jsonify }};
+    const limit = {{ site.rss_preview_limit | default: 5 }};
+    function esc(s){return (s||'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]||c));}
+    function parseItems(xml){
+        const doc = new DOMParser().parseFromString(xml,'application/xml');
+        if(doc.querySelector('parsererror')) return [];
+        return Array.from(doc.querySelectorAll('item')).slice(0,limit).map(it=>{
+            const t = esc(it.querySelector('title')?.textContent||'Untitled');
+            const l = esc(it.querySelector('link')?.textContent||'#');
+            const dRaw = it.querySelector('pubDate')?.textContent; let d='';
+            if(dRaw){ const dt=new Date(dRaw); if(!isNaN(dt)) d = dt.toISOString().slice(0,10); }
+            return `<li><a href="${l}" rel="noopener noreferrer">${t}</a>${d?` <span class="pubdate">(${d})</span>`:''}</li>`;
         });
     }
-
-    // Load RSS status
-    fetch('/rss_status.json')
-        .then(response => response.json())
-        .then(data => {
-            const statusContent = document.getElementById('rss-status-content');
-            let statusHtml = '<div class="row">';
-            
-            if (data.feeds) {
-                Object.entries(data.feeds).forEach(([feedName, feedData]) => {
-                    const statusClass = feedData.status === 'healthy' ? 'success' : 'danger';
-                    const statusIcon = feedData.status === 'healthy' ? 'check-circle' : 'exclamation-triangle';
-                    
-                    statusHtml += `
-                        <div class="col-md-6 mb-3">
-                            <div class="alert alert-${statusClass} d-flex align-items-center">
-                                <i class="fas fa-${statusIcon} me-2"></i>
-                                <div>
-                                    <strong>${feedName}</strong><br>
-                                    <small>
-                                        Entries: ${feedData.entry_count || 0} | 
-                                        Last Updated: ${feedData.last_updated ? new Date(feedData.last_updated).toLocaleString() : 'Unknown'}
-                                    </small>
-                                    ${feedData.error ? `<br><small class="text-muted">Error: ${feedData.error}</small>` : ''}
-                                </div>
-                            </div>
-                        </div>
-                    `;
-                });
-            }
-            
-            statusHtml += '</div>';
-            statusContent.innerHTML = statusHtml;
-        })
-        .catch(error => {
-            console.error('Error loading RSS status:', error);
-            document.getElementById('rss-status-content').innerHTML = 
-                '<div class="alert alert-warning">Unable to load feed status</div>';
-        });
-
-    // Load RSS previews
-    const rssFeeds = {{ site.rss_feeds | jsonify }};
-    const rssPreviewLimit = {{ site.rss_preview_limit | default: 5 }};
-    
-    // Local slugify helper to mirror Jekyll's slugify filter so IDs match
-    function jekyllSlugify(str) {
-        return str
-            .toLowerCase()              // lower case
-            .replace(/['"]/g, '')       // remove quotes/apostrophes
-            .replace(/[^a-z0-9]+/g, '-') // collapse non-alphanumerics to hyphen
-            .replace(/^-+|-+$/g, '');    // trim leading/trailing hyphens
-    }
-
-    const siteBase = '{{ site.url }}{{ site.baseurl }}'.replace(/\/$/, '');
-    console.log('Site Base (from config):', siteBase);
-    console.log('Location Origin:', window.location.origin);
-
-    // Collect existing preview diagnostics
-    console.log('Existing preview elements at init:', [...document.querySelectorAll('.rss-preview')].map(el=>({id:el.id, name:el.dataset.feedName, slug:el.dataset.feedSlug})));
-
-    const slugAlias = {
-        "Ted Tschopp's AI News": 'feed-preview-0' // maps to first feed's index-based id
-    };
-
-    rssFeeds.forEach((feed, idx) => {
-        console.log('=== Processing Feed ===');
-        console.log('Feed Name:', feed.name);
-        console.log('Feed URL:', feed.url);
-        console.log('Feed Description:', feed.description);
-
-        // Robust element resolution (order, data-name, slug variants)
-        let previewElement = document.querySelector(`.rss-preview[data-feed-name="${feed.name.replace(/"/g,'\\"')}"]`);
-        let method = 'data-feed-name';
-        if (!previewElement) {
-            // index-based id
-            previewElement = document.getElementById('feed-preview-' + idx);
-            method = 'index-id';
-        }
-        if (!previewElement) {
-            // slug stored in data-feed-slug
-            const slug = jekyllSlugify(feed.name);
-            previewElement = document.querySelector(`.rss-preview[data-feed-slug="${slug}"]`);
-            method = 'computed-slug-data';
-        }
-        if (!previewElement) {
-            // Alternative apostrophe handling variant (apostrophe -> hyphen)
-            const altSlug = feed.name.toLowerCase().replace(/[^a-z0-9]+/g,'-').replace(/^-+|-+$/g,'');
-            previewElement = document.querySelector(`.rss-preview[data-feed-slug="${altSlug}"]`);
-            method = 'alt-slug';
-        }
-        if (!previewElement && slugAlias[feed.name]) {
-            previewElement = document.getElementById(slugAlias[feed.name]);
-            method = 'slug-alias';
-        }
-        console.log('Preview Element Resolution Method:', method, 'Found:', !!previewElement, 'Index:', idx);
-        if (!previewElement) {
-            console.warn('Preview element not found; available IDs:', [...document.querySelectorAll('.rss-preview')].map(e=>e.id));
-        }
-
-        if (!previewElement) {
-            console.warn('Preview element not found for feed; skipping render:', feed.name);
-            return; // Prevent downstream null dereferences
-        }
-        
-        // Use relative URL if starts with '/' to stay same-origin even if site.url differs
-        let fetchUrl = feed.url;
-        if (!/^https?:\/\//i.test(fetchUrl)) {
-            // leave as relative
-        }
-        // Fallback: if first attempt fails and siteBase origin differs, we'll retry with siteBase concatenated
-        const altUrl = /^https?:\/\//i.test(fetchUrl) ? null : siteBase + fetchUrl;
-        const controller = new AbortController();
-        const timeoutMs = 15000; // 15s safety timeout
-        const timeoutHandle = setTimeout(() => controller.abort(), timeoutMs);
-
-    const maxAttempts = 2 + (altUrl ? 1 : 0);
-        let attempt = 0;
-
-        function doFetch() {
-            attempt++;
-            const currentUrl = attempt === 1 ? fetchUrl : (altUrl && attempt === 2 ? altUrl : fetchUrl);
-            console.log(`Fetching (${attempt}/${maxAttempts}):`, currentUrl);
-            return fetch(currentUrl, { signal: controller.signal })
-                .catch(err => {
-                    if (attempt < maxAttempts) {
-                        console.warn('Fetch attempt failed, retrying...', err.message);
-                        return new Promise(res => setTimeout(res, 750)).then(doFetch);
-                    }
-                    throw err;
-                });
-        }
-
-        doFetch()
-            .then(response => {
-                console.log('=== Fetch Response ===');
-                console.log('Feed:', feed.name);
-                console.log('Response Status:', response.status);
-                console.log('Response OK:', response.ok);
-                console.log('Response Headers:', Object.fromEntries(response.headers.entries()));
-                console.log('Content Type:', response.headers.get('content-type'));
-                
-                if (!response.ok) {
-                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
-                }
-                
-                // Check if this is a proxy response (JSON) or direct RSS (XML)
-                const contentType = response.headers.get('content-type') || '';
-                if (contentType.includes('application/json') && feed.proxy) {
-                    return response.json();
-                } else {
-                    return response.text();
-                }
+    feeds.forEach((f,i)=>{
+        const el = document.getElementById('feed-preview-'+i);
+        if(!el) return;
+        fetch(f.url).then(r=>{ if(!r.ok) throw new Error('HTTP '+r.status); return r.text(); })
+            .then(txt=>{
+                const items = parseItems(txt);
+                el.innerHTML = items.length ? `<ul class="rss-items">${items.join('')}</ul>` : '<div class="text-muted"><small>No recent items.</small></div>';
             })
-            .then(data => {
-                clearTimeout(timeoutHandle);
-                console.log('=== Data Processing ===');
-                console.log('Feed:', feed.name);
-                
-                let xmlText;
-                if (feed.proxy && typeof data === 'object' && data.contents) {
-                    // Handle proxy response format
-                    xmlText = data.contents;
-                    console.log('Proxy response detected, extracting contents');
-                } else if (typeof data === 'string') {
-                    // Handle direct RSS response
-                    xmlText = data;
-                } else {
-                    throw new Error('Unexpected response format');
-                }
-                
-                console.log('XML Length:', xmlText.length);
-                console.log('XML Preview (first 500 chars):', xmlText.substring(0, 500));
-                
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(xmlText, 'text/xml');
-                
-                // Check for XML parsing errors
-                const parseError = xmlDoc.querySelector('parsererror');
-                if (parseError) {
-                    console.error('XML Parse Error:', parseError.textContent);
-                    throw new Error('XML parsing failed: ' + parseError.textContent);
-                }
-                
-                var rootTagName = xmlDoc && xmlDoc.documentElement ? xmlDoc.documentElement.tagName : 'UNKNOWN';
-                console.log('XML Root Element:', rootTagName);
-                
-                // Detect feed type and get items accordingly
-                let items;
-                let isAtom = false;
-                
-                // Check if it's an Atom feed
-                if (xmlDoc.querySelector('feed') && xmlDoc.querySelector('entry')) {
-                    items = xmlDoc.querySelectorAll('entry');
-                    isAtom = true;
-                    console.log('Feed Type: Atom');
-                } else {
-                    // Default to RSS 2.0
-                    items = xmlDoc.querySelectorAll('item');
-                    isAtom = false;
-                    console.log('Feed Type: RSS 2.0');
-                }
-                
-                console.log('Total Items Found:', items.length);
-                
-                if (items.length === 0) {
-                    console.warn('No items found in feed. Checking alternative selectors...');
-                    // Try alternative selectors
-                    const alternativeItems = xmlDoc.querySelectorAll('rss item, feed entry, item, entry');
-                    console.log('Alternative selector found:', alternativeItems.length, 'items');
-                }
-                
-                let previewHtml = '<ul class="list-unstyled">';
-                
-                // Helper function to get date from either RSS or Atom entry
+            .catch(err=>{ el.innerHTML = '<div class="rss-error"><small>Preview error: '+esc(err.message)+'</small></div>'; });
+    });
+})();
+</script>
                 function getItemDate(item, isAtom) {
                     if (isAtom) {
                         // Atom feeds use <updated> or <published>
@@ -331,148 +117,6 @@ class: home-template
                         const content = item.querySelector('content')?.textContent || '';
                         return summary || content;
                     } else {
-                        // RSS feeds use <description>
-                        return item.querySelector('description')?.textContent || '';
-                    }
-                }
-                
-                // Sort all items by publication date (newest first)
-                const sortedItems = Array.from(items).sort((a, b) => {
-                    const dateA = new Date(getItemDate(a, isAtom) || 0);
-                    const dateB = new Date(getItemDate(b, isAtom) || 0);
-                    return dateB - dateA; // Descending order (newest first)
-                });
-                
-                // Filter items from last 7 days
-                const sevenDaysAgo = new Date();
-                sevenDaysAgo.setDate(sevenDaysAgo.getDate() - 7);
-                
-                const recentItems = sortedItems.filter(item => {
-                    const pubDateText = getItemDate(item, isAtom);
-                    if (pubDateText) {
-                        const pubDate = new Date(pubDateText);
-                        return pubDate >= sevenDaysAgo;
-                    }
-                    return false; // Exclude items without valid dates
-                });
-                
-                // Use the larger of: items from last 7 days OR rssPreviewLimit
-                const itemsToShow = Math.max(recentItems.length, rssPreviewLimit);
-                const finalItems = itemsToShow <= recentItems.length ? recentItems : sortedItems;
-                
-                // Show items (either recent items or up to preview limit)
-                console.log('=== Item Processing ===');
-                console.log('Feed:', feed.name);
-                console.log('Items to show:', Math.min(itemsToShow, finalItems.length));
-                console.log('Recent items count:', recentItems.length);
-                console.log('Preview limit:', rssPreviewLimit);
-                
-                for (let i = 0; i < Math.min(itemsToShow, finalItems.length); i++) {
-                    try {
-                        const item = finalItems[i];
-                        console.log(`--- Processing Item ${i + 1} ---`);
-                        
-                        let title = getItemTitle(item);
-                        const link = getItemLink(item, isAtom);
-                        const pubDate = getItemDate(item, isAtom);
-                        const description = getItemDescription(item, isAtom);
-                        
-                        console.log('Item Title:', title);
-                        console.log('Item Link:', link);
-                        console.log('Item Date:', pubDate);
-                        console.log('Item Description Length:', description ? description.length : 0);
-                        
-                        // Parse title for priority tags
-                        let priorityBadge = '';
-                        let cleanTitle = title;
-                        let backgroundStyle = '';
-                        
-                        if (title.endsWith('[ ! ]')) {
-                            priorityBadge = '<span class="badge bg-danger me-2">Essential</span>';
-                            cleanTitle = title.replace(/\s*\[\s*!\s*\]\s*$/, '').trim();
-                            backgroundStyle = 'style="background-color: rgba(220, 53, 69, 0.1); border-left: 3px solid rgba(220, 53, 69, 0.5); padding-left: 8px;"';
-                            console.log('Priority: Essential');
-                        } else if (title.endsWith('[ * ]')) {
-                            priorityBadge = '<span class="badge bg-warning text-dark me-2">Important</span>';
-                            cleanTitle = title.replace(/\s*\[\s*\*\s*\]\s*$/, '').trim();
-                            backgroundStyle = 'style="background-color: rgba(255, 193, 7, 0.1); border-left: 3px solid rgba(255, 193, 7, 0.5); padding-left: 8px;"';
-                            console.log('Priority: Important');
-                        } else if (title.endsWith('[ ~ ]')) {
-                            priorityBadge = '<span class="badge bg-secondary me-2">Optional</span>';
-                            cleanTitle = title.replace(/\s*\[\s*~\s*\]\s*$/, '').trim();
-                            backgroundStyle = 'style="background-color: rgba(108, 117, 125, 0.1); border-left: 3px solid rgba(108, 117, 125, 0.5); padding-left: 8px;"';
-                            console.log('Priority: Optional');
-                        } else {
-                            console.log('Priority: None');
-                        }
-                        
-                        let formattedDate = '';
-                        if (pubDate) {
-                            const date = new Date(pubDate);
-                            formattedDate = date.toLocaleDateString();
-                            console.log('Formatted Date:', formattedDate);
-                        }
-                        
-                        previewHtml += `
-                            <li class="mb-2">
-                                <a href="${link}" target="_blank" class="text-decoration-none d-block p-2 rounded" ${backgroundStyle}>
-                                    ${priorityBadge}<strong>${cleanTitle}</strong>
-                                    ${formattedDate ? `<small class="text-muted d-block">${formattedDate}</small>` : ''}
-                                    ${description ? `<small class="text-muted d-block">${description.substring(0, 150)}...</small>` : ''}
-                                </a>
-                            </li>
-                        `;
-                        
-                        console.log(`Item ${i + 1} processed successfully`);
-                    } catch (itemError) {
-                        console.error(`Error processing item ${i + 1}:`, itemError);
-                        console.error('Item data:', finalItems[i]);
-                    }
-                }
-                
-                previewHtml += '</ul>';
-                
-                console.log('=== Final Processing ===');
-                console.log('Feed:', feed.name);
-                console.log('Total original items:', items.length);
-                
-                if (items.length === 0) {
-                    console.log('No items found - hiding feed card');
-                    // Hide the entire feed card if no items
-                    const feedCard = previewElement.closest('.card').parentElement;
-                    feedCard.style.display = 'none';
-                    return;
-                }
-                
-                console.log('Setting preview HTML - length:', previewHtml.length);
-                previewElement.innerHTML = previewHtml;
-                console.log('Feed processing completed successfully for:', feed.name);
-                console.log('=======================');
-            })
-            .catch(error => {
-                clearTimeout(timeoutHandle);
-                console.error('=== RSS Feed Error Details ===');
-                console.error('Feed Name:', feed.name);
-                console.error('Feed URL:', feed.url);
-                console.error('Error Type:', error.constructor.name);
-                console.error('Error Message:', error.message);
-                console.error('Error Stack:', error.stack);
-                console.error('Full Error Object:', error);
-                
-                // Check for specific error types
-                let errorType = 'Unknown error';
-                let suggestion = '';
-                
-                if (error.message.includes('Mixed Content') || error.message.includes('insecure content')) {
-                    errorType = 'Mixed Content Error';
-                    suggestion = 'The feed URL uses HTTP instead of HTTPS. Update the feed URL to use HTTPS.';
-                } else if (error.message.includes('CORS') || error.message.includes('access control') || error.message.includes('Load failed')) {
-                    errorType = 'CORS Error';
-                    if (feed.proxy) {
-                        suggestion = 'CORS proxy failed. The proxy service may be unavailable or the target feed may be blocking requests.';
-                    } else {
-                        suggestion = 'The feed server does not allow cross-origin requests from this domain. Consider using a CORS proxy.';
-                    }
                 } else if (error.message.includes('Failed to fetch')) {
                     errorType = 'Network Error';
                     suggestion = 'Check if the feed URL is accessible and the server is responding.';

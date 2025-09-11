@@ -97,9 +97,10 @@ rss_feeds:
   url: "/aggregated_ea.xml"
   description: "Enterprise Architecture multi-source aggregated feed"
 
-- name: "OSR & TTRPG Aggregated News"
-  url: "/aggregated_osr_ttrpg.xml"
-  description: "Old School Revival & Tabletop RPG community blog aggregation"
+# Disabled feed (aggregated_osr_ttrpg) intentionally hidden from listing while aggregator remains disabled
+# - name: "OSR & TTRPG Aggregated News"
+#   url: "/aggregated_osr_ttrpg.xml"
+#   description: "Old School Revival & Tabletop RPG community blog aggregation"
 
 # RSS display settings
 rss_preview_limit: 5
