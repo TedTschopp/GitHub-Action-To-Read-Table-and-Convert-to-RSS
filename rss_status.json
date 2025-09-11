@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-09-11T08:39:39.447008+00:00",
+  "timestamp": "2025-09-11T09:19:42.784820+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Thu, 11 Sep 2025 08:20:16 +0000",
+      "last_updated": "Thu, 11 Sep 2025 09:18:58 +0000",
       "size_bytes": 39441,
       "errors": []
     },
@@ -22,9 +22,9 @@
     "aggregated_external.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 60,
-      "last_updated": "Thu, 11 Sep 2025 08:20:25 +0000",
-      "size_bytes": 33065,
+      "entry_count": 20,
+      "last_updated": "Thu, 11 Sep 2025 09:19:17 +0000",
+      "size_bytes": 11873,
       "errors": []
     },
     "aggregated_external_archive.xml": {
@@ -40,16 +40,16 @@
     "aggregated_ea.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 27,
-      "last_updated": "Thu, 11 Sep 2025 08:20:37 +0000",
-      "size_bytes": 31273,
+      "entry_count": 8,
+      "last_updated": "Thu, 11 Sep 2025 09:19:42 +0000",
+      "size_bytes": 6714,
       "errors": []
     },
     "aggregated_ea_archive.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 52,
-      "last_updated": "Thu, 11 Sep 2025 08:20:37 +0000",
+      "last_updated": "Thu, 11 Sep 2025 09:19:42 +0000",
       "size_bytes": 73760,
       "errors": []
     },
@@ -76,7 +76,7 @@
       "total_sources": 4,
       "attempted": 4,
       "skipped": 0,
-      "with_items": 3,
+      "with_items": 1,
       "failures": 1,
       "recovered": 0,
       "failure_rate": 25.0
@@ -85,7 +85,7 @@
       "total_sources": 7,
       "attempted": 7,
       "skipped": 0,
-      "with_items": 5,
+      "with_items": 2,
       "failures": 0,
       "recovered": 0,
       "failure_rate": 0.0
@@ -101,6 +101,13 @@
     }
   },
   "pruning_suggestions": [
+    {
+      "feed": "aggregated_external.xml",
+      "url": "https://www.infoworld.com/index.rss",
+      "consecutive_failures": 3,
+      "last_status": "exception",
+      "last_error_excerpt": "http 404"
+    },
     {
       "feed": "aggregated_osr_ttrpg.xml",
       "url": "https://oldscouserroleplaying.com/feed/",
