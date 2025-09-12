@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "On Working with Wizards",
+        "links": [
+          "https://www.oneusefulthing.org/p/on-working-with-wizards"
+        ]
+      },
+      "Rationale": {
+        "text": "This reflection post pushes beyond “what AI does” to consider how humans should position themselves with respect to powerful AI agents (“wizards”) — when to call on them, when to use them as co-intelligence, and when to just be audience or inspector. Our analysts found the arguments resonant and important for leadership: decision rights, evaluating outputs, dealing with opacity, managing human-AI collaboration are going to be central.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Oldcastle Accelerates Document Processing with Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/oldcastle-accelerates-document-processing-with-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "This is a strong enterprise use case: moving from very low OCR accuracy (~30-40%) on unstructured documents to much higher accuracy and massive scale via combining OCR + LLM processing. Our analysts saw this as a “win case” that many organizations can replicate with unstructured data, showing immediate value.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Indexing the AI Economy",
+        "links": [
+          "https://assets.stripeassets.com/fzn2n1nzq965/1MsdRUHsQdAU6lT1b3zU0f/ae4800e3c9c8da779a52ee3955d80654/Indexing_the_AI_economy_EN-GB.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "This Stripe report reveals that AI startups are hitting revenue milestones far faster than past generations (SaaS etc.), and that many are global from day one — trends that fundamentally reshape expectations for AI monetization and scale. Our analysts underscored how this offers critical benchmarking data: knowing how vendor strength, international expansion, business models, and growth rates are shifting is vital for AI leaders to plan strategy and vendor relationships.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI and Oracle reportedly ink historic cloud computing deal",
+        "links": [
+          "https://techcrunch.com/2025/09/10/openai-and-oracle-reportedly-ink-historic-cloud-computing-deal"
+        ]
+      },
+      "Rationale": {
+        "text": "The size and terms of this deal matter: OpenAI committing to purchase ~$300B in compute over five years from Oracle signals a major shift in how compute is sourced, partnerships structured, and how AI infrastructure power is balanced. Our analysts saw this alignment as consequential for enterprise strategy, vendor competition, and the futures of Microsoft, OpenAI, Oracle.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Alibaba and Baidu Adopt Their Own AI Chips in Major Shift for Chinese Tech",
+        "links": [
+          "https://www.theinformation.com/articles/alibaba-baidu-adopt-ai-chips-major-shift-chinese-tech?utm_campaign=article_email&utm_content=article-15741&utm_medium=email&utm_source=sg"
+        ]
+      },
+      "Rationale": {
+        "text": "This shift toward in‐house chips in China is important strategically (geopolitics, chip supply, autonomy), but our analysts felt the capabilities are still emerging, that the performance gap remains vs. leading global offerings (e.g. Nvidia), and that it’s early in the curve.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "SafetyKit’s blueprint for scaling risk agents with OpenAI’s most capable models",
+        "links": [
+          "https://openai.com/index/safetykit/"
+        ]
+      },
+      "Rationale": {
+        "text": "It’s a useful case study, especially in security and risk agent design, but the discussion noted the lack of depth: not enough detail around how models were chosen, what trade-offs, enough technical or organizational specificity. Our analysts felt it didn’t rise to the level of “must-know” for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/11/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "CIO Magazine reports on how AI vendors rapidly shift pricing models—combining subscription, usage-based, and outcome-based strategies—creating significant cost uncertainty for enterprises. Our analysts emphasized that unpredictable pricing is a critical operational risk; cost controls and monitoring are becoming essential tools as pricing shifts faster than ever before.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Rise of Computer Use and Agentic Coworkers",
-        "links": [
-          "https://a16z.com/the-rise-of-computer-use-and-agentic-coworkers/"
-        ]
-      },
-      "Rationale": {
-        "text": "This piece from a16z explores how autonomous, task-oriented AI agents—long a vision for future productivity—still fall short in real-world use cases, but lays out a structural agentic stack from document orchestration to browser-level integration. Our analysts noted that while the framework is helpful—especially for enterprise or startup experimentation—readers should treat it as a primer rather than a complete roadmap, distinguishing between human-in-the-loop versus autonomous models.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The AI research experimentation problem",
-        "links": [
-          "https://www.amplifypartners.com/blog-posts/the-ai-research-experimentation-problem?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This Amplify Partners article argues that the true bottleneck in AI progress isn't ideation but rigorous experimentation, which is often overlooked despite its centrality to scientific advancement. Our analysts felt the essay digs into core issues around experiment design, software architecture, and evaluation—but also called out its length and academic tone as barriers that may limit its practical impact on developers or practitioners.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Meet Boti: The AI assistant transforming how the citizens of Buenos Aires access government information with Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/meet-boti-the-ai-assistant-transforming-how-the-citizens-of-buenos-aires-access-government-information-with-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "AWS highlights Boti, a deployed RAG‑based AI assistant leveraging Amazon Bedrock to streamline access to government information in Buenos Aires—showcasing AI in public sector workflows. Our analysts acknowledged its simplicity, but appreciated that it's a real-world, at‑scale deployment with solid accuracy and usage metrics—important to highlight even if it’s not cutting-edge.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Beware the AI Experimentation Trap",
-        "links": [
-          "https://archive.md/ub45B"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR‑style cautionary essay critiques flawed AI experimentation and warns of the AI skepticism wave. While it raises valid concerns, our analysts characterized it as repetitive, methodologically shaky, and emblematic of clickbait rather than rigorous guidance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Long Cat (Longcat‑Flash‑Chat)",
-        "links": [
-          "https://huggingface.co/meituan-longcat/LongCat-Flash-Chat"
-        ]
-      },
-      "Rationale": {
-        "text": "This emerging research model—a mixture-of‑experts architecture—offers ultra-fast, one‑pass generation rather than complex reasoning, positioning it as a niche capability in the LLM landscape.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "08/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Stop “Vibe Testing” Your LLMs. It's Time for Real Evals",
-        "links": [
-          "https://developers.googleblog.com/en/streamline-llm-evaluation-with-stax/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article champions the shift from superficial “vibe testing” to rigorous evaluation for LLMs—introducing Stax, a developer tool enabling structured evaluation pipelines with human labeling and auto-raters, making debugging and quality metrics more reliable. Our analysts stressed how critical evaluation tooling has become: “before you own your intelligence, own your evals,” noting that this tooling is no longer discretionary but foundational for dependable AI-driven applications.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-12T08:19:22.410524+00:00"
+  "timestamp": "2025-09-12T16:14:18.512628+00:00"
 }
