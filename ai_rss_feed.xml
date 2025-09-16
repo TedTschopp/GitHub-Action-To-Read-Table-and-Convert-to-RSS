@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 15 Sep 2025 16:14:42 +0000</lastBuildDate>
-    <item>
-      <title>Vendor pricing experiments leave CIOs’ AI costs in flux [ * ]</title>
-      <link>https://www.cio.com/article/4046457/vendor-pricing-experiments-leave-cios-ai-costs-in-flux.html</link>
-      <description>CIO Magazine reports on how AI vendors rapidly shift pricing models—combining subscription, usage-based, and outcome-based strategies—creating significant cost uncertainty for enterprises. Our analysts emphasized that unpredictable pricing is a critical operational risk; cost controls and monitoring are becoming essential tools as pricing shifts faster than ever before.</description>
-      <guid isPermaLink="false">b1869dafbfa7bfacd6cc9758e8ff7669</guid>
-      <pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can an AI doppelgänger help me do my job? [ ~ ]</title>
-      <link>https://www.technologyreview.com/2025/09/02/1122856/can-an-ai-doppelganger-help-me-do-my-job/</link>
-      <description>This exploratory piece from MIT Technology Review evaluates the idea of AI avatars or digital twins performing knowledge work but largely confirms their limitations in replicating human nuance. Our analysts criticized the article as surface-level, highlighting a missed opportunity to explore the real value and pace of advancement in AI-driven content creation.</description>
-      <guid isPermaLink="false">41b505de3420d1fb93ef4f89085fce4c</guid>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rethinking the IT organization for the agentic AI era [ ~ ]</title>
-      <link>https://www.cio.com/article/4046473/rethinking-the-it-organization-for-the-agentic-ai-era.html</link>
-      <description>This article discusses the aspirational shift of IT departments toward becoming central AI integration hubs within the enterprise. Our analysts found the topic relevant but the execution lacking, noting that the argument lacked substance and failed to provide actionable insights for real-world transformation.</description>
-      <guid isPermaLink="false">b3050728a6af3d791a675941a6c330cd</guid>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI to route sensitive conversations to GPT-5, introduce parental controls [ * ]</title>
-      <link>https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/</link>
-      <description>OpenAI is now routing emotionally sensitive or high-risk conversations to GPT-5 and launching parental controls, representing a step forward in AI safety and governance. Our analysts noted its societal importance though they viewed it as less urgent for AI leaders compared to operational or product-focused news.</description>
-      <guid isPermaLink="false">f571e23308d5e937fdd24c6fc3af17b8</guid>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Le Chat. Custom MCP connectors. Memories. [ * ]</title>
-      <link>https://mistral.ai/news/le-chat-mcp-connectors-memories</link>
-      <description>Mistral's Le Chat introduces an expansive set of MCP connectors and memory capabilities, signaling its readiness for enterprise AI integration and potential to compete with ChatGPT Enterprise and Copilot Studio. Our analysts considered this an important update, especially for organizations seeking non-U.S. LLM vendors, though they acknowledged its largely catch-up functionality.</description>
-      <guid isPermaLink="false">0a7a9928ef504e8e003611c4f8b5d36f</guid>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Intuit killed the chatbot crutch – and built an agentic AI playbook you can copy [ ! ]</title>
-      <link>https://venturebeat.com/ai/how-intuit-killed-the-chatbot-crutch-and-built-an-agentic-ai-playbook-you-can-copy</link>
-      <description>Intuit transformed its failed chatbot implementation into a company-wide shift toward agentic AI by focusing on eliminating manual toil and embedding AI into existing workflows. Our analysts found this a must-read case study in organizational AI adoption, highlighting customer-led development, modular design, and rapid experimentation as blueprints for success.</description>
-      <guid isPermaLink="false">2f6a694717aacd3e67a1c7d4afc53145</guid>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 16 Sep 2025 00:53:18 +0000</lastBuildDate>
     <item>
       <title>Cutting-Edge AI Was Supposed to Get Cheaper. It’s More Expensive Than Ever. [ ! ]</title>
       <link>https://archive.is/GLwqi#selection-539.0-539.75</link>
@@ -357,6 +315,48 @@
       <description>This reflection post pushes beyond “what AI does” to consider how humans should position themselves with respect to powerful AI agents (“wizards”) — when to call on them, when to use them as co-intelligence, and when to just be audience or inspector. Our analysts found the arguments resonant and important for leadership: decision rights, evaluating outputs, dealing with opacity, managing human-AI collaboration are going to be central.</description>
       <guid isPermaLink="false">4b6d8e24d4fb4b4d60245e1b03dc572a</guid>
       <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Skello uses Amazon Bedrock to query data in a multi‑tenant environment while keeping logical boundaries [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-skello-uses-amazon-bedrock-to-query-data-in-a-multi-tenant-environment-while-keeping-logical-boundaries/</link>
+      <description>This article provides a practical case study on implementing generative AI for querying unstructured data in a multi-tenant environment while preserving logical data separation. Our analysts highlighted the absence of quantifiable performance metrics or clear business impact, which limits its strategic relevance to AI leaders.</description>
+      <guid isPermaLink="false">758e1811f5581b59d1c09bfcdee66e11</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MobileLLM-R1 from Meta [ ~ ]</title>
+      <link>https://huggingface.co/facebook/MobileLLM-R1-950M</link>
+      <description>Meta’s model is aimed at efficient reasoning for smaller devices, fine‑tuned for scientific/mathematical tasks. It’s valuable for certain niches. Our analysts judged this as not yet broadly relevant outside specialized use or mobile/scientific tasks.</description>
+      <guid isPermaLink="false">84f41e1f8cadbd29291cabd5ad78d189</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Qwen3-Next: Towards Ultimate Training &amp; Inference Efficiency [ ~ ]</title>
+      <link>https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&amp;from=research.latest-advancements-list</link>
+      <description>This release presents strong architectural innovations (hybrid attention, sparse MoE, multi-token prediction) and shows large efficiency gains—much lower compute in training vs previous models, faster inference especially at long context lengths. However, our analysts saw it as incremental—useful if you're deep into model architectures or using Qwen models, but not broadly transformative.</description>
+      <guid isPermaLink="false">b0509d8db6f1693378f8d0bb554b51a4</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VaultGemma: The world’s most capable differentially private LLM [ ~ ]</title>
+      <link>https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/</link>
+      <description>VaultGemma’s value comes from addressing one of AI’s most critical challenges—privacy—by being a large language model with strong differential privacy guarantees and a predictable tradeoff between noise, model size, and loss. While still in the research phase, tour analysts agreed this represents a meaningful step toward addressing AI privacy at scale.</description>
+      <guid isPermaLink="false">66771627a067de6a8ebbedf026bb57c7</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Writing effective tools for agents — with agents [ * ]</title>
+      <link>https://www.anthropic.com/engineering/writing-tools-for-agents</link>
+      <description>This article provides best practices around designing tools in agentic systems—how agents pick tools, how to build and test them, and how agents themselves can help refine these tools. It’s practical for teams building real agent architectures. Our analysts agreed that it’s practical for teams building real agent architectures though not necessarily urgent for every executive at this moment.</description>
+      <guid isPermaLink="false">efddc7fe6b5d047d5814aa21b006fde7</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI’s UI Problem Is Actually A New Era of Software [ ! ]</title>
+      <link>https://menlovc.com/perspective/ais-ui-problem-is-actually-a-new-era-of-software/</link>
+      <description>This article emphasizes that the true value in AI products is increasingly shifting from the visible user interface to the underlying architecture—specifically how prompts are grounded, tools orchestrated, and logic composed, often referred to as the "middleware" or "work layer." Our analysts highlighted that this foundational layer is becoming critical to the effectiveness of AI systems, noting that many platforms lack robustness in the logic and orchestration that drive real functionality—an insight AI leaders must prioritize.</description>
+      <guid isPermaLink="false">d14f4b1ea1a81233047cd1e70f45c0ee</guid>
+      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

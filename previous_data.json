@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI’s UI Problem Is Actually A New Era of Software",
+        "links": [
+          "https://menlovc.com/perspective/ais-ui-problem-is-actually-a-new-era-of-software/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article emphasizes that the true value in AI products is increasingly shifting from the visible user interface to the underlying architecture—specifically how prompts are grounded, tools orchestrated, and logic composed, often referred to as the \"middleware\" or \"work layer.\" Our analysts highlighted that this foundational layer is becoming critical to the effectiveness of AI systems, noting that many platforms lack robustness in the logic and orchestration that drive real functionality—an insight AI leaders must prioritize.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Writing effective tools for agents — with agents",
+        "links": [
+          "https://www.anthropic.com/engineering/writing-tools-for-agents"
+        ]
+      },
+      "Rationale": {
+        "text": "This article provides best practices around designing tools in agentic systems—how agents pick tools, how to build and test them, and how agents themselves can help refine these tools. It’s practical for teams building real agent architectures. Our analysts agreed that it’s practical for teams building real agent architectures though not necessarily urgent for every executive at this moment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "VaultGemma: The world’s most capable differentially private LLM",
+        "links": [
+          "https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/"
+        ]
+      },
+      "Rationale": {
+        "text": "VaultGemma’s value comes from addressing one of AI’s most critical challenges—privacy—by being a large language model with strong differential privacy guarantees and a predictable tradeoff between noise, model size, and loss. While still in the research phase, tour analysts agreed this represents a meaningful step toward addressing AI privacy at scale.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Qwen3-Next: Towards Ultimate Training & Inference Efficiency",
+        "links": [
+          "https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list"
+        ]
+      },
+      "Rationale": {
+        "text": "This release presents strong architectural innovations (hybrid attention, sparse MoE, multi-token prediction) and shows large efficiency gains—much lower compute in training vs previous models, faster inference especially at long context lengths. However, our analysts saw it as incremental—useful if you're deep into model architectures or using Qwen models, but not broadly transformative.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "MobileLLM-R1 from Meta",
+        "links": [
+          "https://huggingface.co/facebook/MobileLLM-R1-950M"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s model is aimed at efficient reasoning for smaller devices, fine‑tuned for scientific/mathematical tasks. It’s valuable for certain niches. Our analysts judged this as not yet broadly relevant outside specialized use or mobile/scientific tasks.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Skello uses Amazon Bedrock to query data in a multi‑tenant environment while keeping logical boundaries",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-skello-uses-amazon-bedrock-to-query-data-in-a-multi-tenant-environment-while-keeping-logical-boundaries/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article provides a practical case study on implementing generative AI for querying unstructured data in a multi-tenant environment while preserving logical data separation. Our analysts highlighted the absence of quantifiable performance metrics or clear business impact, which limits its strategic relevance to AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/12/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "As businesses integrate generative AI into real workflows, they are facing rising costs due to “token explosion” in large language models (LLMs), where complex tasks require exponentially more tokens. Our analysts rated this article as essential because it challenges misconceptions about AI cost deflation and underscores the critical need for leaders to understand total cost of ownership—not just per-token pricing—as they scale AI solutions.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Intuit killed the chatbot crutch – and built an agentic AI playbook you can copy",
-        "links": [
-          "https://venturebeat.com/ai/how-intuit-killed-the-chatbot-crutch-and-built-an-agentic-ai-playbook-you-can-copy"
-        ]
-      },
-      "Rationale": {
-        "text": "Intuit transformed its failed chatbot implementation into a company-wide shift toward agentic AI by focusing on eliminating manual toil and embedding AI into existing workflows. Our analysts found this a must-read case study in organizational AI adoption, highlighting customer-led development, modular design, and rapid experimentation as blueprints for success.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Le Chat. Custom MCP connectors. Memories.",
-        "links": [
-          "https://mistral.ai/news/le-chat-mcp-connectors-memories"
-        ]
-      },
-      "Rationale": {
-        "text": "Mistral's Le Chat introduces an expansive set of MCP connectors and memory capabilities, signaling its readiness for enterprise AI integration and potential to compete with ChatGPT Enterprise and Copilot Studio. Our analysts considered this an important update, especially for organizations seeking non-U.S. LLM vendors, though they acknowledged its largely catch-up functionality.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI to route sensitive conversations to GPT-5, introduce parental controls",
-        "links": [
-          "https://techcrunch.com/2025/09/02/openai-to-route-sensitive-conversations-to-gpt-5-introduce-parental-controls/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI is now routing emotionally sensitive or high-risk conversations to GPT-5 and launching parental controls, representing a step forward in AI safety and governance. Our analysts noted its societal importance though they viewed it as less urgent for AI leaders compared to operational or product-focused news.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Rethinking the IT organization for the agentic AI era",
-        "links": [
-          "https://www.cio.com/article/4046473/rethinking-the-it-organization-for-the-agentic-ai-era.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This article discusses the aspirational shift of IT departments toward becoming central AI integration hubs within the enterprise. Our analysts found the topic relevant but the execution lacking, noting that the argument lacked substance and failed to provide actionable insights for real-world transformation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Can an AI doppelgänger help me do my job?",
-        "links": [
-          "https://www.technologyreview.com/2025/09/02/1122856/can-an-ai-doppelganger-help-me-do-my-job/"
-        ]
-      },
-      "Rationale": {
-        "text": "This exploratory piece from MIT Technology Review evaluates the idea of AI avatars or digital twins performing knowledge work but largely confirms their limitations in replicating human nuance. Our analysts criticized the article as surface-level, highlighting a missed opportunity to explore the real value and pace of advancement in AI-driven content creation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Vendor pricing experiments leave CIOs’ AI costs in flux",
-        "links": [
-          "https://www.cio.com/article/4046457/vendor-pricing-experiments-leave-cios-ai-costs-in-flux.html"
-        ]
-      },
-      "Rationale": {
-        "text": "CIO Magazine reports on how AI vendors rapidly shift pricing models—combining subscription, usage-based, and outcome-based strategies—creating significant cost uncertainty for enterprises. Our analysts emphasized that unpredictable pricing is a critical operational risk; cost controls and monitoring are becoming essential tools as pricing shifts faster than ever before.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-15T16:15:22.646381+00:00"
+  "timestamp": "2025-09-16T00:53:57.386164+00:00"
 }
