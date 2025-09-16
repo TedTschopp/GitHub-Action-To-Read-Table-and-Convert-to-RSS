@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 16 Sep 2025 08:16:41 +0000</lastBuildDate>
-    <item>
-      <title>Cutting-Edge AI Was Supposed to Get Cheaper. It’s More Expensive Than Ever. [ ! ]</title>
-      <link>https://archive.is/GLwqi#selection-539.0-539.75</link>
-      <description>As businesses integrate generative AI into real workflows, they are facing rising costs due to “token explosion” in large language models (LLMs), where complex tasks require exponentially more tokens. Our analysts rated this article as essential because it challenges misconceptions about AI cost deflation and underscores the critical need for leaders to understand total cost of ownership—not just per-token pricing—as they scale AI solutions.</description>
-      <guid isPermaLink="false">49d4adbabfc54175c4d980fad7541a30</guid>
-      <pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Implicit Reasoning in Large Language Models: A Comprehensive Survey [ ~ ]</title>
-      <link>https://arxiv.org/abs/2509.02350</link>
-      <description>This academic survey explores shifting from explicit chain-of-thought outputs to hidden-state (implicit) reasoning to improve runtime efficiency and enable novel reasoning frameworks. While intellectually rich, out analysts agreed that it’s too early for practical application.</description>
-      <guid isPermaLink="false">a09c700729d6930cd409d3f8365645e1</guid>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LangChain 1.0 alpha consolidates agent design, reducing adoption risk for enterprises [ ~ ]</title>
-      <link>https://venturebeat.com/ai/langchain-1-0-alpha-consolidates-agent-design-reducing-adoption-risk-for</link>
-      <description>The product announcement introduces LangChain 1.0 alpha as a more stable, orchestrated framework for building agentic workflows. Our analysts viewed it as promising for enterprises but largely promotional and not essential for broader AI leadership, though useful for those directly using such tools.</description>
-      <guid isPermaLink="false">fb6c9e511c099fe37006927bb421ed13</guid>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Human + AI in Accounting: Early Evidence from the Field [ * ]</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5240924</link>
-      <description>Based on surveys of 277 accountants across 79 firms, this study shows that adoption of GenAI led to a 55% productivity boost in client support and accelerated month-end close by 7.5 days—with human oversight remaining essential where tool confidence is low. Our analysts saw this as indicative of practical workforce augmentation making it relevant for enterprises evaluating AI improvements in accounting workflows.</description>
-      <guid isPermaLink="false">94209ee6a0070e6bd78938060e1ba806</guid>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Lawyers in the Loop: How Midpage Uses PromptLayer to Evaluate and Fine‑Tune Legal AI Models [ * ]</title>
-      <link>https://blog.promptlayer.com/lawyers-in-the-loop-how-midpage-uses-promptlayer-to-evaluate-and-fine-tune-legal-ai-models/</link>
-      <description>This article explores how Legal AI provider Midpage uses PromptLayer to version, monitor, and refine prompts—treating them as software artifacts managed by domain experts rather than engineers. Our analysts agreed that the concept of domain-driven prompt engineering and governance is gaining critical importance.</description>
-      <guid isPermaLink="false">e23267dd9ff39cba9f1ccd4526e3a32e</guid>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Generative AI as Seniority‑Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data [ * ]</title>
-      <link>https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555</link>
-      <description>Drawing on résumé and job‑posting data across 62 million U.S. workers, this study finds that generative AI adoption since Q1 2023 has led to declining junior-level employment—particularly in hiring—not separations—while senior hiring continues to rise. Our analysts flagged this as a crucial early trend underscoring the need to monitor career ladder disruptions.</description>
-      <guid isPermaLink="false">c09f6a9d8cdf9e9712f577161b0be99a</guid>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 16 Sep 2025 16:16:55 +0000</lastBuildDate>
     <item>
       <title>Unlocking the future of professional services: How Proofpoint uses Amazon Q Business [ ! ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/unlocking-the-future-of-professional-services-how-proofpoint-uses-amazon-q-business/</link>
@@ -357,6 +315,48 @@
       <description>This article emphasizes that the true value in AI products is increasingly shifting from the visible user interface to the underlying architecture—specifically how prompts are grounded, tools orchestrated, and logic composed, often referred to as the "middleware" or "work layer." Our analysts highlighted that this foundational layer is becoming critical to the effectiveness of AI systems, noting that many platforms lack robustness in the logic and orchestration that drive real functionality—an insight AI leaders must prioritize.</description>
       <guid isPermaLink="false">d14f4b1ea1a81233047cd1e70f45c0ee</guid>
       <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How successful Sales Teams Are Embracing Agentic AI [ ~ ]</title>
+      <link>https://hbr.org/2025/09/how-successful-sales-teams-are-embracing-agentic-ai</link>
+      <description>This HBR article outlines the potential of agentic AI in transforming sales but offers few specifics or case studies to show how that transformation is actually taking place. While it may be useful to AI leaders who haven’t yet begun thinking about AI in the sales funnel—a group our analysts believe is now in the minority—it lacks the depth or new insights needed to guide those already exploring this workflow.</description>
+      <guid isPermaLink="false">355f08b236187d4c68dd9141a7d96439</guid>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Jupyter Agents: training LLMs to reason with notebooks [ ~ ]</title>
+      <link>https://huggingface.co/blog/jupyter-agent-2</link>
+      <description>Hugging Face presents an experimental approach to teaching large language models how to reason inside Jupyter notebooks, focused on enabling scientific replication and code execution within notebooks. Our analysts found this esoteric and mostly relevant to a niche audience of data scientists working in early-stage environments.</description>
+      <guid isPermaLink="false">d40a65cca050907e61e169ed9b966b81</guid>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The LinkedIn Generative AI Application Tech Stack: Extending to Build AI Agents [ * ]</title>
+      <link>https://www.linkedin.com/blog/engineering/generative-ai/the-linkedin-generative-ai-application-tech-stack-extending-to-build-ai-agents</link>
+      <description>LinkedIn shares its internal approach to building agentic AI systems at scale, detailing how it leverages LangChain, telemetry, and open-source tools to monitor and improve AI agent performance. Our analysts found this a strong technical case study with actionable insights for teams looking to move beyond prototypes into robust, production-grade AI workflows.</description>
+      <guid isPermaLink="false">2e550fe927f3478487168faba55d9393</guid>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing upgrades to Codex [ * ]</title>
+      <link>https://openai.com/index/introducing-upgrades-to-codex/</link>
+      <description>OpenAI has launched substantial upgrades to Codex, including GPT-5 integration, enhanced CLI tools, cross-platform syncing, and support for mobile environments. Our analysts saw this as a meaningful update for AI-assisted software development, although more evolutionary than revolutionary, and noted that it positions OpenAI to better compete with Claude.</description>
+      <guid isPermaLink="false">d76fb86b3abf6d24c1bb41eb21fd65c1</guid>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why versioning AI agents is the CIO’s next big challenge [ ! ]</title>
+      <link>https://www.cio.com/article/4056453/why-versioning-ai-agents-is-the-cios-next-big-challenge.html</link>
+      <description>This article highlights the emerging challenge of versioning AI agents, which unlike traditional software, can evolve unpredictably due to changes in models, prompts, tools, and workflows. Our analysts emphasized this is a must-read for AI leaders and CIOs as agent behavior can shift overnight, and current DevOps tools aren’t equipped to manage the associated compliance and operational risks.</description>
+      <guid isPermaLink="false">9a356f1e12976b6df805de295e3f65f9</guid>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How People Use ChatGPT [ ! ]</title>
+      <link>https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf</link>
+      <description>Based on an analysis of billions of data points across 700 million users, this academic study provides deep insights into how ChatGPT is used globally—for information seeking, decision support, writing assistance, and tutoring. Our analysts called this a foundational resource for understanding shadow AI adoption, habit formation, and emerging use cases across user demographics.</description>
+      <guid isPermaLink="false">f10e4fa17332bcee50ebfa06f5662cb9</guid>
+      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

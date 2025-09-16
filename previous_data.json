@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/16/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How People Use ChatGPT",
+        "links": [
+          "https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "Based on an analysis of billions of data points across 700 million users, this academic study provides deep insights into how ChatGPT is used globally—for information seeking, decision support, writing assistance, and tutoring. Our analysts called this a foundational resource for understanding shadow AI adoption, habit formation, and emerging use cases across user demographics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/16/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Why versioning AI agents is the CIO’s next big challenge",
+        "links": [
+          "https://www.cio.com/article/4056453/why-versioning-ai-agents-is-the-cios-next-big-challenge.html"
+        ]
+      },
+      "Rationale": {
+        "text": "This article highlights the emerging challenge of versioning AI agents, which unlike traditional software, can evolve unpredictably due to changes in models, prompts, tools, and workflows. Our analysts emphasized this is a must-read for AI leaders and CIOs as agent behavior can shift overnight, and current DevOps tools aren’t equipped to manage the associated compliance and operational risks.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/16/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing upgrades to Codex",
+        "links": [
+          "https://openai.com/index/introducing-upgrades-to-codex/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has launched substantial upgrades to Codex, including GPT-5 integration, enhanced CLI tools, cross-platform syncing, and support for mobile environments. Our analysts saw this as a meaningful update for AI-assisted software development, although more evolutionary than revolutionary, and noted that it positions OpenAI to better compete with Claude.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/16/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The LinkedIn Generative AI Application Tech Stack: Extending to Build AI Agents",
+        "links": [
+          "https://www.linkedin.com/blog/engineering/generative-ai/the-linkedin-generative-ai-application-tech-stack-extending-to-build-ai-agents"
+        ]
+      },
+      "Rationale": {
+        "text": "LinkedIn shares its internal approach to building agentic AI systems at scale, detailing how it leverages LangChain, telemetry, and open-source tools to monitor and improve AI agent performance. Our analysts found this a strong technical case study with actionable insights for teams looking to move beyond prototypes into robust, production-grade AI workflows.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/16/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Jupyter Agents: training LLMs to reason with notebooks",
+        "links": [
+          "https://huggingface.co/blog/jupyter-agent-2"
+        ]
+      },
+      "Rationale": {
+        "text": "Hugging Face presents an experimental approach to teaching large language models how to reason inside Jupyter notebooks, focused on enabling scientific replication and code execution within notebooks. Our analysts found this esoteric and mostly relevant to a niche audience of data scientists working in early-stage environments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/16/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How successful Sales Teams Are Embracing Agentic AI",
+        "links": [
+          "https://hbr.org/2025/09/how-successful-sales-teams-are-embracing-agentic-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR article outlines the potential of agentic AI in transforming sales but offers few specifics or case studies to show how that transformation is actually taking place. While it may be useful to AI leaders who haven’t yet begun thinking about AI in the sales funnel—a group our analysts believe is now in the minority—it lacks the depth or new insights needed to guide those already exploring this workflow.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/15/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This case study details how Proofpoint integrated Amazon Q Business—a fully managed generative AI assistant—into their cybersecurity services, achieving a 40% productivity boost and saving thousands of administrative hours for tasks like email drafting, report generation, and meeting summarizations. Our analysts emphasized its completeness as a use case: “It says, here’s a problem. Here’s how we solve it... and here’s the impact,” and called attention to its strategic lessons on data strategy, embedding expertise, and deploying AI at scale—making it a must-read for AI leaders.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Generative AI as Seniority‑Biased Technological Change: Evidence from U.S. Résumé and Job Posting Data",
-        "links": [
-          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5425555"
-        ]
-      },
-      "Rationale": {
-        "text": "Drawing on résumé and job‑posting data across 62 million U.S. workers, this study finds that generative AI adoption since Q1 2023 has led to declining junior-level employment—particularly in hiring—not separations—while senior hiring continues to rise. Our analysts flagged this as a crucial early trend underscoring the need to monitor career ladder disruptions.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Lawyers in the Loop: How Midpage Uses PromptLayer to Evaluate and Fine‑Tune Legal AI Models",
-        "links": [
-          "https://blog.promptlayer.com/lawyers-in-the-loop-how-midpage-uses-promptlayer-to-evaluate-and-fine-tune-legal-ai-models/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article explores how Legal AI provider Midpage uses PromptLayer to version, monitor, and refine prompts—treating them as software artifacts managed by domain experts rather than engineers. Our analysts agreed that the concept of domain-driven prompt engineering and governance is gaining critical importance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Human + AI in Accounting: Early Evidence from the Field",
-        "links": [
-          "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5240924"
-        ]
-      },
-      "Rationale": {
-        "text": "Based on surveys of 277 accountants across 79 firms, this study shows that adoption of GenAI led to a 55% productivity boost in client support and accelerated month-end close by 7.5 days—with human oversight remaining essential where tool confidence is low. Our analysts saw this as indicative of practical workforce augmentation making it relevant for enterprises evaluating AI improvements in accounting workflows.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "LangChain 1.0 alpha consolidates agent design, reducing adoption risk for enterprises",
-        "links": [
-          "https://venturebeat.com/ai/langchain-1-0-alpha-consolidates-agent-design-reducing-adoption-risk-for"
-        ]
-      },
-      "Rationale": {
-        "text": "The product announcement introduces LangChain 1.0 alpha as a more stable, orchestrated framework for building agentic workflows. Our analysts viewed it as promising for enterprises but largely promotional and not essential for broader AI leadership, though useful for those directly using such tools.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Implicit Reasoning in Large Language Models: A Comprehensive Survey",
-        "links": [
-          "https://arxiv.org/abs/2509.02350"
-        ]
-      },
-      "Rationale": {
-        "text": "This academic survey explores shifting from explicit chain-of-thought outputs to hidden-state (implicit) reasoning to improve runtime efficiency and enable novel reasoning frameworks. While intellectually rich, out analysts agreed that it’s too early for practical application.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Cutting-Edge AI Was Supposed to Get Cheaper. It’s More Expensive Than Ever.",
-        "links": [
-          "https://archive.is/GLwqi#selection-539.0-539.75"
-        ]
-      },
-      "Rationale": {
-        "text": "As businesses integrate generative AI into real workflows, they are facing rising costs due to “token explosion” in large language models (LLMs), where complex tasks require exponentially more tokens. Our analysts rated this article as essential because it challenges misconceptions about AI cost deflation and underscores the critical need for leaders to understand total cost of ownership—not just per-token pricing—as they scale AI solutions.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-16T08:17:22.318902+00:00"
+  "timestamp": "2025-09-16T16:17:39.754651+00:00"
 }
