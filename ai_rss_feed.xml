@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 17 Sep 2025 08:16:10 +0000</lastBuildDate>
-    <item>
-      <title>Unlocking the future of professional services: How Proofpoint uses Amazon Q Business [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/unlocking-the-future-of-professional-services-how-proofpoint-uses-amazon-q-business/</link>
-      <description>This case study details how Proofpoint integrated Amazon Q Business—a fully managed generative AI assistant—into their cybersecurity services, achieving a 40% productivity boost and saving thousands of administrative hours for tasks like email drafting, report generation, and meeting summarizations. Our analysts emphasized its completeness as a use case: “It says, here’s a problem. Here’s how we solve it... and here’s the impact,” and called attention to its strategic lessons on data strategy, embedding expertise, and deploying AI at scale—making it a must-read for AI leaders.</description>
-      <guid isPermaLink="false">837106ae9bc78d126577e392b60872cc</guid>
-      <pubDate>Thu, 04 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Insurance Leads in AI Adoption. Now It’s Time to Scale. [ ~ ]</title>
-      <link>https://www.bcg.com/publications/2025/insurance-leads-ai-adoption-now-time-to-scale</link>
-      <description>BCG’s piece examines how insurance is primed for GenAI but not high in AI adoption emphasizing cultural over technical barriers. Our analysts found it filled with common-sense insights but too high-level and generic to merit deeper attention, with only a few useful nuggets buried in otherwise hand-wavy advice.</description>
-      <guid isPermaLink="false">84613895c88e95288e5568060609e424</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AgenTracer: Who Is Inducing Failure in the LLM Agentic Systems? [ ~ ]</title>
-      <link>https://arxiv.org/abs/2509.03312?s=09</link>
-      <description>This research paper delves into tracing failure sources in agentic LLM systems using curated fault-determination datasets and counterfactual evaluations, noting up to 14% performance improvements in self-evaluation workflows. Our analysts noted its important foundational value in agent debugging, but agreed it's still academic—relevant to evals researchers, not yet enterprise-ready.</description>
-      <guid isPermaLink="false">24d7b034dbee72b9ba87bc9d1217c4ac</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing EmbeddingGemma: The Best‑in‑Class Open Model for On‑Device Embeddings [ ~ ]</title>
-      <link>https://developers.googleblog.com/en/introducing-embeddinggemma/</link>
-      <description>EmbeddingGemma presents a highly efficient, on-device embedding model that punches above its weight in performance for edge AI implementations. While our analysts acknowledged its technical merit—especially for future chatbot and mobile AI scenarios—it remains early-stage and likely not immediately critical for most AI leaders.</description>
-      <guid isPermaLink="false">48cda9533de765c4ed11fcd2e1ca1246</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Amazon Finance built an AI assistant using Amazon Bedrock and Amazon Kendra to support analysts for data discovery and business insights [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-amazon-finance-built-an-ai-assistant-using-amazon-bedrock-and-amazon-kendra-to-support-analysts-for-data-discovery-and-business-insights/</link>
-      <description>This AWS case study demonstrates a tangible RAG (Retrieval-Augmented Generation) workflow: Amazon Finance built an AI assistant using Amazon Kendra for retrieval and Bedrock for generation, helping analysts retrieve documents faster and more accurately. Our analysts considered it a smart, practical implementation—though not groundbreaking, it nudges enterprises forward in reducing data navigation pain and sets a useful example for maturity-stage companies.</description>
-      <guid isPermaLink="false">b0aaef454c1c9a4a3d04f8b2b989637e</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why memory chips are the new frontier of the AI revolution [ * ]</title>
-      <link>https://archive.is/lr02M#selection-1889.0-1889.58</link>
-      <description>Highlighting how high-bandwidth memory (HBM) chips are stepping into the spotlight as a critical enabler of large-scale AI performance, this article notes SK Hynix’s meteoric rise past Samsung by supplying GPUs with HBM, boosting AI infrastructure efficiency amid growing U.S.–China tech tensions. Our analysts viewed this as forward-looking—memory is becoming a potential bottleneck behind compute—and stressed that AI leaders should start factoring memory availability and vendor diversity into infrastructure planning, especially as hyperscalers’ pricing and resilience strategies evolve.</description>
-      <guid isPermaLink="false">90277c43317546154147fcbad4c73ae1</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 17 Sep 2025 16:15:05 +0000</lastBuildDate>
     <item>
       <title>From query to cart: Inside Target’s search bar overhaul with AlloyDB AI [ ! ]</title>
       <link>https://cloud.google.com/blog/topics/retail/from-query-to-cart-inside-targets-search-bar-overhaul-with-alloydb-ai</link>
@@ -357,6 +315,48 @@
       <description>Based on an analysis of billions of data points across 700 million users, this academic study provides deep insights into how ChatGPT is used globally—for information seeking, decision support, writing assistance, and tutoring. Our analysts called this a foundational resource for understanding shadow AI adoption, habit formation, and emerging use cases across user demographics.</description>
       <guid isPermaLink="false">f10e4fa17332bcee50ebfa06f5662cb9</guid>
       <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Virtual Agent Economies [ ~ ]</title>
+      <link>https://arxiv.org/abs/2509.10147</link>
+      <description>This is a theoretical framework paper from Google proposing a "sandbox economy" where AI agents interact economically, highlighting concepts like permeability and emergent agent behavior. Our analysts criticized it as a lightweight rehash of older economic ideas, saying it lacked grounding in real-world AI applications and did not offer actionable insights — making it a purely speculative read.</description>
+      <guid isPermaLink="false">dcaa788aa0e70a360e308fdf7fcc4e7c</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Rise of Subagents [ ~ ]</title>
+      <link>https://www.philschmid.de/the-rise-of-subagents</link>
+      <description>This article introduces subagents and explores design questions like autonomy, message passing, and what subagents might mean for future architecture. Our analysts found it intellectually interesting but felt it lacked immediate practical application, or clear instruction on what to do with the ideas.</description>
+      <guid isPermaLink="false">5b897c01f71e62f176be14f824448cfd</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generating bigger and better worlds [ * ]</title>
+      <link>https://www.worldlabs.ai/blog/bigger-better-worlds</link>
+      <description>This article describes new capabilities for generative models to build richer, more immersive three‑dimensional or spatial environments, allowing creative use in movies, simulations, etc. It points to where creative AI is moving beyond text and 2D images. Our analysts were impressed by the potential, especially for creatives and media, and saw it as part of a vector of value creation that is likely to matter more over time.</description>
+      <guid isPermaLink="false">4ad8452755d730018f48f618790feaab</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI will start asking for your ID in some cases as part of ChatGPT protections for teens [ * ]</title>
+      <link>https://venturebeat.com/ai/openai-will-start-asking-for-your-id-in-some-cases-as-part-of-chatgpt</link>
+      <description>OpenAI is introducing age‑prediction systems, automatic restrictions for under‑18 users (such as disabling flirtatious content, self‑harm instructions), parental controls, and in some cases ID verification. This is a big move in safety, ethics, and regulation for chatbots. Our analysts agreed that leaders need to know this, though it doesn’t directly impact enterprise workflows much — its importance lies in policy, user expectations, safety, and potentially compliance.</description>
+      <guid isPermaLink="false">437bb6b9339e9a4bbc4681ee8503427c</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Streamline access to ISO‑rating content changes with Verisk rating insights and Amazon Bedrock [ ! ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/streamline-access-to-iso-rating-content-changes-with-verisk-rating-insights-and-amazon-bedrock/</link>
+      <description>This is a powerful case study showing how generative AI automates a very manual, tedious comparison task — Verisk now uses a chat‑style assistant to highlight changes in ISO rating documents, reducing what used to take days down to hours. Our analysts emphasized this as a useful, immediately applicable example: it shows clear ROI, complexity being handled, and value to users who don’t necessarily have deep AI expertise — making it essential reading.</description>
+      <guid isPermaLink="false">438fe67a6329caa09754e837cff1d709</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Economic Index report: Uneven geographic and enterprise AI adoption [ ! ]</title>
+      <link>https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</link>
+      <description>This report reveals detailed, real‑world data from over 150 countries and all U.S. states on how Claude.ai and enterprise APIs are being used, showing not only what tasks are growing (education, science, coding) but also revealing large geographic/socioeconomic disparities in adoption. Our analysts highlighted that this kind of fine‑grained, open data is hugely informative, especially for seeing where AI is taking off vs where it’s lagging — making this critical for leaders thinking about economic impact and equitable access.</description>
+      <guid isPermaLink="false">6e772c24e31aebacff266fb1d7aec3f0</guid>
+      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
