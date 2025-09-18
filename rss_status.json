@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-09-18T08:17:55.567377+00:00",
+  "timestamp": "2025-09-18T16:14:58.208415+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Thu, 18 Sep 2025 08:17:14 +0000",
-      "size_bytes": 39240,
+      "last_updated": "Thu, 18 Sep 2025 16:14:16 +0000",
+      "size_bytes": 38959,
       "errors": []
     },
     "ai_rss_feed_archive.xml": {
@@ -23,7 +23,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 23,
-      "last_updated": "Thu, 18 Sep 2025 08:17:44 +0000",
+      "last_updated": "Thu, 18 Sep 2025 16:14:46 +0000",
       "size_bytes": 18697,
       "errors": []
     },
@@ -31,7 +31,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 54,
-      "last_updated": "Thu, 18 Sep 2025 08:17:44 +0000",
+      "last_updated": "Thu, 18 Sep 2025 16:14:46 +0000",
       "size_bytes": 75105,
       "errors": []
     }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 18 Sep 2025 08:17:14 +0000</lastBuildDate>
-    <item>
-      <title>From query to cart: Inside Target’s search bar overhaul with AlloyDB AI [ ! ]</title>
-      <link>https://cloud.google.com/blog/topics/retail/from-query-to-cart-inside-targets-search-bar-overhaul-with-alloydb-ai</link>
-      <description>This article reveals how Target rebuilt its digital shopping experience using a hybrid search architecture—combining traditional keyword search with semantic vector embeddings—powered by AlloyDB AI, achieving 10× faster response times, 20% improved product discovery relevance, and halving “no result” queries. Our analysts emphasized that this demonstrates how probabilistic and deterministic search methods working together can create smarter, more scalable AI-infused systems—a clear showcase of AI-driven content creation enhancing user experience.</description>
-      <guid isPermaLink="false">d82bf60f705715db904cafa1f898b1d0</guid>
-      <pubDate>Fri, 05 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From potential to performance: Using gen AI to conduct outside‑in diligence [ ~ ]</title>
-      <link>https://www.mckinsey.com/capabilities/transformation/our-insights/from-potential-to-performance-using-gen-ai-to-conduct-outside-in-diligence</link>
-      <description>McKinsey presents a strategic checklist (e.g., keep humans in the loop, structured prompts, fine-tune on private data) for using GenAI in diligence processes. While framing is strong, analysts found the guidance too familiar and lightly scoped, offering minimal new insight into operational complexity.</description>
-      <guid isPermaLink="false">b4d7c04f1d2e71ef4dab231103333a11</guid>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Will AI Choke Off the Supply of Knowledge? [ ~ ]</title>
-      <link>https://archive.md/SACAK</link>
-      <description>This provocative Wall Street Journal reflection raises concerns about AI-generated content reducing the diversity or novelty of human-produced knowledge. Our analysts largely rejected the premise, considering it more a speculative talking point than an imminent reality—market incentives, they argue, will continue to reward originality.</description>
-      <guid isPermaLink="false">5a4d5d0875faf1afab225e7aff7aa2c3</guid>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>From Search to Sale: How AI Is Redefining Customer Engagement and Loyalty in Retail [ * ]</title>
-      <link>https://www.databricks.com/blog/search-sale-how-ai-redefining-customer-engagement-and-loyalty-retail</link>
-      <description>Though a vendor-authored overview, the article maps AI’s impact on customer personalization across the retail sales funnel, highlighting use cases from discovery and consideration to purchase and loyalty. Our analysts noted it’s a solid compendium with a useful case table, especially for those within or exploring the retail ecosystem, even if the insights aren’t novel.</description>
-      <guid isPermaLink="false">d7a168bd19c97d2b1c45f66053190af7</guid>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen3‑Max arrives in preview with 1 trillion parameters, blazing fast response speed, and API availability [ * ]</title>
-      <link>https://venturebeat.com/ai/qwen3-max-arrives-in-preview-with-1-trillion-parameters-blazing-fast</link>
-      <description>Alibaba unveiled Qwen3‑Max‑Preview, its largest-ever LLM exceeding 1 trillion parameters, offering an a 262K-token context window, strong benchmark performance against models like Claude Opus 4 and Kimi K2, and broad access via API. Our analysts stressed that while model size doesn't guarantee capability, this launch reflects Alibaba’s positioning in the global AI race, meriting close attention for comparisons and enterprise testing.</description>
-      <guid isPermaLink="false">2d4161f1b7d26756eb6894f1994161e7</guid>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why language models hallucinate [ ! ]</title>
-      <link>https://openai.com/index/why-language-models-hallucinate/</link>
-      <description>This article digs deeper into the mechanics of unavoidable hallucinations in language models. Our analysts agreed that understanding these mechanics and what can be done about them is crucial for building reliable systems, especially in critical applications like finance, healthcare, and compliance.</description>
-      <guid isPermaLink="false">8cbd23140cc2e1012ab5cbf0fb3789e3</guid>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 18 Sep 2025 16:14:16 +0000</lastBuildDate>
     <item>
       <title>Anthropic to pay $1.5 billion to authors in landmark AI settlement [ ! ]</title>
       <link>https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement</link>
@@ -357,6 +315,48 @@
       <description>This report reveals detailed, real‑world data from over 150 countries and all U.S. states on how Claude.ai and enterprise APIs are being used, showing not only what tasks are growing (education, science, coding) but also revealing large geographic/socioeconomic disparities in adoption. Our analysts highlighted that this kind of fine‑grained, open data is hugely informative, especially for seeing where AI is taking off vs where it’s lagging — making this critical for leaders thinking about economic impact and equitable access.</description>
       <guid isPermaLink="false">6e772c24e31aebacff266fb1d7aec3f0</guid>
       <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Goldman Sachs bankers explore limits of AI: ‘The risk is over-reliance’ [ ~ ]</title>
+      <link>https://www.ft.com/content/d570c5a6-02ad-4a28-8129-2f1a02e63603</link>
+      <description>The article shares anecdotes about how some Goldman Sachs bankers are experimenting with GenAI to accelerate work but emphasizes concerns around over-reliance and lack of auditability. Our analysts noted it lacks depth on technical strategy or enterprise-wide implementation and felt it was more of a soft PR piece than a meaningful case study.</description>
+      <guid isPermaLink="false">332a4ea265ea38a9b772cdc06d87250c</guid>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Buy, boost, or build? Choose your path to generative AI [ ~ ]</title>
+      <link>https://mitsloan.mit.edu/ideas-made-to-matter/buy-boost-or-build-choose-your-path-to-generative-ai</link>
+      <description>This article presents a basic strategic framework for GenAI adoption—buy, boost, or build—but offers no new insight for current enterprise AI leaders. Our analysts felt the framing was dated and oversimplified, making it more useful for beginners than for decision-makers deep in implementation.</description>
+      <guid isPermaLink="false">9ec7c5ffa6b369edd64ba784f907d2a3</guid>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Cox Automotive transforms car sales with Claude in Amazon Bedrock [ * ]</title>
+      <link>https://claude.com/customers/cox-automotive</link>
+      <description>Cox Automotive is using Claude on Amazon Bedrock to generate personalized listings, customer emails, and marketing content in real time. While the article is more high-level and promotional, our analysts agreed it demonstrates growing GenAI adoption in traditional industries like automotive retail.</description>
+      <guid isPermaLink="false">2c2e039c726deb02b2d27fac570e870e</guid>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How msg enhanced HR workforce transformation with Amazon Bedrock and msg.ProfileMap [ ! ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-msg-enhanced-hr-workforce-transformation-with-amazon-bedrock-and-msg-profilemap/</link>
+      <description>This case study demonstrates how msg used Amazon Bedrock to automate HR workforce planning with structured profiling and AI-driven validation workflows, improving data accuracy to 95.5%. Our analysts highlighted it as a benchmark example of enterprise-grade GenAI deployment, with measurable business impact and a clear integration path for regulated industries.</description>
+      <guid isPermaLink="false">507826d6ea10eaf6cb709f854e1c50f1</guid>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Anti-ChatGPT: Thomson Reuters' multi-agent system slashes 20-hour tasks to 10 minutes [ ! ]</title>
+      <link>https://venturebeat.com/ai/the-anti-chatgpt-thomson-reuters-multi-agent-system-slashes-20-hour-tasks-to</link>
+      <description>Thomson Reuters has launched a multi-agent generative AI system capable of reducing complex research tasks from 20 hours to 10 minutes by orchestrating specialized agents for enterprise-grade retrieval, filtering, and summarization. Our analysts agreed this is one of the most advanced real-world applications of multi-agent LLM systems, showcasing a meaningful shift in knowledge work automation.</description>
+      <guid isPermaLink="false">2dc4dd0bd9056eef34200d36e08c287d</guid>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tongyi DeepResearch: A New Era of Open-Source AI Researchers [ ! ]</title>
+      <link>https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/</link>
+      <description>Alibaba’s Tongyi DeepResearch introduces an open-source, multi-agent GenAI research assistant full of algorithmic innovations rivaling Western deep research models. Our analysts emphasized this as a strategic signal in the global AI ecosystem, illustrating how open-source AI in China is rapidly catching up with and challenging Western commercial platforms.</description>
+      <guid isPermaLink="false">c2c74be06ec3b8be52bdb1a32a76f5c4</guid>
+      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
