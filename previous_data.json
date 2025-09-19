@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How to Make Enterprise Gen AI Work",
+        "links": [
+          "https://hbr.org/2025/09/how-to-make-enterprise-gen-ai-work"
+        ]
+      },
+      "Rationale": {
+        "text": "This article from HBR argues that organizations must move beyond ad‑hoc experiments such as individual ChatGPT or Claude usage) toward structured, measured deployment of GenAI across enterprise workflows to actually realize bottom‑line impact.\nOur analysts agreed that the next critical next phase is to close the gap between experimentation and actual scalable, orchestration‑level deployment where many companies are falling behind.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Chrome: The browser you love, reimagined with AI",
+        "links": [
+          "https://blog.google/products/chrome/chrome-reimagined-with-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "Google is redesigning Chrome to embed AI deeply: features like Gemini in Chrome, the \"AI Mode\" in the omnibox/address bar, better cross‑tab understanding, useful summaries, and safety enhancements. Our analysts flagged this development as under‑reported but strategically major -since the browser is a primary access point for users. this shift influences both user experience and the competitive landscape between AI platforms.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Isaac 0.1",
+        "links": [
+          "https://www.perceptron.inc/blog/introducing-isaac-0-1"
+        ]
+      },
+      "Rationale": {
+        "text": "Isaac 0.1 is a small (~2B parameter) multimodal model capable of understanding images and answering questions, with potential for edge deployment in factories etc. But the article lacks detailed info about training methods, robustness, and broader use cases. Our analysts viewed this as promising, particularly for pushing intelligence to the physical/edge realm, but considered it more of a watch‑this‑space.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How we are building Humanoid AI skills with DreamControl",
+        "links": [
+          "https://www.generalrobotics.company/post/dreamcontrol-building-humanoid-ai-skills?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "The article discusses robotics, specifically training humanoid motion using diffusion models, reinforcement learning for selecting optimal trajectories, and transferring those capabilities into real-world environments—signaling a move beyond experimentation toward practical control. However, our analysts noted that robotics is a specialized domain not currently relevant to most AI leaders, making this a forward-looking but non-essential development at this stage.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "IBM granite‑docling‑258m",
+        "links": [
+          "https://www.ibm.com/new/announcements/granite-docling-end-to-end-document-conversion"
+        ]
+      },
+      "Rationale": {
+        "text": "IBM’s Granite Docling is a lightweight model (~258M parameters) designed to convert documents—combining image and text inputs—into structured, machine-readable formats, reflecting the trend toward smaller language models for specialized tasks. While the use case is valuable, our analysts noted this is a product announcement in an increasingly crowded space, making it a promising but non-priority update for most AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/19/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Chinese Officials Urge Firms to Shun Nvidia AI Chips",
+        "links": [
+          "https://www.wsj.com/tech/ai/china-nvidia-ai-chips-fbdbc30a?st=qxPeBp&reflink=desktopwebshare_permalink&utm_source=tldrnewsletter"
+        ]
+      },
+      "Rationale": {
+        "text": "The article reports that Chinese authorities are pressuring domestic firms to avoid using Nvidia’s AI chips, signaling continued geopolitical tension and efforts toward AI sovereignty and supply chain decoupling. Our analysts judged it as contextually relevant as it reflects a larger US-China conflict over AI infrastructure, this article does not explore those dynamics in depth, thus not immediately actionable for most AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/18/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This HBR piece underscores why small language models that are orders of magnitude smaller yet fine-tuned and edge-capable are poised to redefine AI deployments, offering speed, cost-efficiency, and enhanced data security. Our analysts noted that although the article sometimes oversimplifies model behavior, the emerging focus on operational effectiveness and AI in constrained environments makes it crucial for AI leaders to grasp this shift toward leaner, more sustainable AI architectures.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Power of AI in Driving Personalized Product Discovery at Snoonu",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/the-power-of-ai-in-driving-personalized-product-discovery-at-snoonu/"
-        ]
-      },
-      "Rationale": {
-        "text": "This AWS case study highlights how classic machine learning (not generative AI) dramatically improved business results—reporting astonishing metrics like a 1,600% increase in add-to-cart events and a 47× return on model investment—showcasing the tangible business value of AI automation. Our analysts emphasized that this is a foundational example of AI in e-commerce, where machine learning effectively prepared the base for future GenAI by organizing the data layer and enabling metadata personalization for customer segments.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Future of Aftermarket Pricing: Unlocking Value with AI",
-        "links": [
-          "https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-future-of-aftermarket-pricing-unlocking-value-with-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "McKinsey presents a solid, data-driven exploration of how AI and micro-segmentation can optimize aftermarket automotive pricing, a high-margin but niche sector. However, our analysts found the insights to be rather straightforward and industry-specific—with little novelty—making it essential primarily for those in that particular vertical.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Qwen3 ASR: Hear Clearly, Transcribe Smartly",
-        "links": [
-          "https://qwen.ai/blog?id=41e4c0f6175f9b004a03a07e42343eaaf48329e7&from=research.latest-advancements-list"
-        ]
-      },
-      "Rationale": {
-        "text": "Alibaba’s Qwen3 ASR pushes forward with noise-robust, multi-language speech-to-text capabilities—including contextual biasing and performance in songs and rap—signaling strong progress in AI-powered speech recognition. Our analysts agreed it’s a noteworthy product announcement with intriguing technical innovations, but since plenty of capable ASR tools already exist, it remains optional for most readers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Clay and Octave Are Quietly Killing Off Traditional Sales Jobs",
-        "links": [
-          "https://venturebeat.com/ai/how-clay-and-octave-are-quietly-killing-off-traditional-sales-jobs"
-        ]
-      },
-      "Rationale": {
-        "text": "VentureBeat explores AI-powered platforms reshaping sales processes, introducing a new hybrid role, “go-to-market engineer”, who blends domain savvy with automation acumen, illustrating how AI transforms job roles rather than merely eliminating them. While the concept is compelling and touches on AI in sales automation, our analysts marked it optional due to its early stage and product‑marketing tone.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Universal Deep Research: Bring Your Own Model and Strategy",
-        "links": [
-          "https://research.nvidia.com/labs/lpr/udr/"
-        ]
-      },
-      "Rationale": {
-        "text": "NVIDIA's “Universal Deep Research” offers a flexible AI wrapper allowing users to deploy models of their choice within enterprise workflows, aiming to control model usage and keep costs in check. Our analysts found the concept intriguing but too research-heavy and technical—requiring users to craft strategies manually—so it remains optional until it's packaged into a more accessible solution.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Anthropic to pay $1.5 billion to authors in landmark AI settlement",
-        "links": [
-          "https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement"
-        ]
-      },
-      "Rationale": {
-        "text": "This settlement represents the first major class-action resolution in the AI era, awarding roughly $3,000 per book for approximately 500,000 works, and marks the largest copyright recovery in U.S. history. Our analysts agreed that this signals that data provenance and transparency are now mandatory considerations for AI leaders, especially as the terms of licensing and content usage are under legal scrutiny.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-19T08:18:40.628103+00:00"
+  "timestamp": "2025-09-19T16:16:55.801874+00:00"
 }

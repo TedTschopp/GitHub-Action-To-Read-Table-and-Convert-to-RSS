@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 19 Sep 2025 08:17:59 +0000</lastBuildDate>
-    <item>
-      <title>Anthropic to pay $1.5 billion to authors in landmark AI settlement [ ! ]</title>
-      <link>https://www.theverge.com/anthropic/773087/anthropic-to-pay-1-5-billion-to-authors-in-landmark-ai-settlement</link>
-      <description>This settlement represents the first major class-action resolution in the AI era, awarding roughly $3,000 per book for approximately 500,000 works, and marks the largest copyright recovery in U.S. history. Our analysts agreed that this signals that data provenance and transparency are now mandatory considerations for AI leaders, especially as the terms of licensing and content usage are under legal scrutiny.</description>
-      <guid isPermaLink="false">b89c0f388eea8f7474fb7c7247ca3365</guid>
-      <pubDate>Mon, 08 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Universal Deep Research: Bring Your Own Model and Strategy [ ~ ]</title>
-      <link>https://research.nvidia.com/labs/lpr/udr/</link>
-      <description>NVIDIA's “Universal Deep Research” offers a flexible AI wrapper allowing users to deploy models of their choice within enterprise workflows, aiming to control model usage and keep costs in check. Our analysts found the concept intriguing but too research-heavy and technical—requiring users to craft strategies manually—so it remains optional until it's packaged into a more accessible solution.</description>
-      <guid isPermaLink="false">665e2de071d025b333539689be65805b</guid>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Clay and Octave Are Quietly Killing Off Traditional Sales Jobs [ ~ ]</title>
-      <link>https://venturebeat.com/ai/how-clay-and-octave-are-quietly-killing-off-traditional-sales-jobs</link>
-      <description>VentureBeat explores AI-powered platforms reshaping sales processes, introducing a new hybrid role, “go-to-market engineer”, who blends domain savvy with automation acumen, illustrating how AI transforms job roles rather than merely eliminating them. While the concept is compelling and touches on AI in sales automation, our analysts marked it optional due to its early stage and product‑marketing tone.</description>
-      <guid isPermaLink="false">f33e17982132526dd251f504f97c37ba</guid>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen3 ASR: Hear Clearly, Transcribe Smartly [ ~ ]</title>
-      <link>https://qwen.ai/blog?id=41e4c0f6175f9b004a03a07e42343eaaf48329e7&amp;from=research.latest-advancements-list</link>
-      <description>Alibaba’s Qwen3 ASR pushes forward with noise-robust, multi-language speech-to-text capabilities—including contextual biasing and performance in songs and rap—signaling strong progress in AI-powered speech recognition. Our analysts agreed it’s a noteworthy product announcement with intriguing technical innovations, but since plenty of capable ASR tools already exist, it remains optional for most readers.</description>
-      <guid isPermaLink="false">708a40d3e2d270e790d2104694e9c188</guid>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Future of Aftermarket Pricing: Unlocking Value with AI [ ~ ]</title>
-      <link>https://www.mckinsey.com/industries/automotive-and-assembly/our-insights/the-future-of-aftermarket-pricing-unlocking-value-with-ai</link>
-      <description>McKinsey presents a solid, data-driven exploration of how AI and micro-segmentation can optimize aftermarket automotive pricing, a high-margin but niche sector. However, our analysts found the insights to be rather straightforward and industry-specific—with little novelty—making it essential primarily for those in that particular vertical.</description>
-      <guid isPermaLink="false">954343f86b5b86f6d4fada7f2fe805c1</guid>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Power of AI in Driving Personalized Product Discovery at Snoonu [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/the-power-of-ai-in-driving-personalized-product-discovery-at-snoonu/</link>
-      <description>This AWS case study highlights how classic machine learning (not generative AI) dramatically improved business results—reporting astonishing metrics like a 1,600% increase in add-to-cart events and a 47× return on model investment—showcasing the tangible business value of AI automation. Our analysts emphasized that this is a foundational example of AI in e-commerce, where machine learning effectively prepared the base for future GenAI by organizing the data layer and enabling metadata personalization for customer segments.</description>
-      <guid isPermaLink="false">044f1a9682fb568d6db25ab0290dfdb7</guid>
-      <pubDate>Tue, 09 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 19 Sep 2025 16:16:12 +0000</lastBuildDate>
     <item>
       <title>The Case for Using Small Language Models [ * ]</title>
       <link>https://hbr.org/2025/09/the-case-for-using-small-language-models</link>
@@ -357,6 +315,49 @@
       <description>Alibaba’s Tongyi DeepResearch introduces an open-source, multi-agent GenAI research assistant full of algorithmic innovations rivaling Western deep research models. Our analysts emphasized this as a strategic signal in the global AI ecosystem, illustrating how open-source AI in China is rapidly catching up with and challenging Western commercial platforms.</description>
       <guid isPermaLink="false">c2c74be06ec3b8be52bdb1a32a76f5c4</guid>
       <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chinese Officials Urge Firms to Shun Nvidia AI Chips [ ~ ]</title>
+      <link>https://www.wsj.com/tech/ai/china-nvidia-ai-chips-fbdbc30a?st=qxPeBp&amp;reflink=desktopwebshare_permalink&amp;utm_source=tldrnewsletter</link>
+      <description>The article reports that Chinese authorities are pressuring domestic firms to avoid using Nvidia’s AI chips, signaling continued geopolitical tension and efforts toward AI sovereignty and supply chain decoupling. Our analysts judged it as contextually relevant as it reflects a larger US-China conflict over AI infrastructure, this article does not explore those dynamics in depth, thus not immediately actionable for most AI leaders.</description>
+      <guid isPermaLink="false">a63dc734b2753ac3eda8e8a2fdf0397e</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBM granite‑docling‑258m [ ~ ]</title>
+      <link>https://www.ibm.com/new/announcements/granite-docling-end-to-end-document-conversion</link>
+      <description>IBM’s Granite Docling is a lightweight model (~258M parameters) designed to convert documents—combining image and text inputs—into structured, machine-readable formats, reflecting the trend toward smaller language models for specialized tasks. While the use case is valuable, our analysts noted this is a product announcement in an increasingly crowded space, making it a promising but non-priority update for most AI leaders.</description>
+      <guid isPermaLink="false">785cb6fbd8415501c1ae0ccaa8fe6078</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we are building Humanoid AI skills with DreamControl [ ~ ]</title>
+      <link>https://www.generalrobotics.company/post/dreamcontrol-building-humanoid-ai-skills?s=09</link>
+      <description>The article discusses robotics, specifically training humanoid motion using diffusion models, reinforcement learning for selecting optimal trajectories, and transferring those capabilities into real-world environments—signaling a move beyond experimentation toward practical control. However, our analysts noted that robotics is a specialized domain not currently relevant to most AI leaders, making this a forward-looking but non-essential development at this stage.</description>
+      <guid isPermaLink="false">1239a642838f3fc21efda69e1e600380</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Isaac 0.1 [ ~ ]</title>
+      <link>https://www.perceptron.inc/blog/introducing-isaac-0-1</link>
+      <description>Isaac 0.1 is a small (~2B parameter) multimodal model capable of understanding images and answering questions, with potential for edge deployment in factories etc. But the article lacks detailed info about training methods, robustness, and broader use cases. Our analysts viewed this as promising, particularly for pushing intelligence to the physical/edge realm, but considered it more of a watch‑this‑space.</description>
+      <guid isPermaLink="false">9b3dea97e135eb08e59ad3a4c670ec0c</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chrome: The browser you love, reimagined with AI [ * ]</title>
+      <link>https://blog.google/products/chrome/chrome-reimagined-with-ai</link>
+      <description>Google is redesigning Chrome to embed AI deeply: features like Gemini in Chrome, the "AI Mode" in the omnibox/address bar, better cross‑tab understanding, useful summaries, and safety enhancements. Our analysts flagged this development as under‑reported but strategically major -since the browser is a primary access point for users. this shift influences both user experience and the competitive landscape between AI platforms.</description>
+      <guid isPermaLink="false">1d3812016eac0e8a28f0eb09d2204134</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to Make Enterprise Gen AI Work [ ! ]</title>
+      <link>https://hbr.org/2025/09/how-to-make-enterprise-gen-ai-work</link>
+      <description>This article from HBR argues that organizations must move beyond ad‑hoc experiments such as individual ChatGPT or Claude usage) toward structured, measured deployment of GenAI across enterprise workflows to actually realize bottom‑line impact.
+Our analysts agreed that the next critical next phase is to close the gap between experimentation and actual scalable, orchestration‑level deployment where many companies are falling behind.</description>
+      <guid isPermaLink="false">d26585a16cf15583a63004c853449bd0</guid>
+      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
