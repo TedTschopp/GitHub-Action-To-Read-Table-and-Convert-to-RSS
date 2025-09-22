@@ -134,6 +134,26 @@ feeds:
   - "https://www.forrester.com/blogs/category/enterprise-architecture/feed/"
   - "https://www.leanix.net/en/blog/rss.xml"
 
+- name: "Ted Tschopp's Digital Exhaust"
+  aggregated: true
+  key: aggregated_teds_digital_exhaust
+  enabled: true
+  output: "/aggregated_teds_digital_exhaust.xml"
+  url: "/aggregated_teds_digital_exhaust.xml"
+  title: "Ted Tschopp's Digital Exhaust"
+  link: "https://rss.tedt.org/aggregated_teds_digital_exhaust.xml"
+  description: "Ted Tschopp's Digital Exhaust multi-source aggregated feed"
+  max_items: 150
+  retention_days: 60
+  source_attribution: title
+  sources:
+  - "https://www.yelp.com/syndicate/user/ukkYfZcwUj3ZW75Mkmo4_g/rss.xml"
+  - "https://feeds.feedburner.com/truesteamachievements/ctS0AH9xdJX"
+  - "https://www.trueachievements.com/friendfeedrss.aspx%3Fgamerid%3D1106059&re=metadata&out=atom"
+  - "https://lfm.xiffy.nl/TedTschopp"
+  - "https://www.reddit.com/user/TedTschopp/submitted/.rss"
+  - "https://www.reddit.com/user/TedTschopp/comments/.rss"
+
 - name: "OSR & TTRPG Aggregated News"
   aggregated: true
   key: aggregated_osr_ttrpg
