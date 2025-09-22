@@ -1,12 +1,12 @@
 {
-  "timestamp": "2025-09-11T11:09:40.505333+00:00",
+  "timestamp": "2025-09-22T08:20:04.218680+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Thu, 11 Sep 2025 11:08:52 +0000",
-      "size_bytes": 39441,
+      "last_updated": "Mon, 22 Sep 2025 08:19:26 +0000",
+      "size_bytes": 38822,
       "errors": []
     },
     "ai_rss_feed_archive.xml": {
@@ -19,69 +19,33 @@
         "Archive not yet created"
       ]
     },
-    "aggregated_external.xml": {
-      "exists": true,
-      "valid_xml": true,
-      "entry_count": 40,
-      "last_updated": "Thu, 11 Sep 2025 11:09:12 +0000",
-      "size_bytes": 22557,
-      "errors": []
-    },
-    "aggregated_external_archive.xml": {
-      "exists": false,
-      "valid_xml": false,
-      "entry_count": 0,
-      "last_updated": null,
-      "size_bytes": 0,
-      "errors": [
-        "Archive not yet created"
-      ]
-    },
     "aggregated_ea.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 8,
-      "last_updated": "Thu, 11 Sep 2025 11:09:40 +0000",
-      "size_bytes": 6728,
+      "entry_count": 24,
+      "last_updated": "Mon, 22 Sep 2025 08:19:54 +0000",
+      "size_bytes": 20294,
       "errors": []
     },
     "aggregated_ea_archive.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 52,
-      "last_updated": "Thu, 11 Sep 2025 11:09:40 +0000",
-      "size_bytes": 73760,
+      "entry_count": 54,
+      "last_updated": "Mon, 22 Sep 2025 08:19:54 +0000",
+      "size_bytes": 75105,
       "errors": []
     }
   },
   "overall_status": "warning",
   "aggregation_health": {
-    "aggregated_external.xml": {
-      "total_sources": 4,
-      "attempted": 4,
-      "skipped": 0,
-      "with_items": 2,
-      "failures": 1,
-      "recovered": 0,
-      "failure_rate": 25.0
-    },
     "aggregated_ea.xml": {
       "total_sources": 7,
       "attempted": 7,
       "skipped": 0,
-      "with_items": 2,
+      "with_items": 4,
       "failures": 0,
       "recovered": 0,
       "failure_rate": 0.0
     }
-  },
-  "pruning_suggestions": [
-    {
-      "feed": "aggregated_external.xml",
-      "url": "https://www.infoworld.com/index.rss",
-      "consecutive_failures": 3,
-      "last_status": "exception",
-      "last_error_excerpt": "http 404"
-    }
-  ]
+  }
 }
