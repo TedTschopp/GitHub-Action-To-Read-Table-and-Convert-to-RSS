@@ -376,7 +376,7 @@
         ]
       },
       "Rationale": {
-        "text": "Based on an analysis of billions of data points across 700 million users, this academic study provides deep insights into how ChatGPT is used globally—for information seeking, decision support, writing assistance, and tutoring. Our analysts called this a foundational resource for understanding shadow AI adoption, habit formation, and emerging use cases across user demographics.",
+        "text": "Based on an analysis of billions of data points across 700 million users, this academic study provides deep insights into how ChatGPT is used globally—for information seeking, decision support, writing assistance, and tutoring. Our analysts called this a foundational resource for understanding AI adoption, habit formation, and emerging use cases across user demographics.",
         "links": []
       }
     },
@@ -1001,5 +1001,5 @@
       }
     }
   ],
-  "timestamp": "2025-09-22T00:59:09.481760+00:00"
+  "timestamp": "2025-09-22T08:20:04.143566+00:00"
 }
