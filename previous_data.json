@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Moody's cut credit memo prep from 40 hours to 2 minutes with modular AI agents: Here's its agentic AI blueprint",
+        "links": [
+          "https://venturebeat.com/ai/moodys-cut-credit-memo-prep-from-40-hours-to-2-minutes-with-modular-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "Moody's has unveiled a modular agentic AI system that slashes the time to generate credit memos from 40 hours to just 2 minutes, demonstrating the real-world impact of AI automation in finance. Our analysts saw this as a blueprint for enterprises especially in regulated industries, highlighting its value in showing how to implement agent-based generative AI systems for high-stakes workflows.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Ray3 from Luma",
+        "links": [
+          "https://lumalabs.ai/ray"
+        ]
+      },
+      "Rationale": {
+        "text": "Luma Labs' Ray3 is a high-fidelity text-to-video model capable of generating HDR-quality cinematic content with physics-aware visual reasoning. Our analysts emphasized its breakthrough in video generation and potential future use in enterprise multimedia, forecasting it could displace slide decks and revolutionize corporate storytelling.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Grok 4 Fast",
+        "links": [
+          "https://x.ai/news/grok-4-fast"
+        ]
+      },
+      "Rationale": {
+        "text": "xAI’s Grok 4 Fast achieves performance comparable to GPT-4V with a 98% reduction in cost by optimizing token usage and blending multiple model types. While enterprise adoption remains limited, our analysts saw this as an important step toward democratizing access to powerful large language models and enabling AI infrastructure diversification across enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "FutureHouse powers scientific discovery agents with Claude",
+        "links": [
+          "https://claude.com/customers/futurehouse"
+        ]
+      },
+      "Rationale": {
+        "text": "FutureHouse uses Claude to build specialized agents that accelerate scientific research by parsing literature, forming hypotheses, and assisting experimentation. While light on technical detail, our analysts agreed it signals a shift toward agentic AI in scientific discovery and underscores the need for enterprise IT leaders to think beyond foundational LLMs.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Palmyra-mini: Small models, big throughput, powerful reasoning",
+        "links": [
+          "https://writer.com/engineering/palmyra-mini-open-source-models/"
+        ]
+      },
+      "Rationale": {
+        "text": "Writer's Palmyra-mini models offer domain-specific small LLMs with tight security and advanced semantic RAG designed for edge deployments. Our analysts found it an interesting example of the growing trend toward AI models optimized for cost, control, and offline enterprise use cases-but ultimately still early-stage.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Moondream 3 Preview: Frontier-level reasoning at a blazing speed",
+        "links": [
+          "https://moondream.ai/blog/moondream-3-preview"
+        ]
+      },
+      "Rationale": {
+        "text": "Moondream 3 is a new vision-language model with a 32K context window and visual reasoning abilities using a Mixture-of-Experts approach. While technically impressive, our analysts noted that the market is saturated with similar VLM releases and saw no major differentiation or current enterprise application to justify higher relevance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/19/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This Harvard Business Review piece explores a provocative experiment where MBA students at NYU Stern, in collaboration with Microsoft, embedded AI as the “first hire” — using conversational prompts instead of traditional business planning to shape everything from market analysis to organizational structure. Our analysts found it “absolutely essential” reading because it reframes AI as a strategic colleague from day one, with insights on supervisory roles, human oversight, and the role of AI in redefining startup formation.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Will Supercharge Modelbusters",
-        "links": [
-          "https://a16z.com/ai-will-supercharge-modelbusters/"
-        ]
-      },
-      "Rationale": {
-        "text": "In this a16z Growth Newsletter, the authors argue that AI is powering “modelbusters” — companies that deliver 10× better product experiences at 1/10th the cost — and propose emerging business models to capture the resulting exponential opportunity. Our analysts cautioned that while it captures the massive potential of AI in reshaping total addressable markets, it leans heavily on hype and lacks discussion of governance, risk, and the darker facets of AI deployment.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Skai uses Amazon Bedrock Agents to significantly improve customer insights by revolutionized data access and analysis",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/skai-uses-amazon-bedrock-agents-to-significantly-improve-customer-insights-by-revolutionized-data-access-and-analysis/"
-        ]
-      },
-      "Rationale": {
-        "text": "This AWS case study demonstrates how Skai is leveraging Amazon Bedrock agents and generative AI to enhance customer analytics through natural-language interfaces, simplifying data queries and revealing insights clients hadn’t considered. Our analysts rated it Important for its realistic view into AI-driven analytics transformation, even as they lamented the scant treatment of hallucination and accuracy risks.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Baidu Unveils Reasoning Model ERNIE X 1.1 with Upgrades in Key Capabilities",
-        "links": [
-          "https://www.prnewswire.com/news-releases/baidu-unveils-reasoning-model-ernie-x1-1-with-upgrades-in-key-capabilities-302551170.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This press release announces Baidu’s new reasoning model, ERNIE X 1.1, promising enhanced reasoning, speed, and cost-efficiency — but provides few independent assessments of its performance. Our analysts noted it reinforces known themes of the AI “model race” and Chinese competition without offering novel insights, and observing that its relevance to U.S. AI leaders is limited for now.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Abu Dhabi launches low‑cost AI reasoning model in challenge to OpenAI, DeepSeek",
-        "links": [
-          "https://www.cnbc.com/2025/09/09/abu-dhabi-launches-ai-reasoning-model-to-rival-openai-deepseek.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This CNBC report covers Abu Dhabi’s announcement of a fine-tuned AI reasoning model tailored to rival OpenAI and DeepSeek, reflecting a broader trend of sovereign AI development and regional strategic positioning. Our analysts saw it as an affirmation of ongoing trends in sovereign-AI rather than a critical update for AI leaders globally.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "NVIDIA Unveils Rubin CPX: A New Class of GPU Designed for Massive‑Context Inference",
-        "links": [
-          "https://nvidianews.nvidia.com/news/nvidia-unveils-rubin-cpx-a-new-class-of-gpu-designed-for-massive-context-inference"
-        ]
-      },
-      "Rationale": {
-        "text": "NVIDIA’s Rubin CPX GPU promises faster, higher-context inference and improved video processing and includes bold ROI claims tied to token revenue. Our analysts appreciated the technical direction but labeled it Optional due to its availability at the end of 2026.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The Case for Using Small Language Models",
-        "links": [
-          "https://hbr.org/2025/09/the-case-for-using-small-language-models"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR piece underscores why small language models that are orders of magnitude smaller yet fine-tuned and edge-capable are poised to redefine AI deployments, offering speed, cost-efficiency, and enhanced data security. Our analysts noted that although the article sometimes oversimplifies model behavior, the emerging focus on operational effectiveness and AI in constrained environments makes it crucial for AI leaders to grasp this shift toward leaner, more sustainable AI architectures.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-22T08:20:04.143566+00:00"
+  "timestamp": "2025-09-22T15:32:11.100904+00:00"
 }
