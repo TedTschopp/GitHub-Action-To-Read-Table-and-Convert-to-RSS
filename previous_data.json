@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Generated “Workslop” Is Destroying Productivity",
+        "links": [
+          "https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity"
+        ]
+      },
+      "Rationale": {
+        "text": "The article introduces a term “Workslop” when employees use AI to produce content that masquerades as good work, but lacks the substance to meaningfully advance a given task. Such workslop causes wasted time, frustration, and low return on investment despite widespread adoption of AI tools. Our analysts emphasized this as an emerging problem that leaders can and must control: setting up vetting, quality processes, human review, etc. They saw it as essential because unchecked workslop undermines productivity, credibility, and effectiveness of AI deployments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems",
+        "links": [
+          "https://openai.com/index/openai-nvidia-systems-partnership/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI and NVIDIA are committing to a landmark infrastructure partnership: deploying at least 10 gigawatts of AI datacenter capacity powered by NVIDIA systems, with NVIDIA investing up to $100 billion progressively as each gigawatt is rolled out, starting in H2 2026 on its Vera Rubin platform. Our analysts noted this is a strong indicator for future enterprise AI adoption for leaders to know about.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Silicon Valley bets big on ‘environments’ to train AI agents",
+        "links": [
+          "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
+        ]
+      },
+      "Rationale": {
+        "text": "The article tracks the rising trend of using rich, specialized simulated environments for training AI agents (RL environments) to handle multi‑step, interactive tasks in more complex, realistic settings. Our analysts flagged this development as “fundamentally critical” for AI leaders, especially to ensure agents deliver what is promised, reducing gap between lab and real‑world performance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "New tool makes generative AI models more likely to create breakthrough materials",
+        "links": [
+          "https://news.mit.edu/2025/new-tool-makes-generative-ai-models-likely-create-breakthrough-materials-0922"
+        ]
+      },
+      "Rationale": {
+        "text": "MIT researchers have developed tools that guide generative AI to generate millions of candidate materials for quantum computing and narrow them to promising targets. Our analysts saw this as not immediately actionable for many enterprises, but hugely important for where AI is expanding — serving as a precursor to breakthroughs in fields like energy, hardware, quantum, biotech.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "SchoolAI’s lessons in building an AI platform that empowers teachers",
+        "links": [
+          "https://openai.com/index/schoolai/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study shows how AI can be integrated into education in a thoughtfully designed way: supporting teachers, dashboards for tracking, respects human-in-the-loop, not replacing, but empowering. It’s a model for how AI could be responsibly used in educational settings. Our analysts felt that this is socially important and worth paying attention to, though for many AI leaders it may be less immediately critical.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/23/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Qwen3‑Omni",
+        "links": [
+          "https://x.com/Alibaba_Qwen/status/1970181599133344172"
+        ]
+      },
+      "Rationale": {
+        "text": "Alibaba’s new omni‑modal model, which handles multiple input modalities and outputs, is open source, has several variants (instruct, thinking, captioner), and competes reasonably in cross‑modality benchmarks. Our analysts agreed this is a product announcement rather than a paradigm shift: until performance, robustness, adoption, and broader ecosystem impact are proven, it remains optional for most AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/22/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Booking.com provides a detailed look at how to operationalize LLM evaluation using judge models, metrics, and pipelines for measuring hallucinations and relevance. Our analysts emphasized this article fills a critical gap in AI evaluation literacy, offering a rare and practical case study that enterprise AI leaders can adopt immediately.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Agent 3 by Replit",
-        "links": [
-          "https://x.com/amasad/status/1965800350071590966"
-        ]
-      },
-      "Rationale": {
-        "text": "Replit's Agent 3 is an autonomous coding agent capable of multi-hour runs, automated testing, and spawning agents for use in messaging apps, signaling significant progress in AI-driven software development. Our analysts agreed the leap in agent autonomy is meaningful, even if Replit is not yet enterprise-focused, as it highlights how fast capabilities in AI automation are scaling.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How London Stock Exchange Group is detecting market abuse with their AI-powered Surveillance Guide on Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-london-stock-exchange-group-is-detecting-market-abuse-with-their-ai-powered-surveillance-guide-on-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "LSEG’s adoption of generative AI on AWS Bedrock to detect market abuse is a real-world example of AI in finance addressing compliance and risk. Though early-stage, our analysts noted this is a meaningful implementation in a regulated industry and represents a maturing use case for AI surveillance tools.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Claude can now create and edit files",
-        "links": [
-          "https://www.anthropic.com/news/create-files?utm_source=alphasignal&utm_campaign=2025-09-10&asuniq=de56c5c7"
-        ]
-      },
-      "Rationale": {
-        "text": "Claude 3.5 now includes the ability to create and edit common file types like spreadsheets and presentations directly via prompts, bringing document interactivity to its browser UI. While our analysts saw this as catch-up to ChatGPT’s existing tools, it’s still considered an important move in enhancing generative AI’s usability for non-technical users.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Great Expansion: A New Era of Consumer Software",
-        "links": [
-          "https://a16z.com/the-great-expansion-a-new-era-of-consumer-software/"
-        ]
-      },
-      "Rationale": {
-        "text": "Andreessen Horowitz explores trends in consumer AI apps, focusing on freemium + usage-based pricing models and their bridge into enterprise. Our analysts found it an insightful summary but primarily relevant to startup ecosystems rather than enterprise leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Seedream 4.0",
-        "links": [
-          "https://seed.bytedance.com/en/seedream4_0"
-        ]
-      },
-      "Rationale": {
-        "text": "ByteDance’s Seedream 4.0 merges image generation and editing into one model with support for high-resolution output and batch processing. Our analysts noted the capabilities are strong but largely a catch-up to existing leaders, offering few implications for enterprise use at this stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "What Happened When Researchers Co‑Founded a Startup with AI",
-        "links": [
-          "https://hbr.org/2025/09/what-happened-when-researchers-co-founded-a-startup-with-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "This Harvard Business Review piece explores a provocative experiment where MBA students at NYU Stern, in collaboration with Microsoft, embedded AI as the “first hire” — using conversational prompts instead of traditional business planning to shape everything from market analysis to organizational structure. Our analysts found it “absolutely essential” reading because it reframes AI as a strategic colleague from day one, with insights on supervisory roles, human oversight, and the role of AI in redefining startup formation.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-23T08:17:07.002670+00:00"
+  "timestamp": "2025-09-23T16:17:28.527745+00:00"
 }
