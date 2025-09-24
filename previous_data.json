@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Nvidia Is Backstopping America’s AI Boom",
+        "links": [
+          "https://www.wsj.com/tech/ai/how-nvidia-is-backstopping-americas-ai-boom-875c1346"
+        ]
+      },
+      "Rationale": {
+        "text": "The piece explores NVIDIA’s strategic investments—especially into OpenAI and infrastructure—and how those investments amplify its revenue generation and influence over the AI stack. Our analysts emphasized that this article is essential for anyone tracking AI’s geopolitical and economic dynamics, as it reveals how capital, control, and hardware are intertwining in real time.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Gen AI Could Transform Learning and Development",
+        "links": [
+          "https://hbr.org/2025/09/how-gen-ai-could-transform-learning-and-development"
+        ]
+      },
+      "Rationale": {
+        "text": "This article investigates how generative AI can reshape corporate learning by embedding personalization, prompting skills, and decision‑support into L&D. Our analysts flagged it as mission-critical because many leaders are now scrambling to build AI literacy and culture—and this article provides initial underpinnings for doing that.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The new org chart: Unlocking value with AI-native roles in the agentic era",
+        "links": [
+          "https://www.cio.com/article/4060162/the-new-org-chart-unlocking-value-with-ai-native-roles-in-the-agentic-era.html"
+        ]
+      },
+      "Rationale": {
+        "text": "This article argues for reorganizing teams with roles tailored to AI agents (e.g. orchestration, governance) rather than retrofitting old structures. Our analysts saw division: while it’s forward‑looking and not yet broadly applicable, analysts believed it’s important to help leaders think ahead about evolving org structures in the AI era.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Intuit built custom financial LLMs that cut latency 50%",
+        "links": [
+          "https://venturebeat.com/ai/how-intuit-built-custom-financial-llms-that-cut-latency-50-while-boosting"
+        ]
+      },
+      "Rationale": {
+        "text": "This is a strong use case of engineering optimization (reducing latency, improving domain accuracy), but for many leaders it lacks enough business context. Our analysts appreciated it as a technical optimization, though not universally actionable.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Notion creates more intelligent workspaces with Claude",
+        "links": [
+          "https://claude.com/customers/notion"
+        ]
+      },
+      "Rationale": {
+        "text": "The article demonstrates how Notion integrates Claude to shorten information search time and assist writing/QA workflows. Our analysts saw it more as a marketing showcase—interesting but not a must‑read for every AI leader.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI chips are getting hotter. A microfluidics breakthrough goes straight to the silicon to cool up to three times better.",
+        "links": [
+          "https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/"
+        ]
+      },
+      "Rationale": {
+        "text": "This report covers a hardware cooling innovation that could relieve performance bottlenecks in AI chips. While very cool from a technology perspective, our analysts judged its near‑term relevance to most AI strategy teams as modest.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/23/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This is a strong enterprise use case: moving from very low OCR accuracy (~30-40%) on unstructured documents to much higher accuracy and massive scale via combining OCR + LLM processing. Our analysts saw this as a “win case” that many organizations can replicate with unstructured data, showing immediate value.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Indexing the AI Economy",
-        "links": [
-          "https://assets.stripeassets.com/fzn2n1nzq965/1MsdRUHsQdAU6lT1b3zU0f/ae4800e3c9c8da779a52ee3955d80654/Indexing_the_AI_economy_EN-GB.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "This Stripe report reveals that AI startups are hitting revenue milestones far faster than past generations (SaaS etc.), and that many are global from day one — trends that fundamentally reshape expectations for AI monetization and scale. Our analysts underscored how this offers critical benchmarking data: knowing how vendor strength, international expansion, business models, and growth rates are shifting is vital for AI leaders to plan strategy and vendor relationships.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI and Oracle reportedly ink historic cloud computing deal",
-        "links": [
-          "https://techcrunch.com/2025/09/10/openai-and-oracle-reportedly-ink-historic-cloud-computing-deal"
-        ]
-      },
-      "Rationale": {
-        "text": "The size and terms of this deal matter: OpenAI committing to purchase ~$300B in compute over five years from Oracle signals a major shift in how compute is sourced, partnerships structured, and how AI infrastructure power is balanced. Our analysts saw this alignment as consequential for enterprise strategy, vendor competition, and the futures of Microsoft, OpenAI, Oracle.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Alibaba and Baidu Adopt Their Own AI Chips in Major Shift for Chinese Tech",
-        "links": [
-          "https://www.theinformation.com/articles/alibaba-baidu-adopt-ai-chips-major-shift-chinese-tech?utm_campaign=article_email&utm_content=article-15741&utm_medium=email&utm_source=sg"
-        ]
-      },
-      "Rationale": {
-        "text": "This shift toward in‐house chips in China is important strategically (geopolitics, chip supply, autonomy), but our analysts felt the capabilities are still emerging, that the performance gap remains vs. leading global offerings (e.g. Nvidia), and that it’s early in the curve.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "SafetyKit’s blueprint for scaling risk agents with OpenAI’s most capable models",
-        "links": [
-          "https://openai.com/index/safetykit/"
-        ]
-      },
-      "Rationale": {
-        "text": "It’s a useful case study, especially in security and risk agent design, but the discussion noted the lack of depth: not enough detail around how models were chosen, what trade-offs, enough technical or organizational specificity. Our analysts felt it didn’t rise to the level of “must-know” for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Microsoft to lessen reliance on OpenAI by buying AI from rival Anthropic",
-        "links": [
-          "https://techcrunch.com/2025/09/09/microsoft-to-lessen-reliance-on-openai-by-buying-ai-from-rival-anthropic/"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft is integrating Anthropic’s AI models into Microsoft 365, signaling a major shift away from exclusive reliance on OpenAI and positioning Claude as a formidable competitor in the enterprise AI market. Our analysts noted this is a pivotal moment in the maturing AI ecosystem, marking the emergence of vendor diversification and greater choice in foundational model providers for enterprise AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "LLM Evaluation: Practical Tips at Booking.com",
-        "links": [
-          "https://booking.ai/llm-evaluation-practical-tips-at-booking-com-1b038a0d6662"
-        ]
-      },
-      "Rationale": {
-        "text": "Booking.com provides a detailed look at how to operationalize LLM evaluation using judge models, metrics, and pipelines for measuring hallucinations and relevance. Our analysts emphasized this article fills a critical gap in AI evaluation literacy, offering a rare and practical case study that enterprise AI leaders can adopt immediately.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-24T08:18:46.730066+00:00"
+  "timestamp": "2025-09-24T16:18:22.401240+00:00"
 }

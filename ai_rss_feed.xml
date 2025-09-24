@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Sep 2025 08:17:40 +0000</lastBuildDate>
-    <item>
-      <title>LLM Evaluation: Practical Tips at Booking.com [ ! ]</title>
-      <link>https://booking.ai/llm-evaluation-practical-tips-at-booking-com-1b038a0d6662</link>
-      <description>Booking.com provides a detailed look at how to operationalize LLM evaluation using judge models, metrics, and pipelines for measuring hallucinations and relevance. Our analysts emphasized this article fills a critical gap in AI evaluation literacy, offering a rare and practical case study that enterprise AI leaders can adopt immediately.</description>
-      <guid isPermaLink="false">6886643e028bc6b53073cbf5c23fd84b</guid>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft to lessen reliance on OpenAI by buying AI from rival Anthropic [ ! ]</title>
-      <link>https://techcrunch.com/2025/09/09/microsoft-to-lessen-reliance-on-openai-by-buying-ai-from-rival-anthropic/</link>
-      <description>Microsoft is integrating Anthropic’s AI models into Microsoft 365, signaling a major shift away from exclusive reliance on OpenAI and positioning Claude as a formidable competitor in the enterprise AI market. Our analysts noted this is a pivotal moment in the maturing AI ecosystem, marking the emergence of vendor diversification and greater choice in foundational model providers for enterprise AI leaders.</description>
-      <guid isPermaLink="false">66d0a8445dc5b35a03c7cf5cc5892783</guid>
-      <pubDate>Thu, 11 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SafetyKit’s blueprint for scaling risk agents with OpenAI’s most capable models [ ~ ]</title>
-      <link>https://openai.com/index/safetykit/</link>
-      <description>It’s a useful case study, especially in security and risk agent design, but the discussion noted the lack of depth: not enough detail around how models were chosen, what trade-offs, enough technical or organizational specificity. Our analysts felt it didn’t rise to the level of “must-know” for AI leaders.</description>
-      <guid isPermaLink="false">cce24960284541167654fe431ca299f3</guid>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Alibaba and Baidu Adopt Their Own AI Chips in Major Shift for Chinese Tech [ ~ ]</title>
-      <link>https://www.theinformation.com/articles/alibaba-baidu-adopt-ai-chips-major-shift-chinese-tech?utm_campaign=article_email&amp;utm_content=article-15741&amp;utm_medium=email&amp;utm_source=sg</link>
-      <description>This shift toward in‐house chips in China is important strategically (geopolitics, chip supply, autonomy), but our analysts felt the capabilities are still emerging, that the performance gap remains vs. leading global offerings (e.g. Nvidia), and that it’s early in the curve.</description>
-      <guid isPermaLink="false">901669644661151bb05340fc6005f2e1</guid>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI and Oracle reportedly ink historic cloud computing deal [ * ]</title>
-      <link>https://techcrunch.com/2025/09/10/openai-and-oracle-reportedly-ink-historic-cloud-computing-deal</link>
-      <description>The size and terms of this deal matter: OpenAI committing to purchase ~$300B in compute over five years from Oracle signals a major shift in how compute is sourced, partnerships structured, and how AI infrastructure power is balanced. Our analysts saw this alignment as consequential for enterprise strategy, vendor competition, and the futures of Microsoft, OpenAI, Oracle.</description>
-      <guid isPermaLink="false">dfe13b8c7ffe782e02e2f55765ccfb32</guid>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Indexing the AI Economy [ * ]</title>
-      <link>https://assets.stripeassets.com/fzn2n1nzq965/1MsdRUHsQdAU6lT1b3zU0f/ae4800e3c9c8da779a52ee3955d80654/Indexing_the_AI_economy_EN-GB.pdf</link>
-      <description>This Stripe report reveals that AI startups are hitting revenue milestones far faster than past generations (SaaS etc.), and that many are global from day one — trends that fundamentally reshape expectations for AI monetization and scale. Our analysts underscored how this offers critical benchmarking data: knowing how vendor strength, international expansion, business models, and growth rates are shifting is vital for AI leaders to plan strategy and vendor relationships.</description>
-      <guid isPermaLink="false">12b5df4731ef0fdf9b04199d8a8d01e9</guid>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 24 Sep 2025 16:17:03 +0000</lastBuildDate>
     <item>
       <title>Oldcastle Accelerates Document Processing with Amazon Bedrock [ ! ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/oldcastle-accelerates-document-processing-with-amazon-bedrock/</link>
@@ -358,6 +316,48 @@ Our analysts agreed that the next critical next phase is to close the gap betwee
       <description>The article introduces a term “Workslop” when employees use AI to produce content that masquerades as good work, but lacks the substance to meaningfully advance a given task. Such workslop causes wasted time, frustration, and low return on investment despite widespread adoption of AI tools. Our analysts emphasized this as an emerging problem that leaders can and must control: setting up vetting, quality processes, human review, etc. They saw it as essential because unchecked workslop undermines productivity, credibility, and effectiveness of AI deployments.</description>
       <guid isPermaLink="false">705c7c22b4689f79cee14e7975f5fd3b</guid>
       <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI chips are getting hotter. A microfluidics breakthrough goes straight to the silicon to cool up to three times better. [ ~ ]</title>
+      <link>https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/</link>
+      <description>This report covers a hardware cooling innovation that could relieve performance bottlenecks in AI chips. While very cool from a technology perspective, our analysts judged its near‑term relevance to most AI strategy teams as modest.</description>
+      <guid isPermaLink="false">ee541ac8a7a944a9173135d2c72bf54e</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notion creates more intelligent workspaces with Claude [ ~ ]</title>
+      <link>https://claude.com/customers/notion</link>
+      <description>The article demonstrates how Notion integrates Claude to shorten information search time and assist writing/QA workflows. Our analysts saw it more as a marketing showcase—interesting but not a must‑read for every AI leader.</description>
+      <guid isPermaLink="false">86d5df2d88acc876b84af88c41b5bca2</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Intuit built custom financial LLMs that cut latency 50% [ ~ ]</title>
+      <link>https://venturebeat.com/ai/how-intuit-built-custom-financial-llms-that-cut-latency-50-while-boosting</link>
+      <description>This is a strong use case of engineering optimization (reducing latency, improving domain accuracy), but for many leaders it lacks enough business context. Our analysts appreciated it as a technical optimization, though not universally actionable.</description>
+      <guid isPermaLink="false">1833517b7e4d3bf6bcb760c3c6830a6b</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The new org chart: Unlocking value with AI-native roles in the agentic era [ * ]</title>
+      <link>https://www.cio.com/article/4060162/the-new-org-chart-unlocking-value-with-ai-native-roles-in-the-agentic-era.html</link>
+      <description>This article argues for reorganizing teams with roles tailored to AI agents (e.g. orchestration, governance) rather than retrofitting old structures. Our analysts saw division: while it’s forward‑looking and not yet broadly applicable, analysts believed it’s important to help leaders think ahead about evolving org structures in the AI era.</description>
+      <guid isPermaLink="false">bdf32353719ab8e2ef8b86d911e4b3f5</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Gen AI Could Transform Learning and Development [ ! ]</title>
+      <link>https://hbr.org/2025/09/how-gen-ai-could-transform-learning-and-development</link>
+      <description>This article investigates how generative AI can reshape corporate learning by embedding personalization, prompting skills, and decision‑support into L&amp;D. Our analysts flagged it as mission-critical because many leaders are now scrambling to build AI literacy and culture—and this article provides initial underpinnings for doing that.</description>
+      <guid isPermaLink="false">4a910a34efab5459d772946e81ce4949</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Nvidia Is Backstopping America’s AI Boom [ ! ]</title>
+      <link>https://www.wsj.com/tech/ai/how-nvidia-is-backstopping-americas-ai-boom-875c1346</link>
+      <description>The piece explores NVIDIA’s strategic investments—especially into OpenAI and infrastructure—and how those investments amplify its revenue generation and influence over the AI stack. Our analysts emphasized that this article is essential for anyone tracking AI’s geopolitical and economic dynamics, as it reveals how capital, control, and hardware are intertwining in real time.</description>
+      <guid isPermaLink="false">83f39cad3a8c7de439114496966c4d71</guid>
+      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
