@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 25 Sep 2025 08:16:13 +0000</lastBuildDate>
-    <item>
-      <title>Oldcastle Accelerates Document Processing with Amazon Bedrock [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/oldcastle-accelerates-document-processing-with-amazon-bedrock/</link>
-      <description>This is a strong enterprise use case: moving from very low OCR accuracy (~30-40%) on unstructured documents to much higher accuracy and massive scale via combining OCR + LLM processing. Our analysts saw this as a “win case” that many organizations can replicate with unstructured data, showing immediate value.</description>
-      <guid isPermaLink="false">6752c6dac313e5d993a15d05fff9f892</guid>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On Working with Wizards [ ! ]</title>
-      <link>https://www.oneusefulthing.org/p/on-working-with-wizards</link>
-      <description>This reflection post pushes beyond “what AI does” to consider how humans should position themselves with respect to powerful AI agents (“wizards”) — when to call on them, when to use them as co-intelligence, and when to just be audience or inspector. Our analysts found the arguments resonant and important for leadership: decision rights, evaluating outputs, dealing with opacity, managing human-AI collaboration are going to be central.</description>
-      <guid isPermaLink="false">4b6d8e24d4fb4b4d60245e1b03dc572a</guid>
-      <pubDate>Fri, 12 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Skello uses Amazon Bedrock to query data in a multi‑tenant environment while keeping logical boundaries [ ~ ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-skello-uses-amazon-bedrock-to-query-data-in-a-multi-tenant-environment-while-keeping-logical-boundaries/</link>
-      <description>This article provides a practical case study on implementing generative AI for querying unstructured data in a multi-tenant environment while preserving logical data separation. Our analysts highlighted the absence of quantifiable performance metrics or clear business impact, which limits its strategic relevance to AI leaders.</description>
-      <guid isPermaLink="false">758e1811f5581b59d1c09bfcdee66e11</guid>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MobileLLM-R1 from Meta [ ~ ]</title>
-      <link>https://huggingface.co/facebook/MobileLLM-R1-950M</link>
-      <description>Meta’s model is aimed at efficient reasoning for smaller devices, fine‑tuned for scientific/mathematical tasks. It’s valuable for certain niches. Our analysts judged this as not yet broadly relevant outside specialized use or mobile/scientific tasks.</description>
-      <guid isPermaLink="false">84f41e1f8cadbd29291cabd5ad78d189</guid>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen3-Next: Towards Ultimate Training &amp; Inference Efficiency [ ~ ]</title>
-      <link>https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&amp;from=research.latest-advancements-list</link>
-      <description>This release presents strong architectural innovations (hybrid attention, sparse MoE, multi-token prediction) and shows large efficiency gains—much lower compute in training vs previous models, faster inference especially at long context lengths. However, our analysts saw it as incremental—useful if you're deep into model architectures or using Qwen models, but not broadly transformative.</description>
-      <guid isPermaLink="false">b0509d8db6f1693378f8d0bb554b51a4</guid>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VaultGemma: The world’s most capable differentially private LLM [ ~ ]</title>
-      <link>https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/</link>
-      <description>VaultGemma’s value comes from addressing one of AI’s most critical challenges—privacy—by being a large language model with strong differential privacy guarantees and a predictable tradeoff between noise, model size, and loss. While still in the research phase, tour analysts agreed this represents a meaningful step toward addressing AI privacy at scale.</description>
-      <guid isPermaLink="false">66771627a067de6a8ebbedf026bb57c7</guid>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 25 Sep 2025 16:14:38 +0000</lastBuildDate>
     <item>
       <title>Writing effective tools for agents — with agents [ * ]</title>
       <link>https://www.anthropic.com/engineering/writing-tools-for-agents</link>
@@ -358,6 +316,48 @@ Our analysts agreed that the next critical next phase is to close the gap betwee
       <description>The piece explores NVIDIA’s strategic investments—especially into OpenAI and infrastructure—and how those investments amplify its revenue generation and influence over the AI stack. Our analysts emphasized that this article is essential for anyone tracking AI’s geopolitical and economic dynamics, as it reveals how capital, control, and hardware are intertwining in real time.</description>
       <guid isPermaLink="false">83f39cad3a8c7de439114496966c4d71</guid>
       <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing LFM2‑2.6B: Redefining Efficiency in Language Models [ ~ ]</title>
+      <link>https://www.liquid.ai/blog/introducing-lfm2-2-6b-redefining-efficiency-in-language-models</link>
+      <description>Liquid AI, an MIT-founded startup, introduced a 2.6B parameter convolutional model aimed at efficient edge deployment, beating competitor models of similar size in performance. Our analysts acknowledged the technical novelty but noted the lack of adoption, use cases, or business traction—leaving it as a niche interest rather than a strategic priority for AI leaders.</description>
+      <guid isPermaLink="false">992818ca5fc060b653db44686f88eb4d</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build more powerful voice agents with the Gemini Live API [ * ]</title>
+      <link>https://x.com/GoogleAIStudio/status/1970545734736023564</link>
+      <description>Google’s new Gemini Live API enables developers to build real-time AI voice agents with low latency, emotional tone control, and context-rich conversation. Our analysts viewed this as an important evolution in multimodal AI, with implications for future chatbots and virtual assistants, and a sign that Google is regaining leadership in generative AI product innovation.</description>
+      <guid isPermaLink="false">576d6fe23e904b63bb113585fb45da97</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Transforming SAP Technical Documentation with GenAI: Accelerating knowledge generation for SAP Notes with Amazon Bedrock [ * ]</title>
+      <link>https://aws.amazon.com/blogs/awsforsap/transforming-sap-technical-documentation-with-genai-accelerating-knowledge-generation-for-sap-notes-with-amazon-bedrock/</link>
+      <description>SAP has partnered with AWS to apply generative AI to the summarization and delivery of technical documentation, targeting mobile-first use cases and legacy enterprise systems. Our analysts found the detailed implementation—especially around RAG, evaluation, and unstructured data—to be valuable for AI leaders modernizing complex internal knowledge assets, despite a lack of ROI data.</description>
+      <guid isPermaLink="false">36db85167f7f3f1e7ef45f952c44311b</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deutsche Bank delivers AI-powered financial research with DB Lumina [ * ]</title>
+      <link>https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina</link>
+      <description>Deutsche Bank’s DB Lumina integrates generative AI, RAG pipelines, and internal knowledge bases to assist analysts in generating financial research more efficiently and safely. Our analysts noted this as a well-architected and regulated example of AI in finance, though they held it back from Essential due to limited detail on business outcomes and adoption metrics.</description>
+      <guid isPermaLink="false">bb26f2bf918c361648541e116bab0084</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google’s Mixboard is an AI moodboard builder [ ! ]</title>
+      <link>https://www.theverge.com/news/783991/google-labs-mixboard-ai-design-canvas</link>
+      <description>Google has introduced Mixboard, a generative AI tool that enables users to create and manipulate visual concept boards from text prompts, signaling a shift toward visual-first communication. Our analysts highlighted its potential beyond marketing, emphasizing its relevance for communication across organizations and noting strong early user feedback and real-world utility for AI leaders.</description>
+      <guid isPermaLink="false">1e8a6c60531c8b5919f66ece679531cd</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Is Transforming Productivity, but Sales Remains a New Frontier [ ! ]</title>
+      <link>https://www.bain.com/insights/ai-transforming-productivity-sales-remains-new-frontier-technology-report-2025/</link>
+      <description>This article from Bain &amp; Company explores how generative AI is reshaping sales by increasing time spent selling and highlighting over two dozen use cases across the customer journey. Our analysts emphasized that AI in sales is shifting from efficiency to growth, making it a critical area for AI leaders to engage with revenue-driving strategies.</description>
+      <guid isPermaLink="false">6986286a115c8a6c895db35cec4df274</guid>
+      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

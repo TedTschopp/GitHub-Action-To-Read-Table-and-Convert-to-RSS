@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Is Transforming Productivity, but Sales Remains a New Frontier",
+        "links": [
+          "https://www.bain.com/insights/ai-transforming-productivity-sales-remains-new-frontier-technology-report-2025/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article from Bain & Company explores how generative AI is reshaping sales by increasing time spent selling and highlighting over two dozen use cases across the customer journey. Our analysts emphasized that AI in sales is shifting from efficiency to growth, making it a critical area for AI leaders to engage with revenue-driving strategies.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Google’s Mixboard is an AI moodboard builder",
+        "links": [
+          "https://www.theverge.com/news/783991/google-labs-mixboard-ai-design-canvas"
+        ]
+      },
+      "Rationale": {
+        "text": "Google has introduced Mixboard, a generative AI tool that enables users to create and manipulate visual concept boards from text prompts, signaling a shift toward visual-first communication. Our analysts highlighted its potential beyond marketing, emphasizing its relevance for communication across organizations and noting strong early user feedback and real-world utility for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Deutsche Bank delivers AI-powered financial research with DB Lumina",
+        "links": [
+          "https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina"
+        ]
+      },
+      "Rationale": {
+        "text": "Deutsche Bank’s DB Lumina integrates generative AI, RAG pipelines, and internal knowledge bases to assist analysts in generating financial research more efficiently and safely. Our analysts noted this as a well-architected and regulated example of AI in finance, though they held it back from Essential due to limited detail on business outcomes and adoption metrics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Transforming SAP Technical Documentation with GenAI: Accelerating knowledge generation for SAP Notes with Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/awsforsap/transforming-sap-technical-documentation-with-genai-accelerating-knowledge-generation-for-sap-notes-with-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "SAP has partnered with AWS to apply generative AI to the summarization and delivery of technical documentation, targeting mobile-first use cases and legacy enterprise systems. Our analysts found the detailed implementation—especially around RAG, evaluation, and unstructured data—to be valuable for AI leaders modernizing complex internal knowledge assets, despite a lack of ROI data.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Build more powerful voice agents with the Gemini Live API",
+        "links": [
+          "https://x.com/GoogleAIStudio/status/1970545734736023564"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s new Gemini Live API enables developers to build real-time AI voice agents with low latency, emotional tone control, and context-rich conversation. Our analysts viewed this as an important evolution in multimodal AI, with implications for future chatbots and virtual assistants, and a sign that Google is regaining leadership in generative AI product innovation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/25/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing LFM2‑2.6B: Redefining Efficiency in Language Models",
+        "links": [
+          "https://www.liquid.ai/blog/introducing-lfm2-2-6b-redefining-efficiency-in-language-models"
+        ]
+      },
+      "Rationale": {
+        "text": "Liquid AI, an MIT-founded startup, introduced a 2.6B parameter convolutional model aimed at efficient edge deployment, beating competitor models of similar size in performance. Our analysts acknowledged the technical novelty but noted the lack of adoption, use cases, or business traction—leaving it as a niche interest rather than a strategic priority for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/24/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article provides best practices around designing tools in agentic systems—how agents pick tools, how to build and test them, and how agents themselves can help refine these tools. It’s practical for teams building real agent architectures. Our analysts agreed that it’s practical for teams building real agent architectures though not necessarily urgent for every executive at this moment.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "VaultGemma: The world’s most capable differentially private LLM",
-        "links": [
-          "https://research.google/blog/vaultgemma-the-worlds-most-capable-differentially-private-llm/"
-        ]
-      },
-      "Rationale": {
-        "text": "VaultGemma’s value comes from addressing one of AI’s most critical challenges—privacy—by being a large language model with strong differential privacy guarantees and a predictable tradeoff between noise, model size, and loss. While still in the research phase, tour analysts agreed this represents a meaningful step toward addressing AI privacy at scale.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Qwen3-Next: Towards Ultimate Training & Inference Efficiency",
-        "links": [
-          "https://qwen.ai/blog?id=4074cca80393150c248e508aa62983f9cb7d27cd&from=research.latest-advancements-list"
-        ]
-      },
-      "Rationale": {
-        "text": "This release presents strong architectural innovations (hybrid attention, sparse MoE, multi-token prediction) and shows large efficiency gains—much lower compute in training vs previous models, faster inference especially at long context lengths. However, our analysts saw it as incremental—useful if you're deep into model architectures or using Qwen models, but not broadly transformative.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "MobileLLM-R1 from Meta",
-        "links": [
-          "https://huggingface.co/facebook/MobileLLM-R1-950M"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta’s model is aimed at efficient reasoning for smaller devices, fine‑tuned for scientific/mathematical tasks. It’s valuable for certain niches. Our analysts judged this as not yet broadly relevant outside specialized use or mobile/scientific tasks.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Skello uses Amazon Bedrock to query data in a multi‑tenant environment while keeping logical boundaries",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-skello-uses-amazon-bedrock-to-query-data-in-a-multi-tenant-environment-while-keeping-logical-boundaries/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article provides a practical case study on implementing generative AI for querying unstructured data in a multi-tenant environment while preserving logical data separation. Our analysts highlighted the absence of quantifiable performance metrics or clear business impact, which limits its strategic relevance to AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "On Working with Wizards",
-        "links": [
-          "https://www.oneusefulthing.org/p/on-working-with-wizards"
-        ]
-      },
-      "Rationale": {
-        "text": "This reflection post pushes beyond “what AI does” to consider how humans should position themselves with respect to powerful AI agents (“wizards”) — when to call on them, when to use them as co-intelligence, and when to just be audience or inspector. Our analysts found the arguments resonant and important for leadership: decision rights, evaluating outputs, dealing with opacity, managing human-AI collaboration are going to be central.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/12/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Oldcastle Accelerates Document Processing with Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/oldcastle-accelerates-document-processing-with-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "This is a strong enterprise use case: moving from very low OCR accuracy (~30-40%) on unstructured documents to much higher accuracy and massive scale via combining OCR + LLM processing. Our analysts saw this as a “win case” that many organizations can replicate with unstructured data, showing immediate value.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-25T08:17:34.406359+00:00"
+  "timestamp": "2025-09-25T16:15:49.493294+00:00"
 }
