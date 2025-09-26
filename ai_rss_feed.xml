@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 26 Sep 2025 08:17:59 +0000</lastBuildDate>
-    <item>
-      <title>Writing effective tools for agents — with agents [ * ]</title>
-      <link>https://www.anthropic.com/engineering/writing-tools-for-agents</link>
-      <description>This article provides best practices around designing tools in agentic systems—how agents pick tools, how to build and test them, and how agents themselves can help refine these tools. It’s practical for teams building real agent architectures. Our analysts agreed that it’s practical for teams building real agent architectures though not necessarily urgent for every executive at this moment.</description>
-      <guid isPermaLink="false">efddc7fe6b5d047d5814aa21b006fde7</guid>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI’s UI Problem Is Actually A New Era of Software [ ! ]</title>
-      <link>https://menlovc.com/perspective/ais-ui-problem-is-actually-a-new-era-of-software/</link>
-      <description>This article emphasizes that the true value in AI products is increasingly shifting from the visible user interface to the underlying architecture—specifically how prompts are grounded, tools orchestrated, and logic composed, often referred to as the "middleware" or "work layer." Our analysts highlighted that this foundational layer is becoming critical to the effectiveness of AI systems, noting that many platforms lack robustness in the logic and orchestration that drive real functionality—an insight AI leaders must prioritize.</description>
-      <guid isPermaLink="false">d14f4b1ea1a81233047cd1e70f45c0ee</guid>
-      <pubDate>Mon, 15 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How successful Sales Teams Are Embracing Agentic AI [ ~ ]</title>
-      <link>https://hbr.org/2025/09/how-successful-sales-teams-are-embracing-agentic-ai</link>
-      <description>This HBR article outlines the potential of agentic AI in transforming sales but offers few specifics or case studies to show how that transformation is actually taking place. While it may be useful to AI leaders who haven’t yet begun thinking about AI in the sales funnel—a group our analysts believe is now in the minority—it lacks the depth or new insights needed to guide those already exploring this workflow.</description>
-      <guid isPermaLink="false">355f08b236187d4c68dd9141a7d96439</guid>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Jupyter Agents: training LLMs to reason with notebooks [ ~ ]</title>
-      <link>https://huggingface.co/blog/jupyter-agent-2</link>
-      <description>Hugging Face presents an experimental approach to teaching large language models how to reason inside Jupyter notebooks, focused on enabling scientific replication and code execution within notebooks. Our analysts found this esoteric and mostly relevant to a niche audience of data scientists working in early-stage environments.</description>
-      <guid isPermaLink="false">d40a65cca050907e61e169ed9b966b81</guid>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The LinkedIn Generative AI Application Tech Stack: Extending to Build AI Agents [ * ]</title>
-      <link>https://www.linkedin.com/blog/engineering/generative-ai/the-linkedin-generative-ai-application-tech-stack-extending-to-build-ai-agents</link>
-      <description>LinkedIn shares its internal approach to building agentic AI systems at scale, detailing how it leverages LangChain, telemetry, and open-source tools to monitor and improve AI agent performance. Our analysts found this a strong technical case study with actionable insights for teams looking to move beyond prototypes into robust, production-grade AI workflows.</description>
-      <guid isPermaLink="false">2e550fe927f3478487168faba55d9393</guid>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing upgrades to Codex [ * ]</title>
-      <link>https://openai.com/index/introducing-upgrades-to-codex/</link>
-      <description>OpenAI has launched substantial upgrades to Codex, including GPT-5 integration, enhanced CLI tools, cross-platform syncing, and support for mobile environments. Our analysts saw this as a meaningful update for AI-assisted software development, although more evolutionary than revolutionary, and noted that it positions OpenAI to better compete with Claude.</description>
-      <guid isPermaLink="false">d76fb86b3abf6d24c1bb41eb21fd65c1</guid>
-      <pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 26 Sep 2025 16:16:14 +0000</lastBuildDate>
     <item>
       <title>Why versioning AI agents is the CIO’s next big challenge [ ! ]</title>
       <link>https://www.cio.com/article/4056453/why-versioning-ai-agents-is-the-cios-next-big-challenge.html</link>
@@ -358,6 +316,48 @@ Our analysts agreed that the next critical next phase is to close the gap betwee
       <description>This article from Bain &amp; Company explores how generative AI is reshaping sales by increasing time spent selling and highlighting over two dozen use cases across the customer journey. Our analysts emphasized that AI in sales is shifting from efficiency to growth, making it a critical area for AI leaders to engage with revenue-driving strategies.</description>
       <guid isPermaLink="false">6986286a115c8a6c895db35cec4df274</guid>
       <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CWM: An Open‑Weights LLM for Research on Code Generation with World Models [ ~ ]</title>
+      <link>https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/</link>
+      <description>Meta’s 32B open‑weights model trained on code + world models enables execution traces in environments (e.g. Docker). Our analysts found this valuable to the developer community, but less immediately relevant for strategy-level readers.</description>
+      <guid isPermaLink="false">094bb6496d10f9a3fa17d9117e093394</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ENEOS Materials brings ChatGPT Enterprise to manufacturing [ ~ ]</title>
+      <link>https://openai.com/index/eneos-materials/</link>
+      <description>A use case of ChatGPT in industrial operations in Japan, showing cross‑language support and internal applications. Our analysts liked it as a real-world example, though lacking strong economic detail.</description>
+      <guid isPermaLink="false">e52e85522a6ffcef60e14d3d1e684b53</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Autoregressive‑to‑Diffusion Vision Language Models [ ~ ]</title>
+      <link>https://runwayml.com/research/autoregressive-to-diffusion-vlms</link>
+      <description>A technical paper proposing an efficient pipeline for going from vision to language via diffusion / autoregressive models. Our analysts viewed it as “nice algorithmic innovation” but not broadly disruptive for leadership priorities.</description>
+      <guid isPermaLink="false">9354a04321a4ae94359c509f9e9eebcc</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Measuring the performance of our models on real‑world tasks [ * ]</title>
+      <link>https://openai.com/index/gdpval/</link>
+      <description>OpenAI introduces “GDPval,” a framework evaluating AI impact across 44 occupations via 1,320 specialized tasks. Our analysts considered it smart and useful for benchmarking value, though not yet critical for most AI leaders right now.</description>
+      <guid isPermaLink="false">f29f62b36172f93cdbb8fafac05faed1</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building the Next Generation of Physical Agents with Gemini Robotics‑ER 1.5 [ * ]</title>
+      <link>https://developers.googleblog.com/en/building-the-next-generation-of-physical-agents-with-gemini-robotics-er-15/</link>
+      <description>Gemini Robotics‑ER 1.5 is the first open embodied reasoning model that lets robots perceive, plan, use tools, and act in complex physical environments. Our analysts weighed its significance (combining language models + physical planning) and discussed whether it should be essential and ultimately rated “important” because the domain of robotics still touches fewer AI leaders today but agreed that in the field of Robotics, this is essential news.</description>
+      <guid isPermaLink="false">891895fde89d5e85482cb0edb544288f</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing ChatGPT Pulse [ ! ]</title>
+      <link>https://openai.com/index/introducing-chatgpt-pulse/</link>
+      <description>This introduction marks a shift in ChatGPT’s role from reactive tool to proactive agent: Pulse conducts background research using your chat history, memory, and connected apps (e.g. calendar) and surfaces daily personalized visual cards. Our analysts saw this as a foundational change in human–AI interaction and a preview of what proactive digital intelligence might mean for both consumers and enterprises.</description>
+      <guid isPermaLink="false">30c571383e97eb99da45222ed2e11837</guid>
+      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

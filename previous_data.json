@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "09/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing ChatGPT Pulse",
+        "links": [
+          "https://openai.com/index/introducing-chatgpt-pulse/"
+        ]
+      },
+      "Rationale": {
+        "text": "This introduction marks a shift in ChatGPT’s role from reactive tool to proactive agent: Pulse conducts background research using your chat history, memory, and connected apps (e.g. calendar) and surfaces daily personalized visual cards. Our analysts saw this as a foundational change in human–AI interaction and a preview of what proactive digital intelligence might mean for both consumers and enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Building the Next Generation of Physical Agents with Gemini Robotics‑ER 1.5",
+        "links": [
+          "https://developers.googleblog.com/en/building-the-next-generation-of-physical-agents-with-gemini-robotics-er-15/"
+        ]
+      },
+      "Rationale": {
+        "text": "Gemini Robotics‑ER 1.5 is the first open embodied reasoning model that lets robots perceive, plan, use tools, and act in complex physical environments. Our analysts weighed its significance (combining language models + physical planning) and discussed whether it should be essential and ultimately rated “important” because the domain of robotics still touches fewer AI leaders today but agreed that in the field of Robotics, this is essential news.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Measuring the performance of our models on real‑world tasks",
+        "links": [
+          "https://openai.com/index/gdpval/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI introduces “GDPval,” a framework evaluating AI impact across 44 occupations via 1,320 specialized tasks. Our analysts considered it smart and useful for benchmarking value, though not yet critical for most AI leaders right now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Autoregressive‑to‑Diffusion Vision Language Models",
+        "links": [
+          "https://runwayml.com/research/autoregressive-to-diffusion-vlms"
+        ]
+      },
+      "Rationale": {
+        "text": "A technical paper proposing an efficient pipeline for going from vision to language via diffusion / autoregressive models. Our analysts viewed it as “nice algorithmic innovation” but not broadly disruptive for leadership priorities.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "ENEOS Materials brings ChatGPT Enterprise to manufacturing",
+        "links": [
+          "https://openai.com/index/eneos-materials/"
+        ]
+      },
+      "Rationale": {
+        "text": "A use case of ChatGPT in industrial operations in Japan, showing cross‑language support and internal applications. Our analysts liked it as a real-world example, though lacking strong economic detail.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "09/26/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "CWM: An Open‑Weights LLM for Research on Code Generation with World Models",
+        "links": [
+          "https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s 32B open‑weights model trained on code + world models enables execution traces in environments (e.g. Docker). Our analysts found this valuable to the developer community, but less immediately relevant for strategy-level readers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/25/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article highlights the emerging challenge of versioning AI agents, which unlike traditional software, can evolve unpredictably due to changes in models, prompts, tools, and workflows. Our analysts emphasized this is a must-read for AI leaders and CIOs as agent behavior can shift overnight, and current DevOps tools aren’t equipped to manage the associated compliance and operational risks.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing upgrades to Codex",
-        "links": [
-          "https://openai.com/index/introducing-upgrades-to-codex/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI has launched substantial upgrades to Codex, including GPT-5 integration, enhanced CLI tools, cross-platform syncing, and support for mobile environments. Our analysts saw this as a meaningful update for AI-assisted software development, although more evolutionary than revolutionary, and noted that it positions OpenAI to better compete with Claude.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The LinkedIn Generative AI Application Tech Stack: Extending to Build AI Agents",
-        "links": [
-          "https://www.linkedin.com/blog/engineering/generative-ai/the-linkedin-generative-ai-application-tech-stack-extending-to-build-ai-agents"
-        ]
-      },
-      "Rationale": {
-        "text": "LinkedIn shares its internal approach to building agentic AI systems at scale, detailing how it leverages LangChain, telemetry, and open-source tools to monitor and improve AI agent performance. Our analysts found this a strong technical case study with actionable insights for teams looking to move beyond prototypes into robust, production-grade AI workflows.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Jupyter Agents: training LLMs to reason with notebooks",
-        "links": [
-          "https://huggingface.co/blog/jupyter-agent-2"
-        ]
-      },
-      "Rationale": {
-        "text": "Hugging Face presents an experimental approach to teaching large language models how to reason inside Jupyter notebooks, focused on enabling scientific replication and code execution within notebooks. Our analysts found this esoteric and mostly relevant to a niche audience of data scientists working in early-stage environments.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How successful Sales Teams Are Embracing Agentic AI",
-        "links": [
-          "https://hbr.org/2025/09/how-successful-sales-teams-are-embracing-agentic-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR article outlines the potential of agentic AI in transforming sales but offers few specifics or case studies to show how that transformation is actually taking place. While it may be useful to AI leaders who haven’t yet begun thinking about AI in the sales funnel—a group our analysts believe is now in the minority—it lacks the depth or new insights needed to guide those already exploring this workflow.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "AI’s UI Problem Is Actually A New Era of Software",
-        "links": [
-          "https://menlovc.com/perspective/ais-ui-problem-is-actually-a-new-era-of-software/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article emphasizes that the true value in AI products is increasingly shifting from the visible user interface to the underlying architecture—specifically how prompts are grounded, tools orchestrated, and logic composed, often referred to as the \"middleware\" or \"work layer.\" Our analysts highlighted that this foundational layer is becoming critical to the effectiveness of AI systems, noting that many platforms lack robustness in the logic and orchestration that drive real functionality—an insight AI leaders must prioritize.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Writing effective tools for agents — with agents",
-        "links": [
-          "https://www.anthropic.com/engineering/writing-tools-for-agents"
-        ]
-      },
-      "Rationale": {
-        "text": "This article provides best practices around designing tools in agentic systems—how agents pick tools, how to build and test them, and how agents themselves can help refine these tools. It’s practical for teams building real agent architectures. Our analysts agreed that it’s practical for teams building real agent architectures though not necessarily urgent for every executive at this moment.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-09-26T08:19:14.229708+00:00"
+  "timestamp": "2025-09-26T16:17:27.144310+00:00"
 }
