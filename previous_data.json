@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Sora 2 is here",
+        "links": [
+          "https://openai.com/index/sora-2/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has unveiled Sora 2, an upgraded version of its generative video model with dramatic improvements in motion accuracy, scene composition, and prompt handling. Our analysts agreed that the introduction of Cameos (letting users insert themselves or others into videos) and a new social platform, signal a shift toward consumer-grade AI video creation and sharing — making this a critical development for leaders watching the future of AI-driven content creation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How PropHero built an intelligent property investment advisor with continuous evaluation using Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-prophero-built-an-intelligent-property-investment-advisor-with-continuous-evaluation-using-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "PropHero demonstrates a practical application of AI in real estate by building a generative AI-driven advisor using Amazon Bedrock. Our analysts highlighted the thoughtful orchestration of a multi-agent system, the deliberate selection of foundation models per agent to optimize cost-performance, and the use of detailed evaluation metrics from Rajas — making this a textbook example of how to build and measure business value with generative AI.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "GLM-4.6: Advanced Agentic, Reasoning and Coding Capabilities",
+        "links": [
+          "https://z.ai/blog/glm-4.6"
+        ]
+      },
+      "Rationale": {
+        "text": "Zhipu AI's new GLM-4.6 model shows advances in agentic behavior, multi-step reasoning, and programming skills, positioning it as a strong open alternative to GPT-4. Our analysts noted that as one of China’s top three AI developers, Zhipu has produced a model that performs just below Claude 4.5 in coding benchmarks — making this a rising model to watch closely in the global LLM race.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing parental controls",
+        "links": [
+          "https://openai.com/index/introducing-parental-controls/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has launched parental control features for ChatGPT, allowing parents to manage access and tailor AI interactions for teens and kids using the app. Our analysts were skeptical about the real-world effectiveness of these controls, citing the general gap in AI literacy among parents and the ease with which teenagers can bypass restrictions — making this a socially meaningful update, but not directly relevant for AI leaders or enterprise applications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "DeepSeek-V3.2-Exp",
+        "links": [
+          "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp"
+        ]
+      },
+      "Rationale": {
+        "text": "DeepSeek has released version 3.2 of its experimental large language model, highlighting optimizations in inference speed and support for advanced reasoning benchmarks. Our analysts noted the clever use of sparse attention techniques to lower computational cost while maintaining quality, but emphasized that its Chinese origin limits immediate relevance for AI leaders focused on enterprise adoption in Western markets.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/01/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "California's Newsom signs law requiring AI safety disclosures",
+        "links": [
+          "https://www.reuters.com/legal/litigation/californias-newsom-signs-law-requiring-ai-safety-disclosures-2025-09-29/"
+        ]
+      },
+      "Rationale": {
+        "text": "A new California law mandates transparency from companies building large-scale AI models, marking one of the first legislative moves in the U.S. focused on AI safety reporting. However, our analysts pointed out the lack of clear enforcement mechanisms and viewed it as largely symbolic — reinforcing the need for more robust and coordinated federal-level AI regulation to meaningfully shape AI ethics and safety standards.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "09/26/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This is a powerful case study showing how generative AI automates a very manual, tedious comparison task — Verisk now uses a chat‑style assistant to highlight changes in ISO rating documents, reducing what used to take days down to hours. Our analysts emphasized this as a useful, immediately applicable example: it shows clear ROI, complexity being handled, and value to users who don’t necessarily have deep AI expertise — making it essential reading.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI will start asking for your ID in some cases as part of ChatGPT protections for teens",
-        "links": [
-          "https://venturebeat.com/ai/openai-will-start-asking-for-your-id-in-some-cases-as-part-of-chatgpt"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI is introducing age‑prediction systems, automatic restrictions for under‑18 users (such as disabling flirtatious content, self‑harm instructions), parental controls, and in some cases ID verification. This is a big move in safety, ethics, and regulation for chatbots. Our analysts agreed that leaders need to know this, though it doesn’t directly impact enterprise workflows much — its importance lies in policy, user expectations, safety, and potentially compliance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Generating bigger and better worlds",
-        "links": [
-          "https://www.worldlabs.ai/blog/bigger-better-worlds"
-        ]
-      },
-      "Rationale": {
-        "text": "This article describes new capabilities for generative models to build richer, more immersive three‑dimensional or spatial environments, allowing creative use in movies, simulations, etc. It points to where creative AI is moving beyond text and 2D images. Our analysts were impressed by the potential, especially for creatives and media, and saw it as part of a vector of value creation that is likely to matter more over time.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Rise of Subagents",
-        "links": [
-          "https://www.philschmid.de/the-rise-of-subagents"
-        ]
-      },
-      "Rationale": {
-        "text": "This article introduces subagents and explores design questions like autonomy, message passing, and what subagents might mean for future architecture. Our analysts found it intellectually interesting but felt it lacked immediate practical application, or clear instruction on what to do with the ideas.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Virtual Agent Economies",
-        "links": [
-          "https://arxiv.org/abs/2509.10147"
-        ]
-      },
-      "Rationale": {
-        "text": "This is a theoretical framework paper from Google proposing a \"sandbox economy\" where AI agents interact economically, highlighting concepts like permeability and emergent agent behavior. Our analysts criticized it as a lightweight rehash of older economic ideas, saying it lacked grounding in real-world AI applications and did not offer actionable insights — making it a purely speculative read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How People Use ChatGPT",
-        "links": [
-          "https://cdn.openai.com/pdf/a253471f-8260-40c6-a2cc-aa93fe9f142e/economic-research-chatgpt-usage-paper.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "Based on an analysis of billions of data points across 700 million users, this academic study provides deep insights into how ChatGPT is used globally—for information seeking, decision support, writing assistance, and tutoring. Our analysts called this a foundational resource for understanding AI adoption, habit formation, and emerging use cases across user demographics.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Why versioning AI agents is the CIO’s next big challenge",
-        "links": [
-          "https://www.cio.com/article/4056453/why-versioning-ai-agents-is-the-cios-next-big-challenge.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This article highlights the emerging challenge of versioning AI agents, which unlike traditional software, can evolve unpredictably due to changes in models, prompts, tools, and workflows. Our analysts emphasized this is a must-read for AI leaders and CIOs as agent behavior can shift overnight, and current DevOps tools aren’t equipped to manage the associated compliance and operational risks.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-01T08:17:41.626422+00:00"
+  "timestamp": "2025-10-01T16:17:58.135315+00:00"
 }
