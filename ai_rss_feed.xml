@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 02 Oct 2025 16:14:10 +0000</lastBuildDate>
-    <item>
-      <title>Streamline access to ISO‑rating content changes with Verisk rating insights and Amazon Bedrock [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/streamline-access-to-iso-rating-content-changes-with-verisk-rating-insights-and-amazon-bedrock/</link>
-      <description>This is a powerful case study showing how generative AI automates a very manual, tedious comparison task — Verisk now uses a chat‑style assistant to highlight changes in ISO rating documents, reducing what used to take days down to hours. Our analysts emphasized this as a useful, immediately applicable example: it shows clear ROI, complexity being handled, and value to users who don’t necessarily have deep AI expertise — making it essential reading.</description>
-      <guid isPermaLink="false">438fe67a6329caa09754e837cff1d709</guid>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Economic Index report: Uneven geographic and enterprise AI adoption [ ! ]</title>
-      <link>https://www.anthropic.com/research/anthropic-economic-index-september-2025-report</link>
-      <description>This report reveals detailed, real‑world data from over 150 countries and all U.S. states on how Claude.ai and enterprise APIs are being used, showing not only what tasks are growing (education, science, coding) but also revealing large geographic/socioeconomic disparities in adoption. Our analysts highlighted that this kind of fine‑grained, open data is hugely informative, especially for seeing where AI is taking off vs where it’s lagging — making this critical for leaders thinking about economic impact and equitable access.</description>
-      <guid isPermaLink="false">6e772c24e31aebacff266fb1d7aec3f0</guid>
-      <pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Goldman Sachs bankers explore limits of AI: ‘The risk is over-reliance’ [ ~ ]</title>
-      <link>https://www.ft.com/content/d570c5a6-02ad-4a28-8129-2f1a02e63603</link>
-      <description>The article shares anecdotes about how some Goldman Sachs bankers are experimenting with GenAI to accelerate work but emphasizes concerns around over-reliance and lack of auditability. Our analysts noted it lacks depth on technical strategy or enterprise-wide implementation and felt it was more of a soft PR piece than a meaningful case study.</description>
-      <guid isPermaLink="false">332a4ea265ea38a9b772cdc06d87250c</guid>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Buy, boost, or build? Choose your path to generative AI [ ~ ]</title>
-      <link>https://mitsloan.mit.edu/ideas-made-to-matter/buy-boost-or-build-choose-your-path-to-generative-ai</link>
-      <description>This article presents a basic strategic framework for GenAI adoption—buy, boost, or build—but offers no new insight for current enterprise AI leaders. Our analysts felt the framing was dated and oversimplified, making it more useful for beginners than for decision-makers deep in implementation.</description>
-      <guid isPermaLink="false">9ec7c5ffa6b369edd64ba784f907d2a3</guid>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cox Automotive transforms car sales with Claude in Amazon Bedrock [ * ]</title>
-      <link>https://claude.com/customers/cox-automotive</link>
-      <description>Cox Automotive is using Claude on Amazon Bedrock to generate personalized listings, customer emails, and marketing content in real time. While the article is more high-level and promotional, our analysts agreed it demonstrates growing GenAI adoption in traditional industries like automotive retail.</description>
-      <guid isPermaLink="false">2c2e039c726deb02b2d27fac570e870e</guid>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How msg enhanced HR workforce transformation with Amazon Bedrock and msg.ProfileMap [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-msg-enhanced-hr-workforce-transformation-with-amazon-bedrock-and-msg-profilemap/</link>
-      <description>This case study demonstrates how msg used Amazon Bedrock to automate HR workforce planning with structured profiling and AI-driven validation workflows, improving data accuracy to 95.5%. Our analysts highlighted it as a benchmark example of enterprise-grade GenAI deployment, with measurable business impact and a clear integration path for regulated industries.</description>
-      <guid isPermaLink="false">507826d6ea10eaf6cb709f854e1c50f1</guid>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 03 Oct 2025 00:53:35 +0000</lastBuildDate>
     <item>
       <title>The Anti-ChatGPT: Thomson Reuters' multi-agent system slashes 20-hour tasks to 10 minutes [ ! ]</title>
       <link>https://venturebeat.com/ai/the-anti-chatgpt-thomson-reuters-multi-agent-system-slashes-20-hour-tasks-to</link>
@@ -358,6 +316,48 @@ Our analysts agreed that the next critical next phase is to close the gap betwee
       <description>OpenAI has unveiled Sora 2, an upgraded version of its generative video model with dramatic improvements in motion accuracy, scene composition, and prompt handling. Our analysts agreed that the introduction of Cameos (letting users insert themselves or others into videos) and a new social platform, signal a shift toward consumer-grade AI video creation and sharing — making this a critical development for leaders watching the future of AI-driven content creation.</description>
       <guid isPermaLink="false">c1086d1f31ae6b843e8138d004461516</guid>
       <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft retires AutoGen and debuts Agent Framework to unify and govern enterprise AI agents [ ~ ]</title>
+      <link>https://venturebeat.com/ai/microsoft-retires-autogen-and-debuts-agent-framework-to-unify-and-govern</link>
+      <description>Microsoft’s new Agent Framework consolidates its agent tools into a more unified and secure environment, with features like task adherence and PII detection. Despite being a notable evolution, our analysts saw it as a rebranding effort and more relevant to existing Azure users than the broader AI community.</description>
+      <guid isPermaLink="false">024530fc42c4a867b24490a8b60a9be1</guid>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LFM2‑Audio‑1.5B from Liquid AI [ ~ ]</title>
+      <link>https://huggingface.co/LiquidAI/LFM2-Audio-1.5B</link>
+      <description>Liquid AI’s new audio model joins a growing family of open-source multimodal models but lacks detailed benchmarks or differentiators. The discussion concluded it’s a watchlist item rather than a near-term driver of AI innovation or adoption.</description>
+      <guid isPermaLink="false">b4ddd5190708285d1c2313836be2bf05</guid>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Apriel‑1.5‑15b‑Thinker – Mid training is all you need! [ ~ ]</title>
+      <link>https://huggingface.co/ServiceNow-AI/Apriel-1.5-15b-Thinker</link>
+      <description>ServiceNow’s new 15B parameter model performs well on reasoning tasks and introduces efficient mid-training techniques. However, our analysts found its value incremental in a saturated small model market, noting limited enterprise adoption so far and lack of distinctive application context.</description>
+      <guid isPermaLink="false">fce7e9b6e0efd6af939e26187853020a</guid>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The anatomy of a personal health agent [ ! ]</title>
+      <link>https://research.google/blog/the-anatomy-of-a-personal-health-agent</link>
+      <description>Google’s latest research showcases an AI Personal Health Agent that combines personal health data, symptoms, and diagnostics to offer tailored wellness insights. Though targeted at healthcare, our analysts viewed its multi-agent architecture as highly generalizable across industries, reinforcing the rise of domain-specific AI agent ecosystems.</description>
+      <guid isPermaLink="false">5064c6e302c2c915cc2d2489a89723c2</guid>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Effective context engineering for AI agents [ ! ]</title>
+      <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
+      <description>Anthropic outlines how to optimize AI agents by focusing on “context engineering” rather than just prompt design, improving coherence and performance in multi-agent systems. Our analysts emphasized this shift as foundational for enterprise AI, especially in workflows requiring task memory, inference layering, and state management.</description>
+      <guid isPermaLink="false">a56a18231ddde1b44a8bc850baab9e09</guid>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Real AI Agents and Real Work [ ! ]</title>
+      <link>https://www.oneusefulthing.org/p/real-ai-agents-and-real-work?s=09</link>
+      <description>This article argues that AI agents have moved beyond task support into executing meaningful, standalone work—such as creating presentations or replicating academic research. Our analysts agreed it marks a critical inflection point in the AI landscape, with practical examples proving agents are now delivering tangible business outcomes.</description>
+      <guid isPermaLink="false">d352e4470d7363d1e6887e23c0d7d9a2</guid>
+      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
