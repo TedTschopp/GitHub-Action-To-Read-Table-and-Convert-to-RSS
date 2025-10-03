@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "JPMorgan Chase's blueprint to become the world's first fully AI-powered megabank",
+        "links": [
+          "https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html"
+        ]
+      },
+      "Rationale": {
+        "text": "JPMorgan is aiming to become the first fully AI-integrated megabank, applying generative AI across 250,000 employees with tools like secure chatbots and internal agents. Our analysts emphasized this as a rare example of CEO-led AI transformation at scale, making it a must-watch case for AI leaders, especially in regulated industries.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Hexagon Automates Manufacturing Standard Operating Procedures with AWS Generative AI",
+        "links": [
+          "https://aws.amazon.com/blogs/industries/hexagon-automates-manufacturing-standard-operating-procedures-with-aws-generative-ai/"
+        ]
+      },
+      "Rationale": {
+        "text": "This AWS case study showcases how Hexagon used generative AI to digitize SOPs, achieving over 90% automation accuracy in transforming manufacturing operating procedure documents. Our analysts found the technical architecture informative and forwardable, despite the lack of detailed business impact metrics or long-term maintenance discussion.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The AI Application Spending Report: Where Startup Dollars Really Go",
+        "links": [
+          "https://a16z.com/the-ai-application-spending-report-where-startup-dollars-really-go/"
+        ]
+      },
+      "Rationale": {
+        "text": "This report from Andreessen Horowitz explores startup spending trends on AI vendors and tooling, offering insight into where early AI investments are flowing. Our analysts saw it as a snapshot with limited strategic utility, better suited for context on tool popularity than enterprise decision-making.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "What Happens When AI Sets Wages",
+        "links": [
+          "https://hbr.org/2025/10/what-happens-when-ai-sets-wages"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR article investigates the growing use of AI to determine worker wages, touching on themes of fairness, transparency, and bias. While thought-provoking, our analysts agreed it remains largely editorial and narrowly scoped, with limited immediate impact for enterprise AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Tinker is a training API for developers",
+        "links": [
+          "https://thinkingmachines.ai/tinker/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Tinker, developed by Thinking Machines (founded by former OpenAI CTO Mira Murati), offers developers a managed API to fine-tune large language models with minimal infrastructure setup. Our analysts found it innovative but premature for enterprise use, citing unclear differentiation, data security risks, and pricing volatility.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "IBM Granite 4.0: hyper-efficient, high performance hybrid models for enterprise",
+        "links": [
+          "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
+        ]
+      },
+      "Rationale": {
+        "text": "IBM's new Granite 4.0 models leverage a hybrid Transformer-Mamba architecture for greater efficiency and extended context handling. Despite technical promise and enterprise positioning, our analysts noted performance gaps versus leaders like OpenAI and Anthropic, making this more of a product evolution than a market disruptor at present.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/02/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Google is redesigning Chrome to embed AI deeply: features like Gemini in Chrome, the \"AI Mode\" in the omnibox/address bar, better cross‑tab understanding, useful summaries, and safety enhancements. Our analysts flagged this development as under‑reported but strategically major -since the browser is a primary access point for users. this shift influences both user experience and the competitive landscape between AI platforms.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Isaac 0.1",
-        "links": [
-          "https://www.perceptron.inc/blog/introducing-isaac-0-1"
-        ]
-      },
-      "Rationale": {
-        "text": "Isaac 0.1 is a small (~2B parameter) multimodal model capable of understanding images and answering questions, with potential for edge deployment in factories etc. But the article lacks detailed info about training methods, robustness, and broader use cases. Our analysts viewed this as promising, particularly for pushing intelligence to the physical/edge realm, but considered it more of a watch‑this‑space.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How we are building Humanoid AI skills with DreamControl",
-        "links": [
-          "https://www.generalrobotics.company/post/dreamcontrol-building-humanoid-ai-skills?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "The article discusses robotics, specifically training humanoid motion using diffusion models, reinforcement learning for selecting optimal trajectories, and transferring those capabilities into real-world environments—signaling a move beyond experimentation toward practical control. However, our analysts noted that robotics is a specialized domain not currently relevant to most AI leaders, making this a forward-looking but non-essential development at this stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "IBM granite‑docling‑258m",
-        "links": [
-          "https://www.ibm.com/new/announcements/granite-docling-end-to-end-document-conversion"
-        ]
-      },
-      "Rationale": {
-        "text": "IBM’s Granite Docling is a lightweight model (~258M parameters) designed to convert documents—combining image and text inputs—into structured, machine-readable formats, reflecting the trend toward smaller language models for specialized tasks. While the use case is valuable, our analysts noted this is a product announcement in an increasingly crowded space, making it a promising but non-priority update for most AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Chinese Officials Urge Firms to Shun Nvidia AI Chips",
-        "links": [
-          "https://www.wsj.com/tech/ai/china-nvidia-ai-chips-fbdbc30a?st=qxPeBp&reflink=desktopwebshare_permalink&utm_source=tldrnewsletter"
-        ]
-      },
-      "Rationale": {
-        "text": "The article reports that Chinese authorities are pressuring domestic firms to avoid using Nvidia’s AI chips, signaling continued geopolitical tension and efforts toward AI sovereignty and supply chain decoupling. Our analysts judged it as contextually relevant as it reflects a larger US-China conflict over AI infrastructure, this article does not explore those dynamics in depth, thus not immediately actionable for most AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Tongyi DeepResearch: A New Era of Open-Source AI Researchers",
-        "links": [
-          "https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/"
-        ]
-      },
-      "Rationale": {
-        "text": "Alibaba’s Tongyi DeepResearch introduces an open-source, multi-agent GenAI research assistant full of algorithmic innovations rivaling Western deep research models. Our analysts emphasized this as a strategic signal in the global AI ecosystem, illustrating how open-source AI in China is rapidly catching up with and challenging Western commercial platforms.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/18/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The Anti-ChatGPT: Thomson Reuters' multi-agent system slashes 20-hour tasks to 10 minutes",
-        "links": [
-          "https://venturebeat.com/ai/the-anti-chatgpt-thomson-reuters-multi-agent-system-slashes-20-hour-tasks-to"
-        ]
-      },
-      "Rationale": {
-        "text": "Thomson Reuters has launched a multi-agent generative AI system capable of reducing complex research tasks from 20 hours to 10 minutes by orchestrating specialized agents for enterprise-grade retrieval, filtering, and summarization. Our analysts agreed this is one of the most advanced real-world applications of multi-agent LLM systems, showcasing a meaningful shift in knowledge work automation.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-03T08:18:19.570946+00:00"
+  "timestamp": "2025-10-03T16:16:44.686915+00:00"
 }

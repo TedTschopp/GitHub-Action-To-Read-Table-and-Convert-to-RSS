@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 03 Oct 2025 08:16:59 +0000</lastBuildDate>
-    <item>
-      <title>The Anti-ChatGPT: Thomson Reuters' multi-agent system slashes 20-hour tasks to 10 minutes [ ! ]</title>
-      <link>https://venturebeat.com/ai/the-anti-chatgpt-thomson-reuters-multi-agent-system-slashes-20-hour-tasks-to</link>
-      <description>Thomson Reuters has launched a multi-agent generative AI system capable of reducing complex research tasks from 20 hours to 10 minutes by orchestrating specialized agents for enterprise-grade retrieval, filtering, and summarization. Our analysts agreed this is one of the most advanced real-world applications of multi-agent LLM systems, showcasing a meaningful shift in knowledge work automation.</description>
-      <guid isPermaLink="false">2dc4dd0bd9056eef34200d36e08c287d</guid>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tongyi DeepResearch: A New Era of Open-Source AI Researchers [ ! ]</title>
-      <link>https://tongyi-agent.github.io/blog/introducing-tongyi-deep-research/</link>
-      <description>Alibaba’s Tongyi DeepResearch introduces an open-source, multi-agent GenAI research assistant full of algorithmic innovations rivaling Western deep research models. Our analysts emphasized this as a strategic signal in the global AI ecosystem, illustrating how open-source AI in China is rapidly catching up with and challenging Western commercial platforms.</description>
-      <guid isPermaLink="false">c2c74be06ec3b8be52bdb1a32a76f5c4</guid>
-      <pubDate>Thu, 18 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Chinese Officials Urge Firms to Shun Nvidia AI Chips [ ~ ]</title>
-      <link>https://www.wsj.com/tech/ai/china-nvidia-ai-chips-fbdbc30a?st=qxPeBp&amp;reflink=desktopwebshare_permalink&amp;utm_source=tldrnewsletter</link>
-      <description>The article reports that Chinese authorities are pressuring domestic firms to avoid using Nvidia’s AI chips, signaling continued geopolitical tension and efforts toward AI sovereignty and supply chain decoupling. Our analysts judged it as contextually relevant as it reflects a larger US-China conflict over AI infrastructure, this article does not explore those dynamics in depth, thus not immediately actionable for most AI leaders.</description>
-      <guid isPermaLink="false">a63dc734b2753ac3eda8e8a2fdf0397e</guid>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM granite‑docling‑258m [ ~ ]</title>
-      <link>https://www.ibm.com/new/announcements/granite-docling-end-to-end-document-conversion</link>
-      <description>IBM’s Granite Docling is a lightweight model (~258M parameters) designed to convert documents—combining image and text inputs—into structured, machine-readable formats, reflecting the trend toward smaller language models for specialized tasks. While the use case is valuable, our analysts noted this is a product announcement in an increasingly crowded space, making it a promising but non-priority update for most AI leaders.</description>
-      <guid isPermaLink="false">785cb6fbd8415501c1ae0ccaa8fe6078</guid>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How we are building Humanoid AI skills with DreamControl [ ~ ]</title>
-      <link>https://www.generalrobotics.company/post/dreamcontrol-building-humanoid-ai-skills?s=09</link>
-      <description>The article discusses robotics, specifically training humanoid motion using diffusion models, reinforcement learning for selecting optimal trajectories, and transferring those capabilities into real-world environments—signaling a move beyond experimentation toward practical control. However, our analysts noted that robotics is a specialized domain not currently relevant to most AI leaders, making this a forward-looking but non-essential development at this stage.</description>
-      <guid isPermaLink="false">1239a642838f3fc21efda69e1e600380</guid>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Isaac 0.1 [ ~ ]</title>
-      <link>https://www.perceptron.inc/blog/introducing-isaac-0-1</link>
-      <description>Isaac 0.1 is a small (~2B parameter) multimodal model capable of understanding images and answering questions, with potential for edge deployment in factories etc. But the article lacks detailed info about training methods, robustness, and broader use cases. Our analysts viewed this as promising, particularly for pushing intelligence to the physical/edge realm, but considered it more of a watch‑this‑space.</description>
-      <guid isPermaLink="false">9b3dea97e135eb08e59ad3a4c670ec0c</guid>
-      <pubDate>Fri, 19 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 03 Oct 2025 16:15:27 +0000</lastBuildDate>
     <item>
       <title>Chrome: The browser you love, reimagined with AI [ * ]</title>
       <link>https://blog.google/products/chrome/chrome-reimagined-with-ai</link>
@@ -358,6 +316,48 @@ Our analysts agreed that the next critical next phase is to close the gap betwee
       <description>This article argues that AI agents have moved beyond task support into executing meaningful, standalone work—such as creating presentations or replicating academic research. Our analysts agreed it marks a critical inflection point in the AI landscape, with practical examples proving agents are now delivering tangible business outcomes.</description>
       <guid isPermaLink="false">d352e4470d7363d1e6887e23c0d7d9a2</guid>
       <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBM Granite 4.0: hyper-efficient, high performance hybrid models for enterprise [ ~ ]</title>
+      <link>https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models</link>
+      <description>IBM's new Granite 4.0 models leverage a hybrid Transformer-Mamba architecture for greater efficiency and extended context handling. Despite technical promise and enterprise positioning, our analysts noted performance gaps versus leaders like OpenAI and Anthropic, making this more of a product evolution than a market disruptor at present.</description>
+      <guid isPermaLink="false">44e9a0999133517c7d0352759a36be57</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tinker is a training API for developers [ ~ ]</title>
+      <link>https://thinkingmachines.ai/tinker/?s=09</link>
+      <description>Tinker, developed by Thinking Machines (founded by former OpenAI CTO Mira Murati), offers developers a managed API to fine-tune large language models with minimal infrastructure setup. Our analysts found it innovative but premature for enterprise use, citing unclear differentiation, data security risks, and pricing volatility.</description>
+      <guid isPermaLink="false">3453d0cc57dd48c688048b15521ac55a</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>What Happens When AI Sets Wages [ ~ ]</title>
+      <link>https://hbr.org/2025/10/what-happens-when-ai-sets-wages</link>
+      <description>This HBR article investigates the growing use of AI to determine worker wages, touching on themes of fairness, transparency, and bias. While thought-provoking, our analysts agreed it remains largely editorial and narrowly scoped, with limited immediate impact for enterprise AI strategy.</description>
+      <guid isPermaLink="false">0adfa7ab0c07598783541fd825cee84b</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI Application Spending Report: Where Startup Dollars Really Go [ ~ ]</title>
+      <link>https://a16z.com/the-ai-application-spending-report-where-startup-dollars-really-go/</link>
+      <description>This report from Andreessen Horowitz explores startup spending trends on AI vendors and tooling, offering insight into where early AI investments are flowing. Our analysts saw it as a snapshot with limited strategic utility, better suited for context on tool popularity than enterprise decision-making.</description>
+      <guid isPermaLink="false">b9baaee7b45979120f039f8c38194320</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Hexagon Automates Manufacturing Standard Operating Procedures with AWS Generative AI [ * ]</title>
+      <link>https://aws.amazon.com/blogs/industries/hexagon-automates-manufacturing-standard-operating-procedures-with-aws-generative-ai/</link>
+      <description>This AWS case study showcases how Hexagon used generative AI to digitize SOPs, achieving over 90% automation accuracy in transforming manufacturing operating procedure documents. Our analysts found the technical architecture informative and forwardable, despite the lack of detailed business impact metrics or long-term maintenance discussion.</description>
+      <guid isPermaLink="false">84c09c062c14e90f3e2412b1838193b3</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JPMorgan Chase's blueprint to become the world's first fully AI-powered megabank [ ! ]</title>
+      <link>https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html</link>
+      <description>JPMorgan is aiming to become the first fully AI-integrated megabank, applying generative AI across 250,000 employees with tools like secure chatbots and internal agents. Our analysts emphasized this as a rare example of CEO-led AI transformation at scale, making it a must-watch case for AI leaders, especially in regulated industries.</description>
+      <guid isPermaLink="false">8fb8bb84ebf6d9a87335121e4ff94443</guid>
+      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
