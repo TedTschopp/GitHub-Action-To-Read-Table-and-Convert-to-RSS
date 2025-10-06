@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/06/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Understanding the 4 Main Approaches to LLM Evaluation",
+        "links": [
+          "https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches"
+        ]
+      },
+      "Rationale": {
+        "text": "This article lays out a structured taxonomy of evaluation methods for large language models—benchmarks, judges, verifiers, and runtime evaluation—which is foundational for any AI team building or adopting LLMs. Our analysts agreed that article’s structured framing is critical for AI leaders to ask the right evaluation questions.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/06/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "NBIM accelerates sovereign wealth management with enterprise‑wide AI transformation",
+        "links": [
+          "https://www.claude.com/customers/nbim"
+        ]
+      },
+      "Rationale": {
+        "text": "This is a large‑scale, real-world deployment in a regulated context managing $1.7 trillion in assets over 9,000 companies—exactly the kind of high‑impact use case that demonstrates AI at enterprise scale. Our analysts compared it to the JP Morgan case and emphasized how NBIM scaled AI adoption via “ambassadors” and top‑down mandate, underscoring the cultural as well as technical shift needed.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/06/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Rox accelerates sales productivity with AI agents powered by Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/rox-accelerates-sales-productivity-with-ai-agents-powered-by-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study details how multi-agent orchestration embedded into a sales platform led to claimed 2× revenue increase per rep, 50% lift in productivity, 20% faster sales velocity. Our analysts liked the architecture and ROI narrative but flagged it as somewhat promotional and lacking names of real customers, which holds it back from being essential.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/06/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Developer laws in the AI era",
+        "links": [
+          "https://www.bvp.com/atlas/developer-laws-in-the-ai-era"
+        ]
+      },
+      "Rationale": {
+        "text": "Bessemer’s piece presents eight laws for how developers and platforms should evolve in an agentic, AI‑augmented future—covering pricing, ownership of interfaces, transparency, etc. Our analysts saw this as strategic and timely for AI leaders and dev teams, noting it aligns with trends about how tooling is reshaping the notion of “developer.”",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/06/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "With GPT‑5, Wrtn builds lifestyle AI for millions in Korea",
+        "links": [
+          "https://openai.com/index/wrtn/"
+        ]
+      },
+      "Rationale": {
+        "text": "This is an interesting regional case of combining GPT‑5 with cultural/language adaptation, routing between small and large models, local slang and politeness training. Our analysts saw it as promising but light on depth—more anecdote than blueprint.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/06/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Training Agents Inside of Scalable World Models",
+        "links": [
+          "https://danijar.com/project/dreamer4/"
+        ]
+      },
+      "Rationale": {
+        "text": "Dreamer4 proposes an imaginative training paradigm (learning a latent world model and simulating actions inside it). Our analysts agreed that it’s an exciting technical advance, but still early — not yet broadly relevant to AI leaders outside research or robotics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/03/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Luma Labs' Ray3 is a high-fidelity text-to-video model capable of generating HDR-quality cinematic content with physics-aware visual reasoning. Our analysts emphasized its breakthrough in video generation and potential future use in enterprise multimedia, forecasting it could displace slide decks and revolutionize corporate storytelling.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Grok 4 Fast",
-        "links": [
-          "https://x.ai/news/grok-4-fast"
-        ]
-      },
-      "Rationale": {
-        "text": "xAI’s Grok 4 Fast achieves performance comparable to GPT-4V with a 98% reduction in cost by optimizing token usage and blending multiple model types. While enterprise adoption remains limited, our analysts saw this as an important step toward democratizing access to powerful large language models and enabling AI infrastructure diversification across enterprises.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "FutureHouse powers scientific discovery agents with Claude",
-        "links": [
-          "https://claude.com/customers/futurehouse"
-        ]
-      },
-      "Rationale": {
-        "text": "FutureHouse uses Claude to build specialized agents that accelerate scientific research by parsing literature, forming hypotheses, and assisting experimentation. While light on technical detail, our analysts agreed it signals a shift toward agentic AI in scientific discovery and underscores the need for enterprise IT leaders to think beyond foundational LLMs.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Palmyra-mini: Small models, big throughput, powerful reasoning",
-        "links": [
-          "https://writer.com/engineering/palmyra-mini-open-source-models/"
-        ]
-      },
-      "Rationale": {
-        "text": "Writer's Palmyra-mini models offer domain-specific small LLMs with tight security and advanced semantic RAG designed for edge deployments. Our analysts found it an interesting example of the growing trend toward AI models optimized for cost, control, and offline enterprise use cases-but ultimately still early-stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Moondream 3 Preview: Frontier-level reasoning at a blazing speed",
-        "links": [
-          "https://moondream.ai/blog/moondream-3-preview"
-        ]
-      },
-      "Rationale": {
-        "text": "Moondream 3 is a new vision-language model with a 32K context window and visual reasoning abilities using a Mixture-of-Experts approach. While technically impressive, our analysts noted that the market is saturated with similar VLM releases and saw no major differentiation or current enterprise application to justify higher relevance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How to Make Enterprise Gen AI Work",
-        "links": [
-          "https://hbr.org/2025/09/how-to-make-enterprise-gen-ai-work"
-        ]
-      },
-      "Rationale": {
-        "text": "This article from HBR argues that organizations must move beyond ad‑hoc experiments such as individual ChatGPT or Claude usage) toward structured, measured deployment of GenAI across enterprise workflows to actually realize bottom‑line impact.\nOur analysts agreed that the next critical next phase is to close the gap between experimentation and actual scalable, orchestration‑level deployment where many companies are falling behind.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/19/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Chrome: The browser you love, reimagined with AI",
-        "links": [
-          "https://blog.google/products/chrome/chrome-reimagined-with-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "Google is redesigning Chrome to embed AI deeply: features like Gemini in Chrome, the \"AI Mode\" in the omnibox/address bar, better cross‑tab understanding, useful summaries, and safety enhancements. Our analysts flagged this development as under‑reported but strategically major -since the browser is a primary access point for users. this shift influences both user experience and the competitive landscape between AI platforms.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-06T08:19:35.160428+00:00"
+  "timestamp": "2025-10-06T16:17:12.545041+00:00"
 }
