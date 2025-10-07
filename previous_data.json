@@ -2,6 +2,146 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing AgentKit",
+        "links": [
+          "https://openai.com/index/introducing-agentkit/"
+        ]
+      },
+      "Rationale": {
+        "text": "AgentKit offers a graphical, drag‑and‑drop way to build conversational agents, along with tools like evaluation kits, registries, and guardrails. Our analysts flagged this as a hugely important strategic step for OpenAI to compete with agent platforms, and noted its significance because it comes directly from OpenAI.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing apps in ChatGPT and the new Apps SDK",
+        "links": [
+          "https://openai.com/index/introducing-apps-in-chatgpt/"
+        ]
+      },
+      "Rationale": {
+        "text": "This announcement lets developers embed or connect apps directly into ChatGPT, turning ChatGPT into a platform/operating system rather than just a chatbot. Our analysts emphasized that this is strategically significant — positioning OpenAI as a one-stop interface that threatens search and browser incumbents.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Deloitte issues refund for error-ridden Australian government report that used AI",
+        "links": [
+          "http://archive.today/TolLL"
+        ]
+      },
+      "Rationale": {
+        "text": "Deloitte’s refund underscores real risks in relying on AI without rigorous validation — a cautionary tale for any AI initiative. Our analyst team viewed it as a strong reminder to have Ai-in-the-loop and human‑in‑the‑loop safeguards, and to treat AI outputs with skepticism and continued oversight.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing CodeMender: an AI agent for code security",
+        "links": [
+          "https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/"
+        ]
+      },
+      "Rationale": {
+        "text": "CodeMender from Google DeepMind aims to detect and repair code vulnerabilities automatically, acting both proactively and reactively. Our analysts appreciated the ambition but noted it’s still research‑stage and raised concerns about side effects of automated fixes in complex systems.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Converting inbound leads into customers at OpenAI",
+        "links": [
+          "https://openai.com/index/openai-inbound-sales-assistant/"
+        ]
+      },
+      "Rationale": {
+        "text": "This is a useful case study of how OpenAI used a conversational assistant to personalize inbound lead interactions and improve conversions. Our analysts noted strong results in accuracy increase, though they wished the article gave more of how it was built and business results that were achieved.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "State of Software 2025",
+        "links": [
+          "https://www.iconiqcapital.com/growth/reports/2025-state-of-software"
+        ]
+      },
+      "Rationale": {
+        "text": "This report delivers interesting metrics and trends across software markets in 2025. Our analysts considered it worthwhile for investors or tech watchers — but less immediately actionable for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data",
+        "links": [
+          "https://research.nvidia.com/labs/adlr/Synergy/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "The paper argues for injecting diverse reasoning examples during pretraining and focusing on high‑quality reasoning tasks in fine tuning. Our analysts panel found it intellectually worthwhile, but more relevant to researchers than applied AI practitioners right now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/06/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "The article introduces a term “Workslop” when employees use AI to produce content that masquerades as good work, but lacks the substance to meaningfully advance a given task. Such workslop causes wasted time, frustration, and low return on investment despite widespread adoption of AI tools. Our analysts emphasized this as an emerging problem that leaders can and must control: setting up vetting, quality processes, human review, etc. They saw it as essential because unchecked workslop undermines productivity, credibility, and effectiveness of AI deployments.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems",
-        "links": [
-          "https://openai.com/index/openai-nvidia-systems-partnership/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI and NVIDIA are committing to a landmark infrastructure partnership: deploying at least 10 gigawatts of AI datacenter capacity powered by NVIDIA systems, with NVIDIA investing up to $100 billion progressively as each gigawatt is rolled out, starting in H2 2026 on its Vera Rubin platform. Our analysts noted this is a strong indicator for future enterprise AI adoption for leaders to know about.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Silicon Valley bets big on ‘environments’ to train AI agents",
-        "links": [
-          "https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/"
-        ]
-      },
-      "Rationale": {
-        "text": "The article tracks the rising trend of using rich, specialized simulated environments for training AI agents (RL environments) to handle multi‑step, interactive tasks in more complex, realistic settings. Our analysts flagged this development as “fundamentally critical” for AI leaders, especially to ensure agents deliver what is promised, reducing gap between lab and real‑world performance.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "New tool makes generative AI models more likely to create breakthrough materials",
-        "links": [
-          "https://news.mit.edu/2025/new-tool-makes-generative-ai-models-likely-create-breakthrough-materials-0922"
-        ]
-      },
-      "Rationale": {
-        "text": "MIT researchers have developed tools that guide generative AI to generate millions of candidate materials for quantum computing and narrow them to promising targets. Our analysts saw this as not immediately actionable for many enterprises, but hugely important for where AI is expanding — serving as a precursor to breakthroughs in fields like energy, hardware, quantum, biotech.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "SchoolAI’s lessons in building an AI platform that empowers teachers",
-        "links": [
-          "https://openai.com/index/schoolai/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study shows how AI can be integrated into education in a thoughtfully designed way: supporting teachers, dashboards for tracking, respects human-in-the-loop, not replacing, but empowering. It’s a model for how AI could be responsibly used in educational settings. Our analysts felt that this is socially important and worth paying attention to, though for many AI leaders it may be less immediately critical.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Qwen3‑Omni",
-        "links": [
-          "https://x.com/Alibaba_Qwen/status/1970181599133344172"
-        ]
-      },
-      "Rationale": {
-        "text": "Alibaba’s new omni‑modal model, which handles multiple input modalities and outputs, is open source, has several variants (instruct, thinking, captioner), and competes reasonably in cross‑modality benchmarks. Our analysts agreed this is a product announcement rather than a paradigm shift: until performance, robustness, adoption, and broader ecosystem impact are proven, it remains optional for most AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Moody's cut credit memo prep from 40 hours to 2 minutes with modular AI agents: Here's its agentic AI blueprint",
-        "links": [
-          "https://venturebeat.com/ai/moodys-cut-credit-memo-prep-from-40-hours-to-2-minutes-with-modular-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "Moody's has unveiled a modular agentic AI system that slashes the time to generate credit memos from 40 hours to just 2 minutes, demonstrating the real-world impact of AI automation in finance. Our analysts saw this as a blueprint for enterprises especially in regulated industries, highlighting its value in showing how to implement agent-based generative AI systems for high-stakes workflows.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Ray3 from Luma",
-        "links": [
-          "https://lumalabs.ai/ray"
-        ]
-      },
-      "Rationale": {
-        "text": "Luma Labs' Ray3 is a high-fidelity text-to-video model capable of generating HDR-quality cinematic content with physics-aware visual reasoning. Our analysts emphasized its breakthrough in video generation and potential future use in enterprise multimedia, forecasting it could displace slide decks and revolutionize corporate storytelling.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-07T08:19:04.008492+00:00"
+  "timestamp": "2025-10-07T16:16:05.250102+00:00"
 }

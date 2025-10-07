@@ -7,56 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 07 Oct 2025 08:17:40 +0000</lastBuildDate>
-    <item>
-      <title>Ray3 from Luma [ * ]</title>
-      <link>https://lumalabs.ai/ray</link>
-      <description>Luma Labs' Ray3 is a high-fidelity text-to-video model capable of generating HDR-quality cinematic content with physics-aware visual reasoning. Our analysts emphasized its breakthrough in video generation and potential future use in enterprise multimedia, forecasting it could displace slide decks and revolutionize corporate storytelling.</description>
-      <guid isPermaLink="false">b4795411f3330a67518e141407440734</guid>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Moody's cut credit memo prep from 40 hours to 2 minutes with modular AI agents: Here's its agentic AI blueprint [ ! ]</title>
-      <link>https://venturebeat.com/ai/moodys-cut-credit-memo-prep-from-40-hours-to-2-minutes-with-modular-ai</link>
-      <description>Moody's has unveiled a modular agentic AI system that slashes the time to generate credit memos from 40 hours to just 2 minutes, demonstrating the real-world impact of AI automation in finance. Our analysts saw this as a blueprint for enterprises especially in regulated industries, highlighting its value in showing how to implement agent-based generative AI systems for high-stakes workflows.</description>
-      <guid isPermaLink="false">60bc2528ecb131ab5140e9237adf9ce2</guid>
-      <pubDate>Mon, 22 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Qwen3‑Omni [ ~ ]</title>
-      <link>https://x.com/Alibaba_Qwen/status/1970181599133344172</link>
-      <description>Alibaba’s new omni‑modal model, which handles multiple input modalities and outputs, is open source, has several variants (instruct, thinking, captioner), and competes reasonably in cross‑modality benchmarks. Our analysts agreed this is a product announcement rather than a paradigm shift: until performance, robustness, adoption, and broader ecosystem impact are proven, it remains optional for most AI leaders.</description>
-      <guid isPermaLink="false">d2614ec0239e11dbd2a8a991dea4d0fd</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SchoolAI’s lessons in building an AI platform that empowers teachers [ * ]</title>
-      <link>https://openai.com/index/schoolai/</link>
-      <description>This case study shows how AI can be integrated into education in a thoughtfully designed way: supporting teachers, dashboards for tracking, respects human-in-the-loop, not replacing, but empowering. It’s a model for how AI could be responsibly used in educational settings. Our analysts felt that this is socially important and worth paying attention to, though for many AI leaders it may be less immediately critical.</description>
-      <guid isPermaLink="false">e6a32d1fac688a27e0ebae1fcda48914</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>New tool makes generative AI models more likely to create breakthrough materials [ * ]</title>
-      <link>https://news.mit.edu/2025/new-tool-makes-generative-ai-models-likely-create-breakthrough-materials-0922</link>
-      <description>MIT researchers have developed tools that guide generative AI to generate millions of candidate materials for quantum computing and narrow them to promising targets. Our analysts saw this as not immediately actionable for many enterprises, but hugely important for where AI is expanding — serving as a precursor to breakthroughs in fields like energy, hardware, quantum, biotech.</description>
-      <guid isPermaLink="false">a3fcf89b939e60fcb2331781be23ce0e</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Silicon Valley bets big on ‘environments’ to train AI agents [ ! ]</title>
-      <link>https://techcrunch.com/2025/09/21/silicon-valley-bets-big-on-environments-to-train-ai-agents/</link>
-      <description>The article tracks the rising trend of using rich, specialized simulated environments for training AI agents (RL environments) to handle multi‑step, interactive tasks in more complex, realistic settings. Our analysts flagged this development as “fundamentally critical” for AI leaders, especially to ensure agents deliver what is promised, reducing gap between lab and real‑world performance.</description>
-      <guid isPermaLink="false">42801738f70513cf6eec330df90f8fa0</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI and NVIDIA announce strategic partnership to deploy 10 gigawatts of NVIDIA systems [ ! ]</title>
-      <link>https://openai.com/index/openai-nvidia-systems-partnership/</link>
-      <description>OpenAI and NVIDIA are committing to a landmark infrastructure partnership: deploying at least 10 gigawatts of AI datacenter capacity powered by NVIDIA systems, with NVIDIA investing up to $100 billion progressively as each gigawatt is rolled out, starting in H2 2026 on its Vera Rubin platform. Our analysts noted this is a strong indicator for future enterprise AI adoption for leaders to know about.</description>
-      <guid isPermaLink="false">9093e25fbb9b52b144e24f4cca7cf659</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 07 Oct 2025 16:14:45 +0000</lastBuildDate>
     <item>
       <title>AI Generated “Workslop” Is Destroying Productivity [ ! ]</title>
       <link>https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity</link>
@@ -357,6 +308,55 @@
       <description>This article lays out a structured taxonomy of evaluation methods for large language models—benchmarks, judges, verifiers, and runtime evaluation—which is foundational for any AI team building or adopting LLMs. Our analysts agreed that article’s structured framing is critical for AI leaders to ask the right evaluation questions.</description>
       <guid isPermaLink="false">44e2066362c81de0d99f795d251efb37</guid>
       <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data [ ~ ]</title>
+      <link>https://research.nvidia.com/labs/adlr/Synergy/?s=09</link>
+      <description>The paper argues for injecting diverse reasoning examples during pretraining and focusing on high‑quality reasoning tasks in fine tuning. Our analysts panel found it intellectually worthwhile, but more relevant to researchers than applied AI practitioners right now.</description>
+      <guid isPermaLink="false">4a3a224fb6b2b77a9eb0947c3b8ff2f3</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>State of Software 2025 [ ~ ]</title>
+      <link>https://www.iconiqcapital.com/growth/reports/2025-state-of-software</link>
+      <description>This report delivers interesting metrics and trends across software markets in 2025. Our analysts considered it worthwhile for investors or tech watchers — but less immediately actionable for AI leaders.</description>
+      <guid isPermaLink="false">85878238a93a565a8ace3e78ba916b7b</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Converting inbound leads into customers at OpenAI [ * ]</title>
+      <link>https://openai.com/index/openai-inbound-sales-assistant/</link>
+      <description>This is a useful case study of how OpenAI used a conversational assistant to personalize inbound lead interactions and improve conversions. Our analysts noted strong results in accuracy increase, though they wished the article gave more of how it was built and business results that were achieved.</description>
+      <guid isPermaLink="false">77fb40006c6d5ab8cb271fb7083f85a5</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing CodeMender: an AI agent for code security [ * ]</title>
+      <link>https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/</link>
+      <description>CodeMender from Google DeepMind aims to detect and repair code vulnerabilities automatically, acting both proactively and reactively. Our analysts appreciated the ambition but noted it’s still research‑stage and raised concerns about side effects of automated fixes in complex systems.</description>
+      <guid isPermaLink="false">fe19edf8da4c6d93dda5a27e712ba954</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Deloitte issues refund for error-ridden Australian government report that used AI [ ! ]</title>
+      <link>http://archive.today/TolLL</link>
+      <description>Deloitte’s refund underscores real risks in relying on AI without rigorous validation — a cautionary tale for any AI initiative. Our analyst team viewed it as a strong reminder to have Ai-in-the-loop and human‑in‑the‑loop safeguards, and to treat AI outputs with skepticism and continued oversight.</description>
+      <guid isPermaLink="false">a8f4a1cb3a0a84eabded4ede29eee970</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing apps in ChatGPT and the new Apps SDK [ ! ]</title>
+      <link>https://openai.com/index/introducing-apps-in-chatgpt/</link>
+      <description>This announcement lets developers embed or connect apps directly into ChatGPT, turning ChatGPT into a platform/operating system rather than just a chatbot. Our analysts emphasized that this is strategically significant — positioning OpenAI as a one-stop interface that threatens search and browser incumbents.</description>
+      <guid isPermaLink="false">daacc835221c90b6266e1fa44354bd8f</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing AgentKit [ ! ]</title>
+      <link>https://openai.com/index/introducing-agentkit/</link>
+      <description>AgentKit offers a graphical, drag‑and‑drop way to build conversational agents, along with tools like evaluation kits, registries, and guardrails. Our analysts flagged this as a hugely important strategic step for OpenAI to compete with agent platforms, and noted its significance because it comes directly from OpenAI.</description>
+      <guid isPermaLink="false">fd9e7a0d0c133cb50409babc0a66ff81</guid>
+      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
