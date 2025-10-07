@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-10-07T00:56:28.237796+00:00",
+  "timestamp": "2025-10-07T08:19:04.087246+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Tue, 07 Oct 2025 00:55:08 +0000",
+      "last_updated": "Tue, 07 Oct 2025 08:17:40 +0000",
       "size_bytes": 36498,
       "errors": []
     },
@@ -23,7 +23,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 27,
-      "last_updated": "Tue, 07 Oct 2025 00:55:42 +0000",
+      "last_updated": "Tue, 07 Oct 2025 08:18:18 +0000",
       "size_bytes": 27973,
       "errors": []
     },
@@ -31,7 +31,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 60,
-      "last_updated": "Tue, 07 Oct 2025 00:55:42 +0000",
+      "last_updated": "Tue, 07 Oct 2025 08:18:18 +0000",
       "size_bytes": 82359,
       "errors": []
     },
@@ -39,7 +39,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 2,
-      "last_updated": "Tue, 07 Oct 2025 00:56:17 +0000",
+      "last_updated": "Tue, 07 Oct 2025 08:18:50 +0000",
       "size_bytes": 1745,
       "errors": [
         "Low entry count: 2"
