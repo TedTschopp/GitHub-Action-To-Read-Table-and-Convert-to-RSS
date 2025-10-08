@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Petri: An open‑source auditing tool to accelerate AI safety research",
+        "links": [
+          "https://www.anthropic.com/research/petri-open-source-auditing"
+        ]
+      },
+      "Rationale": {
+        "text": "Petri offers a tool for inspecting and auditing foundational models — not just a paper, but a concrete software artifact aimed squarely at alignment and model drift. Our analysts underscored that explainability, model oversight, and open alternatives are essential building blocks as generative AI scales.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How PowerSchool safeguards millions of students with AI‑powered content filtering using Amazon SageMaker AI",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/responsible-ai-how-powerschool-safeguards-millions-of-students-with-ai-powered-content-filtering-using-amazon-sagemaker-ai/"
+        ]
+      },
+      "Rationale": {
+        "text": "This is a real-world use case of responsible AI — applying content filtering in education to protect vulnerable audiences. Our analysts emphasized that as AI agents enter regulated and sensitive domains (e.g. schools), mechanisms like this become core to adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "IBM claims 45% productivity gains with Project Bob",
+        "links": [
+          "https://venturebeat.com/ai/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide-that"
+        ]
+      },
+      "Rationale": {
+        "text": "IBM’s Project Bob is an enterprise-focused AI‑first IDE that orchestrates multiple models and integrates governance (AgentOps) to bridge prototype-to-production. Our analysts viewed it as a significant signal: enterprise AI is moving toward agentic workflows and governance, not just coding assistants.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Agent Workflows by Eleven Labs",
+        "links": [
+          "https://elevenlabs.io/docs/agents-platform/customization/agent-workflows"
+        ]
+      },
+      "Rationale": {
+        "text": "Eleven Labs now lets users visually build branching, subagent‑based conversational flows, enabling per‑step model switching and custom behavior. But our analysts considered it more product update than paradigm shift, given how many workflow tools are emerging.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "JetBrains Pioneers Multi‑Agent IDE Experience with Claude Agent",
+        "links": [
+          "https://www.claude.com/customers/jetbrains-2"
+        ]
+      },
+      "Rationale": {
+        "text": "JetBrains embedding Claude Agent in its IDE is a neat demonstration of integrating agents into developer tools — but the article lacks metrics or deep insight, so our analysts saw it as a light product story.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/08/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "GenAI Promised a Creative Revolution. Can Marketers Deliver?",
+        "links": [
+          "https://www.bcg.com/publications/2025/genai-promised-revolution-can-marketers-deliver"
+        ]
+      },
+      "Rationale": {
+        "text": "This BCG survey discusses how marketers are adopting generative AI and the challenges they face. Our analysts saw it as having useful benchmarking data but not offering novel mechanisms for AI leaders to act on.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/07/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "The piece explores NVIDIA’s strategic investments—especially into OpenAI and infrastructure—and how those investments amplify its revenue generation and influence over the AI stack. Our analysts emphasized that this article is essential for anyone tracking AI’s geopolitical and economic dynamics, as it reveals how capital, control, and hardware are intertwining in real time.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Gen AI Could Transform Learning and Development",
-        "links": [
-          "https://hbr.org/2025/09/how-gen-ai-could-transform-learning-and-development"
-        ]
-      },
-      "Rationale": {
-        "text": "This article investigates how generative AI can reshape corporate learning by embedding personalization, prompting skills, and decision‑support into L&D. Our analysts flagged it as mission-critical because many leaders are now scrambling to build AI literacy and culture—and this article provides initial underpinnings for doing that.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "The new org chart: Unlocking value with AI-native roles in the agentic era",
-        "links": [
-          "https://www.cio.com/article/4060162/the-new-org-chart-unlocking-value-with-ai-native-roles-in-the-agentic-era.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This article argues for reorganizing teams with roles tailored to AI agents (e.g. orchestration, governance) rather than retrofitting old structures. Our analysts saw division: while it’s forward‑looking and not yet broadly applicable, analysts believed it’s important to help leaders think ahead about evolving org structures in the AI era.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Intuit built custom financial LLMs that cut latency 50%",
-        "links": [
-          "https://venturebeat.com/ai/how-intuit-built-custom-financial-llms-that-cut-latency-50-while-boosting"
-        ]
-      },
-      "Rationale": {
-        "text": "This is a strong use case of engineering optimization (reducing latency, improving domain accuracy), but for many leaders it lacks enough business context. Our analysts appreciated it as a technical optimization, though not universally actionable.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Notion creates more intelligent workspaces with Claude",
-        "links": [
-          "https://claude.com/customers/notion"
-        ]
-      },
-      "Rationale": {
-        "text": "The article demonstrates how Notion integrates Claude to shorten information search time and assist writing/QA workflows. Our analysts saw it more as a marketing showcase—interesting but not a must‑read for every AI leader.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI chips are getting hotter. A microfluidics breakthrough goes straight to the silicon to cool up to three times better.",
-        "links": [
-          "https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/"
-        ]
-      },
-      "Rationale": {
-        "text": "This report covers a hardware cooling innovation that could relieve performance bottlenecks in AI chips. While very cool from a technology perspective, our analysts judged its near‑term relevance to most AI strategy teams as modest.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Generated “Workslop” Is Destroying Productivity",
-        "links": [
-          "https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity"
-        ]
-      },
-      "Rationale": {
-        "text": "The article introduces a term “Workslop” when employees use AI to produce content that masquerades as good work, but lacks the substance to meaningfully advance a given task. Such workslop causes wasted time, frustration, and low return on investment despite widespread adoption of AI tools. Our analysts emphasized this as an emerging problem that leaders can and must control: setting up vetting, quality processes, human review, etc. They saw it as essential because unchecked workslop undermines productivity, credibility, and effectiveness of AI deployments.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-08T08:20:00.401097+00:00"
+  "timestamp": "2025-10-08T16:16:58.295488+00:00"
 }

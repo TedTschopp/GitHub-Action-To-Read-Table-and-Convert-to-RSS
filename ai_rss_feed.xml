@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Oct 2025 08:18:51 +0000</lastBuildDate>
-    <item>
-      <title>AI Generated “Workslop” Is Destroying Productivity [ ! ]</title>
-      <link>https://hbr.org/2025/09/ai-generated-workslop-is-destroying-productivity</link>
-      <description>The article introduces a term “Workslop” when employees use AI to produce content that masquerades as good work, but lacks the substance to meaningfully advance a given task. Such workslop causes wasted time, frustration, and low return on investment despite widespread adoption of AI tools. Our analysts emphasized this as an emerging problem that leaders can and must control: setting up vetting, quality processes, human review, etc. They saw it as essential because unchecked workslop undermines productivity, credibility, and effectiveness of AI deployments.</description>
-      <guid isPermaLink="false">705c7c22b4689f79cee14e7975f5fd3b</guid>
-      <pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI chips are getting hotter. A microfluidics breakthrough goes straight to the silicon to cool up to three times better. [ ~ ]</title>
-      <link>https://news.microsoft.com/source/features/innovation/microfluidics-liquid-cooling-ai-chips/</link>
-      <description>This report covers a hardware cooling innovation that could relieve performance bottlenecks in AI chips. While very cool from a technology perspective, our analysts judged its near‑term relevance to most AI strategy teams as modest.</description>
-      <guid isPermaLink="false">ee541ac8a7a944a9173135d2c72bf54e</guid>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Notion creates more intelligent workspaces with Claude [ ~ ]</title>
-      <link>https://claude.com/customers/notion</link>
-      <description>The article demonstrates how Notion integrates Claude to shorten information search time and assist writing/QA workflows. Our analysts saw it more as a marketing showcase—interesting but not a must‑read for every AI leader.</description>
-      <guid isPermaLink="false">86d5df2d88acc876b84af88c41b5bca2</guid>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Intuit built custom financial LLMs that cut latency 50% [ ~ ]</title>
-      <link>https://venturebeat.com/ai/how-intuit-built-custom-financial-llms-that-cut-latency-50-while-boosting</link>
-      <description>This is a strong use case of engineering optimization (reducing latency, improving domain accuracy), but for many leaders it lacks enough business context. Our analysts appreciated it as a technical optimization, though not universally actionable.</description>
-      <guid isPermaLink="false">1833517b7e4d3bf6bcb760c3c6830a6b</guid>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The new org chart: Unlocking value with AI-native roles in the agentic era [ * ]</title>
-      <link>https://www.cio.com/article/4060162/the-new-org-chart-unlocking-value-with-ai-native-roles-in-the-agentic-era.html</link>
-      <description>This article argues for reorganizing teams with roles tailored to AI agents (e.g. orchestration, governance) rather than retrofitting old structures. Our analysts saw division: while it’s forward‑looking and not yet broadly applicable, analysts believed it’s important to help leaders think ahead about evolving org structures in the AI era.</description>
-      <guid isPermaLink="false">bdf32353719ab8e2ef8b86d911e4b3f5</guid>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Gen AI Could Transform Learning and Development [ ! ]</title>
-      <link>https://hbr.org/2025/09/how-gen-ai-could-transform-learning-and-development</link>
-      <description>This article investigates how generative AI can reshape corporate learning by embedding personalization, prompting skills, and decision‑support into L&amp;D. Our analysts flagged it as mission-critical because many leaders are now scrambling to build AI literacy and culture—and this article provides initial underpinnings for doing that.</description>
-      <guid isPermaLink="false">4a910a34efab5459d772946e81ce4949</guid>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 08 Oct 2025 16:15:42 +0000</lastBuildDate>
     <item>
       <title>How Nvidia Is Backstopping America’s AI Boom [ ! ]</title>
       <link>https://www.wsj.com/tech/ai/how-nvidia-is-backstopping-americas-ai-boom-875c1346</link>
@@ -357,6 +315,48 @@
       <description>AgentKit offers a graphical, drag‑and‑drop way to build conversational agents, along with tools like evaluation kits, registries, and guardrails. Our analysts flagged this as a hugely important strategic step for OpenAI to compete with agent platforms, and noted its significance because it comes directly from OpenAI.</description>
       <guid isPermaLink="false">fd9e7a0d0c133cb50409babc0a66ff81</guid>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>GenAI Promised a Creative Revolution. Can Marketers Deliver? [ ~ ]</title>
+      <link>https://www.bcg.com/publications/2025/genai-promised-revolution-can-marketers-deliver</link>
+      <description>This BCG survey discusses how marketers are adopting generative AI and the challenges they face. Our analysts saw it as having useful benchmarking data but not offering novel mechanisms for AI leaders to act on.</description>
+      <guid isPermaLink="false">c17a61b9e6abe3c81106346c9aa6ba75</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>JetBrains Pioneers Multi‑Agent IDE Experience with Claude Agent [ ~ ]</title>
+      <link>https://www.claude.com/customers/jetbrains-2</link>
+      <description>JetBrains embedding Claude Agent in its IDE is a neat demonstration of integrating agents into developer tools — but the article lacks metrics or deep insight, so our analysts saw it as a light product story.</description>
+      <guid isPermaLink="false">6d090eccb995cc3397b59c3594d809b0</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent Workflows by Eleven Labs [ ~ ]</title>
+      <link>https://elevenlabs.io/docs/agents-platform/customization/agent-workflows</link>
+      <description>Eleven Labs now lets users visually build branching, subagent‑based conversational flows, enabling per‑step model switching and custom behavior. But our analysts considered it more product update than paradigm shift, given how many workflow tools are emerging.</description>
+      <guid isPermaLink="false">4a834931d6a63ca21d698218fe503a1e</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBM claims 45% productivity gains with Project Bob [ * ]</title>
+      <link>https://venturebeat.com/ai/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide-that</link>
+      <description>IBM’s Project Bob is an enterprise-focused AI‑first IDE that orchestrates multiple models and integrates governance (AgentOps) to bridge prototype-to-production. Our analysts viewed it as a significant signal: enterprise AI is moving toward agentic workflows and governance, not just coding assistants.</description>
+      <guid isPermaLink="false">07d93075b42c717592742d6bef01b215</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How PowerSchool safeguards millions of students with AI‑powered content filtering using Amazon SageMaker AI [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/responsible-ai-how-powerschool-safeguards-millions-of-students-with-ai-powered-content-filtering-using-amazon-sagemaker-ai/</link>
+      <description>This is a real-world use case of responsible AI — applying content filtering in education to protect vulnerable audiences. Our analysts emphasized that as AI agents enter regulated and sensitive domains (e.g. schools), mechanisms like this become core to adoption.</description>
+      <guid isPermaLink="false">f583e018a35de92d41541922fc5e01f4</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Petri: An open‑source auditing tool to accelerate AI safety research [ ! ]</title>
+      <link>https://www.anthropic.com/research/petri-open-source-auditing</link>
+      <description>Petri offers a tool for inspecting and auditing foundational models — not just a paper, but a concrete software artifact aimed squarely at alignment and model drift. Our analysts underscored that explainability, model oversight, and open alternatives are essential building blocks as generative AI scales.</description>
+      <guid isPermaLink="false">9cd85bbe9e288fefc48104eed84411d0</guid>
+      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
