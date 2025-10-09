@@ -7,42 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Oct 2025 08:17:00 +0000</lastBuildDate>
-    <item>
-      <title>How Nvidia Is Backstopping America’s AI Boom [ ! ]</title>
-      <link>https://www.wsj.com/tech/ai/how-nvidia-is-backstopping-americas-ai-boom-875c1346</link>
-      <description>The piece explores NVIDIA’s strategic investments—especially into OpenAI and infrastructure—and how those investments amplify its revenue generation and influence over the AI stack. Our analysts emphasized that this article is essential for anyone tracking AI’s geopolitical and economic dynamics, as it reveals how capital, control, and hardware are intertwining in real time.</description>
-      <guid isPermaLink="false">83f39cad3a8c7de439114496966c4d71</guid>
-      <pubDate>Wed, 24 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing LFM2‑2.6B: Redefining Efficiency in Language Models [ ~ ]</title>
-      <link>https://www.liquid.ai/blog/introducing-lfm2-2-6b-redefining-efficiency-in-language-models</link>
-      <description>Liquid AI, an MIT-founded startup, introduced a 2.6B parameter convolutional model aimed at efficient edge deployment, beating competitor models of similar size in performance. Our analysts acknowledged the technical novelty but noted the lack of adoption, use cases, or business traction—leaving it as a niche interest rather than a strategic priority for AI leaders.</description>
-      <guid isPermaLink="false">992818ca5fc060b653db44686f88eb4d</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Build more powerful voice agents with the Gemini Live API [ * ]</title>
-      <link>https://x.com/GoogleAIStudio/status/1970545734736023564</link>
-      <description>Google’s new Gemini Live API enables developers to build real-time AI voice agents with low latency, emotional tone control, and context-rich conversation. Our analysts viewed this as an important evolution in multimodal AI, with implications for future chatbots and virtual assistants, and a sign that Google is regaining leadership in generative AI product innovation.</description>
-      <guid isPermaLink="false">576d6fe23e904b63bb113585fb45da97</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Transforming SAP Technical Documentation with GenAI: Accelerating knowledge generation for SAP Notes with Amazon Bedrock [ * ]</title>
-      <link>https://aws.amazon.com/blogs/awsforsap/transforming-sap-technical-documentation-with-genai-accelerating-knowledge-generation-for-sap-notes-with-amazon-bedrock/</link>
-      <description>SAP has partnered with AWS to apply generative AI to the summarization and delivery of technical documentation, targeting mobile-first use cases and legacy enterprise systems. Our analysts found the detailed implementation—especially around RAG, evaluation, and unstructured data—to be valuable for AI leaders modernizing complex internal knowledge assets, despite a lack of ROI data.</description>
-      <guid isPermaLink="false">36db85167f7f3f1e7ef45f952c44311b</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deutsche Bank delivers AI-powered financial research with DB Lumina [ * ]</title>
-      <link>https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina</link>
-      <description>Deutsche Bank’s DB Lumina integrates generative AI, RAG pipelines, and internal knowledge bases to assist analysts in generating financial research more efficiently and safely. Our analysts noted this as a well-architected and regulated example of AI in finance, though they held it back from Essential due to limited detail on business outcomes and adoption metrics.</description>
-      <guid isPermaLink="false">bb26f2bf918c361648541e116bab0084</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 09 Oct 2025 16:18:45 +0000</lastBuildDate>
     <item>
       <title>Google’s Mixboard is an AI moodboard builder [ ! ]</title>
       <link>https://www.theverge.com/news/783991/google-labs-mixboard-ai-design-canvas</link>
@@ -357,6 +322,41 @@
       <description>Petri offers a tool for inspecting and auditing foundational models — not just a paper, but a concrete software artifact aimed squarely at alignment and model drift. Our analysts underscored that explainability, model oversight, and open alternatives are essential building blocks as generative AI scales.</description>
       <guid isPermaLink="false">9cd85bbe9e288fefc48104eed84411d0</guid>
       <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>LFM2‑8B‑A1B: An Efficient On-device Mixture‑of‑Experts [ ~ ]</title>
+      <link>https://www.liquid.ai/blog/lfm2-8b-a1b-an-efficient-on-device-mixture-of-experts</link>
+      <description>This model enables on-device inference via a mixture‑of‑experts architecture (8B total, ~1.5B active), delivering performance akin to a 3–4B model on mobile and laptop. Our analysts appreciated the architectural ingenuity, but judged it a technical product release rather than broadly relevant to general AI strategy at this stage.</description>
+      <guid isPermaLink="false">1aca176508dcb49a690f87ead1f680f4</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI21’s Jamba Reasoning 3B Redefines What “Small” Means in LLMs [ ~ ]</title>
+      <link>https://venturebeat.com/ai/ai21s-jamba-reasoning-3b-redefines-what-small-means-in-llms-250k-context-on</link>
+      <description>Jamba Reasoning 3B offers a 250K context on a relatively small 3B‑parameter model, pushing the capabilities of “small” LLMs. Our analysts broadly agreed it is interesting in a crowded space of small models, but they did not see it as differentiated enough right now to demand broader attention.</description>
+      <guid isPermaLink="false">dfcf9b22860d9e89600a5be8e3be1c7a</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Gemini 2.5 Computer Use model [ ~ ]</title>
+      <link>https://blog.google/technology/google-deepmind/gemini-computer-use-model</link>
+      <description>The Gemini 2.5 Computer Use model can navigate web interfaces (click, type, scroll) — a move toward more agent-like capabilities in browser environments. But our analysts characterized it as a “catch-up” feature from Google, limited currently to web-level controls and not yet mature enough to merit higher urgency.</description>
+      <guid isPermaLink="false">5437768d3856802a48632a6421611939</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Ling‑1T [ * ]</title>
+      <link>https://huggingface.co/inclusionAI/Ling-1T</link>
+      <description>Ling‑1T is a trillion‑parameter model optimized for reasoning and scaling, incorporating innovations like “EVO‑CoT” (evolutionary chain-of-thought) and a 128K context window. Our analysts flagged it as noteworthy because of its algorithmic advances and open architecture, and as a sign that China is pushing aggressively on the open AI frontier.</description>
+      <guid isPermaLink="false">088399bf7f4b456853b3bcac014664c5</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vxceed builds the perfect sales pitch for sales teams at scale using Amazon Bedrock [ ! ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/vxceed-builds-the-perfect-sales-pitch-for-sales-teams-at-scale-using-amazon-bedrock/</link>
+      <description>This piece demonstrates a deployed, revenue‑impacting use of multi‑agent AI, showing how Vxceed built a “storyteller” framework on Amazon Bedrock to generate personalized pitches at scale — a concrete example of AI-driven sales automation. Our analysts emphasized that it’s not just a prototypical use case but in production, includes multiple cooperating agents, and offers a blueprint for organizations to emulate.</description>
+      <guid isPermaLink="false">b945974ed892c43febc7705cba460d38</guid>
+      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

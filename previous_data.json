@@ -2,6 +2,106 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Vxceed builds the perfect sales pitch for sales teams at scale using Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/vxceed-builds-the-perfect-sales-pitch-for-sales-teams-at-scale-using-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "This piece demonstrates a deployed, revenue‑impacting use of multi‑agent AI, showing how Vxceed built a “storyteller” framework on Amazon Bedrock to generate personalized pitches at scale — a concrete example of AI-driven sales automation. Our analysts emphasized that it’s not just a prototypical use case but in production, includes multiple cooperating agents, and offers a blueprint for organizations to emulate.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Ling‑1T",
+        "links": [
+          "https://huggingface.co/inclusionAI/Ling-1T"
+        ]
+      },
+      "Rationale": {
+        "text": "Ling‑1T is a trillion‑parameter model optimized for reasoning and scaling, incorporating innovations like “EVO‑CoT” (evolutionary chain-of-thought) and a 128K context window. Our analysts flagged it as noteworthy because of its algorithmic advances and open architecture, and as a sign that China is pushing aggressively on the open AI frontier.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing the Gemini 2.5 Computer Use model",
+        "links": [
+          "https://blog.google/technology/google-deepmind/gemini-computer-use-model"
+        ]
+      },
+      "Rationale": {
+        "text": "The Gemini 2.5 Computer Use model can navigate web interfaces (click, type, scroll) — a move toward more agent-like capabilities in browser environments. But our analysts characterized it as a “catch-up” feature from Google, limited currently to web-level controls and not yet mature enough to merit higher urgency.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI21’s Jamba Reasoning 3B Redefines What “Small” Means in LLMs",
+        "links": [
+          "https://venturebeat.com/ai/ai21s-jamba-reasoning-3b-redefines-what-small-means-in-llms-250k-context-on"
+        ]
+      },
+      "Rationale": {
+        "text": "Jamba Reasoning 3B offers a 250K context on a relatively small 3B‑parameter model, pushing the capabilities of “small” LLMs. Our analysts broadly agreed it is interesting in a crowded space of small models, but they did not see it as differentiated enough right now to demand broader attention.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/09/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "LFM2‑8B‑A1B: An Efficient On-device Mixture‑of‑Experts",
+        "links": [
+          "https://www.liquid.ai/blog/lfm2-8b-a1b-an-efficient-on-device-mixture-of-experts"
+        ]
+      },
+      "Rationale": {
+        "text": "This model enables on-device inference via a mixture‑of‑experts architecture (8B total, ~1.5B active), delivering performance akin to a 3–4B model on mobile and laptop. Our analysts appreciated the architectural ingenuity, but judged it a technical product release rather than broadly relevant to general AI strategy at this stage.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/08/2025",
         "links": []
       },
@@ -899,107 +999,7 @@
         "text": "Google has introduced Mixboard, a generative AI tool that enables users to create and manipulate visual concept boards from text prompts, signaling a shift toward visual-first communication. Our analysts highlighted its potential beyond marketing, emphasizing its relevance for communication across organizations and noting strong early user feedback and real-world utility for AI leaders.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Deutsche Bank delivers AI-powered financial research with DB Lumina",
-        "links": [
-          "https://cloud.google.com/blog/topics/financial-services/deutsche-bank-delivers-ai-powered-financial-research-with-db-lumina"
-        ]
-      },
-      "Rationale": {
-        "text": "Deutsche Bank’s DB Lumina integrates generative AI, RAG pipelines, and internal knowledge bases to assist analysts in generating financial research more efficiently and safely. Our analysts noted this as a well-architected and regulated example of AI in finance, though they held it back from Essential due to limited detail on business outcomes and adoption metrics.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Transforming SAP Technical Documentation with GenAI: Accelerating knowledge generation for SAP Notes with Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/awsforsap/transforming-sap-technical-documentation-with-genai-accelerating-knowledge-generation-for-sap-notes-with-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "SAP has partnered with AWS to apply generative AI to the summarization and delivery of technical documentation, targeting mobile-first use cases and legacy enterprise systems. Our analysts found the detailed implementation—especially around RAG, evaluation, and unstructured data—to be valuable for AI leaders modernizing complex internal knowledge assets, despite a lack of ROI data.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Build more powerful voice agents with the Gemini Live API",
-        "links": [
-          "https://x.com/GoogleAIStudio/status/1970545734736023564"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s new Gemini Live API enables developers to build real-time AI voice agents with low latency, emotional tone control, and context-rich conversation. Our analysts viewed this as an important evolution in multimodal AI, with implications for future chatbots and virtual assistants, and a sign that Google is regaining leadership in generative AI product innovation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing LFM2‑2.6B: Redefining Efficiency in Language Models",
-        "links": [
-          "https://www.liquid.ai/blog/introducing-lfm2-2-6b-redefining-efficiency-in-language-models"
-        ]
-      },
-      "Rationale": {
-        "text": "Liquid AI, an MIT-founded startup, introduced a 2.6B parameter convolutional model aimed at efficient edge deployment, beating competitor models of similar size in performance. Our analysts acknowledged the technical novelty but noted the lack of adoption, use cases, or business traction—leaving it as a niche interest rather than a strategic priority for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Nvidia Is Backstopping America’s AI Boom",
-        "links": [
-          "https://www.wsj.com/tech/ai/how-nvidia-is-backstopping-americas-ai-boom-875c1346"
-        ]
-      },
-      "Rationale": {
-        "text": "The piece explores NVIDIA’s strategic investments—especially into OpenAI and infrastructure—and how those investments amplify its revenue generation and influence over the AI stack. Our analysts emphasized that this article is essential for anyone tracking AI’s geopolitical and economic dynamics, as it reveals how capital, control, and hardware are intertwining in real time.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-09T08:18:24.208528+00:00"
+  "timestamp": "2025-10-09T16:20:12.780665+00:00"
 }
