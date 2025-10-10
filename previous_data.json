@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Gemini Enterprise",
+        "links": [
+          "https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise"
+        ]
+      },
+      "Rationale": {
+        "text": "This is a substantial enterprise AI launch from Google, combining agentic capabilities, infrastructure, connectors, and governance in one platform. Our analysts emphasized that it's more than a product—it’s a strategic “front door” for organizations to approach AI at scale.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Figure 03",
+        "links": [
+          "https://www.figure.ai/news/introducing-figure-03"
+        ]
+      },
+      "Rationale": {
+        "text": "Figure’s new humanoid robot pushes forward the frontier of general‑purpose home robotics, with improvements in sensing, manufacturability, and software systems. Our analysts saw real potential — particularly in vertical integration, home assistance, and the broader robotics roadmap — while also noting it remains a flashy product announcement with early claims.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "HiBob turns 2,500 GPTs into a flywheel for product and team growth",
+        "links": [
+          "https://openai.com/index/hibob/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study gives a concrete view of how an organization is deploying many GPTs internally for tasks like meeting prep, upsell opportunity detection, project management, and roadmap planning. Our analysts appreciated the ambition but flagged the lack of clear metrics, governance, and business outcome detail.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Echelon's AI agents take aim at Accenture and Deloitte consulting models",
+        "links": [
+          "https://venturebeat.com/ai/echelons-ai-agents-take-aim-at-accenture-and-deloitte-consulting-models"
+        ]
+      },
+      "Rationale": {
+        "text": "It’s an intriguing startup angle on reimagining consulting via AI wrappers around enterprise systems, but our analysts judged it as nascent and speculative, with limited traction or proof.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "BLACKBOX chooses ElevenLabs Agents over OpenAI to power Logger and Robocoder",
+        "links": [
+          "https://elevenlabs.io/blog/blackbox"
+        ]
+      },
+      "Rationale": {
+        "text": "The announcement reads more like a marketing claim than a deeply informative use case; our analysts found little technical or business depth in its execution or outcomes.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Less is More: Recursive Reasoning with Tiny Networks",
+        "links": [
+          "https://arxiv.org/pdf/2510.04871"
+        ]
+      },
+      "Rationale": {
+        "text": "This research explores an algorithmic innovation (a tiny recursive model) that challenges the “bigger is always better” scaling narrative. Though compelling and innovative, our analysts saw it as academic and speculative for now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/09/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Gemini Robotics‑ER 1.5 is the first open embodied reasoning model that lets robots perceive, plan, use tools, and act in complex physical environments. Our analysts weighed its significance (combining language models + physical planning) and discussed whether it should be essential and ultimately rated “important” because the domain of robotics still touches fewer AI leaders today but agreed that in the field of Robotics, this is essential news.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "09/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Measuring the performance of our models on real‑world tasks",
-        "links": [
-          "https://openai.com/index/gdpval/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI introduces “GDPval,” a framework evaluating AI impact across 44 occupations via 1,320 specialized tasks. Our analysts considered it smart and useful for benchmarking value, though not yet critical for most AI leaders right now.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Autoregressive‑to‑Diffusion Vision Language Models",
-        "links": [
-          "https://runwayml.com/research/autoregressive-to-diffusion-vlms"
-        ]
-      },
-      "Rationale": {
-        "text": "A technical paper proposing an efficient pipeline for going from vision to language via diffusion / autoregressive models. Our analysts viewed it as “nice algorithmic innovation” but not broadly disruptive for leadership priorities.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "ENEOS Materials brings ChatGPT Enterprise to manufacturing",
-        "links": [
-          "https://openai.com/index/eneos-materials/"
-        ]
-      },
-      "Rationale": {
-        "text": "A use case of ChatGPT in industrial operations in Japan, showing cross‑language support and internal applications. Our analysts liked it as a real-world example, though lacking strong economic detail.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "CWM: An Open‑Weights LLM for Research on Code Generation with World Models",
-        "links": [
-          "https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta’s 32B open‑weights model trained on code + world models enables execution traces in environments (e.g. Docker). Our analysts found this valuable to the developer community, but less immediately relevant for strategy-level readers.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Is Transforming Productivity, but Sales Remains a New Frontier",
-        "links": [
-          "https://www.bain.com/insights/ai-transforming-productivity-sales-remains-new-frontier-technology-report-2025/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article from Bain & Company explores how generative AI is reshaping sales by increasing time spent selling and highlighting over two dozen use cases across the customer journey. Our analysts emphasized that AI in sales is shifting from efficiency to growth, making it a critical area for AI leaders to engage with revenue-driving strategies.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/25/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Google’s Mixboard is an AI moodboard builder",
-        "links": [
-          "https://www.theverge.com/news/783991/google-labs-mixboard-ai-design-canvas"
-        ]
-      },
-      "Rationale": {
-        "text": "Google has introduced Mixboard, a generative AI tool that enables users to create and manipulate visual concept boards from text prompts, signaling a shift toward visual-first communication. Our analysts highlighted its potential beyond marketing, emphasizing its relevance for communication across organizations and noting strong early user feedback and real-world utility for AI leaders.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-10T08:18:57.120614+00:00"
+  "timestamp": "2025-10-10T16:16:07.915909+00:00"
 }

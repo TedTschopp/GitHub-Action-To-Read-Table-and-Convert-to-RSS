@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 10 Oct 2025 08:17:34 +0000</lastBuildDate>
-    <item>
-      <title>Google’s Mixboard is an AI moodboard builder [ ! ]</title>
-      <link>https://www.theverge.com/news/783991/google-labs-mixboard-ai-design-canvas</link>
-      <description>Google has introduced Mixboard, a generative AI tool that enables users to create and manipulate visual concept boards from text prompts, signaling a shift toward visual-first communication. Our analysts highlighted its potential beyond marketing, emphasizing its relevance for communication across organizations and noting strong early user feedback and real-world utility for AI leaders.</description>
-      <guid isPermaLink="false">1e8a6c60531c8b5919f66ece679531cd</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Is Transforming Productivity, but Sales Remains a New Frontier [ ! ]</title>
-      <link>https://www.bain.com/insights/ai-transforming-productivity-sales-remains-new-frontier-technology-report-2025/</link>
-      <description>This article from Bain &amp; Company explores how generative AI is reshaping sales by increasing time spent selling and highlighting over two dozen use cases across the customer journey. Our analysts emphasized that AI in sales is shifting from efficiency to growth, making it a critical area for AI leaders to engage with revenue-driving strategies.</description>
-      <guid isPermaLink="false">6986286a115c8a6c895db35cec4df274</guid>
-      <pubDate>Thu, 25 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>CWM: An Open‑Weights LLM for Research on Code Generation with World Models [ ~ ]</title>
-      <link>https://ai.meta.com/research/publications/cwm-an-open-weights-llm-for-research-on-code-generation-with-world-models/</link>
-      <description>Meta’s 32B open‑weights model trained on code + world models enables execution traces in environments (e.g. Docker). Our analysts found this valuable to the developer community, but less immediately relevant for strategy-level readers.</description>
-      <guid isPermaLink="false">094bb6496d10f9a3fa17d9117e093394</guid>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ENEOS Materials brings ChatGPT Enterprise to manufacturing [ ~ ]</title>
-      <link>https://openai.com/index/eneos-materials/</link>
-      <description>A use case of ChatGPT in industrial operations in Japan, showing cross‑language support and internal applications. Our analysts liked it as a real-world example, though lacking strong economic detail.</description>
-      <guid isPermaLink="false">e52e85522a6ffcef60e14d3d1e684b53</guid>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Autoregressive‑to‑Diffusion Vision Language Models [ ~ ]</title>
-      <link>https://runwayml.com/research/autoregressive-to-diffusion-vlms</link>
-      <description>A technical paper proposing an efficient pipeline for going from vision to language via diffusion / autoregressive models. Our analysts viewed it as “nice algorithmic innovation” but not broadly disruptive for leadership priorities.</description>
-      <guid isPermaLink="false">9354a04321a4ae94359c509f9e9eebcc</guid>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Measuring the performance of our models on real‑world tasks [ * ]</title>
-      <link>https://openai.com/index/gdpval/</link>
-      <description>OpenAI introduces “GDPval,” a framework evaluating AI impact across 44 occupations via 1,320 specialized tasks. Our analysts considered it smart and useful for benchmarking value, though not yet critical for most AI leaders right now.</description>
-      <guid isPermaLink="false">f29f62b36172f93cdbb8fafac05faed1</guid>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 10 Oct 2025 16:14:45 +0000</lastBuildDate>
     <item>
       <title>Building the Next Generation of Physical Agents with Gemini Robotics‑ER 1.5 [ * ]</title>
       <link>https://developers.googleblog.com/en/building-the-next-generation-of-physical-agents-with-gemini-robotics-er-15/</link>
@@ -357,6 +315,48 @@
       <description>This piece demonstrates a deployed, revenue‑impacting use of multi‑agent AI, showing how Vxceed built a “storyteller” framework on Amazon Bedrock to generate personalized pitches at scale — a concrete example of AI-driven sales automation. Our analysts emphasized that it’s not just a prototypical use case but in production, includes multiple cooperating agents, and offers a blueprint for organizations to emulate.</description>
       <guid isPermaLink="false">b945974ed892c43febc7705cba460d38</guid>
       <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Less is More: Recursive Reasoning with Tiny Networks [ ~ ]</title>
+      <link>https://arxiv.org/pdf/2510.04871</link>
+      <description>This research explores an algorithmic innovation (a tiny recursive model) that challenges the “bigger is always better” scaling narrative. Though compelling and innovative, our analysts saw it as academic and speculative for now.</description>
+      <guid isPermaLink="false">630e841ca5c537821c2c7bffebca889f</guid>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BLACKBOX chooses ElevenLabs Agents over OpenAI to power Logger and Robocoder [ ~ ]</title>
+      <link>https://elevenlabs.io/blog/blackbox</link>
+      <description>The announcement reads more like a marketing claim than a deeply informative use case; our analysts found little technical or business depth in its execution or outcomes.</description>
+      <guid isPermaLink="false">0884c27dcf21f2d8bcdc3f69b2c2b7ae</guid>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Echelon's AI agents take aim at Accenture and Deloitte consulting models [ ~ ]</title>
+      <link>https://venturebeat.com/ai/echelons-ai-agents-take-aim-at-accenture-and-deloitte-consulting-models</link>
+      <description>It’s an intriguing startup angle on reimagining consulting via AI wrappers around enterprise systems, but our analysts judged it as nascent and speculative, with limited traction or proof.</description>
+      <guid isPermaLink="false">b57a5733b7b725b26f516a89c0d7f2c2</guid>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HiBob turns 2,500 GPTs into a flywheel for product and team growth [ * ]</title>
+      <link>https://openai.com/index/hibob/</link>
+      <description>This case study gives a concrete view of how an organization is deploying many GPTs internally for tasks like meeting prep, upsell opportunity detection, project management, and roadmap planning. Our analysts appreciated the ambition but flagged the lack of clear metrics, governance, and business outcome detail.</description>
+      <guid isPermaLink="false">ee0f38f293ada7e38fba971db117fa88</guid>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Figure 03 [ * ]</title>
+      <link>https://www.figure.ai/news/introducing-figure-03</link>
+      <description>Figure’s new humanoid robot pushes forward the frontier of general‑purpose home robotics, with improvements in sensing, manufacturability, and software systems. Our analysts saw real potential — particularly in vertical integration, home assistance, and the broader robotics roadmap — while also noting it remains a flashy product announcement with early claims.</description>
+      <guid isPermaLink="false">9a3e2cc13e02929164758213e918d8bc</guid>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Gemini Enterprise [ ! ]</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise</link>
+      <description>This is a substantial enterprise AI launch from Google, combining agentic capabilities, infrastructure, connectors, and governance in one platform. Our analysts emphasized that it's more than a product—it’s a strategic “front door” for organizations to approach AI at scale.</description>
+      <guid isPermaLink="false">482a0a6530a3e037aa28ee85ccab9dbd</guid>
+      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
