@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "The State of AI Report 2025",
+        "links": [
+          "https://press.airstreet.com/p/the-state-of-ai-report-2025"
+        ]
+      },
+      "Rationale": {
+        "text": "This comprehensive report offers a wide-ranging analysis of the AI landscape across industries such as technology, healthcare, finance, and manufacturing, blending technical, policy, and market insights. Our analysts emphasized its value as a reference for AI leaders advocating for AI literacy and investment, citing benchmarks (OpenAI's lead, China's rise), fine-tuning dominance by QLoRA, reinforcement learning trends, and the emergence of model context protocols.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How we scaled inbound sales with an AI SDR that qualifies 76% of leads end-to-end",
+        "links": [
+          "https://elevenlabs.io/es/blog/how-we-scaled-inbound-sales"
+        ]
+      },
+      "Rationale": {
+        "text": "Eleven Labs created an AI sales development rep (\"John\") that achieved a 78% success rate in lead qualification, powered by multi-model orchestration and tool integration. While the agent design and prompting guide offer meaningful insights into building autonomous agents, the article was criticized for feeling like a vendor pitch, lacking external validation or outbound capabilities.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "HYGH accelerates development and campaign delivery with ChatGPT Business",
+        "links": [
+          "https://openai.com/index/hygh/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study highlights how HYGH uses ChatGPT Business across departments to enhance content and campaign development workflows. While somewhat fragmented in its presentation, our analysts noted its relevance in illustrating OpenAIâ€™s shift toward full-stack AI operating models and the broader industry trend toward AI-augmented operations.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The Trillion Dollar AI Software Development Stack",
+        "links": [
+          "https://a16z.com/the-trillion-dollar-ai-software-development-stack/"
+        ]
+      },
+      "Rationale": {
+        "text": "Andreessen Horowitz outlines how AI-native software stacks are transforming enterprise software development, emphasizing the strategic need for productivity gains and tool adoption. Analysts positioned this as a key resource for CIOs and CTOs, noting that companies lagging in GenAI adoption risk becoming obsolete, especially as consulting firms evolve into tech-first service providers.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "A small number of samples can poison LLMs of any size",
+        "links": [
+          "https://www.anthropic.com/research/small-samples-poison"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic researchers show that injecting just a handful of malicious samples during fine-tuning can reliably poison LLM outputs, regardless of model size. Analysts flagged this as an important security wake-up call, especially as enterprises ramp up fine-tuning efforts, highlighting the need for rigorous data controls and new LLM safety mechanisms.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Novo Nordisk accelerates clinical documentation and drug development with Claude",
+        "links": [
+          "https://claude.com/customers/novo-nordisk"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study claims a 90% time savings in regulatory document preparation using Claude for clinical trial reporting. However, the analysis pointed out the lack of clarity on whether these gains applied to initial drafting or final submission, making it less actionable for those outside life sciences.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/10/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "PropHero demonstrates a practical application of AI in real estate by building a generative AI-driven advisor using Amazon Bedrock. Our analysts highlighted the thoughtful orchestration of a multi-agent system, the deliberate selection of foundation models per agent to optimize cost-performance, and the use of detailed evaluation metrics from Rajas — making this a textbook example of how to build and measure business value with generative AI.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "GLM-4.6: Advanced Agentic, Reasoning and Coding Capabilities",
-        "links": [
-          "https://z.ai/blog/glm-4.6"
-        ]
-      },
-      "Rationale": {
-        "text": "Zhipu AI's new GLM-4.6 model shows advances in agentic behavior, multi-step reasoning, and programming skills, positioning it as a strong open alternative to GPT-4. Our analysts noted that as one of China’s top three AI developers, Zhipu has produced a model that performs just below Claude 4.5 in coding benchmarks — making this a rising model to watch closely in the global LLM race.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing parental controls",
-        "links": [
-          "https://openai.com/index/introducing-parental-controls/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI has launched parental control features for ChatGPT, allowing parents to manage access and tailor AI interactions for teens and kids using the app. Our analysts were skeptical about the real-world effectiveness of these controls, citing the general gap in AI literacy among parents and the ease with which teenagers can bypass restrictions — making this a socially meaningful update, but not directly relevant for AI leaders or enterprise applications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "DeepSeek-V3.2-Exp",
-        "links": [
-          "https://github.com/deepseek-ai/DeepSeek-V3.2-Exp"
-        ]
-      },
-      "Rationale": {
-        "text": "DeepSeek has released version 3.2 of its experimental large language model, highlighting optimizations in inference speed and support for advanced reasoning benchmarks. Our analysts noted the clever use of sparse attention techniques to lower computational cost while maintaining quality, but emphasized that its Chinese origin limits immediate relevance for AI leaders focused on enterprise adoption in Western markets.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "California's Newsom signs law requiring AI safety disclosures",
-        "links": [
-          "https://www.reuters.com/legal/litigation/californias-newsom-signs-law-requiring-ai-safety-disclosures-2025-09-29/"
-        ]
-      },
-      "Rationale": {
-        "text": "A new California law mandates transparency from companies building large-scale AI models, marking one of the first legislative moves in the U.S. focused on AI safety reporting. However, our analysts pointed out the lack of clear enforcement mechanisms and viewed it as largely symbolic — reinforcing the need for more robust and coordinated federal-level AI regulation to meaningfully shape AI ethics and safety standards.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing ChatGPT Pulse",
-        "links": [
-          "https://openai.com/index/introducing-chatgpt-pulse/"
-        ]
-      },
-      "Rationale": {
-        "text": "This introduction marks a shift in ChatGPT’s role from reactive tool to proactive agent: Pulse conducts background research using your chat history, memory, and connected apps (e.g. calendar) and surfaces daily personalized visual cards. Our analysts saw this as a foundational change in human–AI interaction and a preview of what proactive digital intelligence might mean for both consumers and enterprises.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "09/26/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Building the Next Generation of Physical Agents with Gemini Robotics‑ER 1.5",
-        "links": [
-          "https://developers.googleblog.com/en/building-the-next-generation-of-physical-agents-with-gemini-robotics-er-15/"
-        ]
-      },
-      "Rationale": {
-        "text": "Gemini Robotics‑ER 1.5 is the first open embodied reasoning model that lets robots perceive, plan, use tools, and act in complex physical environments. Our analysts weighed its significance (combining language models + physical planning) and discussed whether it should be essential and ultimately rated “important” because the domain of robotics still touches fewer AI leaders today but agreed that in the field of Robotics, this is essential news.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-13T16:17:24.319835+00:00"
+  "timestamp": "2025-10-14T00:56:01.242474+00:00"
 }

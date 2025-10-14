@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 13 Oct 2025 16:16:02 +0000</lastBuildDate>
-    <item>
-      <title>Building the Next Generation of Physical Agents with Gemini Robotics‑ER 1.5 [ * ]</title>
-      <link>https://developers.googleblog.com/en/building-the-next-generation-of-physical-agents-with-gemini-robotics-er-15/</link>
-      <description>Gemini Robotics‑ER 1.5 is the first open embodied reasoning model that lets robots perceive, plan, use tools, and act in complex physical environments. Our analysts weighed its significance (combining language models + physical planning) and discussed whether it should be essential and ultimately rated “important” because the domain of robotics still touches fewer AI leaders today but agreed that in the field of Robotics, this is essential news.</description>
-      <guid isPermaLink="false">891895fde89d5e85482cb0edb544288f</guid>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing ChatGPT Pulse [ ! ]</title>
-      <link>https://openai.com/index/introducing-chatgpt-pulse/</link>
-      <description>This introduction marks a shift in ChatGPT’s role from reactive tool to proactive agent: Pulse conducts background research using your chat history, memory, and connected apps (e.g. calendar) and surfaces daily personalized visual cards. Our analysts saw this as a foundational change in human–AI interaction and a preview of what proactive digital intelligence might mean for both consumers and enterprises.</description>
-      <guid isPermaLink="false">30c571383e97eb99da45222ed2e11837</guid>
-      <pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>California's Newsom signs law requiring AI safety disclosures [ ~ ]</title>
-      <link>https://www.reuters.com/legal/litigation/californias-newsom-signs-law-requiring-ai-safety-disclosures-2025-09-29/</link>
-      <description>A new California law mandates transparency from companies building large-scale AI models, marking one of the first legislative moves in the U.S. focused on AI safety reporting. However, our analysts pointed out the lack of clear enforcement mechanisms and viewed it as largely symbolic — reinforcing the need for more robust and coordinated federal-level AI regulation to meaningfully shape AI ethics and safety standards.</description>
-      <guid isPermaLink="false">0dbe687860480f61fa733ec955dfe458</guid>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek-V3.2-Exp [ ~ ]</title>
-      <link>https://github.com/deepseek-ai/DeepSeek-V3.2-Exp</link>
-      <description>DeepSeek has released version 3.2 of its experimental large language model, highlighting optimizations in inference speed and support for advanced reasoning benchmarks. Our analysts noted the clever use of sparse attention techniques to lower computational cost while maintaining quality, but emphasized that its Chinese origin limits immediate relevance for AI leaders focused on enterprise adoption in Western markets.</description>
-      <guid isPermaLink="false">544e4336862545ae53444fbf269ecd1d</guid>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing parental controls [ ~ ]</title>
-      <link>https://openai.com/index/introducing-parental-controls/</link>
-      <description>OpenAI has launched parental control features for ChatGPT, allowing parents to manage access and tailor AI interactions for teens and kids using the app. Our analysts were skeptical about the real-world effectiveness of these controls, citing the general gap in AI literacy among parents and the ease with which teenagers can bypass restrictions — making this a socially meaningful update, but not directly relevant for AI leaders or enterprise applications.</description>
-      <guid isPermaLink="false">1de140536a78051cd66fdd048cddc8c9</guid>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GLM-4.6: Advanced Agentic, Reasoning and Coding Capabilities [ * ]</title>
-      <link>https://z.ai/blog/glm-4.6</link>
-      <description>Zhipu AI's new GLM-4.6 model shows advances in agentic behavior, multi-step reasoning, and programming skills, positioning it as a strong open alternative to GPT-4. Our analysts noted that as one of China’s top three AI developers, Zhipu has produced a model that performs just below Claude 4.5 in coding benchmarks — making this a rising model to watch closely in the global LLM race.</description>
-      <guid isPermaLink="false">aa4ec38426d703c20600ed30e8a481fe</guid>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 14 Oct 2025 00:54:38 +0000</lastBuildDate>
     <item>
       <title>How PropHero built an intelligent property investment advisor with continuous evaluation using Amazon Bedrock [ ! ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-prophero-built-an-intelligent-property-investment-advisor-with-continuous-evaluation-using-amazon-bedrock/</link>
@@ -357,6 +315,48 @@
       <description>This is a substantial enterprise AI launch from Google, combining agentic capabilities, infrastructure, connectors, and governance in one platform. Our analysts emphasized that it's more than a product—it’s a strategic “front door” for organizations to approach AI at scale.</description>
       <guid isPermaLink="false">482a0a6530a3e037aa28ee85ccab9dbd</guid>
       <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Novo Nordisk accelerates clinical documentation and drug development with Claude [ ~ ]</title>
+      <link>https://claude.com/customers/novo-nordisk</link>
+      <description>This case study claims a 90% time savings in regulatory document preparation using Claude for clinical trial reporting. However, the analysis pointed out the lack of clarity on whether these gains applied to initial drafting or final submission, making it less actionable for those outside life sciences.</description>
+      <guid isPermaLink="false">4a02b769fee4b72da076176b5d12a95e</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A small number of samples can poison LLMs of any size [ * ]</title>
+      <link>https://www.anthropic.com/research/small-samples-poison</link>
+      <description>Anthropic researchers show that injecting just a handful of malicious samples during fine-tuning can reliably poison LLM outputs, regardless of model size. Analysts flagged this as an important security wake-up call, especially as enterprises ramp up fine-tuning efforts, highlighting the need for rigorous data controls and new LLM safety mechanisms.</description>
+      <guid isPermaLink="false">c5ad5b605fc3d9844162fc96ff7bce57</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Trillion Dollar AI Software Development Stack [ * ]</title>
+      <link>https://a16z.com/the-trillion-dollar-ai-software-development-stack/</link>
+      <description>Andreessen Horowitz outlines how AI-native software stacks are transforming enterprise software development, emphasizing the strategic need for productivity gains and tool adoption. Analysts positioned this as a key resource for CIOs and CTOs, noting that companies lagging in GenAI adoption risk becoming obsolete, especially as consulting firms evolve into tech-first service providers.</description>
+      <guid isPermaLink="false">b787cfd112c509dd599273a3126a3e03</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>HYGH accelerates development and campaign delivery with ChatGPT Business [ * ]</title>
+      <link>https://openai.com/index/hygh/</link>
+      <description>This case study highlights how HYGH uses ChatGPT Business across departments to enhance content and campaign development workflows. While somewhat fragmented in its presentation, our analysts noted its relevance in illustrating OpenAIâ€™s shift toward full-stack AI operating models and the broader industry trend toward AI-augmented operations.</description>
+      <guid isPermaLink="false">f6495c47df30995993142fb9669e88c7</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How we scaled inbound sales with an AI SDR that qualifies 76% of leads end-to-end [ * ]</title>
+      <link>https://elevenlabs.io/es/blog/how-we-scaled-inbound-sales</link>
+      <description>Eleven Labs created an AI sales development rep ("John") that achieved a 78% success rate in lead qualification, powered by multi-model orchestration and tool integration. While the agent design and prompting guide offer meaningful insights into building autonomous agents, the article was criticized for feeling like a vendor pitch, lacking external validation or outbound capabilities.</description>
+      <guid isPermaLink="false">bfb0e773b86edb9cfb4dfc2ea1ad4c8d</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The State of AI Report 2025 [ ! ]</title>
+      <link>https://press.airstreet.com/p/the-state-of-ai-report-2025</link>
+      <description>This comprehensive report offers a wide-ranging analysis of the AI landscape across industries such as technology, healthcare, finance, and manufacturing, blending technical, policy, and market insights. Our analysts emphasized its value as a reference for AI leaders advocating for AI literacy and investment, citing benchmarks (OpenAI's lead, China's rise), fine-tuning dominance by QLoRA, reinforcement learning trends, and the emergence of model context protocols.</description>
+      <guid isPermaLink="false">56f4a5823c65b32eb46e8e468ecb1a38</guid>
+      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
