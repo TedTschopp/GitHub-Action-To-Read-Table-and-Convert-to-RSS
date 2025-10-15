@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Mr. Cooper assembled a \"team\" of AI agents to handle complex mortgage questions",
+        "links": [
+          "https://cloud.google.com/blog/topics/financial-services/assembling-a-team-of-ai-agents-to-handle-complex-mortgage-questions-at-mr-cooper"
+        ]
+      },
+      "Rationale": {
+        "text": "This article outlines how Mr. Cooper deployed a system called CIERA, a multi-agent AI network designed to address complex mortgage queries, showcasing clear examples of orchestration across specialist agents. Our analysts highlighted it as a highly transferable enterprise pattern for AI leaders, emphasizing its value in visualizing and communicating agentic system design to overwhelmed executives navigating the emerging AI-first enterprise paradigm.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
+        "links": [
+          "https://www.arxiv.org/pdf/2510.04618"
+        ]
+      },
+      "Rationale": {
+        "text": "This research paper introduces a three-part framework: generator, reflector, and curator, for improving LLMs by refining context (prompts, memories, evidence) rather than retraining models. While still theoretical, our analysts viewed it as an important early architecture for agentic systems, particularly for R&D teams exploring agent role definition, memory persistence, and team-level self-improvement in AI environments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Why AI Will Widen the Gap Between Superstars and Everybody Else",
+        "links": [
+          "https://archive.md/Dy54R"
+        ]
+      },
+      "Rationale": {
+        "text": "This article argues that GenAI will amplify high performers more than uplift average users, potentially increasing organizational inequality. Our analysts felt the piece lacked empirical backing and original insights, viewing it more as an opinion piece that missed a deeper analysis of early adopter advantages or the real distributional impacts of AI at work.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Meet Amazon Quick Suite: The agentic AI application reshaping how work gets done",
+        "links": [
+          "https://www.aboutamazon.com/news/aws/amazon-quick-suite-agentic-ai-aws-work?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Amazon's QuickSuite is a new agentic productivity platform aimed at competing with Microsoft Copilot Studio, targeting AWS customers. Our analysts described it as a solid product drop but primarily relevant for those in the Amazon ecosystem and part of a crowded market of emerging agent frameworks.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Copilot helps one of Canada's largest credit unions go beyond the numbers to create more personalized service",
+        "links": [
+          "https://news.microsoft.com/source/canada/features/ai/first-west-credit-union-copilot-deployment/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study describes Copilot's role in improving customer service at a Canadian credit union. Our analysts criticized the article for being vague, lacking measurable outcomes, and offering little insight into Copilot Studio's technical constraints, which undercut its value for enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Agentic AI Is Transforming Enterprise Platforms",
+        "links": [
+          "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms"
+        ]
+      },
+      "Rationale": {
+        "text": "This article offers a high-level perspective on how agentic AI is changing the structure and capabilities of enterprise platforms. The team found it added little beyond general framing, with no actionable detail or unique technical insight, making it an optional read for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/13/2025",
         "links": []
       },
@@ -56,7 +176,7 @@
         ]
       },
       "Rationale": {
-        "text": "This case study highlights how HYGH uses ChatGPT Business across departments to enhance content and campaign development workflows. While somewhat fragmented in its presentation, our analysts noted its relevance in illustrating OpenAIâ€™s shift toward full-stack AI operating models and the broader industry trend toward AI-augmented operations.",
+        "text": "This case study highlights how HYGH uses ChatGPT Business across departments to enhance content and campaign development workflows. While somewhat fragmented in its presentation, our analysts noted its relevance in illustrating OpenAI's shift toward full-stack AI operating models and the broader industry trend toward AI-augmented operations.",
         "links": []
       }
     },
@@ -879,127 +999,7 @@
         "text": "Anthropic outlines how to optimize AI agents by focusing on “context engineering” rather than just prompt design, improving coherence and performance in multi-agent systems. Our analysts emphasized this shift as foundational for enterprise AI, especially in workflows requiring task memory, inference layering, and state management.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The anatomy of a personal health agent",
-        "links": [
-          "https://research.google/blog/the-anatomy-of-a-personal-health-agent"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s latest research showcases an AI Personal Health Agent that combines personal health data, symptoms, and diagnostics to offer tailored wellness insights. Though targeted at healthcare, our analysts viewed its multi-agent architecture as highly generalizable across industries, reinforcing the rise of domain-specific AI agent ecosystems.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Apriel‑1.5‑15b‑Thinker – Mid training is all you need!",
-        "links": [
-          "https://huggingface.co/ServiceNow-AI/Apriel-1.5-15b-Thinker"
-        ]
-      },
-      "Rationale": {
-        "text": "ServiceNow’s new 15B parameter model performs well on reasoning tasks and introduces efficient mid-training techniques. However, our analysts found its value incremental in a saturated small model market, noting limited enterprise adoption so far and lack of distinctive application context.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "LFM2‑Audio‑1.5B from Liquid AI",
-        "links": [
-          "https://huggingface.co/LiquidAI/LFM2-Audio-1.5B"
-        ]
-      },
-      "Rationale": {
-        "text": "Liquid AI’s new audio model joins a growing family of open-source multimodal models but lacks detailed benchmarks or differentiators. The discussion concluded it’s a watchlist item rather than a near-term driver of AI innovation or adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Microsoft retires AutoGen and debuts Agent Framework to unify and govern enterprise AI agents",
-        "links": [
-          "https://venturebeat.com/ai/microsoft-retires-autogen-and-debuts-agent-framework-to-unify-and-govern"
-        ]
-      },
-      "Rationale": {
-        "text": "Microsoft’s new Agent Framework consolidates its agent tools into a more unified and secure environment, with features like task adherence and PII detection. Despite being a notable evolution, our analysts saw it as a rebranding effort and more relevant to existing Azure users than the broader AI community.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Sora 2 is here",
-        "links": [
-          "https://openai.com/index/sora-2/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI has unveiled Sora 2, an upgraded version of its generative video model with dramatic improvements in motion accuracy, scene composition, and prompt handling. Our analysts agreed that the introduction of Cameos (letting users insert themselves or others into videos) and a new social platform, signal a shift toward consumer-grade AI video creation and sharing — making this a critical development for leaders watching the future of AI-driven content creation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/01/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How PropHero built an intelligent property investment advisor with continuous evaluation using Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-prophero-built-an-intelligent-property-investment-advisor-with-continuous-evaluation-using-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "PropHero demonstrates a practical application of AI in real estate by building a generative AI-driven advisor using Amazon Bedrock. Our analysts highlighted the thoughtful orchestration of a multi-agent system, the deliberate selection of foundation models per agent to optimize cost-performance, and the use of detailed evaluation metrics from Rajas — making this a textbook example of how to build and measure business value with generative AI.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-14T16:16:53.749965+00:00"
+  "timestamp": "2025-10-15T00:57:10.647201+00:00"
 }

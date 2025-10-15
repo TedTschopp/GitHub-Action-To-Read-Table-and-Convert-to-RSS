@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 14 Oct 2025 16:15:32 +0000</lastBuildDate>
-    <item>
-      <title>How PropHero built an intelligent property investment advisor with continuous evaluation using Amazon Bedrock [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-prophero-built-an-intelligent-property-investment-advisor-with-continuous-evaluation-using-amazon-bedrock/</link>
-      <description>PropHero demonstrates a practical application of AI in real estate by building a generative AI-driven advisor using Amazon Bedrock. Our analysts highlighted the thoughtful orchestration of a multi-agent system, the deliberate selection of foundation models per agent to optimize cost-performance, and the use of detailed evaluation metrics from Rajas — making this a textbook example of how to build and measure business value with generative AI.</description>
-      <guid isPermaLink="false">85f7d13113c84f5e7ea86eb1d6c885cc</guid>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Sora 2 is here [ ! ]</title>
-      <link>https://openai.com/index/sora-2/</link>
-      <description>OpenAI has unveiled Sora 2, an upgraded version of its generative video model with dramatic improvements in motion accuracy, scene composition, and prompt handling. Our analysts agreed that the introduction of Cameos (letting users insert themselves or others into videos) and a new social platform, signal a shift toward consumer-grade AI video creation and sharing — making this a critical development for leaders watching the future of AI-driven content creation.</description>
-      <guid isPermaLink="false">c1086d1f31ae6b843e8138d004461516</guid>
-      <pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Microsoft retires AutoGen and debuts Agent Framework to unify and govern enterprise AI agents [ ~ ]</title>
-      <link>https://venturebeat.com/ai/microsoft-retires-autogen-and-debuts-agent-framework-to-unify-and-govern</link>
-      <description>Microsoft’s new Agent Framework consolidates its agent tools into a more unified and secure environment, with features like task adherence and PII detection. Despite being a notable evolution, our analysts saw it as a rebranding effort and more relevant to existing Azure users than the broader AI community.</description>
-      <guid isPermaLink="false">024530fc42c4a867b24490a8b60a9be1</guid>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LFM2‑Audio‑1.5B from Liquid AI [ ~ ]</title>
-      <link>https://huggingface.co/LiquidAI/LFM2-Audio-1.5B</link>
-      <description>Liquid AI’s new audio model joins a growing family of open-source multimodal models but lacks detailed benchmarks or differentiators. The discussion concluded it’s a watchlist item rather than a near-term driver of AI innovation or adoption.</description>
-      <guid isPermaLink="false">b4ddd5190708285d1c2313836be2bf05</guid>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apriel‑1.5‑15b‑Thinker – Mid training is all you need! [ ~ ]</title>
-      <link>https://huggingface.co/ServiceNow-AI/Apriel-1.5-15b-Thinker</link>
-      <description>ServiceNow’s new 15B parameter model performs well on reasoning tasks and introduces efficient mid-training techniques. However, our analysts found its value incremental in a saturated small model market, noting limited enterprise adoption so far and lack of distinctive application context.</description>
-      <guid isPermaLink="false">fce7e9b6e0efd6af939e26187853020a</guid>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The anatomy of a personal health agent [ ! ]</title>
-      <link>https://research.google/blog/the-anatomy-of-a-personal-health-agent</link>
-      <description>Google’s latest research showcases an AI Personal Health Agent that combines personal health data, symptoms, and diagnostics to offer tailored wellness insights. Though targeted at healthcare, our analysts viewed its multi-agent architecture as highly generalizable across industries, reinforcing the rise of domain-specific AI agent ecosystems.</description>
-      <guid isPermaLink="false">5064c6e302c2c915cc2d2489a89723c2</guid>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 15 Oct 2025 00:55:50 +0000</lastBuildDate>
     <item>
       <title>Effective context engineering for AI agents [ ! ]</title>
       <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
@@ -340,8 +298,8 @@
     <item>
       <title>HYGH accelerates development and campaign delivery with ChatGPT Business [ * ]</title>
       <link>https://openai.com/index/hygh/</link>
-      <description>This case study highlights how HYGH uses ChatGPT Business across departments to enhance content and campaign development workflows. While somewhat fragmented in its presentation, our analysts noted its relevance in illustrating OpenAIâ€™s shift toward full-stack AI operating models and the broader industry trend toward AI-augmented operations.</description>
-      <guid isPermaLink="false">f6495c47df30995993142fb9669e88c7</guid>
+      <description>This case study highlights how HYGH uses ChatGPT Business across departments to enhance content and campaign development workflows. While somewhat fragmented in its presentation, our analysts noted its relevance in illustrating OpenAI's shift toward full-stack AI operating models and the broader industry trend toward AI-augmented operations.</description>
+      <guid isPermaLink="false">c27f82bd8b880ffccdf4a2572cbeccd4</guid>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -357,6 +315,48 @@
       <description>This comprehensive report offers a wide-ranging analysis of the AI landscape across industries such as technology, healthcare, finance, and manufacturing, blending technical, policy, and market insights. Our analysts emphasized its value as a reference for AI leaders advocating for AI literacy and investment, citing benchmarks (OpenAI's lead, China's rise), fine-tuning dominance by QLoRA, reinforcement learning trends, and the emergence of model context protocols.</description>
       <guid isPermaLink="false">56f4a5823c65b32eb46e8e468ecb1a38</guid>
       <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Agentic AI Is Transforming Enterprise Platforms [ ~ ]</title>
+      <link>https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms</link>
+      <description>This article offers a high-level perspective on how agentic AI is changing the structure and capabilities of enterprise platforms. The team found it added little beyond general framing, with no actionable detail or unique technical insight, making it an optional read for AI leaders.</description>
+      <guid isPermaLink="false">835d2c6e7f142f52ce41d570ae169928</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Copilot helps one of Canada's largest credit unions go beyond the numbers to create more personalized service [ ~ ]</title>
+      <link>https://news.microsoft.com/source/canada/features/ai/first-west-credit-union-copilot-deployment/</link>
+      <description>This case study describes Copilot's role in improving customer service at a Canadian credit union. Our analysts criticized the article for being vague, lacking measurable outcomes, and offering little insight into Copilot Studio's technical constraints, which undercut its value for enterprise AI leaders.</description>
+      <guid isPermaLink="false">42da04c1761eae838b69eeaebc12ce35</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet Amazon Quick Suite: The agentic AI application reshaping how work gets done [ ~ ]</title>
+      <link>https://www.aboutamazon.com/news/aws/amazon-quick-suite-agentic-ai-aws-work?s=09</link>
+      <description>Amazon's QuickSuite is a new agentic productivity platform aimed at competing with Microsoft Copilot Studio, targeting AWS customers. Our analysts described it as a solid product drop but primarily relevant for those in the Amazon ecosystem and part of a crowded market of emerging agent frameworks.</description>
+      <guid isPermaLink="false">809d89480208c6c5bd3f5b0698488916</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why AI Will Widen the Gap Between Superstars and Everybody Else [ ~ ]</title>
+      <link>https://archive.md/Dy54R</link>
+      <description>This article argues that GenAI will amplify high performers more than uplift average users, potentially increasing organizational inequality. Our analysts felt the piece lacked empirical backing and original insights, viewing it more as an opinion piece that missed a deeper analysis of early adopter advantages or the real distributional impacts of AI at work.</description>
+      <guid isPermaLink="false">ff1fdaf6182b7c1ed4290341bda56519</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models [ * ]</title>
+      <link>https://www.arxiv.org/pdf/2510.04618</link>
+      <description>This research paper introduces a three-part framework: generator, reflector, and curator, for improving LLMs by refining context (prompts, memories, evidence) rather than retraining models. While still theoretical, our analysts viewed it as an important early architecture for agentic systems, particularly for R&amp;D teams exploring agent role definition, memory persistence, and team-level self-improvement in AI environments.</description>
+      <guid isPermaLink="false">56d0262f7d49411ee54ab5f0394e930b</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Mr. Cooper assembled a "team" of AI agents to handle complex mortgage questions [ ! ]</title>
+      <link>https://cloud.google.com/blog/topics/financial-services/assembling-a-team-of-ai-agents-to-handle-complex-mortgage-questions-at-mr-cooper</link>
+      <description>This article outlines how Mr. Cooper deployed a system called CIERA, a multi-agent AI network designed to address complex mortgage queries, showcasing clear examples of orchestration across specialist agents. Our analysts highlighted it as a highly transferable enterprise pattern for AI leaders, emphasizing its value in visualizing and communicating agentic system design to overwhelmed executives navigating the emerging AI-first enterprise paradigm.</description>
+      <guid isPermaLink="false">5dec6ba290aab5d79c272875d4925f5d</guid>
+      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
