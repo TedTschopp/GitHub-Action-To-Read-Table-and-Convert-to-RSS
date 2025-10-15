@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 15 Oct 2025 08:18:44 +0000</lastBuildDate>
-    <item>
-      <title>Effective context engineering for AI agents [ ! ]</title>
-      <link>https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents</link>
-      <description>Anthropic outlines how to optimize AI agents by focusing on “context engineering” rather than just prompt design, improving coherence and performance in multi-agent systems. Our analysts emphasized this shift as foundational for enterprise AI, especially in workflows requiring task memory, inference layering, and state management.</description>
-      <guid isPermaLink="false">a56a18231ddde1b44a8bc850baab9e09</guid>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Real AI Agents and Real Work [ ! ]</title>
-      <link>https://www.oneusefulthing.org/p/real-ai-agents-and-real-work?s=09</link>
-      <description>This article argues that AI agents have moved beyond task support into executing meaningful, standalone work—such as creating presentations or replicating academic research. Our analysts agreed it marks a critical inflection point in the AI landscape, with practical examples proving agents are now delivering tangible business outcomes.</description>
-      <guid isPermaLink="false">d352e4470d7363d1e6887e23c0d7d9a2</guid>
-      <pubDate>Thu, 02 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM Granite 4.0: hyper-efficient, high performance hybrid models for enterprise [ ~ ]</title>
-      <link>https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models</link>
-      <description>IBM's new Granite 4.0 models leverage a hybrid Transformer-Mamba architecture for greater efficiency and extended context handling. Despite technical promise and enterprise positioning, our analysts noted performance gaps versus leaders like OpenAI and Anthropic, making this more of a product evolution than a market disruptor at present.</description>
-      <guid isPermaLink="false">44e9a0999133517c7d0352759a36be57</guid>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Tinker is a training API for developers [ ~ ]</title>
-      <link>https://thinkingmachines.ai/tinker/?s=09</link>
-      <description>Tinker, developed by Thinking Machines (founded by former OpenAI CTO Mira Murati), offers developers a managed API to fine-tune large language models with minimal infrastructure setup. Our analysts found it innovative but premature for enterprise use, citing unclear differentiation, data security risks, and pricing volatility.</description>
-      <guid isPermaLink="false">3453d0cc57dd48c688048b15521ac55a</guid>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Happens When AI Sets Wages [ ~ ]</title>
-      <link>https://hbr.org/2025/10/what-happens-when-ai-sets-wages</link>
-      <description>This HBR article investigates the growing use of AI to determine worker wages, touching on themes of fairness, transparency, and bias. While thought-provoking, our analysts agreed it remains largely editorial and narrowly scoped, with limited immediate impact for enterprise AI strategy.</description>
-      <guid isPermaLink="false">0adfa7ab0c07598783541fd825cee84b</guid>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The AI Application Spending Report: Where Startup Dollars Really Go [ ~ ]</title>
-      <link>https://a16z.com/the-ai-application-spending-report-where-startup-dollars-really-go/</link>
-      <description>This report from Andreessen Horowitz explores startup spending trends on AI vendors and tooling, offering insight into where early AI investments are flowing. Our analysts saw it as a snapshot with limited strategic utility, better suited for context on tool popularity than enterprise decision-making.</description>
-      <guid isPermaLink="false">b9baaee7b45979120f039f8c38194320</guid>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 15 Oct 2025 16:14:33 +0000</lastBuildDate>
     <item>
       <title>Hexagon Automates Manufacturing Standard Operating Procedures with AWS Generative AI [ * ]</title>
       <link>https://aws.amazon.com/blogs/industries/hexagon-automates-manufacturing-standard-operating-procedures-with-aws-generative-ai/</link>
@@ -357,6 +315,48 @@
       <description>This article outlines how Mr. Cooper deployed a system called CIERA, a multi-agent AI network designed to address complex mortgage queries, showcasing clear examples of orchestration across specialist agents. Our analysts highlighted it as a highly transferable enterprise pattern for AI leaders, emphasizing its value in visualizing and communicating agentic system design to overwhelmed executives navigating the emerging AI-first enterprise paradigm.</description>
       <guid isPermaLink="false">5dec6ba290aab5d79c272875d4925f5d</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing MAI‑Image‑1, debuting in the top 10 on LMArena [ ~ ]</title>
+      <link>https://microsoft.ai/news/introducing-mai-image-1-debuting-in-the-top-10-on-lmarena/</link>
+      <description>While interesting from a product and branding standpoint (Microsoft’s first in-house text-to-image model, now ranking in LMArena’s top 10), our analysts considered it a data point rather than a paradigm-shifting announcement. Without full benchmarks or deployment details, it ranks lower in urgency.</description>
+      <guid isPermaLink="false">72046394e064c454c644f4ed480f9cfc</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Salesforce and OpenAI Partner Across Enterprise Work and Commerce [ * ]</title>
+      <link>https://www.salesforce.com/news/press-releases/2025/10/14/openai-partnership-expansion-announcement</link>
+      <description>By surfacing Salesforce’s Agentforce 360 inside ChatGPT (and Slack) and embedding frontier models, this partnership signals how workflow tools will increasingly become agent-driven interfaces. Our analysts saw it as a major signal of the direction enterprise software is heading, but debate remained about Salesforce’s execution credibility.</description>
+      <guid isPermaLink="false">830549eebcd6fd0c977fd1c53ac3689a</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kitsa transforms clinical trial site selection with Amazon Quick Automate [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/kitsa-transforms-clinical-trial-site-selection-with-amazon-quick-automate/</link>
+      <description>This case study offers a concrete, measurable example of generative AI workflow automation in a high-stakes domain (clinical trials), citing improvements like 96 % faster data acquisition and 91 % cost savings. Our analysts considered it well-executed, though they flagged that many numbers are self‑reported and tied to AWS’s tooling.</description>
+      <guid isPermaLink="false">7b29c19d7952f0ee0e0f0624a574724d</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing LLM‑Evalkit: A practical framework for prompt engineering on Google Cloud [ * ]</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/introducing-llm-evalkit</link>
+      <description>The LLM Evalkit helps turn prompt engineering from intuition-based approaches into an instrumented, structured evaluation process, supporting better model development and deployment. Our analysts noted that this creates engineering discipline around prompts and reduces the ad hoc nature of many current evaluation practices.</description>
+      <guid isPermaLink="false">1e1f387c19da82991aa8e75a28943d76</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Gen AI Playbook for Organizations [ ! ]</title>
+      <link>https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations</link>
+      <description>This article frames generative AI not just as a tool but as a capability to build into an organization, with frameworks around experimentation, value-mapping, and governance. Our analysts emphasized that thinking of AI as a capability (vs. just a technology) is critical to gaining competitive advantage, making this a must-read for enterprise AI leaders.</description>
+      <guid isPermaLink="false">2d174c6a5a24e1dc137b045c57150ba6</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>You’ll soon be able to shop Walmart from ChatGPT [ ! ]</title>
+      <link>https://techcrunch.com/2025/10/14/youll-soon-be-able-to-shop-walmart-from-chatgpt/</link>
+      <description>Walmart announced that customers will soon be able to search for and purchase items directly through ChatGPT, using a new integration powered by OpenAI. Our analysts saw this as a tectonic shift in the evolution of “AI-first shopping,” with vast implications for brands, marketplaces, and competition.</description>
+      <guid isPermaLink="false">9923e0a3bb1bf471730725d637a822c3</guid>
+      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

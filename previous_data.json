@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "You’ll soon be able to shop Walmart from ChatGPT",
+        "links": [
+          "https://techcrunch.com/2025/10/14/youll-soon-be-able-to-shop-walmart-from-chatgpt/"
+        ]
+      },
+      "Rationale": {
+        "text": "Walmart announced that customers will soon be able to search for and purchase items directly through ChatGPT, using a new integration powered by OpenAI. Our analysts saw this as a tectonic shift in the evolution of “AI-first shopping,” with vast implications for brands, marketplaces, and competition.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "The Gen AI Playbook for Organizations",
+        "links": [
+          "https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations"
+        ]
+      },
+      "Rationale": {
+        "text": "This article frames generative AI not just as a tool but as a capability to build into an organization, with frameworks around experimentation, value-mapping, and governance. Our analysts emphasized that thinking of AI as a capability (vs. just a technology) is critical to gaining competitive advantage, making this a must-read for enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing LLM‑Evalkit: A practical framework for prompt engineering on Google Cloud",
+        "links": [
+          "https://cloud.google.com/blog/products/ai-machine-learning/introducing-llm-evalkit"
+        ]
+      },
+      "Rationale": {
+        "text": "The LLM Evalkit helps turn prompt engineering from intuition-based approaches into an instrumented, structured evaluation process, supporting better model development and deployment. Our analysts noted that this creates engineering discipline around prompts and reduces the ad hoc nature of many current evaluation practices.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Kitsa transforms clinical trial site selection with Amazon Quick Automate",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/kitsa-transforms-clinical-trial-site-selection-with-amazon-quick-automate/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study offers a concrete, measurable example of generative AI workflow automation in a high-stakes domain (clinical trials), citing improvements like 96 % faster data acquisition and 91 % cost savings. Our analysts considered it well-executed, though they flagged that many numbers are self‑reported and tied to AWS’s tooling.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Salesforce and OpenAI Partner Across Enterprise Work and Commerce",
+        "links": [
+          "https://www.salesforce.com/news/press-releases/2025/10/14/openai-partnership-expansion-announcement"
+        ]
+      },
+      "Rationale": {
+        "text": "By surfacing Salesforce’s Agentforce 360 inside ChatGPT (and Slack) and embedding frontier models, this partnership signals how workflow tools will increasingly become agent-driven interfaces. Our analysts saw it as a major signal of the direction enterprise software is heading, but debate remained about Salesforce’s execution credibility.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/15/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing MAI‑Image‑1, debuting in the top 10 on LMArena",
+        "links": [
+          "https://microsoft.ai/news/introducing-mai-image-1-debuting-in-the-top-10-on-lmarena/"
+        ]
+      },
+      "Rationale": {
+        "text": "While interesting from a product and branding standpoint (Microsoft’s first in-house text-to-image model, now ranking in LMArena’s top 10), our analysts considered it a data point rather than a paradigm-shifting announcement. Without full benchmarks or deployment details, it ranks lower in urgency.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/14/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This AWS case study showcases how Hexagon used generative AI to digitize SOPs, achieving over 90% automation accuracy in transforming manufacturing operating procedure documents. Our analysts found the technical architecture informative and forwardable, despite the lack of detailed business impact metrics or long-term maintenance discussion.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The AI Application Spending Report: Where Startup Dollars Really Go",
-        "links": [
-          "https://a16z.com/the-ai-application-spending-report-where-startup-dollars-really-go/"
-        ]
-      },
-      "Rationale": {
-        "text": "This report from Andreessen Horowitz explores startup spending trends on AI vendors and tooling, offering insight into where early AI investments are flowing. Our analysts saw it as a snapshot with limited strategic utility, better suited for context on tool popularity than enterprise decision-making.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "What Happens When AI Sets Wages",
-        "links": [
-          "https://hbr.org/2025/10/what-happens-when-ai-sets-wages"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR article investigates the growing use of AI to determine worker wages, touching on themes of fairness, transparency, and bias. While thought-provoking, our analysts agreed it remains largely editorial and narrowly scoped, with limited immediate impact for enterprise AI strategy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Tinker is a training API for developers",
-        "links": [
-          "https://thinkingmachines.ai/tinker/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Tinker, developed by Thinking Machines (founded by former OpenAI CTO Mira Murati), offers developers a managed API to fine-tune large language models with minimal infrastructure setup. Our analysts found it innovative but premature for enterprise use, citing unclear differentiation, data security risks, and pricing volatility.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "IBM Granite 4.0: hyper-efficient, high performance hybrid models for enterprise",
-        "links": [
-          "https://www.ibm.com/new/announcements/ibm-granite-4-0-hyper-efficient-high-performance-hybrid-models"
-        ]
-      },
-      "Rationale": {
-        "text": "IBM's new Granite 4.0 models leverage a hybrid Transformer-Mamba architecture for greater efficiency and extended context handling. Despite technical promise and enterprise positioning, our analysts noted performance gaps versus leaders like OpenAI and Anthropic, making this more of a product evolution than a market disruptor at present.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Real AI Agents and Real Work",
-        "links": [
-          "https://www.oneusefulthing.org/p/real-ai-agents-and-real-work?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This article argues that AI agents have moved beyond task support into executing meaningful, standalone work—such as creating presentations or replicating academic research. Our analysts agreed it marks a critical inflection point in the AI landscape, with practical examples proving agents are now delivering tangible business outcomes.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/02/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Effective context engineering for AI agents",
-        "links": [
-          "https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic outlines how to optimize AI agents by focusing on “context engineering” rather than just prompt design, improving coherence and performance in multi-agent systems. Our analysts emphasized this shift as foundational for enterprise AI, especially in workflows requiring task memory, inference layering, and state management.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-15T08:19:59.410410+00:00"
+  "timestamp": "2025-10-15T16:15:51.172909+00:00"
 }
