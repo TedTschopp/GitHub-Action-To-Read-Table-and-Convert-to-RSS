@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 16 Oct 2025 08:19:22 +0000</lastBuildDate>
-    <item>
-      <title>Hexagon Automates Manufacturing Standard Operating Procedures with AWS Generative AI [ * ]</title>
-      <link>https://aws.amazon.com/blogs/industries/hexagon-automates-manufacturing-standard-operating-procedures-with-aws-generative-ai/</link>
-      <description>This AWS case study showcases how Hexagon used generative AI to digitize SOPs, achieving over 90% automation accuracy in transforming manufacturing operating procedure documents. Our analysts found the technical architecture informative and forwardable, despite the lack of detailed business impact metrics or long-term maintenance discussion.</description>
-      <guid isPermaLink="false">84c09c062c14e90f3e2412b1838193b3</guid>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>JPMorgan Chase's blueprint to become the world's first fully AI-powered megabank [ ! ]</title>
-      <link>https://www.cnbc.com/2025/09/30/jpmorgan-chase-fully-ai-connected-megabank.html</link>
-      <description>JPMorgan is aiming to become the first fully AI-integrated megabank, applying generative AI across 250,000 employees with tools like secure chatbots and internal agents. Our analysts emphasized this as a rare example of CEO-led AI transformation at scale, making it a must-watch case for AI leaders, especially in regulated industries.</description>
-      <guid isPermaLink="false">8fb8bb84ebf6d9a87335121e4ff94443</guid>
-      <pubDate>Fri, 03 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Training Agents Inside of Scalable World Models [ ~ ]</title>
-      <link>https://danijar.com/project/dreamer4/</link>
-      <description>Dreamer4 proposes an imaginative training paradigm (learning a latent world model and simulating actions inside it). Our analysts agreed that it’s an exciting technical advance, but still early — not yet broadly relevant to AI leaders outside research or robotics.</description>
-      <guid isPermaLink="false">1cfb79c2a22b50439f34697ddbb4d7aa</guid>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>With GPT‑5, Wrtn builds lifestyle AI for millions in Korea [ ~ ]</title>
-      <link>https://openai.com/index/wrtn/</link>
-      <description>This is an interesting regional case of combining GPT‑5 with cultural/language adaptation, routing between small and large models, local slang and politeness training. Our analysts saw it as promising but light on depth—more anecdote than blueprint.</description>
-      <guid isPermaLink="false">3d45e69fb82b24a4eb9d37525e3b8445</guid>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Developer laws in the AI era [ * ]</title>
-      <link>https://www.bvp.com/atlas/developer-laws-in-the-ai-era</link>
-      <description>Bessemer’s piece presents eight laws for how developers and platforms should evolve in an agentic, AI‑augmented future—covering pricing, ownership of interfaces, transparency, etc. Our analysts saw this as strategic and timely for AI leaders and dev teams, noting it aligns with trends about how tooling is reshaping the notion of “developer.”</description>
-      <guid isPermaLink="false">c601993624c207707c447794783eef60</guid>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rox accelerates sales productivity with AI agents powered by Amazon Bedrock [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/rox-accelerates-sales-productivity-with-ai-agents-powered-by-amazon-bedrock/</link>
-      <description>This case study details how multi-agent orchestration embedded into a sales platform led to claimed 2× revenue increase per rep, 50% lift in productivity, 20% faster sales velocity. Our analysts liked the architecture and ROI narrative but flagged it as somewhat promotional and lacking names of real customers, which holds it back from being essential.</description>
-      <guid isPermaLink="false">ef18a2118f5209e3dc00774e1ab94fbd</guid>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 16 Oct 2025 16:22:47 +0000</lastBuildDate>
     <item>
       <title>NBIM accelerates sovereign wealth management with enterprise‑wide AI transformation [ ! ]</title>
       <link>https://www.claude.com/customers/nbim</link>
@@ -357,6 +315,48 @@
       <description>Walmart announced that customers will soon be able to search for and purchase items directly through ChatGPT, using a new integration powered by OpenAI. Our analysts saw this as a tectonic shift in the evolution of “AI-first shopping,” with vast implications for brands, marketplaces, and competition.</description>
       <guid isPermaLink="false">9923e0a3bb1bf471730725d637a822c3</guid>
       <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Haiku 4.5 [ ~ ]</title>
+      <link>https://www.anthropic.com/news/claude-haiku-4-5</link>
+      <description>Anthropic’s Haiku 4.5 targets cost‑efficient deployment in agent settings, matching performance of larger models for certain tasks. Our analysts considered this as a routine product announcement, thereby classifying it as optional.</description>
+      <guid isPermaLink="false">0724cfdad60d8ff7c59baeb70a184e81</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Big Rethink: An agenda for thriving in the agentic age [ ~ ]</title>
+      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-big-rethink-an-agenda-for-thriving-in-the-agentic-age</link>
+      <description>McKinsey frames a high-level leadership agenda for adopting autonomous “agentic” systems. Our analysts judged it conceptually interesting but too abstract or thin to be actionable, placing it in the optional bucket.</description>
+      <guid isPermaLink="false">9e68a8732d10ba1136448e6bce222505</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside the AI-powered assistant helping doctors work faster and better at Seattle Children’s Hospital [ * ]</title>
+      <link>https://cloud.google.com/blog/topics/healthcare-life-sciences/child-care-how-ai-is-transforming-pediatric-medicine-at-seattle-childrens</link>
+      <description>In a major health system spanning 47 sites, Google Cloud’s “Pathway Assistant” is being applied to streamline clinician workflows (not decision-making), representing meaningful deployment of AI in healthcare. Our analysts acknowledged the potential impact while noting weaker quantification of business outcomes.</description>
+      <guid isPermaLink="false">2ee3ce4388eec6d0f942ba8f9d2a86b8</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>eSentire scales elite cybersecurity expertise with Claude in Amazon Bedrock [ * ]</title>
+      <link>https://www.claude.com/customers/esentire</link>
+      <description>This case study shows how a security firm is embedding Claude agents into Bedrock to automate incident response, delivering orchestration across multiple agents and generating incremental revenue. Our analysts found the use case compelling in the critical domain of cybersecurity even though it lacks implementation details.</description>
+      <guid isPermaLink="false">051d1ca52c46be0431fd657700086ad5</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API [ * ]</title>
+      <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
+      <description>Google’s Veo 3.1 brings significant enhancements in AI video generation—adding improved prompt adherence, audio integration, object insertion/removal, and better editing controls. Our analysts agreed that this gives marketers and creatives precise control over visual style, pacing, and continuity using just a few reference images and shows how images and video can be used to elevate campaigns and engage audiences at scale.</description>
+      <guid isPermaLink="false">6f4a45e72b65b7d88d3911fa8ef27b40</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generative AI and Firm Productivity: Field Experiments in Online Retail [ ! ]</title>
+      <link>https://arxiv.org/abs/2510.12049</link>
+      <description>This paper provides rare causal, real‑world evidence that generative AI can boost firm productivity—reporting sales lifts of up to 16.3 % and an implied ~$5 incremental value per consumer. Our analysts flagged it as “absolutely essential,” noting it avoids hand‑wavy claims and instead delivers rigorous, quantitative insight.</description>
+      <guid isPermaLink="false">486cc6e8ed61caec0efe49c69b35a670</guid>
+      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
