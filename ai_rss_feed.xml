@@ -7,42 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Oct 2025 08:17:11 +0000</lastBuildDate>
-    <item>
-      <title>NBIM accelerates sovereign wealth management with enterprise‑wide AI transformation [ ! ]</title>
-      <link>https://www.claude.com/customers/nbim</link>
-      <description>This is a large‑scale, real-world deployment in a regulated context managing $1.7 trillion in assets over 9,000 companies—exactly the kind of high‑impact use case that demonstrates AI at enterprise scale. Our analysts compared it to the JP Morgan case and emphasized how NBIM scaled AI adoption via “ambassadors” and top‑down mandate, underscoring the cultural as well as technical shift needed.</description>
-      <guid isPermaLink="false">35c5dafd19953fd808acc7bc8c8329ff</guid>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Understanding the 4 Main Approaches to LLM Evaluation [ ! ]</title>
-      <link>https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches</link>
-      <description>This article lays out a structured taxonomy of evaluation methods for large language models—benchmarks, judges, verifiers, and runtime evaluation—which is foundational for any AI team building or adopting LLMs. Our analysts agreed that article’s structured framing is critical for AI leaders to ask the right evaluation questions.</description>
-      <guid isPermaLink="false">44e2066362c81de0d99f795d251efb37</guid>
-      <pubDate>Mon, 06 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data [ ~ ]</title>
-      <link>https://research.nvidia.com/labs/adlr/Synergy/?s=09</link>
-      <description>The paper argues for injecting diverse reasoning examples during pretraining and focusing on high‑quality reasoning tasks in fine tuning. Our analysts panel found it intellectually worthwhile, but more relevant to researchers than applied AI practitioners right now.</description>
-      <guid isPermaLink="false">4a3a224fb6b2b77a9eb0947c3b8ff2f3</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>State of Software 2025 [ ~ ]</title>
-      <link>https://www.iconiqcapital.com/growth/reports/2025-state-of-software</link>
-      <description>This report delivers interesting metrics and trends across software markets in 2025. Our analysts considered it worthwhile for investors or tech watchers — but less immediately actionable for AI leaders.</description>
-      <guid isPermaLink="false">85878238a93a565a8ace3e78ba916b7b</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Converting inbound leads into customers at OpenAI [ * ]</title>
-      <link>https://openai.com/index/openai-inbound-sales-assistant/</link>
-      <description>This is a useful case study of how OpenAI used a conversational assistant to personalize inbound lead interactions and improve conversions. Our analysts noted strong results in accuracy increase, though they wished the article gave more of how it was built and business results that were achieved.</description>
-      <guid isPermaLink="false">77fb40006c6d5ab8cb271fb7083f85a5</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 17 Oct 2025 16:16:40 +0000</lastBuildDate>
     <item>
       <title>Introducing CodeMender: an AI agent for code security [ * ]</title>
       <link>https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/</link>
@@ -357,6 +322,41 @@
       <description>This paper provides rare causal, real‑world evidence that generative AI can boost firm productivity—reporting sales lifts of up to 16.3 % and an implied ~$5 incremental value per consumer. Our analysts flagged it as “absolutely essential,” noting it avoids hand‑wavy claims and instead delivers rigorous, quantitative insight.</description>
       <guid isPermaLink="false">486cc6e8ed61caec0efe49c69b35a670</guid>
       <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Art of Scaling Reinforcement Learning Compute for LLMs [ ~ ]</title>
+      <link>https://arxiv.org/abs/2510.13786</link>
+      <description>This research dives into power laws and cost models for reinforcement learning applied to large language models, offering predictive frameworks for compute efficiency. Our team agreed it’s technically rich and useful for engineering teams pushing frontier models, but less immediately applicable for most business AI leaders.</description>
+      <guid isPermaLink="false">78391898a6972891e3ec88472b24a282</guid>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>RTFM: A Real‑Time Frame Model [ * ]</title>
+      <link>https://www.worldlabs.ai/blog/rtfm?s=09</link>
+      <description>RTFM is a new real‑time generative world model capable of rendering 3D environments on the fly with persistence using efficient compute, intended for robotics, simulation, and video/3D interaction tasks. Our analysts viewed it as a meaningful advancement in world modeling, especially given its efficiency and persistence features, though somewhat early for broad adoption.</description>
+      <guid isPermaLink="false">e7ab7d7ecec16c17fcc59e0c84696974</guid>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How a Gemma model helped discover a new potential cancer therapy pathway [ * ]</title>
+      <link>https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/</link>
+      <description>A 27B‑parameter Gemma model was trained on cellular interaction and cancer and immune response data and asked to predict novel drug combinations for cancer treatment. The model suggested a novel combination of drugs that was validated in the lab and can become a promising cancer therapy path. Our team flagged this as a powerful demonstration of generative AI in scientific discovery, especially for life sciences domains, though less immediately actionable for many enterprise AI leaders.</description>
+      <guid isPermaLink="false">52fa7827f88413db4dabfd3e7250a3b0</guid>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Claude Skills [ * ]</title>
+      <link>https://www.anthropic.com/news/skills</link>
+      <description>Anthropic’s “Skills” lets organizations build modular, reusable instruction bundles for Claude, enabling domain‑specific behavior (e.g. Excel, PowerPoint automation) and closer alignment with workflows. Our analysts noted that this direction parallels what OpenAI is doing with AgentKit, and could become a central mechanism for tailoring LLM behavior within enterprises.</description>
+      <guid isPermaLink="false">1ec3da5543d63c6f6c442bc65cff5136</guid>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft launches ‘Hey Copilot’ voice assistant and autonomous agents for all Windows 11 PCs [ ! ]</title>
+      <link>https://venturebeat.com/ai/microsoft-launches-hey-copilot-voice-assistant-and-autonomous-agents-for-all</link>
+      <description>Microsoft is rolling out a sweeping transformation of Windows 11, embedding native voice ("Hey Copilot"), vision, and agentic features across all PCs—not just premium ones—effectively recasting the OS around AI. Our analysts emphasized that this could be a foundational shift in human‑computer interaction, enabling voice-driven workflows and agent autonomy at scale.</description>
+      <guid isPermaLink="false">38cd97a2f2608c4784db64dcb7c8baae</guid>
+      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

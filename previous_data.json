@@ -2,6 +2,106 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Microsoft launches ‘Hey Copilot’ voice assistant and autonomous agents for all Windows 11 PCs",
+        "links": [
+          "https://venturebeat.com/ai/microsoft-launches-hey-copilot-voice-assistant-and-autonomous-agents-for-all"
+        ]
+      },
+      "Rationale": {
+        "text": "Microsoft is rolling out a sweeping transformation of Windows 11, embedding native voice (\"Hey Copilot\"), vision, and agentic features across all PCs—not just premium ones—effectively recasting the OS around AI. Our analysts emphasized that this could be a foundational shift in human‑computer interaction, enabling voice-driven workflows and agent autonomy at scale.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Claude Skills",
+        "links": [
+          "https://www.anthropic.com/news/skills"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s “Skills” lets organizations build modular, reusable instruction bundles for Claude, enabling domain‑specific behavior (e.g. Excel, PowerPoint automation) and closer alignment with workflows. Our analysts noted that this direction parallels what OpenAI is doing with AgentKit, and could become a central mechanism for tailoring LLM behavior within enterprises.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How a Gemma model helped discover a new potential cancer therapy pathway",
+        "links": [
+          "https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/"
+        ]
+      },
+      "Rationale": {
+        "text": "A 27B‑parameter Gemma model was trained on cellular interaction and cancer and immune response data and asked to predict novel drug combinations for cancer treatment. The model suggested a novel combination of drugs that was validated in the lab and can become a promising cancer therapy path. Our team flagged this as a powerful demonstration of generative AI in scientific discovery, especially for life sciences domains, though less immediately actionable for many enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "RTFM: A Real‑Time Frame Model",
+        "links": [
+          "https://www.worldlabs.ai/blog/rtfm?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "RTFM is a new real‑time generative world model capable of rendering 3D environments on the fly with persistence using efficient compute, intended for robotics, simulation, and video/3D interaction tasks. Our analysts viewed it as a meaningful advancement in world modeling, especially given its efficiency and persistence features, though somewhat early for broad adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/17/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Art of Scaling Reinforcement Learning Compute for LLMs",
+        "links": [
+          "https://arxiv.org/abs/2510.13786"
+        ]
+      },
+      "Rationale": {
+        "text": "This research dives into power laws and cost models for reinforcement learning applied to large language models, offering predictive frameworks for compute efficiency. Our team agreed it’s technically rich and useful for engineering teams pushing frontier models, but less immediately applicable for most business AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/16/2025",
         "links": []
       },
@@ -899,107 +999,7 @@
         "text": "CodeMender from Google DeepMind aims to detect and repair code vulnerabilities automatically, acting both proactively and reactively. Our analysts appreciated the ambition but noted it’s still research‑stage and raised concerns about side effects of automated fixes in complex systems.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Converting inbound leads into customers at OpenAI",
-        "links": [
-          "https://openai.com/index/openai-inbound-sales-assistant/"
-        ]
-      },
-      "Rationale": {
-        "text": "This is a useful case study of how OpenAI used a conversational assistant to personalize inbound lead interactions and improve conversions. Our analysts noted strong results in accuracy increase, though they wished the article gave more of how it was built and business results that were achieved.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "State of Software 2025",
-        "links": [
-          "https://www.iconiqcapital.com/growth/reports/2025-state-of-software"
-        ]
-      },
-      "Rationale": {
-        "text": "This report delivers interesting metrics and trends across software markets in 2025. Our analysts considered it worthwhile for investors or tech watchers — but less immediately actionable for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Front-Loading Reasoning: The Synergy between Pretraining and Post-Training Data",
-        "links": [
-          "https://research.nvidia.com/labs/adlr/Synergy/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "The paper argues for injecting diverse reasoning examples during pretraining and focusing on high‑quality reasoning tasks in fine tuning. Our analysts panel found it intellectually worthwhile, but more relevant to researchers than applied AI practitioners right now.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Understanding the 4 Main Approaches to LLM Evaluation",
-        "links": [
-          "https://magazine.sebastianraschka.com/p/llm-evaluation-4-approaches"
-        ]
-      },
-      "Rationale": {
-        "text": "This article lays out a structured taxonomy of evaluation methods for large language models—benchmarks, judges, verifiers, and runtime evaluation—which is foundational for any AI team building or adopting LLMs. Our analysts agreed that article’s structured framing is critical for AI leaders to ask the right evaluation questions.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/06/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "NBIM accelerates sovereign wealth management with enterprise‑wide AI transformation",
-        "links": [
-          "https://www.claude.com/customers/nbim"
-        ]
-      },
-      "Rationale": {
-        "text": "This is a large‑scale, real-world deployment in a regulated context managing $1.7 trillion in assets over 9,000 companies—exactly the kind of high‑impact use case that demonstrates AI at enterprise scale. Our analysts compared it to the JP Morgan case and emphasized how NBIM scaled AI adoption via “ambassadors” and top‑down mandate, underscoring the cultural as well as technical shift needed.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-17T08:18:29.123210+00:00"
+  "timestamp": "2025-10-17T16:17:54.903033+00:00"
 }
