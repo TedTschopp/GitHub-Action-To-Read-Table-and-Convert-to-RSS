@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 20 Oct 2025 08:24:15 +0000</lastBuildDate>
-    <item>
-      <title>Introducing CodeMender: an AI agent for code security [ * ]</title>
-      <link>https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/</link>
-      <description>CodeMender from Google DeepMind aims to detect and repair code vulnerabilities automatically, acting both proactively and reactively. Our analysts appreciated the ambition but noted it’s still research‑stage and raised concerns about side effects of automated fixes in complex systems.</description>
-      <guid isPermaLink="false">fe19edf8da4c6d93dda5a27e712ba954</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Deloitte issues refund for error-ridden Australian government report that used AI [ ! ]</title>
-      <link>http://archive.today/TolLL</link>
-      <description>Deloitte’s refund underscores real risks in relying on AI without rigorous validation — a cautionary tale for any AI initiative. Our analyst team viewed it as a strong reminder to have Ai-in-the-loop and human‑in‑the‑loop safeguards, and to treat AI outputs with skepticism and continued oversight.</description>
-      <guid isPermaLink="false">a8f4a1cb3a0a84eabded4ede29eee970</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing apps in ChatGPT and the new Apps SDK [ ! ]</title>
-      <link>https://openai.com/index/introducing-apps-in-chatgpt/</link>
-      <description>This announcement lets developers embed or connect apps directly into ChatGPT, turning ChatGPT into a platform/operating system rather than just a chatbot. Our analysts emphasized that this is strategically significant — positioning OpenAI as a one-stop interface that threatens search and browser incumbents.</description>
-      <guid isPermaLink="false">daacc835221c90b6266e1fa44354bd8f</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing AgentKit [ ! ]</title>
-      <link>https://openai.com/index/introducing-agentkit/</link>
-      <description>AgentKit offers a graphical, drag‑and‑drop way to build conversational agents, along with tools like evaluation kits, registries, and guardrails. Our analysts flagged this as a hugely important strategic step for OpenAI to compete with agent platforms, and noted its significance because it comes directly from OpenAI.</description>
-      <guid isPermaLink="false">fd9e7a0d0c133cb50409babc0a66ff81</guid>
-      <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GenAI Promised a Creative Revolution. Can Marketers Deliver? [ ~ ]</title>
-      <link>https://www.bcg.com/publications/2025/genai-promised-revolution-can-marketers-deliver</link>
-      <description>This BCG survey discusses how marketers are adopting generative AI and the challenges they face. Our analysts saw it as having useful benchmarking data but not offering novel mechanisms for AI leaders to act on.</description>
-      <guid isPermaLink="false">c17a61b9e6abe3c81106346c9aa6ba75</guid>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>JetBrains Pioneers Multi‑Agent IDE Experience with Claude Agent [ ~ ]</title>
-      <link>https://www.claude.com/customers/jetbrains-2</link>
-      <description>JetBrains embedding Claude Agent in its IDE is a neat demonstration of integrating agents into developer tools — but the article lacks metrics or deep insight, so our analysts saw it as a light product story.</description>
-      <guid isPermaLink="false">6d090eccb995cc3397b59c3594d809b0</guid>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 21 Oct 2025 00:57:24 +0000</lastBuildDate>
     <item>
       <title>Agent Workflows by Eleven Labs [ ~ ]</title>
       <link>https://elevenlabs.io/docs/agents-platform/customization/agent-workflows</link>
@@ -357,6 +315,48 @@
       <description>Microsoft is rolling out a sweeping transformation of Windows 11, embedding native voice ("Hey Copilot"), vision, and agentic features across all PCs—not just premium ones—effectively recasting the OS around AI. Our analysts emphasized that this could be a foundational shift in human‑computer interaction, enabling voice-driven workflows and agent autonomy at scale.</description>
       <guid isPermaLink="false">38cd97a2f2608c4784db64dcb7c8baae</guid>
       <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>We propose and test the... [ ~ ]</title>
+      <link>https://www.arxiv.org/abs/2510.13928#:~:text=We%20propose%20and%20test%20the,large%20language%20models%20(LLMs).</link>
+      <description>This research article investigates degradation of large language models over time—“brain rot”—and raises important AI ethics and AI‑security questions around continual pre‑training and model drift. However, our analysts deemed it too speculative and early‑stage for immediate strategic action by most AI leaders.</description>
+      <guid isPermaLink="false">e15d72b84c20c120700084bb4f837085</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agents 2.0: Deep Agents [ ~ ]</title>
+      <link>https://www.philschmid.de/agents-2.0-deep-agents</link>
+      <description>The piece offers a primer on agent architectures from simple agents to multi-agent with orchestrators and memory, - reflecting evolving discussion around AI agents and LLM orchestration. Our analysts appreciated the clear explanation but felt the term “deep agents” is still loosely defined and overlaps with existing “multi‑agent” concepts—making it confusing for readers and thus optional.</description>
+      <guid isPermaLink="false">26a12fd9b5e96164f3f39ea8762c57d0</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SWE grep [ ~ ]</title>
+      <link>https://cognition.ai/blog/swe-grep</link>
+      <description>This article introduces a retrieval‑optimization system for code/context using reinforcement learning which touches on AI automation and inference value engineering. Our analysts regarded it as interesting for coders but not yet broadly actionable for enterprise‑wide generative AI adoption.</description>
+      <guid isPermaLink="false">35ff67f83b24d778b1699894a29b44b0</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coral NPU: A full-stack platform for edge AI [ * ]</title>
+      <link>https://research.google/blog/coral-npu-a-full-stack-platform-for-edge-ai/</link>
+      <description>Google’s Coral NPU project presents an open‑source, RISC‑V‑based hardware/software stack for ultra‑low‑power, always‑on AI at the edge (wearables/IoT) with an aim for generative‑AI on device. Our analysts noted it is forward‑looking and more of a product announcement than tactical guidance for AI leaders focused on foundational generative AI strategy.</description>
+      <guid isPermaLink="false">52beda71a695642dce30914c539d95c0</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Moloco is powering the future of retail media with AI vector search [ * ]</title>
+      <link>https://cloud.google.com/blog/topics/partners/how-moloco-is-powering-the-future-of-retail-media-with-ai-vector-search</link>
+      <description>This article details how Moloco built an AI‑native retail‑media platform using vector search using Vertex AI Vector Search on Google Cloud, enabling semantic user/purchase matching and real‑time ad personalization at scale. Our analysts flagged this as significant because it demonstrates how mid‑sized retailers can leverage AI‑driven content creation and vector search to compete in retail media networks—marking movement into AI automation beyond just experimentation.</description>
+      <guid isPermaLink="false">6bea2296e399579f8a94e83f488e9e4b</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/</link>
+      <description>This article showcases a generative AI solution built on Bedrock that turns legacy CRM and meeting‑note archives into real‑time insights via RAG, text‑to‑SQL and large‑language‑model workflows. Our analysts emphasized that while not necessarily industry‑shifting, it is a strong enterprise use‑case of AI in finance/CRM that illustrates how AI‑driven content creation and large language models are being applied for business value.</description>
+      <guid isPermaLink="false">094e8dfda62c7d11b5df9c5c92536df2</guid>
+      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

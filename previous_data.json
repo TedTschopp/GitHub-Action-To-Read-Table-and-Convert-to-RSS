@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article showcases a generative AI solution built on Bedrock that turns legacy CRM and meeting‑note archives into real‑time insights via RAG, text‑to‑SQL and large‑language‑model workflows. Our analysts emphasized that while not necessarily industry‑shifting, it is a strong enterprise use‑case of AI in finance/CRM that illustrates how AI‑driven content creation and large language models are being applied for business value.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Moloco is powering the future of retail media with AI vector search",
+        "links": [
+          "https://cloud.google.com/blog/topics/partners/how-moloco-is-powering-the-future-of-retail-media-with-ai-vector-search"
+        ]
+      },
+      "Rationale": {
+        "text": "This article details how Moloco built an AI‑native retail‑media platform using vector search using Vertex AI Vector Search on Google Cloud, enabling semantic user/purchase matching and real‑time ad personalization at scale. Our analysts flagged this as significant because it demonstrates how mid‑sized retailers can leverage AI‑driven content creation and vector search to compete in retail media networks—marking movement into AI automation beyond just experimentation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Coral NPU: A full-stack platform for edge AI",
+        "links": [
+          "https://research.google/blog/coral-npu-a-full-stack-platform-for-edge-ai/"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s Coral NPU project presents an open‑source, RISC‑V‑based hardware/software stack for ultra‑low‑power, always‑on AI at the edge (wearables/IoT) with an aim for generative‑AI on device. Our analysts noted it is forward‑looking and more of a product announcement than tactical guidance for AI leaders focused on foundational generative AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "SWE grep",
+        "links": [
+          "https://cognition.ai/blog/swe-grep"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces a retrieval‑optimization system for code/context using reinforcement learning which touches on AI automation and inference value engineering. Our analysts regarded it as interesting for coders but not yet broadly actionable for enterprise‑wide generative AI adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Agents 2.0: Deep Agents",
+        "links": [
+          "https://www.philschmid.de/agents-2.0-deep-agents"
+        ]
+      },
+      "Rationale": {
+        "text": "The piece offers a primer on agent architectures from simple agents to multi-agent with orchestrators and memory, - reflecting evolving discussion around AI agents and LLM orchestration. Our analysts appreciated the clear explanation but felt the term “deep agents” is still loosely defined and overlaps with existing “multi‑agent” concepts—making it confusing for readers and thus optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "We propose and test the...",
+        "links": [
+          "https://www.arxiv.org/abs/2510.13928#:~:text=We%20propose%20and%20test%20the,large%20language%20models%20(LLMs)."
+        ]
+      },
+      "Rationale": {
+        "text": "This research article investigates degradation of large language models over time—“brain rot”—and raises important AI ethics and AI‑security questions around continual pre‑training and model drift. However, our analysts deemed it too speculative and early‑stage for immediate strategic action by most AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/17/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Eleven Labs now lets users visually build branching, subagent‑based conversational flows, enabling per‑step model switching and custom behavior. But our analysts considered it more product update than paradigm shift, given how many workflow tools are emerging.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "JetBrains Pioneers Multi‑Agent IDE Experience with Claude Agent",
-        "links": [
-          "https://www.claude.com/customers/jetbrains-2"
-        ]
-      },
-      "Rationale": {
-        "text": "JetBrains embedding Claude Agent in its IDE is a neat demonstration of integrating agents into developer tools — but the article lacks metrics or deep insight, so our analysts saw it as a light product story.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "GenAI Promised a Creative Revolution. Can Marketers Deliver?",
-        "links": [
-          "https://www.bcg.com/publications/2025/genai-promised-revolution-can-marketers-deliver"
-        ]
-      },
-      "Rationale": {
-        "text": "This BCG survey discusses how marketers are adopting generative AI and the challenges they face. Our analysts saw it as having useful benchmarking data but not offering novel mechanisms for AI leaders to act on.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing AgentKit",
-        "links": [
-          "https://openai.com/index/introducing-agentkit/"
-        ]
-      },
-      "Rationale": {
-        "text": "AgentKit offers a graphical, drag‑and‑drop way to build conversational agents, along with tools like evaluation kits, registries, and guardrails. Our analysts flagged this as a hugely important strategic step for OpenAI to compete with agent platforms, and noted its significance because it comes directly from OpenAI.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing apps in ChatGPT and the new Apps SDK",
-        "links": [
-          "https://openai.com/index/introducing-apps-in-chatgpt/"
-        ]
-      },
-      "Rationale": {
-        "text": "This announcement lets developers embed or connect apps directly into ChatGPT, turning ChatGPT into a platform/operating system rather than just a chatbot. Our analysts emphasized that this is strategically significant — positioning OpenAI as a one-stop interface that threatens search and browser incumbents.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Deloitte issues refund for error-ridden Australian government report that used AI",
-        "links": [
-          "http://archive.today/TolLL"
-        ]
-      },
-      "Rationale": {
-        "text": "Deloitte’s refund underscores real risks in relying on AI without rigorous validation — a cautionary tale for any AI initiative. Our analyst team viewed it as a strong reminder to have Ai-in-the-loop and human‑in‑the‑loop safeguards, and to treat AI outputs with skepticism and continued oversight.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing CodeMender: an AI agent for code security",
-        "links": [
-          "https://deepmind.google/discover/blog/introducing-codemender-an-ai-agent-for-code-security/"
-        ]
-      },
-      "Rationale": {
-        "text": "CodeMender from Google DeepMind aims to detect and repair code vulnerabilities automatically, acting both proactively and reactively. Our analysts appreciated the ambition but noted it’s still research‑stage and raised concerns about side effects of automated fixes in complex systems.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-20T08:25:29.531440+00:00"
+  "timestamp": "2025-10-21T00:58:41.909371+00:00"
 }
