@@ -7,56 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Oct 2025 16:17:14 +0000</lastBuildDate>
-    <item>
-      <title>Agent Workflows by Eleven Labs [ ~ ]</title>
-      <link>https://elevenlabs.io/docs/agents-platform/customization/agent-workflows</link>
-      <description>Eleven Labs now lets users visually build branching, subagent‑based conversational flows, enabling per‑step model switching and custom behavior. But our analysts considered it more product update than paradigm shift, given how many workflow tools are emerging.</description>
-      <guid isPermaLink="false">4a834931d6a63ca21d698218fe503a1e</guid>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>IBM claims 45% productivity gains with Project Bob [ * ]</title>
-      <link>https://venturebeat.com/ai/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide-that</link>
-      <description>IBM’s Project Bob is an enterprise-focused AI‑first IDE that orchestrates multiple models and integrates governance (AgentOps) to bridge prototype-to-production. Our analysts viewed it as a significant signal: enterprise AI is moving toward agentic workflows and governance, not just coding assistants.</description>
-      <guid isPermaLink="false">07d93075b42c717592742d6bef01b215</guid>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How PowerSchool safeguards millions of students with AI‑powered content filtering using Amazon SageMaker AI [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/responsible-ai-how-powerschool-safeguards-millions-of-students-with-ai-powered-content-filtering-using-amazon-sagemaker-ai/</link>
-      <description>This is a real-world use case of responsible AI — applying content filtering in education to protect vulnerable audiences. Our analysts emphasized that as AI agents enter regulated and sensitive domains (e.g. schools), mechanisms like this become core to adoption.</description>
-      <guid isPermaLink="false">f583e018a35de92d41541922fc5e01f4</guid>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Petri: An open‑source auditing tool to accelerate AI safety research [ ! ]</title>
-      <link>https://www.anthropic.com/research/petri-open-source-auditing</link>
-      <description>Petri offers a tool for inspecting and auditing foundational models — not just a paper, but a concrete software artifact aimed squarely at alignment and model drift. Our analysts underscored that explainability, model oversight, and open alternatives are essential building blocks as generative AI scales.</description>
-      <guid isPermaLink="false">9cd85bbe9e288fefc48104eed84411d0</guid>
-      <pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>LFM2‑8B‑A1B: An Efficient On-device Mixture‑of‑Experts [ ~ ]</title>
-      <link>https://www.liquid.ai/blog/lfm2-8b-a1b-an-efficient-on-device-mixture-of-experts</link>
-      <description>This model enables on-device inference via a mixture‑of‑experts architecture (8B total, ~1.5B active), delivering performance akin to a 3–4B model on mobile and laptop. Our analysts appreciated the architectural ingenuity, but judged it a technical product release rather than broadly relevant to general AI strategy at this stage.</description>
-      <guid isPermaLink="false">1aca176508dcb49a690f87ead1f680f4</guid>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI21’s Jamba Reasoning 3B Redefines What “Small” Means in LLMs [ ~ ]</title>
-      <link>https://venturebeat.com/ai/ai21s-jamba-reasoning-3b-redefines-what-small-means-in-llms-250k-context-on</link>
-      <description>Jamba Reasoning 3B offers a 250K context on a relatively small 3B‑parameter model, pushing the capabilities of “small” LLMs. Our analysts broadly agreed it is interesting in a crowded space of small models, but they did not see it as differentiated enough right now to demand broader attention.</description>
-      <guid isPermaLink="false">dfcf9b22860d9e89600a5be8e3be1c7a</guid>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the Gemini 2.5 Computer Use model [ ~ ]</title>
-      <link>https://blog.google/technology/google-deepmind/gemini-computer-use-model</link>
-      <description>The Gemini 2.5 Computer Use model can navigate web interfaces (click, type, scroll) — a move toward more agent-like capabilities in browser environments. But our analysts characterized it as a “catch-up” feature from Google, limited currently to web-level controls and not yet mature enough to merit higher urgency.</description>
-      <guid isPermaLink="false">5437768d3856802a48632a6421611939</guid>
-      <pubDate>Thu, 09 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 22 Oct 2025 00:57:19 +0000</lastBuildDate>
     <item>
       <title>Ling‑1T [ * ]</title>
       <link>https://huggingface.co/inclusionAI/Ling-1T</link>
@@ -357,6 +308,55 @@
       <description>This article showcases a generative AI solution built on Bedrock that turns legacy CRM and meeting‑note archives into real‑time insights via RAG, text‑to‑SQL and large‑language‑model workflows. Our analysts emphasized that while not necessarily industry‑shifting, it is a strong enterprise use‑case of AI in finance/CRM that illustrates how AI‑driven content creation and large language models are being applied for business value.</description>
       <guid isPermaLink="false">094e8dfda62c7d11b5df9c5c92536df2</guid>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Can Create More Time for Leadership [ ~ ]</title>
+      <link>https://hbr.org/2025/10/how-gen-ai-can-create-more-time-for-leadership?ab=HP-hero-featured-1</link>
+      <description>This HBR article argues that generative AI can offload administrative tasks to free up executive time for leadership and coaching. Our analysts found the claims vague and unsubstantiated, describing the piece as overly reliant on soft reasoning with minimal actionable insight for AI leaders.</description>
+      <guid isPermaLink="false">db8384c1c38bd05192f9f349f0ad749a</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Plex Coffee delivers fast service and personal connections with ChatGPT Business [ ~ ]</title>
+      <link>https://openai.com/index/plex-coffee/</link>
+      <description>Plex Coffee used ChatGPT Business to scale its customer interaction model and internal knowledge sharing, claiming improvements in onboarding and operations. However, our analysts regarded it a light case study — lacking metrics, depth, or technical insight — and noted its limited relevance beyond being a generic AI adoption story.</description>
+      <guid isPermaLink="false">8d73646400ac574a4175b6a86f26839a</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic brings Claude Code to the web [ ~ ]</title>
+      <link>https://techcrunch.com/2025/10/20/anthropic-brings-claude-code-to-the-web/</link>
+      <description>Anthropic’s web-based Claude Code brings a more accessible interface to its AI-assisted coding tool, shifting it from the command line to chat-based UX. Our analysts saw this as a standard product iteration and catch-up move, with limited strategic impact beyond Anthropic’s developer user base.</description>
+      <guid isPermaLink="false">8e489812980c94164b5f07cdd69c3522</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DeepSeek‑OCR: Contexts Optical Compression [ ~ ]</title>
+      <link>https://github.com/deepseek-ai/DeepSeek-OCR</link>
+      <description>DeepSeek’s OCR approach compresses full-document scans into vision tokens, enabling more efficient context processing for large language models by leveraging computer vision. While the compression technique shows promise for extending LLM context windows, our analysts agreed it’s an early-stage innovation not yet deployable at enterprise scale.</description>
+      <guid isPermaLink="false">31dc4d085f9d58e9352eaa8192d873ec</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Developers can now add live Google Maps data to Gemini‑powered AI app outputs [ ! ]</title>
+      <link>https://venturebeat.com/ai/developers-can-now-add-live-google-maps-data-to-gemini-powered-ai-app</link>
+      <description>Google has integrated real-time geospatial data from Google Maps into Gemini AI apps, allowing developers to enrich AI-powered applications with accurate, location-based intelligence. Our analysts noted this as a major differentiator and strategic move for grounding generative AI in the physical world — especially important for reducing hallucinations and improving user experience in AI-driven applications requiring accurate location data.</description>
+      <guid isPermaLink="false">54b623a5afbde96356d461ec02956708</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>An Opinionated Guide to Using AI Right Now [ ! ]</title>
+      <link>https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai</link>
+      <description>Ethan Mollick’s practical guide offers a grounded roadmap for AI use, emphasizing how to choose and use top large language models effectively in real-world workflows, beyond the hype. Our analysts highlighted it as a highly accessible resource that directly answers common questions AI leaders receive, making it a foundational AI literacy piece especially valuable amid rapid tool evolution.</description>
+      <guid isPermaLink="false">3bbc2073f70ce0a58be02e9db5db1e20</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Claude for Life Sciences [ ! ]</title>
+      <link>https://www.anthropic.com/news/claude-for-life-sciences</link>
+      <description>Anthropic targets the life sciences sector by integrating domain-specific data and workflows into a powerful generative AI platform tailored to researchers and pharma teams. Our analysts emphasized that this verticalization trend — turning general-purpose frontier models into specialized industry AI tools — is a critical strategic signal for enterprise AI leaders across all industries.</description>
+      <guid isPermaLink="false">a4918c60a0932d956b95ceeddbc4c86c</guid>
+      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

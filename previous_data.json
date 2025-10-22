@@ -2,6 +2,146 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Claude for Life Sciences",
+        "links": [
+          "https://www.anthropic.com/news/claude-for-life-sciences"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic targets the life sciences sector by integrating domain-specific data and workflows into a powerful generative AI platform tailored to researchers and pharma teams. Our analysts emphasized that this verticalization trend — turning general-purpose frontier models into specialized industry AI tools — is a critical strategic signal for enterprise AI leaders across all industries.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "An Opinionated Guide to Using AI Right Now",
+        "links": [
+          "https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "Ethan Mollick’s practical guide offers a grounded roadmap for AI use, emphasizing how to choose and use top large language models effectively in real-world workflows, beyond the hype. Our analysts highlighted it as a highly accessible resource that directly answers common questions AI leaders receive, making it a foundational AI literacy piece especially valuable amid rapid tool evolution.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Developers can now add live Google Maps data to Gemini‑powered AI app outputs",
+        "links": [
+          "https://venturebeat.com/ai/developers-can-now-add-live-google-maps-data-to-gemini-powered-ai-app"
+        ]
+      },
+      "Rationale": {
+        "text": "Google has integrated real-time geospatial data from Google Maps into Gemini AI apps, allowing developers to enrich AI-powered applications with accurate, location-based intelligence. Our analysts noted this as a major differentiator and strategic move for grounding generative AI in the physical world — especially important for reducing hallucinations and improving user experience in AI-driven applications requiring accurate location data.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "DeepSeek‑OCR: Contexts Optical Compression",
+        "links": [
+          "https://github.com/deepseek-ai/DeepSeek-OCR"
+        ]
+      },
+      "Rationale": {
+        "text": "DeepSeek’s OCR approach compresses full-document scans into vision tokens, enabling more efficient context processing for large language models by leveraging computer vision. While the compression technique shows promise for extending LLM context windows, our analysts agreed it’s an early-stage innovation not yet deployable at enterprise scale.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Anthropic brings Claude Code to the web",
+        "links": [
+          "https://techcrunch.com/2025/10/20/anthropic-brings-claude-code-to-the-web/"
+        ]
+      },
+      "Rationale": {
+        "text": "Anthropic’s web-based Claude Code brings a more accessible interface to its AI-assisted coding tool, shifting it from the command line to chat-based UX. Our analysts saw this as a standard product iteration and catch-up move, with limited strategic impact beyond Anthropic’s developer user base.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Plex Coffee delivers fast service and personal connections with ChatGPT Business",
+        "links": [
+          "https://openai.com/index/plex-coffee/"
+        ]
+      },
+      "Rationale": {
+        "text": "Plex Coffee used ChatGPT Business to scale its customer interaction model and internal knowledge sharing, claiming improvements in onboarding and operations. However, our analysts regarded it a light case study — lacking metrics, depth, or technical insight — and noted its limited relevance beyond being a generic AI adoption story.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Can Create More Time for Leadership",
+        "links": [
+          "https://hbr.org/2025/10/how-gen-ai-can-create-more-time-for-leadership?ab=HP-hero-featured-1"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR article argues that generative AI can offload administrative tasks to free up executive time for leadership and coaching. Our analysts found the claims vague and unsubstantiated, describing the piece as overly reliant on soft reasoning with minimal actionable insight for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/20/2025",
         "links": []
       },
@@ -859,147 +999,7 @@
         "text": "Ling‑1T is a trillion‑parameter model optimized for reasoning and scaling, incorporating innovations like “EVO‑CoT” (evolutionary chain-of-thought) and a 128K context window. Our analysts flagged it as noteworthy because of its algorithmic advances and open architecture, and as a sign that China is pushing aggressively on the open AI frontier.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing the Gemini 2.5 Computer Use model",
-        "links": [
-          "https://blog.google/technology/google-deepmind/gemini-computer-use-model"
-        ]
-      },
-      "Rationale": {
-        "text": "The Gemini 2.5 Computer Use model can navigate web interfaces (click, type, scroll) — a move toward more agent-like capabilities in browser environments. But our analysts characterized it as a “catch-up” feature from Google, limited currently to web-level controls and not yet mature enough to merit higher urgency.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI21’s Jamba Reasoning 3B Redefines What “Small” Means in LLMs",
-        "links": [
-          "https://venturebeat.com/ai/ai21s-jamba-reasoning-3b-redefines-what-small-means-in-llms-250k-context-on"
-        ]
-      },
-      "Rationale": {
-        "text": "Jamba Reasoning 3B offers a 250K context on a relatively small 3B‑parameter model, pushing the capabilities of “small” LLMs. Our analysts broadly agreed it is interesting in a crowded space of small models, but they did not see it as differentiated enough right now to demand broader attention.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "LFM2‑8B‑A1B: An Efficient On-device Mixture‑of‑Experts",
-        "links": [
-          "https://www.liquid.ai/blog/lfm2-8b-a1b-an-efficient-on-device-mixture-of-experts"
-        ]
-      },
-      "Rationale": {
-        "text": "This model enables on-device inference via a mixture‑of‑experts architecture (8B total, ~1.5B active), delivering performance akin to a 3–4B model on mobile and laptop. Our analysts appreciated the architectural ingenuity, but judged it a technical product release rather than broadly relevant to general AI strategy at this stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Petri: An open‑source auditing tool to accelerate AI safety research",
-        "links": [
-          "https://www.anthropic.com/research/petri-open-source-auditing"
-        ]
-      },
-      "Rationale": {
-        "text": "Petri offers a tool for inspecting and auditing foundational models — not just a paper, but a concrete software artifact aimed squarely at alignment and model drift. Our analysts underscored that explainability, model oversight, and open alternatives are essential building blocks as generative AI scales.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How PowerSchool safeguards millions of students with AI‑powered content filtering using Amazon SageMaker AI",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/responsible-ai-how-powerschool-safeguards-millions-of-students-with-ai-powered-content-filtering-using-amazon-sagemaker-ai/"
-        ]
-      },
-      "Rationale": {
-        "text": "This is a real-world use case of responsible AI — applying content filtering in education to protect vulnerable audiences. Our analysts emphasized that as AI agents enter regulated and sensitive domains (e.g. schools), mechanisms like this become core to adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "IBM claims 45% productivity gains with Project Bob",
-        "links": [
-          "https://venturebeat.com/ai/ibm-claims-45-productivity-gains-with-project-bob-its-multi-model-ide-that"
-        ]
-      },
-      "Rationale": {
-        "text": "IBM’s Project Bob is an enterprise-focused AI‑first IDE that orchestrates multiple models and integrates governance (AgentOps) to bridge prototype-to-production. Our analysts viewed it as a significant signal: enterprise AI is moving toward agentic workflows and governance, not just coding assistants.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/08/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Agent Workflows by Eleven Labs",
-        "links": [
-          "https://elevenlabs.io/docs/agents-platform/customization/agent-workflows"
-        ]
-      },
-      "Rationale": {
-        "text": "Eleven Labs now lets users visually build branching, subagent‑based conversational flows, enabling per‑step model switching and custom behavior. But our analysts considered it more product update than paradigm shift, given how many workflow tools are emerging.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-21T16:18:39.624387+00:00"
+  "timestamp": "2025-10-22T00:58:37.462091+00:00"
 }
