@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing ChatGPT Atlas",
+        "links": [
+          "https://openai.com/index/introducing-chatgpt-atlas/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI has launched ChatGPT Atlas, a standalone, agentic browser that seamlessly integrates web browsing, search, and AI automation into a single interface. Our analysts called this a transformative step that could redefine browser usage for enterprises and individuals alike, signaling the start of a new 'browser war' era in AI-driven user experiences.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "2025: The State of AI in Healthcare",
+        "links": [
+          "https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/"
+        ]
+      },
+      "Rationale": {
+        "text": "This research-backed report from Menlo Ventures explores the rapid acceleration of generative AI adoption across payers, providers, and biopharma sectors—traditionally slow-moving adopters of new technology. Our analysts viewed the data as highly valuable for AI leaders, noting that if AI can drive productivity in healthcare, it signals strong potential across other regulated, high-friction industries.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing the new AI‑first vibe coding experience in @GoogleAIStudio",
+        "links": [
+          "https://x.com/OfficialLoganK/status/1980674135693971550"
+        ]
+      },
+      "Rationale": {
+        "text": "Google’s new AI-first 'vibe coding' interface inside AI Studio promises a more intuitive and collaborative coding experience, built around Gemini and Notebook-style workflows. However, our analysts considered this an incremental update that offers limited differentiation compared to existing tools like GitHub Copilot or Replit, and therefore not essential to forward-thinking AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Krea Realtime 14B: Real‑Time, Long‑Form AI Video Generation",
+        "links": [
+          "https://www.krea.ai/blog/krea-realtime-14b"
+        ]
+      },
+      "Rationale": {
+        "text": "Krea’s Realtime 14B is a 14B-parameter autoregressive model capable of producing long-form AI-generated video with high temporal consistency using self-forcing techniques. Our analysts were impressed by the innovation but emphasized its niche use case and lack of clear enterprise applicability, calling it 'an innovation frontier story' with implications for AI in media, but not broadly actionable yet.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Why Agentic AI Projects Fail—and How to Set Yours Up for Success",
+        "links": [
+          "https://hbr.org/2025/10/why-agentic-ai-projects-fail-and-how-to-set-yours-up-for-success"
+        ]
+      },
+      "Rationale": {
+        "text": "This HBR article discusses common reasons agentic AI projects underperform and offers general strategic advice on where and how to deploy agents. Our analysts criticized it as 'thought slop' filled with platitudes and lacking in real-world deployment insights, such as API integration, security architecture, or maintenance—elements critical to enterprise-scale AI success.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/22/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Breaking new ground: How Balfour Beatty is using Copilot to drive productivity at scale",
+        "links": [
+          "https://ukstories.microsoft.com/features/how-balfour-beatty-is-using-copilot-to-drive-productivity-at-scale/"
+        ]
+      },
+      "Rationale": {
+        "text": "Balfour Beatty’s adoption of Microsoft 365 Copilot across 27,000 employees has reportedly improved productivity, communication, and user confidence—especially among neurodiverse workers—according to internal surveys. While the rollout shows meaningful use of AI automation in construction, our analysts noted the case study lacked implementation depth and outcomes beyond self-reported sentiment, making it less relevant for AI leaders seeking replicable enterprise strategies.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/21/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Figure’s new humanoid robot pushes forward the frontier of general‑purpose home robotics, with improvements in sensing, manufacturability, and software systems. Our analysts saw real potential — particularly in vertical integration, home assistance, and the broader robotics roadmap — while also noting it remains a flashy product announcement with early claims.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "HiBob turns 2,500 GPTs into a flywheel for product and team growth",
-        "links": [
-          "https://openai.com/index/hibob/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study gives a concrete view of how an organization is deploying many GPTs internally for tasks like meeting prep, upsell opportunity detection, project management, and roadmap planning. Our analysts appreciated the ambition but flagged the lack of clear metrics, governance, and business outcome detail.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Echelon's AI agents take aim at Accenture and Deloitte consulting models",
-        "links": [
-          "https://venturebeat.com/ai/echelons-ai-agents-take-aim-at-accenture-and-deloitte-consulting-models"
-        ]
-      },
-      "Rationale": {
-        "text": "It’s an intriguing startup angle on reimagining consulting via AI wrappers around enterprise systems, but our analysts judged it as nascent and speculative, with limited traction or proof.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "BLACKBOX chooses ElevenLabs Agents over OpenAI to power Logger and Robocoder",
-        "links": [
-          "https://elevenlabs.io/blog/blackbox"
-        ]
-      },
-      "Rationale": {
-        "text": "The announcement reads more like a marketing claim than a deeply informative use case; our analysts found little technical or business depth in its execution or outcomes.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Less is More: Recursive Reasoning with Tiny Networks",
-        "links": [
-          "https://arxiv.org/pdf/2510.04871"
-        ]
-      },
-      "Rationale": {
-        "text": "This research explores an algorithmic innovation (a tiny recursive model) that challenges the “bigger is always better” scaling narrative. Though compelling and innovative, our analysts saw it as academic and speculative for now.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Vxceed builds the perfect sales pitch for sales teams at scale using Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/vxceed-builds-the-perfect-sales-pitch-for-sales-teams-at-scale-using-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "This piece demonstrates a deployed, revenue‑impacting use of multi‑agent AI, showing how Vxceed built a “storyteller” framework on Amazon Bedrock to generate personalized pitches at scale — a concrete example of AI-driven sales automation. Our analysts emphasized that it’s not just a prototypical use case but in production, includes multiple cooperating agents, and offers a blueprint for organizations to emulate.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/09/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Ling‑1T",
-        "links": [
-          "https://huggingface.co/inclusionAI/Ling-1T"
-        ]
-      },
-      "Rationale": {
-        "text": "Ling‑1T is a trillion‑parameter model optimized for reasoning and scaling, incorporating innovations like “EVO‑CoT” (evolutionary chain-of-thought) and a 128K context window. Our analysts flagged it as noteworthy because of its algorithmic advances and open architecture, and as a sign that China is pushing aggressively on the open AI frontier.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-22T16:17:02.704213+00:00"
+  "timestamp": "2025-10-23T00:58:35.280809+00:00"
 }
