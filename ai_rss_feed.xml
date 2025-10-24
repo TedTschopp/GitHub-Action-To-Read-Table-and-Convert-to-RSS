@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 23 Oct 2025 16:15:07 +0000</lastBuildDate>
-    <item>
-      <title>Introducing Figure 03 [ * ]</title>
-      <link>https://www.figure.ai/news/introducing-figure-03</link>
-      <description>Figure’s new humanoid robot pushes forward the frontier of general‑purpose home robotics, with improvements in sensing, manufacturability, and software systems. Our analysts saw real potential — particularly in vertical integration, home assistance, and the broader robotics roadmap — while also noting it remains a flashy product announcement with early claims.</description>
-      <guid isPermaLink="false">9a3e2cc13e02929164758213e918d8bc</guid>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Gemini Enterprise [ ! ]</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/introducing-gemini-enterprise</link>
-      <description>This is a substantial enterprise AI launch from Google, combining agentic capabilities, infrastructure, connectors, and governance in one platform. Our analysts emphasized that it's more than a product—it’s a strategic “front door” for organizations to approach AI at scale.</description>
-      <guid isPermaLink="false">482a0a6530a3e037aa28ee85ccab9dbd</guid>
-      <pubDate>Fri, 10 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Novo Nordisk accelerates clinical documentation and drug development with Claude [ ~ ]</title>
-      <link>https://claude.com/customers/novo-nordisk</link>
-      <description>This case study claims a 90% time savings in regulatory document preparation using Claude for clinical trial reporting. However, the analysis pointed out the lack of clarity on whether these gains applied to initial drafting or final submission, making it less actionable for those outside life sciences.</description>
-      <guid isPermaLink="false">4a02b769fee4b72da076176b5d12a95e</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A small number of samples can poison LLMs of any size [ * ]</title>
-      <link>https://www.anthropic.com/research/small-samples-poison</link>
-      <description>Anthropic researchers show that injecting just a handful of malicious samples during fine-tuning can reliably poison LLM outputs, regardless of model size. Analysts flagged this as an important security wake-up call, especially as enterprises ramp up fine-tuning efforts, highlighting the need for rigorous data controls and new LLM safety mechanisms.</description>
-      <guid isPermaLink="false">c5ad5b605fc3d9844162fc96ff7bce57</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Trillion Dollar AI Software Development Stack [ * ]</title>
-      <link>https://a16z.com/the-trillion-dollar-ai-software-development-stack/</link>
-      <description>Andreessen Horowitz outlines how AI-native software stacks are transforming enterprise software development, emphasizing the strategic need for productivity gains and tool adoption. Analysts positioned this as a key resource for CIOs and CTOs, noting that companies lagging in GenAI adoption risk becoming obsolete, especially as consulting firms evolve into tech-first service providers.</description>
-      <guid isPermaLink="false">b787cfd112c509dd599273a3126a3e03</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>HYGH accelerates development and campaign delivery with ChatGPT Business [ * ]</title>
-      <link>https://openai.com/index/hygh/</link>
-      <description>This case study highlights how HYGH uses ChatGPT Business across departments to enhance content and campaign development workflows. While somewhat fragmented in its presentation, our analysts noted its relevance in illustrating OpenAI's shift toward full-stack AI operating models and the broader industry trend toward AI-augmented operations.</description>
-      <guid isPermaLink="false">c27f82bd8b880ffccdf4a2572cbeccd4</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 24 Oct 2025 00:51:44 +0000</lastBuildDate>
     <item>
       <title>How we scaled inbound sales with an AI SDR that qualifies 76% of leads end-to-end [ * ]</title>
       <link>https://elevenlabs.io/es/blog/how-we-scaled-inbound-sales</link>
@@ -357,6 +315,48 @@
       <description>OpenAI has launched ChatGPT Atlas, a standalone, agentic browser that seamlessly integrates web browsing, search, and AI automation into a single interface. Our analysts called this a transformative step that could redefine browser usage for enterprises and individuals alike, signaling the start of a new 'browser war' era in AI-driven user experiences.</description>
       <guid isPermaLink="false">f97b4c1fb7b68a66c69c50de26cd5aad</guid>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Classmethod accelerates development velocity with Claude Code [ ~ ]</title>
+      <link>https://www.claude.com/customers/classmethod</link>
+      <description>This case study shows Classmethod achieving dramatic improvements in dev speed using Claude, such as 96% faster script execution. Despite impressive metrics, the group found it lacked methodological transparency and came off more as promotional material for Claude than a useful deep dive into implementation.</description>
+      <guid isPermaLink="false">a936861ddb013554291258ab15585df5</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>There is no God Tier video model [ ~ ]</title>
+      <link>https://a16z.substack.com/p/there-is-no-god-tier-video-model</link>
+      <description>The post argues that no single video model dominates across use cases and suggests specialization is the current trajectory, citing examples like Pika, Sora, and Runway. While informative as a snapshot of the state of generative video, the panel agreed its relevance is short-lived given the rapid pace of model development and saw limited strategic value for executives today.</description>
+      <guid isPermaLink="false">b278105fa9ee68df109af78cbf94b040</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Successful AI adoption needs workers in the loop [ ~ ]</title>
+      <link>https://www.ft.com/content/d42fa720-1585-4a7e-830b-b17ee2ca0d6d</link>
+      <description>This Financial Times article presents a mixed take on how AI adoption depends on workforce integration and quotes older statistics from UK education and Goldman Sachs. Our analysts found the article disjointed and lacking in fresh insights, critiquing it as a 'triple optional nothing burger' that fails to acknowledge the larger structural shifts and risks, such as mass layoffs and HR budget reallocations.</description>
+      <guid isPermaLink="false">00a523e14c8c94a913aa666034fbed3d</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Gen AI in Finance Isn’t Failing—It’s Working Where It’s Built In [ * ]</title>
+      <link>https://www.bain.com/insights/gen-ai-in-finance-isnt-failing-its-working-where-its-built-in/</link>
+      <description>Bain argues that embedded AI use cases in finance are succeeding, especially in workflow automation versus chatbot pilots. Although some of our analysts found this perspective aligned with observed ROI patterns, others viewed it as thinly veiled consulting marketing, making it more of a commercial than a strategic resource.</description>
+      <guid isPermaLink="false">43a485703cccee4dd07b6ab78f59f065</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>BOLT - How Mura wrote an in-house LLM Eval Framework [ * ]</title>
+      <link>https://mackey.substack.com/p/bolt-how-mura-wrote-an-in-house-llm</link>
+      <description>This article discusses the creation of an internal LLM evaluation framework called BOLT by Mura, designed to measure model quality during development. Our analysts emphasized the growing importance of evaluation rigor in GenAI deployments, particularly as organizations scale from prototype to production; while the piece lacks technical depth, it introduces relevant semantic challenges that executives should begin to consider.</description>
+      <guid isPermaLink="false">8168629c250199ee63adc5dabe1776fa</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unseeable prompt injections in screenshots: more vulnerabilities in Comet and other AI browsers [ * ]</title>
+      <link>https://brave.com/blog/unseeable-prompt-injections/?s=09</link>
+      <description>This piece highlights a new class of prompt injection vulnerabilities hidden in screenshots, posing risks for AI-enhanced or agentic browsers like Comet. The team emphasized the underestimated security risks tied to AI browsers, warning that these could reach enterprise-scale repercussions due to individual behavior, making early awareness essential.</description>
+      <guid isPermaLink="false">a8bceafe3362afe0f7ddcd143411e8f5</guid>
+      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
