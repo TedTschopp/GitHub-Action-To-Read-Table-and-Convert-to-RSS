@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Why CEOs Need to Prepare for AI-Only Rivals",
+        "links": [
+          "https://www.bcg.com/ja-jp/publications/2025/why-ceos-need-to-prepare-for-ai-only-rivals"
+        ]
+      },
+      "Rationale": {
+        "text": "This article explores how AI-native companies will disrupt traditional businesses through superior unit economics, enabled by automation and AI-first workflows. Our analysts unanimously elevated it to 'Essential' for its timely call to action for executives, supported by real-world examples like Craigslist and internal experiences deploying AI agents, showing how AI 'employees' are already replacing major workflows.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Human-centered AI",
+        "links": [
+          "https://www.microsoft.com/en-us/microsoft-copilot/blog/2025/10/23/human-centered-ai/"
+        ]
+      },
+      "Rationale": {
+        "text": "This piece covers Microsoft's Copilot fall update, highlighting ecosystem-wide upgrades such as long-term memory, multi-device reach (like Samsung TVs), and an animated assistant called 'Mico.' While not groundbreaking in itself, our analysts agreed that Microsoft's scale and positioning make this evolution in AI-human interaction strategies critical for business leaders to monitor.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Consensus uses GPT-5 and the Responses API to complete weeks of research in minutes",
+        "links": [
+          "https://openai.com/index/consensus/"
+        ]
+      },
+      "Rationale": {
+        "text": "This OpenAI case study showcases how a multi-agent system using GPT-5 dramatically compresses research timelines. Despite limited technical depth, analysts valued its demonstration of AI agents collaborating on research tasks, noting it helps demystify complex AI architectures for business leaders and supports broader industry adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "AI tutors show their potential in interactive workplace learning",
+        "links": [
+          "https://www.ft.com/content/1f915aa9-c61c-4f55-b27e-47d0a0f2c016"
+        ]
+      },
+      "Rationale": {
+        "text": "Though framed as a PR-like piece, the article touches on the growing impact of GenAI-powered corporate training, especially for compliance-heavy sectors. Our analysts highlighted the potential of multimodal and interactive learning agents to transform workforce education and increase training engagement, upgrading it to an important despite the article's limited technical rigor.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing the Apps for Advertising collection",
+        "links": [
+          "https://x.com/runwayml/status/1981380360249159783"
+        ]
+      },
+      "Rationale": {
+        "text": "This update from RunwayML announces a curated set of apps tailored for advertising use cases, indicating a step toward verticalized GenAI tools. While lightly discussed, its importance lies in signaling the commercialization and specialization of GenAI for the adtech sector, where use-case-specific tools are becoming more prominent.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/24/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "ColorAgent: Building A Robust, Personalized, and Interactive OS Agent",
+        "links": [
+          "https://arxiv.org/abs/2510.19386?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This research paper explores an open-source agent capable of controlling OS functions through natural language. Our analysts noted the relevance of the category (OS agents), but found the paper itself too preliminary for enterprise use and marked it as optional due to limited applicability for business leaders today.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/23/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This research paper introduces a three-part framework: generator, reflector, and curator, for improving LLMs by refining context (prompts, memories, evidence) rather than retraining models. While still theoretical, our analysts viewed it as an important early architecture for agentic systems, particularly for R&D teams exploring agent role definition, memory persistence, and team-level self-improvement in AI environments.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Why AI Will Widen the Gap Between Superstars and Everybody Else",
-        "links": [
-          "https://archive.md/Dy54R"
-        ]
-      },
-      "Rationale": {
-        "text": "This article argues that GenAI will amplify high performers more than uplift average users, potentially increasing organizational inequality. Our analysts felt the piece lacked empirical backing and original insights, viewing it more as an opinion piece that missed a deeper analysis of early adopter advantages or the real distributional impacts of AI at work.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Meet Amazon Quick Suite: The agentic AI application reshaping how work gets done",
-        "links": [
-          "https://www.aboutamazon.com/news/aws/amazon-quick-suite-agentic-ai-aws-work?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Amazon's QuickSuite is a new agentic productivity platform aimed at competing with Microsoft Copilot Studio, targeting AWS customers. Our analysts described it as a solid product drop but primarily relevant for those in the Amazon ecosystem and part of a crowded market of emerging agent frameworks.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Copilot helps one of Canada's largest credit unions go beyond the numbers to create more personalized service",
-        "links": [
-          "https://news.microsoft.com/source/canada/features/ai/first-west-credit-union-copilot-deployment/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study describes Copilot's role in improving customer service at a Canadian credit union. Our analysts criticized the article for being vague, lacking measurable outcomes, and offering little insight into Copilot Studio's technical constraints, which undercut its value for enterprise AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Agentic AI Is Transforming Enterprise Platforms",
-        "links": [
-          "https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms"
-        ]
-      },
-      "Rationale": {
-        "text": "This article offers a high-level perspective on how agentic AI is changing the structure and capabilities of enterprise platforms. The team found it added little beyond general framing, with no actionable detail or unique technical insight, making it an optional read for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The State of AI Report 2025",
-        "links": [
-          "https://press.airstreet.com/p/the-state-of-ai-report-2025"
-        ]
-      },
-      "Rationale": {
-        "text": "This comprehensive report offers a wide-ranging analysis of the AI landscape across industries such as technology, healthcare, finance, and manufacturing, blending technical, policy, and market insights. Our analysts emphasized its value as a reference for AI leaders advocating for AI literacy and investment, citing benchmarks (OpenAI's lead, China's rise), fine-tuning dominance by QLoRA, reinforcement learning trends, and the emergence of model context protocols.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/13/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How we scaled inbound sales with an AI SDR that qualifies 76% of leads end-to-end",
-        "links": [
-          "https://elevenlabs.io/es/blog/how-we-scaled-inbound-sales"
-        ]
-      },
-      "Rationale": {
-        "text": "Eleven Labs created an AI sales development rep (\"John\") that achieved a 78% success rate in lead qualification, powered by multi-model orchestration and tool integration. While the agent design and prompting guide offer meaningful insights into building autonomous agents, the article was criticized for feeling like a vendor pitch, lacking external validation or outbound capabilities.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-24T08:19:23.510708+00:00"
+  "timestamp": "2025-10-24T16:18:09.704550+00:00"
 }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 24 Oct 2025 08:18:08 +0000</lastBuildDate>
-    <item>
-      <title>How we scaled inbound sales with an AI SDR that qualifies 76% of leads end-to-end [ * ]</title>
-      <link>https://elevenlabs.io/es/blog/how-we-scaled-inbound-sales</link>
-      <description>Eleven Labs created an AI sales development rep ("John") that achieved a 78% success rate in lead qualification, powered by multi-model orchestration and tool integration. While the agent design and prompting guide offer meaningful insights into building autonomous agents, the article was criticized for feeling like a vendor pitch, lacking external validation or outbound capabilities.</description>
-      <guid isPermaLink="false">bfb0e773b86edb9cfb4dfc2ea1ad4c8d</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The State of AI Report 2025 [ ! ]</title>
-      <link>https://press.airstreet.com/p/the-state-of-ai-report-2025</link>
-      <description>This comprehensive report offers a wide-ranging analysis of the AI landscape across industries such as technology, healthcare, finance, and manufacturing, blending technical, policy, and market insights. Our analysts emphasized its value as a reference for AI leaders advocating for AI literacy and investment, citing benchmarks (OpenAI's lead, China's rise), fine-tuning dominance by QLoRA, reinforcement learning trends, and the emergence of model context protocols.</description>
-      <guid isPermaLink="false">56f4a5823c65b32eb46e8e468ecb1a38</guid>
-      <pubDate>Mon, 13 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Agentic AI Is Transforming Enterprise Platforms [ ~ ]</title>
-      <link>https://www.bcg.com/publications/2025/how-agentic-ai-is-transforming-enterprise-platforms</link>
-      <description>This article offers a high-level perspective on how agentic AI is changing the structure and capabilities of enterprise platforms. The team found it added little beyond general framing, with no actionable detail or unique technical insight, making it an optional read for AI leaders.</description>
-      <guid isPermaLink="false">835d2c6e7f142f52ce41d570ae169928</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Copilot helps one of Canada's largest credit unions go beyond the numbers to create more personalized service [ ~ ]</title>
-      <link>https://news.microsoft.com/source/canada/features/ai/first-west-credit-union-copilot-deployment/</link>
-      <description>This case study describes Copilot's role in improving customer service at a Canadian credit union. Our analysts criticized the article for being vague, lacking measurable outcomes, and offering little insight into Copilot Studio's technical constraints, which undercut its value for enterprise AI leaders.</description>
-      <guid isPermaLink="false">42da04c1761eae838b69eeaebc12ce35</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meet Amazon Quick Suite: The agentic AI application reshaping how work gets done [ ~ ]</title>
-      <link>https://www.aboutamazon.com/news/aws/amazon-quick-suite-agentic-ai-aws-work?s=09</link>
-      <description>Amazon's QuickSuite is a new agentic productivity platform aimed at competing with Microsoft Copilot Studio, targeting AWS customers. Our analysts described it as a solid product drop but primarily relevant for those in the Amazon ecosystem and part of a crowded market of emerging agent frameworks.</description>
-      <guid isPermaLink="false">809d89480208c6c5bd3f5b0698488916</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why AI Will Widen the Gap Between Superstars and Everybody Else [ ~ ]</title>
-      <link>https://archive.md/Dy54R</link>
-      <description>This article argues that GenAI will amplify high performers more than uplift average users, potentially increasing organizational inequality. Our analysts felt the piece lacked empirical backing and original insights, viewing it more as an opinion piece that missed a deeper analysis of early adopter advantages or the real distributional impacts of AI at work.</description>
-      <guid isPermaLink="false">ff1fdaf6182b7c1ed4290341bda56519</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 24 Oct 2025 16:16:49 +0000</lastBuildDate>
     <item>
       <title>Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models [ * ]</title>
       <link>https://www.arxiv.org/pdf/2510.04618</link>
@@ -357,6 +315,48 @@
       <description>This piece highlights a new class of prompt injection vulnerabilities hidden in screenshots, posing risks for AI-enhanced or agentic browsers like Comet. The team emphasized the underestimated security risks tied to AI browsers, warning that these could reach enterprise-scale repercussions due to individual behavior, making early awareness essential.</description>
       <guid isPermaLink="false">a8bceafe3362afe0f7ddcd143411e8f5</guid>
       <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ColorAgent: Building A Robust, Personalized, and Interactive OS Agent [ ~ ]</title>
+      <link>https://arxiv.org/abs/2510.19386?s=09</link>
+      <description>This research paper explores an open-source agent capable of controlling OS functions through natural language. Our analysts noted the relevance of the category (OS agents), but found the paper itself too preliminary for enterprise use and marked it as optional due to limited applicability for business leaders today.</description>
+      <guid isPermaLink="false">cc2b03a8766440aa4cdb4372e9980986</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing the Apps for Advertising collection [ * ]</title>
+      <link>https://x.com/runwayml/status/1981380360249159783</link>
+      <description>This update from RunwayML announces a curated set of apps tailored for advertising use cases, indicating a step toward verticalized GenAI tools. While lightly discussed, its importance lies in signaling the commercialization and specialization of GenAI for the adtech sector, where use-case-specific tools are becoming more prominent.</description>
+      <guid isPermaLink="false">0a7e937c2c87a2815c213f0323a35df1</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI tutors show their potential in interactive workplace learning [ * ]</title>
+      <link>https://www.ft.com/content/1f915aa9-c61c-4f55-b27e-47d0a0f2c016</link>
+      <description>Though framed as a PR-like piece, the article touches on the growing impact of GenAI-powered corporate training, especially for compliance-heavy sectors. Our analysts highlighted the potential of multimodal and interactive learning agents to transform workforce education and increase training engagement, upgrading it to an important despite the article's limited technical rigor.</description>
+      <guid isPermaLink="false">1b8015d261b9616fa74158fccc247ddd</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Consensus uses GPT-5 and the Responses API to complete weeks of research in minutes [ * ]</title>
+      <link>https://openai.com/index/consensus/</link>
+      <description>This OpenAI case study showcases how a multi-agent system using GPT-5 dramatically compresses research timelines. Despite limited technical depth, analysts valued its demonstration of AI agents collaborating on research tasks, noting it helps demystify complex AI architectures for business leaders and supports broader industry adoption.</description>
+      <guid isPermaLink="false">7d7c87bdfa8f536162463090c53b0382</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Human-centered AI [ * ]</title>
+      <link>https://www.microsoft.com/en-us/microsoft-copilot/blog/2025/10/23/human-centered-ai/</link>
+      <description>This piece covers Microsoft's Copilot fall update, highlighting ecosystem-wide upgrades such as long-term memory, multi-device reach (like Samsung TVs), and an animated assistant called 'Mico.' While not groundbreaking in itself, our analysts agreed that Microsoft's scale and positioning make this evolution in AI-human interaction strategies critical for business leaders to monitor.</description>
+      <guid isPermaLink="false">74d38dd06e8100430677e5e0ca361200</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Why CEOs Need to Prepare for AI-Only Rivals [ ! ]</title>
+      <link>https://www.bcg.com/ja-jp/publications/2025/why-ceos-need-to-prepare-for-ai-only-rivals</link>
+      <description>This article explores how AI-native companies will disrupt traditional businesses through superior unit economics, enabled by automation and AI-first workflows. Our analysts unanimously elevated it to 'Essential' for its timely call to action for executives, supported by real-world examples like Craigslist and internal experiences deploying AI agents, showing how AI 'employees' are already replacing major workflows.</description>
+      <guid isPermaLink="false">19d10fc0601f33a1c11789c99bb8021b</guid>
+      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
