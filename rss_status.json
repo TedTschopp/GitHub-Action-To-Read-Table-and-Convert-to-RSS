@@ -1,11 +1,11 @@
 {
-  "timestamp": "2025-10-25T08:17:06.667360+00:00",
+  "timestamp": "2025-10-25T16:14:34.878499+00:00",
   "feeds": {
     "ai_rss_feed.xml": {
       "exists": true,
       "valid_xml": true,
       "entry_count": 50,
-      "last_updated": "Sat, 25 Oct 2025 08:15:48 +0000",
+      "last_updated": "Sat, 25 Oct 2025 16:13:18 +0000",
       "size_bytes": 37017,
       "errors": []
     },
@@ -23,7 +23,7 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 29,
-      "last_updated": "Sat, 25 Oct 2025 08:16:23 +0000",
+      "last_updated": "Sat, 25 Oct 2025 16:13:51 +0000",
       "size_bytes": 29301,
       "errors": []
     },
@@ -31,19 +31,17 @@
       "exists": true,
       "valid_xml": true,
       "entry_count": 65,
-      "last_updated": "Sat, 25 Oct 2025 08:16:23 +0000",
+      "last_updated": "Sat, 25 Oct 2025 16:13:51 +0000",
       "size_bytes": 86609,
       "errors": []
     },
     "aggregated_teds_digital_exhaust.xml": {
       "exists": true,
       "valid_xml": true,
-      "entry_count": 3,
-      "last_updated": "Sat, 25 Oct 2025 08:16:54 +0000",
-      "size_bytes": 2303,
-      "errors": [
-        "Low entry count: 3"
-      ]
+      "entry_count": 5,
+      "last_updated": "Sat, 25 Oct 2025 16:14:22 +0000",
+      "size_bytes": 3362,
+      "errors": []
     },
     "aggregated_teds_digital_exhaust_archive.xml": {
       "exists": false,
