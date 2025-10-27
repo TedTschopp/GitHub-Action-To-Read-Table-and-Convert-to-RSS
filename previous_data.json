@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/27/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Work Smarter with Your Company Knowledge in ChatGPT",
+        "links": [
+          "https://openai.com/index/introducing-company-knowledge"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces OpenAI’s new “Company Knowledge” capability which allows enterprise users to securely access internal documents, tickets, emails and messages across platforms—a major step for AI‑driven enterprise knowledge work. Our analysts emphasized that because ChatGPT is already widely adopted, this move signals a paradigm shift for corporate information systems and makes this development essential for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/27/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "State of Generative Media Survey Report 2025",
+        "links": [
+          "https://artificialanalysis.ai/media/survey-2025"
+        ]
+      },
+      "Rationale": {
+        "text": "This survey report covers the adoption, maturity and ROI of generative image and video models, revealing that 65 % of organizations expect return on investment within 12 months. Our analysts discussed how this underscores the urgency for marketing and creative teams to deploy generative media—and therefore it’s essential reading for senior enterprise executives.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/27/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How the Max Planck Institute Is Sharing Expert Skills Through Multimodal Agents",
+        "links": [
+          "https://cloud.google.com/blog/products/ai-machine-learning/planck-institute-research-expert-gen-ai-agent?e=48754805"
+        ]
+      },
+      "Rationale": {
+        "text": "The article describes how Max Planck Institute and Google Cloud built a multimodal AI agent able to interpret video, speech and text to detect procedural errors in lab work—an early but powerful example of tackling tacit organizational knowledge. Our analysts emphasized that this demonstrates what is likely to become the future standard for deep skill transfer within enterprises through generative AI.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/27/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Mistral AI Studio",
+        "links": [
+          "https://mistral.ai/news/ai-studio?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "Mistral AI’s launch of an “AI Studio” prototype tool‑set aimed at operations, observability, agents and model registry signals maturity in enterprise AI infrastructure. Our analysts noted that while it’s still early and lacks broad customer traction, the trend it represents makes it important for practitioners to track.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/27/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "The AI‑centric imperative: Navigating the next software frontier",
+        "links": [
+          "https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-ai-centric-imperative-navigating-the-next-software-frontier?stcr=4FB30E5D90E34A5AB43D6BF5D984D1D1&cid=mgp_opr-eml-alt-tmt-mgp-glb--&hlkid=97311181560f44f99bd107757c6932da&hctky=1595995&hdpid=265cf3f3-842f-4fc2-9cd1-5ad710395e6b"
+        ]
+      },
+      "Rationale": {
+        "text": "This report from McKinsey & Company outlines how AI and agent‑centric architectures are disrupting the software industry, with strategic lessons for organizations transforming into “software‑first” enterprises. Our analysts pointed out that while it’s software‑centric vs. domain‑specific, it remains important as a strategic framing piece for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/27/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Enterprise Deep Research: Steerable Multi‑Agent Deep Research for Enterprise Analytics",
+        "links": [
+          "https://arxiv.org/abs/2510.17797?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This paper proposes a multi‑agent architecture for enterprise analytics, detailing master agent/task manager/steering loops. Our analysts agreed it is interesting from a research/architecture perspective but still early in practical enterprise deployment, making it optional reading today.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/24/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article frames generative AI not just as a tool but as a capability to build into an organization, with frameworks around experimentation, value-mapping, and governance. Our analysts emphasized that thinking of AI as a capability (vs. just a technology) is critical to gaining competitive advantage, making this a must-read for enterprise AI leaders.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing LLM‑Evalkit: A practical framework for prompt engineering on Google Cloud",
-        "links": [
-          "https://cloud.google.com/blog/products/ai-machine-learning/introducing-llm-evalkit"
-        ]
-      },
-      "Rationale": {
-        "text": "The LLM Evalkit helps turn prompt engineering from intuition-based approaches into an instrumented, structured evaluation process, supporting better model development and deployment. Our analysts noted that this creates engineering discipline around prompts and reduces the ad hoc nature of many current evaluation practices.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Kitsa transforms clinical trial site selection with Amazon Quick Automate",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/kitsa-transforms-clinical-trial-site-selection-with-amazon-quick-automate/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study offers a concrete, measurable example of generative AI workflow automation in a high-stakes domain (clinical trials), citing improvements like 96 % faster data acquisition and 91 % cost savings. Our analysts considered it well-executed, though they flagged that many numbers are self‑reported and tied to AWS’s tooling.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Salesforce and OpenAI Partner Across Enterprise Work and Commerce",
-        "links": [
-          "https://www.salesforce.com/news/press-releases/2025/10/14/openai-partnership-expansion-announcement"
-        ]
-      },
-      "Rationale": {
-        "text": "By surfacing Salesforce’s Agentforce 360 inside ChatGPT (and Slack) and embedding frontier models, this partnership signals how workflow tools will increasingly become agent-driven interfaces. Our analysts saw it as a major signal of the direction enterprise software is heading, but debate remained about Salesforce’s execution credibility.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing MAI‑Image‑1, debuting in the top 10 on LMArena",
-        "links": [
-          "https://microsoft.ai/news/introducing-mai-image-1-debuting-in-the-top-10-on-lmarena/"
-        ]
-      },
-      "Rationale": {
-        "text": "While interesting from a product and branding standpoint (Microsoft’s first in-house text-to-image model, now ranking in LMArena’s top 10), our analysts considered it a data point rather than a paradigm-shifting announcement. Without full benchmarks or deployment details, it ranks lower in urgency.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "How Mr. Cooper assembled a \"team\" of AI agents to handle complex mortgage questions",
-        "links": [
-          "https://cloud.google.com/blog/topics/financial-services/assembling-a-team-of-ai-agents-to-handle-complex-mortgage-questions-at-mr-cooper"
-        ]
-      },
-      "Rationale": {
-        "text": "This article outlines how Mr. Cooper deployed a system called CIERA, a multi-agent AI network designed to address complex mortgage queries, showcasing clear examples of orchestration across specialist agents. Our analysts highlighted it as a highly transferable enterprise pattern for AI leaders, emphasizing its value in visualizing and communicating agentic system design to overwhelmed executives navigating the emerging AI-first enterprise paradigm.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/14/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models",
-        "links": [
-          "https://www.arxiv.org/pdf/2510.04618"
-        ]
-      },
-      "Rationale": {
-        "text": "This research paper introduces a three-part framework: generator, reflector, and curator, for improving LLMs by refining context (prompts, memories, evidence) rather than retraining models. While still theoretical, our analysts viewed it as an important early architecture for agentic systems, particularly for R&D teams exploring agent role definition, memory persistence, and team-level self-improvement in AI environments.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-27T08:19:25.058748+00:00"
+  "timestamp": "2025-10-27T16:17:03.689608+00:00"
 }

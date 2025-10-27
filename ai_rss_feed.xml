@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Oct 2025 08:18:04 +0000</lastBuildDate>
-    <item>
-      <title>Agentic Context Engineering: Evolving Contexts for Self-Improving Language Models [ * ]</title>
-      <link>https://www.arxiv.org/pdf/2510.04618</link>
-      <description>This research paper introduces a three-part framework: generator, reflector, and curator, for improving LLMs by refining context (prompts, memories, evidence) rather than retraining models. While still theoretical, our analysts viewed it as an important early architecture for agentic systems, particularly for R&amp;D teams exploring agent role definition, memory persistence, and team-level self-improvement in AI environments.</description>
-      <guid isPermaLink="false">56d0262f7d49411ee54ab5f0394e930b</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Mr. Cooper assembled a "team" of AI agents to handle complex mortgage questions [ ! ]</title>
-      <link>https://cloud.google.com/blog/topics/financial-services/assembling-a-team-of-ai-agents-to-handle-complex-mortgage-questions-at-mr-cooper</link>
-      <description>This article outlines how Mr. Cooper deployed a system called CIERA, a multi-agent AI network designed to address complex mortgage queries, showcasing clear examples of orchestration across specialist agents. Our analysts highlighted it as a highly transferable enterprise pattern for AI leaders, emphasizing its value in visualizing and communicating agentic system design to overwhelmed executives navigating the emerging AI-first enterprise paradigm.</description>
-      <guid isPermaLink="false">5dec6ba290aab5d79c272875d4925f5d</guid>
-      <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing MAI‑Image‑1, debuting in the top 10 on LMArena [ ~ ]</title>
-      <link>https://microsoft.ai/news/introducing-mai-image-1-debuting-in-the-top-10-on-lmarena/</link>
-      <description>While interesting from a product and branding standpoint (Microsoft’s first in-house text-to-image model, now ranking in LMArena’s top 10), our analysts considered it a data point rather than a paradigm-shifting announcement. Without full benchmarks or deployment details, it ranks lower in urgency.</description>
-      <guid isPermaLink="false">72046394e064c454c644f4ed480f9cfc</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Salesforce and OpenAI Partner Across Enterprise Work and Commerce [ * ]</title>
-      <link>https://www.salesforce.com/news/press-releases/2025/10/14/openai-partnership-expansion-announcement</link>
-      <description>By surfacing Salesforce’s Agentforce 360 inside ChatGPT (and Slack) and embedding frontier models, this partnership signals how workflow tools will increasingly become agent-driven interfaces. Our analysts saw it as a major signal of the direction enterprise software is heading, but debate remained about Salesforce’s execution credibility.</description>
-      <guid isPermaLink="false">830549eebcd6fd0c977fd1c53ac3689a</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kitsa transforms clinical trial site selection with Amazon Quick Automate [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/kitsa-transforms-clinical-trial-site-selection-with-amazon-quick-automate/</link>
-      <description>This case study offers a concrete, measurable example of generative AI workflow automation in a high-stakes domain (clinical trials), citing improvements like 96 % faster data acquisition and 91 % cost savings. Our analysts considered it well-executed, though they flagged that many numbers are self‑reported and tied to AWS’s tooling.</description>
-      <guid isPermaLink="false">7b29c19d7952f0ee0e0f0624a574724d</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing LLM‑Evalkit: A practical framework for prompt engineering on Google Cloud [ * ]</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/introducing-llm-evalkit</link>
-      <description>The LLM Evalkit helps turn prompt engineering from intuition-based approaches into an instrumented, structured evaluation process, supporting better model development and deployment. Our analysts noted that this creates engineering discipline around prompts and reduces the ad hoc nature of many current evaluation practices.</description>
-      <guid isPermaLink="false">1e1f387c19da82991aa8e75a28943d76</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 27 Oct 2025 16:15:42 +0000</lastBuildDate>
     <item>
       <title>The Gen AI Playbook for Organizations [ ! ]</title>
       <link>https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations</link>
@@ -357,6 +315,48 @@
       <description>This article explores how AI-native companies will disrupt traditional businesses through superior unit economics, enabled by automation and AI-first workflows. Our analysts unanimously elevated it to 'Essential' for its timely call to action for executives, supported by real-world examples like Craigslist and internal experiences deploying AI agents, showing how AI 'employees' are already replacing major workflows.</description>
       <guid isPermaLink="false">19d10fc0601f33a1c11789c99bb8021b</guid>
       <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Enterprise Deep Research: Steerable Multi‑Agent Deep Research for Enterprise Analytics [ ~ ]</title>
+      <link>https://arxiv.org/abs/2510.17797?s=09</link>
+      <description>This paper proposes a multi‑agent architecture for enterprise analytics, detailing master agent/task manager/steering loops. Our analysts agreed it is interesting from a research/architecture perspective but still early in practical enterprise deployment, making it optional reading today.</description>
+      <guid isPermaLink="false">f90dc3d63ca4c5e0afd84c7252aedfa2</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The AI‑centric imperative: Navigating the next software frontier [ * ]</title>
+      <link>https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-ai-centric-imperative-navigating-the-next-software-frontier?stcr=4FB30E5D90E34A5AB43D6BF5D984D1D1&amp;cid=mgp_opr-eml-alt-tmt-mgp-glb--&amp;hlkid=97311181560f44f99bd107757c6932da&amp;hctky=1595995&amp;hdpid=265cf3f3-842f-4fc2-9cd1-5ad710395e6b</link>
+      <description>This report from McKinsey &amp; Company outlines how AI and agent‑centric architectures are disrupting the software industry, with strategic lessons for organizations transforming into “software‑first” enterprises. Our analysts pointed out that while it’s software‑centric vs. domain‑specific, it remains important as a strategic framing piece for AI leaders.</description>
+      <guid isPermaLink="false">5542dd103008f8b1aca7644382633aee</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Mistral AI Studio [ * ]</title>
+      <link>https://mistral.ai/news/ai-studio?s=09</link>
+      <description>Mistral AI’s launch of an “AI Studio” prototype tool‑set aimed at operations, observability, agents and model registry signals maturity in enterprise AI infrastructure. Our analysts noted that while it’s still early and lacks broad customer traction, the trend it represents makes it important for practitioners to track.</description>
+      <guid isPermaLink="false">862f8e6fc1f6bcb64d85d98f5a305c5e</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How the Max Planck Institute Is Sharing Expert Skills Through Multimodal Agents [ ! ]</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/planck-institute-research-expert-gen-ai-agent?e=48754805</link>
+      <description>The article describes how Max Planck Institute and Google Cloud built a multimodal AI agent able to interpret video, speech and text to detect procedural errors in lab work—an early but powerful example of tackling tacit organizational knowledge. Our analysts emphasized that this demonstrates what is likely to become the future standard for deep skill transfer within enterprises through generative AI.</description>
+      <guid isPermaLink="false">2c3f3f4fad5de7f35ea7b72777f55857</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>State of Generative Media Survey Report 2025 [ ! ]</title>
+      <link>https://artificialanalysis.ai/media/survey-2025</link>
+      <description>This survey report covers the adoption, maturity and ROI of generative image and video models, revealing that 65 % of organizations expect return on investment within 12 months. Our analysts discussed how this underscores the urgency for marketing and creative teams to deploy generative media—and therefore it’s essential reading for senior enterprise executives.</description>
+      <guid isPermaLink="false">5404b0a2f4ed9bfff37c8d30485c709a</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Work Smarter with Your Company Knowledge in ChatGPT [ ! ]</title>
+      <link>https://openai.com/index/introducing-company-knowledge</link>
+      <description>This article introduces OpenAI’s new “Company Knowledge” capability which allows enterprise users to securely access internal documents, tickets, emails and messages across platforms—a major step for AI‑driven enterprise knowledge work. Our analysts emphasized that because ChatGPT is already widely adopted, this move signals a paradigm shift for corporate information systems and makes this development essential for AI leaders.</description>
+      <guid isPermaLink="false">26fcc642f9fb8d6d84496845c656208f</guid>
+      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
