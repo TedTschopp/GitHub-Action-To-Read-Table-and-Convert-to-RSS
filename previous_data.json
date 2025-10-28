@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Advancing Claude for Financial Services",
+        "links": [
+          "https://www.anthropic.com/news/advancing-claude-for-financial-services"
+        ]
+      },
+      "Rationale": {
+        "text": "This article details how Anthropic equips Claude for the financial‑services sector with capabilities such as Excel integration, deal‑teaser workflows ('skills'), and data‑driven agentic workflows. Our analysts noted this shows a strong signal of AI automation entering enterprise workflows and the transition of large language models into purpose‑built vertical solutions.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Designing a Successful Agentic AI System",
+        "links": [
+          "https://hbr.org/2025/10/designing-a-successful-agentic-ai-system"
+        ]
+      },
+      "Rationale": {
+        "text": "The article discusses how to architect and govern agentic AI systems that combine autonomy, large language models, and human oversight in business environments. Our analysts noted that while the topic is important (agents are a rising theme), the article is a bit light on detailed data and actionable steps — hence the 'optional' rating.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
+        "links": [
+          "https://huggingface.co/blog/openenv"
+        ]
+      },
+      "Rationale": {
+        "text": "This post describes how Hugging Face and Meta are collaborating to create an open‑source environment framework ('OpenEnv') for agentic AI ecosystems. Our analysts discussed its relevance for the 'AI leader' background stack, but that for most enterprises it remains peripheral.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "A Survey of Vibe Coding with Large Language Models",
+        "links": [
+          "https://arxiv.org/abs/2510.12399"
+        ]
+      },
+      "Rationale": {
+        "text": "The research compendium analyzes thousands of examples of 'vibe coding' and proposes a hierarchy of five development models. Our analysts found value in legitimizing the concept and providing a well-researched taxonomy, but questioned its immediate practical relevance for many enterprise users.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Agent Frameworks, Runtimes, and Harnesses‑oh my!",
+        "links": [
+          "https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article from LangChain provides a taxonomy of agent frameworks, runtimes and harnesses for LLM‑based systems. Our analysts raised concerns that the classifications seem confusing and not operationally helpful yet — thus the optional rating.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/28/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "MiniMax-M2 is the new king of open source LLMs",
+        "links": [
+          "https://venturebeat.com/ai/minimax-m2-is-the-new-king-of-open-source-llms-especially-for-agentic-tool"
+        ]
+      },
+      "Rationale": {
+        "text": "MiniMax-M2 is a new open-source large language model from China that delivers competitive performance and efficiency for agentic tool use, released under a permissive license. While our analysts acknowledged the impressive technical benchmarks and rapid progress in the Chinese open-source ecosystem, they emphasized the lack of real-world enterprise adoption and distribution hurdles, making this article optional for most AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/27/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Google’s Veo 3.1 brings significant enhancements in AI video generation—adding improved prompt adherence, audio integration, object insertion/removal, and better editing controls. Our analysts agreed that this gives marketers and creatives precise control over visual style, pacing, and continuity using just a few reference images and shows how images and video can be used to elevate campaigns and engage audiences at scale.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "eSentire scales elite cybersecurity expertise with Claude in Amazon Bedrock",
-        "links": [
-          "https://www.claude.com/customers/esentire"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study shows how a security firm is embedding Claude agents into Bedrock to automate incident response, delivering orchestration across multiple agents and generating incremental revenue. Our analysts found the use case compelling in the critical domain of cybersecurity even though it lacks implementation details.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Inside the AI-powered assistant helping doctors work faster and better at Seattle Children’s Hospital",
-        "links": [
-          "https://cloud.google.com/blog/topics/healthcare-life-sciences/child-care-how-ai-is-transforming-pediatric-medicine-at-seattle-childrens"
-        ]
-      },
-      "Rationale": {
-        "text": "In a major health system spanning 47 sites, Google Cloud’s “Pathway Assistant” is being applied to streamline clinician workflows (not decision-making), representing meaningful deployment of AI in healthcare. Our analysts acknowledged the potential impact while noting weaker quantification of business outcomes.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Big Rethink: An agenda for thriving in the agentic age",
-        "links": [
-          "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-big-rethink-an-agenda-for-thriving-in-the-agentic-age"
-        ]
-      },
-      "Rationale": {
-        "text": "McKinsey frames a high-level leadership agenda for adopting autonomous “agentic” systems. Our analysts judged it conceptually interesting but too abstract or thin to be actionable, placing it in the optional bucket.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Claude Haiku 4.5",
-        "links": [
-          "https://www.anthropic.com/news/claude-haiku-4-5"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s Haiku 4.5 targets cost‑efficient deployment in agent settings, matching performance of larger models for certain tasks. Our analysts considered this as a routine product announcement, thereby classifying it as optional.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "You’ll soon be able to shop Walmart from ChatGPT",
-        "links": [
-          "https://techcrunch.com/2025/10/14/youll-soon-be-able-to-shop-walmart-from-chatgpt/"
-        ]
-      },
-      "Rationale": {
-        "text": "Walmart announced that customers will soon be able to search for and purchase items directly through ChatGPT, using a new integration powered by OpenAI. Our analysts saw this as a tectonic shift in the evolution of “AI-first shopping,” with vast implications for brands, marketplaces, and competition.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/15/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The Gen AI Playbook for Organizations",
-        "links": [
-          "https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations"
-        ]
-      },
-      "Rationale": {
-        "text": "This article frames generative AI not just as a tool but as a capability to build into an organization, with frameworks around experimentation, value-mapping, and governance. Our analysts emphasized that thinking of AI as a capability (vs. just a technology) is critical to gaining competitive advantage, making this a must-read for enterprise AI leaders.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-28T08:19:32.171442+00:00"
+  "timestamp": "2025-10-28T16:18:37.964222+00:00"
 }

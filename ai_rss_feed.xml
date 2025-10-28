@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 28 Oct 2025 08:18:15 +0000</lastBuildDate>
-    <item>
-      <title>The Gen AI Playbook for Organizations [ ! ]</title>
-      <link>https://hbr.org/2025/11/the-gen-ai-playbook-for-organizations</link>
-      <description>This article frames generative AI not just as a tool but as a capability to build into an organization, with frameworks around experimentation, value-mapping, and governance. Our analysts emphasized that thinking of AI as a capability (vs. just a technology) is critical to gaining competitive advantage, making this a must-read for enterprise AI leaders.</description>
-      <guid isPermaLink="false">2d174c6a5a24e1dc137b045c57150ba6</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>You’ll soon be able to shop Walmart from ChatGPT [ ! ]</title>
-      <link>https://techcrunch.com/2025/10/14/youll-soon-be-able-to-shop-walmart-from-chatgpt/</link>
-      <description>Walmart announced that customers will soon be able to search for and purchase items directly through ChatGPT, using a new integration powered by OpenAI. Our analysts saw this as a tectonic shift in the evolution of “AI-first shopping,” with vast implications for brands, marketplaces, and competition.</description>
-      <guid isPermaLink="false">9923e0a3bb1bf471730725d637a822c3</guid>
-      <pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Claude Haiku 4.5 [ ~ ]</title>
-      <link>https://www.anthropic.com/news/claude-haiku-4-5</link>
-      <description>Anthropic’s Haiku 4.5 targets cost‑efficient deployment in agent settings, matching performance of larger models for certain tasks. Our analysts considered this as a routine product announcement, thereby classifying it as optional.</description>
-      <guid isPermaLink="false">0724cfdad60d8ff7c59baeb70a184e81</guid>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Big Rethink: An agenda for thriving in the agentic age [ ~ ]</title>
-      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-big-rethink-an-agenda-for-thriving-in-the-agentic-age</link>
-      <description>McKinsey frames a high-level leadership agenda for adopting autonomous “agentic” systems. Our analysts judged it conceptually interesting but too abstract or thin to be actionable, placing it in the optional bucket.</description>
-      <guid isPermaLink="false">9e68a8732d10ba1136448e6bce222505</guid>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inside the AI-powered assistant helping doctors work faster and better at Seattle Children’s Hospital [ * ]</title>
-      <link>https://cloud.google.com/blog/topics/healthcare-life-sciences/child-care-how-ai-is-transforming-pediatric-medicine-at-seattle-childrens</link>
-      <description>In a major health system spanning 47 sites, Google Cloud’s “Pathway Assistant” is being applied to streamline clinician workflows (not decision-making), representing meaningful deployment of AI in healthcare. Our analysts acknowledged the potential impact while noting weaker quantification of business outcomes.</description>
-      <guid isPermaLink="false">2ee3ce4388eec6d0f942ba8f9d2a86b8</guid>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>eSentire scales elite cybersecurity expertise with Claude in Amazon Bedrock [ * ]</title>
-      <link>https://www.claude.com/customers/esentire</link>
-      <description>This case study shows how a security firm is embedding Claude agents into Bedrock to automate incident response, delivering orchestration across multiple agents and generating incremental revenue. Our analysts found the use case compelling in the critical domain of cybersecurity even though it lacks implementation details.</description>
-      <guid isPermaLink="false">051d1ca52c46be0431fd657700086ad5</guid>
-      <pubDate>Thu, 16 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 28 Oct 2025 16:17:18 +0000</lastBuildDate>
     <item>
       <title>Introducing Veo 3.1 and new creative capabilities in the Gemini API [ * ]</title>
       <link>https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/</link>
@@ -357,6 +315,48 @@
       <description>This article introduces OpenAI’s new “Company Knowledge” capability which allows enterprise users to securely access internal documents, tickets, emails and messages across platforms—a major step for AI‑driven enterprise knowledge work. Our analysts emphasized that because ChatGPT is already widely adopted, this move signals a paradigm shift for corporate information systems and makes this development essential for AI leaders.</description>
       <guid isPermaLink="false">26fcc642f9fb8d6d84496845c656208f</guid>
       <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MiniMax-M2 is the new king of open source LLMs [ ~ ]</title>
+      <link>https://venturebeat.com/ai/minimax-m2-is-the-new-king-of-open-source-llms-especially-for-agentic-tool</link>
+      <description>MiniMax-M2 is a new open-source large language model from China that delivers competitive performance and efficiency for agentic tool use, released under a permissive license. While our analysts acknowledged the impressive technical benchmarks and rapid progress in the Chinese open-source ecosystem, they emphasized the lack of real-world enterprise adoption and distribution hurdles, making this article optional for most AI leaders.</description>
+      <guid isPermaLink="false">38d9f39d73fc70c0695bcf35f4fad656</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agent Frameworks, Runtimes, and Harnesses‑oh my! [ ~ ]</title>
+      <link>https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/</link>
+      <description>This article from LangChain provides a taxonomy of agent frameworks, runtimes and harnesses for LLM‑based systems. Our analysts raised concerns that the classifications seem confusing and not operationally helpful yet — thus the optional rating.</description>
+      <guid isPermaLink="false">c418e2d2170cbcf19d9e44577e91f073</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A Survey of Vibe Coding with Large Language Models [ ~ ]</title>
+      <link>https://arxiv.org/abs/2510.12399</link>
+      <description>The research compendium analyzes thousands of examples of 'vibe coding' and proposes a hierarchy of five development models. Our analysts found value in legitimizing the concept and providing a well-researched taxonomy, but questioned its immediate practical relevance for many enterprise users.</description>
+      <guid isPermaLink="false">75ab9855ff7416b8621f481af8647238</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building the Open Agent Ecosystem Together: Introducing OpenEnv [ ~ ]</title>
+      <link>https://huggingface.co/blog/openenv</link>
+      <description>This post describes how Hugging Face and Meta are collaborating to create an open‑source environment framework ('OpenEnv') for agentic AI ecosystems. Our analysts discussed its relevance for the 'AI leader' background stack, but that for most enterprises it remains peripheral.</description>
+      <guid isPermaLink="false">f9c64de72516a9702a56598250115c3b</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing a Successful Agentic AI System [ ~ ]</title>
+      <link>https://hbr.org/2025/10/designing-a-successful-agentic-ai-system</link>
+      <description>The article discusses how to architect and govern agentic AI systems that combine autonomy, large language models, and human oversight in business environments. Our analysts noted that while the topic is important (agents are a rising theme), the article is a bit light on detailed data and actionable steps — hence the 'optional' rating.</description>
+      <guid isPermaLink="false">52ae203459bbe6731febc9d602be7527</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Advancing Claude for Financial Services [ * ]</title>
+      <link>https://www.anthropic.com/news/advancing-claude-for-financial-services</link>
+      <description>This article details how Anthropic equips Claude for the financial‑services sector with capabilities such as Excel integration, deal‑teaser workflows ('skills'), and data‑driven agentic workflows. Our analysts noted this shows a strong signal of AI automation entering enterprise workflows and the transition of large language models into purpose‑built vertical solutions.</description>
+      <guid isPermaLink="false">7edb80008756184aba1f65910621969d</guid>
+      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
