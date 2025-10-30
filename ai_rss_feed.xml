@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 30 Oct 2025 08:18:30 +0000</lastBuildDate>
-    <item>
-      <title>Microsoft launches ‘Hey Copilot’ voice assistant and autonomous agents for all Windows 11 PCs [ ! ]</title>
-      <link>https://venturebeat.com/ai/microsoft-launches-hey-copilot-voice-assistant-and-autonomous-agents-for-all</link>
-      <description>Microsoft is rolling out a sweeping transformation of Windows 11, embedding native voice ("Hey Copilot"), vision, and agentic features across all PCs—not just premium ones—effectively recasting the OS around AI. Our analysts emphasized that this could be a foundational shift in human‑computer interaction, enabling voice-driven workflows and agent autonomy at scale.</description>
-      <guid isPermaLink="false">38cd97a2f2608c4784db64dcb7c8baae</guid>
-      <pubDate>Fri, 17 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>We propose and test the... [ ~ ]</title>
-      <link>https://www.arxiv.org/abs/2510.13928#:~:text=We%20propose%20and%20test%20the,large%20language%20models%20(LLMs).</link>
-      <description>This research article investigates degradation of large language models over time—“brain rot”—and raises important AI ethics and AI‑security questions around continual pre‑training and model drift. However, our analysts deemed it too speculative and early‑stage for immediate strategic action by most AI leaders.</description>
-      <guid isPermaLink="false">e15d72b84c20c120700084bb4f837085</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agents 2.0: Deep Agents [ ~ ]</title>
-      <link>https://www.philschmid.de/agents-2.0-deep-agents</link>
-      <description>The piece offers a primer on agent architectures from simple agents to multi-agent with orchestrators and memory, - reflecting evolving discussion around AI agents and LLM orchestration. Our analysts appreciated the clear explanation but felt the term “deep agents” is still loosely defined and overlaps with existing “multi‑agent” concepts—making it confusing for readers and thus optional.</description>
-      <guid isPermaLink="false">26a12fd9b5e96164f3f39ea8762c57d0</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SWE grep [ ~ ]</title>
-      <link>https://cognition.ai/blog/swe-grep</link>
-      <description>This article introduces a retrieval‑optimization system for code/context using reinforcement learning which touches on AI automation and inference value engineering. Our analysts regarded it as interesting for coders but not yet broadly actionable for enterprise‑wide generative AI adoption.</description>
-      <guid isPermaLink="false">35ff67f83b24d778b1699894a29b44b0</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Coral NPU: A full-stack platform for edge AI [ * ]</title>
-      <link>https://research.google/blog/coral-npu-a-full-stack-platform-for-edge-ai/</link>
-      <description>Google’s Coral NPU project presents an open‑source, RISC‑V‑based hardware/software stack for ultra‑low‑power, always‑on AI at the edge (wearables/IoT) with an aim for generative‑AI on device. Our analysts noted it is forward‑looking and more of a product announcement than tactical guidance for AI leaders focused on foundational generative AI strategy.</description>
-      <guid isPermaLink="false">52beda71a695642dce30914c539d95c0</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Moloco is powering the future of retail media with AI vector search [ * ]</title>
-      <link>https://cloud.google.com/blog/topics/partners/how-moloco-is-powering-the-future-of-retail-media-with-ai-vector-search</link>
-      <description>This article details how Moloco built an AI‑native retail‑media platform using vector search using Vertex AI Vector Search on Google Cloud, enabling semantic user/purchase matching and real‑time ad personalization at scale. Our analysts flagged this as significant because it demonstrates how mid‑sized retailers can leverage AI‑driven content creation and vector search to compete in retail media networks—marking movement into AI automation beyond just experimentation.</description>
-      <guid isPermaLink="false">6bea2296e399579f8a94e83f488e9e4b</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 30 Oct 2025 16:16:06 +0000</lastBuildDate>
     <item>
       <title>How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock [ * ]</title>
       <link>https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/</link>
@@ -357,6 +315,48 @@
       <description>The Wharton School’s 2025 AI Adoption Report outlines how enterprises have progressed from experimentation to measurable deployment of generative AI, with strong ROI and executive accountability now becoming the norm. Our analysts unanimously agreed it’s data-rich, deeply strategic, and crucial for AI leaders seeking benchmarks for organizational AI maturity and implementation.</description>
       <guid isPermaLink="false">b70c34c1649e74873e082c7e794564b2</guid>
       <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Blueprint: How Giles AI transforms medical research with conversational AI [ ~ ]</title>
+      <link>https://cloud.google.com/blog/products/ai-machine-learning/the-blueprint-giles-ai-transforming-medical-research-conversational-generative-ai</link>
+      <description>The case study from Google explores generative-AI and conversational AI applied to medical research (AI in healthcare vertical) and shows early productivity gains. However, as our analysts pointed out, the business/ROI impact is still unclear, so it remains optional.</description>
+      <guid isPermaLink="false">0e936f6a1e779495fba71f9ae0be0395</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Cursor 2.0 and Composer [ ~ ]</title>
+      <link>https://cursor.com/blog/2-0?s=09</link>
+      <description>Cursor 2.0 introduces faster execution speeds and a streamlined coding experience through its new Composer feature, aimed at enhancing productivity in AI-assisted software development. While Cursor was an early leader in this space, it now faces growing competition from Claude and OpenAI’s Codex, which are beginning to take the lead.</description>
+      <guid isPermaLink="false">0053496166dc8e065a9b4e5a7ebb6fbe</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Emergent Introspective Awareness in Large Language Models [ ~ ]</title>
+      <link>https://transformer-circuits.pub/2025/introspection/index.html</link>
+      <description>The article reports on new research about large language models’ ability to introspect/manipulate internal activations; it offers deep technical insight into AI and LLMs. However, our analysts agreed that the practical significance right now is limited, so it remains optional for AI leaders.</description>
+      <guid isPermaLink="false">3d5f8db90e3f018d8cb46c8192e3c195</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PayPal signs deal with OpenAI to become the first payments wallet in ChatGPT [ ~ ]</title>
+      <link>https://www.cnbc.com/2025/10/28/paypal-openai-chatgpt-payments-deal.html</link>
+      <description>This partnership between PayPal and OpenAI signals further commercial monetization of ChatGPT via embedded payments. However, analysts viewed it as an extension of OpenAI’s already-announced commerce positioning, with more payment options expected to follow—making it an incremental update rather than a transformative shift at this stage.</description>
+      <guid isPermaLink="false">90c3fa499c5c77c702b35f240ad77f1d</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Amplitude AI Visibility: The New Way to Monitor What AI Says About You [ * ]</title>
+      <link>https://www.amplitude.com/blog/ai-visibility-launch?s=09</link>
+      <description>Amplitude’s new AI Visibility platform stands out by not only tracking how brands appear across AI-driven search and generative assistants but also by translating these analytics into measurable business statistics and actionable insights. Our analysts noted that its ability to help companies act on what AI systems say—closing the loop between brand perception, performance data, and reputation management—pushes it beyond typical monitoring tools, making it an Important development for AI leaders to follow.</description>
+      <guid isPermaLink="false">bab6c4209fe7be6e78634a5786fb8164</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI completes for-profit restructuring and grants Microsoft a 27% stake in the company [ ! ]</title>
+      <link>https://fortune.com/2025/10/28/openai-for-profit-restructuring-microsoft-stake/</link>
+      <description>OpenAI’s shift to a for-profit (public benefit) structure and the deal with Microsoft (27% stake) mark a major inflection in how AI commercialization and large-language-model development will be governed and funded. Our analysts noted that this move has “profound implications on how your company’s thinking about sourcing intelligence … for the next three or four years,” which makes it essential for AI leaders to be aware of.</description>
+      <guid isPermaLink="false">1c1d198d25d3386793786424fbc76397</guid>
+      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
