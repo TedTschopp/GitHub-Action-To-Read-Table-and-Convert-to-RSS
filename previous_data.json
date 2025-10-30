@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Accountable Acceleration: Gen AI Fast‑Tracks Into the Enterprise",
+        "links": [
+          "https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/"
+        ]
+      },
+      "Rationale": {
+        "text": "The Wharton School’s 2025 AI Adoption Report outlines how enterprises have progressed from experimentation to measurable deployment of generative AI, with strong ROI and executive accountability now becoming the norm. Our analysts unanimously agreed it’s data-rich, deeply strategic, and crucial for AI leaders seeking benchmarks for organizational AI maturity and implementation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI’s Less-Flashy Rival Might Have a Better Business Model",
+        "links": [
+          "https://archive.md/qVZ31"
+        ]
+      },
+      "Rationale": {
+        "text": "This article contrasts OpenAI’s broad, consumer-focused strategy with Anthropic’s targeted push into enterprise via Claude, which now rivals or exceeds OpenAI in some B2B segments. Our analysts emphasized the strategic relevance of Anthropic’s growing market share, Microsoft partnership, and domain-specific offerings in life sciences and finance.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "What Should Retailers Do About AI Shoppers?",
+        "links": [
+          "https://hbr.org/2025/10/what-should-retailers-do-about-ai-shoppers"
+        ]
+      },
+      "Rationale": {
+        "text": "As AI agents increasingly act as autonomous shoppers, this HBR article urges retailers to respond with strategic redesigns—either by blocking bots, partnering with vendors, or creating AI-friendly interfaces. Our analysts highlighted the emerging AI-to-AI commerce paradigm as a fundamental shift in the digital sales funnel, making this critical for understanding the next phase of AI in retail.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "The Future of the Web Is the History of YouTube",
+        "links": [
+          "https://a16z.substack.com/p/the-future-of-the-web-is-the-history"
+        ]
+      },
+      "Rationale": {
+        "text": "a16z draws parallels between YouTube's content democratization and the rise of generative AI in low-code software development—forecasting an explosion in app creation by non-engineers. Our analysts praised this as a powerful framing for how AI-driven content creation will change internal innovation and product strategy for AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Your AI Agent Is Now a Target for Email Phishing – New Tools Can Help Thwart the Attacks",
+        "links": [
+          "https://spectrum.ieee.org/ai-agent-phishing"
+        ]
+      },
+      "Rationale": {
+        "text": "This article highlights a serious cybersecurity threat: attackers are embedding hidden prompts in emails that AI assistants—like co-pilots and customer service bots—can mistakenly act on, bypassing human oversight. Our analysts emphasized that while the attack vector (email phishing) is familiar, targeting AI agents introduces a novel and urgent risk that AI leaders must begin addressing now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/29/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Doppel’s AI Defense System Stops Attacks Before They Spread",
+        "links": [
+          "https://openai.com/index/doppel/"
+        ]
+      },
+      "Rationale": {
+        "text": "This is an OpenAI use case highlighting Doppel that scans the web to identify AI-generated phishing threats using its proprietary defense system, aiming to preempt attacks before they spread. While relevant as an AI cybersecurity case study, our analysts viewed it as vendor-specific and added little new insight beyond confirming existing trends in AI threat detection.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/28/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Microsoft is rolling out a sweeping transformation of Windows 11, embedding native voice (\"Hey Copilot\"), vision, and agentic features across all PCs—not just premium ones—effectively recasting the OS around AI. Our analysts emphasized that this could be a foundational shift in human‑computer interaction, enabling voice-driven workflows and agent autonomy at scale.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Claude Skills",
-        "links": [
-          "https://www.anthropic.com/news/skills"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s “Skills” lets organizations build modular, reusable instruction bundles for Claude, enabling domain‑specific behavior (e.g. Excel, PowerPoint automation) and closer alignment with workflows. Our analysts noted that this direction parallels what OpenAI is doing with AgentKit, and could become a central mechanism for tailoring LLM behavior within enterprises.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How a Gemma model helped discover a new potential cancer therapy pathway",
-        "links": [
-          "https://blog.google/technology/ai/google-gemma-ai-cancer-therapy-discovery/"
-        ]
-      },
-      "Rationale": {
-        "text": "A 27B‑parameter Gemma model was trained on cellular interaction and cancer and immune response data and asked to predict novel drug combinations for cancer treatment. The model suggested a novel combination of drugs that was validated in the lab and can become a promising cancer therapy path. Our team flagged this as a powerful demonstration of generative AI in scientific discovery, especially for life sciences domains, though less immediately actionable for many enterprise AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "RTFM: A Real‑Time Frame Model",
-        "links": [
-          "https://www.worldlabs.ai/blog/rtfm?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "RTFM is a new real‑time generative world model capable of rendering 3D environments on the fly with persistence using efficient compute, intended for robotics, simulation, and video/3D interaction tasks. Our analysts viewed it as a meaningful advancement in world modeling, especially given its efficiency and persistence features, though somewhat early for broad adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/17/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Art of Scaling Reinforcement Learning Compute for LLMs",
-        "links": [
-          "https://arxiv.org/abs/2510.13786"
-        ]
-      },
-      "Rationale": {
-        "text": "This research dives into power laws and cost models for reinforcement learning applied to large language models, offering predictive frameworks for compute efficiency. Our team agreed it’s technically rich and useful for engineering teams pushing frontier models, but less immediately applicable for most business AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Generative AI and Firm Productivity: Field Experiments in Online Retail",
-        "links": [
-          "https://arxiv.org/abs/2510.12049"
-        ]
-      },
-      "Rationale": {
-        "text": "This paper provides rare causal, real‑world evidence that generative AI can boost firm productivity—reporting sales lifts of up to 16.3 % and an implied ~$5 incremental value per consumer. Our analysts flagged it as “absolutely essential,” noting it avoids hand‑wavy claims and instead delivers rigorous, quantitative insight.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/16/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Veo 3.1 and new creative capabilities in the Gemini API",
-        "links": [
-          "https://developers.googleblog.com/en/introducing-veo-3-1-and-new-creative-capabilities-in-the-gemini-api/"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s Veo 3.1 brings significant enhancements in AI video generation—adding improved prompt adherence, audio integration, object insertion/removal, and better editing controls. Our analysts agreed that this gives marketers and creatives precise control over visual style, pacing, and continuity using just a few reference images and shows how images and video can be used to elevate campaigns and engage audiences at scale.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-29T08:23:11.778190+00:00"
+  "timestamp": "2025-10-30T01:00:50.586270+00:00"
 }
