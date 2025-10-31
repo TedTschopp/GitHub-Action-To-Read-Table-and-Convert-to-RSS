@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Oct 2025 08:16:19 +0000</lastBuildDate>
-    <item>
-      <title>How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock [ * ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/</link>
-      <description>This article showcases a generative AI solution built on Bedrock that turns legacy CRM and meeting‑note archives into real‑time insights via RAG, text‑to‑SQL and large‑language‑model workflows. Our analysts emphasized that while not necessarily industry‑shifting, it is a strong enterprise use‑case of AI in finance/CRM that illustrates how AI‑driven content creation and large language models are being applied for business value.</description>
-      <guid isPermaLink="false">094e8dfda62c7d11b5df9c5c92536df2</guid>
-      <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Can Create More Time for Leadership [ ~ ]</title>
-      <link>https://hbr.org/2025/10/how-gen-ai-can-create-more-time-for-leadership?ab=HP-hero-featured-1</link>
-      <description>This HBR article argues that generative AI can offload administrative tasks to free up executive time for leadership and coaching. Our analysts found the claims vague and unsubstantiated, describing the piece as overly reliant on soft reasoning with minimal actionable insight for AI leaders.</description>
-      <guid isPermaLink="false">db8384c1c38bd05192f9f349f0ad749a</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Plex Coffee delivers fast service and personal connections with ChatGPT Business [ ~ ]</title>
-      <link>https://openai.com/index/plex-coffee/</link>
-      <description>Plex Coffee used ChatGPT Business to scale its customer interaction model and internal knowledge sharing, claiming improvements in onboarding and operations. However, our analysts regarded it a light case study — lacking metrics, depth, or technical insight — and noted its limited relevance beyond being a generic AI adoption story.</description>
-      <guid isPermaLink="false">8d73646400ac574a4175b6a86f26839a</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic brings Claude Code to the web [ ~ ]</title>
-      <link>https://techcrunch.com/2025/10/20/anthropic-brings-claude-code-to-the-web/</link>
-      <description>Anthropic’s web-based Claude Code brings a more accessible interface to its AI-assisted coding tool, shifting it from the command line to chat-based UX. Our analysts saw this as a standard product iteration and catch-up move, with limited strategic impact beyond Anthropic’s developer user base.</description>
-      <guid isPermaLink="false">8e489812980c94164b5f07cdd69c3522</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>DeepSeek‑OCR: Contexts Optical Compression [ ~ ]</title>
-      <link>https://github.com/deepseek-ai/DeepSeek-OCR</link>
-      <description>DeepSeek’s OCR approach compresses full-document scans into vision tokens, enabling more efficient context processing for large language models by leveraging computer vision. While the compression technique shows promise for extending LLM context windows, our analysts agreed it’s an early-stage innovation not yet deployable at enterprise scale.</description>
-      <guid isPermaLink="false">31dc4d085f9d58e9352eaa8192d873ec</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Developers can now add live Google Maps data to Gemini‑powered AI app outputs [ ! ]</title>
-      <link>https://venturebeat.com/ai/developers-can-now-add-live-google-maps-data-to-gemini-powered-ai-app</link>
-      <description>Google has integrated real-time geospatial data from Google Maps into Gemini AI apps, allowing developers to enrich AI-powered applications with accurate, location-based intelligence. Our analysts noted this as a major differentiator and strategic move for grounding generative AI in the physical world — especially important for reducing hallucinations and improving user experience in AI-driven applications requiring accurate location data.</description>
-      <guid isPermaLink="false">54b623a5afbde96356d461ec02956708</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 31 Oct 2025 16:14:44 +0000</lastBuildDate>
     <item>
       <title>An Opinionated Guide to Using AI Right Now [ ! ]</title>
       <link>https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai</link>
@@ -357,6 +315,48 @@
       <description>OpenAI’s shift to a for-profit (public benefit) structure and the deal with Microsoft (27% stake) mark a major inflection in how AI commercialization and large-language-model development will be governed and funded. Our analysts noted that this move has “profound implications on how your company’s thinking about sourcing intelligence … for the next three or four years,” which makes it essential for AI leaders to be aware of.</description>
       <guid isPermaLink="false">1c1d198d25d3386793786424fbc76397</guid>
       <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Remote Labor Index: Measuring AI Automation of Remote Work [ ~ ]</title>
+      <link>https://www.remotelabor.ai/paper.pdf</link>
+      <description>This report gauges how many remote‑work tasks can be fully automated by AI today—finding very low percentages (e.g., ~3 %) despite hype around AI job replacement. Our analysts argued that the framing is artificial and that true value lies in human‑AI symbiosis rather than direct automation, making this reading more for context than action.</description>
+      <guid isPermaLink="false">2f3ec30bd86213009ba28ff5eb5b2f30</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>IBM’s Open Source Granite 4.0 Nano AI Models Are Small Enough to Run Locally Directly in Your Browser [ ~ ]</title>
+      <link>https://venturebeat.com/ai/ibms-open-source-granite-4-0-nano-ai-models-are-small-enough-to-run-locally</link>
+      <description>This announcement from IBM introduces ultra‑small open‑source models capable of running in browsers or on local devices, championing decentralised and privacy‑preserving AI inference. While interesting, our analysts noted this segment is crowded and has not yet seen solid use cases, making it less immediate for strategic AI investments.</description>
+      <guid isPermaLink="false">ffcd58e13a6e176b3f3f6ea5a38b6710</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thermodynamic Computing: From Zero to One [ ~ ]</title>
+      <link>https://extropic.ai/writing/thermodynamic-computing-from-zero-to-one</link>
+      <description>Extropic AI presents a paradigm shift: a thermodynamic sampling unit (TSU) hardware architecture that bypasses traditional matrix‑multiplication heavy AI inference in favour of probabilistic sampling, promising orders‑of‑magnitude energy efficiency. Our analysts rated this as early‑stage research—exciting for innovation but not yet ready for mainstream AI strategy.</description>
+      <guid isPermaLink="false">23402f4e16717a2dd2c33aa5375c6c2f</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing SWE‑1.5: Our Fast Agent Model [ * ]</title>
+      <link>https://cognition.ai/blog/swe-1-5</link>
+      <description>The agent‑optimized model from Cognition AI is a purpose‑built large‑language model for software‑engineering tasks — with sub‑agents, parallel code execution, and performance boosts of 4.5×–13× versus previous systems. Our team discussion underscored how such “agentic” models are rapidly impacting code productivity and therefore merit close attention from AI‑leaders.</description>
+      <guid isPermaLink="false">2a874e689bc21a496a11ffb41286a949</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Steuerrecht.com Delivers Faster, Client‑Ready Legal Analysis with ChatGPT Business [ * ]</title>
+      <link>https://openai.com/index/steuerrecht/</link>
+      <description>This case study shows how a small German law‑firm used ChatGPT Business to transform their legal workflow—reducing hours of client‑work, leveraging GenAI for research and drafting, and maintaining GDPR‑compliance. Our analysts emphasized that AI automation not only saved hours per week but also enabled the firm to handle more clients and scale revenue, providing a concrete example of AI-driven business growth in a service sector providing actionable insights for enterprise AI adoption.</description>
+      <guid isPermaLink="false">6ece0c080232fcd57d0b982d50565f27</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When Brands Meet AI Bots: Customer Experience in the Era of Agents [ * ]</title>
+      <link>https://www.bcg.com/ja-jp/publications/2025/when-brands-meet-ai-bots-cx-in-the-era-of-agents</link>
+      <description>This article outlines how brands must rethink customer‑experience strategies as users increasingly engage through third‑party AI agents and virtual bots. Our analysts highlighted how brands like L’Oréal (via their “Beauty Genius” assistant) are proactively building their own agents and optimizing for “answer‑engine optimization” as these AI bots become entry‑points to consumers — making this important reading for AI business leaders.</description>
+      <guid isPermaLink="false">73b861961de27e410f929c32cc308cb6</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

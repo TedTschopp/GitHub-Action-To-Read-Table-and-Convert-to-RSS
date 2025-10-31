@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "10/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "When Brands Meet AI Bots: Customer Experience in the Era of Agents",
+        "links": [
+          "https://www.bcg.com/ja-jp/publications/2025/when-brands-meet-ai-bots-cx-in-the-era-of-agents"
+        ]
+      },
+      "Rationale": {
+        "text": "This article outlines how brands must rethink customer‑experience strategies as users increasingly engage through third‑party AI agents and virtual bots. Our analysts highlighted how brands like L’Oréal (via their “Beauty Genius” assistant) are proactively building their own agents and optimizing for “answer‑engine optimization” as these AI bots become entry‑points to consumers — making this important reading for AI business leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Steuerrecht.com Delivers Faster, Client‑Ready Legal Analysis with ChatGPT Business",
+        "links": [
+          "https://openai.com/index/steuerrecht/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study shows how a small German law‑firm used ChatGPT Business to transform their legal workflow—reducing hours of client‑work, leveraging GenAI for research and drafting, and maintaining GDPR‑compliance. Our analysts emphasized that AI automation not only saved hours per week but also enabled the firm to handle more clients and scale revenue, providing a concrete example of AI-driven business growth in a service sector providing actionable insights for enterprise AI adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing SWE‑1.5: Our Fast Agent Model",
+        "links": [
+          "https://cognition.ai/blog/swe-1-5"
+        ]
+      },
+      "Rationale": {
+        "text": "The agent‑optimized model from Cognition AI is a purpose‑built large‑language model for software‑engineering tasks — with sub‑agents, parallel code execution, and performance boosts of 4.5×–13× versus previous systems. Our team discussion underscored how such “agentic” models are rapidly impacting code productivity and therefore merit close attention from AI‑leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Thermodynamic Computing: From Zero to One",
+        "links": [
+          "https://extropic.ai/writing/thermodynamic-computing-from-zero-to-one"
+        ]
+      },
+      "Rationale": {
+        "text": "Extropic AI presents a paradigm shift: a thermodynamic sampling unit (TSU) hardware architecture that bypasses traditional matrix‑multiplication heavy AI inference in favour of probabilistic sampling, promising orders‑of‑magnitude energy efficiency. Our analysts rated this as early‑stage research—exciting for innovation but not yet ready for mainstream AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "IBM’s Open Source Granite 4.0 Nano AI Models Are Small Enough to Run Locally Directly in Your Browser",
+        "links": [
+          "https://venturebeat.com/ai/ibms-open-source-granite-4-0-nano-ai-models-are-small-enough-to-run-locally"
+        ]
+      },
+      "Rationale": {
+        "text": "This announcement from IBM introduces ultra‑small open‑source models capable of running in browsers or on local devices, championing decentralised and privacy‑preserving AI inference. While interesting, our analysts noted this segment is crowded and has not yet seen solid use cases, making it less immediate for strategic AI investments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "10/31/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Remote Labor Index: Measuring AI Automation of Remote Work",
+        "links": [
+          "https://www.remotelabor.ai/paper.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "This report gauges how many remote‑work tasks can be fully automated by AI today—finding very low percentages (e.g., ~3 %) despite hype around AI job replacement. Our analysts argued that the framing is artificial and that true value lies in human‑AI symbiosis rather than direct automation, making this reading more for context than action.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/30/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "Ethan Mollick’s practical guide offers a grounded roadmap for AI use, emphasizing how to choose and use top large language models effectively in real-world workflows, beyond the hype. Our analysts highlighted it as a highly accessible resource that directly answers common questions AI leaders receive, making it a foundational AI literacy piece especially valuable amid rapid tool evolution.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Developers can now add live Google Maps data to Gemini‑powered AI app outputs",
-        "links": [
-          "https://venturebeat.com/ai/developers-can-now-add-live-google-maps-data-to-gemini-powered-ai-app"
-        ]
-      },
-      "Rationale": {
-        "text": "Google has integrated real-time geospatial data from Google Maps into Gemini AI apps, allowing developers to enrich AI-powered applications with accurate, location-based intelligence. Our analysts noted this as a major differentiator and strategic move for grounding generative AI in the physical world — especially important for reducing hallucinations and improving user experience in AI-driven applications requiring accurate location data.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "DeepSeek‑OCR: Contexts Optical Compression",
-        "links": [
-          "https://github.com/deepseek-ai/DeepSeek-OCR"
-        ]
-      },
-      "Rationale": {
-        "text": "DeepSeek’s OCR approach compresses full-document scans into vision tokens, enabling more efficient context processing for large language models by leveraging computer vision. While the compression technique shows promise for extending LLM context windows, our analysts agreed it’s an early-stage innovation not yet deployable at enterprise scale.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Anthropic brings Claude Code to the web",
-        "links": [
-          "https://techcrunch.com/2025/10/20/anthropic-brings-claude-code-to-the-web/"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic’s web-based Claude Code brings a more accessible interface to its AI-assisted coding tool, shifting it from the command line to chat-based UX. Our analysts saw this as a standard product iteration and catch-up move, with limited strategic impact beyond Anthropic’s developer user base.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Plex Coffee delivers fast service and personal connections with ChatGPT Business",
-        "links": [
-          "https://openai.com/index/plex-coffee/"
-        ]
-      },
-      "Rationale": {
-        "text": "Plex Coffee used ChatGPT Business to scale its customer interaction model and internal knowledge sharing, claiming improvements in onboarding and operations. However, our analysts regarded it a light case study — lacking metrics, depth, or technical insight — and noted its limited relevance beyond being a generic AI adoption story.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Can Create More Time for Leadership",
-        "links": [
-          "https://hbr.org/2025/10/how-gen-ai-can-create-more-time-for-leadership?ab=HP-hero-featured-1"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR article argues that generative AI can offload administrative tasks to free up executive time for leadership and coaching. Our analysts found the claims vague and unsubstantiated, describing the piece as overly reliant on soft reasoning with minimal actionable insight for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/20/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "How TP ICAP transformed CRM data into real-time insights with Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/how-tp-icap-transformed-crm-data-into-real-time-insights-with-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article showcases a generative AI solution built on Bedrock that turns legacy CRM and meeting‑note archives into real‑time insights via RAG, text‑to‑SQL and large‑language‑model workflows. Our analysts emphasized that while not necessarily industry‑shifting, it is a strong enterprise use‑case of AI in finance/CRM that illustrates how AI‑driven content creation and large language models are being applied for business value.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-10-31T08:17:32.331677+00:00"
+  "timestamp": "2025-10-31T16:16:08.301573+00:00"
 }
