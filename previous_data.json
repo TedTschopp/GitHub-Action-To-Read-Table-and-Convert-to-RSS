@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI researchers ’embodied’ an LLM into a robot – and it started channeling Robin Williams",
+        "links": [
+          "https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/"
+        ]
+      },
+      "Rationale": {
+        "text": "In a playful experiment by Andon Labs, a vacuum robot was equipped with a large language model and tasked with mundane prompts (like “pass the butter”), revealing comical behavior and existential crisis logs. Our analysts appreciated the entertainment value but concluded the takeaway for AI practitioners is limited, so it sits in the “optional” bucket but it is a fun read.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Large Language Models Get All the Hype, but Small Models Do the Real Work",
+        "links": [
+          "https://archive.is/B1sEt#selection-559.0-559.73"
+        ]
+      },
+      "Rationale": {
+        "text": "The article argues that despite the spotlight on big LLMs, many companies are actually relying on smaller models to drive operational workflows and agentic systems. Our analysts noted the topic is meaningful for AI leaders, but critiqued the piece for lacking clear definitions and concrete examples of small language models, making it less actionable.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Aardvark: OpenAI’s agentic security researcher",
+        "links": [
+          "https://openai.com/index/introducing-aardvark/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI’s new agent “Aardvark” applies generative AI to autonomously scan, detect and help fix software vulnerabilities—bringing AI into cybersecurity automation. While the use case is compelling and highlights AI in security, our analysts felt the announcement so far is more packaging of existing tools than a fully proven platform, so its broader relevance remains tentative.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Say Goodbye to AI Image Hallucinations, Thanks to Canva’s New Design Model",
+        "links": [
+          "https://www.cnet.com/tech/services-and-software/say-goodbye-to-ai-image-hallucinations-thanks-to-canvas-new-design-model/"
+        ]
+      },
+      "Rationale": {
+        "text": "Canva’s new foundational “design model” introduces editable layers and design‑format awareness—aiming to reduce image hallucinations and improve usability for creators. Our analysts saw this as a nice product update (AI in design workflows) but relatively incremental and narrow in scope for enterprise AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Clario streamlines clinical trial software configurations using Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/clario-streamlines-clinical-trial-software-configurations-using-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "Clario leveraged Amazon Bedrock to automate extraction of trial configuration data, document generation, and XML build workflows in the regulated clinical trial domain—showcasing AI in life sciences and compliance. Our analysts found the case study useful for the unstructured‑data + AI pipeline narrative but felt the lack of quantifiable outcomes held it back from being rated higher.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/03/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Chronograph scales operations and accelerates decision‑making with Claude",
+        "links": [
+          "https://www.claude.com/customers/chronograph"
+        ]
+      },
+      "Rationale": {
+        "text": "Chronograph uses Claude Enterprise to power portfolio and investment analytics via Model Context Protocol (MCP) connectors—demonstrating AI’s role in finance and private‑capital orchestration. Our analysts noted this is a compelling financial‑services use case, but since it’s one company’s story without broad metrics and implementation details, it remains optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "10/31/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This research-backed report from Menlo Ventures explores the rapid acceleration of generative AI adoption across payers, providers, and biopharma sectors—traditionally slow-moving adopters of new technology. Our analysts viewed the data as highly valuable for AI leaders, noting that if AI can drive productivity in healthcare, it signals strong potential across other regulated, high-friction industries.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing the new AI‑first vibe coding experience in @GoogleAIStudio",
-        "links": [
-          "https://x.com/OfficialLoganK/status/1980674135693971550"
-        ]
-      },
-      "Rationale": {
-        "text": "Google’s new AI-first 'vibe coding' interface inside AI Studio promises a more intuitive and collaborative coding experience, built around Gemini and Notebook-style workflows. However, our analysts considered this an incremental update that offers limited differentiation compared to existing tools like GitHub Copilot or Replit, and therefore not essential to forward-thinking AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Krea Realtime 14B: Real‑Time, Long‑Form AI Video Generation",
-        "links": [
-          "https://www.krea.ai/blog/krea-realtime-14b"
-        ]
-      },
-      "Rationale": {
-        "text": "Krea’s Realtime 14B is a 14B-parameter autoregressive model capable of producing long-form AI-generated video with high temporal consistency using self-forcing techniques. Our analysts were impressed by the innovation but emphasized its niche use case and lack of clear enterprise applicability, calling it 'an innovation frontier story' with implications for AI in media, but not broadly actionable yet.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Why Agentic AI Projects Fail—and How to Set Yours Up for Success",
-        "links": [
-          "https://hbr.org/2025/10/why-agentic-ai-projects-fail-and-how-to-set-yours-up-for-success"
-        ]
-      },
-      "Rationale": {
-        "text": "This HBR article discusses common reasons agentic AI projects underperform and offers general strategic advice on where and how to deploy agents. Our analysts criticized it as 'thought slop' filled with platitudes and lacking in real-world deployment insights, such as API integration, security architecture, or maintenance—elements critical to enterprise-scale AI success.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Breaking new ground: How Balfour Beatty is using Copilot to drive productivity at scale",
-        "links": [
-          "https://ukstories.microsoft.com/features/how-balfour-beatty-is-using-copilot-to-drive-productivity-at-scale/"
-        ]
-      },
-      "Rationale": {
-        "text": "Balfour Beatty’s adoption of Microsoft 365 Copilot across 27,000 employees has reportedly improved productivity, communication, and user confidence—especially among neurodiverse workers—according to internal surveys. While the rollout shows meaningful use of AI automation in construction, our analysts noted the case study lacked implementation depth and outcomes beyond self-reported sentiment, making it less relevant for AI leaders seeking replicable enterprise strategies.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Claude for Life Sciences",
-        "links": [
-          "https://www.anthropic.com/news/claude-for-life-sciences"
-        ]
-      },
-      "Rationale": {
-        "text": "Anthropic targets the life sciences sector by integrating domain-specific data and workflows into a powerful generative AI platform tailored to researchers and pharma teams. Our analysts emphasized that this verticalization trend — turning general-purpose frontier models into specialized industry AI tools — is a critical strategic signal for enterprise AI leaders across all industries.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/21/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "An Opinionated Guide to Using AI Right Now",
-        "links": [
-          "https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "Ethan Mollick’s practical guide offers a grounded roadmap for AI use, emphasizing how to choose and use top large language models effectively in real-world workflows, beyond the hype. Our analysts highlighted it as a highly accessible resource that directly answers common questions AI leaders receive, making it a foundational AI literacy piece especially valuable amid rapid tool evolution.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-03T08:19:39.635389+00:00"
+  "timestamp": "2025-11-03T16:16:13.264265+00:00"
 }

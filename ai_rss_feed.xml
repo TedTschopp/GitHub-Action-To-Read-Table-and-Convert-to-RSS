@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 03 Nov 2025 08:18:26 +0000</lastBuildDate>
-    <item>
-      <title>An Opinionated Guide to Using AI Right Now [ ! ]</title>
-      <link>https://www.oneusefulthing.org/p/an-opinionated-guide-to-using-ai</link>
-      <description>Ethan Mollick’s practical guide offers a grounded roadmap for AI use, emphasizing how to choose and use top large language models effectively in real-world workflows, beyond the hype. Our analysts highlighted it as a highly accessible resource that directly answers common questions AI leaders receive, making it a foundational AI literacy piece especially valuable amid rapid tool evolution.</description>
-      <guid isPermaLink="false">3bbc2073f70ce0a58be02e9db5db1e20</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Claude for Life Sciences [ ! ]</title>
-      <link>https://www.anthropic.com/news/claude-for-life-sciences</link>
-      <description>Anthropic targets the life sciences sector by integrating domain-specific data and workflows into a powerful generative AI platform tailored to researchers and pharma teams. Our analysts emphasized that this verticalization trend — turning general-purpose frontier models into specialized industry AI tools — is a critical strategic signal for enterprise AI leaders across all industries.</description>
-      <guid isPermaLink="false">a4918c60a0932d956b95ceeddbc4c86c</guid>
-      <pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Breaking new ground: How Balfour Beatty is using Copilot to drive productivity at scale [ ~ ]</title>
-      <link>https://ukstories.microsoft.com/features/how-balfour-beatty-is-using-copilot-to-drive-productivity-at-scale/</link>
-      <description>Balfour Beatty’s adoption of Microsoft 365 Copilot across 27,000 employees has reportedly improved productivity, communication, and user confidence—especially among neurodiverse workers—according to internal surveys. While the rollout shows meaningful use of AI automation in construction, our analysts noted the case study lacked implementation depth and outcomes beyond self-reported sentiment, making it less relevant for AI leaders seeking replicable enterprise strategies.</description>
-      <guid isPermaLink="false">642f4669bae4b1bba3912430df03c492</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why Agentic AI Projects Fail—and How to Set Yours Up for Success [ ~ ]</title>
-      <link>https://hbr.org/2025/10/why-agentic-ai-projects-fail-and-how-to-set-yours-up-for-success</link>
-      <description>This HBR article discusses common reasons agentic AI projects underperform and offers general strategic advice on where and how to deploy agents. Our analysts criticized it as 'thought slop' filled with platitudes and lacking in real-world deployment insights, such as API integration, security architecture, or maintenance—elements critical to enterprise-scale AI success.</description>
-      <guid isPermaLink="false">a175b545bf673b2c73fd464ccecd29d0</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Krea Realtime 14B: Real‑Time, Long‑Form AI Video Generation [ ~ ]</title>
-      <link>https://www.krea.ai/blog/krea-realtime-14b</link>
-      <description>Krea’s Realtime 14B is a 14B-parameter autoregressive model capable of producing long-form AI-generated video with high temporal consistency using self-forcing techniques. Our analysts were impressed by the innovation but emphasized its niche use case and lack of clear enterprise applicability, calling it 'an innovation frontier story' with implications for AI in media, but not broadly actionable yet.</description>
-      <guid isPermaLink="false">73e26da3a2893d217eae6c3dbeaf8d94</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing the new AI‑first vibe coding experience in @GoogleAIStudio [ ~ ]</title>
-      <link>https://x.com/OfficialLoganK/status/1980674135693971550</link>
-      <description>Google’s new AI-first 'vibe coding' interface inside AI Studio promises a more intuitive and collaborative coding experience, built around Gemini and Notebook-style workflows. However, our analysts considered this an incremental update that offers limited differentiation compared to existing tools like GitHub Copilot or Replit, and therefore not essential to forward-thinking AI leaders.</description>
-      <guid isPermaLink="false">c72f8742c65a63ca4699d3187e39a434</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 03 Nov 2025 16:14:53 +0000</lastBuildDate>
     <item>
       <title>2025: The State of AI in Healthcare [ ! ]</title>
       <link>https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/</link>
@@ -357,6 +315,48 @@
       <description>This article outlines how brands must rethink customer‑experience strategies as users increasingly engage through third‑party AI agents and virtual bots. Our analysts highlighted how brands like L’Oréal (via their “Beauty Genius” assistant) are proactively building their own agents and optimizing for “answer‑engine optimization” as these AI bots become entry‑points to consumers — making this important reading for AI business leaders.</description>
       <guid isPermaLink="false">73b861961de27e410f929c32cc308cb6</guid>
       <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Chronograph scales operations and accelerates decision‑making with Claude [ ~ ]</title>
+      <link>https://www.claude.com/customers/chronograph</link>
+      <description>Chronograph uses Claude Enterprise to power portfolio and investment analytics via Model Context Protocol (MCP) connectors—demonstrating AI’s role in finance and private‑capital orchestration. Our analysts noted this is a compelling financial‑services use case, but since it’s one company’s story without broad metrics and implementation details, it remains optional.</description>
+      <guid isPermaLink="false">164ede6f4deb9978e57c63f086806ce5</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Clario streamlines clinical trial software configurations using Amazon Bedrock [ ~ ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/clario-streamlines-clinical-trial-software-configurations-using-amazon-bedrock/</link>
+      <description>Clario leveraged Amazon Bedrock to automate extraction of trial configuration data, document generation, and XML build workflows in the regulated clinical trial domain—showcasing AI in life sciences and compliance. Our analysts found the case study useful for the unstructured‑data + AI pipeline narrative but felt the lack of quantifiable outcomes held it back from being rated higher.</description>
+      <guid isPermaLink="false">212922ba3ead978d2a23b96c21651f3f</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Say Goodbye to AI Image Hallucinations, Thanks to Canva’s New Design Model [ ~ ]</title>
+      <link>https://www.cnet.com/tech/services-and-software/say-goodbye-to-ai-image-hallucinations-thanks-to-canvas-new-design-model/</link>
+      <description>Canva’s new foundational “design model” introduces editable layers and design‑format awareness—aiming to reduce image hallucinations and improve usability for creators. Our analysts saw this as a nice product update (AI in design workflows) but relatively incremental and narrow in scope for enterprise AI strategy.</description>
+      <guid isPermaLink="false">e4a265df452e40c2470143198c8eb9b7</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Aardvark: OpenAI’s agentic security researcher [ ~ ]</title>
+      <link>https://openai.com/index/introducing-aardvark/?s=09</link>
+      <description>OpenAI’s new agent “Aardvark” applies generative AI to autonomously scan, detect and help fix software vulnerabilities—bringing AI into cybersecurity automation. While the use case is compelling and highlights AI in security, our analysts felt the announcement so far is more packaging of existing tools than a fully proven platform, so its broader relevance remains tentative.</description>
+      <guid isPermaLink="false">cf238c337806f9842ea4a3bffc702b12</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Large Language Models Get All the Hype, but Small Models Do the Real Work [ ~ ]</title>
+      <link>https://archive.is/B1sEt#selection-559.0-559.73</link>
+      <description>The article argues that despite the spotlight on big LLMs, many companies are actually relying on smaller models to drive operational workflows and agentic systems. Our analysts noted the topic is meaningful for AI leaders, but critiqued the piece for lacking clear definitions and concrete examples of small language models, making it less actionable.</description>
+      <guid isPermaLink="false">7131727bec662f39f5dd654179f0c834</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI researchers ’embodied’ an LLM into a robot – and it started channeling Robin Williams [ ~ ]</title>
+      <link>https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/</link>
+      <description>In a playful experiment by Andon Labs, a vacuum robot was equipped with a large language model and tasked with mundane prompts (like “pass the butter”), revealing comical behavior and existential crisis logs. Our analysts appreciated the entertainment value but concluded the takeaway for AI practitioners is limited, so it sits in the “optional” bucket but it is a fun read.</description>
+      <guid isPermaLink="false">a2ceac3fe0ceaa4716f5975b881e8c34</guid>
+      <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
