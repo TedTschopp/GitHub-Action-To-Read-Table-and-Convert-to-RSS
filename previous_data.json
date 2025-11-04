@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "As AI Reshapes the Job Market, Here Are 16 Roles It Has Created",
+        "links": [
+          "https://www.washingtonpost.com/business/2025/10/29/ai-new-jobs/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article catalogues 16 real job roles created by AI across major companies, showcasing how AI is actively reshaping the workforce. Our analysts stressed this is an essential read for AI leaders, talent planners, and executives thinking about upskilling and organizational design.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "On the Shifting Global Compute Landscape",
+        "links": [
+          "https://huggingface.co/blog/huggingface/shifting-compute-landscape"
+        ]
+      },
+      "Rationale": {
+        "text": "This article outlines how geopolitical shifts and changes in the compute stack — including domestic silicon and CUDA alternatives — are reorganizing the infrastructure behind generative AI and large language model deployment. Our analysts emphasized that executives must grasp this now, as optimization between chips, models, and applications is the foundation of long-term AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Is Co‑Writing Financial Reports. Here’s Why That Matters.",
+        "links": [
+          "https://www.wsj.com/articles/ai-is-co-writing-financial-reports-heres-why-that-matters-6c0ce0af"
+        ]
+      },
+      "Rationale": {
+        "text": "AI is being used to generate portions of corporate earnings reports, marking a shift in AI-driven content creation and the intersection of AI in finance. Our analysts saw this as a real-world application that matters to every board, especially around compliance, trust, and transparency in financial communications.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Agents Rule of Two: A Practical Approach to AI Agent Security",
+        "links": [
+          "https://ai.meta.com/blog/practical-ai-agent-security"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta proposes a 'Rule of Two' framework to mitigate prompt injection risk by limiting how many sensitive capabilities an autonomous AI agent can access. Our analysts felt the approach is straightforward and not groundbreaking, but agreed it’s a necessary and practical read for AI security awareness as agentic AI expands.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "OpenAI and Amazon ink $38 B cloud computing deal",
+        "links": [
+          "https://techcrunch.com/2025/11/03/openai-and-amazon-ink-38b-cloud-computing-deal/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI’s $38 billion commitment to AWS underscores how massive compute requirements continue to drive strategic partnerships in the AI landscape. Our analysts saw this as a necessary update for AI leaders to stay informed on infrastructure dynamics, even though the broader implications were previously signaled when OpenAI shifted to for-profit status.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Google’s First AI Ad Avoids the Uncanny Valley by Casting a Turkey",
+        "links": [
+          "https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662?mod=rss_Technology"
+        ]
+      },
+      "Rationale": {
+        "text": "Google used its Veo 3 generative model to create an ad starring an animated turkey to sidestep uncanny realism, showcasing AI in marketing creativity. Our team found the piece charming but not strategically important, labeling it more of a curiosity than a must-read.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/03/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article discusses the creation of an internal LLM evaluation framework called BOLT by Mura, designed to measure model quality during development. Our analysts emphasized the growing importance of evaluation rigor in GenAI deployments, particularly as organizations scale from prototype to production; while the piece lacks technical depth, it introduces relevant semantic challenges that executives should begin to consider.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Gen AI in Finance Isn’t Failing—It’s Working Where It’s Built In",
-        "links": [
-          "https://www.bain.com/insights/gen-ai-in-finance-isnt-failing-its-working-where-its-built-in/"
-        ]
-      },
-      "Rationale": {
-        "text": "Bain argues that embedded AI use cases in finance are succeeding, especially in workflow automation versus chatbot pilots. Although some of our analysts found this perspective aligned with observed ROI patterns, others viewed it as thinly veiled consulting marketing, making it more of a commercial than a strategic resource.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Successful AI adoption needs workers in the loop",
-        "links": [
-          "https://www.ft.com/content/d42fa720-1585-4a7e-830b-b17ee2ca0d6d"
-        ]
-      },
-      "Rationale": {
-        "text": "This Financial Times article presents a mixed take on how AI adoption depends on workforce integration and quotes older statistics from UK education and Goldman Sachs. Our analysts found the article disjointed and lacking in fresh insights, critiquing it as a 'triple optional nothing burger' that fails to acknowledge the larger structural shifts and risks, such as mass layoffs and HR budget reallocations.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "There is no God Tier video model",
-        "links": [
-          "https://a16z.substack.com/p/there-is-no-god-tier-video-model"
-        ]
-      },
-      "Rationale": {
-        "text": "The post argues that no single video model dominates across use cases and suggests specialization is the current trajectory, citing examples like Pika, Sora, and Runway. While informative as a snapshot of the state of generative video, the panel agreed its relevance is short-lived given the rapid pace of model development and saw limited strategic value for executives today.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Classmethod accelerates development velocity with Claude Code",
-        "links": [
-          "https://www.claude.com/customers/classmethod"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study shows Classmethod achieving dramatic improvements in dev speed using Claude, such as 96% faster script execution. Despite impressive metrics, the group found it lacked methodological transparency and came off more as promotional material for Claude than a useful deep dive into implementation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing ChatGPT Atlas",
-        "links": [
-          "https://openai.com/index/introducing-chatgpt-atlas/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI has launched ChatGPT Atlas, a standalone, agentic browser that seamlessly integrates web browsing, search, and AI automation into a single interface. Our analysts called this a transformative step that could redefine browser usage for enterprises and individuals alike, signaling the start of a new 'browser war' era in AI-driven user experiences.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/22/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "2025: The State of AI in Healthcare",
-        "links": [
-          "https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/"
-        ]
-      },
-      "Rationale": {
-        "text": "This research-backed report from Menlo Ventures explores the rapid acceleration of generative AI adoption across payers, providers, and biopharma sectors—traditionally slow-moving adopters of new technology. Our analysts viewed the data as highly valuable for AI leaders, noting that if AI can drive productivity in healthcare, it signals strong potential across other regulated, high-friction industries.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-04T08:20:28.599284+00:00"
+  "timestamp": "2025-11-04T16:18:43.634183+00:00"
 }

@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Nov 2025 08:19:06 +0000</lastBuildDate>
-    <item>
-      <title>2025: The State of AI in Healthcare [ ! ]</title>
-      <link>https://menlovc.com/perspective/2025-the-state-of-ai-in-healthcare/</link>
-      <description>This research-backed report from Menlo Ventures explores the rapid acceleration of generative AI adoption across payers, providers, and biopharma sectors—traditionally slow-moving adopters of new technology. Our analysts viewed the data as highly valuable for AI leaders, noting that if AI can drive productivity in healthcare, it signals strong potential across other regulated, high-friction industries.</description>
-      <guid isPermaLink="false">98fc37e505a4c6e56eb7922e6e3d79a0</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing ChatGPT Atlas [ ! ]</title>
-      <link>https://openai.com/index/introducing-chatgpt-atlas/</link>
-      <description>OpenAI has launched ChatGPT Atlas, a standalone, agentic browser that seamlessly integrates web browsing, search, and AI automation into a single interface. Our analysts called this a transformative step that could redefine browser usage for enterprises and individuals alike, signaling the start of a new 'browser war' era in AI-driven user experiences.</description>
-      <guid isPermaLink="false">f97b4c1fb7b68a66c69c50de26cd5aad</guid>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Classmethod accelerates development velocity with Claude Code [ ~ ]</title>
-      <link>https://www.claude.com/customers/classmethod</link>
-      <description>This case study shows Classmethod achieving dramatic improvements in dev speed using Claude, such as 96% faster script execution. Despite impressive metrics, the group found it lacked methodological transparency and came off more as promotional material for Claude than a useful deep dive into implementation.</description>
-      <guid isPermaLink="false">a936861ddb013554291258ab15585df5</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>There is no God Tier video model [ ~ ]</title>
-      <link>https://a16z.substack.com/p/there-is-no-god-tier-video-model</link>
-      <description>The post argues that no single video model dominates across use cases and suggests specialization is the current trajectory, citing examples like Pika, Sora, and Runway. While informative as a snapshot of the state of generative video, the panel agreed its relevance is short-lived given the rapid pace of model development and saw limited strategic value for executives today.</description>
-      <guid isPermaLink="false">b278105fa9ee68df109af78cbf94b040</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Successful AI adoption needs workers in the loop [ ~ ]</title>
-      <link>https://www.ft.com/content/d42fa720-1585-4a7e-830b-b17ee2ca0d6d</link>
-      <description>This Financial Times article presents a mixed take on how AI adoption depends on workforce integration and quotes older statistics from UK education and Goldman Sachs. Our analysts found the article disjointed and lacking in fresh insights, critiquing it as a 'triple optional nothing burger' that fails to acknowledge the larger structural shifts and risks, such as mass layoffs and HR budget reallocations.</description>
-      <guid isPermaLink="false">00a523e14c8c94a913aa666034fbed3d</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Gen AI in Finance Isn’t Failing—It’s Working Where It’s Built In [ * ]</title>
-      <link>https://www.bain.com/insights/gen-ai-in-finance-isnt-failing-its-working-where-its-built-in/</link>
-      <description>Bain argues that embedded AI use cases in finance are succeeding, especially in workflow automation versus chatbot pilots. Although some of our analysts found this perspective aligned with observed ROI patterns, others viewed it as thinly veiled consulting marketing, making it more of a commercial than a strategic resource.</description>
-      <guid isPermaLink="false">43a485703cccee4dd07b6ab78f59f065</guid>
-      <pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Tue, 04 Nov 2025 16:17:22 +0000</lastBuildDate>
     <item>
       <title>BOLT - How Mura wrote an in-house LLM Eval Framework [ * ]</title>
       <link>https://mackey.substack.com/p/bolt-how-mura-wrote-an-in-house-llm</link>
@@ -357,6 +315,48 @@
       <description>In a playful experiment by Andon Labs, a vacuum robot was equipped with a large language model and tasked with mundane prompts (like “pass the butter”), revealing comical behavior and existential crisis logs. Our analysts appreciated the entertainment value but concluded the takeaway for AI practitioners is limited, so it sits in the “optional” bucket but it is a fun read.</description>
       <guid isPermaLink="false">a2ceac3fe0ceaa4716f5975b881e8c34</guid>
       <pubDate>Mon, 03 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google’s First AI Ad Avoids the Uncanny Valley by Casting a Turkey [ ~ ]</title>
+      <link>https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662?mod=rss_Technology</link>
+      <description>Google used its Veo 3 generative model to create an ad starring an animated turkey to sidestep uncanny realism, showcasing AI in marketing creativity. Our team found the piece charming but not strategically important, labeling it more of a curiosity than a must-read.</description>
+      <guid isPermaLink="false">1050d3bcb65aa4c18b10e1136ba7a9e2</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenAI and Amazon ink $38 B cloud computing deal [ * ]</title>
+      <link>https://techcrunch.com/2025/11/03/openai-and-amazon-ink-38b-cloud-computing-deal/</link>
+      <description>OpenAI’s $38 billion commitment to AWS underscores how massive compute requirements continue to drive strategic partnerships in the AI landscape. Our analysts saw this as a necessary update for AI leaders to stay informed on infrastructure dynamics, even though the broader implications were previously signaled when OpenAI shifted to for-profit status.</description>
+      <guid isPermaLink="false">4d153fcf7f326d300dfd3e577899f445</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agents Rule of Two: A Practical Approach to AI Agent Security [ * ]</title>
+      <link>https://ai.meta.com/blog/practical-ai-agent-security</link>
+      <description>Meta proposes a 'Rule of Two' framework to mitigate prompt injection risk by limiting how many sensitive capabilities an autonomous AI agent can access. Our analysts felt the approach is straightforward and not groundbreaking, but agreed it’s a necessary and practical read for AI security awareness as agentic AI expands.</description>
+      <guid isPermaLink="false">313152ca7c306844ec862261140f9016</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Is Co‑Writing Financial Reports. Here’s Why That Matters. [ ! ]</title>
+      <link>https://www.wsj.com/articles/ai-is-co-writing-financial-reports-heres-why-that-matters-6c0ce0af</link>
+      <description>AI is being used to generate portions of corporate earnings reports, marking a shift in AI-driven content creation and the intersection of AI in finance. Our analysts saw this as a real-world application that matters to every board, especially around compliance, trust, and transparency in financial communications.</description>
+      <guid isPermaLink="false">bee1d1be07fd45000100d76a083f8d66</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>On the Shifting Global Compute Landscape [ ! ]</title>
+      <link>https://huggingface.co/blog/huggingface/shifting-compute-landscape</link>
+      <description>This article outlines how geopolitical shifts and changes in the compute stack — including domestic silicon and CUDA alternatives — are reorganizing the infrastructure behind generative AI and large language model deployment. Our analysts emphasized that executives must grasp this now, as optimization between chips, models, and applications is the foundation of long-term AI strategy.</description>
+      <guid isPermaLink="false">1005bb5ad026db53f79f4b3cbf6c5d07</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>As AI Reshapes the Job Market, Here Are 16 Roles It Has Created [ ! ]</title>
+      <link>https://www.washingtonpost.com/business/2025/10/29/ai-new-jobs/</link>
+      <description>This article catalogues 16 real job roles created by AI across major companies, showcasing how AI is actively reshaping the workforce. Our analysts stressed this is an essential read for AI leaders, talent planners, and executives thinking about upskilling and organizational design.</description>
+      <guid isPermaLink="false">e7263dc2355d2ea152cf5f97f1300934</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
