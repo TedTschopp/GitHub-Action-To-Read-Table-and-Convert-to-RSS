@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Switchboard MD automates real‑time call transcription in clinical contact centers with Amazon Nova Sonic",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-switchboard-md-automates-real-time-call-transcription-in-clinical-contact-centers-with-amazon-nova-sonic/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study describes how Switchboard MD uses Amazon Nova Sonic (alongside other AWS services) to process real‑time transcription in high‑volume healthcare contact centers, thereby cutting claim‑handling costs by 80‑90% and addressing a major enterprise‑AI challenge around audio‑intensive workflows. Our analysts highlighted this as a high‑impact, production‑grade deployment of AI in a complex, regulated domain (healthcare + contact center), making it broadly applicable and important for enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Codemaps: Understand Code, Before You Vibe It",
+        "links": [
+          "https://cognition.ai/blog/codemaps"
+        ]
+      },
+      "Rationale": {
+        "text": "The article introduces Codemaps by Cognition — an AI‑tool that maps large codebases and generates structured “maps” so human engineers and AI agents can collaborate with a shared understanding of system structure. Our analysts noted this innovation tackles the growing problem of “vibe‑coding” (AI‑generated code without full code structure context awareness) and is a tool enterprise AI teams should pilot now, even if it’s still early in adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Intelligent robotics: the new era of physical AI",
+        "links": [
+          "https://www.bvp.com/atlas/intelligent-robotics-the-new-era-of-physical-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "This article from Bessemer Venture Partners frames “physical AI” and robotics covers five trends propelling robotics forward, - labour shortages, stronger vision‑LLMs, edge computing, hardware stacks and talent flow into robotics startups. While it offers a broad investment‑focused overview of robotics trends, our analysts rated it optional because robotics remains a somewhat niche priority for many enterprise AI leaders at present.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "GEN‑0 / Embodied Foundation Models That Scale with Physical Interaction",
+        "links": [
+          "https://generalistai.com/blog/nov-04-2025-GEN-0"
+        ]
+      },
+      "Rationale": {
+        "text": "Describes a research initiative around embodied foundation models trained on real‑world manipulation trajectories rather than just code/vision. Our analysts recognised the novelty (especially the “enough data” issue in robotics) but viewed it as still early and less relevant for many AI leaders right now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "SmarterX leans on Google Cloud to deliver custom LLMs for its customers",
+        "links": [
+          "https://cloud.google.com/blog/products/data-analytics/smarterx-uses-google-ai-and-data-tools-to-build-custom-llms"
+        ]
+      },
+      "Rationale": {
+        "text": "A vendor‑case study of SmarterX and Google Cloud building customised LLM solutions using BigQuery, Gemini and Vertex AI. While it describes an applied workflow (custom LLMs for compliance‑heavy use cases), our analysts considered it mostly a vendor narrative with no detail on implementation and results, thus less strategic for many enterprise AI initiatives.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/05/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Forget Fine‑Tuning: SAP’s RPT‑1 Brings Ready‑to‑Use AI for Business Tasks",
+        "links": [
+          "https://venturebeat.com/ai/forget-fine-tuning-saps-rpt-1-brings-ready-to-use-ai-for-business-tasks"
+        ]
+      },
+      "Rationale": {
+        "text": "This article covers SAP’s release of RPT‑1, a relational (“tabular”) foundation model aimed at business‑data tasks out of the box (e.g., spreadsheets, transactional data) rather than typical LLM fine‑tuning. While potentially interesting, our analysts judged it as early in market impact and less directly actionable for many AI leaders now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/04/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This piece covers Microsoft's Copilot fall update, highlighting ecosystem-wide upgrades such as long-term memory, multi-device reach (like Samsung TVs), and an animated assistant called 'Mico.' While not groundbreaking in itself, our analysts agreed that Microsoft's scale and positioning make this evolution in AI-human interaction strategies critical for business leaders to monitor.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Consensus uses GPT-5 and the Responses API to complete weeks of research in minutes",
-        "links": [
-          "https://openai.com/index/consensus/"
-        ]
-      },
-      "Rationale": {
-        "text": "This OpenAI case study showcases how a multi-agent system using GPT-5 dramatically compresses research timelines. Despite limited technical depth, analysts valued its demonstration of AI agents collaborating on research tasks, noting it helps demystify complex AI architectures for business leaders and supports broader industry adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "AI tutors show their potential in interactive workplace learning",
-        "links": [
-          "https://www.ft.com/content/1f915aa9-c61c-4f55-b27e-47d0a0f2c016"
-        ]
-      },
-      "Rationale": {
-        "text": "Though framed as a PR-like piece, the article touches on the growing impact of GenAI-powered corporate training, especially for compliance-heavy sectors. Our analysts highlighted the potential of multimodal and interactive learning agents to transform workforce education and increase training engagement, upgrading it to an important despite the article's limited technical rigor.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing the Apps for Advertising collection",
-        "links": [
-          "https://x.com/runwayml/status/1981380360249159783"
-        ]
-      },
-      "Rationale": {
-        "text": "This update from RunwayML announces a curated set of apps tailored for advertising use cases, indicating a step toward verticalized GenAI tools. While lightly discussed, its importance lies in signaling the commercialization and specialization of GenAI for the adtech sector, where use-case-specific tools are becoming more prominent.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/24/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "ColorAgent: Building A Robust, Personalized, and Interactive OS Agent",
-        "links": [
-          "https://arxiv.org/abs/2510.19386?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This research paper explores an open-source agent capable of controlling OS functions through natural language. Our analysts noted the relevance of the category (OS agents), but found the paper itself too preliminary for enterprise use and marked it as optional due to limited applicability for business leaders today.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Unseeable prompt injections in screenshots: more vulnerabilities in Comet and other AI browsers",
-        "links": [
-          "https://brave.com/blog/unseeable-prompt-injections/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This piece highlights a new class of prompt injection vulnerabilities hidden in screenshots, posing risks for AI-enhanced or agentic browsers like Comet. The team emphasized the underestimated security risks tied to AI browsers, warning that these could reach enterprise-scale repercussions due to individual behavior, making early awareness essential.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/23/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "BOLT - How Mura wrote an in-house LLM Eval Framework",
-        "links": [
-          "https://mackey.substack.com/p/bolt-how-mura-wrote-an-in-house-llm"
-        ]
-      },
-      "Rationale": {
-        "text": "This article discusses the creation of an internal LLM evaluation framework called BOLT by Mura, designed to measure model quality during development. Our analysts emphasized the growing importance of evaluation rigor in GenAI deployments, particularly as organizations scale from prototype to production; while the piece lacks technical depth, it introduces relevant semantic challenges that executives should begin to consider.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-05T08:19:07.696894+00:00"
+  "timestamp": "2025-11-05T16:18:44.434427+00:00"
 }
