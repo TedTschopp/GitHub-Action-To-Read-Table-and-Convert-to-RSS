@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 06 Nov 2025 08:19:27 +0000</lastBuildDate>
-    <item>
-      <title>Human-centered AI [ * ]</title>
-      <link>https://www.microsoft.com/en-us/microsoft-copilot/blog/2025/10/23/human-centered-ai/</link>
-      <description>This piece covers Microsoft's Copilot fall update, highlighting ecosystem-wide upgrades such as long-term memory, multi-device reach (like Samsung TVs), and an animated assistant called 'Mico.' While not groundbreaking in itself, our analysts agreed that Microsoft's scale and positioning make this evolution in AI-human interaction strategies critical for business leaders to monitor.</description>
-      <guid isPermaLink="false">74d38dd06e8100430677e5e0ca361200</guid>
-      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Why CEOs Need to Prepare for AI-Only Rivals [ ! ]</title>
-      <link>https://www.bcg.com/ja-jp/publications/2025/why-ceos-need-to-prepare-for-ai-only-rivals</link>
-      <description>This article explores how AI-native companies will disrupt traditional businesses through superior unit economics, enabled by automation and AI-first workflows. Our analysts unanimously elevated it to 'Essential' for its timely call to action for executives, supported by real-world examples like Craigslist and internal experiences deploying AI agents, showing how AI 'employees' are already replacing major workflows.</description>
-      <guid isPermaLink="false">19d10fc0601f33a1c11789c99bb8021b</guid>
-      <pubDate>Fri, 24 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Enterprise Deep Research: Steerable Multi‑Agent Deep Research for Enterprise Analytics [ ~ ]</title>
-      <link>https://arxiv.org/abs/2510.17797?s=09</link>
-      <description>This paper proposes a multi‑agent architecture for enterprise analytics, detailing master agent/task manager/steering loops. Our analysts agreed it is interesting from a research/architecture perspective but still early in practical enterprise deployment, making it optional reading today.</description>
-      <guid isPermaLink="false">f90dc3d63ca4c5e0afd84c7252aedfa2</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The AI‑centric imperative: Navigating the next software frontier [ * ]</title>
-      <link>https://www.mckinsey.com/industries/technology-media-and-telecommunications/our-insights/the-ai-centric-imperative-navigating-the-next-software-frontier?stcr=4FB30E5D90E34A5AB43D6BF5D984D1D1&amp;cid=mgp_opr-eml-alt-tmt-mgp-glb--&amp;hlkid=97311181560f44f99bd107757c6932da&amp;hctky=1595995&amp;hdpid=265cf3f3-842f-4fc2-9cd1-5ad710395e6b</link>
-      <description>This report from McKinsey &amp; Company outlines how AI and agent‑centric architectures are disrupting the software industry, with strategic lessons for organizations transforming into “software‑first” enterprises. Our analysts pointed out that while it’s software‑centric vs. domain‑specific, it remains important as a strategic framing piece for AI leaders.</description>
-      <guid isPermaLink="false">5542dd103008f8b1aca7644382633aee</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Mistral AI Studio [ * ]</title>
-      <link>https://mistral.ai/news/ai-studio?s=09</link>
-      <description>Mistral AI’s launch of an “AI Studio” prototype tool‑set aimed at operations, observability, agents and model registry signals maturity in enterprise AI infrastructure. Our analysts noted that while it’s still early and lacks broad customer traction, the trend it represents makes it important for practitioners to track.</description>
-      <guid isPermaLink="false">862f8e6fc1f6bcb64d85d98f5a305c5e</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How the Max Planck Institute Is Sharing Expert Skills Through Multimodal Agents [ ! ]</title>
-      <link>https://cloud.google.com/blog/products/ai-machine-learning/planck-institute-research-expert-gen-ai-agent?e=48754805</link>
-      <description>The article describes how Max Planck Institute and Google Cloud built a multimodal AI agent able to interpret video, speech and text to detect procedural errors in lab work—an early but powerful example of tackling tacit organizational knowledge. Our analysts emphasized that this demonstrates what is likely to become the future standard for deep skill transfer within enterprises through generative AI.</description>
-      <guid isPermaLink="false">2c3f3f4fad5de7f35ea7b72777f55857</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Thu, 06 Nov 2025 16:17:22 +0000</lastBuildDate>
     <item>
       <title>State of Generative Media Survey Report 2025 [ ! ]</title>
       <link>https://artificialanalysis.ai/media/survey-2025</link>
@@ -357,6 +315,48 @@
       <description>This case study describes how Switchboard MD uses Amazon Nova Sonic (alongside other AWS services) to process real‑time transcription in high‑volume healthcare contact centers, thereby cutting claim‑handling costs by 80‑90% and addressing a major enterprise‑AI challenge around audio‑intensive workflows. Our analysts highlighted this as a high‑impact, production‑grade deployment of AI in a complex, regulated domain (healthcare + contact center), making it broadly applicable and important for enterprise AI leaders.</description>
       <guid isPermaLink="false">453ca28165ea0304960b28c5d6785230</guid>
       <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Benefits of Bubbles [ ~ ]</title>
+      <link>https://stratechery.com/2025/the-benefits-of-bubbles/</link>
+      <description>This article revisits the idea that ‘bubbles’ of investment and innovation — such as those around AI — are beneficial because they drive exploration and breakthroughs. Analysts found the concept thought‑provoking but speculative and less directly tied to actionable AI strategy.</description>
+      <guid isPermaLink="false">32b2aedbbda175c77bf9e6f65ba32d0b</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Magentic Marketplace: an open‑source simulation environment for studying agentic markets [ ~ ]</title>
+      <link>https://www.microsoft.com/en-us/research/blog/magentic-marketplace-an-open-source-simulation-environment-for-studying-agentic-markets/</link>
+      <description>This research from Microsoft Research introduces an open‑source simulation for agentic markets, allowing study of AI agents interacting in economic environments. While interesting, our analysts judged it as more academic than immediately actionable for many practitioners.</description>
+      <guid isPermaLink="false">c7d279b9179bf149304c89a39b0b3132</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>L’Oréal advances conversational analytics with Claude [ * ]</title>
+      <link>https://www.claude.com/customers/loreal</link>
+      <description>This case study shows how L’Oréal is leveraging Claude to orchestrate and build conversational analytics agents enabling employees to query customer‑behavior data directly (99%+ accuracy claimed). Our analysts saw this as an important enterprise adoption story, though lacking implementation details.</description>
+      <guid isPermaLink="false">a2220efde0392267766d4e707a64b0ad</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Kosmos: An AI Scientist for Autonomous Discovery [ ! ]</title>
+      <link>https://arxiv.org/abs/2511.02824</link>
+      <description>This research piece presents a system dubbed “Kosmos” that combines multiple specialist AI agents (data‑analysis and literature search) to autonomously pursue scientific discovery and replicate research findings. Our analysts highlighted that it could mark a breakthrough in AI‑driven science and innovation.</description>
+      <guid isPermaLink="false">c2b19ded46cad366358a4476dbfb2add</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Amazon sends legal threats to Perplexity over agentic browsing [ ! ]</title>
+      <link>https://techcrunch.com/2025/11/04/amazon-sends-legal-threats-to-perplexity-over-agentic-browsing/</link>
+      <description>This article covers a major platform vs. AI‑agent conflict: Amazon threatening legal action against Perplexity AI for its “agentic” browsing/shopping tool that acts on behalf of users, raising questions of platform control, AI‑driven commerce, and user choice. Our analysts flagged this as a key battleground in AI agents interacting with commerce platforms with broad implications for future commerce.</description>
+      <guid isPermaLink="false">1e41151ba00f6564ba70cffaa7b105a2</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Can AI Boards Outperform Human Ones? [ ! ]</title>
+      <link>https://hbr.org/2025/11/can-ai-boards-outperform-human-ones</link>
+      <description>This article explores how AI-driven governance may surpass traditional human boards, highlighting that 94% of global CEOs believe AI could outperform at least one board member in decision-making quality. Our analysts concluded that while AI cannot replace human reasoning, the future lies in AI-augmented boards that leverage large language models to synthesize complex information and enhance boardroom effectiveness.</description>
+      <guid isPermaLink="false">f9052c3124d416af0edfbb57efbe61cc</guid>
+      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
