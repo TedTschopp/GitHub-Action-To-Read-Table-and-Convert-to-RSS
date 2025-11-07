@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Kimi K2 Thinking",
+        "links": [
+          "https://moonshotai.github.io/Kimi-K2/thinking.html"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces Moonshot AI’s Kimi K2, a trillion-parameter open-source model designed to support agentic behavior and capable of executing 200–300 sequential tool calls. Analysts noted this model’s strong benchmark performance and described it as a potential inflection point, where Chinese open-source models may leapfrog U.S. proprietary systems in agent-based AI architecture. Its native design for multi-agent orchestration highlights a broader strategic shift toward complex, tool-using models in global AI development.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Stop Running So Many AI Pilots",
+        "links": [
+          "https://hbr.org/2025/11/stop-running-so-many-ai-pilots"
+        ]
+      },
+      "Rationale": {
+        "text": "This piece argues that AI leaders should move away from excessive pilot programs and instead focus on fewer, deeper, and more strategically aligned initiatives, citing Reckitt’s concentrated value-loop approach. The team emphasized that only 4% of companies take this “deep and narrow” route, yet those that do see twice the ROI, making it a compelling model for organizations looking to operationalize AI rather than just experiment. It also serves as a practical guide for prioritizing long-term, integrated AI deployments over scattered proofs of concept.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Parallel Search: the highest accuracy web search API engineered for AI",
+        "links": [
+          "https://parallel.ai/blog/introducing-parallel-search"
+        ]
+      },
+      "Rationale": {
+        "text": "Parallel introduces a machine-readable web search API optimized for LLMs and AI agents, designed to enhance retrieval accuracy and lower inference costs. Our analysts saw this as a potentially transformative step in enabling more efficient AI agent behavior, especially in orchestrated environments where agents need to fetch, rank, and act on real-time information. Its relevance grows as businesses grapple with token costs and the shift from human-readable to machine-readable web architecture.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "From Branches to Bots: Will AI Agents Transform Retail Banking?",
+        "links": [
+          "https://www.bcg.com/publications/2025/branches-to-bots-will-ai-transform-retail-banking"
+        ]
+      },
+      "Rationale": {
+        "text": "This article outlines a theoretical vision of the “AI-first bank,” forecasting potential financial gains from deploying AI agents across customer and operational workflows. Our analysts found the concept intriguing but noted it lacked actionable detail or implementation strategy, making it more relevant to banking futurists than to practitioners.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Inside the Data Centers That Train A.I. and Drain the Electrical Grid",
+        "links": [
+          "https://archive.md/XnF2N"
+        ]
+      },
+      "Rationale": {
+        "text": "This article offers a visual tour of the energy-hungry data centers that power large-scale AI training, raising concerns about the environmental impact of the AI arms race. While striking in tone, the discussion was considered surface-level by our analysts, offering little new information for AI professionals focused on model development or infrastructure optimization.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/07/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Built World AI",
+        "links": [
+          "https://www.bvp.com/atlas/roadmap-built-world-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "Bessemer’s roadmap highlights the growth of AI in physical-world sectors like construction, real estate, and logistics, tracking startups and investment trends in “Built World AI.” Our analysts appreciated the strategic framing but felt the article provided minimal detail on how AI is actually being implemented in these industries.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/06/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "The article discusses how to architect and govern agentic AI systems that combine autonomy, large language models, and human oversight in business environments. Our analysts noted that while the topic is important (agents are a rising theme), the article is a bit light on detailed data and actionable steps — hence the 'optional' rating.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Building the Open Agent Ecosystem Together: Introducing OpenEnv",
-        "links": [
-          "https://huggingface.co/blog/openenv"
-        ]
-      },
-      "Rationale": {
-        "text": "This post describes how Hugging Face and Meta are collaborating to create an open‑source environment framework ('OpenEnv') for agentic AI ecosystems. Our analysts discussed its relevance for the 'AI leader' background stack, but that for most enterprises it remains peripheral.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "A Survey of Vibe Coding with Large Language Models",
-        "links": [
-          "https://arxiv.org/abs/2510.12399"
-        ]
-      },
-      "Rationale": {
-        "text": "The research compendium analyzes thousands of examples of 'vibe coding' and proposes a hierarchy of five development models. Our analysts found value in legitimizing the concept and providing a well-researched taxonomy, but questioned its immediate practical relevance for many enterprise users.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Agent Frameworks, Runtimes, and Harnesses‑oh my!",
-        "links": [
-          "https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/"
-        ]
-      },
-      "Rationale": {
-        "text": "This article from LangChain provides a taxonomy of agent frameworks, runtimes and harnesses for LLM‑based systems. Our analysts raised concerns that the classifications seem confusing and not operationally helpful yet — thus the optional rating.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "MiniMax-M2 is the new king of open source LLMs",
-        "links": [
-          "https://venturebeat.com/ai/minimax-m2-is-the-new-king-of-open-source-llms-especially-for-agentic-tool"
-        ]
-      },
-      "Rationale": {
-        "text": "MiniMax-M2 is a new open-source large language model from China that delivers competitive performance and efficiency for agentic tool use, released under a permissive license. While our analysts acknowledged the impressive technical benchmarks and rapid progress in the Chinese open-source ecosystem, they emphasized the lack of real-world enterprise adoption and distribution hurdles, making this article optional for most AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Work Smarter with Your Company Knowledge in ChatGPT",
-        "links": [
-          "https://openai.com/index/introducing-company-knowledge"
-        ]
-      },
-      "Rationale": {
-        "text": "This article introduces OpenAI’s new “Company Knowledge” capability which allows enterprise users to securely access internal documents, tickets, emails and messages across platforms—a major step for AI‑driven enterprise knowledge work. Our analysts emphasized that because ChatGPT is already widely adopted, this move signals a paradigm shift for corporate information systems and makes this development essential for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/27/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "State of Generative Media Survey Report 2025",
-        "links": [
-          "https://artificialanalysis.ai/media/survey-2025"
-        ]
-      },
-      "Rationale": {
-        "text": "This survey report covers the adoption, maturity and ROI of generative image and video models, revealing that 65 % of organizations expect return on investment within 12 months. Our analysts discussed how this underscores the urgency for marketing and creative teams to deploy generative media—and therefore it’s essential reading for senior enterprise executives.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-07T08:20:07.377429+00:00"
+  "timestamp": "2025-11-07T16:15:52.828144+00:00"
 }

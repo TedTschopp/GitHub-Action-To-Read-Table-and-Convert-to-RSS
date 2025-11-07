@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 07 Nov 2025 08:18:46 +0000</lastBuildDate>
-    <item>
-      <title>State of Generative Media Survey Report 2025 [ ! ]</title>
-      <link>https://artificialanalysis.ai/media/survey-2025</link>
-      <description>This survey report covers the adoption, maturity and ROI of generative image and video models, revealing that 65 % of organizations expect return on investment within 12 months. Our analysts discussed how this underscores the urgency for marketing and creative teams to deploy generative media—and therefore it’s essential reading for senior enterprise executives.</description>
-      <guid isPermaLink="false">5404b0a2f4ed9bfff37c8d30485c709a</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Work Smarter with Your Company Knowledge in ChatGPT [ ! ]</title>
-      <link>https://openai.com/index/introducing-company-knowledge</link>
-      <description>This article introduces OpenAI’s new “Company Knowledge” capability which allows enterprise users to securely access internal documents, tickets, emails and messages across platforms—a major step for AI‑driven enterprise knowledge work. Our analysts emphasized that because ChatGPT is already widely adopted, this move signals a paradigm shift for corporate information systems and makes this development essential for AI leaders.</description>
-      <guid isPermaLink="false">26fcc642f9fb8d6d84496845c656208f</guid>
-      <pubDate>Mon, 27 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MiniMax-M2 is the new king of open source LLMs [ ~ ]</title>
-      <link>https://venturebeat.com/ai/minimax-m2-is-the-new-king-of-open-source-llms-especially-for-agentic-tool</link>
-      <description>MiniMax-M2 is a new open-source large language model from China that delivers competitive performance and efficiency for agentic tool use, released under a permissive license. While our analysts acknowledged the impressive technical benchmarks and rapid progress in the Chinese open-source ecosystem, they emphasized the lack of real-world enterprise adoption and distribution hurdles, making this article optional for most AI leaders.</description>
-      <guid isPermaLink="false">38d9f39d73fc70c0695bcf35f4fad656</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agent Frameworks, Runtimes, and Harnesses‑oh my! [ ~ ]</title>
-      <link>https://blog.langchain.com/agent-frameworks-runtimes-and-harnesses-oh-my/</link>
-      <description>This article from LangChain provides a taxonomy of agent frameworks, runtimes and harnesses for LLM‑based systems. Our analysts raised concerns that the classifications seem confusing and not operationally helpful yet — thus the optional rating.</description>
-      <guid isPermaLink="false">c418e2d2170cbcf19d9e44577e91f073</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>A Survey of Vibe Coding with Large Language Models [ ~ ]</title>
-      <link>https://arxiv.org/abs/2510.12399</link>
-      <description>The research compendium analyzes thousands of examples of 'vibe coding' and proposes a hierarchy of five development models. Our analysts found value in legitimizing the concept and providing a well-researched taxonomy, but questioned its immediate practical relevance for many enterprise users.</description>
-      <guid isPermaLink="false">75ab9855ff7416b8621f481af8647238</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Building the Open Agent Ecosystem Together: Introducing OpenEnv [ ~ ]</title>
-      <link>https://huggingface.co/blog/openenv</link>
-      <description>This post describes how Hugging Face and Meta are collaborating to create an open‑source environment framework ('OpenEnv') for agentic AI ecosystems. Our analysts discussed its relevance for the 'AI leader' background stack, but that for most enterprises it remains peripheral.</description>
-      <guid isPermaLink="false">f9c64de72516a9702a56598250115c3b</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 07 Nov 2025 16:14:28 +0000</lastBuildDate>
     <item>
       <title>Designing a Successful Agentic AI System [ ~ ]</title>
       <link>https://hbr.org/2025/10/designing-a-successful-agentic-ai-system</link>
@@ -357,6 +315,48 @@
       <description>This article explores how AI-driven governance may surpass traditional human boards, highlighting that 94% of global CEOs believe AI could outperform at least one board member in decision-making quality. Our analysts concluded that while AI cannot replace human reasoning, the future lies in AI-augmented boards that leverage large language models to synthesize complex information and enhance boardroom effectiveness.</description>
       <guid isPermaLink="false">f9052c3124d416af0edfbb57efbe61cc</guid>
       <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Built World AI [ ~ ]</title>
+      <link>https://www.bvp.com/atlas/roadmap-built-world-ai</link>
+      <description>Bessemer’s roadmap highlights the growth of AI in physical-world sectors like construction, real estate, and logistics, tracking startups and investment trends in “Built World AI.” Our analysts appreciated the strategic framing but felt the article provided minimal detail on how AI is actually being implemented in these industries.</description>
+      <guid isPermaLink="false">65c2363a9543fba51d7850e656663239</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside the Data Centers That Train A.I. and Drain the Electrical Grid [ ~ ]</title>
+      <link>https://archive.md/XnF2N</link>
+      <description>This article offers a visual tour of the energy-hungry data centers that power large-scale AI training, raising concerns about the environmental impact of the AI arms race. While striking in tone, the discussion was considered surface-level by our analysts, offering little new information for AI professionals focused on model development or infrastructure optimization.</description>
+      <guid isPermaLink="false">f7be880ae87d1baee05caa053b65aa7f</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>From Branches to Bots: Will AI Agents Transform Retail Banking? [ ~ ]</title>
+      <link>https://www.bcg.com/publications/2025/branches-to-bots-will-ai-transform-retail-banking</link>
+      <description>This article outlines a theoretical vision of the “AI-first bank,” forecasting potential financial gains from deploying AI agents across customer and operational workflows. Our analysts found the concept intriguing but noted it lacked actionable detail or implementation strategy, making it more relevant to banking futurists than to practitioners.</description>
+      <guid isPermaLink="false">b2efbd1a5432118255057450fb44c59e</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Parallel Search: the highest accuracy web search API engineered for AI [ * ]</title>
+      <link>https://parallel.ai/blog/introducing-parallel-search</link>
+      <description>Parallel introduces a machine-readable web search API optimized for LLMs and AI agents, designed to enhance retrieval accuracy and lower inference costs. Our analysts saw this as a potentially transformative step in enabling more efficient AI agent behavior, especially in orchestrated environments where agents need to fetch, rank, and act on real-time information. Its relevance grows as businesses grapple with token costs and the shift from human-readable to machine-readable web architecture.</description>
+      <guid isPermaLink="false">bb8bf9c9edb92b7ab700b18dc8973416</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stop Running So Many AI Pilots [ * ]</title>
+      <link>https://hbr.org/2025/11/stop-running-so-many-ai-pilots</link>
+      <description>This piece argues that AI leaders should move away from excessive pilot programs and instead focus on fewer, deeper, and more strategically aligned initiatives, citing Reckitt’s concentrated value-loop approach. The team emphasized that only 4% of companies take this “deep and narrow” route, yet those that do see twice the ROI, making it a compelling model for organizations looking to operationalize AI rather than just experiment. It also serves as a practical guide for prioritizing long-term, integrated AI deployments over scattered proofs of concept.</description>
+      <guid isPermaLink="false">c33b60f7bbd24366d174ab9517c4fe90</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Kimi K2 Thinking [ ! ]</title>
+      <link>https://moonshotai.github.io/Kimi-K2/thinking.html</link>
+      <description>This article introduces Moonshot AI’s Kimi K2, a trillion-parameter open-source model designed to support agentic behavior and capable of executing 200–300 sequential tool calls. Analysts noted this model’s strong benchmark performance and described it as a potential inflection point, where Chinese open-source models may leapfrog U.S. proprietary systems in agent-based AI architecture. Its native design for multi-agent orchestration highlights a broader strategic shift toward complex, tool-using models in global AI development.</description>
+      <guid isPermaLink="false">cc1256e906b86ce0f4f3174fc4dd2879</guid>
+      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
