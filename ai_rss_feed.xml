@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 10 Nov 2025 08:18:50 +0000</lastBuildDate>
-    <item>
-      <title>Designing a Successful Agentic AI System [ ~ ]</title>
-      <link>https://hbr.org/2025/10/designing-a-successful-agentic-ai-system</link>
-      <description>The article discusses how to architect and govern agentic AI systems that combine autonomy, large language models, and human oversight in business environments. Our analysts noted that while the topic is important (agents are a rising theme), the article is a bit light on detailed data and actionable steps — hence the 'optional' rating.</description>
-      <guid isPermaLink="false">52ae203459bbe6731febc9d602be7527</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Advancing Claude for Financial Services [ * ]</title>
-      <link>https://www.anthropic.com/news/advancing-claude-for-financial-services</link>
-      <description>This article details how Anthropic equips Claude for the financial‑services sector with capabilities such as Excel integration, deal‑teaser workflows ('skills'), and data‑driven agentic workflows. Our analysts noted this shows a strong signal of AI automation entering enterprise workflows and the transition of large language models into purpose‑built vertical solutions.</description>
-      <guid isPermaLink="false">7edb80008756184aba1f65910621969d</guid>
-      <pubDate>Tue, 28 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Doppel’s AI Defense System Stops Attacks Before They Spread [ ~ ]</title>
-      <link>https://openai.com/index/doppel/</link>
-      <description>This is an OpenAI use case highlighting Doppel that scans the web to identify AI-generated phishing threats using its proprietary defense system, aiming to preempt attacks before they spread. While relevant as an AI cybersecurity case study, our analysts viewed it as vendor-specific and added little new insight beyond confirming existing trends in AI threat detection.</description>
-      <guid isPermaLink="false">09a5851f0a106bfa332f50075a891b64</guid>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Your AI Agent Is Now a Target for Email Phishing – New Tools Can Help Thwart the Attacks [ * ]</title>
-      <link>https://spectrum.ieee.org/ai-agent-phishing</link>
-      <description>This article highlights a serious cybersecurity threat: attackers are embedding hidden prompts in emails that AI assistants—like co-pilots and customer service bots—can mistakenly act on, bypassing human oversight. Our analysts emphasized that while the attack vector (email phishing) is familiar, targeting AI agents introduces a novel and urgent risk that AI leaders must begin addressing now.</description>
-      <guid isPermaLink="false">a08387c6d5f73dd91a3e99ae400b1544</guid>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Future of the Web Is the History of YouTube [ ! ]</title>
-      <link>https://a16z.substack.com/p/the-future-of-the-web-is-the-history</link>
-      <description>a16z draws parallels between YouTube's content democratization and the rise of generative AI in low-code software development—forecasting an explosion in app creation by non-engineers. Our analysts praised this as a powerful framing for how AI-driven content creation will change internal innovation and product strategy for AI leaders.</description>
-      <guid isPermaLink="false">c7f71f30252b65eb389a5f6d953ba74b</guid>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>What Should Retailers Do About AI Shoppers? [ ! ]</title>
-      <link>https://hbr.org/2025/10/what-should-retailers-do-about-ai-shoppers</link>
-      <description>As AI agents increasingly act as autonomous shoppers, this HBR article urges retailers to respond with strategic redesigns—either by blocking bots, partnering with vendors, or creating AI-friendly interfaces. Our analysts highlighted the emerging AI-to-AI commerce paradigm as a fundamental shift in the digital sales funnel, making this critical for understanding the next phase of AI in retail.</description>
-      <guid isPermaLink="false">9c1fe5e5bd859c9971836400c7460f61</guid>
-      <pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 10 Nov 2025 16:15:47 +0000</lastBuildDate>
     <item>
       <title>OpenAI’s Less-Flashy Rival Might Have a Better Business Model [ ! ]</title>
       <link>https://archive.md/qVZ31</link>
@@ -357,6 +315,48 @@
       <description>This article introduces Moonshot AI’s Kimi K2, a trillion-parameter open-source model designed to support agentic behavior and capable of executing 200–300 sequential tool calls. Analysts noted this model’s strong benchmark performance and described it as a potential inflection point, where Chinese open-source models may leapfrog U.S. proprietary systems in agent-based AI architecture. Its native design for multi-agent orchestration highlights a broader strategic shift toward complex, tool-using models in global AI development.</description>
       <guid isPermaLink="false">cc1256e906b86ce0f4f3174fc4dd2879</guid>
       <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Notion’s Rebuild for Agentic AI: How GPT‑5 Helped Unlock Autonomous Workflow [ ~ ]</title>
+      <link>https://openai.com/index/notion/</link>
+      <description>This case study (by Notion + OpenAI) shows usage of generative AI for workflow automation, but our analysts rated it optional because it is light on depth, more product marketing than architecture or metrics—useful for inspiration but not strategic imperative.</description>
+      <guid isPermaLink="false">ccec3abc147ee8862389095494cc89c8</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Progress and Recommendation [ ~ ]</title>
+      <link>https://openai.com/index/ai-progress-and-recommendations/?s=09</link>
+      <description>OpenAI’s blog on AI progress and recommended policy actions reiterates known themes—shared standards, oversight, empowerment of individuals—but adds little new actionable insight. Our analysts considered this more a positioning piece than a must‑read.</description>
+      <guid isPermaLink="false">d077d43116282cb8bc55f9d5a0a7c2cc</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations [ ~ ]</title>
+      <link>https://arxiv.org/pdf/2510.22780</link>
+      <description>This research paper compares AI agent workflows to human ones and highlights significant speed advantages (~70 %) in tasks like coding and data analysis when automation is possible. However, our analysts noted it largely confirms known trends and doesn’t offer direct takeaways for AI leaders focused on near-term implementation.</description>
+      <guid isPermaLink="false">7c382852942af0a182ec393832b852a1</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Memories.ai Introduces Large Visual Memory Model 2.0 to Bring AI Visual Memory On‑Device, in Collaboration with Qualcomm [ * ]</title>
+      <link>https://memories.ai/blog/collaboration-with-qualcomm</link>
+      <description>Memories.ai’s Visual Memory Model 2.0 enables semantic search across video content directly on-device, leveraging Qualcomm’s chips to bring generative AI to the edge. Our analysts highlighted this as an important signal of the shift toward post-text AI interfaces and edge-based intelligence, even if the current rollout is still developing.</description>
+      <guid isPermaLink="false">58c6a0a3b1f0da0f29c0b3ceb7793963</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Nested Learning: A new ML paradigm for continual learning [ * ]</title>
+      <link>https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/?s=09</link>
+      <description>This article by Google Research introduces “nested learning”, a new machine‑learning architecture aimed at continual learning and mitigating catastrophic forgetting in large models. Our analysts noted it sits in the medium‑term strategic architecture category (vs. immediate product rollout), making it important for forward‑looking AI strategy.</description>
+      <guid isPermaLink="false">cbdba0f472b52404e83c020badf6a3f9</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Democratizing AI: How Thomson Reuters Open Arena supports no‑code AI for every professional with Amazon Bedrock [ ! ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/</link>
+      <description>Thomson Reuters’ rollout of the “Open Arena” no‑code platform powered by Amazon Bedrock showcases how generative AI is moving from R&amp;D into broad enterprise deployment—and doing so across thousands of non‑technical professionals. Our analysts flagged this as a rare case where AI adoption, governance and productivity gains (~70 % employee usage) are all visible and concrete, making it an essential read for any AI leader.</description>
+      <guid isPermaLink="false">b4bab6ec3045e6a95ba49a3ff01c7b42</guid>
+      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

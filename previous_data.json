@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Democratizing AI: How Thomson Reuters Open Arena supports no‑code AI for every professional with Amazon Bedrock",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/"
+        ]
+      },
+      "Rationale": {
+        "text": "Thomson Reuters’ rollout of the “Open Arena” no‑code platform powered by Amazon Bedrock showcases how generative AI is moving from R&D into broad enterprise deployment—and doing so across thousands of non‑technical professionals. Our analysts flagged this as a rare case where AI adoption, governance and productivity gains (~70 % employee usage) are all visible and concrete, making it an essential read for any AI leader.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Nested Learning: A new ML paradigm for continual learning",
+        "links": [
+          "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This article by Google Research introduces “nested learning”, a new machine‑learning architecture aimed at continual learning and mitigating catastrophic forgetting in large models. Our analysts noted it sits in the medium‑term strategic architecture category (vs. immediate product rollout), making it important for forward‑looking AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Memories.ai Introduces Large Visual Memory Model 2.0 to Bring AI Visual Memory On‑Device, in Collaboration with Qualcomm",
+        "links": [
+          "https://memories.ai/blog/collaboration-with-qualcomm"
+        ]
+      },
+      "Rationale": {
+        "text": "Memories.ai’s Visual Memory Model 2.0 enables semantic search across video content directly on-device, leveraging Qualcomm’s chips to bring generative AI to the edge. Our analysts highlighted this as an important signal of the shift toward post-text AI interfaces and edge-based intelligence, even if the current rollout is still developing.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations",
+        "links": [
+          "https://arxiv.org/pdf/2510.22780"
+        ]
+      },
+      "Rationale": {
+        "text": "This research paper compares AI agent workflows to human ones and highlights significant speed advantages (~70 %) in tasks like coding and data analysis when automation is possible. However, our analysts noted it largely confirms known trends and doesn’t offer direct takeaways for AI leaders focused on near-term implementation.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Progress and Recommendation",
+        "links": [
+          "https://openai.com/index/ai-progress-and-recommendations/?s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI’s blog on AI progress and recommended policy actions reiterates known themes—shared standards, oversight, empowerment of individuals—but adds little new actionable insight. Our analysts considered this more a positioning piece than a must‑read.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/10/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Notion’s Rebuild for Agentic AI: How GPT‑5 Helped Unlock Autonomous Workflow",
+        "links": [
+          "https://openai.com/index/notion/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study (by Notion + OpenAI) shows usage of generative AI for workflow automation, but our analysts rated it optional because it is light on depth, more product marketing than architecture or metrics—useful for inspiration but not strategic imperative.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/07/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article contrasts OpenAI’s broad, consumer-focused strategy with Anthropic’s targeted push into enterprise via Claude, which now rivals or exceeds OpenAI in some B2B segments. Our analysts emphasized the strategic relevance of Anthropic’s growing market share, Microsoft partnership, and domain-specific offerings in life sciences and finance.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "10/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "What Should Retailers Do About AI Shoppers?",
-        "links": [
-          "https://hbr.org/2025/10/what-should-retailers-do-about-ai-shoppers"
-        ]
-      },
-      "Rationale": {
-        "text": "As AI agents increasingly act as autonomous shoppers, this HBR article urges retailers to respond with strategic redesigns—either by blocking bots, partnering with vendors, or creating AI-friendly interfaces. Our analysts highlighted the emerging AI-to-AI commerce paradigm as a fundamental shift in the digital sales funnel, making this critical for understanding the next phase of AI in retail.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The Future of the Web Is the History of YouTube",
-        "links": [
-          "https://a16z.substack.com/p/the-future-of-the-web-is-the-history"
-        ]
-      },
-      "Rationale": {
-        "text": "a16z draws parallels between YouTube's content democratization and the rise of generative AI in low-code software development—forecasting an explosion in app creation by non-engineers. Our analysts praised this as a powerful framing for how AI-driven content creation will change internal innovation and product strategy for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Your AI Agent Is Now a Target for Email Phishing – New Tools Can Help Thwart the Attacks",
-        "links": [
-          "https://spectrum.ieee.org/ai-agent-phishing"
-        ]
-      },
-      "Rationale": {
-        "text": "This article highlights a serious cybersecurity threat: attackers are embedding hidden prompts in emails that AI assistants—like co-pilots and customer service bots—can mistakenly act on, bypassing human oversight. Our analysts emphasized that while the attack vector (email phishing) is familiar, targeting AI agents introduces a novel and urgent risk that AI leaders must begin addressing now.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Doppel’s AI Defense System Stops Attacks Before They Spread",
-        "links": [
-          "https://openai.com/index/doppel/"
-        ]
-      },
-      "Rationale": {
-        "text": "This is an OpenAI use case highlighting Doppel that scans the web to identify AI-generated phishing threats using its proprietary defense system, aiming to preempt attacks before they spread. While relevant as an AI cybersecurity case study, our analysts viewed it as vendor-specific and added little new insight beyond confirming existing trends in AI threat detection.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Advancing Claude for Financial Services",
-        "links": [
-          "https://www.anthropic.com/news/advancing-claude-for-financial-services"
-        ]
-      },
-      "Rationale": {
-        "text": "This article details how Anthropic equips Claude for the financial‑services sector with capabilities such as Excel integration, deal‑teaser workflows ('skills'), and data‑driven agentic workflows. Our analysts noted this shows a strong signal of AI automation entering enterprise workflows and the transition of large language models into purpose‑built vertical solutions.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/28/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Designing a Successful Agentic AI System",
-        "links": [
-          "https://hbr.org/2025/10/designing-a-successful-agentic-ai-system"
-        ]
-      },
-      "Rationale": {
-        "text": "The article discusses how to architect and govern agentic AI systems that combine autonomy, large language models, and human oversight in business environments. Our analysts noted that while the topic is important (agents are a rising theme), the article is a bit light on detailed data and actionable steps — hence the 'optional' rating.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-10T08:20:09.319590+00:00"
+  "timestamp": "2025-11-10T16:17:05.003348+00:00"
 }
