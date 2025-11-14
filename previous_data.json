@@ -2,6 +2,366 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "The state of AI in 2025: Agents, innovation, and transformation",
+        "links": [
+          "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "This global McKinsey survey of nearly 2,000 executives reveals a widening performance gap between organizations leading in AI and those lagging, with high performers reorganizing around AI to drive innovation and revenue growth. Our analysts emphasized that adoption alone is not enough—success requires workflow redesign, cross-functional implementation, and executive role modeling to scale and sustain AI impact.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Workers Don’t Trust AI. Here’s How Companies Can Change That.",
+        "links": [
+          "https://hbr.org/2025/11/workers-dont-trust-ai-heres-how-companies-can-change-that?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_&deliveryName=NL_DailyAlert_20251110"
+        ]
+      },
+      "Rationale": {
+        "text": "This article presents real-world examples from major enterprises like IKEA and Colgate on how to build employee trust in AI through co-creation, upskilling, and measurement frameworks. Our analysts agreed trust is a key adoption barrier, but debated the novelty and actionability of the article’s recommendations, landing on important rather than essential.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "From Words to Worlds: Spatial Intelligence is AI’s Next Frontier",
+        "links": [
+          "https://a16z.substack.com/p/from-words-to-worlds-spatial-intelligence?utm_source=post-email-title&publication_id=13145&post_id=178308857&utm_campaign=email-post-title&isFreemail=true&r=1v3zy&triedRedirect=true&utm_medium=email"
+        ]
+      },
+      "Rationale": {
+        "text": "Fei-Fei Li introduces spatial intelligence and interactive world models as the next paradigm shift beyond current language- and text-based models. Our analysts noted that while early and not yet widely applied, these ideas will shape future AI capabilities—especially in robotics, simulation, and embodied cognition.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Era of Agentic Organization: Learning to Organize with Language Models",
+        "links": [
+          "https://arxiv.org/abs/2510.26658"
+        ]
+      },
+      "Rationale": {
+        "text": "This Microsoft research paper explores a novel “Async Think” coordination method where a central agent asynchronously delegates tasks to sub-agents to improve reasoning efficiency. Our analysts found it interesting but overly technical and not yet relevant for most AI leaders focused on practical deployment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Terminal‑Bench 2.0 launches alongside Harbor, a new framework for testing agents in containers",
+        "links": [
+          "https://venturebeat.com/ai/terminal-bench-2-0-launches-alongside-harbor-a-new-framework-for-testing?utm_source=tldrai"
+        ]
+      },
+      "Rationale": {
+        "text": "This launch introduces a standardized testing framework for AI agents and shows GPT-5 leading in performance across benchmarks. Our analysts saw promise in future evaluation tools but agreed this update had limited immediate utility due to its early stage and lack of widespread adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/13/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation",
+        "links": [
+          "https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s new generative model integrates LLMs to better understand ad content and user features, improving ad targeting efficiency fourfold. Despite the technical sophistication, our analysts considered it relevant mainly to hyperscale ad platforms, with limited relevance to most enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Diffusion Report",
+        "links": [
+          "https://www.microsoft.com/en-us/research/wp-content/uploads/2025/10/Microsoft-AI-Diffusion-Report.pdf"
+        ]
+      },
+      "Rationale": {
+        "text": "This comprehensive report from Microsoft maps how generative AI is spreading globally—introducing the “AI User Share” metric and highlighting infrastructure, skills and connectivity as key enablers of adoption. Our analysts emphasized that this is a must‑read for AI leaders looking to expand across regions, because it reframes adoption as a function of foundational readiness not just tool access.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Generative Engine Optimization: How to Dominate AI Search",
+        "links": [
+          "https://arxiv.org/abs/2509.08919"
+        ]
+      },
+      "Rationale": {
+        "text": "The research paper discusses how AI search engines differ from traditional web search and offers a new strategic framework for visibility in AI‑driven content and answer engines. Analysts noted it is crucial for leaders to understand how AI search changes citation, brand visibility, and content strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Anthropic Is on Track to Turn a Profit Much Faster Than OpenAI",
+        "links": [
+          "https://www.wsj.com/tech/ai/openai-anthropic-profitability-e9f5bcd6"
+        ]
+      },
+      "Rationale": {
+        "text": "The article outlines how Anthropic is positioning for profitability faster than OpenAI by focusing on enterprise use cases and tighter cost control. Analysts said it’s useful for understanding vendor strategy, though somewhat speculative.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Omnilingual ASR: Advancing Automatic Speech Recognition for 1,600+ Languages",
+        "links": [
+          "https://ai.meta.com/blog/omnilingual-asr-advancing-automatic-speech-recognition"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s announcement showcases ASR covering 1,600+ languages, expanding multilingual AI opportunities. Analysts found it significant for global markets but still a product announcement, making it Important rather than Essential.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "How Clario Automates Clinical Research Analysis Using Generative AI on AWS",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-clario-automates-clinical-research-analysis-using-generative-ai-on-aws/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study shows how clinical research organizations use generative AI on AWS while addressing governance and compliance. Analysts found it valuable for regulated sectors but not groundbreaking.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/12/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "KPMG Wants Junior Consultants to Ditch the Grunt Work and Hand It Over to Teams of AI Agents",
+        "links": [
+          "https://finance.yahoo.com/news/kpmg-wants-junior-consultants-ditch-215410229.html"
+        ]
+      },
+      "Rationale": {
+        "text": "KPMG is equipping junior consultants with AI agents to reduce routine work. Analysts saw it as part of broader automation trends but offering limited new insight, making it Optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "The state of AI in 2025: Agents, innovation, and transformation",
+        "links": [
+          "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
+        ]
+      },
+      "Rationale": {
+        "text": "This global McKinsey survey of nearly 2,000 executives reveals a widening performance gap between organizations leading in AI and those lagging, with high performers reorganizing around AI to drive innovation and revenue growth. Our analysts emphasized that adoption alone is not enough—success requires workflow redesign, cross-functional implementation, and executive role modeling to scale and sustain AI impact.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Workers Don’t Trust AI. Here’s How Companies Can Change That.",
+        "links": [
+          "https://hbr.org/2025/11/workers-dont-trust-ai-heres-how-companies-can-change-that?utm_medium=email&utm_source=newsletter_daily&utm_campaign=dailyalert_&deliveryName=NL_DailyAlert_20251110"
+        ]
+      },
+      "Rationale": {
+        "text": "This article presents real-world examples from major enterprises like IKEA and Colgate on how to build employee trust in AI through co-creation, upskilling, and measurement frameworks. Our analysts agreed trust is a key adoption barrier, but debated the novelty and actionability of the article’s recommendations, landing on important rather than essential.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "From Words to Worlds: Spatial Intelligence is AI’s Next Frontier",
+        "links": [
+          "https://a16z.substack.com/p/from-words-to-worlds-spatial-intelligence?utm_source=post-email-title&publication_id=13145&post_id=178308857&utm_campaign=email-post-title&isFreemail=true&r=1v3zy&triedRedirect=true&utm_medium=email"
+        ]
+      },
+      "Rationale": {
+        "text": "Fei-Fei Li introduces spatial intelligence and interactive world models as the next paradigm shift beyond current language- and text-based models. Our analysts noted that while early and not yet widely applied, these ideas will shape future AI capabilities—especially in robotics, simulation, and embodied cognition.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "The Era of Agentic Organization: Learning to Organize with Language Models",
+        "links": [
+          "https://arxiv.org/abs/2510.26658"
+        ]
+      },
+      "Rationale": {
+        "text": "This Microsoft research paper explores a novel “Async Think” coordination method where a central agent asynchronously delegates tasks to sub-agents to improve reasoning efficiency. Our analysts found it interesting but overly technical and not yet relevant for most AI leaders focused on practical deployment.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Terminal‑Bench 2.0 launches alongside Harbor, a new framework for testing agents in containers",
+        "links": [
+          "https://venturebeat.com/ai/terminal-bench-2-0-launches-alongside-harbor-a-new-framework-for-testing?utm_source=tldrai"
+        ]
+      },
+      "Rationale": {
+        "text": "This launch introduces a standardized testing framework for AI agents and shows GPT-5 leading in performance across benchmarks. Our analysts saw promise in future evaluation tools but agreed this update had limited immediate utility due to its early stage and lack of widespread adoption.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/11/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation",
+        "links": [
+          "https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s new generative model integrates LLMs to better understand ad content and user features, improving ad targeting efficiency fourfold. Despite the technical sophistication, our analysts considered it relevant mainly to hyperscale ad platforms, with limited relevance to most enterprise AI leaders.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/10/2025",
         "links": []
       },
@@ -639,367 +999,7 @@
         "text": "The article argues that despite the spotlight on big LLMs, many companies are actually relying on smaller models to drive operational workflows and agentic systems. Our analysts noted the topic is meaningful for AI leaders, but critiqued the piece for lacking clear definitions and concrete examples of small language models, making it less actionable.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "11/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Aardvark: OpenAI’s agentic security researcher",
-        "links": [
-          "https://openai.com/index/introducing-aardvark/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI’s new agent “Aardvark” applies generative AI to autonomously scan, detect and help fix software vulnerabilities—bringing AI into cybersecurity automation. While the use case is compelling and highlights AI in security, our analysts felt the announcement so far is more packaging of existing tools than a fully proven platform, so its broader relevance remains tentative.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Say Goodbye to AI Image Hallucinations, Thanks to Canva’s New Design Model",
-        "links": [
-          "https://www.cnet.com/tech/services-and-software/say-goodbye-to-ai-image-hallucinations-thanks-to-canvas-new-design-model/"
-        ]
-      },
-      "Rationale": {
-        "text": "Canva’s new foundational “design model” introduces editable layers and design‑format awareness—aiming to reduce image hallucinations and improve usability for creators. Our analysts saw this as a nice product update (AI in design workflows) but relatively incremental and narrow in scope for enterprise AI strategy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Clario streamlines clinical trial software configurations using Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/clario-streamlines-clinical-trial-software-configurations-using-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "Clario leveraged Amazon Bedrock to automate extraction of trial configuration data, document generation, and XML build workflows in the regulated clinical trial domain—showcasing AI in life sciences and compliance. Our analysts found the case study useful for the unstructured‑data + AI pipeline narrative but felt the lack of quantifiable outcomes held it back from being rated higher.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Chronograph scales operations and accelerates decision‑making with Claude",
-        "links": [
-          "https://www.claude.com/customers/chronograph"
-        ]
-      },
-      "Rationale": {
-        "text": "Chronograph uses Claude Enterprise to power portfolio and investment analytics via Model Context Protocol (MCP) connectors—demonstrating AI’s role in finance and private‑capital orchestration. Our analysts noted this is a compelling financial‑services use case, but since it’s one company’s story without broad metrics and implementation details, it remains optional.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "When Brands Meet AI Bots: Customer Experience in the Era of Agents",
-        "links": [
-          "https://www.bcg.com/ja-jp/publications/2025/when-brands-meet-ai-bots-cx-in-the-era-of-agents"
-        ]
-      },
-      "Rationale": {
-        "text": "This article outlines how brands must rethink customer‑experience strategies as users increasingly engage through third‑party AI agents and virtual bots. Our analysts highlighted how brands like L’Oréal (via their “Beauty Genius” assistant) are proactively building their own agents and optimizing for “answer‑engine optimization” as these AI bots become entry‑points to consumers — making this important reading for AI business leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Steuerrecht.com Delivers Faster, Client‑Ready Legal Analysis with ChatGPT Business",
-        "links": [
-          "https://openai.com/index/steuerrecht/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study shows how a small German law‑firm used ChatGPT Business to transform their legal workflow—reducing hours of client‑work, leveraging GenAI for research and drafting, and maintaining GDPR‑compliance. Our analysts emphasized that AI automation not only saved hours per week but also enabled the firm to handle more clients and scale revenue, providing a concrete example of AI-driven business growth in a service sector providing actionable insights for enterprise AI adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing SWE‑1.5: Our Fast Agent Model",
-        "links": [
-          "https://cognition.ai/blog/swe-1-5"
-        ]
-      },
-      "Rationale": {
-        "text": "The agent‑optimized model from Cognition AI is a purpose‑built large‑language model for software‑engineering tasks — with sub‑agents, parallel code execution, and performance boosts of 4.5×–13× versus previous systems. Our team discussion underscored how such “agentic” models are rapidly impacting code productivity and therefore merit close attention from AI‑leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Thermodynamic Computing: From Zero to One",
-        "links": [
-          "https://extropic.ai/writing/thermodynamic-computing-from-zero-to-one"
-        ]
-      },
-      "Rationale": {
-        "text": "Extropic AI presents a paradigm shift: a thermodynamic sampling unit (TSU) hardware architecture that bypasses traditional matrix‑multiplication heavy AI inference in favour of probabilistic sampling, promising orders‑of‑magnitude energy efficiency. Our analysts rated this as early‑stage research—exciting for innovation but not yet ready for mainstream AI strategy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "IBM’s Open Source Granite 4.0 Nano AI Models Are Small Enough to Run Locally Directly in Your Browser",
-        "links": [
-          "https://venturebeat.com/ai/ibms-open-source-granite-4-0-nano-ai-models-are-small-enough-to-run-locally"
-        ]
-      },
-      "Rationale": {
-        "text": "This announcement from IBM introduces ultra‑small open‑source models capable of running in browsers or on local devices, championing decentralised and privacy‑preserving AI inference. While interesting, our analysts noted this segment is crowded and has not yet seen solid use cases, making it less immediate for strategic AI investments.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/31/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Remote Labor Index: Measuring AI Automation of Remote Work",
-        "links": [
-          "https://www.remotelabor.ai/paper.pdf"
-        ]
-      },
-      "Rationale": {
-        "text": "This report gauges how many remote‑work tasks can be fully automated by AI today—finding very low percentages (e.g., ~3 %) despite hype around AI job replacement. Our analysts argued that the framing is artificial and that true value lies in human‑AI symbiosis rather than direct automation, making this reading more for context than action.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI completes for-profit restructuring and grants Microsoft a 27% stake in the company",
-        "links": [
-          "https://fortune.com/2025/10/28/openai-for-profit-restructuring-microsoft-stake/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI’s shift to a for-profit (public benefit) structure and the deal with Microsoft (27% stake) mark a major inflection in how AI commercialization and large-language-model development will be governed and funded. Our analysts noted that this move has “profound implications on how your company’s thinking about sourcing intelligence … for the next three or four years,” which makes it essential for AI leaders to be aware of.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Amplitude AI Visibility: The New Way to Monitor What AI Says About You",
-        "links": [
-          "https://www.amplitude.com/blog/ai-visibility-launch?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Amplitude’s new AI Visibility platform stands out by not only tracking how brands appear across AI-driven search and generative assistants but also by translating these analytics into measurable business statistics and actionable insights. Our analysts noted that its ability to help companies act on what AI systems say—closing the loop between brand perception, performance data, and reputation management—pushes it beyond typical monitoring tools, making it an Important development for AI leaders to follow.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "PayPal signs deal with OpenAI to become the first payments wallet in ChatGPT",
-        "links": [
-          "https://www.cnbc.com/2025/10/28/paypal-openai-chatgpt-payments-deal.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This partnership between PayPal and OpenAI signals further commercial monetization of ChatGPT via embedded payments. However, analysts viewed it as an extension of OpenAI’s already-announced commerce positioning, with more payment options expected to follow—making it an incremental update rather than a transformative shift at this stage.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Emergent Introspective Awareness in Large Language Models",
-        "links": [
-          "https://transformer-circuits.pub/2025/introspection/index.html"
-        ]
-      },
-      "Rationale": {
-        "text": "The article reports on new research about large language models’ ability to introspect/manipulate internal activations; it offers deep technical insight into AI and LLMs. However, our analysts agreed that the practical significance right now is limited, so it remains optional for AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Cursor 2.0 and Composer",
-        "links": [
-          "https://cursor.com/blog/2-0?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "Cursor 2.0 introduces faster execution speeds and a streamlined coding experience through its new Composer feature, aimed at enhancing productivity in AI-assisted software development. While Cursor was an early leader in this space, it now faces growing competition from Claude and OpenAI’s Codex, which are beginning to take the lead.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/30/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "The Blueprint: How Giles AI transforms medical research with conversational AI",
-        "links": [
-          "https://cloud.google.com/blog/products/ai-machine-learning/the-blueprint-giles-ai-transforming-medical-research-conversational-generative-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "The case study from Google explores generative-AI and conversational AI applied to medical research (AI in healthcare vertical) and shows early productivity gains. However, as our analysts pointed out, the business/ROI impact is still unclear, so it remains optional.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Accountable Acceleration: Gen AI Fast‑Tracks Into the Enterprise",
-        "links": [
-          "https://knowledge.wharton.upenn.edu/special-report/2025-ai-adoption-report/"
-        ]
-      },
-      "Rationale": {
-        "text": "The Wharton School’s 2025 AI Adoption Report outlines how enterprises have progressed from experimentation to measurable deployment of generative AI, with strong ROI and executive accountability now becoming the norm. Our analysts unanimously agreed it’s data-rich, deeply strategic, and crucial for AI leaders seeking benchmarks for organizational AI maturity and implementation.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "10/29/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI’s Less-Flashy Rival Might Have a Better Business Model",
-        "links": [
-          "https://archive.md/qVZ31"
-        ]
-      },
-      "Rationale": {
-        "text": "This article contrasts OpenAI’s broad, consumer-focused strategy with Anthropic’s targeted push into enterprise via Claude, which now rivals or exceeds OpenAI in some B2B segments. Our analysts emphasized the strategic relevance of Anthropic’s growing market share, Microsoft partnership, and domain-specific offerings in life sciences and finance.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-14T00:58:25.928331+00:00"
+  "timestamp": "2025-11-14T08:18:37.256443+00:00"
 }
