@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Companies Begin to See a Return on AI Agents",
+        "links": [
+          "https://www.wsj.com/articles/companies-begin-to-see-a-return-on-ai-agents-671d830d"
+        ]
+      },
+      "Rationale": {
+        "text": "This piece from The Wall Street Journal showcases real-world deployment of AI agents at major companies and how they’re starting to deliver measurable business outcomes — a strong signal for Agentic AI in production. Examples include agent designers at Walmart and hundreds of “digital employees” at BNY, a financial service provider. Our analysts emphasized “forwardability” of the article (i.e., this is something you send to your CFO) and that it’s a compelling example for enterprise AI leaders about AI agents and AI-driven workforces.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI21 Maestro’s Accuracy Fix for RAG’s Blind Spots",
+        "links": [
+          "https://www.ai21.com/blog/structured-rag-enterprise-accuracy/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article describes how AI21 Labs is improving retrieval-augmented-generation (RAG) by structuring data into SQL-style formats to deliver higher accuracy in enterprise use cases — tackling one of the major pain points in AI automation. Our analysts highlighted this as “critical” for AI leaders who are using company documents in chatbots and need reliable outputs (and noted it’s “one of the major ways to combat hallucinations”).",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Search Wars: Episode 2",
+        "links": [
+          "https://a16z.substack.com/p/search-wars-episode-2"
+        ]
+      },
+      "Rationale": {
+        "text": "This newsletter by Andreessen Horowitz explores how web search is evolving into “inference/answer engine wars” where large language models and agents are disrupting the traditional search landscape. Our analysts felt it gave good historical context and raised the question of market structure change — which is important for anyone thinking about AI search, generative AI in search, or AI in discovery to understand.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "SIMA 2: An Agent that Plays, Reasons, and Learns With You in Virtual 3D Worlds",
+        "links": [
+          "https://deepmind.google/blog/sima-2-an-agent-that-plays-reasons-and-learns-with-you-in-virtual-3d-worlds/"
+        ]
+      },
+      "Rationale": {
+        "text": "In this blog post, DeepMind introduces its next-gen agent that can perceive a virtual 3D world, understand natural language goals, plan actions and execute them — moving beyond chatbots into embodied agents. Our analysts flagged this as significant for understanding the future of agents and environments, and hence important for AI strategy (even if not yet immediately actionable).",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Companies Don’t Have a Profitable Business Model. Does That Matter?",
+        "links": [
+          "https://hbr.org/2025/11/ai-companies-dont-have-a-profitable-business-model-does-that-matter"
+        ]
+      },
+      "Rationale": {
+        "text": "This Harvard Business Review article questions whether the current business model for AI companies is sustainable, given heavy investments in training and uncertain profitability. Our analysts were critical: they saw it as speculative, lacking depth on economics, and hence optional reading for most enterprise AI leaders right now.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/14/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Project Fetch: Can Claude Train a Robot Dog?",
+        "links": [
+          "https://www.anthropic.com/research/project-fetch-robot-dog"
+        ]
+      },
+      "Rationale": {
+        "text": "This research update from Anthropic recounts an experiment where their model Claude helps train a robot dog in simulation. While interesting and fun for robotics/agent enthusiasts, our analysts judged it as early-stage research and less immediately applicable for the typical enterprise AI deployment scenario — hence optional.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/13/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This article outlines how geopolitical shifts and changes in the compute stack — including domestic silicon and CUDA alternatives — are reorganizing the infrastructure behind generative AI and large language model deployment. Our analysts emphasized that executives must grasp this now, as optimization between chips, models, and applications is the foundation of long-term AI strategy.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "11/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Is Co‑Writing Financial Reports. Here’s Why That Matters.",
-        "links": [
-          "https://www.wsj.com/articles/ai-is-co-writing-financial-reports-heres-why-that-matters-6c0ce0af"
-        ]
-      },
-      "Rationale": {
-        "text": "AI is being used to generate portions of corporate earnings reports, marking a shift in AI-driven content creation and the intersection of AI in finance. Our analysts saw this as a real-world application that matters to every board, especially around compliance, trust, and transparency in financial communications.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Agents Rule of Two: A Practical Approach to AI Agent Security",
-        "links": [
-          "https://ai.meta.com/blog/practical-ai-agent-security"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta proposes a 'Rule of Two' framework to mitigate prompt injection risk by limiting how many sensitive capabilities an autonomous AI agent can access. Our analysts felt the approach is straightforward and not groundbreaking, but agreed it’s a necessary and practical read for AI security awareness as agentic AI expands.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "OpenAI and Amazon ink $38 B cloud computing deal",
-        "links": [
-          "https://techcrunch.com/2025/11/03/openai-and-amazon-ink-38b-cloud-computing-deal/"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI’s $38 billion commitment to AWS underscores how massive compute requirements continue to drive strategic partnerships in the AI landscape. Our analysts saw this as a necessary update for AI leaders to stay informed on infrastructure dynamics, even though the broader implications were previously signaled when OpenAI shifted to for-profit status.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/04/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Google’s First AI Ad Avoids the Uncanny Valley by Casting a Turkey",
-        "links": [
-          "https://www.wsj.com/articles/googles-first-ai-ad-avoids-the-uncanny-valley-by-casting-a-turkey-dafd3662?mod=rss_Technology"
-        ]
-      },
-      "Rationale": {
-        "text": "Google used its Veo 3 generative model to create an ad starring an animated turkey to sidestep uncanny realism, showcasing AI in marketing creativity. Our team found the piece charming but not strategically important, labeling it more of a curiosity than a must-read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI researchers ’embodied’ an LLM into a robot – and it started channeling Robin Williams",
-        "links": [
-          "https://techcrunch.com/2025/11/01/ai-researchers-embodied-an-llm-into-a-robot-and-it-started-channeling-robin-williams/"
-        ]
-      },
-      "Rationale": {
-        "text": "In a playful experiment by Andon Labs, a vacuum robot was equipped with a large language model and tasked with mundane prompts (like “pass the butter”), revealing comical behavior and existential crisis logs. Our analysts appreciated the entertainment value but concluded the takeaway for AI practitioners is limited, so it sits in the “optional” bucket but it is a fun read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/03/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Large Language Models Get All the Hype, but Small Models Do the Real Work",
-        "links": [
-          "https://archive.is/B1sEt#selection-559.0-559.73"
-        ]
-      },
-      "Rationale": {
-        "text": "The article argues that despite the spotlight on big LLMs, many companies are actually relying on smaller models to drive operational workflows and agentic systems. Our analysts noted the topic is meaningful for AI leaders, but critiqued the piece for lacking clear definitions and concrete examples of small language models, making it less actionable.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-15T08:15:46.961014+00:00"
+  "timestamp": "2025-11-15T16:14:05.404156+00:00"
 }
