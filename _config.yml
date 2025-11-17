@@ -137,7 +137,7 @@ feeds:
 - name: "Ted Tschopp's Digital Exhaust"
   aggregated: true
   key: aggregated_teds_digital_exhaust
-  enabled: true
+  enabled: false
   output: "/aggregated_teds_digital_exhaust.xml"
   url: "/aggregated_teds_digital_exhaust.xml"
   title: "Ted Tschopp's Digital Exhaust"
