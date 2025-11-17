@@ -70,7 +70,9 @@ class: home-template
         document.addEventListener('DOMContentLoaded', arguments.callee, {once:true});
         return;
     }
-    const feeds = {{ site.feeds | jsonify }};
+    const allFeeds = {{ site.feeds | jsonify }};
+    // Filter to only enabled feeds (skip feeds with enabled: false)
+    const feeds = allFeeds.filter(f => f.enabled !== false);
     // Showing all items (preview limit removed as per request)
     function esc(s){return (s||'').replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"}[c]||c));}
     function parseItems(xml){
