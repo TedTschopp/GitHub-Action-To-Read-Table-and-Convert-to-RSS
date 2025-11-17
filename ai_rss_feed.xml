@@ -7,7 +7,14 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 17 Nov 2025 00:58:29 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 17 Nov 2025 08:19:06 +0000</lastBuildDate>
+    <item>
+      <title>AI Is Co‑Writing Financial Reports. Here’s Why That Matters. [ ! ]</title>
+      <link>https://www.wsj.com/articles/ai-is-co-writing-financial-reports-heres-why-that-matters-6c0ce0af</link>
+      <description>AI is being used to generate portions of corporate earnings reports, marking a shift in AI-driven content creation and the intersection of AI in finance. Our analysts saw this as a real-world application that matters to every board, especially around compliance, trust, and transparency in financial communications.</description>
+      <guid isPermaLink="false">bee1d1be07fd45000100d76a083f8d66</guid>
+      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>On the Shifting Global Compute Landscape [ ! ]</title>
       <link>https://huggingface.co/blog/huggingface/shifting-compute-landscape</link>
@@ -307,13 +314,6 @@
       <link>https://hbr.org/2025/11/workers-dont-trust-ai-heres-how-companies-can-change-that?utm_medium=email&amp;utm_source=newsletter_daily&amp;utm_campaign=dailyalert_&amp;deliveryName=NL_DailyAlert_20251110</link>
       <description>This article presents real-world examples from major enterprises like IKEA and Colgate on how to build employee trust in AI through co-creation, upskilling, and measurement frameworks. Our analysts agreed trust is a key adoption barrier, but debated the novelty and actionability of the article’s recommendations, landing on important rather than essential.</description>
       <guid isPermaLink="false">333f37c4a9c3b1ad3a930151ab02a595</guid>
-      <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The state of AI in 2025: Agents, innovation, and transformation [ ! ]</title>
-      <link>https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai</link>
-      <description>This global McKinsey survey of nearly 2,000 executives reveals a widening performance gap between organizations leading in AI and those lagging, with high performers reorganizing around AI to drive innovation and revenue growth. Our analysts emphasized that adoption alone is not enough—success requires workflow redesign, cross-functional implementation, and executive role modeling to scale and sustain AI impact.</description>
-      <guid isPermaLink="false">4ac89cb5e88dc18d1b357abcc1bedb4a</guid>
       <pubDate>Thu, 13 Nov 2025 00:00:00 +0000</pubDate>
     </item>
     <item>

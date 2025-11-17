@@ -126,26 +126,6 @@
         "links": []
       },
       "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "The state of AI in 2025: Agents, innovation, and transformation",
-        "links": [
-          "https://www.mckinsey.com/capabilities/quantumblack/our-insights/the-state-of-ai"
-        ]
-      },
-      "Rationale": {
-        "text": "This global McKinsey survey of nearly 2,000 executives reveals a widening performance gap between organizations leading in AI and those lagging, with high performers reorganizing around AI to drive innovation and revenue growth. Our analysts emphasized that adoption alone is not enough—success requires workflow redesign, cross-functional implementation, and executive role modeling to scale and sustain AI impact.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/13/2025",
-        "links": []
-      },
-      "Rating": {
         "text": "Important",
         "links": []
       },
@@ -999,7 +979,27 @@
         "text": "This article outlines how geopolitical shifts and changes in the compute stack — including domestic silicon and CUDA alternatives — are reorganizing the infrastructure behind generative AI and large language model deployment. Our analysts emphasized that executives must grasp this now, as optimization between chips, models, and applications is the foundation of long-term AI strategy.",
         "links": []
       }
+    },
+    {
+      "Date": {
+        "text": "11/04/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "AI Is Co‑Writing Financial Reports. Here’s Why That Matters.",
+        "links": [
+          "https://www.wsj.com/articles/ai-is-co-writing-financial-reports-heres-why-that-matters-6c0ce0af"
+        ]
+      },
+      "Rationale": {
+        "text": "AI is being used to generate portions of corporate earnings reports, marking a shift in AI-driven content creation and the intersection of AI in finance. Our analysts saw this as a real-world application that matters to every board, especially around compliance, trust, and transparency in financial communications.",
+        "links": []
+      }
     }
   ],
-  "timestamp": "2025-11-17T00:59:51.466271+00:00"
+  "timestamp": "2025-11-17T08:20:25.684059+00:00"
 }
