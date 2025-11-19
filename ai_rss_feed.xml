@@ -7,126 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 19 Nov 2025 08:17:01 +0000</lastBuildDate>
-    <item>
-      <title>AI Is Co‑Writing Financial Reports. Here’s Why That Matters. [ ! ]</title>
-      <link>https://www.wsj.com/articles/ai-is-co-writing-financial-reports-heres-why-that-matters-6c0ce0af</link>
-      <description>AI is being used to generate portions of corporate earnings reports, marking a shift in AI-driven content creation and the intersection of AI in finance. Our analysts saw this as a real-world application that matters to every board, especially around compliance, trust, and transparency in financial communications.</description>
-      <guid isPermaLink="false">bee1d1be07fd45000100d76a083f8d66</guid>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>On the Shifting Global Compute Landscape [ ! ]</title>
-      <link>https://huggingface.co/blog/huggingface/shifting-compute-landscape</link>
-      <description>This article outlines how geopolitical shifts and changes in the compute stack — including domestic silicon and CUDA alternatives — are reorganizing the infrastructure behind generative AI and large language model deployment. Our analysts emphasized that executives must grasp this now, as optimization between chips, models, and applications is the foundation of long-term AI strategy.</description>
-      <guid isPermaLink="false">1005bb5ad026db53f79f4b3cbf6c5d07</guid>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>As AI Reshapes the Job Market, Here Are 16 Roles It Has Created [ ! ]</title>
-      <link>https://www.washingtonpost.com/business/2025/10/29/ai-new-jobs/</link>
-      <description>This article catalogues 16 real job roles created by AI across major companies, showcasing how AI is actively reshaping the workforce. Our analysts stressed this is an essential read for AI leaders, talent planners, and executives thinking about upskilling and organizational design.</description>
-      <guid isPermaLink="false">e7263dc2355d2ea152cf5f97f1300934</guid>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Forget Fine‑Tuning: SAP’s RPT‑1 Brings Ready‑to‑Use AI for Business Tasks [ ~ ]</title>
-      <link>https://venturebeat.com/ai/forget-fine-tuning-saps-rpt-1-brings-ready-to-use-ai-for-business-tasks</link>
-      <description>This article covers SAP’s release of RPT‑1, a relational (“tabular”) foundation model aimed at business‑data tasks out of the box (e.g., spreadsheets, transactional data) rather than typical LLM fine‑tuning. While potentially interesting, our analysts judged it as early in market impact and less directly actionable for many AI leaders now.</description>
-      <guid isPermaLink="false">0921b96b69e5891803a8e14aa1978a25</guid>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>SmarterX leans on Google Cloud to deliver custom LLMs for its customers [ ~ ]</title>
-      <link>https://cloud.google.com/blog/products/data-analytics/smarterx-uses-google-ai-and-data-tools-to-build-custom-llms</link>
-      <description>A vendor‑case study of SmarterX and Google Cloud building customised LLM solutions using BigQuery, Gemini and Vertex AI. While it describes an applied workflow (custom LLMs for compliance‑heavy use cases), our analysts considered it mostly a vendor narrative with no detail on implementation and results, thus less strategic for many enterprise AI initiatives.</description>
-      <guid isPermaLink="false">a0bad5d705401a0de7609528c5aae97d</guid>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>GEN‑0 / Embodied Foundation Models That Scale with Physical Interaction [ ~ ]</title>
-      <link>https://generalistai.com/blog/nov-04-2025-GEN-0</link>
-      <description>Describes a research initiative around embodied foundation models trained on real‑world manipulation trajectories rather than just code/vision. Our analysts recognised the novelty (especially the “enough data” issue in robotics) but viewed it as still early and less relevant for many AI leaders right now.</description>
-      <guid isPermaLink="false">e2d7c83bf5e50b2f38d5714b4c0eec27</guid>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Intelligent robotics: the new era of physical AI [ ~ ]</title>
-      <link>https://www.bvp.com/atlas/intelligent-robotics-the-new-era-of-physical-ai</link>
-      <description>This article from Bessemer Venture Partners frames “physical AI” and robotics covers five trends propelling robotics forward, - labour shortages, stronger vision‑LLMs, edge computing, hardware stacks and talent flow into robotics startups. While it offers a broad investment‑focused overview of robotics trends, our analysts rated it optional because robotics remains a somewhat niche priority for many enterprise AI leaders at present.</description>
-      <guid isPermaLink="false">7878edb68f27d547aa35cdf26e0a2194</guid>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Codemaps: Understand Code, Before You Vibe It [ * ]</title>
-      <link>https://cognition.ai/blog/codemaps</link>
-      <description>The article introduces Codemaps by Cognition — an AI‑tool that maps large codebases and generates structured “maps” so human engineers and AI agents can collaborate with a shared understanding of system structure. Our analysts noted this innovation tackles the growing problem of “vibe‑coding” (AI‑generated code without full code structure context awareness) and is a tool enterprise AI teams should pilot now, even if it’s still early in adoption.</description>
-      <guid isPermaLink="false">c08851a67d166ec6eb1cedca215bbd4d</guid>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>How Switchboard MD automates real‑time call transcription in clinical contact centers with Amazon Nova Sonic [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/how-switchboard-md-automates-real-time-call-transcription-in-clinical-contact-centers-with-amazon-nova-sonic/</link>
-      <description>This case study describes how Switchboard MD uses Amazon Nova Sonic (alongside other AWS services) to process real‑time transcription in high‑volume healthcare contact centers, thereby cutting claim‑handling costs by 80‑90% and addressing a major enterprise‑AI challenge around audio‑intensive workflows. Our analysts highlighted this as a high‑impact, production‑grade deployment of AI in a complex, regulated domain (healthcare + contact center), making it broadly applicable and important for enterprise AI leaders.</description>
-      <guid isPermaLink="false">453ca28165ea0304960b28c5d6785230</guid>
-      <pubDate>Wed, 05 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>The Benefits of Bubbles [ ~ ]</title>
-      <link>https://stratechery.com/2025/the-benefits-of-bubbles/</link>
-      <description>This article revisits the idea that ‘bubbles’ of investment and innovation — such as those around AI — are beneficial because they drive exploration and breakthroughs. Analysts found the concept thought‑provoking but speculative and less directly tied to actionable AI strategy.</description>
-      <guid isPermaLink="false">32b2aedbbda175c77bf9e6f65ba32d0b</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Magentic Marketplace: an open‑source simulation environment for studying agentic markets [ ~ ]</title>
-      <link>https://www.microsoft.com/en-us/research/blog/magentic-marketplace-an-open-source-simulation-environment-for-studying-agentic-markets/</link>
-      <description>This research from Microsoft Research introduces an open‑source simulation for agentic markets, allowing study of AI agents interacting in economic environments. While interesting, our analysts judged it as more academic than immediately actionable for many practitioners.</description>
-      <guid isPermaLink="false">c7d279b9179bf149304c89a39b0b3132</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>L’Oréal advances conversational analytics with Claude [ * ]</title>
-      <link>https://www.claude.com/customers/loreal</link>
-      <description>This case study shows how L’Oréal is leveraging Claude to orchestrate and build conversational analytics agents enabling employees to query customer‑behavior data directly (99%+ accuracy claimed). Our analysts saw this as an important enterprise adoption story, though lacking implementation details.</description>
-      <guid isPermaLink="false">a2220efde0392267766d4e707a64b0ad</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kosmos: An AI Scientist for Autonomous Discovery [ ! ]</title>
-      <link>https://arxiv.org/abs/2511.02824</link>
-      <description>This research piece presents a system dubbed “Kosmos” that combines multiple specialist AI agents (data‑analysis and literature search) to autonomously pursue scientific discovery and replicate research findings. Our analysts highlighted that it could mark a breakthrough in AI‑driven science and innovation.</description>
-      <guid isPermaLink="false">c2b19ded46cad366358a4476dbfb2add</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Amazon sends legal threats to Perplexity over agentic browsing [ ! ]</title>
-      <link>https://techcrunch.com/2025/11/04/amazon-sends-legal-threats-to-perplexity-over-agentic-browsing/</link>
-      <description>This article covers a major platform vs. AI‑agent conflict: Amazon threatening legal action against Perplexity AI for its “agentic” browsing/shopping tool that acts on behalf of users, raising questions of platform control, AI‑driven commerce, and user choice. Our analysts flagged this as a key battleground in AI agents interacting with commerce platforms with broad implications for future commerce.</description>
-      <guid isPermaLink="false">1e41151ba00f6564ba70cffaa7b105a2</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Can AI Boards Outperform Human Ones? [ ! ]</title>
-      <link>https://hbr.org/2025/11/can-ai-boards-outperform-human-ones</link>
-      <description>This article explores how AI-driven governance may surpass traditional human boards, highlighting that 94% of global CEOs believe AI could outperform at least one board member in decision-making quality. Our analysts concluded that while AI cannot replace human reasoning, the future lies in AI-augmented boards that leverage large language models to synthesize complex information and enhance boardroom effectiveness.</description>
-      <guid isPermaLink="false">f9052c3124d416af0edfbb57efbe61cc</guid>
-      <pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Built World AI [ ~ ]</title>
-      <link>https://www.bvp.com/atlas/roadmap-built-world-ai</link>
-      <description>Bessemer’s roadmap highlights the growth of AI in physical-world sectors like construction, real estate, and logistics, tracking startups and investment trends in “Built World AI.” Our analysts appreciated the strategic framing but felt the article provided minimal detail on how AI is actually being implemented in these industries.</description>
-      <guid isPermaLink="false">65c2363a9543fba51d7850e656663239</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Inside the Data Centers That Train A.I. and Drain the Electrical Grid [ ~ ]</title>
-      <link>https://archive.md/XnF2N</link>
-      <description>This article offers a visual tour of the energy-hungry data centers that power large-scale AI training, raising concerns about the environmental impact of the AI arms race. While striking in tone, the discussion was considered surface-level by our analysts, offering little new information for AI professionals focused on model development or infrastructure optimization.</description>
-      <guid isPermaLink="false">f7be880ae87d1baee05caa053b65aa7f</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Wed, 19 Nov 2025 16:16:36 +0000</lastBuildDate>
     <item>
       <title>From Branches to Bots: Will AI Agents Transform Retail Banking? [ ~ ]</title>
       <link>https://www.bcg.com/publications/2025/branches-to-bots-will-ai-transform-retail-banking</link>
@@ -357,6 +238,125 @@
       <description>This piece from The Wall Street Journal showcases real-world deployment of AI agents at major companies and how they’re starting to deliver measurable business outcomes — a strong signal for Agentic AI in production. Examples include agent designers at Walmart and hundreds of “digital employees” at BNY, a financial service provider. Our analysts emphasized “forwardability” of the article (i.e., this is something you send to your CFO) and that it’s a compelling example for enterprise AI leaders about AI agents and AI-driven workforces.</description>
       <guid isPermaLink="false">deff80ed4c50c7f2d6854177fc3bfbaf</guid>
       <pubDate>Fri, 14 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>When AI Hype Meets AI Reality: A Reckoning in Six Charts [ ~ ]</title>
+      <link>https://www.wsj.com/tech/ai/when-ai-hype-meets-ai-reality-a-reckoning-in-6-charts-bf8043b4?st=m7UXt2&amp;reflink=article_copyURL_share</link>
+      <description>This article highlights the growing mismatch between AI investment hype and the physical and financial constraints of scaling—pointing to power infrastructure limitations, and the economic feasibility of AI deployments based on real‑world revenue projections. While it raises valid macroeconomic and infrastructure concerns, our analysts found the piece speculative and not actionable for AI leaders focused on implementation strategy, thus marking it as optional.</description>
+      <guid isPermaLink="false">b10ba575b1e1e62e84954fe4baf695b2</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Understanding Neural Networks Through Sparse Circuits [ ~ ]</title>
+      <link>https://openai.com/index/understanding-neural-networks-through-sparse-circuits/</link>
+      <description>This research from OpenAI explores interpretability by constraining neural weights (“sparse circuits”) to trace model reasoning. While interesting for researchers, our analysts judged it currently less actionable for enterprise AI deployment or automation strategy.</description>
+      <guid isPermaLink="false">79fbef7550f57c0a4f373a17b4b613eb</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Baidu Unveils ERNIE 5.0 and a Series of AI Applications at Baidu World 2025 [ * ]</title>
+      <link>https://www.prnewswire.com/news-releases/baidu-unveils-ernie-5-0-and-a-series-of-ai-applications-at-baidu-world-2025--ramps-up-global-push-302614531.html?tc=eml_cleartime</link>
+      <description>Baidu’s announcement of ERNIE 5.0 (a text‑image‑audio‑video multimodal model) and other announcements, as well as its global push, underline competition outside the U.S. frontier labs. Our analysts deemed this important for global AI strategy watchers but noted that many of the claims remain unproven in enterprise results.</description>
+      <guid isPermaLink="false">366d54c00f76a1c35572c0d04d6557ff</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Harnessing the Power of Generative AI: Druva’s Multi‑Agent Copilot for Streamlined Data Protection [ ! ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/harnessing-the-power-of-generative-ai-druvas-multi-agent-copilot-for-streamlined-data-protection/</link>
+      <description>This case study outlines how a multi‑agent copilot built on generative‑AI models is being deployed in enterprise data protection workflows—illustrating practical AI automation in action rather than theory. Given the maturity signal and quantitative outcomes in the discussion, our team ranked it essential for AI implementers.</description>
+      <guid isPermaLink="false">7f46d9abe6655a91669bbfccb581a107</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Disrupting the First Reported AI‑Orchestrated Cyber Espionage Campaign [ ! ]</title>
+      <link>https://www.anthropic.com/news/disrupting-AI-espionage</link>
+      <description>The article describes what may be the first large‑scale cyber‑espionage operation in which AI agents executed 80–90% of the attack chain with minimal human oversight—a key development in the “AI security” and “AI threat” domain. Our analysts flagged this as a wake‑up call about the pace of AI automation in cyber‑offense and why organizations must adapt defenses accordingly.</description>
+      <guid isPermaLink="false">ce8b9cef77e663bc58281078794df4e5</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Artificial Analysis State of AI Q3 2025 – Highlights Edition [ ! ]</title>
+      <link>https://artificialanalysis.ai/downloads/state-of-ai/2025/Q3-2025-Artificial-Analysis-State-of-AI-Highlights-Report.pdf</link>
+      <description>This quarterly report offers a comprehensive overview of frontier model and multimodal (image, video, speech) innovation across the AI stack, including benchmark data and market‑maps. Our analysts highlighted how it condenses many emerging trends—vertical integration, agentic workflows, token‑economics—making it a must‑read for AI leaders.</description>
+      <guid isPermaLink="false">5ad0c28297caa381020ae3b78116629d</guid>
+      <pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Neuro Drives National Retail Wins with ChatGPT Business [ ~ ]</title>
+      <link>https://openai.com/index/neurogum/</link>
+      <description>This case study shows Neuro using ChatGPT Business for ideation, marketing, legal drafting, and analysis. Analysts found it illustrative but promotional and light on technical depth.</description>
+      <guid isPermaLink="false">dc3db2a0ee4405d787874f98e06621f8</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Inside LinkedInâ€™s generative AI cookbook: How it scaled people search to 1.3 billion users [ * ]</title>
+      <link>https://venturebeat.com/ai/inside-linkedins-generative-ai-cookbook-how-it-scaled-people-search-to-1-3</link>
+      <description>LinkedIn shares how it layered generative AI into its search architecture for 1.3B users, combining ML with LLMs. Analysts viewed it as a helpful example of phased hybrid-AI deployment despite limited technical depth.</description>
+      <guid isPermaLink="false">6cb2ebca90242912806f124370b23313</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Intelligence Per Watt: A Study of Local Intelligence Efficiency [ * ]</title>
+      <link>https://hazyresearch.stanford.edu/blog/2025-11-11-ipw</link>
+      <description>Stanford research highlights the rise of small, energy-efficient AI models suited for sustainability and edge computing. Analysts saw this trend as key for future architecture planning amid compute and power constraints.</description>
+      <guid isPermaLink="false">c82c4c46379b8736716c6f0e06432a4e</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agentic AI in Retail: How Autonomous Shopping Is Redefining the Customer Journey [ * ]</title>
+      <link>https://www.bain.com/insights/agentic-ai-in-retail-how-autonomous-shopping-redefining-customer-journey/</link>
+      <description>Bain explores how agentic AI reshapes e-commerce via autonomous shopping agents and personalized digital experiences. Analysts emphasized its strategic importance as AI-driven referrals grow and retailers shift toward AI-powered services.</description>
+      <guid isPermaLink="false">9b57efda42632da4cbe16dae37192099</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building The Intent Engine: How Instacart is Revamping Query Understanding with LLMs [ ! ]</title>
+      <link>https://tech.instacart.com/building-the-intent-engine-how-instacart-is-revamping-query-understanding-with-llms-3ac8051ae7ac</link>
+      <description>Instacart has overhauled its product search using large language models to rewrite ambiguous queries, resulting in fewer zero-result searches and improved shopping experiences. Analysts noted this demonstrates a shift from chatbot interfaces to backend AI infrastructure for large catalogs.</description>
+      <guid isPermaLink="false">598153313bdf2f3411d076fcdac09ac5</guid>
+      <pubDate>Tue, 18 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Grok 4.1 [ * ]</title>
+      <link>https://x.ai/news/grok-4-1</link>
+      <description>Grok 4.1 is now a top-performing model on major LLM benchmarks, posing a competitive alternative to OpenAI, Google and Anthropic. Analysts noted adoption may remain limited without a robust enterprise development ecosystem, despite strong technical performance.</description>
+      <guid isPermaLink="false">3a16c0a8a3f843cf4f6d7b6e024bb41e</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Three Years from GPT‑3 to Gemini 3 [ * ]</title>
+      <link>https://www.oneusefulthing.org/p/three-years-from-gpt-3-to-gemini</link>
+      <description>This retrospective highlights the evolution from GPT‑3 to Gemini 3, showing how AI shifted from simple text generation to complex agentic workflows. Analysts found it an important educational piece for understanding rapid AI capability progression.</description>
+      <guid isPermaLink="false">e5e6d676504bbe87caba71342a98f061</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Google Antigravity, a New Era in AI‑Assisted Software Development [ * ]</title>
+      <link>https://antigravity.google/blog/introducing-google-antigravity</link>
+      <description>Google’s Antigravity IDE introduces an agent‑first development environment that merges code generation, agent orchestration, and supervision. Analysts marked it important but not essential because it is still early-stage and mainly relevant to developer workflows.</description>
+      <guid isPermaLink="false">14d92c1c0147638c50dd30393a3ebc4e</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft Ignite 2025: Copilot and agents built to power the frontier firm [ ! ]</title>
+      <link>https://www.microsoft.com/en-us/microsoft-365/blog/2025/11/18/microsoft-ignite-2025-copilot-and-agents-built-to-power-the-frontier-firm/</link>
+      <description>Microsoft introduced its 'Frontier Firm' vision — human‑led, agent‑operated, and AI‑orchestrated enterprises — powered by new Copilot capabilities, agent factories, WorkIQ and Agent 365. Analysts highlighted this as a pivotal shift from experimentation to fully integrated AI infrastructure.</description>
+      <guid isPermaLink="false">b27d26ea1c5d4e56b1e75dde8700c93c</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Amazon Is Using Generative and Agentic AI To Transform the Shopping Experience [ ! ]</title>
+      <link>https://www.aboutamazon.com/news/retail/amazon-agentic-ai-gen-ai-shopping</link>
+      <description>Amazon is deploying generative and multi‑agent AI across e‑commerce workflows — including 'buy for me' agents and smart summarization — showing how agentic AI will redefine retail operations. Analysts called it essential for its concrete preview of AI‑powered commerce already in production.</description>
+      <guid isPermaLink="false">325084eb64fa02a724be7a12b76b838f</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How a new era of intelligence with Gemini 3 [ ! ]</title>
+      <link>https://blog.google/products/gemini/gemini-3/</link>
+      <description>Google’s launch of Gemini 3 marks a major jump in large‑language‑model capability and full‑stack AI, shipping at scale across search, AI Studio and Vertex AI. Analysts emphasized this cements Google’s leadership in AI automation and foundational models, making it essential for AI strategy.</description>
+      <guid isPermaLink="false">7355b2c5324b935051f1bdad59179a47</guid>
+      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
