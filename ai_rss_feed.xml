@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Nov 2025 08:18:15 +0000</lastBuildDate>
-    <item>
-      <title>How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations [ ~ ]</title>
-      <link>https://arxiv.org/pdf/2510.22780</link>
-      <description>This research paper compares AI agent workflows to human ones and highlights significant speed advantages (~70 %) in tasks like coding and data analysis when automation is possible. However, our analysts noted it largely confirms known trends and doesn’t offer direct takeaways for AI leaders focused on near-term implementation.</description>
-      <guid isPermaLink="false">7c382852942af0a182ec393832b852a1</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Memories.ai Introduces Large Visual Memory Model 2.0 to Bring AI Visual Memory On‑Device, in Collaboration with Qualcomm [ * ]</title>
-      <link>https://memories.ai/blog/collaboration-with-qualcomm</link>
-      <description>Memories.ai’s Visual Memory Model 2.0 enables semantic search across video content directly on-device, leveraging Qualcomm’s chips to bring generative AI to the edge. Our analysts highlighted this as an important signal of the shift toward post-text AI interfaces and edge-based intelligence, even if the current rollout is still developing.</description>
-      <guid isPermaLink="false">58c6a0a3b1f0da0f29c0b3ceb7793963</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Nested Learning: A new ML paradigm for continual learning [ * ]</title>
-      <link>https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/?s=09</link>
-      <description>This article by Google Research introduces “nested learning”, a new machine‑learning architecture aimed at continual learning and mitigating catastrophic forgetting in large models. Our analysts noted it sits in the medium‑term strategic architecture category (vs. immediate product rollout), making it important for forward‑looking AI strategy.</description>
-      <guid isPermaLink="false">cbdba0f472b52404e83c020badf6a3f9</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Democratizing AI: How Thomson Reuters Open Arena supports no‑code AI for every professional with Amazon Bedrock [ ! ]</title>
-      <link>https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/</link>
-      <description>Thomson Reuters’ rollout of the “Open Arena” no‑code platform powered by Amazon Bedrock showcases how generative AI is moving from R&amp;D into broad enterprise deployment—and doing so across thousands of non‑technical professionals. Our analysts flagged this as a rare case where AI adoption, governance and productivity gains (~70 % employee usage) are all visible and concrete, making it an essential read for any AI leader.</description>
-      <guid isPermaLink="false">b4bab6ec3045e6a95ba49a3ff01c7b42</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation [ ~ ]</title>
-      <link>https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/</link>
-      <description>Meta’s new generative model integrates LLMs to better understand ad content and user features, improving ad targeting efficiency fourfold. Despite the technical sophistication, our analysts considered it relevant mainly to hyperscale ad platforms, with limited relevance to most enterprise AI leaders.</description>
-      <guid isPermaLink="false">57b8cbb939a674cbd99c66bdac07f6a5</guid>
-      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Terminal‑Bench 2.0 launches alongside Harbor, a new framework for testing agents in containers [ ~ ]</title>
-      <link>https://venturebeat.com/ai/terminal-bench-2-0-launches-alongside-harbor-a-new-framework-for-testing?utm_source=tldrai</link>
-      <description>This launch introduces a standardized testing framework for AI agents and shows GPT-5 leading in performance across benchmarks. Our analysts saw promise in future evaluation tools but agreed this update had limited immediate utility due to its early stage and lack of widespread adoption.</description>
-      <guid isPermaLink="false">f94056c240a123ffab464fa42aaef2eb</guid>
-      <pubDate>Tue, 11 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 21 Nov 2025 16:15:37 +0000</lastBuildDate>
     <item>
       <title>The Era of Agentic Organization: Learning to Organize with Language Models [ ~ ]</title>
       <link>https://arxiv.org/abs/2510.26658</link>
@@ -357,6 +315,48 @@
       <description>This article introduces a new Google Research approach where generative AI builds dynamic user interfaces on demand, transforming how users engage with AI systems through adaptive, prompt-driven layouts. Our analysts emphasized its strategic impact on the AI product experience, calling it a paradigm shift in user interaction and AI-driven personalization that’s already rolling out in Gemini and Google Search.</description>
       <guid isPermaLink="false">e2bc3134f890ecb55f8c64d96840f2e0</guid>
       <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Previewing Locus [ * ]</title>
+      <link>https://www.intology.ai/blog/previewing-locus</link>
+      <description>Intology introduces Locus, a long‑horizon "Artificial Scientist" system that reportedly exceeds human experts on AI R&amp;D benchmarks by orchestrating thousands of experiments over days. Our analysts regarded it as important: a compelling preview of frontier AI research automation, but still early in applicability for most organizations.</description>
+      <guid isPermaLink="false">af77423f003c70f5a9eb3c36e4042826</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>A New Way to Collaborate in ChatGPT [ * ]</title>
+      <link>https://fidjisimo.substack.com/p/a-new-way-to-collaborate-in-chatgpt</link>
+      <description>This article discusses the collaborative/group‑chat feature in ChatGPT, enabling shared prompts and workflows across users. Our analysts noted potential for training, sharing and enterprise usage, but flagged concerns (hallucinations, unfinished UX) that keep it from being essential yet.</description>
+      <guid isPermaLink="false">0cbcb2eb50283af10489b6398ed0ad3c</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Building More with GPT‑5.1‑Codex‑Max [ * ]</title>
+      <link>https://openai.com/index/gpt-5-1-codex-max/</link>
+      <description>OpenAI introduces GPT‑5.1‑Codex‑Max, a coding‑centric model trained for long‑running, multi‑context workflows (via “compaction”), improved token efficiency (30% fewer thinking tokens) and agentic coding tasks for hours. Our analysts viewed this as important: significant for software engineering and developer productivity in AI automation, though not yet “essential” for broader AI strategy.</description>
+      <guid isPermaLink="false">e928029ce359d7f63713c2d6dffcb004</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Care Access Achieved 86% Data Processing Cost Reductions And 66% Faster Data Processing with Amazon Bedrock Prompt Caching [ ! ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/how-care-access-achieved-86-data-processing-cost-reductions-and-66-faster-data-processing-with-amazon-bedrock-prompt-caching/</link>
+      <description>This case study shows concrete enterprise‑scale gains in production from prompt caching in Amazon Bedrock — 86% cost savings and 66% faster processing, directly addressing key AI deployment challenges. Our analysts emphasized latency and cost are central to scaling AI automation, and this example provides actionable insight.</description>
+      <guid isPermaLink="false">7fd0417a50b41523aa67831b7e1d291d</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Olmo 3: Charting a Path Through the Model Flow to Lead Open‑Source AI [ ! ]</title>
+      <link>https://allenai.org/blog/olmo3?utm_source=x&amp;utm_medium=social&amp;utm_campaign=olmo3_launch&amp;s=09</link>
+      <description>This article from Allen Institute for AI (AI2) unveils the fully open‑model family Olmo 3 (7B &amp; 32B parameters) with full traceability of data, code, checkpoints and reasoning traces — a major step for open‑source AI and transparency. Our analysts argued this is essential reading for AI leaders because it addresses the “black box” problem, provides a U.S. alternative to closed‑source or foreign models, and signals strategic shifts in AI infrastructure.</description>
+      <guid isPermaLink="false">1499c02a4a39188c0941c049e2d13e94</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Nano Banana Pro [ ! ]</title>
+      <link>https://blog.google/technology/ai/nano-banana-pro</link>
+      <description>This article introduces Nano Banana Pro — the latest image‑generation and editing model from Google DeepMind built on Gemini 3 Pro, enabling 4K resolution, multi‑image fusion, text rendering in multiple languages and enterprise workflows. Our analysts highlighted how it represents a leap forward in creative AI automation (including improved typography, aspect ratios, and brand‑fidelity editing) and flagged real implications for marketing, education and image security (fake images, watermarking).</description>
+      <guid isPermaLink="false">7c84a32b41d985cb16ad94a3fffd8ce3</guid>
+      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

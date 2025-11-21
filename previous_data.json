@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Nano Banana Pro",
+        "links": [
+          "https://blog.google/technology/ai/nano-banana-pro"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces Nano Banana Pro — the latest image‑generation and editing model from Google DeepMind built on Gemini 3 Pro, enabling 4K resolution, multi‑image fusion, text rendering in multiple languages and enterprise workflows. Our analysts highlighted how it represents a leap forward in creative AI automation (including improved typography, aspect ratios, and brand‑fidelity editing) and flagged real implications for marketing, education and image security (fake images, watermarking).",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Olmo 3: Charting a Path Through the Model Flow to Lead Open‑Source AI",
+        "links": [
+          "https://allenai.org/blog/olmo3?utm_source=x&utm_medium=social&utm_campaign=olmo3_launch&s=09"
+        ]
+      },
+      "Rationale": {
+        "text": "This article from Allen Institute for AI (AI2) unveils the fully open‑model family Olmo 3 (7B & 32B parameters) with full traceability of data, code, checkpoints and reasoning traces — a major step for open‑source AI and transparency. Our analysts argued this is essential reading for AI leaders because it addresses the “black box” problem, provides a U.S. alternative to closed‑source or foreign models, and signals strategic shifts in AI infrastructure.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "How Care Access Achieved 86% Data Processing Cost Reductions And 66% Faster Data Processing with Amazon Bedrock Prompt Caching",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/how-care-access-achieved-86-data-processing-cost-reductions-and-66-faster-data-processing-with-amazon-bedrock-prompt-caching/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study shows concrete enterprise‑scale gains in production from prompt caching in Amazon Bedrock — 86% cost savings and 66% faster processing, directly addressing key AI deployment challenges. Our analysts emphasized latency and cost are central to scaling AI automation, and this example provides actionable insight.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Building More with GPT‑5.1‑Codex‑Max",
+        "links": [
+          "https://openai.com/index/gpt-5-1-codex-max/"
+        ]
+      },
+      "Rationale": {
+        "text": "OpenAI introduces GPT‑5.1‑Codex‑Max, a coding‑centric model trained for long‑running, multi‑context workflows (via “compaction”), improved token efficiency (30% fewer thinking tokens) and agentic coding tasks for hours. Our analysts viewed this as important: significant for software engineering and developer productivity in AI automation, though not yet “essential” for broader AI strategy.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "A New Way to Collaborate in ChatGPT",
+        "links": [
+          "https://fidjisimo.substack.com/p/a-new-way-to-collaborate-in-chatgpt"
+        ]
+      },
+      "Rationale": {
+        "text": "This article discusses the collaborative/group‑chat feature in ChatGPT, enabling shared prompts and workflows across users. Our analysts noted potential for training, sharing and enterprise usage, but flagged concerns (hallucinations, unfinished UX) that keep it from being essential yet.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/21/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Previewing Locus",
+        "links": [
+          "https://www.intology.ai/blog/previewing-locus"
+        ]
+      },
+      "Rationale": {
+        "text": "Intology introduces Locus, a long‑horizon \"Artificial Scientist\" system that reportedly exceeds human experts on AI R&D benchmarks by orchestrating thousands of experiments over days. Our analysts regarded it as important: a compelling preview of frontier AI research automation, but still early in applicability for most organizations.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/20/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This Microsoft research paper explores a novel “Async Think” coordination method where a central agent asynchronously delegates tasks to sub-agents to improve reasoning efficiency. Our analysts found it interesting but overly technical and not yet relevant for most AI leaders focused on practical deployment.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "11/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Terminal‑Bench 2.0 launches alongside Harbor, a new framework for testing agents in containers",
-        "links": [
-          "https://venturebeat.com/ai/terminal-bench-2-0-launches-alongside-harbor-a-new-framework-for-testing?utm_source=tldrai"
-        ]
-      },
-      "Rationale": {
-        "text": "This launch introduces a standardized testing framework for AI agents and shows GPT-5 leading in performance across benchmarks. Our analysts saw promise in future evaluation tools but agreed this update had limited immediate utility due to its early stage and lack of widespread adoption.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/11/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Meta’s Generative Ads Model (GEM): The Central Brain Accelerating Ads Recommendation AI Innovation",
-        "links": [
-          "https://engineering.fb.com/2025/11/10/ml-applications/metas-generative-ads-model-gem-the-central-brain-accelerating-ads-recommendation-ai-innovation/"
-        ]
-      },
-      "Rationale": {
-        "text": "Meta’s new generative model integrates LLMs to better understand ad content and user features, improving ad targeting efficiency fourfold. Despite the technical sophistication, our analysts considered it relevant mainly to hyperscale ad platforms, with limited relevance to most enterprise AI leaders.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Democratizing AI: How Thomson Reuters Open Arena supports no‑code AI for every professional with Amazon Bedrock",
-        "links": [
-          "https://aws.amazon.com/blogs/machine-learning/democratizing-ai-how-thomson-reuters-open-arena-supports-no-code-ai-for-every-professional-with-amazon-bedrock/"
-        ]
-      },
-      "Rationale": {
-        "text": "Thomson Reuters’ rollout of the “Open Arena” no‑code platform powered by Amazon Bedrock showcases how generative AI is moving from R&D into broad enterprise deployment—and doing so across thousands of non‑technical professionals. Our analysts flagged this as a rare case where AI adoption, governance and productivity gains (~70 % employee usage) are all visible and concrete, making it an essential read for any AI leader.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Nested Learning: A new ML paradigm for continual learning",
-        "links": [
-          "https://research.google/blog/introducing-nested-learning-a-new-ml-paradigm-for-continual-learning/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "This article by Google Research introduces “nested learning”, a new machine‑learning architecture aimed at continual learning and mitigating catastrophic forgetting in large models. Our analysts noted it sits in the medium‑term strategic architecture category (vs. immediate product rollout), making it important for forward‑looking AI strategy.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Memories.ai Introduces Large Visual Memory Model 2.0 to Bring AI Visual Memory On‑Device, in Collaboration with Qualcomm",
-        "links": [
-          "https://memories.ai/blog/collaboration-with-qualcomm"
-        ]
-      },
-      "Rationale": {
-        "text": "Memories.ai’s Visual Memory Model 2.0 enables semantic search across video content directly on-device, leveraging Qualcomm’s chips to bring generative AI to the edge. Our analysts highlighted this as an important signal of the shift toward post-text AI interfaces and edge-based intelligence, even if the current rollout is still developing.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations",
-        "links": [
-          "https://arxiv.org/pdf/2510.22780"
-        ]
-      },
-      "Rationale": {
-        "text": "This research paper compares AI agent workflows to human ones and highlights significant speed advantages (~70 %) in tasks like coding and data analysis when automation is possible. However, our analysts noted it largely confirms known trends and doesn’t offer direct takeaways for AI leaders focused on near-term implementation.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-21T08:18:58.685204+00:00"
+  "timestamp": "2025-11-21T16:16:22.433296+00:00"
 }
