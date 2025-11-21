@@ -7,49 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>GitHub Action RSS Scraper v2.1 (retention)</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 21 Nov 2025 00:56:18 +0000</lastBuildDate>
-    <item>
-      <title>From Branches to Bots: Will AI Agents Transform Retail Banking? [ ~ ]</title>
-      <link>https://www.bcg.com/publications/2025/branches-to-bots-will-ai-transform-retail-banking</link>
-      <description>This article outlines a theoretical vision of the “AI-first bank,” forecasting potential financial gains from deploying AI agents across customer and operational workflows. Our analysts found the concept intriguing but noted it lacked actionable detail or implementation strategy, making it more relevant to banking futurists than to practitioners.</description>
-      <guid isPermaLink="false">b2efbd1a5432118255057450fb44c59e</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Parallel Search: the highest accuracy web search API engineered for AI [ * ]</title>
-      <link>https://parallel.ai/blog/introducing-parallel-search</link>
-      <description>Parallel introduces a machine-readable web search API optimized for LLMs and AI agents, designed to enhance retrieval accuracy and lower inference costs. Our analysts saw this as a potentially transformative step in enabling more efficient AI agent behavior, especially in orchestrated environments where agents need to fetch, rank, and act on real-time information. Its relevance grows as businesses grapple with token costs and the shift from human-readable to machine-readable web architecture.</description>
-      <guid isPermaLink="false">bb8bf9c9edb92b7ab700b18dc8973416</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stop Running So Many AI Pilots [ * ]</title>
-      <link>https://hbr.org/2025/11/stop-running-so-many-ai-pilots</link>
-      <description>This piece argues that AI leaders should move away from excessive pilot programs and instead focus on fewer, deeper, and more strategically aligned initiatives, citing Reckitt’s concentrated value-loop approach. The team emphasized that only 4% of companies take this “deep and narrow” route, yet those that do see twice the ROI, making it a compelling model for organizations looking to operationalize AI rather than just experiment. It also serves as a practical guide for prioritizing long-term, integrated AI deployments over scattered proofs of concept.</description>
-      <guid isPermaLink="false">c33b60f7bbd24366d174ab9517c4fe90</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Introducing Kimi K2 Thinking [ ! ]</title>
-      <link>https://moonshotai.github.io/Kimi-K2/thinking.html</link>
-      <description>This article introduces Moonshot AI’s Kimi K2, a trillion-parameter open-source model designed to support agentic behavior and capable of executing 200–300 sequential tool calls. Analysts noted this model’s strong benchmark performance and described it as a potential inflection point, where Chinese open-source models may leapfrog U.S. proprietary systems in agent-based AI architecture. Its native design for multi-agent orchestration highlights a broader strategic shift toward complex, tool-using models in global AI development.</description>
-      <guid isPermaLink="false">cc1256e906b86ce0f4f3174fc4dd2879</guid>
-      <pubDate>Fri, 07 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Notion’s Rebuild for Agentic AI: How GPT‑5 Helped Unlock Autonomous Workflow [ ~ ]</title>
-      <link>https://openai.com/index/notion/</link>
-      <description>This case study (by Notion + OpenAI) shows usage of generative AI for workflow automation, but our analysts rated it optional because it is light on depth, more product marketing than architecture or metrics—useful for inspiration but not strategic imperative.</description>
-      <guid isPermaLink="false">ccec3abc147ee8862389095494cc89c8</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AI Progress and Recommendation [ ~ ]</title>
-      <link>https://openai.com/index/ai-progress-and-recommendations/?s=09</link>
-      <description>OpenAI’s blog on AI progress and recommended policy actions reiterates known themes—shared standards, oversight, empowerment of individuals—but adds little new actionable insight. Our analysts considered this more a positioning piece than a must‑read.</description>
-      <guid isPermaLink="false">d077d43116282cb8bc55f9d5a0a7c2cc</guid>
-      <pubDate>Mon, 10 Nov 2025 00:00:00 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 21 Nov 2025 08:18:15 +0000</lastBuildDate>
     <item>
       <title>How Do AI Agents Do Human Work? Comparing AI and Human Workflows Across Diverse Occupations [ ~ ]</title>
       <link>https://arxiv.org/pdf/2510.22780</link>
@@ -357,6 +315,48 @@
       <description>Google’s launch of Gemini 3 marks a major jump in large‑language‑model capability and full‑stack AI, shipping at scale across search, AI Studio and Vertex AI. Analysts emphasized this cements Google’s leadership in AI automation and foundational models, making it essential for AI strategy.</description>
       <guid isPermaLink="false">7355b2c5324b935051f1bdad59179a47</guid>
       <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Bitter Economics [ ~ ]</title>
+      <link>https://www.a16z.news/p/bitter-economics</link>
+      <description>This editorial expands on Richard Sutton’s “bitter lesson” by arguing that AI success comes more from brute-force compute and scale than elegant algorithmic breakthroughs—backed by investment data and compute growth rates. Our analysts felt the article restates familiar territory without offering new insights, making it optional for most readers despite a few interesting data points.</description>
+      <guid isPermaLink="false">6a87149500872598ceba3b4179e62970</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>How ServiceNow Uses LangSmith To Get Visibility into Its Customer Success Agents [ ~ ]</title>
+      <link>https://blog.langchain.com/customers-servicenow/</link>
+      <description>This case study explains how ServiceNow used LangSmith to observe and orchestrate LLM agent workflows in customer support operations. Our analysts noted that while the topic is relevant, the article lacked detail on implementation or business impact and read more like a marketing update than a robust AI use case.</description>
+      <guid isPermaLink="false">ffd7a424f518f18127372219a109cd55</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Build a Biomedical Research Agent with Biomni Tools and Amazon Bedrock AgentCore Gateway [ * ]</title>
+      <link>https://aws.amazon.com/blogs/machine-learning/build-a-biomedical-research-agent-with-biomni-tools-and-amazon-bedrock-agentcore-gateway/</link>
+      <description>This article showcases how AWS and Biomni structured a scientific research assistant using Bedrock AgentCore Gateway, creating a modular system for automating biomedical workflows. Our analysts appreciated the practical application of agent architecture, calling it a strong reference for any scientific or research-focused team building AI tools in regulated environments.</description>
+      <guid isPermaLink="false">a33c9aeda12e74847729226d24fcead3</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>DR Tulu: An Open, End-to-end Training Recipe for Long-form Deep Research [ * ]</title>
+      <link>https://allenai.org/blog/dr-tulu</link>
+      <description>DR Tulu from Allen Institute offers an open-source system for long-form, evidence-grounded research generation—complete with dynamic rubrics and transparency across code, models, and training data. Our analysts highlighted its near–state-of-the-art results using a modest 8B parameter model and called it a critical building block for more trustworthy generative AI in qualified, non-deterministic domains.</description>
+      <guid isPermaLink="false">501556b4ef415db4f7c646b0501d3e8b</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing Meta Segment Anything Model 3 and Segment Anything Playground [ * ]</title>
+      <link>https://ai.meta.com/blog/segment-anything-model-3/?utm_source=twitter&amp;utm_medium=organic_social&amp;utm_content=video&amp;utm_campaign=sam</link>
+      <description>Meta’s latest version of the Segment Anything Model (SAM 3) enables zero-shot segmentation based on textual or conceptual prompts and introduces a no-code playground for editing both images and video. Our analysts noted the everyday-miracle quality of this AI innovation, which significantly advances object detection and tracking with implications across media, advertising, and robotics.</description>
+      <guid isPermaLink="false">b0d8e3f59901300c06f657d7d452d7b5</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Generative UI: A Rich, Custom, Visual Interactive User Experience for Any Prompt [ ! ]</title>
+      <link>https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/?utm_source=twitter&amp;utm_medium=social&amp;utm_campaign=social_post&amp;utm_content=gr-acct</link>
+      <description>This article introduces a new Google Research approach where generative AI builds dynamic user interfaces on demand, transforming how users engage with AI systems through adaptive, prompt-driven layouts. Our analysts emphasized its strategic impact on the AI product experience, calling it a paradigm shift in user interaction and AI-driven personalization that’s already rolling out in Gemini and Google Search.</description>
+      <guid isPermaLink="false">e2bc3134f890ecb55f8c64d96840f2e0</guid>
+      <pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

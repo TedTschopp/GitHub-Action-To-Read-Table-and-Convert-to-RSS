@@ -2,6 +2,126 @@
   "gai_data": [
     {
       "Date": {
+        "text": "11/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Essential",
+        "links": []
+      },
+      "Title": {
+        "text": "Generative UI: A Rich, Custom, Visual Interactive User Experience for Any Prompt",
+        "links": [
+          "https://research.google/blog/generative-ui-a-rich-custom-visual-interactive-user-experience-for-any-prompt/?utm_source=twitter&utm_medium=social&utm_campaign=social_post&utm_content=gr-acct"
+        ]
+      },
+      "Rationale": {
+        "text": "This article introduces a new Google Research approach where generative AI builds dynamic user interfaces on demand, transforming how users engage with AI systems through adaptive, prompt-driven layouts. Our analysts emphasized its strategic impact on the AI product experience, calling it a paradigm shift in user interaction and AI-driven personalization that’s already rolling out in Gemini and Google Search.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Introducing Meta Segment Anything Model 3 and Segment Anything Playground",
+        "links": [
+          "https://ai.meta.com/blog/segment-anything-model-3/?utm_source=twitter&utm_medium=organic_social&utm_content=video&utm_campaign=sam"
+        ]
+      },
+      "Rationale": {
+        "text": "Meta’s latest version of the Segment Anything Model (SAM 3) enables zero-shot segmentation based on textual or conceptual prompts and introduces a no-code playground for editing both images and video. Our analysts noted the everyday-miracle quality of this AI innovation, which significantly advances object detection and tracking with implications across media, advertising, and robotics.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "DR Tulu: An Open, End-to-end Training Recipe for Long-form Deep Research",
+        "links": [
+          "https://allenai.org/blog/dr-tulu"
+        ]
+      },
+      "Rationale": {
+        "text": "DR Tulu from Allen Institute offers an open-source system for long-form, evidence-grounded research generation—complete with dynamic rubrics and transparency across code, models, and training data. Our analysts highlighted its near–state-of-the-art results using a modest 8B parameter model and called it a critical building block for more trustworthy generative AI in qualified, non-deterministic domains.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Important",
+        "links": []
+      },
+      "Title": {
+        "text": "Build a Biomedical Research Agent with Biomni Tools and Amazon Bedrock AgentCore Gateway",
+        "links": [
+          "https://aws.amazon.com/blogs/machine-learning/build-a-biomedical-research-agent-with-biomni-tools-and-amazon-bedrock-agentcore-gateway/"
+        ]
+      },
+      "Rationale": {
+        "text": "This article showcases how AWS and Biomni structured a scientific research assistant using Bedrock AgentCore Gateway, creating a modular system for automating biomedical workflows. Our analysts appreciated the practical application of agent architecture, calling it a strong reference for any scientific or research-focused team building AI tools in regulated environments.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "How ServiceNow Uses LangSmith To Get Visibility into Its Customer Success Agents",
+        "links": [
+          "https://blog.langchain.com/customers-servicenow/"
+        ]
+      },
+      "Rationale": {
+        "text": "This case study explains how ServiceNow used LangSmith to observe and orchestrate LLM agent workflows in customer support operations. Our analysts noted that while the topic is relevant, the article lacked detail on implementation or business impact and read more like a marketing update than a robust AI use case.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
+        "text": "11/20/2025",
+        "links": []
+      },
+      "Rating": {
+        "text": "Optional",
+        "links": []
+      },
+      "Title": {
+        "text": "Bitter Economics",
+        "links": [
+          "https://www.a16z.news/p/bitter-economics"
+        ]
+      },
+      "Rationale": {
+        "text": "This editorial expands on Richard Sutton’s “bitter lesson” by arguing that AI success comes more from brute-force compute and scale than elegant algorithmic breakthroughs—backed by investment data and compute growth rates. Our analysts felt the article restates familiar territory without offering new insights, making it optional for most readers despite a few interesting data points.",
+        "links": []
+      }
+    },
+    {
+      "Date": {
         "text": "11/19/2025",
         "links": []
       },
@@ -879,127 +999,7 @@
         "text": "This research paper compares AI agent workflows to human ones and highlights significant speed advantages (~70 %) in tasks like coding and data analysis when automation is possible. However, our analysts noted it largely confirms known trends and doesn’t offer direct takeaways for AI leaders focused on near-term implementation.",
         "links": []
       }
-    },
-    {
-      "Date": {
-        "text": "11/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "AI Progress and Recommendation",
-        "links": [
-          "https://openai.com/index/ai-progress-and-recommendations/?s=09"
-        ]
-      },
-      "Rationale": {
-        "text": "OpenAI’s blog on AI progress and recommended policy actions reiterates known themes—shared standards, oversight, empowerment of individuals—but adds little new actionable insight. Our analysts considered this more a positioning piece than a must‑read.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/10/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "Notion’s Rebuild for Agentic AI: How GPT‑5 Helped Unlock Autonomous Workflow",
-        "links": [
-          "https://openai.com/index/notion/"
-        ]
-      },
-      "Rationale": {
-        "text": "This case study (by Notion + OpenAI) shows usage of generative AI for workflow automation, but our analysts rated it optional because it is light on depth, more product marketing than architecture or metrics—useful for inspiration but not strategic imperative.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Essential",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Kimi K2 Thinking",
-        "links": [
-          "https://moonshotai.github.io/Kimi-K2/thinking.html"
-        ]
-      },
-      "Rationale": {
-        "text": "This article introduces Moonshot AI’s Kimi K2, a trillion-parameter open-source model designed to support agentic behavior and capable of executing 200–300 sequential tool calls. Analysts noted this model’s strong benchmark performance and described it as a potential inflection point, where Chinese open-source models may leapfrog U.S. proprietary systems in agent-based AI architecture. Its native design for multi-agent orchestration highlights a broader strategic shift toward complex, tool-using models in global AI development.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Stop Running So Many AI Pilots",
-        "links": [
-          "https://hbr.org/2025/11/stop-running-so-many-ai-pilots"
-        ]
-      },
-      "Rationale": {
-        "text": "This piece argues that AI leaders should move away from excessive pilot programs and instead focus on fewer, deeper, and more strategically aligned initiatives, citing Reckitt’s concentrated value-loop approach. The team emphasized that only 4% of companies take this “deep and narrow” route, yet those that do see twice the ROI, making it a compelling model for organizations looking to operationalize AI rather than just experiment. It also serves as a practical guide for prioritizing long-term, integrated AI deployments over scattered proofs of concept.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Important",
-        "links": []
-      },
-      "Title": {
-        "text": "Introducing Parallel Search: the highest accuracy web search API engineered for AI",
-        "links": [
-          "https://parallel.ai/blog/introducing-parallel-search"
-        ]
-      },
-      "Rationale": {
-        "text": "Parallel introduces a machine-readable web search API optimized for LLMs and AI agents, designed to enhance retrieval accuracy and lower inference costs. Our analysts saw this as a potentially transformative step in enabling more efficient AI agent behavior, especially in orchestrated environments where agents need to fetch, rank, and act on real-time information. Its relevance grows as businesses grapple with token costs and the shift from human-readable to machine-readable web architecture.",
-        "links": []
-      }
-    },
-    {
-      "Date": {
-        "text": "11/07/2025",
-        "links": []
-      },
-      "Rating": {
-        "text": "Optional",
-        "links": []
-      },
-      "Title": {
-        "text": "From Branches to Bots: Will AI Agents Transform Retail Banking?",
-        "links": [
-          "https://www.bcg.com/publications/2025/branches-to-bots-will-ai-transform-retail-banking"
-        ]
-      },
-      "Rationale": {
-        "text": "This article outlines a theoretical vision of the “AI-first bank,” forecasting potential financial gains from deploying AI agents across customer and operational workflows. Our analysts found the concept intriguing but noted it lacked actionable detail or implementation strategy, making it more relevant to banking futurists than to practitioners.",
-        "links": []
-      }
     }
   ],
-  "timestamp": "2025-11-21T00:57:04.451233+00:00"
+  "timestamp": "2025-11-21T08:18:58.685204+00:00"
 }
